@@ -11,7 +11,7 @@
 
 ## 目次
 
-- [テキスト生成タスクに主に使うモデル](#generative)
+- [テキスト生成に主に使うモデル](#generative)
   - [汎用](#generative-general)
   - [ドメイン特化型](#generative-domain-specific)
 - [文書分類や固有表現抽出、選択肢解答問題など、入力文自体を処理するタスクに主に使うモデル](#autoencoding)
@@ -21,7 +21,7 @@
 - [（参考）各モデルの原論文](#reference)
 
 <a id="generative"></a>
-## テキスト生成タスクに主に使うモデル
+## テキスト生成に主に使うモデル
 
 <a id="generative-general"></a>
 ### 汎用
