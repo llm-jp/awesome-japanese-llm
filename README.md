@@ -143,7 +143,7 @@
 
 [^1]: ○: HuggingFace の Model Hub にモデルがアップロードされており、`AutoModel.from_pretrained()` 等ですぐ読み込める。 △: Model Hub にはモデルがアップロードされていないが、HuggingFace (transformers, 旧 pytorch-transformers) の形式に対応している
 
-[^2]: 以下の記事が詳しい（この記事での MiniGPT-4 の実装例は LLM 部分 を rinna/bilingual-gpt-neox-4b ではなく japanese-gpt-neox-3.6b としている点に注意）: [Japanese MiniGPT-4: rinna 3.6bとBLIP-2を組み合わせてマルチモーダルチャットのモデルを作る](https://zenn.dev/rinna/articles/5fad41e3f2a401)
+[^2]: 以下の記事が詳しい（この記事での MiniGPT-4 の実装例は LLM 部分 を rinna/bilingual-gpt-neox-4b ではなく rinna/japanese-gpt-neox-3.6b としている点に注意）: [Japanese MiniGPT-4: rinna 3.6bとBLIP-2を組み合わせてマルチモーダルチャットのモデルを作る](https://zenn.dev/rinna/articles/5fad41e3f2a401)
 
 [^3]: 通常の左から右に単語を予測する代わりに、右から左に単語を予測するように訓練された言語モデルの評価を行った研究である。通常方向の言語モデルと逆方向の言語モデルの両方が公開されている。
 
