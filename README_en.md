@@ -189,9 +189,9 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
   モデルの評価結果は[こちら](https://docs.google.com/spreadsheets/d/1mtoy4QAqDPk2f_B0vDogFoOrbA5G42DBEEHdqM4VmDI/edit#gid=1023787356)や[こちら](https://zenn.dev/elyza/articles/5e7d9373c32a98)を参照
 
 <a id="reference"></a>
-## （参考）各モデルの原論文
+## Architecture References
 
-| モデル名 | 初出時期 | 会議/ジャーナル | 論文 |
+| Architecture | Date | Meeting/Journal | Paper |
 |:---|:---|:---|:--|
 | Transformer | 2017.06.12 | NIPS(NeurIPS) 2017 | [Attention Is All You Need](https://arxiv.org/abs/1706.03762) |
 | GPT | 2018.06.11 | - | [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) | 
@@ -214,6 +214,7 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
 | Stable Diffusion | 2021.12.20 | CVPR 2022 | [High-Resolution Image Synthesis With Latent Diffusion Models](https://arxiv.org/abs/2112.10752) |
 | BLIP | 2022.01.28 | ICML 2022 | [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086) |
 | InstructGPT | 2022.03.04 | NeurIPS 2022 | [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) |
+| GPT-NeoX | 2022.04.14 | | (GPT-NeoX-20B: An Open-Source Autoregressive Language Model)[https://arxiv.org/pdf/2204.06745.pdf] |
 | GIT | 2022.05.27 | TMLR 2022 | [GIT: A Generative Image-to-text Transformer for Vision and Language](https://arxiv.org/abs/2205.14100) |
 | BLIP-2 | 2023.01.30 | ICML 2023 | [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) |
 | Llama | 2023.02.27 | - | [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971) | 
