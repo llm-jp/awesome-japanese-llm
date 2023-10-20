@@ -15,7 +15,7 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
   - [General purpose](#generative-general)
   - [Domain specialized](#generative-domain-specific)
   - [Models built off English LLMs](#english-based-models)
-- [Encoder models](#autoencoding)
+- [Encoder Models](#autoencoding)
   - [General purpose](#autoencoding-general)
   - [Domain specialized](#autoencoding-domain-specific)
 - [Sentence and Document Embeddings Models](#embeddings)
@@ -23,7 +23,7 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
   - [画像を含むテキスト生成](#multimodal-text-generation)
   - [その他](#multimodal-others)
 - [Benchmarks for Japanese LLMs](#benchmark-suites)
-- [（参考）各モデルの原論文](#reference)
+- [Model Architecture References](#reference)
 
 
 <a id="generative"></a>
@@ -104,8 +104,8 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
 | [早大RoBERTa](https://huggingface.co/nlp-waseda/roberta-base-japanese-with-auto-jumanpp) | RoBERTa (base, large) | Japanese Wikipedia, Japanese CC&#x2011;100 | Waseda Kawahara Lab | CC BY&#x2011;SA 4.0 | ◯<br>([base](https://huggingface.co/nlp-waseda/roberta-base-japanese-with-auto-jumanpp), [large](https://huggingface.co/nlp-waseda/roberta-large-japanese-with-auto-jumanpp), [large (seq512)](https://huggingface.co/nlp-waseda/roberta-large-japanese-seq512-with-auto-jumanpp)) [^7] |
 | [InformatixRoBERTa](https://www.informatix.co.jp/pr-roberta/) | RoBERTa (base) | Japanese Wikipedia, Web Articles <br> (25GB) | Informatix | Apache 2.0 | △ |
 | [KyotoUniversityRoBERTa](https://huggingface.co/ku-nlp/roberta-base-japanese-char-wwm) | RoBERTa (base, large) | Japanese Wikipedia, Japanese CC&#x2011;100 | Kyoto University Language Media Processing Lab | CC BY&#x2011;SA 4.0 | ◯<br>([base (char-level)](https://huggingface.co/ku-nlp/roberta-base-japanese-char-wwm), [large (char-level)](https://huggingface.co/ku-nlp/roberta-large-japanese-char-wwm)) |
-| [横浜国大RoBERTa](https://huggingface.co/ganchengguang/RoBERTa-base-janpanese) | RoBERTa (base) | Japanese Wikipedia (3.45GB) | Yokohama National University Mori Lab | Apache 2.0 | [◯](https://huggingface.co/ganchengguang/RoBERTa-base-janpanese) |
-| [Megagon Labs RoBERTa](https://huggingface.co/megagonlabs/roberta-long-japanese) | RoBERTa (base) [^8] | Japanese mC4 (200M sentences) | Megagon Labs <br> (Recruit) | MIT | [◯](https://huggingface.co/megagonlabs/roberta-long-japanese)  |
+| [YokohamaNationalRoBERTa](https://huggingface.co/ganchengguang/RoBERTa-base-janpanese) | RoBERTa (base) | Japanese Wikipedia (3.45GB) | Yokohama National University Mori Lab | Apache 2.0 | [◯](https://huggingface.co/ganchengguang/RoBERTa-base-janpanese) |
+| [Megagon Labs RoBERTa](https://huggingface.co/megagonlabs/roberta-long-japanese) | RoBERTa (base)[^8] | Japanese mC4 (200M sentences) | Megagon Labs <br> (Recruit) | MIT | [◯](https://huggingface.co/megagonlabs/roberta-long-japanese)  |
 | [ACCMS RoBERTa](https://huggingface.co/ku-accms/roberta-base-japanese-ssuw) | RoBERTa (base) | Japanese Wikipedia (3.3GB) + Japanese CC&#x2011;100 (70GB) | Kyoto University ACCMS | CC BY&#x2011;SA 4.0 | [◯](https://huggingface.co/ku-accms/roberta-base-japanese-ssuw) |
 | [CinnamonELECTRA](https://cinnamon.is/ideas/2020/06/22/20200619_research_001/) | ELECTRA (small) | Japanese Wikipedia | Cinnamon | Apache 2.0 | [◯](https://huggingface.co/Cinnamon/electra-small-japanese-discriminator)  |
 | [Megagon Labs ELECTRA](https://www.recruit.co.jp/newsroom/pressrelease/2021/0826_9293.html) | ELECTRA (base) | Japanese mC4 (200M sentences) | Megagon Labs <br> (Recruit) | MIT | [◯](https://huggingface.co/megagonlabs/electra-base-japanese-discriminator)  |
@@ -153,7 +153,7 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
 <a id="multimodal-text-generation"></a>
 ### 画像を含むテキスト生成
 
-|    |  モデル  |  学習画像/テキスト  |  開発元  | ライセンス | HuggingFace ですぐ使える？  |
+|    |  Architecture  |  Training Data  |  Developer  | License | HuggingFace? |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | [Heron](https://prtimes.jp/main/html/rd/p/000000034.000098132.html) | BLIP または GIT | LLaVA-Instruct-150K-JA, Japanese STAIR Captions, Japanese Visual Genome VQA dataset | Turing | CC BY-NC 4.0 | ◯<br>([blip-ja-stablelm-base-7b-v0](https://huggingface.co/turing-motors/heron-chat-blip-ja-stablelm-base-7b-v0), [git-ja-stablelm-base-7b-v0](https://huggingface.co/turing-motors/heron-chat-git-ja-stablelm-base-7b-v0), [git-ELYZA-fast-7b-v0](https://huggingface.co/turing-motors/heron-chat-git-ELYZA-fast-7b-v0)) |
 | [Japanese InstructBLIP Alpha](https://ja.stability.ai/blog/japanese-instructblip-alpha) | InstructBLIP | Japanese CC12M, STAIR Captions, Japanese Visual Genome VQA dataset | Stability AI | [独自のライセンス](https://huggingface.co/stabilityai/japanese-instructblip-alpha/blob/main/LICENSE) |  [◯](https://huggingface.co/stabilityai/japanese-instructblip-alpha) |
