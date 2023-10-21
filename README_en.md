@@ -225,7 +225,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 ---
 
-[^1]: ○: The model is on the HuggingFace Model Hub and can be loaded in with the `AutoModel.from_pretrained()` command. △: The model is not on the Model Hub but can be loaded in manually with the HuggingFace transformers library. ✕: The model is directly loadable with HuggingFace.
+[^1]: ○: The model is on the HuggingFace Model Hub and can be loaded in with the `AutoModel.from_pretrained()` command. △: The model is not on the Model Hub but can be loaded in manually with the HuggingFace transformers library. ✕: The model is not directly loadable with HuggingFace.
 
 [^2]: Some performance enhancements have been made to the original Llama model. See [here](https://tech.preferred.jp/ja/blog/llm-plamo/) for details.
 
