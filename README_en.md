@@ -180,13 +180,12 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
 - [Nejumi LLM Leaderboard](https://wandb.ai/wandb/LLM_evaluation_Japan/reports/LLM-JGLUE---Vmlldzo0NTUzMDE2?accessToken=u1ttt89al8oo5p5j12eq3nldxh0378os9qjjh14ha1yg88nvs5irmuao044b6eqa) (Weights & Biases)
   - Ranking based on zero-shot JGLUE performance
 
-#### Benchmarks testing open-ended generative abilities using LLMs as Judges
+#### Benchmarks on open-ended generative tasks
 
-- [Rakuda Benchmark](https://yuzuai.jp/benchmark)
-  - 日本の地理, 歴史, 政治, 社会に関する[40問の自由質問](https://huggingface.co/datasets/yuzuai/rakuda-questions)に対してモデルに出力を行わせる。GPT-4 が同じ質問に対する2つのモデルの出力を比べ, どちらの答えが優れているかを判断することにより, モデルのランク付けを行う
+- [Rakuda Benchmark](https://yuzuai.jp/benchmark) (YuzuAI)
+  - Ranking based on model answers to [40 open-ended questions](https://huggingface.co/datasets/yuzuai/rakuda-questions) on Japanese geography, history, politics, and society. Uses GPT-4 to judge model outputs pairwise, and then ranks models based on a Maximum Likelihood Elo/Bradley-Terry fit to GPT-4's preferences. See [here](https://github.com/yuzu-ai/japanese-llm-ranking) for the data and code used to generate the ranking and [here](https://yuzuai.jp/blog/rakuda) for further explanation.
 - [ELYZA-tasks-100](https://huggingface.co/datasets/elyza/ELYZA-tasks-100) (ELYZA)
-  - 複雑な指示・タスクを含む100件のJapaneseデータで, 全てのデータに対して評価観点がアノテーションされている。<br>要約を修正し修正箇所を説明するタスク, 具体的なエピソードから抽象的な教訓を述べるタスク, ユーザーの意図を汲み役に立つAIアシスタントとして振る舞うタスク, 場合分けを必要とする複雑な算数のタスク, 未知の言語からパターンを抽出しJapanese訳する高度な推論を必要とするタスク, 複数の指示を踏まえた上でyoutubeの対話を生成するタスク, 架空の生き物や熟語に関する生成・大喜利などの想像力が求められるタスクなどが含まれている。<br>
-  モデルの評価結果は[こちら](https://docs.google.com/spreadsheets/d/1mtoy4QAqDPk2f_B0vDogFoOrbA5G42DBEEHdqM4VmDI/edit#gid=1023787356)や[こちら](https://zenn.dev/elyza/articles/5e7d9373c32a98)を参照
+  - Ranking based on model responses to [100 complex and diverse tasks](https://huggingface.co/datasets/elyza/ELYZA-tasks-100), including summarization, correction, abstraction, induction, and other tasks. Uses humans to score the model responses and then ranks models based on their mean score. See [here](https://docs.google.com/spreadsheets/d/1mtoy4QAqDPk2f_B0vDogFoOrbA5G42DBEEHdqM4VmDI/edit#gid=1023787356) for the data used the generate the ranking and [here](https://zenn.dev/elyza/articles/5e7d9373c32a98) for further explanation.
 
 <a id="reference"></a>
 ## Architecture References
@@ -201,9 +200,9 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
 | RoBERTa | 2019.07.26 | - | [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692) |
 | ALBERT | 2019.09.26 | ICLR 2020 | [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942) |
 | DistilBERT | 2019.10.02 | EMC2 Workshop at NeurIPS 2019 | [DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/abs/1910.01108) |
-| T5 | 2019.10.23 | JMLR 2020 | [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683) | 
+| T5 | 2019.10.23 | JMLR 2020 | [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683) |
 | BART | 2019.10.29 | ACL 2020 | [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://aclanthology.org/2020.acl-main.703/) |
-| ELECTRA | 2020.03.23 | ICLR 2020 | [ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/abs/2003.10555) | 
+| ELECTRA | 2020.03.23 | ICLR 2020 | [ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/abs/2003.10555) |
 | GPT-3 | 2020.05.28 | NeurIPS 2020 | [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) |
 | DeBERTa | 2020.06.05 | ICLR 2021 | [DeBERTa: Decoding-enhanced BERT with Disentangled Attention](https://arxiv.org/abs/2006.03654) |
 | BigBird | 2020.07.28 | NeurIPS 2020 | [Big Bird: Transformers for Longer Sequences](https://arxiv.org/abs/2007.14062) |
