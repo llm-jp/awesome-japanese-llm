@@ -169,18 +169,18 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
 | [Japanese Stable Diffusion](https://rinna.co.jp/news/2022/09/20220909.html) | Stable Diffusion (First training the text encoder on Japanese image-caption pairs, then training both the encoder and the diffusion model) |  LAION-5B Japanese Subset (100M images) | rinna | [CreativeML OpenRAIL-M license](https://huggingface.co/spaces/CompVis/stable-diffusion-license) | [◯](https://huggingface.co/rinna/japanese-stable-diffusion) |
 
 <a id="benchmark-suites"></a>
-##  (参考) JapaneseLLMベンチマークまとめ
+##  Benchmarks for Japanese LLMs
 
-#### 基礎的な自然言語理解 (NLU) を中心に測定するベンチマーク
+#### Traditional Benchmarks based on Natural Language Understanding tasks
 
-- [JGLUE](https://github.com/yahoojapan/JGLUE) (早大河原研 & ヤフー)
-  - [GLUE ベンチマーク](https://gluebenchmark.com/)のJapanese版として構築されたベンチマーク。MARC-ja, JCoLA, JSTS, JNLI, JSQuAD, JCommonsenseQA の 6 つのタスクを含む ([JCoLA](https://github.com/osekilab/JCoLA) は東大大関研により作成) 。各タスクの詳細は[こちら](https://www.jstage.jst.go.jp/article/jnlp/30/1/30_63/_article/-char/ja)や[こちら](https://techblog.yahoo.co.jp/entry/2022122030379907/)を参照
+- [JGLUE](https://github.com/yahoojapan/JGLUE) (Waseda University Kawahara Lab and Yahoo)
+  - Japanese version of the [GLUE](https://gluebenchmark.com/) benchmark suite, including the MARC-ja, JCoLA, JSTS, JNLI, JSQuAD, and JCommonsenseQA tasks. [JCoLA](https://github.com/osekilab/JCoLA) is by the University of Tokyo's Oseki Lab. See [here](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.317.pdf) and [here (ja only)](https://techblog.yahoo.co.jp/entry/2022122030379907/) for further details about each task.
 - [JP Language Model Evaluation Harness](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable) (Stability AI)
-  - Stability AI による [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) のフォーク。JGLUE を含む様々なJapaneseタスクに対するモデルの few-shot 評価をまとめている
-- [Nejumi LLMリーダーボード](https://wandb.ai/wandb/LLM_evaluation_Japan/reports/LLM-JGLUE---Vmlldzo0NTUzMDE2?accessToken=u1ttt89al8oo5p5j12eq3nldxh0378os9qjjh14ha1yg88nvs5irmuao044b6eqa) (Weights & Biases)
-  - JGLUE に対するモデルの zero-shot 評価をまとめている
+  - Fork of the [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) that adds Japanese tasks like JGLUE and others.
+- [Nejumi LLM Leaderboard](https://wandb.ai/wandb/LLM_evaluation_Japan/reports/LLM-JGLUE---Vmlldzo0NTUzMDE2?accessToken=u1ttt89al8oo5p5j12eq3nldxh0378os9qjjh14ha1yg88nvs5irmuao044b6eqa) (Weights & Biases)
+  - Ranking based on zero-shot JGLUE performance
 
-#### 人間らしい応答の生成能力を中心に測定するベンチマーク
+#### Benchmarks testing open-ended generative abilities using LLMs as Judges
 
 - [Rakuda Benchmark](https://yuzuai.jp/benchmark)
   - 日本の地理, 歴史, 政治, 社会に関する[40問の自由質問](https://huggingface.co/datasets/yuzuai/rakuda-questions)に対してモデルに出力を行わせる。GPT-4 が同じ質問に対する2つのモデルの出力を比べ, どちらの答えが優れているかを判断することにより, モデルのランク付けを行う
