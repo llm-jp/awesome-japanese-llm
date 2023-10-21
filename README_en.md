@@ -101,7 +101,7 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
 | [Bandai Namco DistilBERT](https://github.com/BandaiNamcoResearchInc/DistilBERT-base-jp/blob/main/docs/GUIDE.md) | DistilBERT |  (Distillation of TohokuUniversityBERT(base))  | Bandai Namco Research | MIT | [◯](https://huggingface.co/bandainamco-mirai/distilbert-base-japanese) |
 | [LINE DistilBERT](https://engineering.linecorp.com/ja/blog/line-distilbert-high-performance-fast-lightweight-japanese-language-model) | DistilBERT | (Distillation of LINE internal BERT model)| LINE | Apache 2.0 | [◯](https://huggingface.co/line-corporation/line-distilbert-base-japanese) |
 | [rinna RoBERTa](https://rinna.co.jp/news/2021/08/20210825.html) | RoBERTa (base) |  Japanese Wikipedia, Japanese CC&#x2011;100 | rinna | MIT | [◯](https://huggingface.co/rinna/japanese-roberta-base) |
-| [早大RoBERTa](https://huggingface.co/nlp-waseda/roberta-base-japanese-with-auto-jumanpp) | RoBERTa (base, large) | Japanese Wikipedia, Japanese CC&#x2011;100 | Waseda Kawahara Lab | CC BY&#x2011;SA 4.0 | ◯<br>([base](https://huggingface.co/nlp-waseda/roberta-base-japanese-with-auto-jumanpp), [large](https://huggingface.co/nlp-waseda/roberta-large-japanese-with-auto-jumanpp), [large (seq512)](https://huggingface.co/nlp-waseda/roberta-large-japanese-seq512-with-auto-jumanpp)) [^7] |
+| [WasedaRoBERTa](https://huggingface.co/nlp-waseda/roberta-base-japanese-with-auto-jumanpp) | RoBERTa (base, large) | Japanese Wikipedia, Japanese CC&#x2011;100 | Waseda Kawahara Lab | CC BY&#x2011;SA 4.0 | ◯<br>([base](https://huggingface.co/nlp-waseda/roberta-base-japanese-with-auto-jumanpp), [large](https://huggingface.co/nlp-waseda/roberta-large-japanese-with-auto-jumanpp), [large (seq512)](https://huggingface.co/nlp-waseda/roberta-large-japanese-seq512-with-auto-jumanpp)) [^7] |
 | [InformatixRoBERTa](https://www.informatix.co.jp/pr-roberta/) | RoBERTa (base) | Japanese Wikipedia, Web Articles <br> (25GB) | Informatix | Apache 2.0 | △ |
 | [KyotoUniversityRoBERTa](https://huggingface.co/ku-nlp/roberta-base-japanese-char-wwm) | RoBERTa (base, large) | Japanese Wikipedia, Japanese CC&#x2011;100 | Kyoto University Language Media Processing Lab | CC BY&#x2011;SA 4.0 | ◯<br>([base (char-level)](https://huggingface.co/ku-nlp/roberta-base-japanese-char-wwm), [large (char-level)](https://huggingface.co/ku-nlp/roberta-large-japanese-char-wwm)) |
 | [YokohamaNationalRoBERTa](https://huggingface.co/ganchengguang/RoBERTa-base-janpanese) | RoBERTa (base) | Japanese Wikipedia (3.45GB) | Yokohama National University Mori Lab | Apache 2.0 | [◯](https://huggingface.co/ganchengguang/RoBERTa-base-janpanese) |
@@ -225,24 +225,24 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
 
 ---
 
-[^1]: ○: HuggingFace の Model Hub にモデルがアップロードされており, `AutoModel.from_pretrained()` 等ですぐ読み込める。 △: Model Hub にはモデルがアップロードされていないが, HuggingFace (transformers, 旧 pytorch-transformers) の形式に対応している
+[^1]: ○: The model is on the HuggingFace Model Hub and can be loaded in with the `AutoModel.from_pretrained()` command. △: The model is not on the Model Hub but can be loaded in manually with the HuggingFace transformers library. ✕: The model is directly loadable with HuggingFace.
 
-[^2]: ただし, モデル高速化のため本家の Llama に対してアーキテクチャの変更を加えている。詳しくは以下を参照: [PLaMo-13Bを公開しました](https://tech.preferred.jp/ja/blog/llm-plamo/)
+[^2]: Some performance enhancements have been made to the original Llama model. See [here](https://tech.preferred.jp/ja/blog/llm-plamo/) for details.
 
-[^3]: 詳細は明記されていないが, プレスリリースには以下のような記述がある: 『学習データには, オープンデータセットに加え, Stability AI Japanが作成した独自のデータセットや, EleutherAI Polyglot project のJapaneseチーム及び Stable Community Japan のメンバーの協力のもとで作成したデータが含まれています。』
+[^3]: Details have not been made public but the private dataset includes data from the EleutherAI Polyglot project's Japanese team and from members of Stable Community Japan.
 
-[^4]: 通常の左から右に単語を予測する代わりに, 右から左に単語を予測するように訓練された言語モデルの評価を行った研究である。通常方向の言語モデルと逆方向の言語モデルの両方が公開されている。
+[^4]: This project did research on using right-to-left generation instead of the usual left-to-right generation, releasing both left-to-right and right-to-left models.
 
-[^5]: 実質的な開発者は代表を勤める大曽根宏幸氏  ([個人ページのリンク](https://soneo1127.github.io/)) で, [AI Buncho](https://bun-cho.work/) の運営も行っている
+[^5]: Development conducted by [Hiroyuki Osone](https://soneo1127.github.io/) with the cooperation of [AI Buncho](https://bun-cho.work/).
 
-[^6]: 様々な形態素解析器とサブワード化手法の組み合わせを試した研究である。全ての組み合わせのモデルを掲載するのは大変なので, ここでは実験で最も平均のタスク性能が高い Juman++ + BPE のモデルを代表として掲載している。
+[^6]: This project conducted research on pre-tokenization morphological analysis and released their best performing model, which used Juman++ and BPE.
 
-[^7]: nlp-waseda/roberta-base-japanese 及び nlp-waseda/roberta-large-japanese はモデル入力の最大トークン長を128で事前学習しているが, nlp-waseda/roberta-large-japanese-seq512 は512で事前学習している
+[^7]: nlp-waseda/roberta-base-japanese and nlp-waseda/roberta-large-japanese trained using a 128 token context length, but nlp-waseda/roberta-large-japanese-seq512 expanded the context length to 512.
 
-[^8]: ただし, 最大系列長が通常の 512 から 1282 まで拡張されており, より長い入力文を扱うことができる
+[^8]: Extended to a 1282 context length from the usual 512.
 
-[^9]: small の方はJapanese Wikipedia とJapanese金融コーパスを合わせてスクラッチ学習しているが, base の方は東北大BERTにJapanese金融コーパスを追加学習しているという違いがある
+[^9]: small trains on Japanese Wikipedia and the Japanese Financial Corpus simultaneously, while base takes the TohokuUniversityBERT and conducts additional training on the Japanese Financial Corpus
 
-[^10]: 万病WordPieceモデルは MeCab (IPA辞書+万病辞書) で単語分割した後 WordPiece でサブワード化するモデル, SentencePieceモデルは単語分割せずに直接 Unigram でサブワード化するモデル
+[^10]: ManbyoWordPiece conducts a pretokenization step using MeCab (IPA+Manbyo dictionaries) and uses WordPiece for subword tokenization, while the SentencePiece model tokenizes text directly using a unigram model.
 
-[^11]: 以下の記事が詳しい (この記事での MiniGPT-4 の実装例は LLM 部分 を rinna/bilingual-gpt-neox-4b ではなく rinna/japanese-gpt-neox-3.6b としている点に注意) : [Japanese MiniGPT-4: rinna 3.6bとBLIP-2を組み合わせてマルチモーダルチャットのモデルを作る](https://zenn.dev/rinna/articles/5fad41e3f2a401)
+[^11]: See "[Japanese MiniGPT-4: rinna 3.6bとBLIP-2を組み合わせてマルチモーダルチャットのモデルを作る](https://zenn.dev/rinna/articles/5fad41e3f2a401)" for further details. Note that this article discusses using rinna/japanese-gpt-neox-3.6b as the LLM component rather than the rinna/bilingual-gpt-neox-4b model that MiniGPT-4 actually uses.
