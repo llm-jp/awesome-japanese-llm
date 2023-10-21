@@ -1,15 +1,14 @@
 # Overview of Japanese LLMs
 [ English | [**日本語**](./README.md) ]
 
-This repository compiles information on publicly available LLMs trained with a focus on Japanese.
-It is maintained by volunteers based on public data.
+A list of publicly available LLMs trained with a focus on Japanese, maintained by volunteers based on public data.
 
 ⚠ Caution:
 1. We can't guarantee the accuracy or completeness of any information here.
 2. Some information is based on conjecture and might not reflect your specific use case.
 3. While many models are released under permissive licenses like MIT or Apache 2.0, some are subject to more restrictive terms including non-commercial use clauses (e.g CC BY&#x2011;NC&#x2011;SA) or other stipulations.
 
-If you find an error, please open an [issue](https://github.com/llm-jp/awesome-japanese-llm/issues). Feel free to contribute directly with a pull request.
+Please point out any errors on the [issues page](https://github.com/llm-jp/awesome-japanese-llm/issues). Feel free to contribute directly with a pull request.
 
 ## Table of Contents
 - [Text Generation Models](#generative)
@@ -242,7 +241,7 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
 
 [^8]: Extended to a 1282 context length from the usual 512.
 
-[^9]: small trains on Japanese Wikipedia and the Japanese Financial Corpus simultaneously, while base takes the TohokuUniversityBERT and conducts additional training on the Japanese Financial Corpus
+[^9]: small trains on Japanese Wikipedia and the Japanese Financial Corpus simultaneously, while base takes the TohokuUniversityBERT and conducts additional training on the Japanese Financial Corpus.
 
 [^10]: ManbyoWordPiece conducts a pretokenization step using MeCab (IPA+Manbyo dictionaries) and uses WordPiece for subword tokenization, while the SentencePiece model tokenizes text directly using a unigram model.
 
