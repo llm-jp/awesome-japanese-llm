@@ -20,8 +20,8 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
   - [Domain specific](#autoencoding-domain-specific)
 - [Sentence and Document Embeddings Models](#embeddings)
 - [Vision-Language Models](#multimodal)
-  - [画像を含むテキスト生成](#multimodal-text-generation)
-  - [その他](#multimodal-others)
+  - [Multimodal to text](#multimodal-text-generation)
+  - [Other](#multimodal-others)
 - [Benchmarks for Japanese LLMs](#benchmark-suites)
 - [Model Architecture References](#reference)
 
@@ -37,8 +37,8 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
 |    |  Architecture  |  Training Data  |  Developer  | License | HuggingFace? [^1] |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | [PLaMo-13B](https://www.preferred.jp/ja/news/pr20230928/) | Llama-1[^2] <br>(**13b**) | C4, Project Gutenberg, RedPajama, Japanese Wikipedia, Japanese mC4<br>(**1.5T** tokens) | Preferred Networks | Apache 2.0 | [◯](https://huggingface.co/pfnet/plamo-13b) |
-| [Weblab-10B](https://www.t.u-tokyo.ac.jp/press/pr2023-08-18-001) | GPT-NeoX <br> (**10b**, **10b**&#x2011;instruction&#x2011;sft) | Japanese mC4, The Pile <br>（**600B** tokens) <br>instruction&#x2011;sft: Alpaca, FLAN | University of Tokyo Matsuo Lab | CC BY&#x2011;NC 4.0 |  ◯ <br>([10b](https://huggingface.co/matsuo-lab/weblab-10b), [10b&#x2011;instruction&#x2011;sft](https://huggingface.co/matsuo-lab/weblab-10b-instruction&#x2011;sft)) |
-| [Japanese StableLM Alpha](https://ja.stability.ai/blog/japanese-stablelm-alpha) | GPT-NeoX <br> (base-alpha-**7b**, instruct-alpha-**7b**, instruct-alpha-**7b**-v2) | Wikipedia, Japanese CC&#x2011;100, Japanese mC4, Japanese OSCAR, RedPajama, private datasets[^3]<br>(**750B** tokens)<br>Instruct: Dolly, HH&#x2011;RLHF, wikinews,  Alpaca (discarded in v2) | Stability AI | base: Apache 2.0<br>instruct (v1): [Research only](https://huggingface.co/stabilityai/japanese-stablelm-instruct-alpha-7b/tree/main)<br>instruct (v2): Apache 2.0 | ◯<br>([base-alpha-7b](https://huggingface.co/stabilityai/japanese-stablelm-base-alpha-7b), [instruct-alpha-7b](https://huggingface.co/stabilityai/japanese-stablelm-instruct-alpha-7b), [instruct-alpha-7b-v2](https://huggingface.co/stabilityai/japanese-stablelm-instruct-alpha-7b-v2)) |
+| [Weblab-10B](https://www.t.u-tokyo.ac.jp/press/pr2023-08-18-001) | GPT-NeoX <br> (**10b**, **10b**&#x2011;instruction&#x2011;sft) | Japanese mC4, The Pile <br> (**600B** tokens) <br>instruction&#x2011;sft: Alpaca, FLAN | University of Tokyo Matsuo Lab | CC BY&#x2011;NC 4.0 |  ◯ <br>([10b](https://huggingface.co/matsuo-lab/weblab-10b), [10b&#x2011;instruction&#x2011;sft](https://huggingface.co/matsuo-lab/weblab-10b-instruction&#x2011;sft)) |
+| [Japanese StableLM Alpha](https://ja.stability.ai/blog/japanese-stablelm-alpha) | GPT-NeoX <br> (base-alpha-**7b**, instruct-alpha-**7b**, instruct-alpha-**7b**-v2) | Wikipedia, Japanese CC&#x2011;100, Japanese mC4, Japanese OSCAR, RedPajama, private datasets[^3]<br>(**750B** tokens)<br>Instruct: Dolly, HH&#x2011;RLHF, wikinews,  Alpaca (discarded in v2) | Stability AI | base: Apache 2.0<br>instruct (v1): [Research license](https://huggingface.co/stabilityai/japanese-stablelm-instruct-alpha-7b/tree/main)<br>instruct (v2): Apache 2.0 | ◯<br>([base-alpha-7b](https://huggingface.co/stabilityai/japanese-stablelm-base-alpha-7b), [instruct-alpha-7b](https://huggingface.co/stabilityai/japanese-stablelm-instruct-alpha-7b), [instruct-alpha-7b-v2](https://huggingface.co/stabilityai/japanese-stablelm-instruct-alpha-7b-v2)) |
 | [OpenCALM](https://www.cyberagent.co.jp/news/detail/id=28817) | GPT-NeoX <br> (small(160M), medium(400M), large(800M), **1b**, **3b**, **7b**) | Japanese Wikipedia, Japanese mC4, Japanese CC&#x2011;100 | CyberAgent | CC BY&#x2011;SA 4.0 | ◯<br>([small](https://huggingface.co/cyberagent/open-calm-small), [medium](https://huggingface.co/cyberagent/open-calm-medium), [large](https://huggingface.co/cyberagent/open-calm-large), [1b](https://huggingface.co/cyberagent/open-calm-1b), [3b](https://huggingface.co/cyberagent/open-calm-3b), [7b](https://huggingface.co/cyberagent/open-calm-7b)) |
 | [Stormy](https://jxiv.jst.go.jp/index.php/jxiv/preprint/view/422/1350) | GPT-NeoX <br>(**7b**) | OpenCALM fine-tuned on <br>llm-japanese-dataset v0 non-translation tasks | University of Tokyo Izumi-Sakaji Lab | CC BY&#x2011;SA 4.0 | [◯](https://huggingface.co/izumi-lab/stormy-7b-10ep) |
 | [rinna GPT <br> (En-Ja Bilingual)](https://rinna.co.jp/news/2023/07/20230731.html) | GPT-NeoX <br>(**4b**, **4b**-8k, **4b**-instruction&#x2011;sft, **4b**-instruction-ppo) | Wikipedia, Japanese CC&#x2011;100, Japanese C4, RedPajama, The Pile<br>(**524B** Tokens)<br> Instruct: HH&#x2011;RLHF, FLAN<br>PPO: HH&#x2011;RLHF for reinforcement learning  <br>8k: trained with long context| rinna | MIT | ◯<br>([4b](https://huggingface.co/rinna/bilingual-gpt-neox-4b), [4b-8k](https://huggingface.co/rinna/bilingual-gpt-neox-4b-8k), [4b-instruction&#x2011;sft](https://huggingface.co/rinna/bilingual-gpt-neox-4b-instruction&#x2011;sft), [4b-instruction-ppo](https://huggingface.co/rinna/bilingual-gpt-neox-4b-instruction-ppo)) |
@@ -61,7 +61,7 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
 |    |  Architecture  |  Training Data  |  Developer  | License | HuggingFace？  |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | [Japanese Dialog Transformer](https://group.ntt/jp/topics/2021/09/30/transformer.html) | Transformer | Twitter japanese reply pairs | NTT | [Evaluation Licence](https://github.com/nttcslab/japanese-dialog-transformers/blob/main/LICENSE.md) | ✕ |
-| [Japanese News BART](https://tech.stockmark.co.jp/blog/bart-japanese-base-news/) | BART (base) | Japanese business news articles（21M articles) | Stockmark | MIT | [◯](https://huggingface.co/stockmark/bart-base-japanese-news) |
+| [Japanese News BART](https://tech.stockmark.co.jp/blog/bart-japanese-base-news/) | BART (base) | Japanese business news articles (21M articles) | Stockmark | MIT | [◯](https://huggingface.co/stockmark/bart-base-japanese-news) |
 | [AcademicBART](https://github.com/EhimeNLP/AcademicBART) | BART (base) | CiNii Japanese Papers | Ehime University AI Lab | Apache 2.0 | [◯](https://huggingface.co/EhimeNLP/AcademicBART) |
 
 <a id="english-based-models"></a>
@@ -98,8 +98,8 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
 | [chiTra (Sudachi Transformers)](https://www.worksap.co.jp/news/2022/0225/) | BERT (base) | NINJAL Web Japanese Corpus (148GB) | NINJAL & WAP Tokushima Laboratory of AI and NLP | Apache 2.0 | △ |
 | [ACCMS BERT](https://huggingface.co/ku-accms/bert-base-japanese-ssuw) | BERT (base) | Japanese Wikipedia (3.3GB) | Kyoto University ACCMS | CC BY&#x2011;SA 4.0 | [◯](https://huggingface.co/ku-accms/bert-base-japanese-ssuw) |
 | [HitachiBERT](https://arxiv.org/pdf/2306.09572.pdf) | BERT (base) | Japanese Wikipedia, Japanese CC&#x2011;100 | Hitachi | CC BY&#x2011;NC&#x2011;SA 4.0 | [◯](https://huggingface.co/hitachi-nlp/bert-base-japanese_jumanpp-bpe) [^6] |
-| [Bandai Namco DistilBERT](https://github.com/BandaiNamcoResearchInc/DistilBERT-base-jp/blob/main/docs/GUIDE.md) | DistilBERT | （Distillation of TohokuUniversityBERT(base)） | Bandai Namco Research | MIT | [◯](https://huggingface.co/bandainamco-mirai/distilbert-base-japanese) |
-| [LINE DistilBERT](https://engineering.linecorp.com/ja/blog/line-distilbert-high-performance-fast-lightweight-japanese-language-model) | DistilBERT |（Distillation of LINE internal BERT model)| LINE | Apache 2.0 | [◯](https://huggingface.co/line-corporation/line-distilbert-base-japanese) |
+| [Bandai Namco DistilBERT](https://github.com/BandaiNamcoResearchInc/DistilBERT-base-jp/blob/main/docs/GUIDE.md) | DistilBERT |  (Distillation of TohokuUniversityBERT(base))  | Bandai Namco Research | MIT | [◯](https://huggingface.co/bandainamco-mirai/distilbert-base-japanese) |
+| [LINE DistilBERT](https://engineering.linecorp.com/ja/blog/line-distilbert-high-performance-fast-lightweight-japanese-language-model) | DistilBERT | (Distillation of LINE internal BERT model)| LINE | Apache 2.0 | [◯](https://huggingface.co/line-corporation/line-distilbert-base-japanese) |
 | [rinna RoBERTa](https://rinna.co.jp/news/2021/08/20210825.html) | RoBERTa (base) |  Japanese Wikipedia, Japanese CC&#x2011;100 | rinna | MIT | [◯](https://huggingface.co/rinna/japanese-roberta-base) |
 | [早大RoBERTa](https://huggingface.co/nlp-waseda/roberta-base-japanese-with-auto-jumanpp) | RoBERTa (base, large) | Japanese Wikipedia, Japanese CC&#x2011;100 | Waseda Kawahara Lab | CC BY&#x2011;SA 4.0 | ◯<br>([base](https://huggingface.co/nlp-waseda/roberta-base-japanese-with-auto-jumanpp), [large](https://huggingface.co/nlp-waseda/roberta-large-japanese-with-auto-jumanpp), [large (seq512)](https://huggingface.co/nlp-waseda/roberta-large-japanese-seq512-with-auto-jumanpp)) [^7] |
 | [InformatixRoBERTa](https://www.informatix.co.jp/pr-roberta/) | RoBERTa (base) | Japanese Wikipedia, Web Articles <br> (25GB) | Informatix | Apache 2.0 | △ |
@@ -112,7 +112,7 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
 | [UniversityOfTokyoELECTRA](https://sites.google.com/socsim.org/izumi-lab/tools/language-model) | ELECTRA (small, base) | Japanese Wikipedia (2.9GB) | University of Tokyo Izumi-Sakaji Lab | CC BY&#x2011;SA 4.0 | ◯<br>([small](https://huggingface.co/izumi-lab/electra-small-japanese-discriminator), [base](https://huggingface.co/izumi-lab/electra-base-japanese-discriminator))  |
 | [JapaneseRoFormer](https://huggingface.co/ganchengguang/Roformer-base-japanese) | RoFormer (base) | Japanese Wikipedia (3.45GB) | Yokohama National University Mori Lab | Apache 2.0 | [◯](https://huggingface.co/ganchengguang/Roformer-base-japanese) |
 | [JapaneseLUKE](https://www.ousia.jp/ja/page/ja/2022/11/17/luke-japanese/) | LUKE (base, large) | Japanese Wikipedia | Studio Ousia | Apache 2.0 | ◯<br>([base](https://huggingface.co/studio-ousia/luke-japanese-base-lite), [large](https://huggingface.co/studio-ousia/luke-japanese-large-lite)) |
-| [JapaneseDeBERTa V2](https://huggingface.co/ku-nlp/deberta-v2-base-japanese) | DeBERTa (tiny, base, large) | Japanese Wikipedia, Japanese CC&#x2011;100, Japanese OSCAR<br>（171GB） | Kyoto University Language Media Processing Lab | CC BY&#x2011;SA 4.0 | ◯<br>([tiny](https://huggingface.co/ku-nlp/deberta-v2-tiny-japanese), [tiny (char-level)](https://huggingface.co/ku-nlp/deberta-v2-tiny-japanese-char-wwm), [base](https://huggingface.co/ku-nlp/deberta-v2-base-japanese), [large](https://huggingface.co/ku-nlp/deberta-v2-large-japanese)) | 
+| [JapaneseDeBERTa V2](https://huggingface.co/ku-nlp/deberta-v2-base-japanese) | DeBERTa (tiny, base, large) | Japanese Wikipedia, Japanese CC&#x2011;100, Japanese OSCAR<br> (171GB)  | Kyoto University Language Media Processing Lab | CC BY&#x2011;SA 4.0 | ◯<br>([tiny](https://huggingface.co/ku-nlp/deberta-v2-tiny-japanese), [tiny (char-level)](https://huggingface.co/ku-nlp/deberta-v2-tiny-japanese-char-wwm), [base](https://huggingface.co/ku-nlp/deberta-v2-base-japanese), [large](https://huggingface.co/ku-nlp/deberta-v2-large-japanese)) | 
 | [JapaneseBigBird](https://huggingface.co/nlp-waseda/bigbird-base-japanese) | BigBird (base) | Japanese Wikipedia, Japanese CC&#x2011;100, Japanese OSCAR | Waseda Kawahara Lab | CC BY&#x2011;SA 4.0 | [◯](https://huggingface.co/nlp-waseda/bigbird-base-japanese) |
 
 <a id="autoencoding-domain-specific"></a>
@@ -124,12 +124,12 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
 | [JapaneseNewsXLNet](https://qiita.com/mkt3/items/4d0ae36f3f212aee8002) |  XLNet (base) | Japanese Business Articles (3M articles) | Stockmark | ？ | [◯](https://huggingface.co/hajime9652/xlnet-japanese) <br> ※ Unofficial release |
 | [JapaneseNewsALBERT](https://qiita.com/mkt3/items/b41dcf0185e5873f5f75) | ALBERT (base) | Japanese Business Articles (3M articles) | Stockmark | ？ | △ |
 | [Laboro BERT](https://laboro.ai/activity/column/engineer/laboro-bert/) | BERT (base, large) | Japanese Web Corpus <br> (News and blogs, etc) (12GB) | Laboro.AI | CC BY&#x2011;NC 4.0 | ✕ |
-| [Laboro DistilBERT](https://laboro.ai/activity/column/engineer/laboro-distilbert/) | DistilBERT | （Distillation of Laboro BERT(base)）| Laboro.AI | CC BY&#x2011;NC 4.0 | [◯](https://huggingface.co/laboro-ai/distilbert-base-japanese) |
-| [JapaneseBlogELECTRA](https://www.anlp.jp/proceedings/annual_meeting/2022/pdf_dir/E2-5.pdf) | ELECTRA (small) | Japanese Blog Corpus（354M sentences） | Kitami Institute of Technology Masui-Ptaszynski Lab | CC BY&#x2011;SA 4.0 | [◯](https://huggingface.co/ptaszynski/yacis-electra-small-japanese)  |
+| [Laboro DistilBERT](https://laboro.ai/activity/column/engineer/laboro-distilbert/) | DistilBERT |  (Distillation of Laboro BERT(base)) | Laboro.AI | CC BY&#x2011;NC 4.0 | [◯](https://huggingface.co/laboro-ai/distilbert-base-japanese) |
+| [JapaneseBlogELECTRA](https://www.anlp.jp/proceedings/annual_meeting/2022/pdf_dir/E2-5.pdf) | ELECTRA (small) | Japanese Blog Corpus (354M sentences)  | Kitami Institute of Technology Masui-Ptaszynski Lab | CC BY&#x2011;SA 4.0 | [◯](https://huggingface.co/ptaszynski/yacis-electra-small-japanese)  |
 | [JapaneseFinancialBERT](https://sites.google.com/socsim.org/izumi-lab/tools/language-model) | BERT (small, base) [^9] | Japanese Wikipedia, Japanese Financial Corpus (27M sentences/5.2GB) | University of Tokyo Izumi-Sakaji Lab | CC BY&#x2011;SA 4.0 |◯<br>([small](https://huggingface.co/izumi-lab/bert-small-japanese-fin), [base](https://huggingface.co/izumi-lab/bert-base-japanese-fin-additional)) |
-| [JapaneseFinancialELECTRA](https://sites.google.com/socsim.org/izumi-lab/tools/language-model) | ELECTRA (small) | Japanese Wikipedia (20M sentences/2.9GB), Japanese Financial Corpus (27M sentences/5.2GB) | University of Tokyo Izumi-Sakaji Lab | CC BY&#x2011;SA 4.0 |  [◯](https://huggingface.co/izumi-lab/electra-small-japanese-fin-discriminator)  |
+| [JapaneseFinancialELECTRA](https://sites.google.com/socsim.org/izumi-lab/tools/language-model) | ELECTRA (small) | Japanese Wikipedia (20M sentences/2.9GB), Japanese Financial Corpus (27M sentences/5.2GB) | University of Tokyo Izumi-Sakaji Lab | CC BY&#x2011;SA 4.0 |  [◯](https://huggingface.co/izumi-lab/electra-small-japanese-fin-discriminator) |
 | [UTH-BERT](https://ai-health.m.u-tokyo.ac.jp/home/research/uth-bert) | BERT (base) | Japanese Medical Records(120M lines) | University of Tokyo Hospital <br>Medical AI Development Course | CC BY&#x2011;NC&#x2011;SA 4.0 | △ |
-| [medBERTjp](https://github.com/ou-medinfo/medbertjp) | BERT (base) | Japanese Wikipedia, Japanese Medical Corpus（"今日の診療プレミアム/Today's Care Premium" Web Version） | Osaka University Hospital <br> Medical Informatics Lab | CC BY&#x2011;NC&#x2011;SA 4.0 | △ |
+| [medBERTjp](https://github.com/ou-medinfo/medbertjp) | BERT (base) | Japanese Wikipedia, Japanese Medical Corpus ("今日の診療プレミアム/Today's Care Premium" Web Version) | Osaka University Hospital <br> Medical Informatics Lab | CC BY&#x2011;NC&#x2011;SA 4.0 | △ |
 | [JMedRoBERTa](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P3-1.pdf) | RoBERTa (base) | Japanese Medical Papers (11M sentences/1.8GB) | University of Tokyo Aizawa Lab | CC BY&#x2011;NC&#x2011;SA 4.0 | ◯<br>([ManbyoWordPiece](https://huggingface.co/alabnii/jmedroberta-base-manbyo-wordpiece), [SentencePiece](https://huggingface.co/alabnii/jmedroberta-base-sentencepiece)) [^10] |
 | [AcademicRoBERTa](https://github.com/EhimeNLP/AcademicRoBERTa) | RoBERTa (base) | CiNii Japanese Papers (6.3M sentences) | Ehime University AI Lab | Apache 2.0 | [◯](https://huggingface.co/EhimeNLP/AcademicRoBERTa) |
 
@@ -145,36 +145,36 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
 | [cl-nagoya/unsup-simcse-ja-base](https://huggingface.co/cl-nagoya/unsup-simcse-ja-base)<br>[cl-nagoya/unsup-simcse-ja-large](https://huggingface.co/cl-nagoya/unsup-simcse-ja-large)<br>[cl-nagoya/sup-simcse-ja-base](https://huggingface.co/cl-nagoya/sup-simcse-ja-base)<br>[cl-nagoya/sup-simcse-ja-large](https://huggingface.co/cl-nagoya/sup-simcse-ja-large) | SimCSE | Nagoya University Takeda-Sasano Group | CC BY&#x2011;SA 4.0 |
 | [MU-Kindai/Japanese-MixCSE-BERT-base](https://huggingface.co/MU-Kindai/Japanese-MixCSE-BERT-base)<br>[MU-Kindai/Japanese-MixCSE-BERT-large](https://huggingface.co/MU-Kindai/Japanese-MixCSE-BERT-large) | MixCSE | Kindai University | MIT |
 | [MU-Kindai/Japanese-DiffCSE-BERT-base](https://huggingface.co/MU-Kindai/Japanese-DiffCSE-BERT-base) | DiffCSE | Kindai University | MIT | 
-| [pkshatech/GLuCoSE-base-ja](https://huggingface.co/pkshatech/GLuCoSE-base-ja) | 独自 (GLuCoSE) | PKSHA Technology | Apache 2.0 |
+| [pkshatech/GLuCoSE-base-ja](https://huggingface.co/pkshatech/GLuCoSE-base-ja) | LUKE | PKSHA Technology | Apache 2.0 |
 
 <a id="multimodal"></a>
-## 視覚言語モデル (Vision-Language Models)
+## Vision-Language Models
 
 <a id="multimodal-text-generation"></a>
-### 画像を含むテキスト生成
+### Multimodal to text
 
 |    |  Architecture  |  Training Data  |  Developer  | License | HuggingFace? |
 |:---|:---:|:---:|:---:|:---:|:---:|
-| [Heron](https://prtimes.jp/main/html/rd/p/000000034.000098132.html) | BLIP または GIT | LLaVA-Instruct-150K-JA, Japanese STAIR Captions, Japanese Visual Genome VQA dataset | Turing | CC BY&#x2011;NC 4.0 | ◯<br>([blip-ja-stablelm-base-7b-v0](https://huggingface.co/turing-motors/heron-chat-blip-ja-stablelm-base-7b-v0), [git-ja-stablelm-base-7b-v0](https://huggingface.co/turing-motors/heron-chat-git-ja-stablelm-base-7b-v0), [git-ELYZA-fast-7b-v0](https://huggingface.co/turing-motors/heron-chat-git-ELYZA-fast-7b-v0)) |
-| [Japanese InstructBLIP Alpha](https://ja.stability.ai/blog/japanese-instructblip-alpha) | InstructBLIP | Japanese CC12M, STAIR Captions, Japanese Visual Genome VQA dataset | Stability AI | [独自のライセンス](https://huggingface.co/stabilityai/japanese-instructblip-alpha/blob/main/LICENSE) |  [◯](https://huggingface.co/stabilityai/japanese-instructblip-alpha) |
+| [Heron](https://prtimes.jp/main/html/rd/p/000000034.000098132.html) | BLIP / GIT | LLaVA-Instruct-150K-JA, Japanese STAIR Captions, Japanese Visual Genome VQA dataset | Turing | CC BY&#x2011;NC 4.0 | ◯<br>([blip-ja-stablelm-base-7b-v0](https://huggingface.co/turing-motors/heron-chat-blip-ja-stablelm-base-7b-v0), [git-ja-stablelm-base-7b-v0](https://huggingface.co/turing-motors/heron-chat-git-ja-stablelm-base-7b-v0), [git-ELYZA-fast-7b-v0](https://huggingface.co/turing-motors/heron-chat-git-ELYZA-fast-7b-v0)) |
+| [Japanese InstructBLIP Alpha](https://ja.stability.ai/blog/japanese-instructblip-alpha) | InstructBLIP | Japanese CC12M, STAIR Captions, Japanese Visual Genome VQA dataset | Stability AI | [Research license](https://huggingface.co/stabilityai/japanese-instructblip-alpha/blob/main/LICENSE) |  [◯](https://huggingface.co/stabilityai/japanese-instructblip-alpha) |
 | [rinna MiniGPT-4](https://rinna.co.jp/news/2023/07/20230731.html) [^11] | MiniGPT-4 | CC12M, COCO 2014, Visual Genome, STAIR Captions, Japanese Visual Genome VQA dataset | rinna | MIT | [◯](https://huggingface.co/rinna/bilingual-gpt-neox-4b-minigpt4) |
 
 <a id="multimodal-others"></a>
-### その他
+### Other
 
-|    |  モデル  |  学習画像/テキスト  |  開発元  | ライセンス | HuggingFace ですぐ使える？  |
+|    |  Architecture  |  Training Data  |  Developer  | License | HuggingFace? |
 |:---|:---:|:---:|:---:|:---:|:---:|
-| [JapaneseCLIP](https://rinna.co.jp/news/2022/05/20220512.html) | CLIP <br>(画像エンコーダは  google/vit-base-patch16-224 で重みが初期化された ViT-B/16, <br>テキストエンコーダは rinna RoBERTa で重みが初期化された RoBERTa(base)) | CC12M のキャプションをJapaneseに翻訳したもの | rinna | Apache 2.0 | [◯](https://huggingface.co/rinna/japanese-clip-vit-b-16) |
-| [JapaneseCLOOB](https://rinna.co.jp/news/2022/05/20220512.html) | CLOOB <br>(画像エンコーダは  google/vit-base-patch16-224 で重みが初期化された ViT-B/16, <br>テキストエンコーダは rinna RoBERTa で重みが初期化された RoBERTa(base)) | CC12M のキャプションをJapaneseに翻訳したもの | rinna | Apache 2.0 | [◯](https://huggingface.co/rinna/japanese-cloob-vit-b-16) |
-| [Japanese Stable Diffusion](https://rinna.co.jp/news/2022/09/20220909.html) | Stable Diffusion (最初にテキストエンコーダのみJapaneseキャプション付き画像を用いて追加学習を行い, 次にテキストエンコーダと生成モデルのパラメータを同時に更新する追加学習を行う) |  LAION-5B データセットのうちキャプションがJapaneseのもの（画像約 1 億枚）| rinna | [The CreativeML OpenRAIL M license](https://huggingface.co/spaces/CompVis/stable-diffusion-license) | [◯](https://huggingface.co/rinna/japanese-stable-diffusion) |
+| [JapaneseCLIP](https://rinna.co.jp/news/2022/05/20220512.html) | CLIP <br>(Image encoding with google/vit-base-patch16-224 initialized ViT-B/16 model, <br>text encoding with rinna RoBERTa initialized RoBERTa(base) model) | CC12M translated to Japanese | rinna | Apache 2.0 | [◯](https://huggingface.co/rinna/japanese-clip-vit-b-16) |
+| [JapaneseCLOOB](https://rinna.co.jp/news/2022/05/20220512.html) | CLOOB <br>(Image encoding with google/vit-base-patch16-224 initialized ViT-B/16 model, <br>text encoding with rinna RoBERTa initialized RoBERTa(base) model) | CC12M translated to Japanese | rinna | Apache 2.0 | [◯](https://huggingface.co/rinna/japanese-cloob-vit-b-16) |
+| [Japanese Stable Diffusion](https://rinna.co.jp/news/2022/09/20220909.html) | Stable Diffusion (First training the text encoder on Japanese image-caption pairs, then training both the encoder and the diffusion model) |  LAION-5B Japanese Subset (100M images) | rinna | [CreativeML OpenRAIL-M license](https://huggingface.co/spaces/CompVis/stable-diffusion-license) | [◯](https://huggingface.co/rinna/japanese-stable-diffusion) |
 
 <a id="benchmark-suites"></a>
-## （参考）JapaneseLLMベンチマークまとめ
+##  (参考) JapaneseLLMベンチマークまとめ
 
 #### 基礎的な自然言語理解 (NLU) を中心に測定するベンチマーク
 
 - [JGLUE](https://github.com/yahoojapan/JGLUE) (早大河原研 & ヤフー)
-  - [GLUE ベンチマーク](https://gluebenchmark.com/)のJapanese版として構築されたベンチマーク。MARC-ja, JCoLA, JSTS, JNLI, JSQuAD, JCommonsenseQA の 6 つのタスクを含む（[JCoLA](https://github.com/osekilab/JCoLA) は東大大関研により作成）。各タスクの詳細は[こちら](https://www.jstage.jst.go.jp/article/jnlp/30/1/30_63/_article/-char/ja)や[こちら](https://techblog.yahoo.co.jp/entry/2022122030379907/)を参照
+  - [GLUE ベンチマーク](https://gluebenchmark.com/)のJapanese版として構築されたベンチマーク。MARC-ja, JCoLA, JSTS, JNLI, JSQuAD, JCommonsenseQA の 6 つのタスクを含む ([JCoLA](https://github.com/osekilab/JCoLA) は東大大関研により作成) 。各タスクの詳細は[こちら](https://www.jstage.jst.go.jp/article/jnlp/30/1/30_63/_article/-char/ja)や[こちら](https://techblog.yahoo.co.jp/entry/2022122030379907/)を参照
 - [JP Language Model Evaluation Harness](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable) (Stability AI)
   - Stability AI による [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) のフォーク。JGLUE を含む様々なJapaneseタスクに対するモデルの few-shot 評価をまとめている
 - [Nejumi LLMリーダーボード](https://wandb.ai/wandb/LLM_evaluation_Japan/reports/LLM-JGLUE---Vmlldzo0NTUzMDE2?accessToken=u1ttt89al8oo5p5j12eq3nldxh0378os9qjjh14ha1yg88nvs5irmuao044b6eqa) (Weights & Biases)
@@ -234,7 +234,7 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
 
 [^4]: 通常の左から右に単語を予測する代わりに, 右から左に単語を予測するように訓練された言語モデルの評価を行った研究である。通常方向の言語モデルと逆方向の言語モデルの両方が公開されている。
 
-[^5]: 実質的な開発者は代表を勤める大曽根宏幸氏 （[個人ページのリンク](https://soneo1127.github.io/)）で, [AI Buncho](https://bun-cho.work/) の運営も行っている
+[^5]: 実質的な開発者は代表を勤める大曽根宏幸氏  ([個人ページのリンク](https://soneo1127.github.io/)) で, [AI Buncho](https://bun-cho.work/) の運営も行っている
 
 [^6]: 様々な形態素解析器とサブワード化手法の組み合わせを試した研究である。全ての組み合わせのモデルを掲載するのは大変なので, ここでは実験で最も平均のタスク性能が高い Juman++ + BPE のモデルを代表として掲載している。
 
@@ -246,4 +246,4 @@ If you find an error, please open an [issue](https://github.com/llm-jp/awesome-j
 
 [^10]: 万病WordPieceモデルは MeCab (IPA辞書+万病辞書) で単語分割した後 WordPiece でサブワード化するモデル, SentencePieceモデルは単語分割せずに直接 Unigram でサブワード化するモデル
 
-[^11]: 以下の記事が詳しい（この記事での MiniGPT-4 の実装例は LLM 部分 を rinna/bilingual-gpt-neox-4b ではなく rinna/japanese-gpt-neox-3.6b としている点に注意）: [Japanese MiniGPT-4: rinna 3.6bとBLIP-2を組み合わせてマルチモーダルチャットのモデルを作る](https://zenn.dev/rinna/articles/5fad41e3f2a401)
+[^11]: 以下の記事が詳しい (この記事での MiniGPT-4 の実装例は LLM 部分 を rinna/bilingual-gpt-neox-4b ではなく rinna/japanese-gpt-neox-3.6b としている点に注意) : [Japanese MiniGPT-4: rinna 3.6bとBLIP-2を組み合わせてマルチモーダルチャットのモデルを作る](https://zenn.dev/rinna/articles/5fad41e3f2a401)
