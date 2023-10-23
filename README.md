@@ -1,6 +1,13 @@
 # 日本語LLMまとめ
 [ [**English**](./README_en.md) | 日本語 ]
 
+<figure style="text-align: center;">
+<img src="figures/parameter_size_overview.png" alt="各モデルのパラメタ数をまとめた図" width="768px" title="test">
+<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280;">日本語モデルの情報は本記事、英語モデルの情報は LifeArchitect.ai の <a href="https://lifearchitect.ai/models-table/">Models table</a> を参照しています。修正・追加等ありましたらお知らせ下さい</figcaption>
+</figure>
+
+<br>
+
 この記事は、一般公開されている日本語LLM（日本語を中心に学習されたLLM）に関する情報をまとめたものです。情報は、有志により収集されており、その一部は論文や公開されているリソースなどから引用しています。
 
 ⚠ 以下の点について、あらかじめご理解とご了承をお願いいたします：
