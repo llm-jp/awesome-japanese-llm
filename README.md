@@ -175,6 +175,8 @@
 
 #### 基礎的な自然言語理解 (NLU) を中心に測定するベンチマーク
 
+- [llm-jp-eval リーダーボード](http://wandb.me/llm-jp-leaderboard) (LLM-jp)
+  - 複数のデータセットを横断して日本語 LLM を自動評価する [llm-jp-eval](https://github.com/llm-jp/llm-jp-eval) スクリプトの結果をまとめている。LLM-jp-13B 公開時点で [Jamp](https://github.com/tomo-ut/temporalNLI_dataset), [JaNLI](https://github.com/verypluming/JaNLI), [JCommonsenseQA](https://github.com/yahoojapan/JGLUE), [JEMHopQA](https://github.com/aiishii/JEMHopQA), [JNLI](https://github.com/yahoojapan/JGLUE), [JSeM](https://github.com/DaisukeBekki/JSeM), [JSICK](https://github.com/verypluming/JSICK), [JSQuAD](https://github.com/yahoojapan/JGLUE), [JSTS](https://github.com/yahoojapan/JGLUE), [NIILC](https://github.com/mynlp/niilc-qa) の評価結果が掲載されている
 - [JGLUE](https://github.com/yahoojapan/JGLUE) (早大河原研 & ヤフー)
   - [GLUE ベンチマーク](https://gluebenchmark.com/)の日本語版として構築されたベンチマーク。MARC-ja, JCoLA, JSTS, JNLI, JSQuAD, JCommonsenseQA の 6 つのタスクを含む（[JCoLA](https://github.com/osekilab/JCoLA) は東大大関研により作成）。各タスクの詳細は[こちら](https://www.jstage.jst.go.jp/article/jnlp/30/1/30_63/_article/-char/ja)や[こちら](https://techblog.yahoo.co.jp/entry/2022122030379907/)を参照
 - [JP Language Model Evaluation Harness](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable) (Stability AI)

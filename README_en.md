@@ -174,6 +174,8 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 #### Traditional Benchmarks based on Natural Language Understanding tasks
 
+- [llm-jp-eval Leaderboard](http://wandb.me/llm-jp-leaderboard) (LLM-jp)
+  - Ranking based on the results of the [llm-jp-eval](https://github.com/llm-jp/llm-jp-eval) script, which automatically evaluates Japanese LLMs across multiple datasets. As of the release of LLM-jp-13B, [Jamp](https://github.com/tomo-ut/temporalNLI_dataset), [JaNLI](https://github.com/verypluming/JaNLI), [JCommonsenseQA](https://github.com/yahoojapan/JGLUE), [JEMHopQA](https://github.com/aiishii/JEMHopQA), [JNLI](https://github.com/yahoojapan/JGLUE), [JSeM](https://github.com/DaisukeBekki/JSeM), [JSICK](https://github.com/verypluming/JSICK), [JSQuAD](https://github.com/yahoojapan/JGLUE), [JSTS](https://github.com/yahoojapan/JGLUE), and [NIILC](https://github.com/mynlp/niilc-qa) are employed as evaluation datasets.
 - [JGLUE](https://github.com/yahoojapan/JGLUE) (Waseda University Kawahara Lab and Yahoo)
   - Japanese version of the [GLUE](https://gluebenchmark.com/) benchmark suite, including the MARC-ja, JCoLA, JSTS, JNLI, JSQuAD, and JCommonsenseQA tasks. [JCoLA](https://github.com/osekilab/JCoLA) is by the University of Tokyo's Oseki Lab. See [here](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.317.pdf) and [here (ja only)](https://techblog.yahoo.co.jp/entry/2022122030379907/) for further details about each task.
 - [JP Language Model Evaluation Harness](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable) (Stability AI)
