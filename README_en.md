@@ -1,10 +1,10 @@
 # Overview of Japanese LLMs
 [ English | [**日本語**](./README.md) ]
 
-<figure style="text-align: center;">
-<img src="figures/parameter_size_overview.png" alt="Parameter sizes of Japanese and English LLMs over time" width="768px" title="test">
-<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280;">Parameter sizes of Japanese and English LLMs over time. We refer to this article for information about Japanese LLMs, and to the <a href="https://lifearchitect.ai/models-table/">Models table</a> on LifeArchitect.ai for information about English LLMs. Please notify us if there are any corrections or additions needed.</figcaption>
-</figure>
+<p align="center">
+  <img src="figures/parameter_size_overview.png" alt="Parameter sizes of Japanese and English LLMs over time" width="768px">
+</p>
+<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">Parameter sizes of Japanese and English LLMs over time. We refer to this article for information about Japanese LLMs, and to the <a href="https://lifearchitect.ai/models-table/">Models table</a> on LifeArchitect.ai for information about English LLMs. Please notify us if there are any corrections or additions needed.</figcaption>
 
 ---
 
