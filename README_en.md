@@ -3,10 +3,10 @@
 
 <figure style="text-align: center;">
 <img src="figures/parameter_size_overview.png" alt="各モデルのパラメタ数をまとめた図" width="768px" title="test">
-<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280;">We refer to this article for information about Japanese LLMs, and to the <a href="https://lifearchitect.ai/models-table/">Models table</a> on LifeArchitect.ai for information about English LLMs. Please notify us if there are any corrections or additions needed.
+<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280;">We refer to this article for information about Japanese LLMs, and to the <a href="https://lifearchitect.ai/models-table/">Models table</a> on LifeArchitect.ai for information about English LLMs. Please notify us if there are any corrections or additions needed.</figcaption>
 </figure>
 
-<br>
+---
 
 A list of publicly available LLMs trained with a focus on Japanese, maintained by volunteers based on public data.
 
