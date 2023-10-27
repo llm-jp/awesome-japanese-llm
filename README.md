@@ -30,7 +30,7 @@
 - [視覚言語モデル (Vision-Language Models)](#multimodal)
   - [画像を含むテキスト生成](#multimodal-text-generation)
   - [その他](#multimodal-others)
-- [（参考）日本語LLMベンチマークまとめ](#benchmark-suites)
+- [（参考）日本語LLMベンチマーク/データセットまとめ](#benchmark-suites)
 - [（参考）各モデルの原論文](#reference)
 
 <a id="generative"></a>
@@ -44,6 +44,7 @@
 |    |  モデル  |  学習テキスト  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|
 | [LLM-jp-13B](https://www.nii.ac.jp/news/release/2023/1020.html) | GPT<br>([1.3b-v1.0](https://huggingface.co/llm-jp/llm-jp-1.3b-v1.0), [**13b**-v1.0](https://huggingface.co/llm-jp/llm-jp-13b-v1.0), [**13b**-instruct-full-jaster-v1.0](https://huggingface.co/llm-jp/llm-jp-13b-instruct-full-jaster-v1.0), [**13b**-instruct-full-jaster-dolly-oasst-v1.0](https://huggingface.co/llm-jp/llm-jp-13b-instruct-full-jaster-dolly-oasst-v1.0), [**13b**-instruct-full-dolly-oasst-v1.0](https://huggingface.co/llm-jp/llm-jp-13b-instruct-full-dolly-oasst-v1.0), [**13b**-instruct-lora-jaster-v1.0](https://huggingface.co/llm-jp/llm-jp-13b-instruct-lora-jaster-v1.0), [**13b**-instruct-lora-jaster-dolly-oasst-v1.0](https://huggingface.co/llm-jp/llm-jp-13b-instruct-lora-jaster-dolly-oasst-v1.0), [**13b**-instruct-lora-dolly-oasst-v1.0](https://huggingface.co/llm-jp/llm-jp-13b-instruct-lora-dolly-oasst-v1.0)) | 事前学習: [llm-jp-corpus](https://github.com/llm-jp/llm-jp-corpus) (Wikipedia, Japanese mC4, The Pile, Stack) (計 300B トークン)<br>Instruction Tuning (SFT or LoRA): jaster, Dolly Dataset, OASST1 | LLM-jp | Apache 2.0 |
+| [Stockmark-13b](https://stockmark.co.jp/news/20231027) | GPT<br>([**13b**](https://huggingface.co/stockmark/stockmark-13b)) | 日本語 Wikipedia、Japanese CC-100、Japanese mC4、Japanese CommonCrawl、日本語特許、Stockmark Web Corpus<br>(計 220B トークン) | ストックマーク | MIT |
 | [PLaMo-13B](https://www.preferred.jp/ja/news/pr20230928/) | Llama[^1]<br>([**13b**](https://huggingface.co/pfnet/plamo-13b)) | C4, Project Gutenberg, RedPajama, 日本語 Wikipedia, Japanese mC4<br>(計 1.5T トークン) | Preferred Networks | Apache 2.0 |
 | [Weblab-10B](https://www.t.u-tokyo.ac.jp/press/pr2023-08-18-001) | GPT<br>([**10b**](https://huggingface.co/matsuo-lab/weblab-10b), [**10b**-instruction-sft](https://huggingface.co/matsuo-lab/weblab-10b-instruction-sft)) | Japanese mC4 + The Pile（計 600B トークン）<br>\*instruction-sft モデルは Alpaca Dataset, FLAN でファインチューニング | 東大 松尾研 | CC BY-NC 4.0 |
 | [Japanese StableLM Alpha](https://ja.stability.ai/blog/japanese-stablelm-alpha) | GPT<br>([base-alpha-**7b**](https://huggingface.co/stabilityai/japanese-stablelm-base-alpha-7b), [instruct-alpha-**7b**](https://huggingface.co/stabilityai/japanese-stablelm-instruct-alpha-7b), [instruct-alpha-**7b**-v2](https://huggingface.co/stabilityai/japanese-stablelm-instruct-alpha-7b-v2)) | Wikipedia, Japanese CC-100, Japanese mC4, Japanese OSCAR, RedPajama<br>(+ 独自のデータセット)[^2]<br>(計 750B トークン)<br>\*instruct モデルでは Alpaca Dataset, Dolly Dataset, HH RLHF, llm-japanese-datasetのwikinews subsetでファインチューニング<br>(v2では商用利用不可の Alpaca Dataset を除外) | Stability AI | baseモデル: Apache 2.0<br>instruct モデル (v1): [独自のライセンス](https://huggingface.co/stabilityai/japanese-stablelm-instruct-alpha-7b/tree/main)<br>instruct モデル (v2): Apache 2.0 |
@@ -180,9 +181,9 @@
 | [日本語 Stable Diffusion](https://rinna.co.jp/news/2022/09/20220909.html) | Stable Diffusion (最初にテキストエンコーダのみ日本語キャプション付き画像を用いて追加学習を行い、次にテキストエンコーダと生成モデルのパラメータを同時に更新する追加学習を行う) |  LAION-5B データセットのうちキャプションが日本語のもの（画像約 1 億枚）| rinna | [CreativeML OpenRAIL-M license](https://huggingface.co/spaces/CompVis/stable-diffusion-license) | [◯](https://huggingface.co/rinna/japanese-stable-diffusion) |
 
 <a id="benchmark-suites"></a>
-## （参考）日本語LLMベンチマークまとめ
+## （参考）日本語LLMベンチマーク/データセットまとめ
 
-#### 基礎的な自然言語理解 (NLU) を中心に測定するベンチマーク
+#### 基礎的な自然言語理解 (NLU) を中心に測定するベンチマーク/データセット
 
 - [llm-jp-eval リーダーボード](http://wandb.me/llm-jp-leaderboard) (LLM-jp)
   - 複数のデータセットを横断して日本語 LLM を自動評価する [llm-jp-eval](https://github.com/llm-jp/llm-jp-eval) スクリプトの結果をまとめている。LLM-jp-13B 公開時点で [Jamp](https://github.com/tomo-ut/temporalNLI_dataset), [JaNLI](https://github.com/verypluming/JaNLI), [JCommonsenseQA](https://github.com/yahoojapan/JGLUE), [JEMHopQA](https://github.com/aiishii/JEMHopQA), [JNLI](https://github.com/yahoojapan/JGLUE), [JSeM](https://github.com/DaisukeBekki/JSeM), [JSICK](https://github.com/verypluming/JSICK), [JSQuAD](https://github.com/yahoojapan/JGLUE), [JSTS](https://github.com/yahoojapan/JGLUE), [NIILC](https://github.com/mynlp/niilc-qa) の評価結果が掲載されている
@@ -193,13 +194,15 @@
 - [Nejumi LLMリーダーボード](https://wandb.ai/wandb/LLM_evaluation_Japan/reports/LLM-JGLUE---Vmlldzo0NTUzMDE2?accessToken=u1ttt89al8oo5p5j12eq3nldxh0378os9qjjh14ha1yg88nvs5irmuao044b6eqa) (Weights & Biases)
   - JGLUE に対するモデルの zero-shot 評価をまとめている
 
-#### 人間らしい応答の生成能力を中心に測定するベンチマーク
+#### 人間らしい応答の生成能力を中心に測定するベンチマーク/データセット
 
 - [Rakuda Benchmark](https://yuzuai.jp/benchmark) (YuzuAI)
   - 日本の地理、歴史、政治、社会に関する[40問の自由質問](https://huggingface.co/datasets/yuzuai/rakuda-questions)に対してモデルに出力を行わせる。GPT-4 が同じ質問に対する2つのモデルの出力を比べ、どちらの答えが優れているかを判断することにより、モデルのランク付けを行う
 - [ELYZA-tasks-100](https://huggingface.co/datasets/elyza/ELYZA-tasks-100) (ELYZA)
   - 複雑な指示・タスクを含む100件の日本語データで、全てのデータに対して評価観点がアノテーションされている。<br>要約を修正し修正箇所を説明するタスク、具体的なエピソードから抽象的な教訓を述べるタスク、ユーザーの意図を汲み役に立つAIアシスタントとして振る舞うタスク、場合分けを必要とする複雑な算数のタスク、未知の言語からパターンを抽出し日本語訳する高度な推論を必要とするタスク、複数の指示を踏まえた上でyoutubeの対話を生成するタスク、架空の生き物や熟語に関する生成・大喜利などの想像力が求められるタスクなどが含まれている。<br>
   モデルの評価結果は[こちら](https://docs.google.com/spreadsheets/d/1mtoy4QAqDPk2f_B0vDogFoOrbA5G42DBEEHdqM4VmDI/edit#gid=1023787356)や[こちら](https://zenn.dev/elyza/articles/5e7d9373c32a98)を参照
+- [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) (ストックマーク)
+  - 市場動向、時事問題、社会課題、ビジネストレンドなどの知識を問う問題が50題収録されている。
 
 <a id="reference"></a>
 ## （参考）各モデルの原論文
