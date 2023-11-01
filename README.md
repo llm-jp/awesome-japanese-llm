@@ -1,6 +1,13 @@
 # 日本語LLMまとめ
 [ [**English**](./README_en.md) | 日本語 ]
 
+<p align="center">
+  <img src="figures/parameter_size_overview.png" alt="日本語LLM・英語LLMのパラメータサイズの推移" width="768px">
+</p>
+<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">日本語LLM・英語LLMのパラメータサイズの推移。日本語モデルの情報は本記事、英語モデルの情報は LifeArchitect.ai の <a href="https://lifearchitect.ai/models-table/">Models table</a> を参照しています。修正・追加等ありましたらお知らせ下さい。</figcaption>
+
+---
+
 この記事は、一般公開されている日本語LLM（日本語を中心に学習されたLLM）に関する情報をまとめたものです。情報は、有志により収集されており、その一部は論文や公開されているリソースなどから引用しています。
 
 ⚠ 以下の点について、あらかじめご理解とご了承をお願いいたします：
@@ -25,7 +32,6 @@
   - [その他](#multimodal-others)
 - [（参考）日本語LLMベンチマーク/データセットまとめ](#benchmark-suites)
 - [（参考）各モデルの原論文](#reference)
-- [（参考）日本語LLM・英語LLMのパラメータサイズの推移](#parameter-size-overview)
 
 <a id="generative"></a>
 ## テキスト生成に主に使うモデル
@@ -233,14 +239,6 @@
 | InstructBLIP | 2023.05.11 | - | [InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning](https://arxiv.org/abs/2305.06500) |
 | RWKV | 2023.05.22 | - | [RWKV: Reinventing RNNs for the Transformer Era](https://arxiv.org/abs/2305.13048) |
 | Llama 2 | 2023.07.18 | - | [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288) |
-
-<a id="parameter-size-overview"></a>
-## （参考）日本語LLM・英語LLMのパラメータサイズの推移
-
-<p align="center">
-  <img src="figures/parameter_size_overview.png" alt="日本語LLM・英語LLMのパラメータサイズの推移" width="768px">
-</p>
-<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">日本語LLM・英語LLMのパラメータサイズの推移。日本語モデルの情報は本記事、英語モデルの情報は LifeArchitect.ai の <a href="https://lifearchitect.ai/models-table/">Models table</a> を参照しています。修正・追加等ありましたらお知らせ下さい。</figcaption>
 
 ---
 

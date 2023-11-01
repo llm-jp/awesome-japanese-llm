@@ -1,6 +1,13 @@
 # Overview of Japanese LLMs
 [ English | [**日本語**](./README.md) ]
 
+<p align="center">
+  <img src="figures/parameter_size_overview.png" alt="Parameter sizes of Japanese and English LLMs over time" width="768px">
+</p>
+<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">Parameter sizes of Japanese and English LLMs over time. We refer to this article for information about Japanese LLMs, and to the <a href="https://lifearchitect.ai/models-table/">Models table</a> on LifeArchitect.ai for information about English LLMs. Please notify us if there are any corrections or additions needed.</figcaption>
+
+---
+
 A list of publicly available LLMs trained with a focus on Japanese, maintained by volunteers based on public data.
 
 ⚠ Caution:
@@ -24,7 +31,6 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
   - [Other](#multimodal-others)
 - [Benchmarks for Japanese LLMs](#benchmark-suites)
 - [References for Model Architectures](#reference)
-- [Parameter sizes of Japanese and English LLMs over time](#parameter-size-overview)
 
 
 <a id="generative"></a>
@@ -231,14 +237,6 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | InstructBLIP | 2023.05.11 | - | [InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning](https://arxiv.org/abs/2305.06500) |
 | RWKV | 2023.05.22 | - | [RWKV: Reinventing RNNs for the Transformer Era](https://arxiv.org/abs/2305.13048) |
 | Llama 2 | 2023.07.18 | - | [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288) |
-
-<a id="parameter-size-overview"></a>
-## Parameter sizes of Japanese and English LLMs over time
-
-<p align="center">
-  <img src="figures/parameter_size_overview.png" alt="Parameter sizes of Japanese and English LLMs over time" width="768px">
-</p>
-<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">Parameter sizes of Japanese and English LLMs over time. We refer to this article for information about Japanese LLMs, and to the <a href="https://lifearchitect.ai/models-table/">Models table</a> on LifeArchitect.ai for information about English LLMs. Please notify us if there are any corrections or additions needed.</figcaption>
 
 ---
 
