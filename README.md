@@ -22,7 +22,7 @@
 - [テキスト生成に主に使うモデル](#generative)
   - [汎用](#generative-general)
   - [ドメイン特化型](#generative-domain-specific)
-  - [（参考）英語LLMに日本語で追加学習されたモデル](#english-based-models)
+  - [英語LLMに日本語で追加学習されたモデル](#english-based-models)
 - [入力テキストの処理に主に使うモデル](#autoencoding)
   - [汎用](#autoencoding-general)
   - [ドメイン特化型](#autoencoding-domain-specific)
@@ -30,8 +30,9 @@
 - [視覚言語モデル (Vision-Language Models)](#multimodal)
   - [画像を含むテキスト生成](#multimodal-text-generation)
   - [その他](#multimodal-others)
-- [（参考）日本語LLMベンチマーク/データセットまとめ](#benchmark-suites)
-- [（参考）各モデルの原論文](#reference)
+- [日本語LLMベンチマーク/データセットまとめ](#benchmark-suites)
+- [各モデルの原論文](#reference)
+- [コントリビューター](#contributors)
 
 <a id="generative"></a>
 ## テキスト生成に主に使うモデル
@@ -74,7 +75,7 @@
 | [AcademicBART](https://github.com/EhimeNLP/AcademicBART) | BART (base) | CiNii の日本語論文 | 愛媛大 人工知能研究室 | Apache 2.0 | [◯](https://huggingface.co/EhimeNLP/AcademicBART) |
 
 <a id="english-based-models"></a>
-### （参考）英語LLMに日本語で追加学習されたモデル
+### 英語LLMに日本語で追加学習されたモデル
 
 |    | ベースの英語LLM  |  開発元  |
 |:---|:---:|:---:|
@@ -181,7 +182,7 @@
 | [日本語 Stable Diffusion](https://rinna.co.jp/news/2022/09/20220909.html) | Stable Diffusion (最初にテキストエンコーダのみ日本語キャプション付き画像を用いて追加学習を行い、次にテキストエンコーダと生成モデルのパラメータを同時に更新する追加学習を行う) |  LAION-5B データセットのうちキャプションが日本語のもの（画像約 1 億枚）| rinna | [CreativeML OpenRAIL-M license](https://huggingface.co/spaces/CompVis/stable-diffusion-license) | [◯](https://huggingface.co/rinna/japanese-stable-diffusion) |
 
 <a id="benchmark-suites"></a>
-## （参考）日本語LLMベンチマーク/データセットまとめ
+## 日本語LLMベンチマーク/データセットまとめ
 
 #### 基礎的な自然言語理解 (NLU) を中心に測定するベンチマーク/データセット
 
@@ -205,7 +206,7 @@
   - 市場動向、時事問題、社会課題、ビジネストレンドなどの知識を問う問題が50題収録されている。
 
 <a id="reference"></a>
-## （参考）各モデルの原論文
+## 各モデルの原論文
 
 | モデル名 | 初出時期 | 会議/ジャーナル | 論文 |
 |:---|:---|:---|:--|
@@ -239,6 +240,9 @@
 | InstructBLIP | 2023.05.11 | - | [InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning](https://arxiv.org/abs/2305.06500) |
 | RWKV | 2023.05.22 | - | [RWKV: Reinventing RNNs for the Transformer Era](https://arxiv.org/abs/2305.13048) |
 | Llama 2 | 2023.07.18 | - | [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288) |
+
+<a id="contributors"></a>
+## コントリビューター
 
 ---
 
