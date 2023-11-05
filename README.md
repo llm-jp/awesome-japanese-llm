@@ -251,7 +251,7 @@
 | Llama 2 | 2023.07.18 | - | [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288) |
 
 <a id="contributors"></a>
-### コントリビューター
+## コントリビューター
 
 このプロジェクトに貢献してくれているコントリビューターのみなさんです！
 

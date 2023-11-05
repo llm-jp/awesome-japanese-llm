@@ -249,7 +249,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | Llama 2 | 2023.07.18 | - | [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288) |
 
 <a id="contributors"></a>
-### Our Contributors
+## Our Contributors
 
 We love contributors! Feel free to contribute to this project.
 
