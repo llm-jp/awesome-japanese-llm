@@ -20,9 +20,10 @@
 ## 目次
 
 - [テキスト生成に主に使うモデル](#generative)
-  - [汎用](#generative-general)
-  - [ドメイン特化型](#generative-domain-specific)
-  - [（参考）英語LLMに日本語で追加学習されたモデル](#english-based-models)
+  - [フルスクラッチ事前学習モデル](#full-scratch-models)
+    - [汎用](#generative-general)
+    - [ドメイン特化型](#generative-domain-specific)
+  - [継続事前学習モデル](#english-based-models)
 - [入力テキストの処理に主に使うモデル](#autoencoding)
   - [汎用](#autoencoding-general)
   - [ドメイン特化型](#autoencoding-domain-specific)
@@ -30,16 +31,19 @@
 - [視覚言語モデル (Vision-Language Models)](#multimodal)
   - [画像を含むテキスト生成](#multimodal-text-generation)
   - [その他](#multimodal-others)
-- [（参考）日本語LLMベンチマーク/データセットまとめ](#benchmark-suites)
-- [（参考）各モデルの原論文](#reference)
+- [日本語LLMベンチマーク/データセットまとめ](#benchmark-suites)
+- [各モデルの原論文](#reference)
 
 <a id="generative"></a>
 ## テキスト生成に主に使うモデル
 
 *画像を含むテキスト生成モデルは[こちら](#multimodal-text-generation)*
 
+<a id="full-scratch-models"></a>
+### フルスクラッチ事前学習モデル
+
 <a id="generative-general"></a>
-### 汎用
+#### 汎用
 
 |    |  モデル  |  学習テキスト  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|
@@ -65,7 +69,7 @@
 | [Megagon Labs T5](https://github.com/megagonlabs/t5-japanese) | T5<br>([base](https://huggingface.co/megagonlabs/t5-base-japanese-web)) | Japanese mC4 (87,425,304 ページ (782 GB))<br>+ Japanese wiki40b (828,236 記事 (2 GB)) | Megagon Labs <br> (リクルート) | Apache 2.0 |
 
 <a id="generative-domain-specific"></a>
-### ドメイン特化型
+#### ドメイン特化型
 
 |    |  モデル  |  学習テキスト  |  開発元  | ライセンス | HuggingFace ですぐ使える？ [^4]  |
 |:---|:---:|:---:|:---:|:---:|:---:|
@@ -74,7 +78,7 @@
 | [AcademicBART](https://github.com/EhimeNLP/AcademicBART) | BART (base) | CiNii の日本語論文 | 愛媛大 人工知能研究室 | Apache 2.0 | [◯](https://huggingface.co/EhimeNLP/AcademicBART) |
 
 <a id="english-based-models"></a>
-### （参考）英語LLMに日本語で追加学習されたモデル
+### 継続事前学習モデル
 
 |    | ベースの英語LLM  |  開発元  |
 |:---|:---:|:---:|
@@ -181,7 +185,7 @@
 | [日本語 Stable Diffusion](https://rinna.co.jp/news/2022/09/20220909.html) | Stable Diffusion (最初にテキストエンコーダのみ日本語キャプション付き画像を用いて追加学習を行い、次にテキストエンコーダと生成モデルのパラメータを同時に更新する追加学習を行う) |  LAION-5B データセットのうちキャプションが日本語のもの（画像約 1 億枚）| rinna | [CreativeML OpenRAIL-M license](https://huggingface.co/spaces/CompVis/stable-diffusion-license) | [◯](https://huggingface.co/rinna/japanese-stable-diffusion) |
 
 <a id="benchmark-suites"></a>
-## （参考）日本語LLMベンチマーク/データセットまとめ
+## 日本語LLMベンチマーク/データセットまとめ
 
 #### 基礎的な自然言語理解 (NLU) を中心に測定するベンチマーク/データセット
 
@@ -205,7 +209,7 @@
   - 市場動向、時事問題、社会課題、ビジネストレンドなどの知識を問う問題が50題収録されている。
 
 <a id="reference"></a>
-## （参考）各モデルの原論文
+## 各モデルの原論文
 
 | モデル名 | 初出時期 | 会議/ジャーナル | 論文 |
 |:---|:---|:---|:--|
