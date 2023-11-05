@@ -32,6 +32,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
   - [Other](#multimodal-others)
 - [Benchmarks for Japanese LLMs](#benchmark-suites)
 - [References for Model Architectures](#reference)
+- [Our Contributors](#contributors)
 
 
 <a id="generative"></a>
@@ -246,6 +247,17 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | InstructBLIP | 2023.05.11 | - | [InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning](https://arxiv.org/abs/2305.06500) |
 | RWKV | 2023.05.22 | - | [RWKV: Reinventing RNNs for the Transformer Era](https://arxiv.org/abs/2305.13048) |
 | Llama 2 | 2023.07.18 | - | [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288) |
+
+<a id="contributors"></a>
+### Our Contributors
+
+We love contributors! Feel free to contribute to this project.
+
+<a href="https://github.com/llm-jp/awesome-japanese-llm/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=llm-jp/awesome-japanese-llm" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
 
 ---
 

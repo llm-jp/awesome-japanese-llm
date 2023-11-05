@@ -33,6 +33,7 @@
   - [その他](#multimodal-others)
 - [日本語LLMベンチマーク/データセットまとめ](#benchmark-suites)
 - [各モデルの原論文](#reference)
+- [コントリビューター](#contributors)
 
 <a id="generative"></a>
 ## テキスト生成に主に使うモデル
@@ -248,6 +249,17 @@
 | InstructBLIP | 2023.05.11 | - | [InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning](https://arxiv.org/abs/2305.06500) |
 | RWKV | 2023.05.22 | - | [RWKV: Reinventing RNNs for the Transformer Era](https://arxiv.org/abs/2305.13048) |
 | Llama 2 | 2023.07.18 | - | [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288) |
+
+<a id="contributors"></a>
+### コントリビューター
+
+このプロジェクトに貢献してくれているコントリビューターのみなさんです！
+
+<a href="https://github.com/llm-jp/awesome-japanese-llm/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=llm-jp/awesome-japanese-llm" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
 
 ---
 
