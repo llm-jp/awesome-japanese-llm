@@ -19,8 +19,9 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 ## Table of Contents
 - [Text Generation Models](#generative)
-  - [General purpose](#generative-general)
-  - [Domain specific](#generative-domain-specific)
+  - [Models built from scratch](#full-scratch-models)
+    - [General purpose](#generative-general)
+    - [Domain specific](#generative-domain-specific)
   - [Models built off English LLMs](#english-based-models)
 - [Encoder Models](#autoencoding)
   - [General purpose](#autoencoding-general)
@@ -38,8 +39,11 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 *For multimodal models, see [below.](#multimodal-text-generation)*
 
+<a id="full-scratch-models"></a>
+### Models built from scratch
+
 <a id="generative-general"></a>
-### General purpose
+#### General purpose
 
 |    |  Architecture  |  Training Data  |  Developer  | License |
 |:---|:---:|:---:|:---:|:---:|
@@ -65,7 +69,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [Megagon Labs T5](https://github.com/megagonlabs/t5-japanese) | T5 <br>([base](https://huggingface.co/megagonlabs/t5-base-japanese-web)) | Japanese mC4 (782 GB), Japanese wiki40b (2 GB) | Megagon Labs <br> (Recruit) | Apache 2.0 |
 
 <a id="generative-domain-specific"></a>
-### Domain Specific
+#### Domain Specific
 
 |    |  Architecture  |  Training Data  |  Developer  | License | HuggingFace？ [^4]  |
 |:---|:---:|:---:|:---:|:---:|:---:|
