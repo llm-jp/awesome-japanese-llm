@@ -1,5 +1,5 @@
 # Aperçu des grands modèles de langage (LLM) en japonais
-[ Français | **Anglais**(./README_en.md) | [**Japonais**](./README.md) ]
+[ [**Anglais**](./README_en.md) | Français | [**Japonais**](./README.md) ]
 
 <p align="center">
   <img src="figures/parameter_size_overview.png" alt="Tailles des paramètres des LLMs en japonais et anglais au fil du temps" width="768px">
