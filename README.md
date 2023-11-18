@@ -1,5 +1,5 @@
 # 日本語LLMまとめ
-[ [**English**](./README_en.md) | 日本語 ]
+[ [**English**](./README_en.md) | [**Français**](./README_fr.md) | 日本語 ]
 
 <p align="center">
   <img src="figures/parameter_size_overview.png" alt="日本語LLM・英語LLMのパラメータサイズの推移" width="768px">

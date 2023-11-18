@@ -1,5 +1,5 @@
 # Overview of Japanese LLMs
-[ English | [**日本語**](./README.md) ]
+[ English | [**Français**](./README_fr.md) | [**日本語**](./README.md) ]
 
 <p align="center">
   <img src="figures/parameter_size_overview.png" alt="Parameter sizes of Japanese and English LLMs over time" width="768px">
