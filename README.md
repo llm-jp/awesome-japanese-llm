@@ -260,10 +260,8 @@
 このプロジェクトに貢献してくれているコントリビューターのみなさんです！
 
 <a href="https://github.com/llm-jp/awesome-japanese-llm/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=llm-jp/awesome-japanese-llm" />
+  <img src="figures/contributors.svg" />
 </a>
-
-Made with [contrib.rocks](https://contrib.rocks).
 
 ---
 
