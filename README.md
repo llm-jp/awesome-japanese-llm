@@ -113,7 +113,8 @@
 
 |    | ベースの英語LLM  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|
-| [JMedLoRA](https://arxiv.org/pdf/2310.10083.pdf)<br>([AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep](https://huggingface.co/AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep)) | Llama 2 (**70b**) | 東京大学医学部附属病院 循環器内科 AIグループ | CC BY-NC 4.0 |
+| [ELYZA-japanese-CodeLlama-7b](https://note.com/elyza/n/n5bce23d7c9c8)<br>([7b](https://huggingface.co/elyza/ELYZA-japanese-CodeLlama-7b), [7b-instruct](https://huggingface.co/elyza/ELYZA-japanese-CodeLlama-7b-instruct)) | Code Llama<br>(**7b**) | ELYZA | Llama 2 Community License |
+| [JMedLoRA](https://arxiv.org/pdf/2310.10083.pdf)<br>([llama2-jmedlora-6.89ep](https://huggingface.co/AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep)) | Llama 2 (**70b**) | 東京大学医学部附属病院 循環器内科 AIグループ | CC BY-NC 4.0 |
 
 <a id="autoencoding"></a>
 ## 入力テキストの処理に主に使うモデル
