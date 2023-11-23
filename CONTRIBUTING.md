@@ -6,10 +6,6 @@ Thank you for considering contributing to awesome-japanese-llm. These guidelines
 
 - We do not include models specialized for specific tasks (such as BERT fine-tuned on QA datasets).
 
-- Likewise, we do not list quantized versions of original models or those converted to GGML/GGUF formats.
-
-- However, models officially released by the model's original authors might constitute exceptions.
-
 ## About Datasets/Leaderboards
 
 - As a general rule, we only include datasets or leaderboards used for evaluation by organizations that have developed large scale Japanese language models.
@@ -26,11 +22,7 @@ awesome-japanese-llmへの貢献に関心を持って頂きありがとうござ
 
 ## モデルについて
 
-- 特定のタスクに特化したモデル（例：BERTをQAデータセットに fine-tuning させたもの）は掲載しません。
-
-- 元のモデルを量子化したものやGGML/GGUF形式に変換したものも掲載しません。
-
-- しかし、モデルの開発元が公式にリリースしたものについては例外として掲載することを考慮します。
+- 特定のタスクに特化したモデル（例：BERTをQAデータセットに fine-tuning させたもの）は原則として掲載しません。
 
 ## データセット/リーダーボードについて
 
