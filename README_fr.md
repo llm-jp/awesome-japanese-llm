@@ -32,7 +32,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 - [Modèles Vision-Language](#multimodal)
   - [Text+Image vers Text](#multimodal-text-generation)
   - [Autres](#multimodal-others)
-- [Standard pour les LLM en japonais](#benchmark-suites)
+- [Standard d'évaluation pour les LLM en japonais](#benchmark-suites)
 - [Références par architecture des modèles](#reference)
 - [Nos contributors](#contributors)
 
@@ -204,7 +204,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [Japanese Stable Diffusion](https://rinna.co.jp/news/2022/09/20220909.html) | Stable Diffusion (Premier apprentissage de l'encodeur textuelle en japonais avec des pairs image-caption, puis apprentissage double de l'encodeur et du modèle de diffision) |  LAION-5B Japanese Subset (100M images) | rinna | [CreativeML OpenRAIL-M License](https://huggingface.co/spaces/CompVis/stable-diffusion-license) | [◯](https://huggingface.co/rinna/japanese-stable-diffusion) |
 
 <a id="benchmark-suites"></a>
-##  Standard pour les LLM en japonais
+## Standard d'évaluation pour les LLM en japonais
 
 #### Référence traditionnelle basé sur des tâches de Compréhension du langage naturel (NLU)
 

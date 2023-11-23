@@ -33,7 +33,7 @@
 - [視覚言語モデル (Vision-Language Models)](#multimodal)
   - [画像を含むテキスト生成](#multimodal-text-generation)
   - [その他](#multimodal-others)
-- [日本語LLMベンチマーク/データセットまとめ](#benchmark-suites)
+- [日本語LLM評価ベンチマーク/データセットまとめ](#benchmark-suites)
 - [各モデルの原論文](#reference)
 - [コントリビューター](#contributors)
 
@@ -204,7 +204,7 @@
 | [日本語 Stable Diffusion](https://rinna.co.jp/news/2022/09/20220909.html) | Stable Diffusion (最初にテキストエンコーダのみ日本語キャプション付き画像を用いて追加学習を行い、次にテキストエンコーダと生成モデルのパラメータを同時に更新する追加学習を行う) |  LAION-5B データセットのうちキャプションが日本語のもの（画像約 1 億枚）| rinna | [CreativeML OpenRAIL-M License](https://huggingface.co/spaces/CompVis/stable-diffusion-license) | [◯](https://huggingface.co/rinna/japanese-stable-diffusion) |
 
 <a id="benchmark-suites"></a>
-## 日本語LLMベンチマーク/データセットまとめ
+## 日本語LLM評価ベンチマーク/データセットまとめ
 
 #### 基礎的な自然言語理解 (NLU) を中心に測定するベンチマーク/データセット
 

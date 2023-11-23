@@ -32,7 +32,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 - [Vision-Language Models](#multimodal)
   - [Text+Image to Text](#multimodal-text-generation)
   - [Other](#multimodal-others)
-- [Benchmarks for Japanese LLMs](#benchmark-suites)
+- [Evaluation Benchmarks for Japanese LLMs](#benchmark-suites)
 - [References for Model Architectures](#reference)
 - [Our Contributors](#contributors)
 
@@ -204,7 +204,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [Japanese Stable Diffusion](https://rinna.co.jp/news/2022/09/20220909.html) | Stable Diffusion (First training the text encoder on Japanese image-caption pairs, then training both the encoder and the diffusion model) |  LAION-5B Japanese Subset (100M images) | rinna | [CreativeML OpenRAIL-M License](https://huggingface.co/spaces/CompVis/stable-diffusion-license) | [◯](https://huggingface.co/rinna/japanese-stable-diffusion) |
 
 <a id="benchmark-suites"></a>
-##  Benchmarks for Japanese LLMs
+## Evaluation Benchmarks for Japanese LLMs
 
 #### Traditional Benchmarks based on Natural Language Understanding tasks
 
