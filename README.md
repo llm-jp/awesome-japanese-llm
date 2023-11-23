@@ -21,9 +21,11 @@
 
 - [テキスト生成に主に使うモデル](#generative)
   - [フルスクラッチ事前学習モデル](#full-scratch-models)
-    - [汎用](#generative-general)
-    - [ドメイン特化型](#generative-domain-specific)
+    - [汎用](#generative-scratch-general)
+    - [ドメイン特化型](#generative-scratch-domain-specific)
   - [継続事前学習モデル](#english-based-models)
+    - [汎用](#generative-continual-general)
+    - [ドメイン特化型](#generative-continual-domain-specific)
 - [入力テキストの処理に主に使うモデル](#autoencoding)
   - [汎用](#autoencoding-general)
   - [ドメイン特化型](#autoencoding-domain-specific)
@@ -43,7 +45,7 @@
 <a id="full-scratch-models"></a>
 ### フルスクラッチ事前学習モデル
 
-<a id="generative-general"></a>
+<a id="generative-scratch-general"></a>
 #### 汎用
 
 |    |  モデル  |  学習テキスト  |  開発元  | ライセンス |
@@ -70,7 +72,7 @@
 | [日本語BART](https://huggingface.co/ku-nlp/bart-base-japanese) | BART<br>([base](https://huggingface.co/ku-nlp/bart-base-japanese), [large](https://huggingface.co/ku-nlp/bart-large-japanese)) | 日本語 Wikipedia (約1,800万文) | 京大 言語メディア研究室 | CC BY-SA 4.0 |
 | [Megagon Labs T5](https://github.com/megagonlabs/t5-japanese) | T5<br>([base](https://huggingface.co/megagonlabs/t5-base-japanese-web)) | Japanese mC4 (87,425,304 ページ (782 GB))<br>+ Japanese wiki40b (828,236 記事 (2 GB)) | Megagon Labs <br> (リクルート) | Apache 2.0 |
 
-<a id="generative-domain-specific"></a>
+<a id="generative-scratch-domain-specific"></a>
 #### ドメイン特化型
 
 |    |  モデル  |  学習テキスト  |  開発元  | ライセンス | HuggingFace ですぐ使える？ [^4]  |
@@ -81,6 +83,9 @@
 
 <a id="english-based-models"></a>
 ### 継続事前学習モデル
+
+<a id="generative-continual-general"></a>
+#### 汎用
 
 |    | ベースの英語LLM  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|
@@ -103,6 +108,12 @@
 | [NovelAI/genji-jp](https://huggingface.co/NovelAI/genji-jp) | GPT-J (**6b**) | NovelAI |  ？  |
 | [Japanese Stable LM 3B-4E1T](https://ja.stability.ai/blog/japanese-stable-lm-3b-4e1tjapanese-stable-lm-gamma-7b)<br>([3b-4e1t-base](https://huggingface.co/stabilityai/japanese-stablelm-3b-4e1t-base), [3b-4e1t-instruct](https://huggingface.co/stabilityai/japanese-stablelm-3b-4e1t-instruct)) | StableLM-3B-4E1T (**3b**) | Stability AI |  Apache 2.0  |
 
+<a id="generative-continual-domain-specific"></a>
+#### ドメイン特化型
+
+|    | ベースの英語LLM  |  開発元  | ライセンス |
+|:---|:---:|:---:|:---:|
+| [JMedLoRA](https://arxiv.org/pdf/2310.10083.pdf)<br>([AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep](https://huggingface.co/AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep)) | Llama 2 (**70b**) | 東京大学医学部附属病院 循環器内科 AIグループ | CC BY-NC 4.0 |
 
 <a id="autoencoding"></a>
 ## 入力テキストの処理に主に使うモデル
