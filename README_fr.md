@@ -20,9 +20,11 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 ## Table des matières
 - [Modèles IA génératives](#generative)
   - [Modèles développés à partir de zéro](#full-scratch-models)
-    - [D'usage général](#generative-general)
-    - [Spécifique à un domaine](#generative-domain-specific)
+    - [D'usage général](#generative-scratch-general)
+    - [Spécifique à un domaine](#generative-scratch-domain-specific)
   - [Modèles développés à partir d'LLM en anglais](#english-based-models)
+    - [D'usage général](#generative-continual-general)
+    - [Spécifique à un domaine](#generative-continual-domain-specific)
 - [Modèles encodeur](#autoencoding)
   - [D'usage général](#autoencoding-general)
   - [Spécifique à un domaine](#autoencoding-domain-specific)
@@ -43,7 +45,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 <a id="full-scratch-models"></a>
 ### Modèles développés à partir de zéro
 
-<a id="generative-general"></a>
+<a id="generative-scratch-general"></a>
 #### D'usage général
 
 |    |  Architecture  |  Données d'entraînement  |  Développeur  | Licence |
@@ -70,7 +72,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [JapaneseBART](https://huggingface.co/ku-nlp/bart-base-japanese) | BART <br>([base](https://huggingface.co/ku-nlp/bart-base-japanese), [large](https://huggingface.co/ku-nlp/bart-large-japanese)) | Wikipédia en japonais (18M sentences) | Université de Kyoto Laboratoire de traitement des langues et des médias | CC BY&#x2011;SA 4.0 |
 | [Megagon Labs T5](https://github.com/megagonlabs/t5-japanese) | T5 <br>([base](https://huggingface.co/megagonlabs/t5-base-japanese-web)) | Japanese mC4 (782 GB), Wikipédia en japonais 40b (2 GB) | Megagon Labs <br> (Recruit) | Apache 2.0 |
 
-<a id="generative-domain-specific"></a>
+<a id="generative-scratch-domain-specific"></a>
 #### Spécifique à un domaine
 
 |    |  Architecture  |  Données d'entraînement  |  Développeur  | Licence | HuggingFace？ [^4]  |
@@ -81,6 +83,9 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 
 <a id="english-based-models"></a>
 ### Modèles développés à partir d'LLM en anglais
+
+<a id="generative-continual-general"></a>
+#### D'usage général
 
 |    | Base du Model  |  Développeur  |  Licence  |
 |:---|:---:|:---:|:---:|
@@ -102,6 +107,13 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [AIBunCho/japanese-novel-gpt-j-6b](https://huggingface.co/AIBunCho/japanese-novel-gpt-j-6b) | GPT-J (**6b**) | Industrial Dream[^5] | CreativeML OpenRAIL-M License |
 | [NovelAI/genji-jp](https://huggingface.co/NovelAI/genji-jp) | GPT-J (**6b**) | NovelAI |  ？  |
 | [Japanese Stable LM 3B-4E1T](https://ja.stability.ai/blog/japanese-stable-lm-3b-4e1tjapanese-stable-lm-gamma-7b)<br>([3b-4e1t-base](https://huggingface.co/stabilityai/japanese-stablelm-3b-4e1t-base), [3b-4e1t-instruct](https://huggingface.co/stabilityai/japanese-stablelm-3b-4e1t-instruct)) | StableLM-3B-4E1T (**3b**) | Stability AI |  Apache 2.0  |
+
+<a id="generative-continual-domain-specific"></a>
+#### Spécifique à un domaine
+
+|    | Base du Model  |  Développeur  |  Licence  |
+|:---|:---:|:---:|:---:|
+| [JMedLoRA](https://arxiv.org/pdf/2310.10083.pdf)<br>([AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep](https://huggingface.co/AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep)) | Llama 2 (**70b**) | Université de Tokyo - AI Group du Département hospitalier de médecine cardiovasculaire | CC BY-NC 4.0 |
 
 <a id="autoencoding"></a>
 ## Modèles encodeur

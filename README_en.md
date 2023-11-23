@@ -20,9 +20,11 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 ## Table of Contents
 - [Text Generation Models](#generative)
   - [Models built from scratch](#full-scratch-models)
-    - [General purpose](#generative-general)
-    - [Domain specific](#generative-domain-specific)
+    - [General purpose](#generative-scratch-general)
+    - [Domain specific](#generative-scratch-domain-specific)
   - [Models built off English LLMs](#english-based-models)
+    - [General purpose](#generative-continual-general)
+    - [Domain specific](#generative-continual-domain-specific)
 - [Encoder Models](#autoencoding)
   - [General purpose](#autoencoding-general)
   - [Domain specific](#autoencoding-domain-specific)
@@ -43,7 +45,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 <a id="full-scratch-models"></a>
 ### Models built from scratch
 
-<a id="generative-general"></a>
+<a id="generative-scratch-general"></a>
 #### General purpose
 
 |    |  Architecture  |  Training Data  |  Developer  | License |
@@ -70,7 +72,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [JapaneseBART](https://huggingface.co/ku-nlp/bart-base-japanese) | BART <br>([base](https://huggingface.co/ku-nlp/bart-base-japanese), [large](https://huggingface.co/ku-nlp/bart-large-japanese)) | Japanese Wikipedia (18M sentences) | Kyoto University Language Media Processing Lab | CC BY&#x2011;SA 4.0 |
 | [Megagon Labs T5](https://github.com/megagonlabs/t5-japanese) | T5 <br>([base](https://huggingface.co/megagonlabs/t5-base-japanese-web)) | Japanese mC4 (782 GB), Japanese wiki40b (2 GB) | Megagon Labs <br> (Recruit) | Apache 2.0 |
 
-<a id="generative-domain-specific"></a>
+<a id="generative-scratch-domain-specific"></a>
 #### Domain Specific
 
 |    |  Architecture  |  Training Data  |  Developer  | License | HuggingFace？ [^4]  |
@@ -81,6 +83,9 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 <a id="english-based-models"></a>
 ### Models built off English LLMs
+
+<a id="generative-continual-general"></a>
+#### General purpose
 
 |    | Base Model  |  Developer  |  License  |
 |:---|:---:|:---:|:---:|
@@ -102,6 +107,13 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [AIBunCho/japanese-novel-gpt-j-6b](https://huggingface.co/AIBunCho/japanese-novel-gpt-j-6b) | GPT-J (**6b**) | Industrial Dream[^5] | CreativeML OpenRAIL-M License |
 | [NovelAI/genji-jp](https://huggingface.co/NovelAI/genji-jp) | GPT-J (**6b**) | NovelAI |  ？  |
 | [Japanese Stable LM 3B-4E1T](https://ja.stability.ai/blog/japanese-stable-lm-3b-4e1tjapanese-stable-lm-gamma-7b)<br>([3b-4e1t-base](https://huggingface.co/stabilityai/japanese-stablelm-3b-4e1t-base), [3b-4e1t-instruct](https://huggingface.co/stabilityai/japanese-stablelm-3b-4e1t-instruct)) | StableLM-3B-4E1T (**3b**) | Stability AI |  Apache 2.0  |
+
+<a id="generative-continual-domain-specific"></a>
+#### Domain specific
+
+|    | Base Model  |  Developer  |  License  |
+|:---|:---:|:---:|:---:|
+| [JMedLoRA](https://arxiv.org/pdf/2310.10083.pdf)<br>([AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep](https://huggingface.co/AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep)) | Llama 2 (**70b**) | University of Tokyo Hospital Department of Cardiovascular Medicine AI Group | CC BY-NC 4.0 |
 
 <a id="autoencoding"></a>
 ## Encoder models
