@@ -291,7 +291,6 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | Llama 2 | 2023.07.18 | - | [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288) |
 | LLaVA-1.5 | 2023.10.05 | - | [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744) |
 
-
 <a id="contributors"></a>
 ## Our Contributors
 
