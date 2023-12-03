@@ -220,7 +220,9 @@
 |:---|:---:|:---:|:---:|:---:|:---:|
 | [日本語CLIP](https://rinna.co.jp/news/2022/05/20220512.html) | CLIP <br>(画像エンコーダは  google/vit-base-patch16-224 で重みが初期化された ViT-B/16、<br>テキストエンコーダは rinna RoBERTa で重みが初期化された RoBERTa(base)) | CC12M のキャプションを日本語に翻訳したもの | rinna | Apache 2.0 | [◯](https://huggingface.co/rinna/japanese-clip-vit-b-16) |
 | [日本語CLOOB](https://rinna.co.jp/news/2022/05/20220512.html) | CLOOB <br>(画像エンコーダは  google/vit-base-patch16-224 で重みが初期化された ViT-B/16、<br>テキストエンコーダは rinna RoBERTa で重みが初期化された RoBERTa(base)) | CC12M のキャプションを日本語に翻訳したもの | rinna | Apache 2.0 | [◯](https://huggingface.co/rinna/japanese-cloob-vit-b-16) |
-| [日本語 Stable Diffusion](https://rinna.co.jp/news/2022/09/20220909.html) | Stable Diffusion (最初にテキストエンコーダのみ日本語キャプション付き画像を用いて追加学習を行い、次にテキストエンコーダと生成モデルのパラメータを同時に更新する追加学習を行う) |  LAION-5B データセットのうちキャプションが日本語のもの（画像約 1 億枚）| rinna | [CreativeML OpenRAIL-M License](https://huggingface.co/spaces/CompVis/stable-diffusion-license) | [◯](https://huggingface.co/rinna/japanese-stable-diffusion) |
+| [Japanese Stable Diffusion XL](https://ja.stability.ai/blog/japanese-stable-diffusion-xl) | Stable Diffusion | 不明 | Stability AI | STABILITY AI JAPANESE STABLE DIFFUSION XL COMMUNITY LICENSE | [◯](https://huggingface.co/stabilityai/japanese-stable-diffusion-xl) | 
+| [東北大Stable Diffusion](https://huggingface.co/cl-tohoku/stable-diffusion-xl-jp-base-1.0) | Stable Diffusion | WMT2023 Shared Task の日英対訳コーパス、laion2B-multi のキャプション約 1,300 万件 | 東北大<br>自然言語処理研究グループ | CreativeML OpenRAIL-M License | ◯ ([base](https://huggingface.co/cl-tohoku/stable-diffusion-xl-jp-base-1.0), [refiner](https://huggingface.co/cl-tohoku/stable-diffusion-xl-jp-refiner-1.0)) | 
+| [rinna Stable Diffusion](https://rinna.co.jp/news/2022/09/20220909.html) | Stable Diffusion |  LAION-5B データセットのうちキャプションが日本語のもの（画像約 1 億枚）| rinna | CreativeML OpenRAIL-M License | [◯](https://huggingface.co/rinna/japanese-stable-diffusion) |
 
 <a id="benchmark-suites"></a>
 ## 日本語LLM評価ベンチマーク/データセットまとめ
