@@ -13,7 +13,7 @@ A list of publicly available LLMs trained with a focus on Japanese, maintained b
 ⚠ Caution:
 1. We can't guarantee the accuracy or completeness of any information here.
 2. Some information is based on conjecture and might not reflect your specific use case.
-3. While many models are released under permissive licenses like MIT or Apache 2.0, some are subject to more restrictive terms including non-commercial use clauses (e.g CC BY&#x2011;NC&#x2011;SA) or other stipulations.
+3. While many models are released under permissive licenses like MIT or Apache 2.0, **some are subject to more restrictive terms including non-commercial use clauses (e.g CC BY-NC-SA 4.0) or other stipulations.**
 
 Please point out any errors on the [issues page](https://github.com/llm-jp/awesome-japanese-llm/issues). Feel free to contribute directly with a pull request.
 
@@ -246,9 +246,9 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 - [Rakuda Benchmark](https://yuzuai.jp/benchmark) (YuzuAI)
   - Ranking based on model answers to [40 open-ended questions](https://huggingface.co/datasets/yuzuai/rakuda-questions) on Japanese geography, history, politics, and society. Uses GPT-4 to judge model outputs pairwise, and then ranks models by fitting a Maximum Likelihood Elo/Bradley-Terry model to GPT-4's preferences. See [here](https://github.com/yuzu-ai/japanese-llm-ranking) for the data and code used to generate the ranking and [here](https://yuzuai.jp/blog/rakuda) for further explanation.
 - [ELYZA-tasks-100](https://huggingface.co/datasets/elyza/ELYZA-tasks-100) (ELYZA)
-  - Ranking based on model responses to [100 complex and diverse tasks](https://huggingface.co/datasets/elyza/ELYZA-tasks-100), including tasks testing summarization, correction, abstraction, induction, and other skills. Uses humans to score the model responses and then ranks models based on their mean scores. See [here](https://docs.google.com/spreadsheets/d/1mtoy4QAqDPk2f_B0vDogFoOrbA5G42DBEEHdqM4VmDI/edit#gid=1023787356) for the data used the generate the ranking and [here](https://zenn.dev/elyza/articles/5e7d9373c32a98) for further explanation.
+  - Ranking based on model responses to [100 complex and diverse tasks](https://huggingface.co/datasets/elyza/ELYZA-tasks-100), including tasks testing summarization, correction, abstraction, induction, and other skills. Uses humans to score the model responses and then ranks models based on their mean scores. See [here](https://docs.google.com/spreadsheets/d/1mtoy4QAqDPk2f_B0vDogFoOrbA5G42DBEEHdqM4VmDI/edit#gid=1023787356) for the data used to generate the ranking and [here](https://zenn.dev/elyza/articles/5e7d9373c32a98) for further explanation.
 - [Japanese MT-bench](https://github.com/Stability-AI/FastChat/tree/jp-stable/fastchat/llm_judge) (Stability AI)
-  - Japanese version of [MT-bench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) that asks about multi-turn conversational ability. It includes 80 questions, 10 each, from 8 categories: Writing, Roleplay, Reasoning, Math, Coding, Extraction, STEM, Humanities. Some questions have been modified to fit with Japanese culture during the production of the Japanese version. It also includes a script that performs a 10-level absolute evaluation by GPT-4. Evaluation results are detailed in the following summary article by shi3z: "[無償LLM 日本語能力ベンチマークまとめ](https://note.com/shi3zblog/n/n6b2ac5874021)"
+  - The Japanese version of [MT-bench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) asks about multi-turn conversational ability. It includes 80 questions, 10 each, from 8 categories: Writing, Roleplay, Reasoning, Math, Coding, Extraction, STEM, Humanities. Some questions have been modified to fit with Japanese culture during the production of the Japanese version. It also includes a script that performs a 10-level absolute evaluation by GPT-4. Evaluation results are detailed in the following summary article by shi3z: "[無償LLM 日本語能力ベンチマークまとめ](https://note.com/shi3zblog/n/n6b2ac5874021)"
 - [Japanese Vicuna QA Benchmark](https://github.com/hitoshizuku7/ja-vicuna-qa-benchmark) (Kyoto University Language Media Processing Lab)
   - This is the Japanese version of [vicuna-blog-eval](https://github.com/lm-sys/vicuna-blog-eval), which is the predecessor of MT-Bench. It includes 80 questions on general knowledge, role-playing, common sense, Fermi estimation, counterfactual thinking, coding, mathematics, and writing. It also includes a script for automatic evaluation by GPT-4 (win-rate calculation).
 - [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) (Stockmark)
@@ -312,20 +312,20 @@ We love contributors! Feel free to contribute to this project.
 
 [^2]: Details have not been made public but the private dataset includes data from the EleutherAI Polyglot project's Japanese team and from members of Stable Community Japan.
 
-[^3]: This project conducted research on using right-to-left generation instead of the usual left-to-right generation, releasing both left-to-right and right-to-left models.
+[^3]: This project conducted evaluation research on using right-to-left generation instead of the usual left-to-right generation, releasing both left-to-right and right-to-left models.
 
 [^4]: ○: The model is on the HuggingFace Model Hub and can be loaded in with the `AutoModel.from_pretrained()` command. △: The model is not on the Model Hub but can be loaded in manually with the HuggingFace transformers library. ✕: The model is not directly loadable with HuggingFace.
 
 [^5]: Development conducted by [Hiroyuki Osone](https://soneo1127.github.io/) with the cooperation of [AI Buncho](https://bun-cho.work/).
 
-[^6]: This project conducted research on pre-tokenization morphological analysis and released their best performing model, which used Juman++ and BPE.
+[^6]: This project conducted evaluation research on pre-tokenization morphological analysis and released their best performing model, which used Juman++ and BPE.
 
 [^7]: nlp-waseda/roberta-base-japanese and nlp-waseda/roberta-large-japanese trained using a 128 token context length, but nlp-waseda/roberta-large-japanese-seq512 expanded the context length to 512.
 
 [^8]: Extended to a 1282 context length from the usual 512.
 
-[^9]: small trains on Japanese Wikipedia and the Japanese Financial Corpus simultaneously, while base takes the TohokuUniversityBERT and conducts additional training on the Japanese Financial Corpus.
+[^9]: The "small" model trains on Japanese Wikipedia and the Japanese Financial Corpus simultaneously, while the "base" model takes the TohokuUniversityBERT and conducts additional training on the Japanese Financial Corpus.
 
-[^10]: ManbyoWordPiece conducts a pretokenization step using MeCab (IPA+Manbyo dictionaries) and uses WordPiece for subword tokenization, while the SentencePiece model tokenizes text directly using a unigram model.
+[^10]: ManbyoWordPiece conducts a pre-tokenization step using MeCab (IPA+Manbyo dictionaries) and uses WordPiece for subword tokenization, while the SentencePiece model tokenizes text directly using a unigram model.
 
 [^11]: See "[Japanese MiniGPT-4: rinna 3.6bとBLIP-2を組み合わせてマルチモーダルチャットのモデルを作る](https://zenn.dev/rinna/articles/5fad41e3f2a401)" for further details. Note the article discusses using rinna/japanese-gpt-neox-3.6b as the LLM component rather than the rinna/bilingual-gpt-neox-4b model that MiniGPT-4 actually uses.

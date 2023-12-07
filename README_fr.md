@@ -2,30 +2,30 @@
 [ [**English**](./README_en.md) | Français | [**日本語**](./README.md) ]
 
 <p align="center">
-  <img src="figures/parameter_size_overview.png" alt="Tailles des paramètres des LLMs en japonais et anglais au fil du temps" width="768px">
+  <img src="figures/parameter_size_overview.png" alt="LLMs en japonais et en anglais par taille de paramètres au fil du temps" width="768px">
 </p>
-<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">Tailles des paramètres des LLMs en japonais et anglais au fil du temps. Nous nous référerons à cet article pour plus d'informations sur les LLM japonais et <a href="https://lifearchitect.ai/models-table/">ce tableau des modèles</a> disponible sur LifeArchitect.ai pour plus d'informations sur les LLM anglais. Veuillez nous informer si des corrections ou des ajouts sont nécessaires.</figcaption>
+<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">LLMs en japonais et en anglais par taille de paramètres au fil du temps. Nous nous référerons à cet article pour plus d'informations sur les LLMs en japonais et à ce <a href="https://lifearchitect.ai/models-table/">tableau des modèles</a> disponible sur LifeArchitect.ai pour plus d'informations sur les LLMs en anglais. Veuillez nous informer si des corrections ou des ajouts sont nécessaires.</figcaption>
 
 ---
 
-Une liste de LLM accessibles au public avec un apprentissage pour la langue japonaise, maintenue par des bénévoles sur la base de données publiques.
+Voici une liste pour les LLMs avec un apprentissage pour la langue japonaise pour le grand public. Cette liste est maintenue par des bénévoles sur les bases de données publiques.
 
 ⚠ Attention:
 1. Nous ne pouvons garantir l’exactitude ou l’exhaustivité des informations présentées ici.
 2. Certaines informations sont basées sur des conjectures et peuvent ne pas refléter votre cas d'utilisation spécifique.
-3. Bien que de nombreux modèles soient publiés sous des licences permissives telles que MIT ou Apache 2.0, certains modèles sont soumis à des conditions plus restrictives, notamment des clauses d'utilisation non commerciale  (exemple CC BY&#x2011;NC&#x2011;SA) ou d'autres stipulations.
+3. Bien que de nombreux modèles soient publiés sous des licences permissives telles que MIT ou Apache 2.0, **certains modèles sont soumis à des conditions plus restrictives, notamment des clauses d'utilisation non commerciale  (exemple CC BY-NC-SA 4.0) ou d'autres modalités légales et contractuelles**
 
-N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/llm-jp/awesome-japanese-llm/issues). N'hésitez pas à contribuer directement avec une pull request.
+N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/llm-jp/awesome-japanese-llm/issues). N'hésitez pas également à contribuer directement avec une pull request.
 
 ## Table des matières
 - [Modèles IA génératives](#generative)
   - [Modèles développés à partir de zéro](#full-scratch-models)
     - [D'usage général](#generative-scratch-general)
     - [Spécifique à un domaine](#generative-scratch-domain-specific)
-  - [Modèles développés à partir d'LLM en anglais (avec une formation continue en japonais)](#english-based-models)
+  - [Modèles développés à partir d'LLM en anglais (avec un apprentissage en continue en japonais)](#english-based-models)
     - [D'usage général](#generative-continual-general)
     - [Spécifique à un domaine](#generative-continual-domain-specific)
-  - [Modèles développés à partir d'LLM en anglais (avec ajustement des instructions en japonais)](#instruction-only-models)
+  - [Modèles développés à partir d'LLM en anglais (avec un affinement par instructions en japonais)](#instruction-only-models)
     - [D'usage général](#generative-instruction-only-general)
     - [Spécifique à un domaine](#generative-instruction-only-domain-specific)
 - [Modèles encodeur](#autoencoding)
@@ -85,7 +85,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [AcademicBART](https://github.com/EhimeNLP/AcademicBART) | Science | BART ([base](https://huggingface.co/EhimeNLP/AcademicBART)) | CiNii Japanese Papers | Université d'Ehime AI Lab | Apache 2.0 |
 
 <a id="english-based-models"></a>
-### Modèles développés à partir d'LLM en anglais (avec une formation continue en japonais)
+### Modèles développés à partir d'LLM en anglais (avec une apprentissage continue en japonais)
 
 <a id="generative-continual-general"></a>
 #### D'usage général
@@ -110,7 +110,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [ELYZA-japanese-CodeLlama-7b](https://note.com/elyza/n/n5bce23d7c9c8)<br>([7b](https://huggingface.co/elyza/ELYZA-japanese-CodeLlama-7b), [7b-instruct](https://huggingface.co/elyza/ELYZA-japanese-CodeLlama-7b-instruct)) | Codage | Code Llama<br>(**7b**) | ELYZA | Llama 2 Community License |
 
 <a id="instruction-only-models"></a>
-### Modèles développés à partir d'LLM en anglais (avec ajustement des instructions en japonais)
+### Modèles développés à partir d'LLM en anglais (avec un affinement par instructions en japonais)
 
 <a id="generative-instruction-only-general"></a>
 #### D'usage général
@@ -174,7 +174,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 |    |  Architecture  |  Données d'entraînement  |  Développeur  | Licence | HuggingFace? |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | [JapaneseNewsBERT](https://qiita.com/mkt3/items/3c1278339ff1bcc0187f) | BERT (base) | Articles sur l'économie en japonais(3M articles) | Stockmark | CC BY 4.0 | △ |
-| [JapaneseNewsXLNet](https://qiita.com/mkt3/items/4d0ae36f3f212aee8002) |  XLNet (base) | Articles sur l'économie en japonais (3M articles) | Stockmark | ？ | [◯](https://huggingface.co/hajime9652/xlnet-japanese) <br> ※ Unofficial release |
+| [JapaneseNewsXLNet](https://qiita.com/mkt3/items/4d0ae36f3f212aee8002) |  XLNet (base) | Articles sur l'économie en japonais (3M articles) | Stockmark | ？ | [◯](https://huggingface.co/hajime9652/xlnet-japanese) <br> ※ Version non officielle |
 | [JapaneseNewsALBERT](https://qiita.com/mkt3/items/b41dcf0185e5873f5f75) | ALBERT (base) | Articles sur l'économie en japonais (3M articles) | Stockmark | ？ | △ |
 | [Laboro BERT](https://laboro.ai/activity/column/engineer/laboro-bert/) | BERT (base, large) | Corpus web en japonais <br> (Actualités, blogs, etc) (12GB) | Laboro.AI | CC BY&#x2011;NC 4.0 | ✕ |
 | [Laboro DistilBERT](https://laboro.ai/activity/column/engineer/laboro-distilbert/) | DistilBERT |  (Distillation of Laboro BERT(base)) | Laboro.AI | CC BY&#x2011;NC 4.0 | [◯](https://huggingface.co/laboro-ai/distilbert-base-japanese) |
@@ -310,22 +310,22 @@ Nous aimons les contributeurs ! N'hésitez pas à contribuer à ce projet.
 
 [^1]: Certaines améliorations de performances ont été apportées au modèle Llama original. Voir [ici](https://tech.preferred.jp/ja/blog/llm-plamo/) pour plus détails.
 
-[^2]: Les détails n'ont pas été rendus publics, mais l'ensemble de données privé comprend des jeu de données de l'équipe japonaise du projet EleutherAI Polyglot et des membres de Stable Community Japan.
+[^2]: Les détails n'ont pas été rendus publics, mais l'ensemble de données privé comprend des jeux de données de l'équipe japonaise du projet EleutherAI Polyglot et des membres de Stable Community Japan.
 
-[^3]: Ce projet a mené des recherches sur l'utilisation de la génération de droite à gauche au lieu de la génération habituelle de gauche à droite, en publiant des modèles de gauche à droite et de droite à gauche.
+[^3]: Ce projet a mené des recherches d'évaluation sur l'utilisation de la génération de droite à gauche au lieu de la génération habituelle de gauche à droite, en publiant des modèles de gauche à droite et de droite à gauche.
 
 [^4]: ○: Le modèle se trouve sur le Model Hub d'HuggingFace et peut être chargé avec la commande `AutoModel.from_pretrained()` . △: Le modèle ne se trouve pas sur le Model Hub mais peut être chargé manuellement avec la bibliothèque de transformateurs HuggingFace. ✕: Le modèle ne se charge pas avec HuggingFace.
 
 [^5]: Développement réalisé par [Hiroyuki Osone](https://soneo1127.github.io/) avec la coopération de [AI Buncho](https://bun-cho.work/).
 
-[^6]: Ce projet a mené des recherches sur l'analyse morphologique avant la tokenisation et a publié son modèle le plus performant, qui utilisait Juman++ et BPE.
+[^6]: Ce projet a mené des recherches d'évaluation sur l'analyse morphologique avant la tokenisation et a publié son modèle le plus performant, qui utilisait Juman++ et BPE.
 
-[^7]: nlp-waseda/roberta-base-japanese et nlp-waseda/roberta-large-japanese entrainé avec une longeur de context 128 token, mais nlp-waseda/roberta-large-japanese-seq512 étendu la longueur du contexte à 512.
+[^7]: nlp-waseda/roberta-base-japanese et nlp-waseda/roberta-large-japanese entrainé avec une longueur de context 128 token, mais nlp-waseda/roberta-large-japanese-seq512 étendu la longueur du contexte à 512.
 
-[^8]: Etendu la longueur du contexte de 128 à 512.
+[^8]: Étendu la longueur du contexte de 128 à 512.
 
-[^9]: Le modèle Small s'entraine sur Wikipédia japonais et le Corpus financier japonais simultanément, tandis que la Base prend le TohokuUniversityBERT et dispense un apprentissage supplémentaire sur le Corpus financier japonais.
+[^9]: Le modèle "Small" s'entraîne sur Wikipédia japonais et le Corpus financier japonais simultanément, tandis que le modèle "Base" prend le TohokuUniversityBERT et dispense un apprentissage supplémentaire sur le Corpus financier japonais.
 
-[^10]: ManbyoWordPiece lance une étape de pretokenization en utilisant MeCab (IPA+Manbyo dictionaries), puis utilise WordPiece pour la tokenization sous-mots, pendant que le modèle SentencePiece segmente le texte directement en utilisant un modèle unigram.
+[^10]: ManbyoWordPiece lance une étape de prétokenization en utilisant MeCab (IPA+Manbyo dictionaries), puis utilise WordPiece pour la tokenization sous-mots, pendant que le modèle SentencePiece segmente le texte directement en utilisant un modèle unigram.
 
-[^11]: Voir "[Japanese MiniGPT-4: rinna 3.6bとBLIP-2を組み合わせてマルチモーダルチャットのモデルを作る](https://zenn.dev/rinna/articles/5fad41e3f2a401)" pour plus de détails. L'article parle de l'utilisation rinna/japanese-gpt-neox-3.6b comme un composant du LLM plutôt que du modèle rinna/bilingual-gpt-neox-4b comme MiniGPT-4 utilise réellement.
+[^11]: Voir "[Japanese MiniGPT-4: rinna 3.6bとBLIP-2を組み合わせてマルチモーダルチャットのモデルを作る](https://zenn.dev/rinna/articles/5fad41e3f2a401)" pour plus de détails. L'article parle de l'utilisation de rinna/japanese-gpt-neox-3.6b comme un composant du LLM plutôt que du modèle rinna/bilingual-gpt-neox-4b comme MiniGPT-4 réellement utilisé.
