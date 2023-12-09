@@ -77,7 +77,7 @@ for y in [0.1, 1, 10, 100, 1000]:
     ax.axhline(y=y, color='gray', linestyle='--', linewidth=0.5)
 
 
-ax.xaxis.set_major_locator(mdates.MonthLocator(interval=3))
+ax.xaxis.set_major_locator(mdates.MonthLocator(interval=6))
 ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y年%m月')) 
 
 ax.set_ylabel("パラメータ数（単位: billion）")
@@ -87,4 +87,4 @@ ax.set_ylim(0.01, 10000)
 
 plt.xticks(rotation=45)
 plt.subplots_adjust(left=0.075, right=0.975, bottom=0.1, top=0.975)
-plt.savefig("../parameter_size_overview.png", dpi=200)
+plt.savefig("../parameter_size_overview.png", dpi=144)
