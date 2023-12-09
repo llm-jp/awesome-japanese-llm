@@ -2,7 +2,7 @@
 [ [**English**](./README_en.md) | [**Français**](./README_fr.md) | 日本語 ]
 
 <p align="center">
-  <img src="figures/parameter_size_overview.png" alt="日本語LLM・英語LLMのパラメータサイズの推移" width="768px">
+  <img src="figures/parameter_size_overview.png" alt="日本語LLM・英語LLMのパラメータサイズの推移">
 </p>
 <figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">日本語LLM・英語LLMのパラメータサイズの推移。日本語モデルの情報は本記事、英語モデルの情報は LifeArchitect.ai の <a href="https://lifearchitect.ai/models-table/">Models table</a> を参照しています。修正・追加等ありましたらお知らせ下さい。</figcaption>
 
