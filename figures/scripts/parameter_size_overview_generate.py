@@ -22,12 +22,13 @@ import pandas as pd
 
 
 BIGTECH_LIST = [
-    "Microsoft",
-    "OpenAI",
-    "Google DeepMind",
-    "Google",
-    "DeepMind",
-    "Meta AI",
+    "Google DeepMind",  # Google
+    "Google",  # Google
+    "DeepMind",  # Google
+    "Meta AI",  # Meta
+    "Anthropic",  # Amazon
+    "Microsoft",  # Microsoft
+    "OpenAI",  # Microsoft
 ]
 
 df = pd.read_csv('parameter_size_overview.csv')
