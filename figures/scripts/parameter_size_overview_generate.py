@@ -62,7 +62,7 @@ for i in reversed(range(len(df))):
             horizontalalignment='center'
         )
 
-    if df["Type"][i].startswith("EN") and df["Lab"][i] in BIGTECH_LIST and df["Parameters(B)"][i] > 10:
+    if df["Type"][i].startswith("EN") and df["Lab"][i] in BIGTECH_LIST and df["Parameters(B)"][i] > 100:
         ax.text(
             df["Announced"][i],
             df["Parameters(B)"][i] * 1.2,
@@ -82,7 +82,7 @@ ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y年%m月'))
 
 ax.set_ylabel("パラメータ数（単位: billion）")
 ax.set_yscale('log')
-ax.set_ylim(0.01, 10000)
+ax.set_ylim(0.09, 4000)
 
 
 plt.xticks(rotation=45)
