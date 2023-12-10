@@ -1,23 +1,26 @@
-Model,Lab,Parameters(B),Announced,Type,Source(JP-unavailable)
-LLM-jp-13B,LLM-jp,13,2023/10/20,JP-available,
-PLaMo-13B,Preferred Networks,13,2023/09/28,JP-available,
-Stockmark-13b,Stockmark,13,2023/10/27,JP-available,
-Weblab-10B,Matsuo Lab,10,2023/08/22,JP-available,
-JSLM Alpha,Stability AI,7,2023/08/10,JP-available,
-CALM2,CyberAgent,7,2023/11/02,JP-available,
-OpenCALM,CyberAgent,6.8,2023/05/17,JP-available,
-,rinna,3.8,2023/07/31,JP-available,
-,rinna,3.6,2023/05/17,JP-available,
-,rinna,1.3,2022/01/26,JP-available,
-,rinna,0.3,2021/08/25,JP-available,
-,rinna,0.1,2021/08/25,JP-available,
-japanese-large-lm,LINE,3.6,2023/08/14,JP-available,
-,レトリバ,3,2023/05/12,JP-available,
-,ABEJA,2.7,2022/07/27,JP-available,
+Model,Lab,Parameters(B),Announced,Type,Source(JP)
+LLM-jp-13B,LLM-jp,13,2023/10/20,JP-available,https://www.nii.ac.jp/news/release/2023/1020.html
+PLaMo-13B,Preferred Networks,13,2023/09/28,JP-available,https://www.preferred.jp/ja/news/pr20230928/
+Stockmark-13b,Stockmark,13,2023/10/27,JP-available,https://stockmark.co.jp/news/20231027
+Weblab-10B,Matsuo Lab,10,2023/08/22,JP-available,https://www.t.u-tokyo.ac.jp/press/pr2023-08-18-001
+JSLM Alpha,Stability AI,7,2023/08/10,JP-available,https://ja.stability.ai/blog/japanese-stablelm-alpha
+CALM2,CyberAgent,7,2023/11/02,JP-available,https://www.cyberagent.co.jp/news/detail/id=29479
+OpenCALM,CyberAgent,6.8,2023/05/17,JP-available,https://www.cyberagent.co.jp/news/detail/id=28817
+,rinna,3.8,2023/07/31,JP-available,https://rinna.co.jp/news/2023/07/20230731.html
+,rinna,3.6,2023/05/17,JP-available,https://rinna.co.jp/news/2023/05/20230507.html
+,rinna,1.3,2022/01/26,JP-available,https://rinna.co.jp/news/2022/01/2022012601.html
+,rinna,0.3,2021/04/07,JP-available,https://rinna.co.jp/news/2021/04/20210407.html
+,rinna,0.1,2021/08/25,JP-available,https://rinna.co.jp/news/2021/08/20210825.html
+japanese-large-lm,LINE,3.6,2023/08/14,JP-available,https://engineering.linecorp.com/ja/blog/3.6-billion-parameter-japanese-language-model
+,レトリバ,3,2023/05/12,JP-available,https://note.com/retrieva/n/n7b4186dc5ada
+,ABEJA,2.7,2022/07/27,JP-available,https://tech-blog.abeja.asia/entry/abeja-gpt-project-202207
+,ABEJA,6.7,2022/07/27,JP-unavailable,https://tech-blog.abeja.asia/entry/abeja-gpt-project-202207
+,ABEJA,13,2022/07/27,JP-unavailable,https://tech-blog.abeja.asia/entry/abeja-gpt-project-202207
 tsuzumi,NTT,7,2023/11/01,JP-unavailable,https://group.ntt/jp/newsrelease/2023/11/01/231101a.html
 ,NEC,13,2023/07/06,JP-unavailable,https://jpn.nec.com/press/202307/20230706_02.html
 ,NICT,40,2023/07/04,JP-unavailable,https://www.nict.go.jp/press/2023/07/04-1.html
 PolySphere-1,AI inside,14,2023/06/08,JP-unavailable,https://inside.ai/news/2023/06/08/aiinside-xresearch/
+,RICOH,6,2023/03/15,JP-unavailable,https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/H9-4.pdf
 LHTM-2,オルツ,160,2023/02/14,JP-unavailable,"https://alt.ai/news/news-1892/, https://xtech.nikkei.com/atcl/nxt/column/18/02423/053100030/"
 HyperCLOVA,NAVER & LIINE,82,2022/11/30,JP-unavailable,https://www.youtube.com/watch?v=I4o7X3-aqJk
 HyperCLOVA,NAVER & LIINE,39,2021/11/10,JP-unavailable,https://www.youtube.com/watch?v=V4pZulIWHpY
