@@ -94,7 +94,7 @@ for i in reversed(range(len(df))):
             df["Announced"][i],
             df["Parameters(B)"][i] * 1.2,
             df["label"][i],
-            fontsize=10,
+            fontsize=8,
             verticalalignment='bottom',
             horizontalalignment='center'
         )
