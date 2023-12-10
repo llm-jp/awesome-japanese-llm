@@ -40,15 +40,21 @@ df = df.dropna(subset=['Parameters(B)'])
 # df = df[df["Type"].str.startswith("JP")]
 df = df.reset_index(drop=True)
 
+# use universal colors
+# https://www.jma.go.jp/jma/kishou/info/colorguide/HPColorGuide_202007.pdf
 colors = {
-    "JP-available": "#EA3323", 
-    "JP-unavailable": "#F1BE42",
-    "EN-available": "#5383EC",
-    "EN-unavailable": "#B8CDF7",
+    # "JP-available-API": "#B40068"
+    "JP-available": "#FF2800", 
+    "JP-available-CP": "#FF9900",
+    "JP-unavailable": "#FFF500",
+    "EN-available": "#0096FF",
+    "EN-unavailable": "#B9EBFF",
 }
 
 labels = {
+    # "JP-available-API": "Japanese (public, model weights closed)"
     "JP-available": "Japanese (public)",
+    "JP-available-CP": "Japanese (public, not from scratch)",
     "JP-unavailable": "Japanese (private)",
     "EN-available": "English (public)",
     "EN-unavailable": "English (private)",
@@ -77,7 +83,19 @@ ax.scatter(
     df[df["Type"] == "JP-unavailable"]["Parameters(B)"],
     color=colors["JP-unavailable"],
     label=labels["JP-unavailable"],
-    s=100
+    s=100,
+    linewidth=0.5,
+    edgecolors="gray"
+)
+
+ax.scatter(
+    df[df["Type"] == "JP-available-CP"]["Announced"],
+    df[df["Type"] == "JP-available-CP"]["Parameters(B)"],
+    color=colors["JP-available-CP"],
+    label=labels["JP-available-CP"],
+    s=100,
+    linewidth=0.5,
+    edgecolors="gray"
 )
 
 ax.scatter(
@@ -85,7 +103,9 @@ ax.scatter(
     df[df["Type"] == "JP-available"]["Parameters(B)"],
     color=colors["JP-available"],
     label=labels["JP-available"],
-    s=100
+    s=100,
+    linewidth=0.5,
+    edgecolors="gray"
 )
 
 for i in reversed(range(len(df))):
