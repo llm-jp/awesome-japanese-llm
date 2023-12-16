@@ -253,6 +253,11 @@
   - マルチターン会話能力を問う [MT-bench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) の日本語版。Writing, Roleplay, Reasoning, Math, Coding, Extraction, STEM, Humanities の 8 つのカテゴリから 10 問ずつ、計 80 問が収録されている。なお、日本語版作成の際には、日本の文化に合うように質問内容に一部修正が加えられている。<br>GPT-4 による 10 段階の絶対評価を行うスクリプトも含まれている。評価結果は以下の shi3z 氏によるまとめ記事が詳しい：[無償LLM 日本語能力ベンチマークまとめ](https://note.com/shi3zblog/n/n6b2ac5874021)
 - [Japanese Vicuna QA Benchmark](https://github.com/hitoshizuku7/ja-vicuna-qa-benchmark) (京大 言語メディア研究室)
   - MT-Bench の前身である [vicuna-blog-eval](https://github.com/lm-sys/vicuna-blog-eval) の日本語版。一般、知識、ロールプレイ、常識、フェルミ推定、反実仮想、コーディング、数学、ライティングに関する 80 問の質問を収録している。また、GPT-4 による自動評価（勝率計算）のスクリプトも含まれている。
+
+#### 特定ドメインの性能を測定するベンチマーク/データセット
+
+- [Japanese Language Model Financial Evaluation Harness](https://github.com/pfnet-research/japanese-lm-fin-harness) (Preferred Networks)
+  - 金融分野における日本語 LLM のベンチマーク。金融分野における感情分析タスク(chabsa)、証券分析における基礎知識タスク(cma_basics)、公認会計士試験における監査に関するタスク(cpa_audit)、ファイナンシャルプランナー試験の選択肢問題のタスク(fp2)、証券外務員試験の模擬試験タスク(security_sales_1)を含む。詳細は[こちら](https://jxiv.jst.go.jp/index.php/jxiv/preprint/view/564/1785)を参照
 - [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) (ストックマーク)
   - 市場動向、時事問題、社会課題、ビジネストレンドなどの知識を問う問題が50題収録されている。
 
