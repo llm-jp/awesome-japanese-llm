@@ -311,7 +311,7 @@ We love contributors! Feel free to contribute to this project.
 
 If you find this resource useful, please consider citing it:
 
-```
+```bibtex
 @software{LLM-jp_Overview_of_Japanese_2023,
     author = {{LLM-jp}},
     month = jul,
