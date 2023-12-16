@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- name: "LLM-jp"
+title: "Overview of Japanese LLMs"
+date-released: 2023-07-09
+url: "https://github.com/llm-jp/awesome-japanese-llm"
