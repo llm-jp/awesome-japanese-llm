@@ -251,6 +251,11 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
   - The Japanese version of [MT-bench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) asks about multi-turn conversational ability. It includes 80 questions, 10 each, from 8 categories: Writing, Roleplay, Reasoning, Math, Coding, Extraction, STEM, Humanities. Some questions have been modified to fit with Japanese culture during the production of the Japanese version. It also includes a script that performs a 10-level absolute evaluation by GPT-4. Evaluation results are detailed in the following summary article by shi3z: "[無償LLM 日本語能力ベンチマークまとめ](https://note.com/shi3zblog/n/n6b2ac5874021)"
 - [Japanese Vicuna QA Benchmark](https://github.com/hitoshizuku7/ja-vicuna-qa-benchmark) (Kyoto University Language Media Processing Lab)
   - This is the Japanese version of [vicuna-blog-eval](https://github.com/lm-sys/vicuna-blog-eval), which is the predecessor of MT-Bench. It includes 80 questions on general knowledge, role-playing, common sense, Fermi estimation, counterfactual thinking, coding, mathematics, and writing. It also includes a script for automatic evaluation by GPT-4 (win-rate calculation).
+
+#### Benchmarks for measuring performance in specific domains
+
+- [Japanese Language Model Financial Evaluation Harness](https://github.com/pfnet-research/japanese-lm-fin-harness) (Preferred Networks)
+   - A benchmark for Japanese LLM in the financial sector. It includes tasks such as sentiment analysis in finance (chabsa), basic knowledge tasks in securities analysis (cma_basics), tasks related to audits in certified public accountant examinations (cpa_audit), multiple choice question tasks in financial planner exams (fp2), and mock exam tasks for securities salespeople exams (security_sales_1). For more details, please see [here](https://jxiv.jst.go.jp/index.php/jxiv/preprint/view/564/1785).
 - [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) (Stockmark)
   - The collection includes 50 questions that probe knowledge on topics such as market trends, current affairs, social issues, and business trends.
 
