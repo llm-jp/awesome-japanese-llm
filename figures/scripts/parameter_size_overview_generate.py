@@ -53,7 +53,7 @@ colors = {
 
 labels = {
     # "JP-available-API": "Japanese (public, model weights closed)"
-    "JP-available": "Japanese (public, from scratch)",
+    "JP-available": "Japanese (public, built from scratch)",
     "JP-available-CP": "Japanese (public)",
     "JP-unavailable": "Japanese (private)",
     "EN-available": "English (public)",
