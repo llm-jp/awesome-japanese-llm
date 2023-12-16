@@ -313,7 +313,8 @@
 
 このリソースが役立つと感じられましたら、引用をご検討ください:
 
-```bibtex
+```
+{% raw %}
 @software{LLM-jp_Overview_of_Japanese_2023,
     author = {{LLM-jp}},
     month = jul,
@@ -321,6 +322,7 @@
     url = {https://github.com/llm-jp/awesome-japanese-llm},
     year = {2023}
 }
+{% endraw %}
 ```
 
 ---
