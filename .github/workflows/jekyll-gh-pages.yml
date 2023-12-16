@@ -45,7 +45,7 @@ jobs:
           git push
       - name: Fix Bibtex for Jekyll
         run: |
-          bash scripts/fix_bibtex_codeblock_for_jekyll.sh
+          python build/fix_bibtex_codeblock_for_jekyll.py
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
