@@ -316,6 +316,7 @@
 ```
 @software{LLM-jp_Overview_of_Japanese_2023,
     author = {{LLM-jp}},
+    license = {Apache-2.0},
     month = jul,
     title = {{Overview of Japanese LLMs}},
     url = {https://github.com/llm-jp/awesome-japanese-llm},
