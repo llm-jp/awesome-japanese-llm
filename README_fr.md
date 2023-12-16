@@ -4,7 +4,7 @@
 <p align="center">
   <img src="figures/parameter_size_overview.png" alt="LLMs en japonais et en anglais par taille de paramètres au fil du temps">
 </p>
-<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">LLMs en japonais et en anglais par taille de paramètres au fil du temps. Nous nous référerons à cet article pour plus d'informations sur les LLMs en japonais et à ce <a href="https://lifearchitect.ai/models-table/">tableau des modèles</a> disponible sur LifeArchitect.ai pour plus d'informations sur les LLMs en anglais. Veuillez nous informer si des corrections ou des ajouts sont nécessaires.</figcaption>
+<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">Evolution du nombre de paramètres des LLMs en japonais et en anglais. Pour des informations sur le modèle japonais, nous nous référons à cet article, et pour le modèle anglais, nous nous référons au <a href="https://lifearchitect.ai/models-table/">tableau des modèles</a> sur LifeArchitect.ai (notez cependant que certains modèles ont été omis en raison de l'espace limité sur le graphique. De plus, le nombre de paramètres pour le modèle anglais inclut des valeurs estimées). Veuillez nous informer de toute correction ou ajout nécessaire.</figcaption>
 
 ---
 
