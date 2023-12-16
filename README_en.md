@@ -311,16 +311,15 @@ We love contributors! Feel free to contribute to this project.
 
 If you find this resource useful, please consider citing it:
 
-<pre>
-<code>
+```
 @software{LLM-jp_Overview_of_Japanese_2023,
     author = {{LLM-jp}},
     month = jul,
     title = {{Overview of Japanese LLMs}},
     url = {https://github.com/llm-jp/awesome-japanese-llm},
     year = {2023}
-}</code>
-</pre>
+}
+```
 
 ---
 

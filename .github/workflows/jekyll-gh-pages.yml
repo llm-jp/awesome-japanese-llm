@@ -43,6 +43,9 @@ jobs:
           git add -A
           git diff --quiet && git diff --staged --quiet || git commit -m "Update Contributors Image"
           git push
+      - name: Fix Bibtex for Jekyll
+        run: |
+          bash scripts/fix_bibtex_codeblock_for_jekyll.sh
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
