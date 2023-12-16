@@ -38,6 +38,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 - [Standard d'évaluation pour les LLM en japonais](#benchmark-suites)
 - [Références par architecture des modèles](#reference)
 - [Nos contributors](#contributors)
+- [Citation](#citation)
 
 
 <a id="generative"></a>
@@ -305,6 +306,21 @@ Nous aimons les contributeurs ! N'hésitez pas à contribuer à ce projet.
 <a href="https://github.com/llm-jp/awesome-japanese-llm/graphs/contributors">
   <img src="figures/contributors.svg" />
 </a>
+
+<a id="citation"></a>
+## Citation
+
+Si vous trouvez cette ressource utile, envisagez de la citer:
+
+```
+@software{LLM-jp_Overview_of_Japanese_2023,
+    author = {{LLM-jp}},
+    month = jul,
+    title = {{Overview of Japanese LLMs}},
+    url = {https://github.com/llm-jp/awesome-japanese-llm},
+    year = {2023}
+}
+```
 
 ---
 

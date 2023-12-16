@@ -38,7 +38,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 - [Evaluation Benchmarks for Japanese LLMs](#benchmark-suites)
 - [References for Model Architectures](#reference)
 - [Our Contributors](#contributors)
-
+- [Citation](#citation)
 
 <a id="generative"></a>
 ## Text Generation Models
@@ -305,6 +305,21 @@ We love contributors! Feel free to contribute to this project.
 <a href="https://github.com/llm-jp/awesome-japanese-llm/graphs/contributors">
   <img src="figures/contributors.svg" />
 </a>
+
+<a id="citation"></a>
+## Citation
+
+If you find this resource useful, please consider citing it:
+
+```
+@software{LLM-jp_Overview_of_Japanese_2023,
+    author = {{LLM-jp}},
+    month = jul,
+    title = {{Overview of Japanese LLMs}},
+    url = {https://github.com/llm-jp/awesome-japanese-llm},
+    year = {2023}
+}
+```
 
 ---
 

@@ -39,6 +39,8 @@
 - [日本語LLM評価ベンチマーク/データセットまとめ](#benchmark-suites)
 - [各モデルの原論文](#reference)
 - [コントリビューター](#contributors)
+- [引用](#citation)
+
 
 <a id="generative"></a>
 ## テキスト生成に主に使うモデル
@@ -305,6 +307,21 @@
 <a href="https://github.com/llm-jp/awesome-japanese-llm/graphs/contributors">
   <img src="figures/contributors.svg" />
 </a>
+
+<a id="citation"></a>
+## 引用
+
+このリソースが役立つと感じられましたら、引用をご検討ください:
+
+```
+@software{LLM-jp_Overview_of_Japanese_2023,
+    author = {{LLM-jp}},
+    month = jul,
+    title = {{Overview of Japanese LLMs}},
+    url = {https://github.com/llm-jp/awesome-japanese-llm},
+    year = {2023}
+}
+```
 
 ---
 
