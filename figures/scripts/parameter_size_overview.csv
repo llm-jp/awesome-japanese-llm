@@ -1,4 +1,5 @@
 Model,Lab,Parameters(B),Announced,Type,Source(JP)
+Swallow,TokyoTech-LLM,70,2023/12/19,JP-available-CP,https://tokyotech-llm.github.io/blog/swallow-llama
 LLM-jp-13B,LLM-jp,13,2023/10/20,JP-available,https://www.nii.ac.jp/news/release/2023/1020.html
 PLaMo-13B,Preferred Networks,13,2023/09/28,JP-available,https://www.preferred.jp/ja/news/pr20230928/
 Stockmark-13b,Stockmark,13,2023/10/27,JP-available,https://stockmark.co.jp/news/20231027
