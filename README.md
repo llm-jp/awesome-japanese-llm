@@ -26,7 +26,7 @@
   - [英語モデルに日本語で追加事前学習を行ったモデル（継続事前学習モデル）](#english-based-models)
     - [汎用](#generative-continual-general)
     - [ドメイン特化型](#generative-continual-domain-specific)
-  - [英語モデルに日本語で指示学習 (Instruction Tuning) のみ行ったモデル](#instruction-only-models)
+  - [英語モデルに日本語で指示チューニング (Instruction Tuning) のみ行ったモデル](#instruction-only-models)
     - [汎用](#generative-instruction-only-general)
     - [ドメイン特化型](#generative-instruction-only-domain-specific)
 - [入力テキストの処理に主に使うモデル](#autoencoding)
@@ -119,7 +119,7 @@
 | [NovelAI/genji-jp](https://huggingface.co/NovelAI/genji-jp) | 物語生成 | GPT-J (**6b**) | NovelAI |  ？  |
 
 <a id="instruction-only-models"></a>
-### 英語モデルに日本語で指示学習 (Instruction Tuning) のみ行ったモデル
+### 英語モデルに日本語で指示チューニング (Instruction Tuning) のみ行ったモデル
 
 <a id="generative-instruction-only-general"></a>
 #### 汎用
