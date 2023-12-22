@@ -23,7 +23,7 @@
   - [フルスクラッチ事前学習モデル](#full-scratch-models)
     - [汎用](#generative-scratch-general)
     - [ドメイン特化型](#generative-scratch-domain-specific)
-  - [英語モデルに日本語で追加事前学習を行ったモデル](#english-based-models)
+  - [英語モデルに日本語で追加事前学習を行ったモデル（継続事前学習モデル）](#english-based-models)
     - [汎用](#generative-continual-general)
     - [ドメイン特化型](#generative-continual-domain-specific)
   - [英語モデルに日本語で指示学習 (Instruction Tuning) のみ行ったモデル](#instruction-only-models)
