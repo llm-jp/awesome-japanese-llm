@@ -87,7 +87,7 @@
 | [AcademicBART](https://github.com/EhimeNLP/AcademicBART) | 学術 | BART ([base](https://huggingface.co/EhimeNLP/AcademicBART)) | CiNii の日本語論文 | 愛媛大 人工知能研究室 | Apache 2.0 |
 
 <a id="english-based-models"></a>
-### 英語モデルに日本語で追加事前学習を行ったモデル
+### 英語モデルに日本語で追加事前学習を行ったモデル（継続事前学習モデル）
 
 <a id="generative-continual-general"></a>
 #### 汎用
