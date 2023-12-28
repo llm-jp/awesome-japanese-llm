@@ -8,7 +8,7 @@
 
 ---
 
-A list of publicly available LLMs trained with a focus on Japanese, maintained by volunteers based on public data.
+A list of publicly available LLMs trained with a focus on Japanese, along with their evaluation benchmarks, maintained by volunteers from various sources like academic papers and other public resources.
 
 ⚠ Caution:
 1. We can't guarantee the accuracy or completeness of any information here.
@@ -36,6 +36,10 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
   - [Text+Image to Text](#multimodal-text-generation)
   - [Other](#multimodal-others)
 - [Evaluation Benchmarks for Japanese LLMs](#benchmark-suites)
+  - [Hybrid Benchmarks](#hybrid-benchmark-suites)
+  - [Traditional Benchmarks based on Natural Language Understanding tasks](#basic-benchmark-suites)
+  - [Benchmarks on open-ended generative tasks](#open-ended-benchmark-suites)
+  - [Benchmarks for measuring performance in specific domains](#domain-specific-benchmark-suites)
 - [References for Model Architectures](#reference)
 - [Our Contributors](#contributors)
 - [Citation](#citation)
@@ -237,37 +241,68 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 <a id="benchmark-suites"></a>
 ## Evaluation Benchmarks for Japanese LLMs
 
-#### Traditional Benchmarks based on Natural Language Understanding tasks
+<a id="hybrid-benchmark-suites"></a>
+### Hybrid Benchmarks
 
-- [llm-jp-eval Leaderboard](http://wandb.me/llm-jp-leaderboard) (LLM-jp)
-  - Ranking based on the results of the [llm-jp-eval](https://github.com/llm-jp/llm-jp-eval) script, which automatically evaluates Japanese LLMs across multiple datasets. As of the release of LLM-jp-13B, [Jamp](https://github.com/tomo-ut/temporalNLI_dataset), [JaNLI](https://github.com/verypluming/JaNLI), [JCommonsenseQA](https://github.com/yahoojapan/JGLUE), [JEMHopQA](https://github.com/aiishii/JEMHopQA), [JNLI](https://github.com/yahoojapan/JGLUE), [JSeM](https://github.com/DaisukeBekki/JSeM), [JSICK](https://github.com/verypluming/JSICK), [JSQuAD](https://github.com/yahoojapan/JGLUE), [JSTS](https://github.com/yahoojapan/JGLUE), and [NIILC](https://github.com/mynlp/niilc-qa) are employed as evaluation datasets.
-- [JGLUE](https://github.com/yahoojapan/JGLUE) (Waseda University Kawahara Lab and Yahoo)
-  - Japanese version of the [GLUE](https://gluebenchmark.com/) benchmark suite, including the MARC-ja, JCoLA, JSTS, JNLI, JSQuAD, and JCommonsenseQA tasks. [JCoLA](https://github.com/osekilab/JCoLA) is by the University of Tokyo's Oseki Lab. See [here](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.317.pdf) and [here (ja only)](https://techblog.yahoo.co.jp/entry/2022122030379907/) for further details about each task.
-- [JP Language Model Evaluation Harness](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable) (Stability AI)
-  - Fork of the [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) that adds Japanese tasks like JGLUE and others.
-  - A detailed evaluation summary by rinna is available: [[rinna] Benchmark of Stability-AI/lm-evaluation-harness](https://rinnakk.github.io/research/benchmarks/lm/)
-- [Japanese Open LLM Leaderboard](http://wandb.me/llm-jp-openllmleaderboard) (LLM-jp)
-  - Similar to Huggingface's [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard), this leaderboard provides a verification on Japanese LLMs. You can check the performance of Japanese LLMs in English tasks.
-- [Nejumi LLM Leaderboard](https://wandb.ai/wandb/LLM_evaluation_Japan/reports/LLM-JGLUE---Vmlldzo0NTUzMDE2?accessToken=u1ttt89al8oo5p5j12eq3nldxh0378os9qjjh14ha1yg88nvs5irmuao044b6eqa) (Weights & Biases)
-  - Ranking based on zero-shot JGLUE performance.
+#### [Nejumi LLM Leaderboard Neo](http://nejumi.ai/) (Weights & Biases)
 
-#### Benchmarks on open-ended generative tasks
+This compiles the results of a comprehensive evaluation by [llm-jp-eval](#llm-jp-eval), which evaluates language understanding in a question-and-answer format, and [Japanese MT-bench](#jp-mt-bench), which evaluates generative ability in a context of dialogue prompts.
 
-- [Rakuda Benchmark](https://yuzuai.jp/benchmark) (YuzuAI)
-  - Ranking based on model answers to [40 open-ended questions](https://huggingface.co/datasets/yuzuai/rakuda-questions) on Japanese geography, history, politics, and society. Uses GPT-4 to judge model outputs pairwise, and then ranks models by fitting a Maximum Likelihood Elo/Bradley-Terry model to GPT-4's preferences. See [here](https://github.com/yuzu-ai/japanese-llm-ranking) for the data and code used to generate the ranking and [here](https://yuzuai.jp/blog/rakuda) for further explanation.
-- [ELYZA-tasks-100](https://huggingface.co/datasets/elyza/ELYZA-tasks-100) (ELYZA)
-  - Ranking based on model responses to [100 complex and diverse tasks](https://huggingface.co/datasets/elyza/ELYZA-tasks-100), including tasks testing summarization, correction, abstraction, induction, and other skills. Uses humans to score the model responses and then ranks models based on their mean scores. Evaluation results can be found [here](https://docs.google.com/spreadsheets/d/1mtoy4QAqDPk2f_B0vDogFoOrbA5G42DBEEHdqM4VmDI/edit#gid=1023787356) and [here](https://zenn.dev/elyza/articles/5e7d9373c32a98). For a evaluation containing newer models, see [here](https://note.com/elyza/n/n5d42686b60b7).
-- [Japanese MT-bench](https://github.com/Stability-AI/FastChat/tree/jp-stable/fastchat/llm_judge) (Stability AI)
-  - The Japanese version of [MT-bench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) asks about multi-turn conversational ability. It includes 80 questions, 10 each, from 8 categories: Writing, Roleplay, Reasoning, Math, Coding, Extraction, STEM, Humanities. Some questions have been modified to fit with Japanese culture during the production of the Japanese version. It also includes a script that performs a 10-level absolute evaluation by GPT-4. Evaluation results are detailed in the following summary article by AUGMXNT: "[Evals : JA MT‐Bench](https://github.com/AUGMXNT/shisa/wiki/Evals-:-JA-MT%E2%80%90Bench)"
-- [Japanese Vicuna QA Benchmark](https://github.com/ku-nlp/ja-vicuna-qa-benchmark) (Kyoto University Language Media Processing Lab)
-  - This is the Japanese version of [vicuna-blog-eval](https://github.com/lm-sys/vicuna-blog-eval), which is the predecessor of MT-Bench. It includes 80 questions on general knowledge, role-playing, common sense, Fermi estimation, counterfactual thinking, coding, mathematics, and writing. It also includes a script for automatic evaluation by GPT-4 (win-rate calculation). The leaderboard can be found [here](http://wandb.me/llm-jp-vicunaleaderboard).
+<a id="basic-benchmark-suites"></a>
+### Traditional Benchmarks based on Natural Language Understanding tasks
 
-#### Benchmarks for measuring performance in specific domains
+<a id="llm-jp-eval"></a>
+#### [llm-jp-eval Leaderboard](http://wandb.me/llm-jp-leaderboard) (LLM-jp)
 
-- [Japanese Language Model Financial Evaluation Harness](https://github.com/pfnet-research/japanese-lm-fin-harness) (Preferred Networks)
-   - A benchmark for Japanese LLM in the financial sector. It includes tasks such as sentiment analysis in finance (chabsa), basic knowledge tasks in securities analysis (cma_basics), tasks related to audits in certified public accountant examinations (cpa_audit), multiple choice question tasks in financial planner exams (fp2), and mock exam tasks for securities salespeople exams (security_sales_1). For more details, please see [here](https://jxiv.jst.go.jp/index.php/jxiv/preprint/view/564/1785).
-- [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) (Stockmark)
-  - The collection includes 50 questions that probe knowledge on topics such as market trends, current affairs, social issues, and business trends.
+Ranking based on the results of the [llm-jp-eval](https://github.com/llm-jp/llm-jp-eval) script, which automatically evaluates Japanese LLMs across multiple datasets. As of the release of LLM-jp-13B, [Jamp](https://github.com/tomo-ut/temporalNLI_dataset), [JaNLI](https://github.com/verypluming/JaNLI), [JCommonsenseQA](https://github.com/yahoojapan/JGLUE), [JEMHopQA](https://github.com/aiishii/JEMHopQA), [JNLI](https://github.com/yahoojapan/JGLUE), [JSeM](https://github.com/DaisukeBekki/JSeM), [JSICK](https://github.com/verypluming/JSICK), [JSQuAD](https://github.com/yahoojapan/JGLUE), [JSTS](https://github.com/yahoojapan/JGLUE), and [NIILC](https://github.com/mynlp/niilc-qa) are employed as evaluation datasets.
+
+#### [JP Language Model Evaluation Harness](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable) (Stability AI)
+
+Fork of the [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) that adds Japanese tasks like JGLUE and others.  
+A detailed evaluation summary by rinna is available: [[rinna] Benchmark of Stability-AI/lm-evaluation-harness](https://rinnakk.github.io/research/benchmarks/lm/)
+
+#### [Japanese Open LLM Leaderboard](http://wandb.me/llm-jp-openllmleaderboard) (LLM-jp)
+
+Similar to Huggingface's [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard), this leaderboard provides a verification on Japanese LLMs. You can check the performance of Japanese LLMs in English tasks.
+
+#### [JGLUE](https://github.com/yahoojapan/JGLUE) (Waseda University Kawahara Lab and Yahoo)
+
+Japanese version of the [GLUE](https://gluebenchmark.com/) benchmark suite, including the MARC-ja, JCoLA, JSTS, JNLI, JSQuAD, and JCommonsenseQA tasks. [JCoLA](https://github.com/osekilab/JCoLA) is by the University of Tokyo's Oseki Lab. See [here](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.317.pdf) and [here (ja only)](https://techblog.yahoo.co.jp/entry/2022122030379907/) for further details about each task.
+
+#### [Nejumi LLM Leaderboard](https://wandb.ai/wandb/LLM_evaluation_Japan/reports/LLM-JGLUE---Vmlldzo0NTUzMDE2?accessToken=u1ttt89al8oo5p5j12eq3nldxh0378os9qjjh14ha1yg88nvs5irmuao044b6eqa) (Weights & Biases)
+
+Ranking based on zero-shot JGLUE performance.
+
+<a id="open-ended-benchmark-suites"></a>
+### Benchmarks on open-ended generative tasks
+
+<a id="jp-mt-bench"></a>
+#### [Japanese MT-bench](https://github.com/Stability-AI/FastChat/tree/jp-stable/fastchat/llm_judge) (Stability AI)
+
+The Japanese version of [MT-bench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) asks about multi-turn conversational ability. It includes 80 questions, 10 each, from 8 categories: Writing, Roleplay, Reasoning, Math, Coding, Extraction, STEM, Humanities. Some questions have been modified to fit with Japanese culture during the production of the Japanese version. It also includes a script that performs a 10-level absolute evaluation by GPT-4. Evaluation results are detailed in the following summary article by AUGMXNT: "[Evals : JA MT‐Bench](https://github.com/AUGMXNT/shisa/wiki/Evals-:-JA-MT%E2%80%90Bench)"
+
+#### [Rakuda Benchmark](https://yuzuai.jp/benchmark) (YuzuAI)
+
+Ranking based on model answers to [40 open-ended questions](https://huggingface.co/datasets/yuzuai/rakuda-questions) on Japanese geography, history, politics, and society. Uses GPT-4 to judge model outputs pairwise, and then ranks models by fitting a Maximum Likelihood Elo/Bradley-Terry model to GPT-4's preferences. See [here](https://github.com/yuzu-ai/japanese-llm-ranking) for the data and code used to generate the ranking and [here](https://yuzuai.jp/blog/rakuda) for further explanation.
+
+#### [ELYZA-tasks-100](https://huggingface.co/datasets/elyza/ELYZA-tasks-100) (ELYZA)
+
+Ranking based on model responses to [100 complex and diverse tasks](https://huggingface.co/datasets/elyza/ELYZA-tasks-100), including tasks testing summarization, correction, abstraction, induction, and other skills. Uses humans to score the model responses and then ranks models based on their mean scores. Evaluation results can be found [here](https://docs.google.com/spreadsheets/d/1mtoy4QAqDPk2f_B0vDogFoOrbA5G42DBEEHdqM4VmDI/edit#gid=1023787356) and [here](https://zenn.dev/elyza/articles/5e7d9373c32a98). For a evaluation containing newer models, see [here](https://note.com/elyza/n/n5d42686b60b7).
+
+#### [Japanese Vicuna QA Benchmark](https://github.com/ku-nlp/ja-vicuna-qa-benchmark) (Kyoto University Language Media Processing Lab)
+
+This is the Japanese version of [vicuna-blog-eval](https://github.com/lm-sys/vicuna-blog-eval), which is the predecessor of MT-Bench. It includes 80 questions on general knowledge, role-playing, common sense, Fermi estimation, counterfactual thinking, coding, mathematics, and writing. It also includes a script for automatic evaluation by GPT-4 (win-rate calculation). The leaderboard can be found [here](http://wandb.me/llm-jp-vicunaleaderboard).
+
+<a id="domain-specific-benchmark-suites"></a>
+### Benchmarks for measuring performance in specific domains
+
+#### [Japanese Language Model Financial Evaluation Harness](https://github.com/pfnet-research/japanese-lm-fin-harness) (Preferred Networks)
+
+A benchmark for Japanese LLM in the financial sector. It includes tasks such as sentiment analysis in finance (chabsa), basic knowledge tasks in securities analysis (cma_basics), tasks related to audits in certified public accountant examinations (cpa_audit), multiple choice question tasks in financial planner exams (fp2), and mock exam tasks for securities salespeople exams (security_sales_1). For more details, please see [here](https://jxiv.jst.go.jp/index.php/jxiv/preprint/view/564/1785).
+
+#### [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) (Stockmark)
+
+The collection includes 50 questions that probe knowledge on topics such as market trends, current affairs, social issues, and business trends.
 
 <a id="reference"></a>
 ## References for Model Architectures
