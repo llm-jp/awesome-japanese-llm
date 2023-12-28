@@ -281,7 +281,7 @@ Ranking based on zero-shot JGLUE performance.
 
 The Japanese version of [MT-bench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) asks about multi-turn conversational ability. It includes 80 questions, 10 each, from 8 categories: Writing, Roleplay, Reasoning, Math, Coding, Extraction, STEM, Humanities. Some questions have been modified to fit with Japanese culture during the production of the Japanese version. It also includes a script that performs a 10-level absolute evaluation by GPT-4. Evaluation results are detailed in the following summary article by AUGMXNT: "[Evals : JA MT‐Bench](https://github.com/AUGMXNT/shisa/wiki/Evals-:-JA-MT%E2%80%90Bench)"
 
-#### [Rakuda Benchmark](https://yuzuai.jp/benchmark) (YuzuAI)
+#### [Rakuda Benchmark](https://github.com/yuzu-ai/japanese-llm-ranking) (YuzuAI)
 
 Ranking based on model answers to [40 open-ended questions](https://huggingface.co/datasets/yuzuai/rakuda-questions) on Japanese geography, history, politics, and society. Uses GPT-4 to judge model outputs pairwise, and then ranks models by fitting a Maximum Likelihood Elo/Bradley-Terry model to GPT-4's preferences. See [here](https://github.com/yuzu-ai/japanese-llm-ranking) for the data and code used to generate the ranking and [here](https://yuzuai.jp/blog/rakuda) for further explanation.
 
