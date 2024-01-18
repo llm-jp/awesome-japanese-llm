@@ -389,8 +389,6 @@ If you find this resource useful, please consider citing it:
 
 [^4]: ○: The model is on the HuggingFace Model Hub and can be loaded in with the `AutoModel.from_pretrained()` command. △: The model is not on the Model Hub but can be loaded in manually with the HuggingFace transformers library. ✕: The model is not directly loadable with HuggingFace.
 
-[^5]: Development conducted by [Hiroyuki Osone](https://soneo1127.github.io/) with the cooperation of [AI Buncho](https://bun-cho.work/).
-
 [^6]: This project conducted evaluation research on pre-tokenization morphological analysis and released their best performing model, which used Juman++ and BPE.
 
 [^7]: nlp-waseda/roberta-base-japanese and nlp-waseda/roberta-large-japanese trained using a 128 token context length, but nlp-waseda/roberta-large-japanese-seq512 expanded the context length to 512.
