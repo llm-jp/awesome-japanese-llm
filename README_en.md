@@ -293,7 +293,7 @@ Ranking based on model answers to [40 open-ended questions](https://huggingface.
 
 #### [ELYZA-tasks-100](https://huggingface.co/datasets/elyza/ELYZA-tasks-100) (ELYZA)
 
-Ranking based on model responses to [100 complex and diverse tasks](https://huggingface.co/datasets/elyza/ELYZA-tasks-100), including tasks testing summarization, correction, abstraction, induction, and other skills. Uses humans to score the model responses and then ranks models based on their mean scores. Evaluation results can be found [here](https://docs.google.com/spreadsheets/d/1mtoy4QAqDPk2f_B0vDogFoOrbA5G42DBEEHdqM4VmDI/edit#gid=1023787356) and [here](https://zenn.dev/elyza/articles/5e7d9373c32a98). For a evaluation containing newer models, see [here](https://note.com/elyza/n/n5d42686b60b7).
+Ranking based on model responses to [100 complex and diverse tasks](https://huggingface.co/datasets/elyza/ELYZA-tasks-100), including tasks testing summarization, correction, abstraction, induction, and other skills. Uses humans to score the model responses and then ranks models based on their mean scores. Evaluation results can be found [here](https://docs.google.com/spreadsheets/d/1mtoy4QAqDPk2f_B0vDogFoOrbA5G42DBEEHdqM4VmDI/edit#gid=1023787356) and [here](https://zenn.dev/elyza/articles/5e7d9373c32a98). For an evaluation containing newer models, see [here](https://note.com/elyza/n/n5d42686b60b7).
 
 #### [Japanese Vicuna QA Benchmark](https://github.com/ku-nlp/ja-vicuna-qa-benchmark) (Kyoto University Language Media Processing Lab)
 
