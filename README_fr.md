@@ -238,6 +238,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 
 |    |  Architecture  |  Données d'entraînement  |  Développeur  | Licence | HuggingFace? |
 |:---|:---:|:---:|:---:|:---:|:---:|
+| [Recruit CLIP](https://blog.recruit.co.jp/data/articles/japanese-clip/) | CLIP | environ 120 millions de légendes de laion2B-multi | Recruit | CC BY-4.0 | [◯](https://huggingface.co/recruit-jp/japanese-clip-vit-b-32-roberta-base) |
 | [Japanese Stable CLIP](https://ja.stability.ai/blog/japanese-stable-clip) | SigLIP | CC12M traduit en japonais, STAIR Captions | Stability AI | STABILITY AI JAPANESE STABLE CLIP COMMUNITY LICENSE | [◯](https://huggingface.co/stabilityai/japanese-stable-clip-vit-l-16) |
 | [rinna CLIP](https://rinna.co.jp/news/2022/05/20220512.html) | CLIP | CC12M traduit en japonais | rinna | Apache 2.0 | [◯](https://huggingface.co/rinna/japanese-clip-vit-b-16) |
 | [rinna CLOOB](https://rinna.co.jp/news/2022/05/20220512.html) | CLOOB | CC12M traduit en japonais | rinna | Apache 2.0 | [◯](https://huggingface.co/rinna/japanese-cloob-vit-b-16) |
