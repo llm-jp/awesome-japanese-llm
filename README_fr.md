@@ -40,7 +40,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
   - [Référence traditionnelle basé sur des tâches de Compréhension du langage naturel (NLU)](#basic-benchmark-suites)
   - [Standard des tâches génératives ouvertes](#open-ended-benchmark-suites)
   - [Benchmarks pour mesurer la performance dans des domaines spécifiques](#domain-specific-benchmark-suites)
-- [Références par architecture des modèles](#reference)
+- [Références pour les modèles et les architectures](#reference)
 - [Nos contributors](#contributors)
 - [Citation](#citation)
 
@@ -316,9 +316,9 @@ Un benchmark pour les LLM japonais dans le secteur financier. Il comprend des t�
 La collection comprend 50 questions qui approfondissent les connaissances sur des sujets tels que les tendances du marché, l'actualité, les problèmes sociaux et les tendances commerciales.
 
 <a id="reference"></a>
-## Références par architecture des modèles
+## Références pour les modèles et les architectures
 
-| Architecture | Date | Meeting/Journal | Papier |
+| Modèle/Architecture | Date | Meeting/Journal | Papier |
 |:---|:---|:---|:--|
 | Transformer | 2017.06.12 | NIPS(NeurIPS) 2017 | [Attention Is All You Need](https://arxiv.org/abs/1706.03762) |
 | GPT | 2018.06.11 | - | [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) | 

@@ -40,7 +40,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
   - [Traditional Benchmarks based on Natural Language Understanding tasks](#basic-benchmark-suites)
   - [Benchmarks on open-ended generative tasks](#open-ended-benchmark-suites)
   - [Benchmarks for measuring performance in specific domains](#domain-specific-benchmark-suites)
-- [References for Model Architectures](#reference)
+- [References for Models and Architectures](#reference)
 - [Our Contributors](#contributors)
 - [Citation](#citation)
 
@@ -315,9 +315,9 @@ A benchmark for Japanese LLM in the financial sector. It includes tasks such as 
 The collection includes 50 questions that probe knowledge on topics such as market trends, current affairs, social issues, and business trends.
 
 <a id="reference"></a>
-## References for Model Architectures
+## References for Models and Architectures
 
-| Architecture | Date | Meeting/Journal | Paper |
+| Model/Architecture | Date | Meeting/Journal | Paper |
 |:---|:---|:---|:--|
 | Transformer | 2017.06.12 | NIPS(NeurIPS) 2017 | [Attention Is All You Need](https://arxiv.org/abs/1706.03762) |
 | GPT | 2018.06.11 | - | [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) | 

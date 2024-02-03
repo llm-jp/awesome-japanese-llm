@@ -41,7 +41,7 @@
   - [基礎的な自然言語理解 (NLU) を中心に測定するベンチマーク/データセット](#basic-benchmark-suites)
   - [人間らしい応答の生成能力を中心に測定するベンチマーク/データセット](#open-ended-benchmark-suites)
   - [特定ドメインの性能を測定するベンチマーク/データセット](#domain-specific-benchmark-suites)
-- [各モデルアーキテクチャの原論文](#reference)
+- [各モデル・アーキテクチャの原論文](#reference)
 - [コントリビューター](#contributors)
 - [引用](#citation)
 
@@ -317,9 +317,9 @@ MT-Bench の前身である [vicuna-blog-eval](https://github.com/lm-sys/vicuna-
 市場動向、時事問題、社会課題、ビジネストレンドなどの知識を問う問題が50題収録されている。
 
 <a id="reference"></a>
-## 各モデルアーキテクチャの原論文
+## 各モデル・アーキテクチャの原論文
 
-| アーキテクチャ | 初出時期 | 会議/ジャーナル | 論文 |
+| モデル/アーキテクチャ | 初出時期 | 会議/ジャーナル | 論文 |
 |:---|:---|:---|:--|
 | Transformer | 2017.06.12 | NIPS(NeurIPS) 2017 | [Attention Is All You Need](https://arxiv.org/abs/1706.03762) |
 | GPT | 2018.06.11 | - | [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) | 
