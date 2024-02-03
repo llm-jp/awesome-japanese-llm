@@ -123,6 +123,7 @@
 
 |    | ドメイン | ベースのLLM  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|
+| [watashiha/Watashiha-Llama-2-13B-Ogiri-sft](https://huggingface.co/watashiha/Watashiha-Llama-2-13B-Ogiri-sft) | 大喜利 | Llama 2 (**13b**) | わたしは | Llama 2 Community License |
 | [ELYZA-japanese-CodeLlama-7b](https://note.com/elyza/n/n5bce23d7c9c8)<br>([7b](https://huggingface.co/elyza/ELYZA-japanese-CodeLlama-7b), [7b-instruct](https://huggingface.co/elyza/ELYZA-japanese-CodeLlama-7b-instruct)) | コーディング |  Code Llama<br>(**7b**) | ELYZA | Llama 2 Community License |
 | [AIBunCho/japanese-novel-gpt-j-6b](https://huggingface.co/AIBunCho/japanese-novel-gpt-j-6b) | 物語生成 | GPT-J (**6b**) | 個人 ([大曽根宏幸](https://scholar.google.co.jp/citations?user=6ID5K3oAAAAJ)) | CreativeML OpenRAIL-M License |
 | [NovelAI/genji-jp](https://huggingface.co/NovelAI/genji-jp) | 物語生成 | GPT-J (**6b**) | NovelAI |  ？  |
