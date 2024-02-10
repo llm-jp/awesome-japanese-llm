@@ -43,6 +43,7 @@
   - [人間らしい応答の生成能力を中心に測定するベンチマーク/データセット](#open-ended-benchmark-suites)
   - [特定ドメインの性能を測定するベンチマーク/データセット](#domain-specific-benchmark-suites)
 - [各モデル・アーキテクチャの原論文](#reference)
+- [LLMの学習手法の原論文](#reference-training)
 - [コントリビューター](#contributors)
 - [引用](#citation)
 
@@ -380,6 +381,16 @@ MT-Bench の前身である [vicuna-blog-eval](https://github.com/lm-sys/vicuna-
 | Mistral 7B | 2023.10.10 | - | [Mistral 7B](https://arxiv.org/abs/2310.06825) |
 | Nue ASR | 2023.12.06 | - | [An Integration of Pre-Trained Speech and Language Models for End-to-End Speech Recognition](https://arxiv.org/abs/2312.03668) |
 | TinyLlama | 2024.01.04 | - | [TinyLlama: An Open-Source Small Language Model](https://arxiv.org/abs/2401.02385) |
+
+<a id="reference-training"></a>
+## LLMの学習手法の原論文
+
+| 手法 | 初出時期 | 会議/ジャーナル | 論文 |
+|:---|:---|:---|:---|
+| PPO | 2017.07.20 | - | [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347) |
+| Instruction Tuning<br>(Supervised Fine-tuning; SFT) | 2021.09.03 | ICLR 2022 | [Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652) |
+| DPO | 2023.05.29 | NeurIPS 2023 | [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290) |
+| SteerLM | 2023.10.09 | Findings of EMNLP 2023 | [SteerLM: Attribute Conditioned SFT as an (User-Steerable) Alternative to RLHF](https://arxiv.org/abs/2310.05344) |
 
 <a id="contributors"></a>
 ## コントリビューター
