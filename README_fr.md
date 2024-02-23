@@ -274,28 +274,35 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 
 #### [Nejumi LLM Leaderboard Neo](http://nejumi.ai/) (Weights & Biases)
 
-This compiles the results of a comprehensive evaluation by [llm-jp-eval](#llm-jp-eval), which evaluates language understanding in a question-and-answer format, and [Japanese MT-bench](#jp-mt-bench), which evaluates generative ability in a context of dialogue prompts.
+Cela compile les résultats d'une évaluation complète par [llm-jp-eval](#llm-jp-eval), qui évalue la compréhension de la langue dans un format de questions-réponses, et [Japanese MT-bench](#jp-mt-bench), qui évalue la capacité générative dans un contexte d'invites de dialogue.
 
 <a id="basic-benchmark-suites"></a>
 ### Référence traditionnelle basé sur des tâches de Compréhension du langage naturel (NLU)
 
 <a id="llm-jp-eval"></a>
-#### [llm-jp-eval Leaderboard](http://wandb.me/llm-jp-leaderboard) (LLM-jp)
+#### [llm-jp-eval](https://github.com/llm-jp/llm-jp-eval) (LLM-jp)
 
-Classement basé sur les résultats du script [llm-jp-eval](https://github.com/llm-jp/llm-jp-eval) qui évalue automatiquement les LLM japonais sur plusieurs ensembles de données. Dès la sortie de LLM-jp-13B, [Jamp](https://github.com/tomo-ut/temporalNLI_dataset), [JaNLI](https://github.com/verypluming/JaNLI), [JCommonsenseQA](https://github.com/yahoojapan/JGLUE), [JEMHopQA](https://github.com/aiishii/JEMHopQA), [JNLI](https://github.com/yahoojapan/JGLUE), [JSeM](https://github.com/DaisukeBekki/JSeM), [JSICK](https://github.com/verypluming/JSICK), [JSQuAD](https://github.com/yahoojapan/JGLUE), [JSTS](https://github.com/yahoojapan/JGLUE), et [NIILC](https://github.com/mynlp/niilc-qa) sont utilisés comme jeu de données d'évaluation.
+Un outil qui évalue automatiquement les LLM japonais à travers plusieurs jeux de données.  
+La liste complète des jeux de données pris en charge peut être trouvée [ici](https://github.com/llm-jp/llm-jp-eval/tree/main/src/llm_jp_eval/datasets) (qui comprend également des tâches telles que JNLI et JCommonsenseQA de JGLUE).  
+Les résultats de l'évaluation sont compilés sur le [classement llm-jp-eval](http://wandb.me/llm-jp-leaderboard).
 
 #### [JP Language Model Evaluation Harness](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable) (Stability AI)
 
-Fork de [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) cela ajoute des tâches en japonais comme JGLUE et d'autres.  
-Un résumé d'évaluation détaillé par rinna est disponible: [[rinna] Benchmark of Stability-AI/lm-evaluation-harness](https://rinnakk.github.io/research/benchmarks/lm/)
-
-#### [Japanese Open LLM Leaderboard](http://wandb.me/llm-jp-openllmleaderboard) (LLM-jp)
-
-Semblable à [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) de Huggingface, ce classement fournit une vérification sur les LLM japonais. Vous pouvez vérifier la performance des LLM japonais dans des tâches en anglais.
+Un fork par Stability AI de [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness). Il s'agit d'un outil pour évaluer automatiquement les LLM japonais à travers plusieurs jeux de données.  
+La liste complète des jeux de données pris en charge peut être trouvée [ici](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable/lm_eval/tasks/ja) (qui comprend également des tâches telles que JNLI et JCommonsenseQA de JGLUE).  
+Il y a un résumé détaillé des résultats de l'évaluation par rinna : [[rinna] Benchmark de Stability-AI/lm-evaluation-harness](https://rinnakk.github.io/research/benchmarks/lm/)
 
 #### [JGLUE](https://github.com/yahoojapan/JGLUE) (Université de Waseda Laboratoire Kawahara et Yahoo)
 
 Version japonais de [GLUE](https://gluebenchmark.com/) référence suite, avec les tâches MARC-ja, JCoLA, JSTS, JNLI, JSQuAD, et JCommonsenseQA. [JCoLA](https://github.com/osekilab/JCoLA) vient du laboratoire d'Oseki de l'université de Tokyo. Voir [ici](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.317.pdf) and [here (ja only)](https://techblog.yahoo.co.jp/entry/2022122030379907/) pour plus d'informations sur chaque tâches.
+
+#### [JMMLU](https://github.com/nlp-waseda/JMMLU) (Université de Waseda Laboratoire Kawahara)
+
+Un benchmark construit comme une version japonaise du [MMLU Benchmark](https://github.com/hendrycks/test), consistant en des questions à choix multiples de divers domaines académiques, y compris les sciences naturelles, les humanités et les sciences sociales. En plus de la traduction du MMLU original, il contient de nouveaux problèmes basés sur le contexte culturel unique du Japon (problèmes spécifiques au Japon).
+
+#### [Japanese Open LLM Leaderboard](http://wandb.me/llm-jp-openllmleaderboard) (LLM-jp)
+
+Semblable à [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) de Huggingface, ce classement fournit une vérification sur les LLM japonais. Vous pouvez vérifier la performance des LLM japonais dans des tâches en anglais.
 
 #### [Nejumi LLM Leaderboard](https://wandb.ai/wandb/LLM_evaluation_Japan/reports/LLM-JGLUE---Vmlldzo0NTUzMDE2?accessToken=u1ttt89al8oo5p5j12eq3nldxh0378os9qjjh14ha1yg88nvs5irmuao044b6eqa) (Weights & Biases)
 
@@ -307,7 +314,7 @@ Classement basé sur la performance de JGLUE en zero-shot.
 <a id="jp-mt-bench"></a>
 #### [Japanese MT-bench](https://github.com/Stability-AI/FastChat/tree/jp-stable/fastchat/llm_judge) (Stability AI)
 
-Version japonaise du [MT-bench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) qui interroge sur la capacité à converser en plusieurs tournures. Il inclut 80 questions, 10 de chacune des 8 catégories : écriture, jeu de rôle, raisonnement, maths, codage, extraction, STEM, sciences humaines. Certaines questions ont été modifiées pour s'adapter à la culture japonaise lors de la création de la version japonaise. Il comprend également un script qui réalise une évaluation absolue en 10 niveaux par GPT-4. Les résultats de l'évaluation sont détaillés dans l'article récapitulatif suivant de AUGMXNT: "[Evals : JA MT‐Bench](https://github.com/AUGMXNT/shisa/wiki/Evals-:-JA-MT%E2%80%90Bench)"
+Version japonaise du [MT-bench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) qui interroge sur la capacité à converser en plusieurs tournures. Il inclut 80 questions, 10 de chacune des 8 catégories : écriture, jeu de rôle, raisonnement, maths, codage, extraction, STEM, sciences humaines. Certaines questions ont été modifiées pour s'adapter à la culture japonaise lors de la création de la version japonaise. Il comprend également un script qui réalise une évaluation absolue en 10 niveaux par GPT-4.
 
 #### [Rakuda Benchmark](https://github.com/yuzu-ai/japanese-llm-ranking) (YuzuAI)
 
