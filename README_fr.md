@@ -272,7 +272,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 <a id="hybrid-benchmark-suites"></a>
 ### Benchmarks hybrides
 
-#### [Nejumi LLM Leaderboard Neo](http://nejumi.ai/) (Weights & Biases)
+#### [Nejumi LLM Leaderboard Neo](https://api.wandb.ai/links/wandb-japan/dcbaznfb) (Weights & Biases)
 
 Cela compile les résultats d'une évaluation complète par [llm-jp-eval](#llm-jp-eval), qui évalue la compréhension de la langue dans un format de questions-réponses, et [Japanese MT-bench](#jp-mt-bench), qui évalue la capacité générative dans un contexte d'invites de dialogue.
 
@@ -303,10 +303,6 @@ Un benchmark construit comme une version japonaise du [MMLU Benchmark](https://g
 #### [Japanese Open LLM Leaderboard](http://wandb.me/llm-jp-openllmleaderboard) (LLM-jp)
 
 Semblable à [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) de Huggingface, ce classement fournit une vérification sur les LLM japonais. Vous pouvez vérifier la performance des LLM japonais dans des tâches en anglais.
-
-#### [Nejumi LLM Leaderboard](https://wandb.ai/wandb/LLM_evaluation_Japan/reports/LLM-JGLUE---Vmlldzo0NTUzMDE2?accessToken=u1ttt89al8oo5p5j12eq3nldxh0378os9qjjh14ha1yg88nvs5irmuao044b6eqa) (Weights & Biases)
-
-Classement basé sur la performance de JGLUE en zero-shot.
 
 <a id="open-ended-benchmark-suites"></a>
 ### Standard des tâches génératives ouvertes

@@ -271,7 +271,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 <a id="hybrid-benchmark-suites"></a>
 ### Hybrid Benchmarks
 
-#### [Nejumi LLM Leaderboard Neo](http://nejumi.ai/) (Weights & Biases)
+#### [Nejumi LLM Leaderboard Neo](https://api.wandb.ai/links/wandb-japan/dcbaznfb) (Weights & Biases)
 
 This compiles the results of a comprehensive evaluation by [llm-jp-eval](#llm-jp-eval), which evaluates language understanding in a question-and-answer format, and [Japanese MT-bench](#jp-mt-bench), which evaluates generative ability in a context of dialogue prompts.
 
@@ -302,10 +302,6 @@ A benchmark constructed as a Japanese version of the [MMLU Benchmark](https://gi
 #### [Japanese Open LLM Leaderboard](http://wandb.me/llm-jp-openllmleaderboard) (LLM-jp)
 
 Similar to Huggingface's [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard), this leaderboard provides a verification on Japanese LLMs. You can check the performance of Japanese LLMs in English tasks.
-
-#### [Nejumi LLM Leaderboard](https://wandb.ai/wandb/LLM_evaluation_Japan/reports/LLM-JGLUE---Vmlldzo0NTUzMDE2?accessToken=u1ttt89al8oo5p5j12eq3nldxh0378os9qjjh14ha1yg88nvs5irmuao044b6eqa) (Weights & Biases)
-
-Ranking based on zero-shot JGLUE performance.
 
 <a id="open-ended-benchmark-suites"></a>
 ### Benchmarks on open-ended generative tasks
