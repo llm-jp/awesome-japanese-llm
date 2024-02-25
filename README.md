@@ -305,10 +305,6 @@ rinna による詳細な評価結果まとめがある: [[rinna] Benchmark of St
 
 Huggingface の [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) と同様の検証を日本語 LLM に対して行ったもの。日本語 LLM の英語タスクにおける性能を確認できる。
 
-#### [Nejumi LLMリーダーボード](https://wandb.ai/wandb/LLM_evaluation_Japan/reports/LLM-JGLUE---Vmlldzo0NTUzMDE2?accessToken=u1ttt89al8oo5p5j12eq3nldxh0378os9qjjh14ha1yg88nvs5irmuao044b6eqa) (Weights & Biases)
-
-JGLUE に対するモデルの zero-shot 評価をまとめている。
-
 <a id="open-ended-benchmark-suites"></a>
 ### 人間らしい応答の生成能力を中心に測定するベンチマーク/データセット
 
