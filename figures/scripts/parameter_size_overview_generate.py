@@ -27,7 +27,8 @@ BIGTECH_LIST = [
     "Meta AI",  # Meta
     "Anthropic",  # Amazon
     "Microsoft",  # Microsoft
-    "OpenAI",  # Microsoft
+    "OpenAI",  # Microsoft,
+    "Mistral AI",  # Microsoft
 ]
 
 df = pd.read_csv('parameter_size_overview.csv')
