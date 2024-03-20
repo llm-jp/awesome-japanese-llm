@@ -84,7 +84,7 @@ ax.scatter(
     df[df["Type"] == "JP-unavailable"]["Parameters(B)"],
     color=colors["JP-unavailable"],
     label=labels["JP-unavailable"],
-    s=100,
+    s=150,
     linewidth=0.5,
     edgecolors="gray"
 )
@@ -94,7 +94,7 @@ ax.scatter(
     df[df["Type"] == "JP-available-CP"]["Parameters(B)"],
     color=colors["JP-available-CP"],
     label=labels["JP-available-CP"],
-    s=100,
+    s=150,
     linewidth=0.5,
     edgecolors="gray"
 )
@@ -104,35 +104,48 @@ ax.scatter(
     df[df["Type"] == "JP-available"]["Parameters(B)"],
     color=colors["JP-available"],
     label=labels["JP-available"],
-    s=100,
+    s=150,
     linewidth=0.5,
     edgecolors="gray"
 )
 
-for i in reversed(range(len(df))):
-    if df["Type"][i].startswith("JP"):
-        ax.text(
-            df["Announced"][i],
-            df["Parameters(B)"][i] * 1.2,
-            df["label"][i],
-            fontsize=8,
-            verticalalignment='bottom',
-            horizontalalignment='center'
-        )
-    if df["Type"][i].startswith("EN") and df["Lab"][i] in BIGTECH_LIST and df["Parameters(B)"][i] > 100:
-        ax.text(
-            df["Announced"][i],
-            df["Parameters(B)"][i] * 1.2,
-            f'{df["label"][i]}\n({df["Lab"][i]})',
-            fontsize=8,
-            color="grey",
-            verticalalignment='bottom',
-            horizontalalignment='center',
-        )
+# キャプションが増えすぎて図が見づらくなってきたので、一旦コメントアウト
+# for i in reversed(range(len(df))):
+#     if df["Type"][i].startswith("JP"):
+#         ax.text(
+#             df["Announced"][i],
+#             df["Parameters(B)"][i] * 1.2,
+#             df["label"][i],
+#             fontsize=8,
+#             verticalalignment='bottom',
+#             horizontalalignment='center'
+#         )
+#     if df["Type"][i].startswith("EN") and df["Lab"][i] in BIGTECH_LIST and df["Parameters(B)"][i] > 100:
+#         ax.text(
+#             df["Announced"][i],
+#             df["Parameters(B)"][i] * 1.2,
+#             f'{df["label"][i]}\n({df["Lab"][i]})',
+#             fontsize=8,
+#             color="grey",
+#             verticalalignment='bottom',
+#             horizontalalignment='center',
+#         )
 
 for y in [0.1, 1, 10, 100, 1000]:
     ax.axhline(y=y, color='gray', linestyle='--', linewidth=0.5)
 
+# ChatGPT が公開された 2022年11月30日 に縦線を引き、"ChatGPT" という文字列を添える
+chatgpt_announced = pd.to_datetime("2022/11/30", format='%Y/%m/%d')
+ax.axvline(x=chatgpt_announced, color='gray', linestyle='--', linewidth=0.5)
+ax.text(
+    chatgpt_announced,
+    3500,
+    "ChatGPT公開",
+    fontsize=10,
+    fontweight='bold',
+    verticalalignment='top',
+    horizontalalignment='center'
+)
 
 ax.xaxis.set_major_locator(mdates.MonthLocator(interval=6))
 ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y年%m月')) 
