@@ -428,16 +428,14 @@ We love contributors! Feel free to contribute to this project.
 <a id="citation"></a>
 ## Citation
 
-If you find this resource useful, please consider citing it:
-
 ```
-@software{LLM-jp_Overview_of_Japanese_2023,
+@misc{LLM-jp_Overview_of_Japanese_2023,
     author = {{LLM-jp}},
-    license = {Apache-2.0},
-    month = jul,
     title = {{Overview of Japanese LLMs}},
-    url = {https://github.com/llm-jp/awesome-japanese-llm},
-    year = {2023}
+    year = {2023},
+    publisher = {GitHub},
+    journal = {GitHub repository},
+    howpublished = {\url{https://github.com/llm-jp/awesome-japanese-llm}}
 }
 ```
 

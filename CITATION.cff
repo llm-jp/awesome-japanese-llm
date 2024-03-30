@@ -1,9 +1,0 @@
-cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-authors:
-- name: "LLM-jp"
-title: "Overview of Japanese LLMs"
-repository-code: "https://github.com/llm-jp/awesome-japanese-llm"
-url: "https://llm-jp.github.io/awesome-japanese-llm/"
-license: Apache-2.0
-date-released: 2023-07-09
