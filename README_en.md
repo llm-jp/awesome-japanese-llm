@@ -44,6 +44,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
   - [Traditional Benchmarks based on Natural Language Understanding tasks](#basic-benchmark-suites)
   - [Benchmarks on open-ended generative tasks](#open-ended-benchmark-suites)
   - [Benchmarks for measuring performance in specific domains](#domain-specific-benchmark-suites)
+  - [Benchmarks for vision-language models](#vl-benchmark-suites)
 - [References for Models and Architectures](#reference)
 - [References for Training Methods](#reference-training)
 - [Our Contributors](#contributors)
@@ -360,6 +361,17 @@ A benchmark for Japanese LLM in the financial sector. It includes tasks such as 
 #### [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) (Stockmark)
 
 The collection includes 50 questions that probe knowledge on topics such as market trends, current affairs, social issues, and business trends.
+
+<a id="vl-benchmark-suites"></a>
+### Benchmarks for vision-language models
+
+#### [JA-VLM-Bench-In-the-Wild](https://huggingface.co/datasets/SakanaAI/JA-VLM-Bench-In-the-Wild) (Sakana AI)
+
+A dataset independently prepared by Sakana AI to evaluate EvoVLM-JP-v1-7B. It consists of 50 questions assigned to 42 images. It is characterized by images and questions that require knowledge about Japan.
+
+#### [LLaVA-Bench (COCO) Japanese](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-ja) (Turing)
+
+This is the Japanese version, translated by DeepL, of the LLaVA-Bench (COCO) dataset used to evaluate LLaVA. It consists of 30 images, each with 3 types of questions assigned to them.
 
 <a id="reference"></a>
 ## References for Models and Architectures

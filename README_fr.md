@@ -44,6 +44,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
   - [Référence traditionnelle basé sur des tâches de Compréhension du langage naturel (NLU)](#basic-benchmark-suites)
   - [Standard des tâches génératives ouvertes](#open-ended-benchmark-suites)
   - [Benchmarks pour mesurer la performance dans des domaines spécifiques](#domain-specific-benchmark-suites)
+  - [Benchmarks pour modèles vision-language](#vl-benchmark-suites)
 - [Références pour les modèles et les architectures](#reference)
 - [Références pour les méthodes d'entraînement](#reference-training)
 - [Nos contributors](#contributors)
@@ -361,6 +362,17 @@ Un benchmark pour les LLM japonais dans le secteur financier. Il comprend des t�
 #### [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) (Stockmark)
 
 La collection comprend 50 questions qui approfondissent les connaissances sur des sujets tels que les tendances du marché, l'actualité, les problèmes sociaux et les tendances commerciales.
+
+<a id="vl-benchmark-suites"></a>
+### Benchmarks pour modèles vision-langage
+
+#### [JA-VLM-Bench-In-the-Wild](https://huggingface.co/datasets/SakanaAI/JA-VLM-Bench-In-the-Wild) (Sakana AI)
+
+Un jeu de données préparé indépendamment par Sakana AI pour évaluer EvoVLM-JP-v1-7B. Il se compose de 50 questions attribuées à 42 images. Il se caractérise par des images et des questions qui exigent une connaissance du Japon.
+
+#### [LLaVA-Bench (COCO) Japonais](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-ja) (Turing)
+
+Il s'agit de la version japonaise, traduite par DeepL, du jeu de données LLaVA-Bench (COCO) utilisé pour évaluer LLaVA. Il se compose de 30 images, chacune avec 3 types de questions qui leur sont attribuées.
 
 <a id="reference"></a>
 ## Références pour les modèles et les architectures
