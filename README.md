@@ -45,6 +45,7 @@
   - [基礎的な自然言語理解 (NLU) を中心に測定するベンチマーク/データセット](#basic-benchmark-suites)
   - [人間らしい応答の生成能力を中心に測定するベンチマーク/データセット](#open-ended-benchmark-suites)
   - [特定ドメインの性能を測定するベンチマーク/データセット](#domain-specific-benchmark-suites)
+  - [視覚言語モデル (Vision-Language Models) のベンチマーク/データセット](#vl-benchmark-suites)
 - [各モデル・アーキテクチャの原論文](#reference)
 - [LLMの学習手法の原論文](#reference-training)
 - [コントリビューター](#contributors)
@@ -362,6 +363,17 @@ MT-Bench の前身である [vicuna-blog-eval](https://github.com/lm-sys/vicuna-
 #### [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) (ストックマーク)
 
 市場動向、時事問題、社会課題、ビジネストレンドなどの知識を問う問題が50題収録されている。
+
+<a id="vl-benchmark-suites"></a>
+### 視覚言語モデル (Vision-Language Models) のベンチマーク/データセット
+
+#### [JA-VLM-Bench-In-the-Wild](https://huggingface.co/datasets/SakanaAI/JA-VLM-Bench-In-the-Wild) (Sakana AI)
+
+Sakana AI が EvoVLM-JP-v1-7B の評価のために独自に用意したデータセット。42 枚の画像に対して計 50 問の質問が割り当てられている。日本に関する知識を要求する画像・質問になっているのが特徴である。
+
+#### [LLaVA-Bench (COCO) Japanese](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-ja) (Turing)
+
+LLaVA の評価に使われた LLaVA-Bench (COCO) データセットを DeepL で日本語に訳したもの。30 枚の画像に対して各 3 種類の質問が割り当てられている。
 
 <a id="reference"></a>
 ## 各モデル・アーキテクチャの原論文
