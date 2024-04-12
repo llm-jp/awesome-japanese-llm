@@ -43,6 +43,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
   - [Hybrid Benchmarks](#hybrid-benchmark-suites)
   - [Traditional Benchmarks based on Natural Language Understanding tasks](#basic-benchmark-suites)
   - [Benchmarks on open-ended generative tasks](#open-ended-benchmark-suites)
+  - [Benchmarks for measuring logical reasoning capabilities](#logical-reasoning-benchmark-suites)
   - [Benchmarks for measuring performance in specific domains](#domain-specific-benchmark-suites)
   - [Benchmarks for vision-language models](#vl-benchmark-suites)
 - [References for Models and Architectures](#reference)
@@ -350,6 +351,13 @@ Ranking based on model responses to [100 complex and diverse tasks](https://hugg
 #### [Japanese Vicuna QA Benchmark](https://github.com/ku-nlp/ja-vicuna-qa-benchmark) (Kyoto University Language Media Processing Lab)
 
 This is the Japanese version of [vicuna-blog-eval](https://github.com/lm-sys/vicuna-blog-eval), which is the predecessor of MT-Bench. It includes 80 questions on general knowledge, role-playing, common sense, Fermi estimation, counterfactual thinking, coding, mathematics, and writing. It also includes a script for automatic evaluation by GPT-4 (win-rate calculation). The leaderboard can be found [here](http://wandb.me/llm-jp-vicunaleaderboard).
+
+<a id="logical-reasoning-benchmark-suites"></a>
+### Benchmarks for measuring logical reasoning capabilities
+
+#### [JFLD (Japanese Formal Logic Deduction)](https://huggingface.co/datasets/hitachi-nlp/JFLD) (Hitachi)
+
+A dataset for evaluating deductive reasoning capabilities of Japanese LLMs (the Japanese version of the [FLD (Formal Logic Deduction)](https://github.com/hitachi-nlp/FLD) proposed by the same authors). It is characterized by being composed of counterfactual samples to evaluate apart from the knowledge the LLM possesses.
 
 <a id="domain-specific-benchmark-suites"></a>
 ### Benchmarks for measuring performance in specific domains

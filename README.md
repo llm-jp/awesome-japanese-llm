@@ -44,6 +44,7 @@
   - [複合型ベンチマーク](#hybrid-benchmark-suites)
   - [基礎的な自然言語理解 (NLU) を中心に測定するベンチマーク/データセット](#basic-benchmark-suites)
   - [人間らしい応答の生成能力を中心に測定するベンチマーク/データセット](#open-ended-benchmark-suites)
+  - [論理推論能力を測定するベンチマーク/データセット](#logical-reasoning-benchmark-suites)
   - [特定ドメインの性能を測定するベンチマーク/データセット](#domain-specific-benchmark-suites)
   - [視覚言語モデル (Vision-Language Models) のベンチマーク/データセット](#vl-benchmark-suites)
 - [各モデル・アーキテクチャの原論文](#reference)
@@ -352,6 +353,13 @@ Huggingface の [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFace
 #### [Japanese Vicuna QA Benchmark](https://github.com/ku-nlp/ja-vicuna-qa-benchmark) (京大 言語メディア研究室)
 
 MT-Bench の前身である [vicuna-blog-eval](https://github.com/lm-sys/vicuna-blog-eval) の日本語版。一般、知識、ロールプレイ、常識、フェルミ推定、反実仮想、コーディング、数学、ライティングに関する 80 問の質問を収録している。また、GPT-4 による自動評価（勝率計算）のスクリプトも含まれている。リーダーボードは[こちら](http://wandb.me/llm-jp-vicunaleaderboard)
+
+<a id="logical-reasoning-benchmark-suites"></a>
+### 論理推論能力を測定するベンチマーク/データセット
+
+#### [JFLD (Japanese Formal Logic Deduction)](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/A4-1.pdf) (日立製作所)
+
+日本語 LLM の演繹推論能力を問うデータセット（同著者らが提案している [FLD (Formal Logic Deduction)](https://github.com/hitachi-nlp/FLD) の日本語版）。LLM が持つ知識と切り分けて評価を行うために、反実仮想的なサンプルから構成されているのが特徴である。
 
 <a id="domain-specific-benchmark-suites"></a>
 ### 特定ドメインの性能を測定するベンチマーク/データセット
