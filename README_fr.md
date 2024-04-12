@@ -43,6 +43,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
   - [Benchmarks hybrides](#hybrid-benchmark-suites)
   - [Référence traditionnelle basé sur des tâches de Compréhension du langage naturel (NLU)](#basic-benchmark-suites)
   - [Standard des tâches génératives ouvertes](#open-ended-benchmark-suites)
+  - [Benchmarks pour mesurer les capacités de raisonnement logique](#logical-reasoning-benchmark-suites)
   - [Benchmarks pour mesurer la performance dans des domaines spécifiques](#domain-specific-benchmark-suites)
   - [Benchmarks pour modèles vision-language](#vl-benchmark-suites)
 - [Références pour les modèles et les architectures](#reference)
@@ -351,6 +352,13 @@ Classement basé sur les réponses des modèles avec [100 tâches complexes et d
 #### [Japanese Vicuna QA Benchmark](https://github.com/ku-nlp/ja-vicuna-qa-benchmark) (Université de Kyoto Laboratoire de traitement des langues et des médias)
 
 Il s'agit de la version japonaise de [vicuna-blog-eval](https://github.com/lm-sys/vicuna-blog-eval), qui est le précurseur de MT-Bench. Il comprend 80 questions sur la connaissance générale, le jeu de rôle, le bon sens, l'estimation de Fermi, la pensée contrefactuelle, le codage, les mathématiques, et l'écriture. Il comprend également un script pour une évaluation automatique par GPT-4 (calcul du taux de victoire). Le tableau de classement peut être trouvé [ici](http://wandb.me/llm-jp-vicunaleaderboard).
+
+<a id="logical-reasoning-benchmark-suites"></a>
+### Benchmarks pour mesurer les capacités de raisonnement logique
+
+#### [JFLD (Japanese Formal Logic Deduction)](https://huggingface.co/datasets/hitachi-nlp/JFLD) (Hitachi)
+
+Un dataset pour évaluer les capacités de raisonnement déductif des LLM japonais (la version japonaise de la [FLD (Formal Logic Deduction)](https://github.com/hitachi-nlp/FLD) proposée par les mêmes auteurs). Il se caractérise par le fait qu'il est composé d'exemples contrefactuels pour évaluer indépendamment des connaissances que possède le LLM.
 
 <a id="domain-specific-benchmark-suites"></a>
 ### Benchmarks pour mesurer la performance dans des domaines spécifiques
