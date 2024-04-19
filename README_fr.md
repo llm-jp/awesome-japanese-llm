@@ -39,6 +39,8 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
     - [Spécifique à un domaine](#multimodal-domain-specific)
   - [Autres](#multimodal-others)
 - [Modèles Speech-Language](#speech)
+  - [Reconnaissance automatique de la parole](#speech-asr)
+  - [Autres](#multimodal-others)
 - [Standard d'évaluation pour les LLM en japonais](#benchmark-suites)
   - [Benchmarks hybrides](#hybrid-benchmark-suites)
   - [Référence traditionnelle basé sur des tâches de Compréhension du langage naturel (NLU)](#basic-benchmark-suites)
@@ -289,12 +291,24 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 <a id="speech"></a>
 ## Modèles Speech-Language
 
+<a id="speech-asr"></a>
+### Reconnaissance automatique de la parole
+
 |    |  Architecture  |  Données d'entraînement  |  Développeur  | Licence |
 |:---|:---:|:---:|:---:|:---:|
+| [Kotoba-Whisper](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0)<br>([v1.0](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0), [v1.0-ggml](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0-ggml)) | Distil-Whisper | ReazonSpeech | Kotoba Technologies | Apache 2.0 |
 | [Nue ASR](https://rinna.co.jp/news/2023/12/20231207.html)<br>([nue-asr](https://huggingface.co/rinna/nue-asr)) | Nue ASR<br>(HuBERT + LLM) | ReazonSpeech | rinna | Apache 2.0 |
 | [ReazonSpeech](https://research.reazon.jp/projects/ReazonSpeech/)<br>([espnet-v1](https://huggingface.co/reazon-research/reazonspeech-espnet-v1), [espnet-next](https://huggingface.co/reazon-research/reazonspeech-espnet-next), [espnet-v2](https://huggingface.co/reazon-research/reazonspeech-espnet-v2), [nemo-v2](https://huggingface.co/reazon-research/reazonspeech-nemo-v2)) | ESPnet (Conformer-Transducer) / NeMo (FastConformer-RNNT) | ReazonSpeech | Reazon Holdings | Apache 2.0 |
+
+<a id="speech-others"></a>
+### Autres
+
+|    |  Architecture  |  Données d'entraînement  |  Développeur  | Licence |
+|:---|:---:|:---:|:---:|:---:|
+| [Kotoba-Speech](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)<br>([v0.1](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)) | Transformer | undisclosed | Kotoba Technologies | Apache 2.0 |
 | [UniversityOfTokyoHuBERT](https://huggingface.co/sarulab-speech/hubert-base-jtube)<br>([base-jtube](https://huggingface.co/sarulab-speech/hubert-base-jtube)) | HuBERT | JTubeSpeech | University of Tokyo<br>Saruwatari & Takamichi Lab | MIT |
 | [rinna HuBERT](https://rinna.co.jp/news/2023/04/20230428.html)<br>([base](https://huggingface.co/rinna/japanese-hubert-base), [large](https://huggingface.co/rinna/japanese-hubert-large)) | HuBERT | ReazonSpeech | rinna | Apache 2.0 |
+
 
 <a id="benchmark-suites"></a>
 ## Standard d'évaluation pour les LLM en japonais
