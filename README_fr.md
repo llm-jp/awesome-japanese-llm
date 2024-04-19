@@ -40,7 +40,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
   - [Autres](#multimodal-others)
 - [Modèles Speech-Language](#speech)
   - [Reconnaissance automatique de la parole](#speech-asr)
-  - [Autres](#multimodal-others)
+  - [Autres](#speech-others)
 - [Standard d'évaluation pour les LLM en japonais](#benchmark-suites)
   - [Benchmarks hybrides](#hybrid-benchmark-suites)
   - [Référence traditionnelle basé sur des tâches de Compréhension du langage naturel (NLU)](#basic-benchmark-suites)
