@@ -487,6 +487,7 @@ When referencing this repository, please cite as follows:
     title={{Exploring Open Large Language Models for the Japanese Language: A Practical Guide}},
     author={Kaito Sugimoto},
     doi={10.51094/jxiv.682},
+    journal={Jxiv preprint},
     year={2024}
 }
 ```
