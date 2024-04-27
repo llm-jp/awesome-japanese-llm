@@ -479,14 +479,17 @@ LLaVA の評価に使われた LLaVA-Bench (COCO) データセットを DeepL �
 <a id="citation"></a>
 ## 引用
 
+このリポジトリの要約はプレプリントとしても公開されています:
+[Exploring Open Large Language Models for the Japanese Language: A Practical Guide](https://jxiv.jst.go.jp/index.php/jxiv/preprint/view/682/2035)
+
+このリポジトリについて言及する場合は、以下の通り引用してください:
+
 ```
-@misc{LLM-jp_Overview_of_Japanese_2023,
-    author = {{LLM-jp}},
-    title = {{Overview of Japanese LLMs}},
-    year = {2023},
-    publisher = {GitHub},
-    journal = {GitHub repository},
-    howpublished = {\url{https://github.com/llm-jp/awesome-japanese-llm}}
+@article{awesomeJapanese2024,
+    title={{Exploring Open Large Language Models for the Japanese Language: A Practical Guide}},
+    author={Kaito Sugimoto},
+    doi={10.51094/jxiv.682},
+    year={2024}
 }
 ```
 

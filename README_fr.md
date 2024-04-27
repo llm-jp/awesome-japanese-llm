@@ -477,14 +477,17 @@ Nous aimons les contributeurs ! N'hésitez pas à contribuer à ce projet.
 <a id="citation"></a>
 ## Citation
 
+La synthèse de ce répertoire est également publiée sous forme de prépublication:
+[Exploring Open Large Language Models for the Japanese Language: A Practical Guide](https://jxiv.jst.go.jp/index.php/jxiv/preprint/view/682/2035)
+
+Lorsque vous référencez ce répertoire, veuillez le citer comme suit:
+
 ```
-@misc{LLM-jp_Overview_of_Japanese_2023,
-    author = {{LLM-jp}},
-    title = {{Overview of Japanese LLMs}},
-    year = {2023},
-    publisher = {GitHub},
-    journal = {GitHub repository},
-    howpublished = {\url{https://github.com/llm-jp/awesome-japanese-llm}}
+@article{awesomeJapanese2024,
+    title={{Exploring Open Large Language Models for the Japanese Language: A Practical Guide}},
+    author={Kaito Sugimoto},
+    doi={10.51094/jxiv.682},
+    year={2024}
 }
 ```
 
