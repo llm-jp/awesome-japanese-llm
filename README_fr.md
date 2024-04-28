@@ -47,6 +47,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
   - [Standard des tâches génératives ouvertes](#open-ended-benchmark-suites)
   - [Benchmarks pour mesurer les capacités de raisonnement logique](#logical-reasoning-benchmark-suites)
   - [Benchmarks pour mesurer la performance dans des domaines spécifiques](#domain-specific-benchmark-suites)
+  - [Benchmarks pour modèles d'embeddings](#embeddings-benchmark-suites)
   - [Benchmarks pour modèles vision-language](#vl-benchmark-suites)
 - [Références pour les modèles et les architectures](#reference)
 - [Références pour les méthodes d'entraînement](#reference-training)
@@ -385,6 +386,13 @@ Un benchmark pour les LLM japonais dans le secteur financier. Il comprend des t�
 #### [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) (Stockmark)
 
 La collection comprend 50 questions qui approfondissent les connaissances sur des sujets tels que les tendances du marché, l'actualité, les problèmes sociaux et les tendances commerciales.
+
+<a id="embeddings-benchmark-suites"></a>
+### Benchmarks pour modèles d'embeddings
+
+#### [JMTEB](https://huggingface.co/datasets/sbintuitions/JMTEB) (SB Intuitions)
+
+Un benchmark développé comme la version japonaise de [MTEB](https://github.com/embeddings-benchmark/mteb). Il se compose de tâches telles que le regroupement de documents, la classification de textes, la similarité de phrases, la prédiction d'étiquetage de paires de phrases et l'extraction de texte (une tâche de reclassement a été récemment ajoutée).
 
 <a id="vl-benchmark-suites"></a>
 ### Benchmarks pour modèles vision-langage

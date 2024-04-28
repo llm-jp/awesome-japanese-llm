@@ -48,6 +48,7 @@
   - [人間らしい応答の生成能力を中心に測定するベンチマーク/データセット](#open-ended-benchmark-suites)
   - [論理推論能力を測定するベンチマーク/データセット](#logical-reasoning-benchmark-suites)
   - [特定ドメインの性能を測定するベンチマーク/データセット](#domain-specific-benchmark-suites)
+  - [埋め込みモデルのベンチマーク/データセット](#embeddings-benchmark-suites)
   - [視覚言語モデル (Vision-Language Models) のベンチマーク/データセット](#vl-benchmark-suites)
 - [各モデル・アーキテクチャの原論文](#reference)
 - [LLMの学習手法の原論文](#reference-training)
@@ -385,6 +386,14 @@ MT-Bench の前身である [vicuna-blog-eval](https://github.com/lm-sys/vicuna-
 #### [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) (ストックマーク)
 
 市場動向、時事問題、社会課題、ビジネストレンドなどの知識を問う問題が50題収録されている。
+
+<a id="embeddings-benchmark-suites"></a>
+### 埋め込みモデルのベンチマーク/データセット
+
+#### [JMTEB](https://jedworkshop.github.io/JLR2024/materials/b-3.pdf) (SB Intuitions)
+
+[MTEB](https://github.com/embeddings-benchmark/mteb)の日本語版として作成されたベンチマーク。  
+文書クラスタリング、文書分類、文間類似度、文ペアラベル予測、文書抽出の5種類のタスクから構成されている（その後、リランキングタスクが新たに追加）。
 
 <a id="vl-benchmark-suites"></a>
 ### 視覚言語モデル (Vision-Language Models) のベンチマーク/データセット

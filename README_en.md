@@ -47,6 +47,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
   - [Benchmarks on open-ended generative tasks](#open-ended-benchmark-suites)
   - [Benchmarks for measuring logical reasoning capabilities](#logical-reasoning-benchmark-suites)
   - [Benchmarks for measuring performance in specific domains](#domain-specific-benchmark-suites)
+  - [Benchmarks for embedding models](#embeddings-benchmark-suites)
   - [Benchmarks for vision-language models](#vl-benchmark-suites)
 - [References for Models and Architectures](#reference)
 - [References for Training Methods](#reference-training)
@@ -383,6 +384,13 @@ A benchmark for Japanese LLM in the financial sector. It includes tasks such as 
 #### [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) (Stockmark)
 
 The collection includes 50 questions that probe knowledge on topics such as market trends, current affairs, social issues, and business trends.
+
+<a id="embeddings-benchmark-suites"></a>
+### Benchmarks for embedding models
+
+#### [JMTEB](https://huggingface.co/datasets/sbintuitions/JMTEB) (SB Intuitions)
+
+A benchmark developed as the Japanese version of [MTEB](https://github.com/embeddings-benchmark/mteb). It consists of tasks such as document clustering, text classification, sentence similarity, sentence pair labeling prediction, and text extraction (a reranking task was recently added).
 
 <a id="vl-benchmark-suites"></a>
 ### Benchmarks for vision-language models
