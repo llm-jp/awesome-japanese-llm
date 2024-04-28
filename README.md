@@ -411,7 +411,7 @@ Sakana AI が EvoVLM-JP-v1-7B の評価のために独自に用意したデー�
 
 #### [LLaVA-Bench-In-the-Wild (Japanese)](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-in-the-wild) (Turing)
 
-[https://huggingface.co/datasets/liuhaotian/llava-bench-in-the-wild](LLaVA-Bench-In-the-Wild) を DeepL で日本語に訳したもの。24 枚の画像に対して計 60 問の質問が割り当てられている。
+[LLaVA-Bench-In-the-Wild](https://huggingface.co/datasets/liuhaotian/llava-bench-in-the-wild) を DeepL で日本語に訳したもの。24 枚の画像に対して計 60 問の質問が割り当てられている。
 
 #### [LLaVA-Bench (COCO) Japanese](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-ja) (Turing)
 
