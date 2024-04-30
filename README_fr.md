@@ -473,7 +473,9 @@ Il s'agit de la version japonaise, traduite par DeepL, du jeu de données LLaVA-
 | EvoLLM-JP, EvoVLM-JP | 2024.03.19 | - | [Evolutionary Optimization of Model Merging Recipes](https://arxiv.org/abs/2403.13187) |
 | RakutenAI-7B | 2024.03.21 | - | [RakutenAI-7B: Extending Large Language Models for Japanese](https://arxiv.org/abs/2403.15484) |
 | rinna GPT, rinna RoBERTa, Nekomata, Youri, etc. | 2024.04.02 | LREC-COLING 2024 | [Release of Pre-Trained Models for the Japanese Language](https://arxiv.org/abs/2404.01657) |
+| SambaLingo-Japanese | 2024.04.08 | - | [SambaLingo: Teaching Large Language Models New Languages](https://arxiv.org/abs/2404.05829) |
 | Heron | 2024.04.11 | - | [Heron-Bench: A Benchmark for Evaluating Vision Language Models in Japanese](https://arxiv.org/abs/2404.07824) |
+| Stockmark-13b | 2024.04.12 | - | [Pretraining and Updating Language- and Domain-specific Large Language Model: A Case Study in Japanese Business Domain](https://arxiv.org/abs/2404.08262) |
 
 <a id="reference-training"></a>
 ## Références pour les méthodes d'entraînement
