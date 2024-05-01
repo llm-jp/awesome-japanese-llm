@@ -379,6 +379,10 @@ Il s'agit de la version japonaise de [vicuna-blog-eval](https://github.com/lm-sy
 
 Un dataset pour évaluer les capacités de raisonnement déductif des LLM japonais (la version japonaise de la [FLD (Formal Logic Deduction)](https://github.com/hitachi-nlp/FLD) proposée par les mêmes auteurs). Il se caractérise par le fait qu'il est composé d'exemples contrefactuels pour évaluer indépendamment des connaissances que possède le LLM.
 
+#### [JHumanEval](https://huggingface.co/datasets/kogi-jwu/jhumaneval) (Université des Femmes du Japon - Laboratoire Kuramitsu)
+
+Une version japonaise du benchmark [HumanEval](https://huggingface.co/datasets/openai_humaneval), qui évalue la capacité à générer du code Python à partir d'instructions en anglais. En créant la version japonaise, le texte a d'abord été traduit automatiquement, puis corrigé manuellement.
+
 <a id="domain-specific-benchmark-suites"></a>
 ### Benchmarks pour mesurer la performance dans des domaines spécifiques
 

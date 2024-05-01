@@ -379,6 +379,10 @@ MT-Bench の前身である [vicuna-blog-eval](https://github.com/lm-sys/vicuna-
 
 日本語 LLM の演繹推論能力を問うデータセット（同著者らが提案している [FLD (Formal Logic Deduction)](https://github.com/hitachi-nlp/FLD) の日本語版）。LLM が持つ知識と切り分けて評価を行うために、反実仮想的なサンプルから構成されているのが特徴である。
 
+#### [JHumanEval](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P10-9.pdf) (日本女子大 倉光研)
+
+英語の指示から Python コードの生成能力を評価するベンチマークである [HumanEval](https://huggingface.co/datasets/openai_humaneval) の日本語版。日本語版を作成する際には、まず機械翻訳にかけたあと、人手での修正を行っている。
+
 <a id="domain-specific-benchmark-suites"></a>
 ### 特定ドメインの性能を測定するベンチマーク/データセット
 
