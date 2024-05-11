@@ -37,7 +37,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
   - [Text+Image vers Text](#multimodal-text-generation)
     - [D'usage général](#multimodal-general)
     - [Spécifique à un domaine](#multimodal-domain-specific)
-  - [Image vers Text](#multimodal-text-to-image)
+  - [Text vers Image](#multimodal-text-to-image)
   - [Autres](#multimodal-others)
 - [Modèles Speech-Language](#speech)
   - [Reconnaissance automatique de la parole](#speech-asr)
