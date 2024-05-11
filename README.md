@@ -35,9 +35,10 @@
   - [ドメイン特化型](#autoencoding-domain-specific)
 - [埋め込み (Embeddings) 作成に特化したモデル](#embeddings)
 - [視覚言語モデル (Vision-Language Models)](#multimodal)
-  - [画像を含むテキスト生成](#multimodal-text-generation)
+  - [画像+テキストからのテキスト生成](#multimodal-text-generation)
     - [汎用](#multimodal-general)
     - [ドメイン特化型](#multimodal-domain-specific)
+  - [テキストからの画像生成](#multimodal-text-to-image)
   - [その他](#multimodal-others)
 - [音声言語モデル (Speech-Language Models)](#speech)
   - [音声認識](#speech-asr)
@@ -262,7 +263,7 @@
 ## 視覚言語モデル (Vision-Language Models)
 
 <a id="multimodal-text-generation"></a>
-### 画像を含むテキスト生成
+### 画像+テキストからのテキスト生成
 
 <a id="multimodal-general"></a>
 #### 汎用
@@ -282,6 +283,16 @@
 |:---|:---:|:---:|:---:|:---:|
 | [watashiha/Watashiha-Llama-2-13B-Ogiri-sft-vlm](https://huggingface.co/watashiha/Watashiha-Llama-2-13B-Ogiri-sft-vlm) | LLaVA | 大喜利 | わたしは | Llama 2 Community License |
 
+<a id="multimodal-text-to-image"></a>
+### テキストからの画像生成
+
+|    |  アーキテクチャ  |  学習画像/テキスト  |  開発元  | ライセンス |
+|:---|:---:|:---:|:---:|:---:|
+| [EvoSDXL-JP](https://sakana.ai/evosdxl-jp/)<br>([v1](https://huggingface.co/SakanaAI/EvoSDXL-JP-v1)) | - | - （Japanese Stable Diffusion XL を含む複数の画像生成モデルをマージ） | Sakana AI | Apache 2.0[^14] |
+| [Japanese Stable Diffusion XL](https://ja.stability.ai/blog/japanese-stable-diffusion-xl)<br>([japanese-stable-diffusion-xl](https://huggingface.co/stabilityai/japanese-stable-diffusion-xl)) | Stable Diffusion | 不明 | Stability AI | STABILITY AI JAPANESE STABLE DIFFUSION XL COMMUNITY LICENSE |
+| [東北大Stable Diffusion](https://huggingface.co/tohoku-nlp/stable-diffusion-xl-jp-base-1.0)<br>([base](https://huggingface.co/tohoku-nlp/stable-diffusion-xl-jp-base-1.0), [refiner](https://huggingface.co/tohoku-nlp/stable-diffusion-xl-jp-refiner-1.0)) | Stable Diffusion | WMT2023 Shared Task の日英対訳コーパス、laion2B-multi のキャプション約 1,300 万件 | 東北大<br>自然言語処理研究グループ | CreativeML OpenRAIL-M License |
+| [rinna Stable Diffusion](https://rinna.co.jp/news/2022/09/20220909.html)<br>([japanese-stable-diffusion](https://huggingface.co/rinna/japanese-stable-diffusion)) | Stable Diffusion |  LAION-5B データセットのうちキャプションが日本語のもの（画像約 1 億枚）| rinna | CreativeML OpenRAIL-M License |
+
 <a id="multimodal-others"></a>
 ### その他
 
@@ -292,9 +303,6 @@
 | [rinna CLIP](https://rinna.co.jp/news/2022/05/20220512.html)<br>([japanese-clip-vit-b-16](https://huggingface.co/rinna/japanese-clip-vit-b-16)) | CLIP | CC12M のキャプションを日本語に翻訳したもの | rinna | Apache 2.0 |
 | [rinna CLOOB](https://rinna.co.jp/news/2022/05/20220512.html)<br>([japanese-cloob-vit-b-16](https://huggingface.co/rinna/japanese-cloob-vit-b-16)) | CLOOB | CC12M のキャプションを日本語に翻訳したもの | rinna | Apache 2.0 |
 | [博報堂テクノロジーズCLIP](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/B6-5.pdf)<br>([base](https://huggingface.co/hakuhodo-tech/japanese-clip-vit-h-14-bert-base), [deeper](https://huggingface.co/hakuhodo-tech/japanese-clip-vit-h-14-bert-deeper), [wider](https://huggingface.co/hakuhodo-tech/japanese-clip-vit-h-14-bert-wider)) | CLIP | laion2B-multi のキャプション約1億2000万件 | 博報堂テクノロジーズ | CC BY-NC-SA 4.0 |
-| [Japanese Stable Diffusion XL](https://ja.stability.ai/blog/japanese-stable-diffusion-xl)<br>([japanese-stable-diffusion-xl](https://huggingface.co/stabilityai/japanese-stable-diffusion-xl)) | Stable Diffusion | 不明 | Stability AI | STABILITY AI JAPANESE STABLE DIFFUSION XL COMMUNITY LICENSE |
-| [東北大Stable Diffusion](https://huggingface.co/tohoku-nlp/stable-diffusion-xl-jp-base-1.0)<br>([base](https://huggingface.co/tohoku-nlp/stable-diffusion-xl-jp-base-1.0), [refiner](https://huggingface.co/tohoku-nlp/stable-diffusion-xl-jp-refiner-1.0)) | Stable Diffusion | WMT2023 Shared Task の日英対訳コーパス、laion2B-multi のキャプション約 1,300 万件 | 東北大<br>自然言語処理研究グループ | CreativeML OpenRAIL-M License |
-| [rinna Stable Diffusion](https://rinna.co.jp/news/2022/09/20220909.html)<br>([japanese-stable-diffusion](https://huggingface.co/rinna/japanese-stable-diffusion)) | Stable Diffusion |  LAION-5B データセットのうちキャプションが日本語のもの（画像約 1 億枚）| rinna | CreativeML OpenRAIL-M License |
 
 <a id="speech"></a>
 ## 音声言語モデル (Speech-Language Models)
@@ -548,3 +556,5 @@ LLaVA の評価に使われた LLaVA-Bench (COCO) データセットを DeepL �
 [^12]: Instruction Tuning において、GPT-3.5, GPT-4 等の OpenAI のモデルで生成されたデータを使って学習しているため、OpenAI の規約に違反している可能性がある。
 
 [^13]: ただし、KARAKURI LM を商用利用したい場合は、開発元であるカラクリ株式会社に直接連絡が必要であるとしている。
+
+[^14]: ただし、研究および教育を目的とした利用を念頭に置くよう呼びかけている。また、マージ元のモデルのいくつかのライセンスは Apache 2.0 ではない点にも注意すること。
