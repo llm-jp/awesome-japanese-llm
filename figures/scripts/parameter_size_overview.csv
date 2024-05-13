@@ -1,4 +1,5 @@
 Model,Lab,Parameters(B),Announced,Type,Source(JP)
+Fugaku-LLM,"Titech, Tohoku Univ., Fujitsu, RIKEN, Nagoya Univ., CyberAgent, Kotoba Technologies",13,2024/5/10,JP-available,https://www.fujitsu.com/global/about/resources/news/press-releases/2024/0510-01.html
 ,Rakuten,7,2024/3/21,JP-available-CP,https://corp.rakuten.co.jp/news/press/2024/0321_01.html
 KARAKURI,KARAKURI,70,2024/1/31,JP-available-CP,https://karakuri.ai/seminar/news/karakuri-lm/
 Llama 3 Youko,rinna,8,2024/05/07,JP-available-CP,https://rinna.co.jp/news/2024/05/20240507.html
@@ -15,8 +16,10 @@ Weblab-10B,Matsuo Lab,10,2023/08/22,JP-available,https://www.t.u-tokyo.ac.jp/pre
 ,ELYZA,13,2023/12/27,JP-available-CP,https://note.com/elyza/n/n5d42686b60b7
 ,ELYZA,7,2023/8/29,JP-available-CP,https://note.com/elyza/n/na405acaca130
 EvoLLM-JP,Sakana AI,10,2024/3/21,JP-available-CP,https://sakana.ai/evolutionary-model-merge-jp/
+Japanese Stable LM 2 1.6B,Stability AI,1.6,2024/05/09,JP-available-CP,https://ja.stability.ai/blog/japanese-stable-lm-2-16b
 JSLM Alpha,Stability AI,7,2023/08/10,JP-available,https://ja.stability.ai/blog/japanese-stablelm-alpha
 JSLM Beta,Stability AI,70,2023/11/02,JP-available-CP,https://ja.stability.ai/blog/japanese-stable-lm-beta
+JSLM Gamma,Stability AI,7,2023/10/25,JP-available-CP,https://ja.stability.ai/blog/japanese-stable-lm-3b-4e1tjapanese-stable-lm-gamma-7b
 CALM2,CyberAgent,7,2023/11/02,JP-available,https://www.cyberagent.co.jp/news/detail/id=29479
 OpenCALM,CyberAgent,6.8,2023/05/17,JP-available,https://www.cyberagent.co.jp/news/detail/id=28817
 ,CyberAgent,13,2023/05/11,JP-unavailable,https://www.cyberagent.co.jp/news/detail/id=28797
@@ -45,6 +48,14 @@ PolySphere-1,AI inside,14,2023/06/08,JP-unavailable,https://inside.ai/news/2023/
 LHTM-2,オルツ,160,2023/02/14,JP-unavailable,"https://alt.ai/news/news-1892/, https://xtech.nikkei.com/atcl/nxt/column/18/02423/053100030/"
 HyperCLOVA,NAVER & LIINE,82,2022/11/30,JP-unavailable,https://www.youtube.com/watch?v=I4o7X3-aqJk
 HyperCLOVA,NAVER & LIINE,39,2021/11/10,JP-unavailable,https://www.youtube.com/watch?v=V4pZulIWHpY
+Yi 1.5,01-ai,34.4,2024/5/1,EN-available,
+YOCO,Microsoft,3,2024/5/1,EN-available,
+DeepSeek-V2,DeepSeek-AI,236,2024/5/1,EN-available,
+ChuXin,Independent,1.6,2024/5/1,EN-available,
+RWKV-v6 Finch,RWKV,7.63,2024/5/1,EN-available,
+Granite Code,IBM,34,2024/5/1,EN-available,
+Qwen-Max,Alibaba,300,2024/5/1,EN-available,
+Qwen-1.5 110B,Alibaba,111,2024/4/1,EN-available,
 Arctic,Snowflake AI Research,480,2024/4/1,EN-available,
 SenseNova 5.0,SenseTime,600,2024/4/1,EN-available,
 OpenELM,Apple,3.04,2024/4/1,EN-available,
@@ -59,7 +70,7 @@ Zephyr 141B-A35B,Hugging Face H4,35,2024/4/1,EN-available,
 Rerank 3,Cohere,104,2024/4/1,EN-available,
 gpt-4-turbo-2024-04-09,OpenAI,,2024/4/1,EN-available,
 MiniCPM-2.4B,Tsinghua,2.4,2024/4/1,EN-available,
-mixtral-8x22b,Mistral AI,141,2024/4/1,EN-available,
+mixtral-8x22b,Mistral,141,2024/4/1,EN-available,
 Sailor,Sail,7,2024/4/1,EN-available,
 JetMoE-8B,MIT,8,2024/4/1,EN-available,
 Eurus,Tsinghua,70,2024/4/1,EN-available,
@@ -89,20 +100,20 @@ BitNet b1.58,Microsoft,70,2024/2/1,EN-available,
 Cosmo-1B,HF,1.8,2024/2/1,EN-available,
 Poro,Silo AI,34.2,2024/2/1,EN-available,
 StarCoder 2,HF/ServiceNow,15,2024/2/1,EN-available,
-Mistral Small,Mistral AI,7,2024/2/1,EN-available,
-Mistral Large,Mistral AI,300,2024/2/1,EN-available,
+Mistral Small,Mistral,7,2024/2/1,EN-available,
+Mistral Large,Mistral,300,2024/2/1,EN-available,
 Hanooman,Reliance,40,2024/2/1,EN-available,
 Reka Edge,Reka AI,7,2024/2/1,EN-available,
 Reka Flash,Reka AI,21,2024/2/1,EN-available,
 Gemma,Google DeepMind,7,2024/2/1,EN-available,
-Qwen-1.5,Alibaba,72,2024/2/1,EN-available,
+Qwen-1.5 72B,Alibaba,72,2024/2/1,EN-available,
 GOODY-2,BRAIN,,2024/2/1,EN-available,
 Natural-SQL-7B,ChatDB,7,2024/2/1,EN-available,
 Sea-Lion,AI Singapore,7.5,2024/2/1,EN-available,
 OLMo,Allen AI,7,2024/2/1,EN-available,
 FLOR-6.3B,Cerebras,6.3,2024/1/1,EN-available,
 Weaver,AIWaves.cn,34,2024/1/1,EN-available,
-miqu 70b,Mistral AI,70,2024/1/1,EN-available,
+miqu 70b,Mistral,70,2024/1/1,EN-available,
 iFlytekSpark-13B,iFlyTek,13,2024/1/1,EN-available,
 Xinghuo 3.5 (Spark),iFlyTek,200,2024/1/1,EN-available,
 MGIE,Apple,7,2024/1/1,EN-available,
@@ -120,8 +131,8 @@ YAYI 2,Wenge,30,2023/12/1,EN-available,
 Emu2,BAAI,37,2023/12/1,EN-available,
 SOLAR-10.7B,Upstage AI,10.7,2023/12/1,EN-available,
 DeciLM-7B,Deci,7.04,2023/12/1,EN-available,
-Mistral-medium,Mistral AI,180,2023/12/1,EN-available,
-mixtral-8x7b-32kseqlen,Mistral AI,46.7,2023/12/1,EN-available,
+Mistral-medium,Mistral,180,2023/12/1,EN-available,
+mixtral-8x7b-32kseqlen,Mistral,46.7,2023/12/1,EN-available,
 StripedHyena 7B,Together,7.65,2023/12/1,EN-available,
 NexusRaven-V2 13B,"Nexusflow.ai ",,2023/12/1,EN-available,
 Gemini Ultra 1.0,Google DeepMind,1500,2023/12/1,EN-available,
@@ -151,7 +162,7 @@ AceGPT,KAUST/Shenzhen,13,2023/10/1,EN-available,
 RT-X,Google DeepMind,55,2023/10/1,EN-available,
 Qwen,Alibaba,72,2023/9/1,EN-available,
 LeoLM,Hessian AI/LAION,13,2023/9/1,EN-available,
-Mistral 7B,Mistral AI,7.3,2023/9/1,EN-available,
+Mistral 7B,Mistral,7.3,2023/9/1,EN-available,
 Baichuan 2,Baichuan,13,2023/9/1,EN-available,
 BOLT2.5B,ThirdAI,2.5,2023/9/1,EN-available,
 DeciLM,Deci,5.7,2023/9/1,EN-available,
@@ -235,7 +246,7 @@ NeMo Megatron-GPT 20B,NVIDIA,20,2022/9/1,EN-available,
 Atlas,Meta AI,11,2022/8/1,EN-available,
 BlenderBot 3,Meta AI,175,2022/8/1,EN-available,
 GLM-130B,Tsinghua,130,2022/8/1,EN-available,
-AlexaTM 20B,Amazon Alexa AI,20,2022/8/1,EN-available,
+AlexaTM 20B,Amazon,20,2022/8/1,EN-available,
 NLLB,Meta AI,54.5,2022/7/1,EN-available,
 J-1 RBG,AI21,178,2022/7/1,EN-available,
 BLOOM (tr11-176B-ml),BigScience,176,2022/7/1,EN-available,
@@ -266,7 +277,9 @@ GPT-J,EleutherAI,6,2021/6/1,EN-available,
 ruGPT-3,Huawei/Sberbank,1.3,2021/2/1,EN-available,
 Switch,Google,1600,2021/1/1,EN-available,
 GPT-3,OpenAI,175,2020/5/1,EN-available,
-HLAT,AWS,7,2024/4/1,EN-unavailable,
+xLSTM,ELLIS,2.7,2024/5/1,EN-unavailable,
+Med-Gemini-L 1.0,Google DeepMind,1500,2024/5/1,EN-unavailable,
+HLAT,Amazon,7,2024/4/1,EN-unavailable,
 ReALM-3B,Apple,3,2024/3/1,EN-unavailable,
 MM1,Apple,30,2024/3/1,EN-unavailable,
 RFM-1,Covariant,8,2024/3/1,EN-unavailable,
