@@ -29,6 +29,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
     - [General purpose](#generative-instruction-only-general)
     - [Domain specific](#generative-instruction-only-domain-specific)
   - [Merged models](#merged-models)
+  - [API-based models](#api-based-models)
 - [Encoder Models](#autoencoding)
   - [General purpose](#autoencoding-general)
   - [Domain specific](#autoencoding-domain-specific)
@@ -193,6 +194,13 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 |:---|:---:|:---:|:---:|
 | [EvoLLM-JP-A](https://sakana.ai/evolutionary-model-merge/)<br>([v1-7B](https://huggingface.co/SakanaAI/EvoLLM-JP-A-v1-7B)) | **Shisa Gamma 7B (v1)**, Arithmo2 Mistral 7B, Abel 7B 002 | Sakana AI | Apache 2.0 |
 | [EvoLLM-JP](https://sakana.ai/evolutionary-model-merge/)<br>([v1-7B](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-7B), [v1-10B](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-10B)) | **Shisa Gamma 7B (v1)**, WizardMath-7B-V1.1, Abel 7B 002 | Sakana AI | MICROSOFT RESEARCH LICENSE |
+
+<a id="api-based-models"></a>
+### API-based models
+
+|    |  Max Context Length | Developer  |
+|:---|:---:|:---:|
+| [Solar mini chat ja](https://www.upstage.ai/feed/tech/solar-mini-chat-ja)<br>([solar-1-mini-chat-ja](https://developers.upstage.ai/docs/apis/chat)) | 32,768 | Upstage |
 
 <a id="autoencoding"></a>
 ## Encoder models

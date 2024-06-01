@@ -31,6 +31,7 @@
     - [汎用](#generative-instruction-only-general)
     - [ドメイン特化型](#generative-instruction-only-domain-specific)
   - [複数のLLMをマージして作成されたモデル](#merged-models)
+  - [APIとして提供されているモデル](#api-based-models)
 - [入力テキストの処理に主に使うモデル](#autoencoding)
   - [汎用](#autoencoding-general)
   - [ドメイン特化型](#autoencoding-domain-specific)
@@ -196,6 +197,13 @@
 |:---|:---:|:---:|:---:|
 | [EvoLLM-JP-A](https://sakana.ai/evolutionary-model-merge-jp/)<br>([v1-7B](https://huggingface.co/SakanaAI/EvoLLM-JP-A-v1-7B)) | **Shisa Gamma 7B (v1)**, Arithmo2 Mistral 7B, Abel 7B 002 | Sakana AI | Apache 2.0 |
 | [EvoLLM-JP](https://sakana.ai/evolutionary-model-merge-jp/)<br>([v1-7B](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-7B), [v1-10B](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-10B)) | **Shisa Gamma 7B (v1)**, WizardMath-7B-V1.1, Abel 7B 002 | Sakana AI | MICROSOFT RESEARCH LICENSE |
+
+<a id="api-based-models"></a>
+### APIとして提供されているモデル
+
+|    |  入出力で扱える<br>トークン数 | 開発元  |
+|:---|:---:|:---:|
+| [Solar mini chat ja](https://www.upstage.ai/feed/tech/solar-mini-chat-ja)<br>([solar-1-mini-chat-ja](https://developers.upstage.ai/docs/apis/chat)) | 32,768 | Upstage |
 
 <a id="autoencoding"></a>
 ## 入力テキストの処理に主に使うモデル
