@@ -577,4 +577,4 @@ Lorsque vous référencez ce répertoire, veuillez le citer comme suit:
 
 [^14]: Cependant, il appelle à la réflexion pour l'utilisation dans la recherche et l'éducation. De plus, soyez conscient que certaines des licences pour les modèles sources ne sont pas Apache 2.0.
 
-[^15]: Les détails sont disponibles publiquement au lien suivant: [Présentation des résultats de la phase 1 du projet de développement GENIAC LLM 2024.06.01 @ Fukutake Hall, The University of Tokyo @ 58:22](https://youtu.be/Ju_KgrGhANY?si=zUhZ1S6dznGeF0Gi&t=3502)
+[^15]: Les détails sont disponibles publiquement dans la vidéo suivante: [Présentation des résultats de la phase 1 du projet de développement GENIAC LLM 2024.06.01 @ Fukutake Hall, The University of Tokyo @ 58:22](https://youtu.be/Ju_KgrGhANY?si=zUhZ1S6dznGeF0Gi&t=3502)

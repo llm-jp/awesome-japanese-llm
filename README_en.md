@@ -577,4 +577,4 @@ When referencing this repository, please cite as follows:
 
 [^14]: However, it calls for consideration for use in research and education. Additionally, be aware that some of the licenses for the source models are not Apache 2.0.
 
-[^15]: Details are publicly available at the following link: [GENIAC LLM Development Project Phase 1 Results Presentation 2024.06.01 @ Fukutake Hall, The University of Tokyo @ 58:22](https://youtu.be/Ju_KgrGhANY?si=zUhZ1S6dznGeF0Gi&t=3502)
+[^15]: Details are publicly available at the following video: [GENIAC LLM Development Project Phase 1 Results Presentation 2024.06.01 @ Fukutake Hall, The University of Tokyo @ 58:22](https://youtu.be/Ju_KgrGhANY?si=zUhZ1S6dznGeF0Gi&t=3502)
