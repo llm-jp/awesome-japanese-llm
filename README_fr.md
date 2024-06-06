@@ -404,7 +404,7 @@ Il s'agit de la version japonaise de [vicuna-blog-eval](https://github.com/lm-sy
 <a id="logical-reasoning-benchmark-suites"></a>
 ### Benchmarks pour mesurer les capacités de raisonnement logique
 
-#### [JFLD (Japanese Formal Logic Deduction)](https://huggingface.co/datasets/hitachi-nlp/JFLD) (Hitachi)
+#### [JFLD (Japanese Formal Logic Deduction)](https://aclanthology.org/2024.lrec-main.832/) (Hitachi)
 
 Un dataset pour évaluer les capacités de raisonnement déductif des LLM japonais (la version japonaise de la [FLD (Formal Logic Deduction)](https://github.com/hitachi-nlp/FLD) proposée par les mêmes auteurs). Il se caractérise par le fait qu'il est composé d'exemples contrefactuels pour évaluer indépendamment des connaissances que possède le LLM.
 
