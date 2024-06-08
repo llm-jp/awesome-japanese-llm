@@ -405,7 +405,7 @@ MT-Bench の前身である [vicuna-blog-eval](https://github.com/lm-sys/vicuna-
 <a id="logical-reasoning-benchmark-suites"></a>
 ### 論理推論能力を測定するベンチマーク/データセット
 
-#### [JFLD (Japanese Formal Logic Deduction)](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/A4-1.pdf) (日立製作所)
+#### [JFLD (Japanese Formal Logic Deduction)](https://aclanthology.org/2024.lrec-main.832/) (日立製作所)
 
 日本語 LLM の演繹推論能力を問うデータセット（同著者らが提案している [FLD (Formal Logic Deduction)](https://github.com/hitachi-nlp/FLD) の日本語版）。LLM が持つ知識と切り分けて評価を行うために、反実仮想的なサンプルから構成されているのが特徴である。
 
