@@ -255,6 +255,7 @@
 | [日本語話し言葉BERT](https://tech.retrieva.jp/entry/2021/04/01/114943) | BERT (base) | 東北大BERTに対して日本語話し言葉コーパス（CSJ）を用いて追加学習<br>（DAPTモデルでは国会議事録データも使用） | レトリバ | Apache 2.0 | [◯](https://huggingface.co/retrieva-jp/japanese-spoken-language-bert) |
 | [日本語金融BERT](https://sites.google.com/socsim.org/izumi-lab/tools/language-model) | BERT (small, base) [^9] | 日本語 Wikipedia<br> + 日本語金融コーパス (約2,700万文 (5.2GB)) | 東大 和泉研 | CC BY-SA 4.0 |◯ ([small](https://huggingface.co/izumi-lab/bert-small-japanese-fin), [base](https://huggingface.co/izumi-lab/bert-base-japanese-fin-additional)) |
 | [日本語金融ELECTRA](https://sites.google.com/socsim.org/izumi-lab/tools/language-model) | ELECTRA (small) | 日本語 Wikipedia (約2,000万文 (2.9GB)) <br> + 日本語金融コーパス (約2,700万文 (5.2GB)) | 東大 和泉研 | CC BY-SA 4.0 |  [◯](https://huggingface.co/izumi-lab/electra-small-japanese-fin-discriminator)  |
+| [JLBert](https://aclanthology.org/2024.lrec-main.833.pdf) | BERT [^16] | 日本語のアマゾンのユーザーレビュータイトル | 楽天技術研究所 | Apache 2.0 | [◯](https://huggingface.co/ShortText/JLBert) |
 | [UTH-BERT](https://ai-health.m.u-tokyo.ac.jp/home/research/uth-bert) | BERT (base) | 日本語診療記録(約1億2,000万行) | 東大病院 <br>医療AI開発学講座 | CC BY-NC-SA 4.0 | △ |
 | [medBERTjp](https://github.com/ou-medinfo/medbertjp) | BERT (base) | 日本語 Wikipedia <br> + 日本語医療コーパス（『今日の診療プレミアム』Web版） | 阪大病院 <br> 医療情報学研究室 | CC BY-NC-SA 4.0 | △ |
 | [JMedRoBERTa](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P3-1.pdf) | RoBERTa (base) | 日本語医学論文 (約1,100万文 (1.8GB)) | 東大 相澤研 | CC BY-NC-SA 4.0 | ◯ ([万病WordPiece](https://huggingface.co/alabnii/jmedroberta-base-manbyo-wordpiece), [SentencePiece](https://huggingface.co/alabnii/jmedroberta-base-sentencepiece)) [^10] |
@@ -581,3 +582,5 @@ LLaVA の評価に使われた LLaVA-Bench (COCO) データセットを DeepL �
 [^14]: ただし、研究および教育を目的とした利用を念頭に置くよう呼びかけている。また、マージ元のモデルのいくつかのライセンスは Apache 2.0 ではない点にも注意すること。
 
 [^15]: 詳細は以下のビデオで公開されている: [松尾研 GENIAC LLM開発プロジェクト 第1フェーズ結果発表会 2024.06.01 @ 東京大学 福武ホール @ 58:22](https://youtu.be/Ju_KgrGhANY?si=zUhZ1S6dznGeF0Gi&t=3502)
+
+[^16]: ただし、通常の BERT (base) と比べて Layer や Attention Head の数が少ない。
