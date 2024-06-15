@@ -10,7 +10,6 @@ Thank you for considering contributing to awesome-japanese-llm. These guidelines
 ## About Datasets/Leaderboards
 
 - As a general rule, we only include datasets or leaderboards used for evaluation by organizations that have developed large scale Japanese language models.
-
 - However, if a dataset or leaderboard has a certain level of recognition or is deemed beneficial by contributors, we might consider listing it.
 
 ## About Translation 
@@ -29,7 +28,6 @@ awesome-japanese-llmへの貢献に関心を持って頂きありがとうござ
 ## データセット/リーダーボードについて
 
 - 原則として、LLMを構築した企業や研究機関が評価に使用したデータセットやリーダーボードのみを掲載します。
-
 - しかし、一定の知名度がある、または貢献者が有益と判断したデータセットやリーダーボードについては掲載を考えます。
 
 ## 翻訳について
