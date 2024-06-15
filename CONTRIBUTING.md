@@ -5,6 +5,7 @@ Thank you for considering contributing to awesome-japanese-llm. These guidelines
 ## About Models
 
 - We do not include models specialized for specific tasks (such as BERT fine-tuned on QA datasets).
+- We do not include models with a parameter size smaller than BERT (base), which is approximately 110 million parameters.
 
 ## About Datasets/Leaderboards
 
@@ -23,6 +24,7 @@ awesome-japanese-llmへの貢献に関心を持って頂きありがとうござ
 ## モデルについて
 
 - 特定のタスクに特化したモデル（例：BERTをQAデータセットに fine-tuning させたもの）は原則として掲載しません。
+- BERT (base) 程度（すなわち110 million 程度）より小さなパラメータサイズの言語モデルは扱いません。
 
 ## データセット/リーダーボードについて
 
