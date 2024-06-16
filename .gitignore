@@ -1,4 +1,6 @@
 node_modules
 .yarn
+dist/*
+!/dist/.gitkeep
 cache
 temp
