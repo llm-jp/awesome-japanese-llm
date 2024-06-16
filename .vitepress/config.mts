@@ -7,7 +7,7 @@ export default defineConfig({
   description: "Overview of Japanese LLMs",
   base: '/awesome-japanese-llm/',
   head: [
-    ["meta", { property: "og:image", content: "https://llm-jp.nii.ac.jp/assets/images/logo2.png" }],
+    ["meta", { property: "og:image", content: "https://llm-jp.github.io/assets/images/logo2.png" }],
     ["meta", { property: "og:title", content: "日本語LLMまとめ" }],
     ["meta", { property: "twitter:card", content: "summary" }],
     ["meta", { property: "twitter:title", content: "日本語LLMまとめ" }],
@@ -22,7 +22,7 @@ export default defineConfig({
       provider: 'local'
     },
 
-    logo: 'https://llm-jp.nii.ac.jp/assets/images/logo2.png',
+    logo: 'https://llm-jp.github.io/assets/images/logo2.png',
 
     outline: {
       level: [2, 4],
