@@ -5,6 +5,7 @@ import footnote from 'markdown-it-footnote'
 export default defineConfig({
   title: "LLM-jp",
   description: "Overview of Japanese LLMs",
+  base: '/awesome-japanese-llm/',
   themeConfig: {
     socialLinks: [
       { icon: 'github', link: 'https://github.com/llm-jp/awesome-japanese-llm' }

@@ -53,6 +53,8 @@ jobs:
         run: yarn docs:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: .vitepress/dist
 
   # Deployment job
   deploy:
