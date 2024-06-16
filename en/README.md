@@ -1,8 +1,8 @@
 # Overview of Japanese LLMs
-[ English | [**Français**](./README_fr.md) | [**日本語**](./README.md) ]
+[ English | [**Français**](../fr/README.md) | [**日本語**](../README.md) ]
 
 <p align="center">
-  <img src="figures/parameter_size_overview.png" alt="Parameter sizes of Japanese and non-Japanese LLMs over time">
+  <img src="../figures/parameter_size_overview.png" alt="Parameter sizes of Japanese and non-Japanese LLMs over time">
 </p>
 <figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">Evolution of parameter sizes for Japanese LLMs and non-Japanese LLMs. The information on the Japanese models is derived from this article, while the information on the non-Japanese models can be referred from the <a href="https://lifearchitect.ai/models-table/">Models table</a> on LifeArchitect.ai. However, due to space constraints in the figure, some models have been omitted. Additionally, estimates are included in the parameter count for non-Japanese models. Please notify us of any corrections, additions, or updates.</figcaption>
 
@@ -350,7 +350,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 <a id="hybrid-benchmark-suites"></a>
 ### Hybrid Benchmarks
 
-#### [Nejumi LLM Leaderboard Neo](https://api.wandb.ai/links/wandb-japan/dcbaznfb) (Weights & Biases)
+**[Nejumi LLM Leaderboard Neo](https://api.wandb.ai/links/wandb-japan/dcbaznfb) (Weights & Biases)**
 
 This compiles the results of a comprehensive evaluation by [llm-jp-eval](#llm-jp-eval), which evaluates language understanding in a question-and-answer format, and [Japanese MT-bench](#jp-mt-bench), which evaluates generative ability in a context of dialogue prompts.
 
@@ -358,27 +358,27 @@ This compiles the results of a comprehensive evaluation by [llm-jp-eval](#llm-jp
 ### Traditional Benchmarks based on Natural Language Understanding tasks
 
 <a id="llm-jp-eval"></a>
-#### [llm-jp-eval](https://github.com/llm-jp/llm-jp-eval) (LLM-jp)
+**[llm-jp-eval](https://github.com/llm-jp/llm-jp-eval) (LLM-jp)**
 
 A tool that evaluates Japanese LLMs automatically across multiple datasets.  
 The complete list of supported datasets can be found [here](https://github.com/llm-jp/llm-jp-eval/tree/main/src/llm_jp_eval/datasets) (which also includes tasks such as JNLI and JCommonsenseQA from JGLUE).  
 Evaluation results are compiled on the [llm-jp-eval leaderboard](http://wandb.me/llm-jp-leaderboard).
 
-#### [JP Language Model Evaluation Harness](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable) (Stability AI)
+**[JP Language Model Evaluation Harness](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable) (Stability AI)**
 
 A fork by Stability AI of [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness). It is a tool for automatically evaluating Japanese LLMs across multiple datasets.  
 The complete list of supported datasets can be found [here](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable/lm_eval/tasks/ja) (which also includes tasks such as JNLI and JCommonsenseQA from JGLUE).  
 There is a detailed summary of the evaluation results by rinna: [[rinna] Benchmark of Stability-AI/lm-evaluation-harness](https://rinnakk.github.io/research/benchmarks/lm/)
 
-#### [JGLUE](https://github.com/yahoojapan/JGLUE) (Waseda University Kawahara Lab and Yahoo)
+**[JGLUE](https://github.com/yahoojapan/JGLUE) (Waseda University Kawahara Lab and Yahoo)**
 
 Japanese version of the [GLUE](https://gluebenchmark.com/) benchmark suite, including the MARC-ja, JCoLA, JSTS, JNLI, JSQuAD, and JCommonsenseQA tasks. [JCoLA](https://github.com/osekilab/JCoLA) is by the University of Tokyo's Oseki Lab. See [here](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.317.pdf) and [here (ja only)](https://techblog.yahoo.co.jp/entry/2022122030379907/) for further details about each task.
 
-#### [JMMLU](https://github.com/nlp-waseda/JMMLU) (Waseda University Kawahara Lab)
+**[JMMLU](https://github.com/nlp-waseda/JMMLU) (Waseda University Kawahara Lab)**
 
 A benchmark constructed as a Japanese version of the [MMLU Benchmark](https://github.com/hendrycks/test), consisting of multiple-choice questions from a wide range of academic fields including natural sciences, humanities, and social sciences. In addition to translating the original MMLU, it features newly added problems based on the unique cultural background of Japan (Japan-specific problems).
 
-#### [Japanese Open LLM Leaderboard](http://wandb.me/llm-jp-openllmleaderboard) (LLM-jp)
+**[Japanese Open LLM Leaderboard](http://wandb.me/llm-jp-openllmleaderboard) (LLM-jp)**
 
 Similar to Huggingface's [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard), this leaderboard provides a verification on Japanese LLMs. You can check the performance of Japanese LLMs in English tasks.
 
@@ -386,67 +386,67 @@ Similar to Huggingface's [Open LLM Leaderboard](https://huggingface.co/spaces/Hu
 ### Benchmarks on open-ended generative tasks
 
 <a id="jp-mt-bench"></a>
-#### [Japanese MT-bench](https://github.com/Stability-AI/FastChat/tree/jp-stable/fastchat/llm_judge) (Stability AI)
+**[Japanese MT-bench](https://github.com/Stability-AI/FastChat/tree/jp-stable/fastchat/llm_judge) (Stability AI)**
 
 The Japanese version of [MT-bench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) asks about multi-turn conversational ability. It includes 80 questions, 10 each, from 8 categories: Writing, Roleplay, Reasoning, Math, Coding, Extraction, STEM, Humanities. Some questions have been modified to fit with Japanese culture during the production of the Japanese version. It also includes a script that performs a 10-level absolute evaluation by GPT-4.
 
-#### [Rakuda Benchmark](https://github.com/yuzu-ai/japanese-llm-ranking) (YuzuAI)
+**[Rakuda Benchmark](https://github.com/yuzu-ai/japanese-llm-ranking) (YuzuAI)**
 
 Ranking based on model answers to [40 open-ended questions](https://huggingface.co/datasets/yuzuai/rakuda-questions) on Japanese geography, history, politics, and society. Uses GPT-4 to judge model outputs pairwise, and then ranks models by fitting a Maximum Likelihood Elo/Bradley-Terry model to GPT-4's preferences. See [here](https://github.com/yuzu-ai/japanese-llm-ranking) for the data and code used to generate the ranking and [here](https://yuzuai.jp/blog/rakuda) for further explanation.
 
-#### [ELYZA-tasks-100](https://huggingface.co/datasets/elyza/ELYZA-tasks-100) (ELYZA)
+**[ELYZA-tasks-100](https://huggingface.co/datasets/elyza/ELYZA-tasks-100) (ELYZA)**
 
 Ranking based on model responses to [100 complex and diverse tasks](https://huggingface.co/datasets/elyza/ELYZA-tasks-100), including tasks testing summarization, correction, abstraction, induction, and other skills. Uses humans to score the model responses and then ranks models based on their mean scores. Evaluation results can be found [here](https://docs.google.com/spreadsheets/d/1mtoy4QAqDPk2f_B0vDogFoOrbA5G42DBEEHdqM4VmDI/edit#gid=1023787356) and [here](https://zenn.dev/elyza/articles/5e7d9373c32a98). For an evaluation containing newer models, see [here](https://note.com/elyza/n/n5d42686b60b7).
 
-#### [Japanese Vicuna QA Benchmark](https://github.com/ku-nlp/ja-vicuna-qa-benchmark) (Kyoto University Language Media Processing Lab)
+**[Japanese Vicuna QA Benchmark](https://github.com/ku-nlp/ja-vicuna-qa-benchmark) (Kyoto University Language Media Processing Lab)**
 
 This is the Japanese version of [vicuna-blog-eval](https://github.com/lm-sys/vicuna-blog-eval), which is the predecessor of MT-Bench. It includes 80 questions on general knowledge, role-playing, common sense, Fermi estimation, counterfactual thinking, coding, mathematics, and writing. It also includes a script for automatic evaluation by GPT-4 (win-rate calculation). The leaderboard can be found [here](http://wandb.me/llm-jp-vicunaleaderboard).
 
 <a id="logical-reasoning-benchmark-suites"></a>
 ### Benchmarks for measuring logical reasoning capabilities
 
-#### [JFLD (Japanese Formal Logic Deduction)](https://aclanthology.org/2024.lrec-main.832/) (Hitachi)
+**[JFLD (Japanese Formal Logic Deduction)](https://aclanthology.org/2024.lrec-main.832/) (Hitachi)**
 
 A dataset for evaluating deductive reasoning capabilities of Japanese LLMs (the Japanese version of the [FLD (Formal Logic Deduction)](https://github.com/hitachi-nlp/FLD) proposed by the same authors). It is characterized by being composed of counterfactual samples to evaluate apart from the knowledge the LLM possesses.
 
-#### [JHumanEval](https://huggingface.co/datasets/kogi-jwu/jhumaneval) (Japan Women's University Kuramitsu Lab)
+**[JHumanEval](https://huggingface.co/datasets/kogi-jwu/jhumaneval) (Japan Women's University Kuramitsu Lab)**
 
 A Japanese version of the [HumanEval](https://huggingface.co/datasets/openai_humaneval) benchmark, which assesses the ability to generate Python code from English instructions. In creating the Japanese version, the text was first machine-translated and then manually corrected.
 
 <a id="domain-specific-benchmark-suites"></a>
 ### Benchmarks for measuring performance in specific domains
 
-#### [Japanese Language Model Financial Evaluation Harness](https://github.com/pfnet-research/japanese-lm-fin-harness) (Preferred Networks)
+**[Japanese Language Model Financial Evaluation Harness](https://github.com/pfnet-research/japanese-lm-fin-harness) (Preferred Networks)**
 
 A benchmark for Japanese LLM in the financial sector. It includes tasks such as sentiment analysis in finance (chabsa), basic knowledge tasks in securities analysis (cma_basics), tasks related to audits in certified public accountant examinations (cpa_audit), multiple choice question tasks in financial planner exams (fp2), and mock exam tasks for securities salespeople exams (security_sales_1). For more details, please see [here](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/C6-4.pdf).
 
-#### [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) (Stockmark)
+**[Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) (Stockmark)**
 
 The collection includes 50 questions that probe knowledge on topics such as market trends, current affairs, social issues, and business trends.
 
 <a id="embeddings-benchmark-suites"></a>
 ### Benchmarks for embedding models
 
-#### [JMTEB](https://huggingface.co/datasets/sbintuitions/JMTEB) (SB Intuitions)
+**[JMTEB](https://huggingface.co/datasets/sbintuitions/JMTEB) (SB Intuitions)**
 
 A benchmark developed as the Japanese version of [MTEB](https://github.com/embeddings-benchmark/mteb). It consists of tasks such as document clustering, text classification, sentence similarity, sentence pair labeling prediction, and text extraction (a reranking task was recently added).
 
 <a id="vl-benchmark-suites"></a>
 ### Benchmarks for vision-language models
 
-#### [Heron-Bench](https://huggingface.co/datasets/turing-motors/Japanese-Heron-Bench) (Turing)
+**[Heron-Bench](https://huggingface.co/datasets/turing-motors/Japanese-Heron-Bench) (Turing)**
 
 21 images are assigned a total of 102 questions. It is characterized by image-question pairs that require knowledge related to Japan.
 
-#### [JA-VLM-Bench-In-the-Wild](https://huggingface.co/datasets/SakanaAI/JA-VLM-Bench-In-the-Wild) (Sakana AI)
+**[JA-VLM-Bench-In-the-Wild](https://huggingface.co/datasets/SakanaAI/JA-VLM-Bench-In-the-Wild) (Sakana AI)**
 
 A dataset independently prepared by Sakana AI to evaluate EvoVLM-JP-v1-7B. It consists of 50 questions assigned to 42 images. It is characterized by images and questions that require knowledge about Japan.
 
-#### [LLaVA-Bench-In-the-Wild (Japanese)](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-in-the-wild) (Turing)
+**[LLaVA-Bench-In-the-Wild (Japanese)](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-in-the-wild) (Turing)**
 
 This is the Japanese version of [LLaVA-Bench-In-the-Wild](https://huggingface.co/datasets/liuhaotian/llava-bench-in-the-wild), translated using DeepL. It consists of 60 questions assigned to 24 images.
 
-#### [LLaVA-Bench (COCO) Japanese](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-ja) (Turing)
+**[LLaVA-Bench (COCO) Japanese](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-ja) (Turing)**
 
 This is the Japanese version, translated by DeepL, of the LLaVA-Bench (COCO) dataset used to evaluate LLaVA. It consists of 30 images, each with 3 types of questions assigned to them.
 
@@ -533,7 +533,7 @@ This is the Japanese version, translated by DeepL, of the LLaVA-Bench (COCO) dat
 We love contributors! Feel free to contribute to this project.
 
 <a href="https://github.com/llm-jp/awesome-japanese-llm/graphs/contributors">
-  <img src="figures/contributors.svg" />
+  <img src="../figures/contributors.svg" />
 </a>
 
 <a id="citation"></a>

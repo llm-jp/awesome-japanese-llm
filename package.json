@@ -1,0 +1,18 @@
+{
+  "name": "awesome-japanese-llm",
+  "version": "1.0.0",
+  "description": "Overview of Japanese LLMs",
+  "main": "index.js",
+  "repository": "https://github.com/kaisugi/awesome-japanese-llm.git",
+  "author": "Kaito Sugimoto <hellorusk1998@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "markdown-it-footnote": "^4.0.0",
+    "vitepress": "^1.2.3"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
+}
