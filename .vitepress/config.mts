@@ -15,7 +15,7 @@ export default defineConfig({
       provider: 'local'
     },
 
-    logo: '/figures/logo.png',
+    logo: 'https://llm-jp.nii.ac.jp/assets/images/logo2.png',
 
     outline: {
       level: [2, 4],
