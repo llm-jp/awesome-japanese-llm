@@ -1,5 +1,4 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+name: Deploy VitePress site to Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -28,8 +27,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: yarn
       - name: Setup Pages
         uses: actions/configure-pages@v3
+      - name: Install dependencies
+        run: yarn install
       - name: Generate Contributors Image
         uses: jaywcjlove/github-action-contributors@v1.3.5
         with:
@@ -43,16 +49,12 @@ jobs:
           git add -A
           git diff --quiet && git diff --staged --quiet || git commit -m "Update Contributors Image"
           git push
-      - name: Fix Bibtex for Jekyll
-        run: |
-          python build/fix_bibtex_codeblock_for_jekyll.py
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
+      - name: Build with VitePress
+        run: yarn docs:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
+        with:
+          path: .vitepress/dist
 
   # Deployment job
   deploy:
