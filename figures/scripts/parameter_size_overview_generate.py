@@ -57,8 +57,8 @@ labels = {
     "JP-available": "Japanese (public, built from scratch)",
     "JP-available-CP": "Japanese (public)",
     "JP-unavailable": "Japanese (private)",
-    "EN-available": "English (public)",
-    "EN-unavailable": "English (private)",
+    "EN-available": "non-Japanese (public)",
+    "EN-unavailable": "non-Japanese (private)",
 }
 
 fig, ax = plt.subplots(figsize=(10, 8))

@@ -2,9 +2,9 @@
 [ [**English**](./README_en.md) | [**Français**](./README_fr.md) | 日本語 ]
 
 <p align="center">
-  <img src="figures/parameter_size_overview.png" alt="日本語LLM・英語LLMのパラメータサイズの推移">
+  <img src="figures/parameter_size_overview.png" alt="日本語LLM・海外LLMのパラメータサイズの推移">
 </p>
-<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">日本語LLM・英語LLMのパラメータ数の推移。日本語モデルの情報は本記事、英語モデルの情報は LifeArchitect.ai の <a href="https://lifearchitect.ai/models-table/">Models table</a> を参照しています（ただし、図のスペース上一部のモデルは省略。また、英語モデルのパラメータ数は推測値を含む）。修正・追加等ありましたらお知らせ下さい。</figcaption>
+<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">日本語LLM・海外LLMのパラメータ数の推移。日本語モデルの情報は本記事、海外モデルの情報は LifeArchitect.ai の <a href="https://lifearchitect.ai/models-table/">Models table</a> を参照しています（ただし、図のスペース上一部のモデルは省略。また、海外モデルのパラメータ数は推測値を含む）。修正・追加等ありましたらお知らせ下さい。</figcaption>
 
 ---
 
@@ -24,10 +24,10 @@
   - [フルスクラッチ事前学習モデル](#full-scratch-models)
     - [汎用](#generative-scratch-general)
     - [ドメイン特化型](#generative-scratch-domain-specific)
-  - [英語モデルに日本語で追加事前学習を行ったモデル（継続事前学習モデル）](#english-based-models)
+  - [海外モデルに日本語で追加事前学習を行ったモデル（継続事前学習モデル）](#english-based-models)
     - [汎用](#generative-continual-general)
     - [ドメイン特化型](#generative-continual-domain-specific)
-  - [英語モデルに日本語で指示チューニング (Instruction Tuning) のみ行ったモデル](#instruction-only-models)
+  - [海外モデルに日本語で指示チューニング (Instruction Tuning) のみ行ったモデル](#instruction-only-models)
     - [汎用](#generative-instruction-only-general)
     - [ドメイン特化型](#generative-instruction-only-domain-specific)
   - [複数のLLMをマージして作成されたモデル](#merged-models)
@@ -112,7 +112,7 @@
 | [AcademicBART](https://github.com/EhimeNLP/AcademicBART) | 学術 | BART ([base](https://huggingface.co/EhimeNLP/AcademicBART)) | CiNii の日本語論文 | 愛媛大 人工知能研究室 | Apache 2.0 |
 
 <a id="english-based-models"></a>
-### 英語モデルに日本語で追加事前学習を行ったモデル（継続事前学習モデル）
+### 海外モデルに日本語で追加事前学習を行ったモデル（継続事前学習モデル）
 
 <a id="generative-continual-general"></a>
 #### 汎用
@@ -165,7 +165,7 @@
 | [NovelAI/genji-jp](https://huggingface.co/NovelAI/genji-jp) | 物語生成 | GPT-J (**6b**) | NovelAI |  ？  |
 
 <a id="instruction-only-models"></a>
-### 英語モデルに日本語で指示チューニング (Instruction Tuning) のみ行ったモデル
+### 海外モデルに日本語で指示チューニング (Instruction Tuning) のみ行ったモデル
 
 <a id="generative-instruction-only-general"></a>
 #### 汎用

@@ -2,9 +2,9 @@
 [ [**English**](./README_en.md) | Français | [**日本語**](./README.md) ]
 
 <p align="center">
-  <img src="figures/parameter_size_overview.png" alt="LLMs en japonais et en anglais par taille de paramètres au fil du temps">
+  <img src="figures/parameter_size_overview.png" alt="LLMs en japonais et en non-japonais par taille de paramètres au fil du temps">
 </p>
-<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">Evolution du nombre de paramètres des LLMs en japonais et en anglais. Pour des informations sur le modèle japonais, nous nous référons à cet article, et pour le modèle anglais, nous nous référons au <a href="https://lifearchitect.ai/models-table/">tableau des modèles</a> sur LifeArchitect.ai (notez cependant que certains modèles ont été omis en raison de l'espace limité sur le graphique. De plus, le nombre de paramètres pour le modèle anglais inclut des valeurs estimées). Veuillez nous informer de toute correction ou ajout nécessaire.</figcaption>
+<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">Evolution du nombre de paramètres des LLMs en japonais et en non-japonais. Pour des informations sur le modèle japonais, nous nous référons à cet article, et pour le modèle non-japonais, nous nous référons au <a href="https://lifearchitect.ai/models-table/">tableau des modèles</a> sur LifeArchitect.ai (notez cependant que certains modèles ont été omis en raison de l'espace limité sur le graphique. De plus, le nombre de paramètres pour le modèle non-japonais inclut des valeurs estimées). Veuillez nous informer de toute correction ou ajout nécessaire.</figcaption>
 
 ---
 
@@ -22,10 +22,10 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
   - [Modèles développés à partir de zéro](#full-scratch-models)
     - [D'usage général](#generative-scratch-general)
     - [Spécifique à un domaine](#generative-scratch-domain-specific)
-  - [Modèles développés à partir d'LLM en anglais (avec un apprentissage en continue en japonais)](#english-based-models)
+  - [Modèles développés à partir d'LLM non-japonais (avec un apprentissage en continue en japonais)](#english-based-models)
     - [D'usage général](#generative-continual-general)
     - [Spécifique à un domaine](#generative-continual-domain-specific)
-  - [Modèles développés à partir d'LLM en anglais (avec un affinement par instructions en japonais)](#instruction-only-models)
+  - [Modèles développés à partir d'LLM non-japonais (avec un affinement par instructions en japonais)](#instruction-only-models)
     - [D'usage général](#generative-instruction-only-general)
     - [Spécifique à un domaine](#generative-instruction-only-domain-specific)
   - [Modèles fusionnés](#merged-models)
@@ -110,7 +110,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [AcademicBART](https://github.com/EhimeNLP/AcademicBART) | Science | BART ([base](https://huggingface.co/EhimeNLP/AcademicBART)) | CiNii Japanese Papers | Université d'Ehime AI Lab | Apache 2.0 |
 
 <a id="english-based-models"></a>
-### Modèles développés à partir d'LLM en anglais (avec une apprentissage continue en japonais)
+### Modèles développés à partir d'LLM non-japonais (avec un apprentissage en continue en japonais)
 
 <a id="generative-continual-general"></a>
 #### D'usage général
@@ -163,7 +163,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [NovelAI/genji-jp](https://huggingface.co/NovelAI/genji-jp) | Génération de récits | GPT-J (**6b**) | NovelAI |  ？  |
 
 <a id="instruction-only-models"></a>
-### Modèles développés à partir d'LLM en anglais (avec un affinement par instructions en japonais)
+### Modèles développés à partir d'LLM non-japonais (avec un affinement par instructions en japonais)
 
 <a id="generative-instruction-only-general"></a>
 #### D'usage général

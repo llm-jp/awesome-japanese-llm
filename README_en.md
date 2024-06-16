@@ -2,9 +2,9 @@
 [ English | [**Français**](./README_fr.md) | [**日本語**](./README.md) ]
 
 <p align="center">
-  <img src="figures/parameter_size_overview.png" alt="Parameter sizes of Japanese and English LLMs over time">
+  <img src="figures/parameter_size_overview.png" alt="Parameter sizes of Japanese and non-Japanese LLMs over time">
 </p>
-<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">Evolution of parameter sizes for Japanese LLMs and English LLMs. The information on the Japanese models is derived from this article, while the information on the English models can be referred from the <a href="https://lifearchitect.ai/models-table/">Models table</a> on LifeArchitect.ai. However, due to space constraints in the figure, some models have been omitted. Additionally, estimates are included in the parameter count for English models. Please notify us of any corrections, additions, or updates.</figcaption>
+<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">Evolution of parameter sizes for Japanese LLMs and non-Japanese LLMs. The information on the Japanese models is derived from this article, while the information on the non-Japanese models can be referred from the <a href="https://lifearchitect.ai/models-table/">Models table</a> on LifeArchitect.ai. However, due to space constraints in the figure, some models have been omitted. Additionally, estimates are included in the parameter count for non-Japanese models. Please notify us of any corrections, additions, or updates.</figcaption>
 
 ---
 
@@ -22,10 +22,10 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
   - [Models built from scratch](#full-scratch-models)
     - [General purpose](#generative-scratch-general)
     - [Domain specific](#generative-scratch-domain-specific)
-  - [Models built off English LLMs (w/ continual pre-training on Japanese)](#english-based-models)
+  - [Models built off non-Japanese LLMs (w/ continual pre-training on Japanese)](#english-based-models)
     - [General purpose](#generative-continual-general)
     - [Domain specific](#generative-continual-domain-specific)
-  - [Models built off English LLMs (w/ instruction tuning on Japanese)](#instruction-only-models)
+  - [Models built off non-Japanese LLMs (w/ instruction tuning on Japanese)](#instruction-only-models)
     - [General purpose](#generative-instruction-only-general)
     - [Domain specific](#generative-instruction-only-domain-specific)
   - [Merged models](#merged-models)
@@ -109,7 +109,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [AcademicBART](https://github.com/EhimeNLP/AcademicBART) | Science | BART ([base](https://huggingface.co/EhimeNLP/AcademicBART)) | CiNii Japanese Papers | Ehime University AI Lab | Apache 2.0 |
 
 <a id="english-based-models"></a>
-### Models built off English LLMs (w/ continual pre-training on Japanese)
+### Models built off non-Japanese LLMs (w/ continual pre-training on Japanese)
 
 <a id="generative-continual-general"></a>
 #### General purpose
@@ -162,7 +162,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [NovelAI/genji-jp](https://huggingface.co/NovelAI/genji-jp) | Storytelling | GPT-J (**6b**) | NovelAI |  ？  |
 
 <a id="instruction-only-models"></a>
-### Models built off English LLMs (w/ instruction tuning on Japanese)
+### Models built off non-Japanese LLMs (w/ instruction tuning on Japanese)
 
 <a id="generative-instruction-only-general"></a>
 #### General purpose
