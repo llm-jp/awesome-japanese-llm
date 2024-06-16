@@ -6,6 +6,11 @@ export default defineConfig({
   title: "LLM-jp",
   description: "Overview of Japanese LLMs",
   base: '/awesome-japanese-llm/',
+  head: [
+    ["meta", { property: "og:image", content: "https://llm-jp.nii.ac.jp/assets/images/logo2.png" }],
+    ["meta", { property: "twitter:card", content: "summary" }],
+    ["meta", { property: "twitter:site", content: "@llm_jp" }],
+  ],
   themeConfig: {
     socialLinks: [
       { icon: 'github', link: 'https://github.com/llm-jp/awesome-japanese-llm' }
