@@ -1,5 +1,5 @@
 # Overview of Japanese LLMs
-[ English | [**Français**](../fr) | [**日本語**](../) ]
+[ English | [**Français**](../fr/) | [**日本語**](../) ]
 
 <p align="center">
   <img src="../figures/parameter_size_overview.png" alt="Parameter sizes of Japanese and non-Japanese LLMs over time">
