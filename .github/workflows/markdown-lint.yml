@@ -1,4 +1,4 @@
-name: Markdown lint
+name: 404 Links Checker
 
 on:
   pull_request:
