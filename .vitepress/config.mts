@@ -43,15 +43,30 @@ export default defineConfig({
     root: {
       label: '日本語',
       lang: 'ja-JP',
+      themeConfig: {
+        nav: [
+          { text: 'LLM 勉強会', link: 'https://llm-jp.nii.ac.jp/' },
+        ]
+      }
     },
     en: {
       label: 'English',
       lang: 'en-US',
+      themeConfig: {
+        nav: [
+          { text: 'About Us', link: 'https://llm-jp.nii.ac.jp/en/' },
+        ]
+      },
       link: '/en'
     },
     fr: {
       label: 'Français',
       lang: 'fr-FR',
+      themeConfig: {
+        nav: [
+          { text: 'About Us', link: 'https://llm-jp.nii.ac.jp/en/' },
+        ]
+      },
       link: '/fr/'
     },
   }
