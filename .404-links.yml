@@ -1,0 +1,4 @@
+ignore:
+  urls:
+    - https://gitlab.llm-jp.nii.ac.jp/datasets/llm-jp-corpus-v2
+    - https://alaginrc.nict.go.jp/nict-bert/index.html
