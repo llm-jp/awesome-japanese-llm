@@ -435,7 +435,12 @@ Un benchmark développé comme la version japonaise de [MTEB](https://github.com
 <a id="vl-benchmark-suites"></a>
 ### Benchmarks pour modèles vision-langage
 
-**[Heron-Bench](https://huggingface.co/datasets/turing-motors/Japanese-Heron-Bench) (Turing)**
+**[Heron VLM Leaderboard powered by Nejumi/WandB](https://wandb.ai/vision-language-leaderboard/heron-leaderboard/reports/Heron-VLM-Leaderboard-powered-by-Nejumi-WandB--Vmlldzo4MjY3OTc5) (Turing, Weights & Biases)**
+
+Résume les résultats d'évaluation de [Japanese-Heron-Bench](#japanese-heron-bench) et [LLaVA-Bench-In-the-Wild (Japanese)](#llava-bench-in-the-wild).
+
+<a id="japanese-heron-bench"></a>
+**[Japanese-Heron-Bench](https://huggingface.co/datasets/turing-motors/Japanese-Heron-Bench) (Turing)**
 
 21 images se voient attribuer un total de 102 questions. Il est caractérisé par des paires image-question qui nécessitent une connaissance liée au Japon.
 
@@ -443,6 +448,7 @@ Un benchmark développé comme la version japonaise de [MTEB](https://github.com
 
 Un jeu de données préparé indépendamment par Sakana AI pour évaluer EvoVLM-JP-v1-7B. Il se compose de 50 questions attribuées à 42 images. Il se caractérise par des images et des questions qui exigent une connaissance du Japon.
 
+<a id="llava-bench-in-the-wild"></a>
 **[LLaVA-Bench-In-the-Wild (Japanese)](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-in-the-wild) (Turing)**
 
 Ceci est la version japonaise de [LLaVA-Bench-In-the-Wild](https://huggingface.co/datasets/liuhaotian/llava-bench-in-the-wild), traduite à l'aide de DeepL. Il se compose de 60 questions attribuées à 24 images.

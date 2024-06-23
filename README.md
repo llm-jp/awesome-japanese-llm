@@ -437,7 +437,12 @@ MT-Bench の前身である [vicuna-blog-eval](https://github.com/lm-sys/vicuna-
 <a id="vl-benchmark-suites"></a>
 ### 視覚言語モデル (Vision-Language Models) のベンチマーク/データセット
 
-**[Heron-Bench](https://huggingface.co/datasets/turing-motors/Japanese-Heron-Bench) (Turing)**
+**[Heron VLM リーダーボード powered by nejumi@WandB](https://api.wandb.ai/links/vision-language-leaderboard/h2lxge4n) (Turing, Weights & Biases)**
+
+[Japanese-Heron-Bench](#japanese-heron-bench) と [LLaVA-Bench-In-the-Wild (Japanese)](#llava-bench-in-the-wild) の評価結果をまとめている。
+
+<a id="japanese-heron-bench"></a>
+**[Japanese-Heron-Bench](https://huggingface.co/datasets/turing-motors/Japanese-Heron-Bench) (Turing)**
 
 21 枚の画像に対して計 102 問の質問が割り当てられている。日本に関する知識を要求する画像・質問になっているのが特徴である。
 
@@ -445,6 +450,7 @@ MT-Bench の前身である [vicuna-blog-eval](https://github.com/lm-sys/vicuna-
 
 Sakana AI が EvoVLM-JP-v1-7B の評価のために独自に用意したデータセット。42 枚の画像に対して計 50 問の質問が割り当てられている。日本に関する知識を要求する画像・質問になっているのが特徴である。
 
+<a id="llava-bench-in-the-wild"></a>
 **[LLaVA-Bench-In-the-Wild (Japanese)](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-in-the-wild) (Turing)**
 
 [LLaVA-Bench-In-the-Wild](https://huggingface.co/datasets/liuhaotian/llava-bench-in-the-wild) を DeepL で日本語に訳したもの。24 枚の画像に対して計 60 問の質問が割り当てられている。
