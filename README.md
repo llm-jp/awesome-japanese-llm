@@ -355,112 +355,64 @@
 <a id="hybrid-benchmark-suites"></a>
 ### 複合型ベンチマーク
 
-**[Nejumi LLMリーダーボード Neo](http://nejumi.ai/) (Weights & Biases)**
-
-一問一答形式で言語理解を評価する [llm-jp-eval](#llm-jp-eval) とプロンプト対話で生成能力を評価する [Japanese MT-bench](#jp-mt-bench) による総合評価の結果をまとめている。
+|   | 説明 | 開発元 |
+|:---|:---|:---:|
+| [Nejumi LLMリーダーボード Neo](http://nejumi.ai/) | 一問一答形式で言語理解を評価する [llm-jp-eval](#llm-jp-eval) とプロンプト対話で生成能力を評価する [Japanese MT-bench](#jp-mt-bench) による総合評価の結果をまとめている。 | Weights & Biases |
 
 <a id="basic-benchmark-suites"></a>
 ### 基礎的な自然言語理解 (NLU) を中心に測定するベンチマーク/データセット
 
-<a id="llm-jp-eval"></a>
-**[llm-jp-eval](https://github.com/llm-jp/llm-jp-eval) (LLM-jp)**
-
-複数のデータセットを横断して日本語 LLM を自動評価するツールである。  
-対応している全データセット一覧は[こちら](https://github.com/llm-jp/llm-jp-eval/tree/main/src/llm_jp_eval/datasets)から確認できる（この中には JNLI や JCommonsenseQA といった JGLUE のタスクなども含まれている）。  
-評価結果は [llm-jp-eval リーダーボード](http://wandb.me/llm-jp-leaderboard) にまとめられている。
-
-**[JP Language Model Evaluation Harness](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable) (Stability AI)**
-
-Stability AI による [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) のフォーク。複数のデータセットを横断して日本語 LLM を自動評価するツールである。  
-対応している全データセット一覧は[こちら](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable/lm_eval/tasks/ja)から確認できる（この中には JNLI や JCommonsenseQA といった JGLUE のタスクなども含まれている）。  
-rinna による詳細な評価結果まとめがある: [[rinna] Benchmark of Stability-AI/lm-evaluation-harness](https://rinnakk.github.io/research/benchmarks/lm/)
-
-**[JGLUE](https://github.com/yahoojapan/JGLUE) (早大河原研, ヤフー)**
-
-[GLUE ベンチマーク](https://gluebenchmark.com/)の日本語版として構築されたベンチマーク。MARC-ja, JCoLA, JSTS, JNLI, JSQuAD, JCommonsenseQA の 6 つのタスクを含む（[JCoLA](https://github.com/osekilab/JCoLA) は東大大関研により作成）。各タスクの詳細は[こちら](https://www.jstage.jst.go.jp/article/jnlp/30/1/30_63/_article/-char/ja)や[こちら](https://techblog.yahoo.co.jp/entry/2022122030379907/)を参照
-
-**[JMMLU](https://github.com/nlp-waseda/JMMLU) (早大河原研)**
-
-[MMLU ベンチマーク](https://github.com/hendrycks/test)の日本語版として構築されたベンチマーク。自然科学・人文科学・社会科学の幅広い学術領域から 4 択問題を構成している。元の MMLU を翻訳しただけでなく、日本独自の文化的背景に基づく問題（日本問題）を新たに追加しているのが特徴である。
-
-**[日本語 Open LLM Leaderboard](http://wandb.me/llm-jp-openllmleaderboard) (LLM-jp)**
-
-Huggingface の [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) と同様の検証を日本語 LLM に対して行ったもの。日本語 LLM の英語タスクにおける性能を確認できる。
+|   | 説明 | 開発元 |
+|:---|:---|:---:|
+| <a id="llm-jp-eval"></a> [llm-jp-eval](https://github.com/llm-jp/llm-jp-eval) | 複数のデータセットを横断して日本語 LLM を自動評価するツールである。<br>対応している全データセット一覧は[こちら](https://github.com/llm-jp/llm-jp-eval/tree/main/src/llm_jp_eval/datasets)から確認できる（この中には JNLI や JCommonsenseQA といった JGLUE のタスクなども含まれている）。<br>評価結果は [llm-jp-eval リーダーボード](http://wandb.me/llm-jp-leaderboard) にまとめられている。 | LLM-jp |
+| [JP Language Model Evaluation Harness](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable) | Stability AI による [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) のフォーク。複数のデータセットを横断して日本語 LLM を自動評価するツールである。<br>対応している全データセット一覧は[こちら](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable/lm_eval/tasks/ja)から確認できる（この中には JNLI や JCommonsenseQA といった JGLUE のタスクなども含まれている）。<br>rinna による詳細な評価結果まとめがある: [[rinna] Benchmark of Stability-AI/lm-evaluation-harness](https://rinnakk.github.io/research/benchmarks/lm/) | Stability AI |
+| [JGLUE](https://github.com/yahoojapan/JGLUE) | [GLUE ベンチマーク](https://gluebenchmark.com/)の日本語版として構築されたベンチマーク。MARC-ja, JCoLA, JSTS, JNLI, JSQuAD, JCommonsenseQA の 6 つのタスクを含む（[JCoLA](https://github.com/osekilab/JCoLA) は東大大関研により作成）。各タスクの詳細は[こちら](https://www.jstage.jst.go.jp/article/jnlp/30/1/30_63/_article/-char/ja)や[こちら](https://techblog.yahoo.co.jp/entry/2022122030379907/)を参照 | 早大河原研, ヤフー |
+| [JMMLU](https://github.com/nlp-waseda/JMMLU) | [MMLU ベンチマーク](https://github.com/hendrycks/test)の日本語版として構築されたベンチマーク。自然科学・人文科学・社会科学の幅広い学術領域から 4 択問題を構成している。元の MMLU を翻訳しただけでなく、日本独自の文化的背景に基づく問題（日本問題）を新たに追加しているのが特徴である。 | 早大河原研 |
+| [日本語 Open LLM Leaderboard](http://wandb.me/llm-jp-openllmleaderboard) | Huggingface の [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) と同様の検証を日本語 LLM に対して行ったもの。日本語 LLM の英語タスクにおける性能を確認できる。 | LLM-jp |
 
 <a id="open-ended-benchmark-suites"></a>
 ### 人間らしい応答の生成能力を中心に測定するベンチマーク/データセット
 
-<a id="jp-mt-bench"></a>
-**[Japanese MT-bench](https://github.com/Stability-AI/FastChat/tree/jp-stable/fastchat/llm_judge) (Stability AI)**
-
-マルチターン会話能力を問う [MT-bench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) の日本語版。Writing, Roleplay, Reasoning, Math, Coding, Extraction, STEM, Humanities の 8 つのカテゴリから 10 問ずつ、計 80 問が収録されている。なお、日本語版作成の際には、日本の文化に合うように質問内容に一部修正が加えられている。<br>GPT-4 による 10 段階の絶対評価を行うスクリプトも含まれている。
-
-**[Rakuda Benchmark](https://github.com/yuzu-ai/japanese-llm-ranking) (YuzuAI)**
-
-日本の地理、歴史、政治、社会に関する[40問の自由質問](https://huggingface.co/datasets/yuzuai/rakuda-questions)に対してモデルに出力を行わせる。GPT-4 が同じ質問に対する2つのモデルの出力を比べ、どちらの答えが優れているかを判断することにより、モデルのランク付けを行う。
-
-**[ELYZA-tasks-100](https://huggingface.co/datasets/elyza/ELYZA-tasks-100) (ELYZA)**
-
-複雑な指示・タスクを含む100件の日本語データで、全てのデータに対して評価観点がアノテーションされている。<br>要約を修正し修正箇所を説明するタスク、具体的なエピソードから抽象的な教訓を述べるタスク、ユーザーの意図を汲み役に立つAIアシスタントとして振る舞うタスク、場合分けを必要とする複雑な算数のタスク、未知の言語からパターンを抽出し日本語訳する高度な推論を必要とするタスク、複数の指示を踏まえた上でyoutubeの対話を生成するタスク、架空の生き物や熟語に関する生成・大喜利などの想像力が求められるタスクなどが含まれている。<br>評価結果は[こちら](https://docs.google.com/spreadsheets/d/1mtoy4QAqDPk2f_B0vDogFoOrbA5G42DBEEHdqM4VmDI/edit#gid=1023787356)や[こちら](https://zenn.dev/elyza/articles/5e7d9373c32a98)を参照。また、より新しいモデルを含む評価結果は[こちら](https://note.com/elyza/n/n5d42686b60b7)を参照。
-
-**[Japanese Vicuna QA Benchmark](https://github.com/ku-nlp/ja-vicuna-qa-benchmark) (京大 言語メディア研究室)**
-
-MT-Bench の前身である [vicuna-blog-eval](https://github.com/lm-sys/vicuna-blog-eval) の日本語版。一般、知識、ロールプレイ、常識、フェルミ推定、反実仮想、コーディング、数学、ライティングに関する 80 問の質問を収録している。また、GPT-4 による自動評価（勝率計算）のスクリプトも含まれている。リーダーボードは[こちら](http://wandb.me/llm-jp-vicunaleaderboard)
+|   | 説明 | 開発元 |
+|:---|:---|:---:|
+| <a id="jp-mt-bench"></a> [Japanese MT-bench](https://github.com/Stability-AI/FastChat/tree/jp-stable/fastchat/llm_judge) | マルチターン会話能力を問う [MT-bench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) の日本語版。Writing, Roleplay, Reasoning, Math, Coding, Extraction, STEM, Humanities の 8 つのカテゴリから 10 問ずつ、計 80 問が収録されている。なお、日本語版作成の際には、日本の文化に合うように質問内容に一部修正が加えられている。<br>GPT-4 による 10 段階の絶対評価を行うスクリプトも含まれている。 | Stability AI |
+| [Rakuda Benchmark](https://github.com/yuzu-ai/japanese-llm-ranking) | 日本の地理、歴史、政治、社会に関する[40問の自由質問](https://huggingface.co/datasets/yuzuai/rakuda-questions)に対してモデルに出力を行わせる。GPT-4 が同じ質問に対する2つのモデルの出力を比べ、どちらの答えが優れているかを判断することにより、モデルのランク付けを行う。 | YuzuAI |
+| [ELYZA-tasks-100](https://huggingface.co/datasets/elyza/ELYZA-tasks-100) | 複雑な指示・タスクを含む100件の日本語データで、全てのデータに対して評価観点がアノテーションされている。<br>要約を修正し修正箇所を説明するタスク、具体的なエピソードから抽象的な教訓を述べるタスク、ユーザーの意図を汲み役に立つAIアシスタントとして振る舞うタスク、場合分けを必要とする複雑な算数のタスク、未知の言語からパターンを抽出し日本語訳する高度な推論を必要とするタスク、複数の指示を踏まえた上でyoutubeの対話を生成するタスク、架空の生き物や熟語に関する生成・大喜利などの想像力が求められるタスクなどが含まれている。<br>評価結果は[こちら](https://docs.google.com/spreadsheets/d/1mtoy4QAqDPk2f_B0vDogFoOrbA5G42DBEEHdqM4VmDI/edit#gid=1023787356)や[こちら](https://zenn.dev/elyza/articles/5e7d9373c32a98)を参照。また、より新しいモデルを含む評価結果は[こちら](https://note.com/elyza/n/n5d42686b60b7)を参照。 | ELYZA |
+| [Japanese Vicuna QA Benchmark](https://github.com/ku-nlp/ja-vicuna-qa-benchmark) | MT-Bench の前身である [vicuna-blog-eval](https://github.com/lm-sys/vicuna-blog-eval) の日本語版。一般、知識、ロールプレイ、常識、フェルミ推定、反実仮想、コーディング、数学、ライティングに関する 80 問の質問を収録している。また、GPT-4 による自動評価（勝率計算）のスクリプトも含まれている。リーダーボードは[こちら](http://wandb.me/llm-jp-vicunaleaderboard) | 京大 言語メディア研究室 |
 
 <a id="logical-reasoning-benchmark-suites"></a>
 ### 論理推論能力を測定するベンチマーク/データセット
 
-**[JFLD (Japanese Formal Logic Deduction)](https://aclanthology.org/2024.lrec-main.832/) (日立製作所)**
-
-日本語 LLM の演繹推論能力を問うデータセット（同著者らが提案している [FLD (Formal Logic Deduction)](https://github.com/hitachi-nlp/FLD) の日本語版）。LLM が持つ知識と切り分けて評価を行うために、反実仮想的なサンプルから構成されているのが特徴である。
-
-**[JHumanEval](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P10-9.pdf) (日本女子大 倉光研)**
-
-英語の指示から Python コードの生成能力を評価するベンチマークである [HumanEval](https://huggingface.co/datasets/openai_humaneval) の日本語版。日本語版を作成する際には、まず機械翻訳にかけたあと、人手での修正を行っている。
+|   | 説明 | 開発元 |
+|:---|:---|:---:|
+| [JFLD (Japanese Formal Logic Deduction)](https://aclanthology.org/2024.lrec-main.832/) | 日本語 LLM の演繹推論能力を問うデータセット（同著者らが提案している [FLD (Formal Logic Deduction)](https://github.com/hitachi-nlp/FLD) の日本語版）。LLM が持つ知識と切り分けて評価を行うために、反実仮想的なサンプルから構成されているのが特徴である。 | 日立製作所 |
+| [JHumanEval](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P10-9.pdf) | 英語の指示から Python コードの生成能力を評価するベンチマークである [HumanEval](https://huggingface.co/datasets/openai_humaneval) の日本語版。日本語版を作成する際には、まず機械翻訳にかけたあと、人手での修正を行っている。 | 日本女子大 倉光研 |
 
 <a id="domain-specific-benchmark-suites"></a>
 ### 特定ドメインの性能を測定するベンチマーク/データセット
 
-**[Japanese Language Model Financial Evaluation Harness](https://github.com/pfnet-research/japanese-lm-fin-harness) (Preferred Networks)**
-
-金融分野における日本語 LLM のベンチマーク。金融分野における感情分析タスク(chabsa)、証券分析における基礎知識タスク(cma_basics)、公認会計士試験における監査に関するタスク(cpa_audit)、ファイナンシャルプランナー試験の選択肢問題のタスク(fp2)、証券外務員試験の模擬試験タスク(security_sales_1)を含む。詳細は[こちら](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/C6-4.pdf)を参照
-
-**[Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) (ストックマーク)**
-
-市場動向、時事問題、社会課題、ビジネストレンドなどの知識を問う問題が50題収録されている。
+|   | 説明 | 開発元 |
+|:---|:---|:---:|
+| [Japanese Language Model Financial Evaluation Harness](https://github.com/pfnet-research/japanese-lm-fin-harness) | 金融分野における日本語 LLM のベンチマーク。金融分野における感情分析タスク(chabsa)、証券分析における基礎知識タスク(cma_basics)、公認会計士試験における監査に関するタスク(cpa_audit)、ファイナンシャルプランナー試験の選択肢問題のタスク(fp2)、証券外務員試験の模擬試験タスク(security_sales_1)を含む。詳細は[こちら](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/C6-4.pdf)を参照 | Preferred Networks |
+| [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) | 市場動向、時事問題、社会課題、ビジネストレンドなどの知識を問う問題が50題収録されている。 | ストックマーク |
 
 <a id="embeddings-benchmark-suites"></a>
 ### 埋め込みモデルのベンチマーク/データセット
 
-**[JMTEB](https://jedworkshop.github.io/JLR2024/materials/b-3.pdf) (SB Intuitions)**
-
-[MTEB](https://github.com/embeddings-benchmark/mteb)の日本語版として作成されたベンチマーク。  
-文書クラスタリング、文書分類、文間類似度、文ペアラベル予測、文書抽出の5種類のタスクから構成されている（その後、リランキングタスクが新たに追加）。
+|   | 説明 | 開発元 |
+|:---|:---|:---:|
+| [JMTEB](https://jedworkshop.github.io/JLR2024/materials/b-3.pdf) | [MTEB](https://github.com/embeddings-benchmark/mteb)の日本語版として作成されたベンチマーク。<br>文書クラスタリング、文書分類、文間類似度、文ペアラベル予測、文書抽出の5種類のタスクから構成されている（その後、リランキングタスクが新たに追加）。 | SB Intuitions |
 
 <a id="vl-benchmark-suites"></a>
 ### 視覚言語モデル (Vision-Language Models) のベンチマーク/データセット
 
-**[Heron VLM リーダーボード powered by nejumi@WandB](https://api.wandb.ai/links/vision-language-leaderboard/h2lxge4n) (Turing, Weights & Biases)**
-
-[Japanese-Heron-Bench](#japanese-heron-bench) と [LLaVA-Bench-In-the-Wild (Japanese)](#llava-bench-in-the-wild) の評価結果をまとめている。
-
-<a id="japanese-heron-bench"></a>
-**[Japanese-Heron-Bench](https://huggingface.co/datasets/turing-motors/Japanese-Heron-Bench) (Turing)**
-
-21 枚の画像に対して計 102 問の質問が割り当てられている。日本に関する知識を要求する画像・質問になっているのが特徴である。
-
-**[JA-VLM-Bench-In-the-Wild](https://huggingface.co/datasets/SakanaAI/JA-VLM-Bench-In-the-Wild) (Sakana AI)**
-
-Sakana AI が EvoVLM-JP-v1-7B の評価のために独自に用意したデータセット。42 枚の画像に対して計 50 問の質問が割り当てられている。日本に関する知識を要求する画像・質問になっているのが特徴である。
-
-<a id="llava-bench-in-the-wild"></a>
-**[LLaVA-Bench-In-the-Wild (Japanese)](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-in-the-wild) (Turing)**
-
-[LLaVA-Bench-In-the-Wild](https://huggingface.co/datasets/liuhaotian/llava-bench-in-the-wild) を DeepL で日本語に訳したもの。24 枚の画像に対して計 60 問の質問が割り当てられている。
-
-**[LLaVA-Bench (COCO) Japanese](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-ja) (Turing)**
-
-LLaVA の評価に使われた LLaVA-Bench (COCO) データセットを DeepL で日本語に訳したもの。30 枚の画像に対して各 3 種類の質問が割り当てられている。
+|   | 説明 | 開発元 |
+|:---|:---|:---:|
+| [Heron VLM リーダーボード powered by nejumi@WandB](https://api.wandb.ai/links/vision-language-leaderboard/h2lxge4n) | [Japanese-Heron-Bench](#japanese-heron-bench) と [LLaVA-Bench-In-the-Wild (Japanese)](#llava-bench-in-the-wild) の評価結果をまとめている。 | Turing, Weights & Biases |
+| <a id="japanese-heron-bench"></a> [Japanese-Heron-Bench](https://huggingface.co/datasets/turing-motors/Japanese-Heron-Bench) | 21 枚の画像に対して計 102 問の質問が割り当てられている。日本に関する知識を要求する画像・質問になっているのが特徴である。 | Turing |
+| [JA-VLM-Bench-In-the-Wild](https://huggingface.co/datasets/SakanaAI/JA-VLM-Bench-In-the-Wild) | Sakana AI が EvoVLM-JP-v1-7B の評価のために独自に用意したデータセット。42 枚の画像に対して計 50 問の質問が割り当てられている。日本に関する知識を要求する画像・質問になっているのが特徴である。 | Sakana AI |
+| <a id="llava-bench-in-the-wild"></a> [LLaVA-Bench-In-the-Wild (Japanese)](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-in-the-wild) | [LLaVA-Bench-In-the-Wild](https://huggingface.co/datasets/liuhaotian/llava-bench-in-the-wild) を DeepL で日本語に訳したもの。24 枚の画像に対して計 60 問の質問が割り当てられている。 | Turing |
+| [LLaVA-Bench (COCO) Japanese](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-ja) | LLaVA の評価に使われた LLaVA-Bench (COCO) データセットを DeepL で日本語に訳したもの。30 枚の画像に対して各 3 種類の質問が割り当てられている。 | Turing |
 
 <a id="reference"></a>
 ## 各モデル・アーキテクチャの原論文
