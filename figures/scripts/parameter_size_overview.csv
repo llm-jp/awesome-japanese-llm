@@ -2,6 +2,8 @@ Model,Lab,Parameters(B),Announced,Type,Source(JP)
 Sarashina,SB Intuitions,65,2024/6/14,JP-available,https://www.sbintuitions.co.jp/news/press/20240614_01/
 Fugaku-LLM,"Titech, Tohoku Univ., Fujitsu, RIKEN, Nagoya Univ., CyberAgent, Kotoba Technologies",13,2024/5/10,JP-available,https://www.fujitsu.com/global/about/resources/news/press-releases/2024/0510-01.html
 ,Rakuten,7,2024/3/21,JP-available-CP,https://corp.rakuten.co.jp/news/press/2024/0321_01.html
+KARAKURI 8x7B Instruct,KARAKURI,46.7,2024/6/20,JP-available-CP,https://karakuri.ai/seminar/news/karakuri-lm-8x7b-instruct-v0-1/
+KARAKURI 8x7B Chat,KARAKURI,46.7,2024/5/20,JP-available-CP,https://karakuri.ai/seminar/news/aws_trainium_moe/
 KARAKURI,KARAKURI,70,2024/1/31,JP-available-CP,https://karakuri.ai/seminar/news/karakuri-lm/
 Llama 3 Youko,rinna,8,2024/05/07,JP-available-CP,https://rinna.co.jp/news/2024/05/20240507.html
 Nekomata,rinna,14,2023/12/21,JP-available-CP,https://rinna.co.jp/news/2023/12/20231221.html
@@ -14,6 +16,8 @@ PLaMo-13B,Preferred Networks,13,2023/09/28,JP-available,https://www.preferred.jp
 Stockmark-100b,Stockmark,100,2024/05/16,JP-available,https://stockmark.co.jp/news/20240516
 Stockmark-13b,Stockmark,13,2023/10/27,JP-available,https://stockmark.co.jp/news/20231027
 Weblab-10B,Matsuo Lab,10,2023/08/22,JP-available,https://www.t.u-tokyo.ac.jp/press/pr2023-08-18-001
+Llama 3 ELYZA,ELYZA,70,2024/6/26,JP-unavailable,https://note.com/elyza/n/n360b6084fdbd
+,ELYZA,8,2024/6/26,JP-available-CP,https://note.com/elyza/n/n360b6084fdbd
 ,ELYZA,70,2024/03/12,JP-unavailable,https://elyza.ai/news/2024/03/12/%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%90%E3%83%AB%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AB%E5%8C%B9%E6%95%B5%E3%81%99%E3%82%8B700%E5%84%84%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9Ellm%E3%82%92
 ,ELYZA,13,2023/12/27,JP-available-CP,https://note.com/elyza/n/n5d42686b60b7
 ,ELYZA,7,2023/8/29,JP-available-CP,https://note.com/elyza/n/na405acaca130
