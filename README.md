@@ -357,7 +357,7 @@
 
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
-| [Nejumi LLMリーダーボード Neo](http://nejumi.ai/) | 一問一答形式で言語理解を評価する [llm-jp-eval](#llm-jp-eval) とプロンプト対話で生成能力を評価する [Japanese MT-bench](#jp-mt-bench) による総合評価の結果をまとめている。 | Weights & Biases |
+| [Nejumi LLMリーダーボード Neo](https://api.wandb.ai/links/wandb-japan/88zbcjwa) | 一問一答形式で言語理解を評価する [llm-jp-eval](#llm-jp-eval) とプロンプト対話で生成能力を評価する [Japanese MT-bench](#jp-mt-bench) による総合評価の結果をまとめている。 | Weights & Biases |
 
 <a id="basic-benchmark-suites"></a>
 ### 基礎的な自然言語理解 (NLU) を中心に測定するベンチマーク/データセット
