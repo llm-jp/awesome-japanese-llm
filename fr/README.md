@@ -500,7 +500,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 Nous aimons les contributeurs ! N'hésitez pas à contribuer à ce projet.
 
 <a href="https://github.com/llm-jp/awesome-japanese-llm/graphs/contributors">
-  <img src="../figures/contributors.svg" />
+  <img src="../figures/contributors.svg" alt="contributors" />
 </a>
 
 <a id="citation"></a>
