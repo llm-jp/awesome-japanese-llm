@@ -12,6 +12,7 @@ export default defineConfig({
     ["meta", { property: "twitter:card", content: "summary" }],
     ["meta", { property: "twitter:title", content: "日本語LLMまとめ" }],
     ["meta", { property: "twitter:site", content: "@llm_jp" }],
+    ["link", { rel: "icon", href: "/awesome-japanese-llm/figures/favicon.ico" }],
   ],
   themeConfig: {
     socialLinks: [
