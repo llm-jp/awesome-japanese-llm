@@ -1,0 +1,56 @@
+Model,Lab,Parameters(B),Announced,Type,Source(JP)
+Sarashina,SB Intuitions,65,2024/6/14,JP-available,https://www.sbintuitions.co.jp/news/press/20240614_01/
+Fugaku-LLM,"Titech, Tohoku Univ., Fujitsu, RIKEN, Nagoya Univ., CyberAgent, Kotoba Technologies",13,2024/5/10,JP-available,https://www.fujitsu.com/global/about/resources/news/press-releases/2024/0510-01.html
+,Rakuten,7,2024/3/21,JP-available-CP,https://corp.rakuten.co.jp/news/press/2024/0321_01.html
+KARAKURI 8x7B Instruct,KARAKURI,46.7,2024/6/20,JP-available-CP,https://karakuri.ai/seminar/news/karakuri-lm-8x7b-instruct-v0-1/
+KARAKURI 8x7B Chat,KARAKURI,46.7,2024/5/20,JP-available-CP,https://karakuri.ai/seminar/news/aws_trainium_moe/
+KARAKURI,KARAKURI,70,2024/1/31,JP-available-CP,https://karakuri.ai/seminar/news/karakuri-lm/
+Llama 3 Youko,rinna,8,2024/05/07,JP-available-CP,https://rinna.co.jp/news/2024/05/20240507.html
+Nekomata,rinna,14,2023/12/21,JP-available-CP,https://rinna.co.jp/news/2023/12/20231221.html
+Youri,rinna,7,2023/10/31,JP-available-CP,https://rinna.co.jp/news/2023/10/20231031.html
+Swallow-MX,TokyoTech-LLM,46.7,2024/03/11,JP-available-CP,https://tokyotech-llm.github.io/swallow-mistral
+Swallow,TokyoTech-LLM,70,2023/12/19,JP-available-CP,https://tokyotech-llm.github.io/blog/swallow-llama
+LLM-jp-13B v2.0,LLM-jp,13,2024/04/30,JP-available,https://www.nii.ac.jp/news/release/2024/0430.html
+LLM-jp-13B,LLM-jp,13,2023/10/20,JP-available,https://www.nii.ac.jp/news/release/2023/1020.html
+PLaMo-13B,Preferred Networks,13,2023/09/28,JP-available,https://www.preferred.jp/ja/news/pr20230928/
+Stockmark-100b,Stockmark,100,2024/05/16,JP-available,https://stockmark.co.jp/news/20240516
+Stockmark-13b,Stockmark,13,2023/10/27,JP-available,https://stockmark.co.jp/news/20231027
+Weblab-10B,Matsuo Lab,10,2023/08/22,JP-available,https://www.t.u-tokyo.ac.jp/press/pr2023-08-18-001
+Llama 3 ELYZA,ELYZA,70,2024/6/26,JP-unavailable,https://note.com/elyza/n/n360b6084fdbd
+,ELYZA,8,2024/6/26,JP-available-CP,https://note.com/elyza/n/n360b6084fdbd
+,ELYZA,70,2024/03/12,JP-unavailable,https://elyza.ai/news/2024/03/12/%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%90%E3%83%AB%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AB%E5%8C%B9%E6%95%B5%E3%81%99%E3%82%8B700%E5%84%84%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9Ellm%E3%82%92
+,ELYZA,13,2023/12/27,JP-available-CP,https://note.com/elyza/n/n5d42686b60b7
+,ELYZA,7,2023/8/29,JP-available-CP,https://note.com/elyza/n/na405acaca130
+EvoLLM-JP,Sakana AI,10,2024/3/21,JP-available-CP,https://sakana.ai/evolutionary-model-merge-jp/
+Japanese Stable LM 2 1.6B,Stability AI,1.6,2024/05/09,JP-available-CP,https://ja.stability.ai/blog/japanese-stable-lm-2-16b
+JSLM Alpha,Stability AI,7,2023/08/10,JP-available,https://ja.stability.ai/blog/japanese-stablelm-alpha
+JSLM Beta,Stability AI,70,2023/11/02,JP-available-CP,https://ja.stability.ai/blog/japanese-stable-lm-beta
+JSLM Gamma,Stability AI,7,2023/10/25,JP-available-CP,https://ja.stability.ai/blog/japanese-stable-lm-3b-4e1tjapanese-stable-lm-gamma-7b
+CALM2,CyberAgent,7,2023/11/02,JP-available,https://www.cyberagent.co.jp/news/detail/id=29479
+OpenCALM,CyberAgent,6.8,2023/05/17,JP-available,https://www.cyberagent.co.jp/news/detail/id=28817
+,CyberAgent,13,2023/05/11,JP-unavailable,https://www.cyberagent.co.jp/news/detail/id=28797
+,rinna,3.8,2023/07/31,JP-available,https://rinna.co.jp/news/2023/07/20230731.html
+,rinna,3.6,2023/05/17,JP-available,https://rinna.co.jp/news/2023/05/20230507.html
+,rinna,1.3,2022/01/26,JP-available,https://rinna.co.jp/news/2022/01/2022012601.html
+,rinna,0.3,2021/04/07,JP-available,https://rinna.co.jp/news/2021/04/20210407.html
+,rinna,0.1,2021/08/25,JP-available,https://rinna.co.jp/news/2021/08/20210825.html
+japanese-large-lm,LINE,3.6,2023/08/14,JP-available,https://engineering.linecorp.com/ja/blog/3.6-billion-parameter-japanese-language-model
+,レトリバ,3,2023/05/12,JP-available,https://note.com/retrieva/n/n7b4186dc5ada
+,ABEJA,46.7,2024/04/20,JP-available-CP,https://tech-blog.abeja.asia/entry/abeja-nedo-project-part1-202404
+,ABEJA,2.7,2022/07/27,JP-available,https://tech-blog.abeja.asia/entry/abeja-gpt-project-202207
+,ABEJA,6.7,2022/07/27,JP-unavailable,https://tech-blog.abeja.asia/entry/abeja-gpt-project-202207
+,ABEJA,13,2022/07/27,JP-unavailable,https://tech-blog.abeja.asia/entry/abeja-gpt-project-202207
+,早大 河原研,1.5,2022/12/15,JP-available,https://zenn.dev/schnell/articles/0eba71dc364b7f
+,Yellowback,1.3,2021/12/9,JP-available,https://tech.yellowback.net/posts/gpt-neo-japanese
+NIKKEI Language Model,NIKKEI,70,2024/04/24,JP-unavailable,https://www.nikkei.com/article/DGXZQOUC1941R0Z10C24A4000000/
+Granite,日本IBM,8,2024/02/27,JP-unavailable,https://jp.newsroom.ibm.com/2024-02-27-IBM-launches-Granite-Japanese-built-on-trusted-data-to-accelerate-Japanese-clients-adoption-of-generative-AI
+tsuzumi,NTT,7,2023/11/01,JP-unavailable,https://group.ntt/jp/newsrelease/2023/11/01/231101a.html
+,NEC,13,2023/07/06,JP-unavailable,https://jpn.nec.com/press/202307/20230706_02.html
+,NICT,179,2023/09/30,JP-unavailable,https://www3.nhk.or.jp/news/html/20231201/k10014275281000.html
+,NICT,40,2023/07/04,JP-unavailable,https://www.nict.go.jp/press/2023/07/04-1.html
+PolySphere-1,AI inside,14,2023/06/08,JP-unavailable,https://inside.ai/news/2023/06/08/aiinside-xresearch/
+,RICOH,13,2024/1/31,JP-unavailable,https://jp.ricoh.com/release/2024/0131_1
+,RICOH,6,2023/03/15,JP-unavailable,https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/H9-4.pdf
+LHTM-2,オルツ,160,2023/02/14,JP-unavailable,"https://alt.ai/news/news-1892/, https://xtech.nikkei.com/atcl/nxt/column/18/02423/053100030/"
+HyperCLOVA,NAVER & LIINE,82,2022/11/30,JP-unavailable,https://www.youtube.com/watch?v=I4o7X3-aqJk
+HyperCLOVA,NAVER & LIINE,39,2021/11/10,JP-unavailable,https://www.youtube.com/watch?v=V4pZulIWHpY

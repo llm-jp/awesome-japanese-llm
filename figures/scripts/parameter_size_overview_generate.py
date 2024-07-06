@@ -9,6 +9,7 @@ CSVデータ作成に関するメモ
     c. まだ非公開のモデルは落とす
     d. Announced の日付を YYYY/MM/DD に変換
     e. Model, Lab, Parameters, Announced の順にカラムを入れ替えてコピペ
+（なお、2.の操作は現在 parameter_size_overview_retrieve.py で自動化されている）
 """
 
 import japanize_matplotlib
@@ -31,7 +32,11 @@ BIGTECH_LIST = [
     "Mistral AI",  # Microsoft
 ]
 
-df = pd.read_csv('parameter_size_overview.csv')
+df_en = pd.read_csv('parameter_size_overview.csv')
+df_ja = pd.read_csv('parameter_size_overview_ja.csv')
+
+# 日本語モデルのデータを英語モデルのデータに結合
+df = pd.concat([df_en, df_ja], ignore_index=True)
 
 df["label"] = np.where(df["Model"].isna(), df["Lab"], df["Model"])
 df["Announced"] = pd.to_datetime(df["Announced"], format='%Y/%m/%d')
