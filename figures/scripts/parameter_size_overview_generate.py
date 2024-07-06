@@ -9,6 +9,7 @@ CSVデータ作成に関するメモ
     c. まだ非公開のモデルは落とす
     d. Announced の日付を YYYY/MM/DD に変換
     e. Model, Lab, Parameters, Announced の順にカラムを入れ替えてコピペ
+（なお、2.の操作は現在 parameter_size_overview_retrieve.py で自動化されている）
 """
 
 import japanize_matplotlib
