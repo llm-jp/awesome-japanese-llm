@@ -1,406 +1,351 @@
-Model,Lab,Parameters(B),Announced,Type,Source(JP)
-Sarashina,SB Intuitions,65,2024/6/14,JP-available,https://www.sbintuitions.co.jp/news/press/20240614_01/
-Fugaku-LLM,"Titech, Tohoku Univ., Fujitsu, RIKEN, Nagoya Univ., CyberAgent, Kotoba Technologies",13,2024/5/10,JP-available,https://www.fujitsu.com/global/about/resources/news/press-releases/2024/0510-01.html
-,Rakuten,7,2024/3/21,JP-available-CP,https://corp.rakuten.co.jp/news/press/2024/0321_01.html
-KARAKURI 8x7B Instruct,KARAKURI,46.7,2024/6/20,JP-available-CP,https://karakuri.ai/seminar/news/karakuri-lm-8x7b-instruct-v0-1/
-KARAKURI 8x7B Chat,KARAKURI,46.7,2024/5/20,JP-available-CP,https://karakuri.ai/seminar/news/aws_trainium_moe/
-KARAKURI,KARAKURI,70,2024/1/31,JP-available-CP,https://karakuri.ai/seminar/news/karakuri-lm/
-Llama 3 Youko,rinna,8,2024/05/07,JP-available-CP,https://rinna.co.jp/news/2024/05/20240507.html
-Nekomata,rinna,14,2023/12/21,JP-available-CP,https://rinna.co.jp/news/2023/12/20231221.html
-Youri,rinna,7,2023/10/31,JP-available-CP,https://rinna.co.jp/news/2023/10/20231031.html
-Swallow-MX,TokyoTech-LLM,46.7,2024/03/11,JP-available-CP,https://tokyotech-llm.github.io/swallow-mistral
-Swallow,TokyoTech-LLM,70,2023/12/19,JP-available-CP,https://tokyotech-llm.github.io/blog/swallow-llama
-LLM-jp-13B v2.0,LLM-jp,13,2024/04/30,JP-available,https://www.nii.ac.jp/news/release/2024/0430.html
-LLM-jp-13B,LLM-jp,13,2023/10/20,JP-available,https://www.nii.ac.jp/news/release/2023/1020.html
-PLaMo-13B,Preferred Networks,13,2023/09/28,JP-available,https://www.preferred.jp/ja/news/pr20230928/
-Stockmark-100b,Stockmark,100,2024/05/16,JP-available,https://stockmark.co.jp/news/20240516
-Stockmark-13b,Stockmark,13,2023/10/27,JP-available,https://stockmark.co.jp/news/20231027
-Weblab-10B,Matsuo Lab,10,2023/08/22,JP-available,https://www.t.u-tokyo.ac.jp/press/pr2023-08-18-001
-Llama 3 ELYZA,ELYZA,70,2024/6/26,JP-unavailable,https://note.com/elyza/n/n360b6084fdbd
-,ELYZA,8,2024/6/26,JP-available-CP,https://note.com/elyza/n/n360b6084fdbd
-,ELYZA,70,2024/03/12,JP-unavailable,https://elyza.ai/news/2024/03/12/%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%90%E3%83%AB%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AB%E5%8C%B9%E6%95%B5%E3%81%99%E3%82%8B700%E5%84%84%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9Ellm%E3%82%92
-,ELYZA,13,2023/12/27,JP-available-CP,https://note.com/elyza/n/n5d42686b60b7
-,ELYZA,7,2023/8/29,JP-available-CP,https://note.com/elyza/n/na405acaca130
-EvoLLM-JP,Sakana AI,10,2024/3/21,JP-available-CP,https://sakana.ai/evolutionary-model-merge-jp/
-Japanese Stable LM 2 1.6B,Stability AI,1.6,2024/05/09,JP-available-CP,https://ja.stability.ai/blog/japanese-stable-lm-2-16b
-JSLM Alpha,Stability AI,7,2023/08/10,JP-available,https://ja.stability.ai/blog/japanese-stablelm-alpha
-JSLM Beta,Stability AI,70,2023/11/02,JP-available-CP,https://ja.stability.ai/blog/japanese-stable-lm-beta
-JSLM Gamma,Stability AI,7,2023/10/25,JP-available-CP,https://ja.stability.ai/blog/japanese-stable-lm-3b-4e1tjapanese-stable-lm-gamma-7b
-CALM2,CyberAgent,7,2023/11/02,JP-available,https://www.cyberagent.co.jp/news/detail/id=29479
-OpenCALM,CyberAgent,6.8,2023/05/17,JP-available,https://www.cyberagent.co.jp/news/detail/id=28817
-,CyberAgent,13,2023/05/11,JP-unavailable,https://www.cyberagent.co.jp/news/detail/id=28797
-,rinna,3.8,2023/07/31,JP-available,https://rinna.co.jp/news/2023/07/20230731.html
-,rinna,3.6,2023/05/17,JP-available,https://rinna.co.jp/news/2023/05/20230507.html
-,rinna,1.3,2022/01/26,JP-available,https://rinna.co.jp/news/2022/01/2022012601.html
-,rinna,0.3,2021/04/07,JP-available,https://rinna.co.jp/news/2021/04/20210407.html
-,rinna,0.1,2021/08/25,JP-available,https://rinna.co.jp/news/2021/08/20210825.html
-japanese-large-lm,LINE,3.6,2023/08/14,JP-available,https://engineering.linecorp.com/ja/blog/3.6-billion-parameter-japanese-language-model
-,レトリバ,3,2023/05/12,JP-available,https://note.com/retrieva/n/n7b4186dc5ada
-,ABEJA,46.7,2024/04/20,JP-available-CP,https://tech-blog.abeja.asia/entry/abeja-nedo-project-part1-202404
-,ABEJA,2.7,2022/07/27,JP-available,https://tech-blog.abeja.asia/entry/abeja-gpt-project-202207
-,ABEJA,6.7,2022/07/27,JP-unavailable,https://tech-blog.abeja.asia/entry/abeja-gpt-project-202207
-,ABEJA,13,2022/07/27,JP-unavailable,https://tech-blog.abeja.asia/entry/abeja-gpt-project-202207
-,早大 河原研,1.5,2022/12/15,JP-available,https://zenn.dev/schnell/articles/0eba71dc364b7f
-,Yellowback,1.3,2021/12/9,JP-available,https://tech.yellowback.net/posts/gpt-neo-japanese
-NIKKEI Language Model,NIKKEI,70,2024/04/24,JP-unavailable,https://www.nikkei.com/article/DGXZQOUC1941R0Z10C24A4000000/
-Granite,日本IBM,8,2024/02/27,JP-unavailable,https://jp.newsroom.ibm.com/2024-02-27-IBM-launches-Granite-Japanese-built-on-trusted-data-to-accelerate-Japanese-clients-adoption-of-generative-AI
-tsuzumi,NTT,7,2023/11/01,JP-unavailable,https://group.ntt/jp/newsrelease/2023/11/01/231101a.html
-,NEC,13,2023/07/06,JP-unavailable,https://jpn.nec.com/press/202307/20230706_02.html
-,NICT,179,2023/09/30,JP-unavailable,https://www3.nhk.or.jp/news/html/20231201/k10014275281000.html
-,NICT,40,2023/07/04,JP-unavailable,https://www.nict.go.jp/press/2023/07/04-1.html
-PolySphere-1,AI inside,14,2023/06/08,JP-unavailable,https://inside.ai/news/2023/06/08/aiinside-xresearch/
-,RICOH,13,2024/1/31,JP-unavailable,https://jp.ricoh.com/release/2024/0131_1
-,RICOH,6,2023/03/15,JP-unavailable,https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/H9-4.pdf
-LHTM-2,オルツ,160,2023/02/14,JP-unavailable,"https://alt.ai/news/news-1892/, https://xtech.nikkei.com/atcl/nxt/column/18/02423/053100030/"
-HyperCLOVA,NAVER & LIINE,82,2022/11/30,JP-unavailable,https://www.youtube.com/watch?v=I4o7X3-aqJk
-HyperCLOVA,NAVER & LIINE,39,2021/11/10,JP-unavailable,https://www.youtube.com/watch?v=V4pZulIWHpY
-Nemotron-4-340B,NVIDIA,340,2024/6/1,EN-available,
-Apple On-Device model Jun/2024,Apple,3.04,2024/6/1,EN-available,
-MatMul-Free LM,UCSC,2.7,2024/6/1,EN-available,
-Luna,Galileo,0.44,2024/6/1,EN-available,
-Qwen2,Alibaba,72,2024/6/1,EN-available,
-Qwen2-57B-A14B,Alibaba,57,2024/6/1,EN-available,
-Skywork MoE 16x13B,Kunlun Tech,146,2024/6/1,EN-available,
-Mamba-2,CMU,2.7,2024/5/1,EN-available,
-MAP-Neo,International,7,2024/5/1,EN-available,
-K2,LLM360,65,2024/5/1,EN-available,
-Codestral,Mistral,22,2024/5/1,EN-available,
-Aya-23-35B,Cohere,35,2024/5/1,EN-available,
-Yi-XLarge,01-ai,2000,2024/5/1,EN-available,
-Yi-Large,01-ai,1000,2024/5/1,EN-available,
-Sparse Llama 7B,Cerebras,7,2024/5/1,EN-available,
-Gemini 1.5 Flash,Google DeepMind,,2024/5/1,EN-available,
-GPT-4o,OpenAI,,2024/5/1,EN-available,
-Falcon 2 11B,TII,11,2024/5/1,EN-available,
-Fugaku-LLM,Fujitsu,13,2024/5/1,EN-available,
-Yi 1.5 34B,01-ai,34.4,2024/5/1,EN-available,
-YOCO,Microsoft,3,2024/5/1,EN-available,
-DeepSeek-V2,DeepSeek-AI,236,2024/5/1,EN-available,
-ChuXin,Independent,1.6,2024/5/1,EN-available,
-RWKV-v6 Finch,RWKV,7.63,2024/5/1,EN-available,
-Granite Code,IBM,34,2024/5/1,EN-available,
-Qwen-Max,Alibaba,300,2024/5/1,EN-available,
-Qwen-1.5 110B,Alibaba,111,2024/4/1,EN-available,
-Arctic,Snowflake AI Research,480,2024/4/1,EN-available,
-SenseNova 5.0,SenseTime,600,2024/4/1,EN-available,
-OpenELM,Apple,3.04,2024/4/1,EN-available,
-phi-3-medium,Microsoft,14,2024/4/1,EN-available,
-phi-3-mini,Microsoft,3.8,2024/4/1,EN-available,
-Llama 3 405B,Meta AI,405,2024/4/1,EN-available,
-Llama 3 70B,Meta AI,70,2024/4/1,EN-available,
-Idefics2,Hugging Face,8.4,2024/4/1,EN-available,
-Reka Core,Reka AI,300,2024/4/1,EN-available,
-WizardLM-2-8x22B,Microsoft,141,2024/4/1,EN-available,
-Pile-T5,EleutherAI,11,2024/4/1,EN-available,
-Zephyr 141B-A35B,Hugging Face H4,35,2024/4/1,EN-available,
-Rerank 3,Cohere,104,2024/4/1,EN-available,
-gpt-4-turbo-2024-04-09,OpenAI,,2024/4/1,EN-available,
-MiniCPM-2.4B,Tsinghua,2.4,2024/4/1,EN-available,
-Ferret-UI,Apple,13,2024/4/1,EN-available,
-mixtral-8x22b,Mistral,141,2024/4/1,EN-available,
-Sailor,Sail,7,2024/4/1,EN-available,
-JetMoE-8B,MIT,8,2024/4/1,EN-available,
-Eurus,Tsinghua,70,2024/4/1,EN-available,
-Command-R+,Cohere,104,2024/4/1,EN-available,
-Viking,Silo AI,33,2024/4/1,EN-available,
-OLMo-Bitnet-1B,Nous Research,1,2024/4/1,EN-available,
-Aurora-M,International,15.5,2024/3/1,EN-available,
-Qwen1.5-MoE-A2.7B,Alibaba,14.3,2024/3/1,EN-available,
-Grok-1.5,xAI,314,2024/3/1,EN-available,
-Jamba,AI21,52,2024/3/1,EN-available,
-DBRX,MosaicML,132,2024/3/1,EN-available,
-Stable Code Instruct 3B,Stability AI,2.7,2024/3/1,EN-available,
-EvoLLM-JP,Sakana AI,10,2024/3/1,EN-available,
-RakutenAI-7B,Rakuten Group,7,2024/3/1,EN-available,
-Parakeet,Independent,0.378,2024/3/1,EN-available,
-RWKV-v5 EagleX,RWKV,7.52,2024/3/1,EN-available,
-Command-R,Cohere,35,2024/3/1,EN-available,
-DeepSeek-VL,DeepSeek-AI,7,2024/3/1,EN-available,
-AnyGPT,Fudan University,7,2024/3/1,EN-available,
-Stable Beluga 2.5,Stability AI,70,2024/3/1,EN-available,
-Inflection-2.5,Inflection AI,1200,2024/3/1,EN-available,
-Apollo,SRIBD/CUHK,7,2024/3/1,EN-available,
-Claude 3 Opus,Anthropic,2000,2024/3/1,EN-available,
-TowerLLM,Unbabel,7,2024/2/1,EN-available,
-Hawk,Google DeepMind,7,2024/2/1,EN-available,
-Griffin,Google DeepMind,14,2024/2/1,EN-available,
-BitNet b1.58,Microsoft,70,2024/2/1,EN-available,
-Aya-101,Cohere,13,2024/2/1,EN-available,
-Cosmo-1B,HF,1.8,2024/2/1,EN-available,
-Poro,Silo AI,34.2,2024/2/1,EN-available,
-StarCoder 2,HF/ServiceNow,15,2024/2/1,EN-available,
-Mistral Small,Mistral,7,2024/2/1,EN-available,
-Mistral Large,Mistral,300,2024/2/1,EN-available,
-Hanooman,Reliance,40,2024/2/1,EN-available,
-Reka Edge,Reka AI,7,2024/2/1,EN-available,
-Reka Flash,Reka AI,21,2024/2/1,EN-available,
-Gemma,Google DeepMind,7,2024/2/1,EN-available,
-Gemini 1.5 Pro,Google DeepMind,1500,2024/2/1,EN-available,
-Qwen-1.5 72B,Alibaba,72,2024/2/1,EN-available,
-GOODY-2,BRAIN,,2024/2/1,EN-available,
-Natural-SQL-7B,ChatDB,7,2024/2/1,EN-available,
-Sea-Lion,AI Singapore,7.5,2024/2/1,EN-available,
-OLMo,Allen AI,7,2024/2/1,EN-available,
-FLOR-6.3B,Cerebras,6.3,2024/1/1,EN-available,
-Weaver,AIWaves.cn,34,2024/1/1,EN-available,
-miqu 70b,Mistral,70,2024/1/1,EN-available,
-iFlytekSpark-13B,iFlyTek,13,2024/1/1,EN-available,
-Xinghuo 3.5 (Spark),iFlyTek,200,2024/1/1,EN-available,
-MGIE,Apple,7,2024/1/1,EN-available,
-CodeLlama-70B,Meta AI,70,2024/1/1,EN-available,
-RWKV-v5 Eagle 7B,RWKV,7.52,2024/1/1,EN-available,
-MaLA-500,LMU,10,2024/1/1,EN-available,
-DeepSeek-Coder,DeepSeek-AI,33,2024/1/1,EN-available,
-FuseLLM,Tencent,7,2024/1/1,EN-available,
-Orion-14B,OrionStar,14,2024/1/1,EN-available,
-GLM-4,Zhipu AI (Tsinghua),200,2024/1/1,EN-available,
-DeepSeek,DeepSeek-AI,67,2024/1/1,EN-available,
-LLaMA Pro,Tencent,8.3,2024/1/1,EN-available,
-TinyLlama,SUTD/Independent,1.1,2024/1/1,EN-available,
-Unified-IO 2,Allen AI,7,2023/12/1,EN-available,
-YAYI 2,Wenge,30,2023/12/1,EN-available,
-Emu2,BAAI,37,2023/12/1,EN-available,
-SOLAR-10.7B,Upstage AI,10.7,2023/12/1,EN-available,
-DeciLM-7B,Deci,7.04,2023/12/1,EN-available,
-Mistral-medium,Mistral,180,2023/12/1,EN-available,
-mixtral-8x7b-32kseqlen,Mistral,46.7,2023/12/1,EN-available,
-StripedHyena 7B,Together,7.65,2023/12/1,EN-available,
-NexusRaven-V2 13B,"Nexusflow.ai ",,2023/12/1,EN-available,
-Gemini Ultra 1.0,Google DeepMind,1500,2023/12/1,EN-available,
-Mamba,CMU,2.8,2023/12/1,EN-available,
-SeaLLM-13b,Alibaba,13,2023/12/1,EN-available,
-pplx-70b-online,Perplexity,70,2023/11/1,EN-available,
-SeamlessM4T-Large v2,Meta AI,2.3,2023/11/1,EN-available,
-Yuan 2.0,IEIT,102.6,2023/11/1,EN-available,
-MEDITRON,EPFL,70,2023/11/1,EN-available,
-Starling-7B,Berkeley,7,2023/11/1,EN-available,
-Inflection-2,Inflection AI,1200,2023/11/1,EN-available,
-Claude 2.1,Anthropic,130,2023/11/1,EN-available,
-TÜLU 2,Allen AI,70,2023/11/1,EN-available,
-Nemotron-3 22B,NVIDIA,22,2023/11/1,EN-available,
-Phi-2,Microsoft,2.7,2023/11/1,EN-available,
-OtterHD-8B,NTU,8,2023/11/1,EN-available,
-Grok-1,xAI,314,2023/11/1,EN-available,
-Yi-34B,01-ai,34.4,2023/11/1,EN-available,
-GPT-4 Turbo,OpenAI,,2023/11/1,EN-available,
-Skywork-13B,Kunlun Tech,13,2023/10/1,EN-available,
-Kimi Chat,Moonshot AI,100,2023/10/1,EN-available,
-jina-embeddings-v2,Jina AI,0.435,2023/10/1,EN-available,
-Fuyu,Adept,8,2023/10/1,EN-available,
-Zephyr,Hugging Face H4,7.3,2023/10/1,EN-available,
-Retro 48B,NVIDIA,48,2023/10/1,EN-available,
-Ferret,Apple,13,2023/10/1,EN-available,
-Lemur,XLANG Lab,70,2023/10/1,EN-available,
-AceGPT,KAUST/Shenzhen,13,2023/10/1,EN-available,
-RT-X,Google DeepMind,55,2023/10/1,EN-available,
-Qwen,Alibaba,72,2023/9/1,EN-available,
-LeoLM,Hessian AI/LAION,13,2023/9/1,EN-available,
-Mistral 7B,Mistral,7.3,2023/9/1,EN-available,
-Baichuan 2,Baichuan,13,2023/9/1,EN-available,
-BOLT2.5B,ThirdAI,2.5,2023/9/1,EN-available,
-DeciLM,Deci,5.7,2023/9/1,EN-available,
-MoLM,IBM,8,2023/9/1,EN-available,
-NExT-GPT,Singapore,7,2023/9/1,EN-available,
-Phi-1.5,Microsoft,1.3,2023/9/1,EN-available,
-UniLM,Apple,0.034,2023/9/1,EN-available,
-Persimmon-8B,Adept,8,2023/9/1,EN-available,
-FLM-101B,BAAI,101,2023/9/1,EN-available,
-Falcon 180B,TII,180,2023/9/1,EN-available,
-Hunyuan,Tencent,100,2023/9/1,EN-available,
-phi-CTNL,Independent,0.1,2023/9/1,EN-available,
-Jais,Inception,13,2023/8/1,EN-available,
-Code Llama 34B,Meta AI,34,2023/8/1,EN-available,
-IDEFICS,Hugging Face,80,2023/8/1,EN-available,
-DukunLM,AzaleAI,13,2023/8/1,EN-available,
-WizardLM,Microsoft,70,2023/8/1,EN-available,
-Platypus,Boston University,70,2023/8/1,EN-available,
-Japanese StableLM Alpha 7B,Stability AI,7,2023/8/1,EN-available,
-Stable Code 3B,Stability AI,2.7,2023/8/1,EN-available,
-Med-Flamingo,Stanford,8.3,2023/7/1,EN-available,
-Alfred-40B-0723,LightOn,40,2023/7/1,EN-available,
-LLaMA-2-7B-32K,Together,7,2023/7/1,EN-available,
-BTLM-3B-8K,Cerebras,3,2023/7/1,EN-available,
-Stable Beluga 2,Stability AI,70,2023/7/1,EN-available,
-Stable Beluga 1,Stability AI,65,2023/7/1,EN-available,
-Meta-Transformer,Shanghai AI Laboratory/CUHK,2,2023/7/1,EN-available,
-Llama 2,Meta AI,70,2023/7/1,EN-available,
-Claude 2,Anthropic,130,2023/7/1,EN-available,
-LongLLaMA,IDEAS/DeepMind,7,2023/7/1,EN-available,
-XGen,Salesforce,7,2023/7/1,EN-available,
-Zhinao (Intellectual Brain),360 cn,100,2023/7/2,EN-available,
-Kosmos-2,Microsoft,1.6,2023/6/1,EN-available,
-Inflection-1,Inflection AI,120,2023/6/1,EN-available,
-BlenderBot 3x,Meta AI,175,2023/6/1,EN-available,
-PandaGPT,Cambridge/Tencent,13,2023/5/1,EN-available,
-Falcon,TII,40,2023/5/1,EN-available,
-Guanaco,UW,65,2023/5/1,EN-available,
-CodeT5+,Salesforce,16,2023/5/1,EN-available,
-PaLM 2,Google,340,2023/5/1,EN-available,
-StarCoder,HF/ServiceNow,15.5,2023/5/1,EN-available,
-MPT,MosaicML,7,2023/5/1,EN-available,
-Pi,Inflection AI,60,2023/5/1,EN-available,
-GPT-2B-001,NVIDIA,2,2023/5/1,EN-available,
-Titan,Amazon,200,2023/4/1,EN-available,
-WizardLM,Microsoft,7,2023/4/1,EN-available,
-MPT,MosaicML,1.3,2023/4/1,EN-available,
-StableLM,Stability AI,65,2023/4/1,EN-available,
-Dolly 2.0,Databricks,12,2023/4/1,EN-available,
-Pythia,EleutherAI,12,2023/4/1,EN-available,
-Koala-13B,Berkeley,13,2023/4/1,EN-available,
-C1.2,Character.ai,33,2023/3/1,EN-available,
-OpenFlamingo-9B,LAION,8.3,2023/3/1,EN-available,
-GPT4All-LoRa,Nomic,7,2023/3/1,EN-available,
-Cerebras-GPT,Cerebras,13,2023/3/1,EN-available,
-GPT-4 Classic,OpenAI,1760,2023/3/1,EN-available,
-Alpaca,Stanford,7,2023/3/1,EN-available,
-Jurassic-2,AI21,178,2023/3/1,EN-available,
-GPT-NeoX-Chat-Base-20B,Together,20,2023/3/1,EN-available,
-LLaMA-65B,Meta AI,65,2023/2/1,EN-available,
-MOSS,Fudan University,16,2023/2/1,EN-available,
-Palmyra,Writer,20,2023/2/1,EN-available,
-Luminous Supreme Control,Aleph Alpha,70,2023/2/1,EN-available,
-Multimodal-CoT,Amazon,0.738,2023/2/1,EN-available,
-OPT-IML,Meta AI,175,2022/12/1,EN-available,
-ERNIE-Code,Baidu,0.56,2022/12/1,EN-available,
-ChatGPT (gpt-3.5-turbo),OpenAI,20,2022/11/1,EN-available,
-text-davinci-003,OpenAI,,2022/11/1,EN-available,
-GPT-JT,Together,6,2022/11/1,EN-available,
-RWKV-4,RWKV,14,2022/11/1,EN-available,
-Galactica,Meta AI,120,2022/11/1,EN-available,
-mT0,BigScience,13,2022/11/1,EN-available,
-BLOOMZ,BigScience,176,2022/11/1,EN-available,
-PACT,Microsoft,,2022/10/1,EN-available,
-Flan-T5,Google,11,2022/10/1,EN-available,
-VIMA,NVIDIA,0.2,2022/10/1,EN-available,
-OpenChat,Tsinghua,13,2022/9/1,EN-available,
-WeLM,Wechat,10,2022/9/1,EN-available,
-CodeGeeX,Tsinghua,13,2022/9/1,EN-available,
-NeMo Megatron-GPT 20B,NVIDIA,20,2022/9/1,EN-available,
-Atlas,Meta AI,11,2022/8/1,EN-available,
-BlenderBot 3,Meta AI,175,2022/8/1,EN-available,
-GLM-130B,Tsinghua,130,2022/8/1,EN-available,
-AlexaTM 20B,Amazon,20,2022/8/1,EN-available,
-NLLB,Meta AI,54.5,2022/7/1,EN-available,
-J-1 RBG,AI21,178,2022/7/1,EN-available,
-BLOOM (tr11-176B-ml),BigScience,176,2022/7/1,EN-available,
-GODEL-XL,Microsoft,2.7,2022/6/1,EN-available,
-YaLM 100B,Yandex,100,2022/6/1,EN-available,
-GPT-4chan,Independent,6,2022/6/1,EN-available,
-Diffusion-LM,Stanford,0.3,2022/5/1,EN-available,
-OPT-175B,Meta AI,175,2022/5/1,EN-available,
-Tk-Instruct,Hugging Face,11,2022/4/1,EN-available,
-InCoder,Meta AI,6.7,2022/4/1,EN-available,
-SeeKeR,Meta AI,2.7,2022/3/30,EN-available,
-CodeGen,Salesforce,16,2022/3/30,EN-available,
-VLM-4,LightOn,10,2022/3/1,EN-available,
-CM3,Meta AI,13,2022/1/1,EN-available,
-Luminous,Aleph Alpha,200,2021/11/1,EN-available,
-GPT-NeoX-20B,EleutherAI,20,2022/2/1,EN-available,
-ERNIE 3.0 Titan,Baidu,260,2021/12/1,EN-available,
-XGLM,Meta AI,7.5,2021/12/1,EN-available,
-Fairseq,Meta AI,1100,2021/12/1,EN-available,
-DeBERTaV3,Microsoft,1.5,2021/11/1,EN-available,
-Cedille FR-Boris,Coteries,6,2021/11/1,EN-available,
-Command xlarge,Cohere,52.4,2021/9/1,EN-available,
-PLATO-XL,Baidu,11,2021/9/1,EN-available,
-CodeT5,Salesforce,0.7,2022/3/30,EN-available,
-Codex,OpenAI,12,2021/8/1,EN-available,
-Jurassic-1,AI21,178,2021/8/1,EN-available,
-BlenderBot 2.0,Meta AI,9.4,2021/7/1,EN-available,
-GPT-J,EleutherAI,6,2021/6/1,EN-available,
-ruGPT-3,Huawei/Sberbank,1.3,2021/2/1,EN-available,
-Switch,Google,1600,2021/1/1,EN-available,
-GPT-3,OpenAI,175,2020/5/1,EN-available,
-xLSTM,ELLIS,2.7,2024/5/1,EN-unavailable,
-Med-Gemini-L 1.0,Google DeepMind,1500,2024/5/1,EN-unavailable,
-HLAT,Amazon,7,2024/4/1,EN-unavailable,
-ReALM-3B,Apple,3,2024/3/1,EN-unavailable,
-MM1,Apple,30,2024/3/1,EN-unavailable,
-RFM-1,Covariant,8,2024/3/1,EN-unavailable,
-Nemotron-4 15B,NVIDIA,15,2024/2/1,EN-unavailable,
-Samba-1,SambaNova,1400,2024/2/1,EN-unavailable,
-530B,ByteDance,530,2024/2/1,EN-unavailable,
-175B,ByteDance,175,2024/2/1,EN-unavailable,
-Ask,Apple,20,2024/2/1,EN-unavailable,
-TimesFM,Google,0.2,2024/2/1,EN-unavailable,
-MambaByte,Cornell,0.972,2024/1/1,EN-unavailable,
-Fuyu-Heavy,Adept,120,2024/1/1,EN-unavailable,
-DeepSeekMoE,DeepSeek-AI,16,2024/1/1,EN-unavailable,
-DocLLM,JPMorgan,7,2024/1/1,EN-unavailable,
-WaveCoder-DS-6.7B,Microsoft,6.7,2023/12/1,EN-unavailable,
-YunShan,Huawei,7,2023/12/1,EN-unavailable,
-PanGu-Pi,Huawei,7,2023/12/1,EN-unavailable,
-MedLM,Google DeepMind,,2023/12/1,EN-unavailable,
-LVM-3B,Berkeley/JHU,3,2023/12/1,EN-unavailable,
-Q-Transformer,Google DeepMind,,2023/11/1,EN-unavailable,
-Transformers-Arithmetic,Microsoft,0.1,2023/11/1,EN-unavailable,
-Nemotron-2 43B,NVIDIA,43,2023/11/1,EN-unavailable,
-Orca 2,Microsoft,13,2023/11/1,EN-unavailable,
-Florence-2,Microsoft,0.771,2023/11/1,EN-unavailable,
-Mirasol3B,Google DeepMind,3,2023/11/1,EN-unavailable,
-Gauss,Samsung,7,2023/11/1,EN-unavailable,
-Grok-0,xAI,33,2023/11/1,EN-unavailable,
-ERNIE 4.0,Baidu,1000,2023/10/1,EN-unavailable,
-PaLI-3,Google DeepMind,5,2023/10/1,EN-unavailable,
-Yasa-1,Reka AI,,2023/10/1,EN-unavailable,
-MotionLM,Waymo,0.09,2023/9/1,EN-unavailable,
-GAIA-1,Wayve,9,2023/9/1,EN-unavailable,
-Llama 2 Long,Meta AI,70,2023/9/1,EN-unavailable,
-Kosmos-2.5,Microsoft,1.3,2023/9/1,EN-unavailable,
-Raven,UI/NVIDIA,11,2023/8/1,EN-unavailable,
-Med-PaLM M,Google DeepMind,540,2023/7/1,EN-unavailable,
-WormGPT,(Undisclosed),6,2023/7/1,EN-unavailable,
-xTrimoPGLM,Tsinghua,100,2023/7/1,EN-unavailable,
-Yasa,Reka AI,,2023/6/1,EN-unavailable,
-AudioPaLM,Google,340,2023/6/1,EN-unavailable,
-Phi-1,Microsoft,1.3,2023/6/1,EN-unavailable,
-InternLM,Shanghai AI Laboratory/SenseTime,104,2023/6/1,EN-unavailable,
-Orca,Microsoft,13,2023/6/1,EN-unavailable,
-PassGPT,ETH Zürich,,2023/6/1,EN-unavailable,
-DIDACT,Google DeepMind,,2023/6/1,EN-unavailable,
-LTM-1,Magic,,2023/6/1,EN-unavailable,
-GPT-4 MathMix,OpenAI,1760,2023/5/1,EN-unavailable,
-202305-refact2b-mqa-lion,Refact,1.6,2023/5/1,EN-unavailable,
-LIMA,Meta AI,65,2023/5/1,EN-unavailable,
-Formosa (FFM),Asus/TWS,176,2023/5/1,EN-unavailable,
-BloombergGPT,Bloomberg,50,2023/3/1,EN-unavailable,
-PanGu-Sigma,Huawei,1085,2023/3/1,EN-unavailable,
-CoLT5,Google,5.2,2023/3/1,EN-unavailable,
-Med-PaLM 2,Google DeepMind,,2023/3/1,EN-unavailable,
-Kosmos-1,Microsoft,1.6,2023/2/1,EN-unavailable,
-Toolformer+Atlas 11B+NLLB 54B,Meta AI,6.7,2023/2/1,EN-unavailable,
-FLAME,Microsoft,0.06,2023/1/31,EN-unavailable,
-Med-PaLM 1,Google DeepMind,540,2022/12/1,EN-unavailable,
-RL-CAI,Anthropic,52,2022/12/1,EN-unavailable,
-RT-1,Google,0.035,2022/12/1,EN-unavailable,
-SED,DeepMind,,2022/11/1,EN-unavailable,
-Flan-PaLM,Google,540,2022/10/1,EN-unavailable,
-U-PaLM,Google,540,2022/10/1,EN-unavailable,
-Sparrow,DeepMind,70,2022/9/1,EN-unavailable,
-PaLI,Google,17,2022/9/1,EN-unavailable,
-Z-Code++,Microsoft,0.71,2022/8/1,EN-unavailable,
-6.9B FIM,OpenAI,6.9,2022/7/1,EN-unavailable,
-‘monorepo-Transformer’,Google,0.5,2022/7/1,EN-unavailable,
-PanGu-Coder,Huawei,2.6,2022/7/1,EN-unavailable,
-Minerva,Google,540,2022/6/1,EN-unavailable,
-Unified-IO,Allen AI,2.8,2022/6/1,EN-unavailable,
-Perceiver AR,DeepMind,1,2022/6/1,EN-unavailable,
-LIMoE,Google,5.6,2022/6/1,EN-unavailable,
-UL2 20B,Google,20,2022/5/1,EN-unavailable,
-Gato (Cat),DeepMind,1,2022/5/1,EN-unavailable,
-LaMDA 2,Google,137,2022/5/1,EN-unavailable,
-NOOR,TII,10,2022/4/1,EN-unavailable,
-mGPT,Sber,13,2022/4/1,EN-unavailable,
-PaLM-Coder,Google,540,2022/4/1,EN-unavailable,
-PaLM,Google,540,2022/4/1,EN-unavailable,
-Chinchilla,DeepMind,70,2022/3/1,EN-unavailable,
-Gopher,DeepMind,280,2021/12/1,EN-unavailable,
-GLaM,Google,1200,2021/12/1,EN-unavailable,
-Anthropic-LM 52B,Anthropic,52,2021/12/1,EN-unavailable,
-RETRO,DeepMind,7.5,2021/12/1,EN-unavailable,
-BERT-480,Google,480,2021/11/1,EN-unavailable,
-BERT-200,Google,200,2021/11/1,EN-unavailable,
-MT-NLG,Microsoft/NVIDIA,530,2021/10/1,EN-unavailable,
-FLAN,Google,137,2021/9/1,EN-unavailable,
-Macaw,Allen AI,11,2021/9/1,EN-unavailable,
-LaMDA,Google,137,2021/6/1,EN-unavailable,
+Model,Lab,Parameters(B),Announced,Type
+Nemotron-4-340B,NVIDIA,340,2024/6/1,EN-available
+Apple On-Device model Jun/2024,Apple,3.04,2024/6/1,EN-available
+MatMul-Free LM,UCSC,2.7,2024/6/1,EN-available
+Luna,Galileo,0.44,2024/6/1,EN-available
+Qwen2,Alibaba,72,2024/6/1,EN-available
+Qwen2-57B-A14B,Alibaba,57,2024/6/1,EN-available
+Skywork MoE 16x13B,Kunlun Tech,146,2024/6/1,EN-available
+Mamba-2,CMU,2.7,2024/5/1,EN-available
+MAP-Neo,International,7,2024/5/1,EN-available
+K2,LLM360,65,2024/5/1,EN-available
+Codestral,Mistral,22,2024/5/1,EN-available
+Aya-23-35B,Cohere,35,2024/5/1,EN-available
+Yi-XLarge,01-ai,2000,2024/5/1,EN-available
+Yi-Large,01-ai,1000,2024/5/1,EN-available
+Sparse Llama 7B,Cerebras,7,2024/5/1,EN-available
+Gemini 1.5 Flash,Google DeepMind,,2024/5/1,EN-available
+GPT-4o,OpenAI,,2024/5/1,EN-available
+Falcon 2 11B,TII,11,2024/5/1,EN-available
+Fugaku-LLM,Fujitsu,13,2024/5/1,EN-available
+Yi 1.5 34B,01-ai,34.4,2024/5/1,EN-available
+YOCO,Microsoft,3,2024/5/1,EN-available
+DeepSeek-V2,DeepSeek-AI,236,2024/5/1,EN-available
+ChuXin,Independent,1.6,2024/5/1,EN-available
+RWKV-v6 Finch,RWKV,7.63,2024/5/1,EN-available
+Granite Code,IBM,34,2024/5/1,EN-available
+Qwen-Max,Alibaba,300,2024/5/1,EN-available
+Qwen-1.5 110B,Alibaba,111,2024/4/1,EN-available
+Arctic,Snowflake AI Research,480,2024/4/1,EN-available
+SenseNova 5.0,SenseTime,600,2024/4/1,EN-available
+OpenELM,Apple,3.04,2024/4/1,EN-available
+phi-3-medium,Microsoft,14,2024/4/1,EN-available
+phi-3-mini,Microsoft,3.8,2024/4/1,EN-available
+Llama 3 405B,Meta AI,405,2024/4/1,EN-available
+Llama 3 70B,Meta AI,70,2024/4/1,EN-available
+Idefics2,Hugging Face,8.4,2024/4/1,EN-available
+Reka Core,Reka AI,300,2024/4/1,EN-available
+WizardLM-2-8x22B,Microsoft,141,2024/4/1,EN-available
+Pile-T5,EleutherAI,11,2024/4/1,EN-available
+Zephyr 141B-A35B,Hugging Face H4,35,2024/4/1,EN-available
+Rerank 3,Cohere,104,2024/4/1,EN-available
+gpt-4-turbo-2024-04-09,OpenAI,,2024/4/1,EN-available
+MiniCPM-2.4B,Tsinghua,2.4,2024/4/1,EN-available
+Ferret-UI,Apple,13,2024/4/1,EN-available
+mixtral-8x22b,Mistral,141,2024/4/1,EN-available
+Sailor,Sail,7,2024/4/1,EN-available
+JetMoE-8B,MIT,8,2024/4/1,EN-available
+Eurus,Tsinghua,70,2024/4/1,EN-available
+Command-R+,Cohere,104,2024/4/1,EN-available
+Viking,Silo AI,33,2024/4/1,EN-available
+OLMo-Bitnet-1B,Nous Research,1,2024/4/1,EN-available
+Aurora-M,International,15.5,2024/3/1,EN-available
+Qwen1.5-MoE-A2.7B,Alibaba,14.3,2024/3/1,EN-available
+Grok-1.5,xAI,314,2024/3/1,EN-available
+Jamba,AI21,52,2024/3/1,EN-available
+DBRX,MosaicML,132,2024/3/1,EN-available
+Stable Code Instruct 3B,Stability AI,2.7,2024/3/1,EN-available
+EvoLLM-JP,Sakana AI,10,2024/3/1,EN-available
+RakutenAI-7B,Rakuten Group,7,2024/3/1,EN-available
+Parakeet,Independent,0.378,2024/3/1,EN-available
+RWKV-v5 EagleX,RWKV,7.52,2024/3/1,EN-available
+Command-R,Cohere,35,2024/3/1,EN-available
+DeepSeek-VL,DeepSeek-AI,7,2024/3/1,EN-available
+AnyGPT,Fudan University,7,2024/3/1,EN-available
+Stable Beluga 2.5,Stability AI,70,2024/3/1,EN-available
+Inflection-2.5,Inflection AI,1200,2024/3/1,EN-available
+Apollo,SRIBD/CUHK,7,2024/3/1,EN-available
+Claude 3 Opus,Anthropic,2000,2024/3/1,EN-available
+TowerLLM,Unbabel,7,2024/2/1,EN-available
+Hawk,Google DeepMind,7,2024/2/1,EN-available
+Griffin,Google DeepMind,14,2024/2/1,EN-available
+BitNet b1.58,Microsoft,70,2024/2/1,EN-available
+Aya-101,Cohere,13,2024/2/1,EN-available
+Cosmo-1B,HF,1.8,2024/2/1,EN-available
+Poro,Silo AI,34.2,2024/2/1,EN-available
+StarCoder 2,HF/ServiceNow,15,2024/2/1,EN-available
+Mistral Small,Mistral,7,2024/2/1,EN-available
+Mistral Large,Mistral,300,2024/2/1,EN-available
+Hanooman,Reliance,40,2024/2/1,EN-available
+Reka Edge,Reka AI,7,2024/2/1,EN-available
+Reka Flash,Reka AI,21,2024/2/1,EN-available
+Gemma,Google DeepMind,7,2024/2/1,EN-available
+Gemini 1.5 Pro,Google DeepMind,1500,2024/2/1,EN-available
+Qwen-1.5 72B,Alibaba,72,2024/2/1,EN-available
+GOODY-2,BRAIN,,2024/2/1,EN-available
+Natural-SQL-7B,ChatDB,7,2024/2/1,EN-available
+Sea-Lion,AI Singapore,7.5,2024/2/1,EN-available
+OLMo,Allen AI,7,2024/2/1,EN-available
+FLOR-6.3B,Cerebras,6.3,2024/1/1,EN-available
+Weaver,AIWaves.cn,34,2024/1/1,EN-available
+miqu 70b,Mistral,70,2024/1/1,EN-available
+iFlytekSpark-13B,iFlyTek,13,2024/1/1,EN-available
+Xinghuo 3.5 (Spark),iFlyTek,200,2024/1/1,EN-available
+MGIE,Apple,7,2024/1/1,EN-available
+CodeLlama-70B,Meta AI,70,2024/1/1,EN-available
+RWKV-v5 Eagle 7B,RWKV,7.52,2024/1/1,EN-available
+MaLA-500,LMU,10,2024/1/1,EN-available
+DeepSeek-Coder,DeepSeek-AI,33,2024/1/1,EN-available
+FuseLLM,Tencent,7,2024/1/1,EN-available
+Orion-14B,OrionStar,14,2024/1/1,EN-available
+GLM-4,Zhipu AI (Tsinghua),200,2024/1/1,EN-available
+DeepSeek,DeepSeek-AI,67,2024/1/1,EN-available
+LLaMA Pro,Tencent,8.3,2024/1/1,EN-available
+TinyLlama,SUTD/Independent,1.1,2024/1/1,EN-available
+Unified-IO 2,Allen AI,7,2023/12/1,EN-available
+YAYI 2,Wenge,30,2023/12/1,EN-available
+Emu2,BAAI,37,2023/12/1,EN-available
+SOLAR-10.7B,Upstage AI,10.7,2023/12/1,EN-available
+DeciLM-7B,Deci,7.04,2023/12/1,EN-available
+Mistral-medium,Mistral,180,2023/12/1,EN-available
+mixtral-8x7b-32kseqlen,Mistral,46.7,2023/12/1,EN-available
+StripedHyena 7B,Together,7.65,2023/12/1,EN-available
+NexusRaven-V2 13B,"Nexusflow.ai ",,2023/12/1,EN-available
+Gemini Ultra 1.0,Google DeepMind,1500,2023/12/1,EN-available
+Mamba,CMU,2.8,2023/12/1,EN-available
+SeaLLM-13b,Alibaba,13,2023/12/1,EN-available
+pplx-70b-online,Perplexity,70,2023/11/1,EN-available
+SeamlessM4T-Large v2,Meta AI,2.3,2023/11/1,EN-available
+Yuan 2.0,IEIT,102.6,2023/11/1,EN-available
+MEDITRON,EPFL,70,2023/11/1,EN-available
+Starling-7B,Berkeley,7,2023/11/1,EN-available
+Inflection-2,Inflection AI,1200,2023/11/1,EN-available
+Claude 2.1,Anthropic,130,2023/11/1,EN-available
+TÜLU 2,Allen AI,70,2023/11/1,EN-available
+Nemotron-3 22B,NVIDIA,22,2023/11/1,EN-available
+Phi-2,Microsoft,2.7,2023/11/1,EN-available
+OtterHD-8B,NTU,8,2023/11/1,EN-available
+Grok-1,xAI,314,2023/11/1,EN-available
+Yi-34B,01-ai,34.4,2023/11/1,EN-available
+GPT-4 Turbo,OpenAI,,2023/11/1,EN-available
+Skywork-13B,Kunlun Tech,13,2023/10/1,EN-available
+Kimi Chat,Moonshot AI,100,2023/10/1,EN-available
+jina-embeddings-v2,Jina AI,0.435,2023/10/1,EN-available
+Fuyu,Adept,8,2023/10/1,EN-available
+Zephyr,Hugging Face H4,7.3,2023/10/1,EN-available
+Retro 48B,NVIDIA,48,2023/10/1,EN-available
+Ferret,Apple,13,2023/10/1,EN-available
+Lemur,XLANG Lab,70,2023/10/1,EN-available
+AceGPT,KAUST/Shenzhen,13,2023/10/1,EN-available
+RT-X,Google DeepMind,55,2023/10/1,EN-available
+Qwen,Alibaba,72,2023/9/1,EN-available
+LeoLM,Hessian AI/LAION,13,2023/9/1,EN-available
+Mistral 7B,Mistral,7.3,2023/9/1,EN-available
+Baichuan 2,Baichuan,13,2023/9/1,EN-available
+BOLT2.5B,ThirdAI,2.5,2023/9/1,EN-available
+DeciLM,Deci,5.7,2023/9/1,EN-available
+MoLM,IBM,8,2023/9/1,EN-available
+NExT-GPT,Singapore,7,2023/9/1,EN-available
+Phi-1.5,Microsoft,1.3,2023/9/1,EN-available
+UniLM,Apple,0.034,2023/9/1,EN-available
+Persimmon-8B,Adept,8,2023/9/1,EN-available
+FLM-101B,BAAI,101,2023/9/1,EN-available
+Falcon 180B,TII,180,2023/9/1,EN-available
+Hunyuan,Tencent,100,2023/9/1,EN-available
+phi-CTNL,Independent,0.1,2023/9/1,EN-available
+Jais,Inception,13,2023/8/1,EN-available
+Code Llama 34B,Meta AI,34,2023/8/1,EN-available
+IDEFICS,Hugging Face,80,2023/8/1,EN-available
+DukunLM,AzaleAI,13,2023/8/1,EN-available
+WizardLM,Microsoft,70,2023/8/1,EN-available
+Platypus,Boston University,70,2023/8/1,EN-available
+Japanese StableLM Alpha 7B,Stability AI,7,2023/8/1,EN-available
+Stable Code 3B,Stability AI,2.7,2023/8/1,EN-available
+Med-Flamingo,Stanford,8.3,2023/7/1,EN-available
+Alfred-40B-0723,LightOn,40,2023/7/1,EN-available
+LLaMA-2-7B-32K,Together,7,2023/7/1,EN-available
+BTLM-3B-8K,Cerebras,3,2023/7/1,EN-available
+Stable Beluga 2,Stability AI,70,2023/7/1,EN-available
+Stable Beluga 1,Stability AI,65,2023/7/1,EN-available
+Meta-Transformer,Shanghai AI Laboratory/CUHK,2,2023/7/1,EN-available
+Llama 2,Meta AI,70,2023/7/1,EN-available
+Claude 2,Anthropic,130,2023/7/1,EN-available
+LongLLaMA,IDEAS/DeepMind,7,2023/7/1,EN-available
+XGen,Salesforce,7,2023/7/1,EN-available
+Zhinao (Intellectual Brain),360 cn,100,2023/7/2,EN-available
+Kosmos-2,Microsoft,1.6,2023/6/1,EN-available
+Inflection-1,Inflection AI,120,2023/6/1,EN-available
+BlenderBot 3x,Meta AI,175,2023/6/1,EN-available
+PandaGPT,Cambridge/Tencent,13,2023/5/1,EN-available
+Falcon,TII,40,2023/5/1,EN-available
+Guanaco,UW,65,2023/5/1,EN-available
+CodeT5+,Salesforce,16,2023/5/1,EN-available
+PaLM 2,Google,340,2023/5/1,EN-available
+StarCoder,HF/ServiceNow,15.5,2023/5/1,EN-available
+MPT,MosaicML,7,2023/5/1,EN-available
+Pi,Inflection AI,60,2023/5/1,EN-available
+GPT-2B-001,NVIDIA,2,2023/5/1,EN-available
+Titan,Amazon,200,2023/4/1,EN-available
+WizardLM,Microsoft,7,2023/4/1,EN-available
+MPT,MosaicML,1.3,2023/4/1,EN-available
+StableLM,Stability AI,65,2023/4/1,EN-available
+Dolly 2.0,Databricks,12,2023/4/1,EN-available
+Pythia,EleutherAI,12,2023/4/1,EN-available
+Koala-13B,Berkeley,13,2023/4/1,EN-available
+C1.2,Character.ai,33,2023/3/1,EN-available
+OpenFlamingo-9B,LAION,8.3,2023/3/1,EN-available
+GPT4All-LoRa,Nomic,7,2023/3/1,EN-available
+Cerebras-GPT,Cerebras,13,2023/3/1,EN-available
+GPT-4 Classic,OpenAI,1760,2023/3/1,EN-available
+Alpaca,Stanford,7,2023/3/1,EN-available
+Jurassic-2,AI21,178,2023/3/1,EN-available
+GPT-NeoX-Chat-Base-20B,Together,20,2023/3/1,EN-available
+LLaMA-65B,Meta AI,65,2023/2/1,EN-available
+MOSS,Fudan University,16,2023/2/1,EN-available
+Palmyra,Writer,20,2023/2/1,EN-available
+Luminous Supreme Control,Aleph Alpha,70,2023/2/1,EN-available
+Multimodal-CoT,Amazon,0.738,2023/2/1,EN-available
+OPT-IML,Meta AI,175,2022/12/1,EN-available
+ERNIE-Code,Baidu,0.56,2022/12/1,EN-available
+ChatGPT (gpt-3.5-turbo),OpenAI,20,2022/11/1,EN-available
+text-davinci-003,OpenAI,,2022/11/1,EN-available
+GPT-JT,Together,6,2022/11/1,EN-available
+RWKV-4,RWKV,14,2022/11/1,EN-available
+Galactica,Meta AI,120,2022/11/1,EN-available
+mT0,BigScience,13,2022/11/1,EN-available
+BLOOMZ,BigScience,176,2022/11/1,EN-available
+PACT,Microsoft,,2022/10/1,EN-available
+Flan-T5,Google,11,2022/10/1,EN-available
+VIMA,NVIDIA,0.2,2022/10/1,EN-available
+OpenChat,Tsinghua,13,2022/9/1,EN-available
+WeLM,Wechat,10,2022/9/1,EN-available
+CodeGeeX,Tsinghua,13,2022/9/1,EN-available
+NeMo Megatron-GPT 20B,NVIDIA,20,2022/9/1,EN-available
+Atlas,Meta AI,11,2022/8/1,EN-available
+BlenderBot 3,Meta AI,175,2022/8/1,EN-available
+GLM-130B,Tsinghua,130,2022/8/1,EN-available
+AlexaTM 20B,Amazon,20,2022/8/1,EN-available
+NLLB,Meta AI,54.5,2022/7/1,EN-available
+J-1 RBG,AI21,178,2022/7/1,EN-available
+BLOOM (tr11-176B-ml),BigScience,176,2022/7/1,EN-available
+GODEL-XL,Microsoft,2.7,2022/6/1,EN-available
+YaLM 100B,Yandex,100,2022/6/1,EN-available
+GPT-4chan,Independent,6,2022/6/1,EN-available
+Diffusion-LM,Stanford,0.3,2022/5/1,EN-available
+OPT-175B,Meta AI,175,2022/5/1,EN-available
+Tk-Instruct,Hugging Face,11,2022/4/1,EN-available
+InCoder,Meta AI,6.7,2022/4/1,EN-available
+SeeKeR,Meta AI,2.7,2022/3/30,EN-available
+CodeGen,Salesforce,16,2022/3/30,EN-available
+VLM-4,LightOn,10,2022/3/1,EN-available
+CM3,Meta AI,13,2022/1/1,EN-available
+Luminous,Aleph Alpha,200,2021/11/1,EN-available
+GPT-NeoX-20B,EleutherAI,20,2022/2/1,EN-available
+ERNIE 3.0 Titan,Baidu,260,2021/12/1,EN-available
+XGLM,Meta AI,7.5,2021/12/1,EN-available
+Fairseq,Meta AI,1100,2021/12/1,EN-available
+DeBERTaV3,Microsoft,1.5,2021/11/1,EN-available
+Cedille FR-Boris,Coteries,6,2021/11/1,EN-available
+Command xlarge,Cohere,52.4,2021/9/1,EN-available
+PLATO-XL,Baidu,11,2021/9/1,EN-available
+CodeT5,Salesforce,0.7,2022/3/30,EN-available
+Codex,OpenAI,12,2021/8/1,EN-available
+Jurassic-1,AI21,178,2021/8/1,EN-available
+BlenderBot 2.0,Meta AI,9.4,2021/7/1,EN-available
+GPT-J,EleutherAI,6,2021/6/1,EN-available
+ruGPT-3,Huawei/Sberbank,1.3,2021/2/1,EN-available
+Switch,Google,1600,2021/1/1,EN-available
+GPT-3,OpenAI,175,2020/5/1,EN-available
+xLSTM,ELLIS,2.7,2024/5/1,EN-unavailable
+Med-Gemini-L 1.0,Google DeepMind,1500,2024/5/1,EN-unavailable
+HLAT,Amazon,7,2024/4/1,EN-unavailable
+ReALM-3B,Apple,3,2024/3/1,EN-unavailable
+MM1,Apple,30,2024/3/1,EN-unavailable
+RFM-1,Covariant,8,2024/3/1,EN-unavailable
+Nemotron-4 15B,NVIDIA,15,2024/2/1,EN-unavailable
+Samba-1,SambaNova,1400,2024/2/1,EN-unavailable
+530B,ByteDance,530,2024/2/1,EN-unavailable
+175B,ByteDance,175,2024/2/1,EN-unavailable
+Ask,Apple,20,2024/2/1,EN-unavailable
+TimesFM,Google,0.2,2024/2/1,EN-unavailable
+MambaByte,Cornell,0.972,2024/1/1,EN-unavailable
+Fuyu-Heavy,Adept,120,2024/1/1,EN-unavailable
+DeepSeekMoE,DeepSeek-AI,16,2024/1/1,EN-unavailable
+DocLLM,JPMorgan,7,2024/1/1,EN-unavailable
+WaveCoder-DS-6.7B,Microsoft,6.7,2023/12/1,EN-unavailable
+YunShan,Huawei,7,2023/12/1,EN-unavailable
+PanGu-Pi,Huawei,7,2023/12/1,EN-unavailable
+MedLM,Google DeepMind,,2023/12/1,EN-unavailable
+LVM-3B,Berkeley/JHU,3,2023/12/1,EN-unavailable
+Q-Transformer,Google DeepMind,,2023/11/1,EN-unavailable
+Transformers-Arithmetic,Microsoft,0.1,2023/11/1,EN-unavailable
+Nemotron-2 43B,NVIDIA,43,2023/11/1,EN-unavailable
+Orca 2,Microsoft,13,2023/11/1,EN-unavailable
+Florence-2,Microsoft,0.771,2023/11/1,EN-unavailable
+Mirasol3B,Google DeepMind,3,2023/11/1,EN-unavailable
+Gauss,Samsung,7,2023/11/1,EN-unavailable
+Grok-0,xAI,33,2023/11/1,EN-unavailable
+ERNIE 4.0,Baidu,1000,2023/10/1,EN-unavailable
+PaLI-3,Google DeepMind,5,2023/10/1,EN-unavailable
+Yasa-1,Reka AI,,2023/10/1,EN-unavailable
+MotionLM,Waymo,0.09,2023/9/1,EN-unavailable
+GAIA-1,Wayve,9,2023/9/1,EN-unavailable
+Llama 2 Long,Meta AI,70,2023/9/1,EN-unavailable
+Kosmos-2.5,Microsoft,1.3,2023/9/1,EN-unavailable
+Raven,UI/NVIDIA,11,2023/8/1,EN-unavailable
+Med-PaLM M,Google DeepMind,540,2023/7/1,EN-unavailable
+WormGPT,(Undisclosed),6,2023/7/1,EN-unavailable
+xTrimoPGLM,Tsinghua,100,2023/7/1,EN-unavailable
+Yasa,Reka AI,,2023/6/1,EN-unavailable
+AudioPaLM,Google,340,2023/6/1,EN-unavailable
+Phi-1,Microsoft,1.3,2023/6/1,EN-unavailable
+InternLM,Shanghai AI Laboratory/SenseTime,104,2023/6/1,EN-unavailable
+Orca,Microsoft,13,2023/6/1,EN-unavailable
+PassGPT,ETH Zürich,,2023/6/1,EN-unavailable
+DIDACT,Google DeepMind,,2023/6/1,EN-unavailable
+LTM-1,Magic,,2023/6/1,EN-unavailable
+GPT-4 MathMix,OpenAI,1760,2023/5/1,EN-unavailable
+202305-refact2b-mqa-lion,Refact,1.6,2023/5/1,EN-unavailable
+LIMA,Meta AI,65,2023/5/1,EN-unavailable
+Formosa (FFM),Asus/TWS,176,2023/5/1,EN-unavailable
+BloombergGPT,Bloomberg,50,2023/3/1,EN-unavailable
+PanGu-Sigma,Huawei,1085,2023/3/1,EN-unavailable
+CoLT5,Google,5.2,2023/3/1,EN-unavailable
+Med-PaLM 2,Google DeepMind,,2023/3/1,EN-unavailable
+Kosmos-1,Microsoft,1.6,2023/2/1,EN-unavailable
+Toolformer+Atlas 11B+NLLB 54B,Meta AI,6.7,2023/2/1,EN-unavailable
+FLAME,Microsoft,0.06,2023/1/31,EN-unavailable
+Med-PaLM 1,Google DeepMind,540,2022/12/1,EN-unavailable
+RL-CAI,Anthropic,52,2022/12/1,EN-unavailable
+RT-1,Google,0.035,2022/12/1,EN-unavailable
+SED,DeepMind,,2022/11/1,EN-unavailable
+Flan-PaLM,Google,540,2022/10/1,EN-unavailable
+U-PaLM,Google,540,2022/10/1,EN-unavailable
+Sparrow,DeepMind,70,2022/9/1,EN-unavailable
+PaLI,Google,17,2022/9/1,EN-unavailable
+Z-Code++,Microsoft,0.71,2022/8/1,EN-unavailable
+6.9B FIM,OpenAI,6.9,2022/7/1,EN-unavailable
+‘monorepo-Transformer’,Google,0.5,2022/7/1,EN-unavailable
+PanGu-Coder,Huawei,2.6,2022/7/1,EN-unavailable
+Minerva,Google,540,2022/6/1,EN-unavailable
+Unified-IO,Allen AI,2.8,2022/6/1,EN-unavailable
+Perceiver AR,DeepMind,1,2022/6/1,EN-unavailable
+LIMoE,Google,5.6,2022/6/1,EN-unavailable
+UL2 20B,Google,20,2022/5/1,EN-unavailable
+Gato (Cat),DeepMind,1,2022/5/1,EN-unavailable
+LaMDA 2,Google,137,2022/5/1,EN-unavailable
+NOOR,TII,10,2022/4/1,EN-unavailable
+mGPT,Sber,13,2022/4/1,EN-unavailable
+PaLM-Coder,Google,540,2022/4/1,EN-unavailable
+PaLM,Google,540,2022/4/1,EN-unavailable
+Chinchilla,DeepMind,70,2022/3/1,EN-unavailable
+Gopher,DeepMind,280,2021/12/1,EN-unavailable
+GLaM,Google,1200,2021/12/1,EN-unavailable
+Anthropic-LM 52B,Anthropic,52,2021/12/1,EN-unavailable
+RETRO,DeepMind,7.5,2021/12/1,EN-unavailable
+BERT-480,Google,480,2021/11/1,EN-unavailable
+BERT-200,Google,200,2021/11/1,EN-unavailable
+MT-NLG,Microsoft/NVIDIA,530,2021/10/1,EN-unavailable
+FLAN,Google,137,2021/9/1,EN-unavailable
+Macaw,Allen AI,11,2021/9/1,EN-unavailable
+LaMDA,Google,137,2021/6/1,EN-unavailable
