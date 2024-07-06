@@ -4,7 +4,7 @@
 <p align="center">
   <img src="../figures/parameter_size_overview.png" alt="Parameter sizes of Japanese and non-Japanese LLMs over time">
 </p>
-<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">Evolution of parameter sizes for Japanese LLMs and non-Japanese LLMs. The information on the Japanese models is derived from this article, while the information on the non-Japanese models can be referred from the <a href="https://lifearchitect.ai/models-table/">Models table</a> on LifeArchitect.ai. However, due to space constraints in the figure, some models have been omitted. Additionally, estimates are included in the parameter count for non-Japanese models. Please notify us of any corrections, additions, or updates.</figcaption>
+<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">Evolution of parameter sizes for Japanese LLMs and non-Japanese LLMs. The information on the Japanese models is derived from this article, while the information on the non-Japanese models can be referred from the <a href="https://lifearchitect.ai/models-table/" target="_blank" rel="noreferrer">Models table</a> on LifeArchitect.ai. However, due to space constraints in the figure, some models have been omitted. Additionally, estimates are included in the parameter count for non-Japanese models. Please notify us of any corrections, additions, or updates.</figcaption>
 
 ---
 
@@ -499,7 +499,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 We love contributors! Feel free to contribute to this project.
 
-<a href="https://github.com/llm-jp/awesome-japanese-llm/graphs/contributors">
+<a href="https://github.com/llm-jp/awesome-japanese-llm/graphs/contributors" target="_blank" rel="noreferrer">
   <img src="../figures/contributors.svg" alt="contributors" />
 </a>
 

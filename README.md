@@ -4,7 +4,7 @@
 <p align="center">
   <img src="./figures/parameter_size_overview.png" alt="日本語LLM・海外LLMのパラメータサイズの推移">
 </p>
-<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">日本語LLM・海外LLMのパラメータ数の推移。日本語モデルの情報は本記事、海外モデルの情報は LifeArchitect.ai の <a href="https://lifearchitect.ai/models-table/">Models table</a> を参照しています（ただし、図のスペース上一部のモデルは省略。また、海外モデルのパラメータ数は推測値を含む）。修正・追加等ありましたらお知らせ下さい。</figcaption>
+<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">日本語LLM・海外LLMのパラメータ数の推移。日本語モデルの情報は本記事、海外モデルの情報は LifeArchitect.ai の <a href="https://lifearchitect.ai/models-table/" target="_blank" rel="noreferrer">Models table</a> を参照しています（ただし、図のスペース上一部のモデルは省略。また、海外モデルのパラメータ数は推測値を含む）。修正・追加等ありましたらお知らせ下さい。</figcaption>
 
 ---
 
@@ -503,7 +503,7 @@
 
 このプロジェクトに貢献してくれているコントリビューターのみなさんです！
 
-<a href="https://github.com/llm-jp/awesome-japanese-llm/graphs/contributors">
+<a href="https://github.com/llm-jp/awesome-japanese-llm/graphs/contributors" target="_blank" rel="noreferrer">
   <img src="./figures/contributors.svg" alt="コントリビューター" />
 </a>
 
