@@ -27,6 +27,10 @@ export default defineConfig({
 
     outline: {
       level: [2, 4],
+    },
+
+    footer: {
+      copyright: "Copyright (c) 2023-present LLM-jp, Licensed under the Apache License, Version 2.0."
     }
   },
   rewrites: {
