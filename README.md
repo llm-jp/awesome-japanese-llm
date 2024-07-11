@@ -272,6 +272,7 @@
 | [medBERTjp](https://github.com/ou-medinfo/medbertjp) | 医療 | BERT (base) | 日本語 Wikipedia <br> + 日本語医療コーパス（『今日の診療プレミアム』Web版） | 阪大病院 <br> 医療情報学研究室 | CC BY-NC-SA 4.0 | △ |
 | [JMedRoBERTa](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P3-1.pdf) | 医療 | RoBERTa (base) | 日本語医学論文 (約1,100万文 (1.8GB)) | 東大 相澤研 | CC BY-NC-SA 4.0 | ◯ ([万病WordPiece](https://huggingface.co/alabnii/jmedroberta-base-manbyo-wordpiece), [SentencePiece](https://huggingface.co/alabnii/jmedroberta-base-sentencepiece)) [^10] |
 | [AcademicRoBERTa](https://github.com/EhimeNLP/AcademicRoBERTa) | 学術 | RoBERTa (base) | CiNii の日本語論文 (約628万文) | 愛媛大 人工知能研究室 | Apache 2.0 | [◯](https://huggingface.co/EhimeNLP/AcademicRoBERTa) |
+| [local-politics-BERT](http://local-politics.jp/%e5%85%ac%e9%96%8b%e7%89%a9/local-politics-bert/) | 政治 | BERT (base) | Wikipedia, 国会会議録, 地方議会会議録 | 地方議会会議録コーパスプロジェクト | CC BY-SA 4.0 | ◯ ([SC-min](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-scratch), [SC-minwiki](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-wikipedia-scratch), [SC-2M-wiki](https://huggingface.co/local-politics-jp/bert-base-japanese-wikipedia-scratch-2m), [SC-2M-min](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-scratch-2m), [SC-2M-minwiki](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-wikipedia-scratch-2m), [FP-min](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-further), [FP-minwiki](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-wikipedia-further)) [^18] |
 
 <a id="embeddings"></a>
 ## 埋め込み (Embeddings) 作成に特化したモデル
@@ -560,3 +561,5 @@
 [^16]: ただし、通常の BERT (base) と比べて Layer や Attention Head の数が少ない。
 
 [^17]: Instruction Tuning を行う前に、Llama 3 Instruct と Llama 3 Base の差分の Chat Vector を加えている。
+
+[^18]: それぞれのモデルの詳細は作者らの[論文](https://www.jstage.jst.go.jp/article/jnlp/31/2/31_707/_pdf/-char/ja)の第4章を参照。なお、SC-2M-wiki モデルは Wikipedia でのみ事前学習されているため、厳密にはドメイン特化型モデルではない。
