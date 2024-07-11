@@ -269,6 +269,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [medBERTjp](https://github.com/ou-medinfo/medbertjp) | Médecine | BERT (base) | Wikipédia en japonais, Corpus médical en japonais ("今日の診療プレミアム/Today's Care Premium" Web Version) | Université d'Osaka Hôpital <br> Laboratoire d'information médicale | CC BY&#x2011;NC&#x2011;SA 4.0 | △ |
 | [JMedRoBERTa](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P3-1.pdf) | Médecine | RoBERTa (base) | Japanese Medical Papers (11M sentences/1.8GB) | Université de Tokyo Aizawa Lab | CC BY&#x2011;NC&#x2011;SA 4.0 | ◯<br>([ManbyoWordPiece](https://huggingface.co/alabnii/jmedroberta-base-manbyo-wordpiece), [SentencePiece](https://huggingface.co/alabnii/jmedroberta-base-sentencepiece))[^10] |
 | [AcademicRoBERTa](https://github.com/EhimeNLP/AcademicRoBERTa) | Science | RoBERTa (base) | CiNii Japanese Papers (6.3M sentences) | Université d'Ehime Laboratoire IA | Apache 2.0 | [◯](https://huggingface.co/EhimeNLP/AcademicRoBERTa) |
+| [local-politics-BERT](http://local-politics.jp/%e5%85%ac%e9%96%8b%e7%89%a9/local-politics-bert/) | Politique | BERT (base) | Procès-verbaux de la Diète nationale, Procès-verbaux de l'Assemblée locale | Projet de Corpus des Procès-Verbaux des Assemblées Locales Japonaises | CC BY-SA 4.0 | ◯ ([SC-min](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-scratch), [SC-minwiki](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-wikipedia-scratch), [SC-2M-wiki](https://huggingface.co/local-politics-jp/bert-base-japanese-wikipedia-scratch-2m), [SC-2M-min](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-scratch-2m), [SC-2M-minwiki](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-wikipedia-scratch-2m), [FP-min](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-further), [FP-minwiki](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-wikipedia-further)) [^18] |
 
 <a id="embeddings"></a>
 ## Plongement lexical par mots et par documents
@@ -556,3 +557,5 @@ Lorsque vous référencez ce répertoire, veuillez le citer comme suit:
 [^16]: Cependant, par rapport à BERT (base) habituel, le nombre de couches et de têtes d'attention est inférieur.
 
 [^17]: Avant de procéder à l'ajustement des instructions, un vecteur de chat entre Llama 3 Instruct et Llama 3 Base est ajouté.
+
+[^18]: Pour les détails de chaque modèle, veuillez vous référer au Chapitre 4 de l'[article](https://www.jstage.jst.go.jp/article/jnlp/31/2/31_707/_pdf/-char/ja) des auteurs. Notez que le modèle SC-2M-wiki n'est strictement pas un modèle spécifique à un domaine car il est pré-entraîné uniquement sur Wikipédia.

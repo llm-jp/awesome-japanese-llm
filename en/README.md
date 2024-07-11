@@ -268,6 +268,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [medBERTjp](https://github.com/ou-medinfo/medbertjp) | Medicine | BERT (base) | Japanese Wikipedia, Japanese Medical Corpus ("今日の診療プレミアム/Today's Care Premium" Web Version) | Osaka University Hospital <br> Medical Informatics Lab | CC BY&#x2011;NC&#x2011;SA 4.0 | △ |
 | [JMedRoBERTa](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P3-1.pdf) | Medicine | RoBERTa (base) | Japanese Medical Papers (11M sentences/1.8GB) | University of Tokyo Aizawa Lab | CC BY&#x2011;NC&#x2011;SA 4.0 | ◯<br>([ManbyoWordPiece](https://huggingface.co/alabnii/jmedroberta-base-manbyo-wordpiece), [SentencePiece](https://huggingface.co/alabnii/jmedroberta-base-sentencepiece))[^10] |
 | [AcademicRoBERTa](https://github.com/EhimeNLP/AcademicRoBERTa) | Science | RoBERTa (base) | CiNii Japanese Papers (6.3M sentences) | Ehime University AI Lab | Apache 2.0 | [◯](https://huggingface.co/EhimeNLP/AcademicRoBERTa) |
+| [local-politics-BERT](http://local-politics.jp/%e5%85%ac%e9%96%8b%e7%89%a9/local-politics-bert/) | Politics | BERT (base) | Wikipedia, Minutes of the National Diet, Minutes of the Local Assembly | Japanese Local Assembly Minutes Corpus Project | CC BY-SA 4.0 | ◯ ([SC-min](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-scratch), [SC-minwiki](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-wikipedia-scratch), [SC-2M-wiki](https://huggingface.co/local-politics-jp/bert-base-japanese-wikipedia-scratch-2m), [SC-2M-min](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-scratch-2m), [SC-2M-minwiki](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-wikipedia-scratch-2m), [FP-min](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-further), [FP-minwiki](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-wikipedia-further)) [^18] |
 
 <a id="embeddings"></a>
 ## Sentence and Document Embeddings
@@ -556,3 +557,5 @@ When referencing this repository, please cite as follows:
 [^16]: However, compared to the usual BERT (base), the Layer and Attention Head counts are lower.
 
 [^17]: Before conducting Instruction Tuning, a Chat Vector between Llama 3 Instruct and Llama 3 Base is added.
+
+[^18]: For details of each model, please refer to Chapter 4 of the authors' [paper](https://www.jstage.jst.go.jp/article/jnlp/31/2/31_707/_pdf/-char/ja). Note that the SC-2M-wiki model is strictly not a domain-specific model as it is pre-trained only on Wikipedia.
