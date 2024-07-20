@@ -397,7 +397,7 @@
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
 | [JFLD (Japanese Formal Logic Deduction)](https://aclanthology.org/2024.lrec-main.832/) | 日本語 LLM の演繹推論能力を問うデータセット（同著者らが提案している [FLD (Formal Logic Deduction)](https://github.com/hitachi-nlp/FLD) の日本語版）。LLM が持つ知識と切り分けて評価を行うために、反実仮想的なサンプルから構成されているのが特徴である。 | 日立製作所 |
-| [JHumanEval](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P10-9.pdf) | 英語の指示から Python コードの生成能力を評価するベンチマークである [HumanEval](https://huggingface.co/datasets/openai_humaneval) の日本語版。日本語版を作成する際には、まず機械翻訳にかけたあと、人手での修正を行っている。 | 日本女子大 倉光研 |
+| [JHumanEval](https://huggingface.co/datasets/kogi-jwu/jhumaneval) | 英語の指示から Python コードの生成能力を評価するベンチマークである [HumanEval](https://huggingface.co/datasets/openai_humaneval) の日本語版。日本語版を作成する際には、まず機械翻訳にかけたあと、人手での修正を行っている。 | 日本女子大 倉光研 |
 
 <a id="domain-specific-benchmark-suites"></a>
 ### 特定ドメインの性能を測定するベンチマーク/データセット
@@ -405,7 +405,10 @@
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
 | [Japanese Language Model Financial Evaluation Harness](https://github.com/pfnet-research/japanese-lm-fin-harness) | 金融分野における日本語 LLM のベンチマーク。金融分野における感情分析タスク(chabsa)、証券分析における基礎知識タスク(cma_basics)、公認会計士試験における監査に関するタスク(cpa_audit)、ファイナンシャルプランナー試験の選択肢問題のタスク(fp2)、証券外務員試験の模擬試験タスク(security_sales_1)を含む。詳細は[こちら](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/C6-4.pdf)を参照 | Preferred Networks |
+| [pfmt-bench-fin-ja](https://github.com/pfnet-research/pfmt-bench-fin-ja) | 金融分野における日本語 LLM の生成能力を測定するためのベンチマーク。 | Preferred Networks |
 | [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) | 市場動向、時事問題、社会課題、ビジネストレンドなどの知識を問う問題が50題収録されている。 | ストックマーク |
+| [JMED-LLM](https://github.com/sociocom/JMED-LLM) | 日本語医療分野における LLM の評価用データセット。これまでに開発されてきた日本語の医療言語処理タスクを LLM ベンチマーク用にまとめている。 | NAIST ソーシャル・コンピューティング研究室 |
+| [karakuri-bench](https://huggingface.co/datasets/karakuri-ai/karakuri-bench-v0.1) | 日本語 LLM のカスタマーサポートにおける性能を測定するためのデータセット。 | カラクリ |
 
 <a id="embeddings-benchmark-suites"></a>
 ### 埋め込みモデルのベンチマーク/データセット

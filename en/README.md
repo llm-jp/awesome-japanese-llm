@@ -401,7 +401,10 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 |   | Description | Developer |
 |:---|:---|:---:|
 | [Japanese Language Model Financial Evaluation Harness](https://github.com/pfnet-research/japanese-lm-fin-harness) | A benchmark for Japanese LLM in the financial sector. It includes tasks such as sentiment analysis in finance (chabsa), basic knowledge tasks in securities analysis (cma_basics), tasks related to audits in certified public accountant examinations (cpa_audit), multiple choice question tasks in financial planner exams (fp2), and mock exam tasks for securities salespeople exams (security_sales_1). For more details, please see [here](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/C6-4.pdf). | Preferred Networks |
+| [pfmt-bench-fin-ja](https://github.com/pfnet-research/pfmt-bench-fin-ja) | A benchmark for measuring the generation capabilities of Japanese LLMs in the financial domain. | Preferred Networks |
 | [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) | The collection includes 50 questions that probe knowledge on topics such as market trends, current affairs, social issues, and business trends. | Stockmark |
+| [JMED-LLM](https://github.com/sociocom/JMED-LLM) | A dataset for evaluating LLMs in the Japanese medical domain. It compiles previously developed Japanese medical language processing tasks for LLM benchmarking. | NAIST Social Computing Lab. |
+| [karakuri-bench](https://huggingface.co/datasets/karakuri-ai/karakuri-bench-v0.1) | A dataset for measuring performance of Japanese LLMs in customer support. | KARAKURI |
 
 <a id="embeddings-benchmark-suites"></a>
 ### Benchmarks for embedding models
