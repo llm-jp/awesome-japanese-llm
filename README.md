@@ -50,6 +50,7 @@
   - [基礎的な自然言語理解 (NLU) を中心に測定するベンチマーク/データセット](#basic-benchmark-suites)
   - [人間らしい応答の生成能力を中心に測定するベンチマーク/データセット](#open-ended-benchmark-suites)
   - [論理推論能力を測定するベンチマーク/データセット](#logical-reasoning-benchmark-suites)
+  - [制約付きの生成能力を測定するベンチマーク/データセット](#controllabilitiy-benchmark-suites)
   - [特定ドメインの性能を測定するベンチマーク/データセット](#domain-specific-benchmark-suites)
   - [埋め込みモデルのベンチマーク/データセット](#embeddings-benchmark-suites)
   - [視覚言語モデル (Vision-Language Models) のベンチマーク/データセット](#vl-benchmark-suites)
@@ -398,6 +399,13 @@
 |:---|:---|:---:|
 | [JFLD (Japanese Formal Logic Deduction)](https://aclanthology.org/2024.lrec-main.832/) | 日本語 LLM の演繹推論能力を問うデータセット（同著者らが提案している [FLD (Formal Logic Deduction)](https://github.com/hitachi-nlp/FLD) の日本語版）。LLM が持つ知識と切り分けて評価を行うために、反実仮想的なサンプルから構成されているのが特徴である。 | 日立製作所 |
 | [JHumanEval](https://huggingface.co/datasets/kogi-jwu/jhumaneval) | 英語の指示から Python コードの生成能力を評価するベンチマークである [HumanEval](https://huggingface.co/datasets/openai_humaneval) の日本語版。日本語版を作成する際には、まず機械翻訳にかけたあと、人手での修正を行っている。 | 日本女子大 倉光研 |
+
+<a id="controllabilitiy-benchmark-suites"></a>
+### 制約付きの生成能力を測定するベンチマーク/データセット
+
+|   | 説明 | 開発元 |
+|:---|:---|:---:|
+| [LCTG Bench](https://github.com/CyberAgentAILab/LCTG-Bench) | 日本語 LLM の制御性ベンチマーク。出力のフォーマット、文字数、キーワード、NGワードの 4 つの観点から、LLM が制約を守って出力を行えているかを評価する。生成されたテキストの品質も合わせて評価する。 | サイバーエージェント |
 
 <a id="domain-specific-benchmark-suites"></a>
 ### 特定ドメインの性能を測定するベンチマーク/データセット

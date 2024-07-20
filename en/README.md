@@ -48,6 +48,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
   - [Traditional Benchmarks based on Natural Language Understanding tasks](#basic-benchmark-suites)
   - [Benchmarks on open-ended generative tasks](#open-ended-benchmark-suites)
   - [Benchmarks for measuring logical reasoning capabilities](#logical-reasoning-benchmark-suites)
+  - [Benchmarks on controlled text generation](#controllabilitiy-benchmark-suites)
   - [Benchmarks for measuring performance in specific domains](#domain-specific-benchmark-suites)
   - [Benchmarks for embedding models](#embeddings-benchmark-suites)
   - [Benchmarks for vision-language models](#vl-benchmark-suites)
@@ -394,6 +395,13 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 |:---|:---|:---:|
 | [JFLD (Japanese Formal Logic Deduction)](https://aclanthology.org/2024.lrec-main.832/) | A dataset for evaluating deductive reasoning capabilities of Japanese LLMs (the Japanese version of the [FLD (Formal Logic Deduction)](https://github.com/hitachi-nlp/FLD) proposed by the same authors). It is characterized by being composed of counterfactual samples to evaluate apart from the knowledge the LLM possesses. | Hitachi |
 | [JHumanEval](https://huggingface.co/datasets/kogi-jwu/jhumaneval) | A Japanese version of the [HumanEval](https://huggingface.co/datasets/openai_humaneval) benchmark, which assesses the ability to generate Python code from English instructions. In creating the Japanese version, the text was first machine-translated and then manually corrected. | Japan Women's University Kuramitsu Lab |
+
+<a id="controllabilitiy-benchmark-suites"></a>
+### Benchmarks on controlled text generation
+
+|   | Description | Developer |
+|:---|:---|:---:|
+| [LCTG Bench](https://github.com/CyberAgentAILab/LCTG-Bench) | A benchmark for the controllability of Japanese LLMs. It evaluates whether LLMs can adhere to constraints in four aspects: output format, character count, keywords, and forbidden words. The quality of the generated text is also evaluated. | CyberAgent |
 
 <a id="domain-specific-benchmark-suites"></a>
 ### Benchmarks for measuring performance in specific domains

@@ -48,6 +48,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
   - [Référence traditionnelle basé sur des tâches de Compréhension du langage naturel (NLU)](#basic-benchmark-suites)
   - [Standard des tâches génératives ouvertes](#open-ended-benchmark-suites)
   - [Benchmarks pour mesurer les capacités de raisonnement logique](#logical-reasoning-benchmark-suites)
+  - [Benchmarks pour la génération de texte contrôlée](#controllabilitiy-benchmark-suites)
   - [Benchmarks pour mesurer la performance dans des domaines spécifiques](#domain-specific-benchmark-suites)
   - [Benchmarks pour modèles d'embeddings](#embeddings-benchmark-suites)
   - [Benchmarks pour modèles vision-language](#vl-benchmark-suites)
@@ -396,6 +397,13 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 |:---|:---|:---:|
 | [JFLD (Japanese Formal Logic Deduction)](https://aclanthology.org/2024.lrec-main.832/) | Un dataset pour évaluer les capacités de raisonnement déductif des LLM japonais (la version japonaise de la [FLD (Formal Logic Deduction)](https://github.com/hitachi-nlp/FLD) proposée par les mêmes auteurs). Il se caractérise par le fait qu'il est composé d'exemples contrefactuels pour évaluer indépendamment des connaissances que possède le LLM. | Hitachi |
 | [JHumanEval](https://huggingface.co/datasets/kogi-jwu/jhumaneval) | Une version japonaise du benchmark [HumanEval](https://huggingface.co/datasets/openai_humaneval), qui évalue la capacité à générer du code Python à partir d'instructions en anglais. En créant la version japonaise, le texte a d'abord été traduit automatiquement, puis corrigé manuellement. | Université des Femmes du Japon - Laboratoire Kuramitsu |
+
+<a id="controllabilitiy-benchmark-suites"></a>
+### Benchmarks pour la génération de texte contrôlée
+
+|   | Description | Développeur |
+|:---|:---|:---:|
+| [LCTG Bench](https://github.com/CyberAgentAILab/LCTG-Bench) | Un benchmark pour la contrôlabilité des LLM japonais. Il évalue si les LLM peuvent adhérer à des contraintes sur quatre aspects : le format de sortie, le nombre de caractères, les mots-clés et les mots interdits. La qualité du texte généré est également évaluée. | CyberAgent |
 
 <a id="domain-specific-benchmark-suites"></a>
 ### Benchmarks pour mesurer la performance dans des domaines spécifiques
