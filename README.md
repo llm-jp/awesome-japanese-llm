@@ -373,7 +373,7 @@
 
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
-| <a id="llm-jp-eval"></a> [llm-jp-eval](https://github.com/llm-jp/llm-jp-eval) | 複数のデータセットを横断して日本語 LLM を自動評価するツールである。<br>対応している全データセット一覧は[こちら](https://github.com/llm-jp/llm-jp-eval/tree/main/src/llm_jp_eval/datasets)から確認できる（この中には JNLI や JCommonsenseQA といった JGLUE のタスクなども含まれている）。<br>評価結果は [llm-jp-eval リーダーボード](http://wandb.me/llm-jp-leaderboard) にまとめられている。 | LLM-jp |
+| <a id="llm-jp-eval"></a> [llm-jp-eval](https://github.com/llm-jp/llm-jp-eval) | 複数のデータセットを横断して日本語 LLM を自動評価するツールである。<br>対応している全データセット一覧は[こちら](https://github.com/llm-jp/llm-jp-eval/tree/main/src/llm_jp_eval/jaster)から確認できる（この中には JNLI や JCommonsenseQA といった JGLUE のタスクなども含まれている）。<br>評価結果は [llm-jp-eval リーダーボード](http://wandb.me/llm-jp-leaderboard) にまとめられている。 | LLM-jp |
 | [JP Language Model Evaluation Harness](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable) | Stability AI による [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) のフォーク。複数のデータセットを横断して日本語 LLM を自動評価するツールである。<br>対応している全データセット一覧は[こちら](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable/lm_eval/tasks/ja)から確認できる（この中には JNLI や JCommonsenseQA といった JGLUE のタスクなども含まれている）。<br>rinna による詳細な評価結果まとめがある: [[rinna] Benchmark of Stability-AI/lm-evaluation-harness](https://rinnakk.github.io/research/benchmarks/lm/) | Stability AI |
 | [JGLUE](https://github.com/yahoojapan/JGLUE) | [GLUE ベンチマーク](https://gluebenchmark.com/)の日本語版として構築されたベンチマーク。MARC-ja, JCoLA, JSTS, JNLI, JSQuAD, JCommonsenseQA の 6 つのタスクを含む（[JCoLA](https://github.com/osekilab/JCoLA) は東大大関研により作成）。各タスクの詳細は[こちら](https://www.jstage.jst.go.jp/article/jnlp/30/1/30_63/_article/-char/ja)や[こちら](https://techblog.yahoo.co.jp/entry/2022122030379907/)を参照 | 早大河原研, ヤフー |
 | [JMMLU](https://github.com/nlp-waseda/JMMLU) | [MMLU ベンチマーク](https://github.com/hendrycks/test)の日本語版として構築されたベンチマーク。自然科学・人文科学・社会科学の幅広い学術領域から 4 択問題を構成している。元の MMLU を翻訳しただけでなく、日本独自の文化的背景に基づく問題（日本問題）を新たに追加しているのが特徴である。 | 早大河原研 |
@@ -397,7 +397,7 @@
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
 | [JFLD (Japanese Formal Logic Deduction)](https://aclanthology.org/2024.lrec-main.832/) | 日本語 LLM の演繹推論能力を問うデータセット（同著者らが提案している [FLD (Formal Logic Deduction)](https://github.com/hitachi-nlp/FLD) の日本語版）。LLM が持つ知識と切り分けて評価を行うために、反実仮想的なサンプルから構成されているのが特徴である。 | 日立製作所 |
-| [JHumanEval](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P10-9.pdf) | 英語の指示から Python コードの生成能力を評価するベンチマークである [HumanEval](https://huggingface.co/datasets/openai_humaneval) の日本語版。日本語版を作成する際には、まず機械翻訳にかけたあと、人手での修正を行っている。 | 日本女子大 倉光研 |
+| [JHumanEval](https://huggingface.co/datasets/kogi-jwu/jhumaneval) | 英語の指示から Python コードの生成能力を評価するベンチマークである [HumanEval](https://huggingface.co/datasets/openai_humaneval) の日本語版。日本語版を作成する際には、まず機械翻訳にかけたあと、人手での修正を行っている。 | 日本女子大 倉光研 |
 
 <a id="domain-specific-benchmark-suites"></a>
 ### 特定ドメインの性能を測定するベンチマーク/データセット
@@ -405,7 +405,10 @@
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
 | [Japanese Language Model Financial Evaluation Harness](https://github.com/pfnet-research/japanese-lm-fin-harness) | 金融分野における日本語 LLM のベンチマーク。金融分野における感情分析タスク(chabsa)、証券分析における基礎知識タスク(cma_basics)、公認会計士試験における監査に関するタスク(cpa_audit)、ファイナンシャルプランナー試験の選択肢問題のタスク(fp2)、証券外務員試験の模擬試験タスク(security_sales_1)を含む。詳細は[こちら](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/C6-4.pdf)を参照 | Preferred Networks |
+| [pfmt-bench-fin-ja](https://github.com/pfnet-research/pfmt-bench-fin-ja) | 金融分野における日本語 LLM の生成能力を測定するためのベンチマーク。 | Preferred Networks |
 | [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) | 市場動向、時事問題、社会課題、ビジネストレンドなどの知識を問う問題が50題収録されている。 | ストックマーク |
+| [JMED-LLM](https://github.com/sociocom/JMED-LLM) | 日本語医療分野における LLM の評価用データセット。これまでに開発されてきた日本語の医療言語処理タスクを LLM ベンチマーク用にまとめている。 | NAIST ソーシャル・コンピューティング研究室 |
+| [karakuri-bench](https://huggingface.co/datasets/karakuri-ai/karakuri-bench-v0.1) | 日本語 LLM のカスタマーサポートにおける性能を測定するためのデータセット。 | カラクリ |
 
 <a id="embeddings-benchmark-suites"></a>
 ### 埋め込みモデルのベンチマーク/データセット
