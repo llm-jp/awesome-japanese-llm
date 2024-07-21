@@ -363,7 +363,8 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 |   | Description | Developer |
 |:---|:---|:---:|
-| [Nejumi LLM Leaderboard Neo](https://api.wandb.ai/links/wandb-japan/dcbaznfb) | This compiles the results of a comprehensive evaluation by [llm-jp-eval](#llm-jp-eval), which evaluates language understanding in a question-and-answer format, and [Japanese MT-bench](#jp-mt-bench), which evaluates generative ability in a context of dialogue prompts. | Weights & Biases |
+| [Nejumi LLM Leaderboard3](https://wandb.ai/wandb-japan/llm-leaderboard3/reports/Nejumi-LLM-Leaderboard3--Vmlldzo4NDkwODEy) | Evaluates the Japanese language capabilities of LLMs from three perspectives: language understanding ability, application ability, and alignment (including controllability and safety). For more details, see [this article](https://note.com/wandb_jp/n/nd4e54c2020ce). | Weights & Biases |
+| [Japanese LLM Evaluation](https://swallow-llm.github.io/evaluation/index.en.html) | Conducts a comprehensive evaluation of various LLMs based on three types of tasks: Japanese language understanding and generation tasks, Japanese multi-turn dialogue tasks, and English language understanding and generation tasks. Also publishes [swallow-evaluation](https://github.com/swallow-llm/swallow-evaluation), an evaluation script that integrates and improves existing LLM evaluation tools. | Swallow Project |
 
 <a id="basic-benchmark-suites"></a>
 ### Traditional Benchmarks based on Natural Language Understanding tasks

@@ -367,7 +367,8 @@
 
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
-| [Nejumi LLMリーダーボード Neo](https://api.wandb.ai/links/wandb-japan/88zbcjwa) | 一問一答形式で言語理解を評価する [llm-jp-eval](#llm-jp-eval) とプロンプト対話で生成能力を評価する [Japanese MT-bench](#jp-mt-bench) による総合評価の結果をまとめている。 | Weights & Biases |
+| [Nejumi LLMリーダーボード3](https://api.wandb.ai/links/wandb-japan/psrsl8gu) | LLM の日本語能力を言語理解能力、応用能力、アライメント（制御性、安全性を含む）の 3 つの観点で評価している。詳しくは[こちらの記事](https://note.com/wandb_jp/n/nd4e54c2020ce)を参照 | Weights & Biases |
+| [日本語LLM評価](https://swallow-llm.github.io/evaluation/index.ja.html) | 様々な LLM を日本語理解・生成タスク、日本語マルチターン対話タスク、英語理解・生成タスクの 3 種類から総合的に評価している。また、既存の LLM 評価ツールを統合・改修した評価スクリプトである [swallow-evaluation](https://github.com/swallow-llm/swallow-evaluation) を合わせて公開している。 | Swallow Project |
 
 <a id="basic-benchmark-suites"></a>
 ### 基礎的な自然言語理解 (NLU) を中心に測定するベンチマーク/データセット
