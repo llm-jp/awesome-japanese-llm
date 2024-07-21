@@ -365,7 +365,8 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 
 |   | Description | Développeur |
 |:---|:---|:---:|
-| [Nejumi LLM Leaderboard Neo](https://api.wandb.ai/links/wandb-japan/dcbaznfb) | Cela compile les résultats d'une évaluation complète par [llm-jp-eval](#llm-jp-eval), qui évalue la compréhension de la langue dans un format de questions-réponses, et [Japanese MT-bench](#jp-mt-bench), qui évalue la capacité générative dans un contexte d'invites de dialogue. | Weights & Biases |
+| [Nejumi LLM Leaderboard3](https://wandb.ai/wandb-japan/llm-leaderboard3/reports/Nejumi-LLM-Leaderboard3--Vmlldzo4NDkwODEy) | Évalue les capacités linguistiques japonaises des LLM sous trois angles : compétence en compréhension linguistique, aptitude à l'application, et alignement (incluant le contrôle et la sécurité). Pour plus de détails, voir [cet article](https://note.com/wandb_jp/n/nd4e54c2020ce). | Weights & Biases |
+| [Japanese LLM Evaluation](https://swallow-llm.github.io/evaluation/index.en.html) | Réalise une évaluation complète de divers LLM basés sur trois types de tâches : compréhension et génération du japonais, dialogues japonais multi-tours, et compréhension et génération en anglais. Publie également [swallow-evaluation](https://github.com/swallow-llm/swallow-evaluation), un script d'évaluation qui intègre et améliore les outils existants d'évaluation des LLM. | Swallow Project |
 
 <a id="basic-benchmark-suites"></a>
 ### Référence traditionnelle basé sur des tâches de Compréhension du langage naturel (NLU)
