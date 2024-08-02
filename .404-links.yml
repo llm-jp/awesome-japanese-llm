@@ -4,3 +4,4 @@ ignore:
     - https://llm-jp.nii.ac.jp/blog/2024/02/09/v1.1-tuning.html
     - https://alaginrc.nict.go.jp/nict-bert/index.html
     - https://www.anlp.jp/*
+    - https://arxiv.org/*
