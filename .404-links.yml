@@ -5,3 +5,4 @@ ignore:
     - https://alaginrc.nict.go.jp/nict-bert/index.html
     - https://www.anlp.jp/*
     - https://arxiv.org/*
+    - https://ojs.aaai.org/*
