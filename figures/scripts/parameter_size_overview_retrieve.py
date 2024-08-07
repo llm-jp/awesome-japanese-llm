@@ -1,6 +1,6 @@
 import pandas as pd
 
-url = "https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs/export?format=csv&id=1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs&gid=1158069878"
+url = "https://docs.google.com/spreadsheets/d/1kc262HZSMAWI6FVsh0zJwbB-ooYvzhCHaHcNUiA0_hY/export?format=csv&id=1kc262HZSMAWI6FVsh0zJwbB-ooYvzhCHaHcNUiA0_hY&gid=1158069878"
 df = pd.read_csv(url, header=1)
 
 # 必要なカラムのみ残す

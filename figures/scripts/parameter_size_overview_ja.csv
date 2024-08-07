@@ -1,4 +1,5 @@
 Model,Lab,Parameters(B),Announced,Type,Source(JP)
+Sarashina2-70b,SB Intuitions,70,2024/8/7,JP-available,https://huggingface.co/sbintuitions/sarashina2-70b
 Sarashina,SB Intuitions,65,2024/6/14,JP-available,https://www.sbintuitions.co.jp/news/press/20240614_01/
 Fugaku-LLM,"Titech, Tohoku Univ., Fujitsu, RIKEN, Nagoya Univ., CyberAgent, Kotoba Technologies",13,2024/5/10,JP-available,https://www.fujitsu.com/global/about/resources/news/press-releases/2024/0510-01.html
 ,Rakuten,7,2024/3/21,JP-available-CP,https://corp.rakuten.co.jp/news/press/2024/0321_01.html
@@ -14,6 +15,7 @@ Swallow-MX,Swallow Project,46.7,2024/03/11,JP-available-CP,https://tokyotech-llm
 Swallow,Swallow Project,70,2023/12/19,JP-available-CP,https://tokyotech-llm.github.io/blog/swallow-llama
 LLM-jp-13B v2.0,LLM-jp,13,2024/04/30,JP-available,https://www.nii.ac.jp/news/release/2024/0430.html
 LLM-jp-13B,LLM-jp,13,2023/10/20,JP-available,https://www.nii.ac.jp/news/release/2023/1020.html
+PLaMo-100B,Preferred Elements,100,2024/06/14,JP-unavailable,https://tech.preferred.jp/ja/blog/plamo-100b/
 PLaMo-13B,Preferred Networks,13,2023/09/28,JP-available,https://www.preferred.jp/ja/news/pr20230928/
 Stockmark-100b,Stockmark,100,2024/05/16,JP-available,https://stockmark.co.jp/news/20240516
 Stockmark-13b,Stockmark,13,2023/10/27,JP-available,https://stockmark.co.jp/news/20231027
