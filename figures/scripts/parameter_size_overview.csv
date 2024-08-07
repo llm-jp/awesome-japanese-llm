@@ -1,5 +1,21 @@
 Model,Lab,Parameters(B),Announced,Type
-InternLM2.5,Shanghai AI Laboratory/SenseTime,7.0,2024/07/01,EN-available
+Palmyra-Med-70B,Writer,70.0,2024/07/01,EN-available
+Palmyra-Fin-70B,Writer,70.0,2024/07/01,EN-available
+Zamba2-small,Zyphra,2.7,2024/07/01,EN-available
+Mistral Large 2,Mistral,123.0,2024/07/01,EN-available
+Llama 3.1 405B,Meta AI,405.0,2024/07/01,EN-available
+GPT-4o mini,OpenAI,8.0,2024/07/01,EN-available
+NeMo,Mistral,12.0,2024/07/01,EN-available
+Codestral Mamba,Mistral,7.0,2024/07/01,EN-available
+Mathstral,Mistral,7.0,2024/07/01,EN-available
+next-gen,DeepL,,2024/07/01,EN-available
+SmolLM,Hugging Face,1.7,2024/07/01,EN-available
+Mockingbird,Vectara,9.0,2024/07/01,EN-available
+H2O-Danube3-4B,H2O.ai,4.0,2024/07/01,EN-available
+SenseNova 5.5,SenseTime,600.0,2024/07/01,EN-available
+Helium 7B,Kyutai,7.0,2024/07/01,EN-available
+InternLM2.5,Shanghai AI Laboratory/SenseTime,20.0,2024/07/01,EN-available
+Tele-FLM-1T,BAAI,1000.0,2024/07/01,EN-available
 ERNIE 4.0 Turbo,Baidu,,2024/06/01,EN-available
 Gemma 2,Google DeepMind,27.0,2024/06/01,EN-available
 4M-21,Apple,3.0,2024/06/01,EN-available
@@ -32,6 +48,7 @@ ChuXin,Independent,1.6,2024/05/01,EN-available
 RWKV-v6 Finch,RWKV,7.63,2024/05/01,EN-available
 Granite Code,IBM,34.0,2024/05/01,EN-available
 Qwen-Max,Alibaba,300.0,2024/05/01,EN-available
+Tele-FLM,BAAI,52.0,2024/04/01,EN-available
 Qwen-1.5 110B,Alibaba,111.0,2024/04/01,EN-available
 Arctic,Snowflake AI Research,480.0,2024/04/01,EN-available
 SenseNova 5.0,SenseTime,600.0,2024/04/01,EN-available
@@ -39,6 +56,7 @@ OpenELM,Apple,3.04,2024/04/01,EN-available
 phi-3-medium,Microsoft,14.0,2024/04/01,EN-available
 phi-3-mini,Microsoft,3.8,2024/04/01,EN-available
 Llama 3 70B,Meta AI,70.0,2024/04/01,EN-available
+Zamba 7B,Zyphra,7.0,2024/04/01,EN-available
 Idefics2,Hugging Face,8.4,2024/04/01,EN-available
 Reka Core,Reka AI,300.0,2024/04/01,EN-available
 WizardLM-2-8x22B,Microsoft,141.0,2024/04/01,EN-available
@@ -109,6 +127,7 @@ InternLM2,Shanghai AI Laboratory/SenseTime,20.0,2024/01/01,EN-available
 GLM-4,Zhipu AI (Tsinghua),200.0,2024/01/01,EN-available
 DeepSeek,DeepSeek-AI,67.0,2024/01/01,EN-available
 LLaMA Pro,Tencent,8.3,2024/01/01,EN-available
+Palmyra X,Writer,72.0,2024/01/01,EN-available
 TinyLlama,SUTD/Independent,1.1,2024/01/01,EN-available
 Unified-IO 2,Allen AI,7.0,2023/12/01,EN-available
 YAYI 2,Wenge,30.0,2023/12/01,EN-available
@@ -266,7 +285,9 @@ GPT-J,EleutherAI,6.0,2021/06/01,EN-available
 ruGPT-3,Huawei/Sberbank,1.3,2021/02/01,EN-available
 Switch,Google,1600.0,2021/01/01,EN-available
 GPT-3,OpenAI,175.0,2020/05/01,EN-available
-Llama 3 405B,Meta AI,405.0,2024/06/01,EN-unavailable
+SpreadsheetLLM,Microsoft,1760.0,2024/07/01,EN-unavailable
+FLAMe,Google DeepMind,24.0,2024/07/01,EN-unavailable
+Causal Axioms,Microsoft,0.067,2024/07/01,EN-unavailable
 CriticGPT,OpenAI,,2024/06/01,EN-unavailable
 ESM3,EvolutionaryScale,98.0,2024/06/01,EN-unavailable
 PanGu 5.0 Super,Huawei,1000.0,2024/06/01,EN-unavailable
@@ -282,6 +303,7 @@ Samba-1,SambaNova,1400.0,2024/02/01,EN-unavailable
 175B,ByteDance,175.0,2024/02/01,EN-unavailable
 Ask,Apple,20.0,2024/02/01,EN-unavailable
 TimesFM,Google,0.2,2024/02/01,EN-unavailable
+Audio Flamingo,NVIDIA,1.0,2024/02/01,EN-unavailable
 MambaByte,Cornell,0.972,2024/01/01,EN-unavailable
 Fuyu-Heavy,Adept,120.0,2024/01/01,EN-unavailable
 DeepSeekMoE,DeepSeek-AI,16.0,2024/01/01,EN-unavailable
