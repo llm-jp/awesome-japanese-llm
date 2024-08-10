@@ -349,7 +349,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [rinna Stable Diffusion](https://rinna.co.jp/news/2022/09/20220909.html)<br>([japanese-stable-diffusion](https://huggingface.co/rinna/japanese-stable-diffusion)) | Stable Diffusion | LAION-5B Japanese Subset (100M images) | rinna | CreativeML OpenRAIL-M License |
 
 <a id="multimodal-text-to-image-domain-specific"></a>
-### Spécifique à un domaine
+#### Spécifique à un domaine
 
 |    | Architecture | Domaine |  Développeur  |  Licence  |
 |:---|:---:|:---:|:---:|:---:|
