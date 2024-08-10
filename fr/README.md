@@ -39,6 +39,8 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
     - [D'usage général](#multimodal-general)
     - [Spécifique à un domaine](#multimodal-domain-specific)
   - [Text vers Image](#multimodal-text-to-image)
+    - [D'usage général](#multimodal-text-to-image-general)
+    - [Spécifique à un domaine](#multimodal-text-to-image-domain-specific)
   - [Autres](#multimodal-others)
 - [Modèles Speech-Language](#speech)
   - [Reconnaissance automatique de la parole](#speech-asr)
@@ -317,7 +319,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 <a id="multimodal-domain-specific"></a>
 #### Spécifique à un domaine
 
-|    | Domaine | Base du Model  |  Développeur  |  Licence  |
+|    | Architecture | Domaine |  Développeur  |  Licence  |
 |:---|:---:|:---:|:---:|:---:|
 | [watashiha/Watashiha-Llama-2-13B-Ogiri-sft-vlm](https://huggingface.co/watashiha/Watashiha-Llama-2-13B-Ogiri-sft-vlm) | LLaVA | [Oogiri](https://en.wikipedia.org/wiki/Glossary_of_owarai_terms#oogiri) | Watashiha | Llama 2 Community License |
 
@@ -336,12 +338,23 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 <a id="multimodal-text-to-image"></a>
 ### Text vers Image
 
+<a id="multimodal-text-to-image-general"></a>
+#### D'usage général
+
 |    |  Architecture  |  Training Data  |  Développeur  | License |
 |:---|:---:|:---:|:---:|:---:|
-| [EvoSDXL-JP](https://huggingface.co/SakanaAI/EvoSDXL-JP-v1)<br>([v1](https://huggingface.co/SakanaAI/EvoSDXL-JP-v1)) | - | - (merged from several diffusion models, including Japanese Stable Diffusion XL) | Sakana AI | Apache 2.0[^14] |
+| [EvoSDXL-JP](https://huggingface.co/SakanaAI/EvoSDXL-JP-v1)<br>([v1](https://huggingface.co/SakanaAI/EvoSDXL-JP-v1)) | Stable Diffusion | - (merged from several diffusion models, including Japanese Stable Diffusion XL) | Sakana AI | Apache 2.0[^14] |
 | [Japanese Stable Diffusion XL](https://ja.stability.ai/blog/japanese-stable-diffusion-xl)<br>([japanese-stable-diffusion-xl](https://huggingface.co/stabilityai/japanese-stable-diffusion-xl)) | Stable Diffusion | Inconnu | Stability AI | STABILITY AI JAPANESE STABLE DIFFUSION XL COMMUNITY LICENSE |
 | [TohokuUniversity Stable Diffusion](https://huggingface.co/tohoku-nlp/stable-diffusion-xl-jp-base-1.0)<br>([base](https://huggingface.co/tohoku-nlp/stable-diffusion-xl-jp-base-1.0), [refiner](https://huggingface.co/tohoku-nlp/stable-diffusion-xl-jp-refiner-1.0)) | Stable Diffusion | Corpus parallèle anglais-japonais de la tâche partagée WMT2023, environ 13 millions de légendes de laion2B-multi | Université de Tohoku - Groupe TAL | CreativeML OpenRAIL-M License |
 | [rinna Stable Diffusion](https://rinna.co.jp/news/2022/09/20220909.html)<br>([japanese-stable-diffusion](https://huggingface.co/rinna/japanese-stable-diffusion)) | Stable Diffusion | LAION-5B Japanese Subset (100M images) | rinna | CreativeML OpenRAIL-M License |
+
+<a id="multimodal-text-to-image-domain-specific"></a>
+### Spécifique à un domaine
+
+|    | Architecture | Domaine |  Développeur  |  Licence  |
+|:---|:---:|:---:|:---:|:---:|
+| [Evo-Nishikie](https://sakana.ai/evo-ukiyoe/)<br>([v1](https://huggingface.co/SakanaAI/Evo-Nishikie-v1)) | Stable Diffusion (ControlNet) | Ukiyo-e | Sakana AI | Apache 2.0[^14] |
+| [Evo-Ukiyoe](https://sakana.ai/evo-ukiyoe/)<br>([v1](https://huggingface.co/SakanaAI/Evo-Ukiyoe-v1)) | Stable Diffusion | Ukiyo-e | Sakana AI | Apache 2.0[^14] |
 
 <a id="speech"></a>
 ## Modèles Speech-Language
@@ -481,6 +494,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | DiffCSE | 2022.04.21 | NAACL 2022 | [DiffCSE: Difference-based Contrastive Learning for Sentence Embeddings](https://aclanthology.org/2022.naacl-main.311/) |
 | GIT | 2022.05.27 | TMLR 2022 | [GIT: A Generative Image-to-text Transformer for Vision and Language](https://arxiv.org/abs/2205.14100) |
 | BLIP-2 | 2023.01.30 | ICML 2023 | [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) |
+| ControlNet | 2023.02.10 | ICCV 2023 | [Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/abs/2302.05543) |
 | Llama | 2023.02.27 | - | [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971) | 
 | GPT-4 | 2023.03.15 | - | [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) |
 | SigLIP | 2023.03.27 | ICCV 2023 | [Sigmoid Loss for Language Image Pre-Training](https://arxiv.org/abs/2303.15343) |
