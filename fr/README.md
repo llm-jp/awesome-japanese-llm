@@ -49,9 +49,10 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
   - [Benchmarks hybrides](#hybrid-benchmark-suites)
   - [Référence traditionnelle basé sur des tâches de Compréhension du langage naturel (NLU)](#basic-benchmark-suites)
   - [Standard des tâches génératives ouvertes](#open-ended-benchmark-suites)
+  - [Benchmarks pour mesurer la performance dans des domaines spécifiques](#domain-specific-benchmark-suites)
+  - [Benchmarks pour mesurer la factualité et la sécurité](#factuality-safety-benchmark-suites)
   - [Benchmarks pour mesurer les capacités de raisonnement logique](#logical-reasoning-benchmark-suites)
   - [Benchmarks pour la génération de texte contrôlée](#controllabilitiy-benchmark-suites)
-  - [Benchmarks pour mesurer la performance dans des domaines spécifiques](#domain-specific-benchmark-suites)
   - [Benchmarks pour modèles d'embeddings](#embeddings-benchmark-suites)
   - [Benchmarks pour modèles vision-language](#vl-benchmark-suites)
 - [Références pour les modèles et les architectures](#reference)
@@ -413,6 +414,26 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | <a id="tengu-bench"></a> [Tengu-Bench](https://huggingface.co/datasets/lightblue/tengu_bench) | Comprend 120 questions ouvertes de diverses catégories. Catégories de questions : interprétation des tableaux, puzzles logiques, génération d'idées, appel de fonctions, résumé de longs documents (plus de mille jetons), résumé de conversations, questions fermées sur des longs documents (plus de mille jetons), honorifiques, création de projet, mathématiques, traduction, extraction, contrôle éthique, estimation des coûts, Japon, bavardage, calembours, formatage, construction, affaires, jugement juridique, politique, questions hypothétiques. | Lightblue |
 | [Shaberi](https://github.com/lightblue-tech/japanese_llm_eval) | Un cadre qui peut évaluer collectivement le [Japanese MT-bench](#jp-mt-bench), le [Rakuda Benchmark](#rakuda-benchmark), le [ELYZA-tasks-100](#elyza-tasks), et le [Tengu-Bench](#tengu-bench). Il existe également un [fork](https://github.com/shisa-ai/shaberi) de Shisa.AI. | Lightblue |
 
+<a id="domain-specific-benchmark-suites"></a>
+### Benchmarks pour mesurer la performance dans des domaines spécifiques
+
+|   | Description | Développeur |
+|:---|:---|:---:|
+| [Japanese Language Model Financial Evaluation Harness](https://github.com/pfnet-research/japanese-lm-fin-harness) | Un benchmark pour les LLM japonais dans le secteur financier. Il comprend des tâches telles que l'analyse des sentiments dans la finance (chabsa), des tâches de connaissances de base en analyse de titres (cma_basics), des tâches relatives aux audits dans les examens de comptable public certifié (cpa_audit), des tâches à questions à choix multiple dans les examens de planificateur financier (fp2), et des tâches d'examen blanc pour les examens de vendeurs de titres (security_sales_1). Pour plus de détails, veuillez consulter [ici](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/C6-4.pdf). | Preferred Networks |
+| [pfmt-bench-fin-ja](https://github.com/pfnet-research/pfmt-bench-fin-ja) | Un benchmark pour mesurer les capacités de génération des LLM japonais dans le domaine financier. | Preferred Networks |
+| [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) | La collection comprend 50 questions qui approfondissent les connaissances sur des sujets tels que les tendances du marché, l'actualité, les problèmes sociaux et les tendances commerciales. | Stockmark |
+| [JMED-LLM](https://github.com/sociocom/JMED-LLM) | Un ensemble de données pour évaluer les LLM dans le domaine médical japonais. Il compile des tâches de traitement du langage médical japonais développées précédemment pour le benchmarking des LLM. | NAIST Social Computing Lab. |
+| [karakuri-bench](https://huggingface.co/datasets/karakuri-ai/karakuri-bench-v0.1) | Un ensemble de données pour mesurer la performance des LLM japonais dans le support client. | KARAKURI |
+
+<a id="factuality-safety-benchmark-suites"></a>
+### Benchmarks pour mesurer la factualité et la sécurité
+
+|   | Description | Développeur |
+|:---|:---|:---:|
+| [JTruthfulQA](https://github.com/nlp-waseda/JTruthfulQA) | La version japonaise du dataset pour évaluer la factualité des LLM [TruthfulQA](https://github.com/sylinrl/TruthfulQA). Il comprend des questions sur les superstitions et d'autres croyances tenues par certaines personnes qui ne sont pas factuelles, ainsi que des questions sur les connaissances spécifiques au Japon, le tout collecté à partir de zéro. | Waseda University Kawahara Lab |
+| [JCommonsenseMorality](https://github.com/Language-Media-Lab/commonsense-moral-ja) | Un dataset sur la moralité de sens commun japonaise. Les phrases décrivant des actions sont étiquetées avec des valeurs binaires indiquant si elles sont moralement répréhensibles ou acceptables. | Hokkaido University Language Media Lab |
+| [JBBQ](https://github.com/ynklab/JBBQ_data) | La version japonaise du dataset de questions-réponses sur les biais sociaux [BBQ](https://github.com/nyu-mll/BBQ), développée par la traduction, la révision et l'ajout de questions basées sur la culture et les coutumes japonaises. | University of Tokyo Yanaka Lab |
+
 <a id="logical-reasoning-benchmark-suites"></a>
 ### Benchmarks pour mesurer les capacités de raisonnement logique
 
@@ -427,17 +448,6 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 |   | Description | Développeur |
 |:---|:---|:---:|
 | [LCTG Bench](https://github.com/CyberAgentAILab/LCTG-Bench) | Un benchmark pour la contrôlabilité des LLM japonais. Il évalue si les LLM peuvent adhérer à des contraintes sur quatre aspects : le format de sortie, le nombre de caractères, les mots-clés et les mots interdits. La qualité du texte généré est également évaluée. | CyberAgent |
-
-<a id="domain-specific-benchmark-suites"></a>
-### Benchmarks pour mesurer la performance dans des domaines spécifiques
-
-|   | Description | Développeur |
-|:---|:---|:---:|
-| [Japanese Language Model Financial Evaluation Harness](https://github.com/pfnet-research/japanese-lm-fin-harness) | Un benchmark pour les LLM japonais dans le secteur financier. Il comprend des tâches telles que l'analyse des sentiments dans la finance (chabsa), des tâches de connaissances de base en analyse de titres (cma_basics), des tâches relatives aux audits dans les examens de comptable public certifié (cpa_audit), des tâches à questions à choix multiple dans les examens de planificateur financier (fp2), et des tâches d'examen blanc pour les examens de vendeurs de titres (security_sales_1). Pour plus de détails, veuillez consulter [ici](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/C6-4.pdf). | Preferred Networks |
-| [pfmt-bench-fin-ja](https://github.com/pfnet-research/pfmt-bench-fin-ja) | Un benchmark pour mesurer les capacités de génération des LLM japonais dans le domaine financier. | Preferred Networks |
-| [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) | La collection comprend 50 questions qui approfondissent les connaissances sur des sujets tels que les tendances du marché, l'actualité, les problèmes sociaux et les tendances commerciales. | Stockmark |
-| [JMED-LLM](https://github.com/sociocom/JMED-LLM) | Un ensemble de données pour évaluer les LLM dans le domaine médical japonais. Il compile des tâches de traitement du langage médical japonais développées précédemment pour le benchmarking des LLM. | NAIST Social Computing Lab. |
-| [karakuri-bench](https://huggingface.co/datasets/karakuri-ai/karakuri-bench-v0.1) | Un ensemble de données pour mesurer la performance des LLM japonais dans le support client. | KARAKURI |
 
 <a id="embeddings-benchmark-suites"></a>
 ### Benchmarks pour modèles d'embeddings

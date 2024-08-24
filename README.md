@@ -51,9 +51,10 @@
   - [複合型ベンチマーク](#hybrid-benchmark-suites)
   - [基礎的な自然言語理解 (NLU) を中心に測定するベンチマーク/データセット](#basic-benchmark-suites)
   - [人間らしい応答の生成能力を中心に測定するベンチマーク/データセット](#open-ended-benchmark-suites)
+  - [特定ドメインの性能を測定するベンチマーク/データセット](#domain-specific-benchmark-suites)
+  - [事実性・安全性を測定するベンチマーク/データセット](#factuality-safety-benchmark-suites)
   - [論理推論能力を測定するベンチマーク/データセット](#logical-reasoning-benchmark-suites)
   - [制約付きの生成能力を測定するベンチマーク/データセット](#controllabilitiy-benchmark-suites)
-  - [特定ドメインの性能を測定するベンチマーク/データセット](#domain-specific-benchmark-suites)
   - [埋め込みモデルのベンチマーク/データセット](#embeddings-benchmark-suites)
   - [視覚言語モデル (Vision-Language Models) のベンチマーク/データセット](#vl-benchmark-suites)
 - [各モデル・アーキテクチャの原論文](#reference)
@@ -399,8 +400,8 @@
 |:---|:---|:---:|
 | <a id="llm-jp-eval"></a> [llm-jp-eval](https://github.com/llm-jp/llm-jp-eval) | 複数のデータセットを横断して日本語 LLM を自動評価するツールである。<br>対応している全データセット一覧は[こちら](https://github.com/llm-jp/llm-jp-eval/tree/main/src/llm_jp_eval/jaster)から確認できる（この中には JNLI や JCommonsenseQA といった JGLUE のタスクなども含まれている）。<br>評価結果は [llm-jp-eval リーダーボード](http://wandb.me/llm-jp-leaderboard) にまとめられている。 | LLM-jp |
 | [JP Language Model Evaluation Harness](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable) | Stability AI による [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) のフォーク。複数のデータセットを横断して日本語 LLM を自動評価するツールである。<br>対応している全データセット一覧は[こちら](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable/lm_eval/tasks/ja)から確認できる（この中には JNLI や JCommonsenseQA といった JGLUE のタスクなども含まれている）。<br>rinna による詳細な評価結果まとめがある: [[rinna] Benchmark of Stability-AI/lm-evaluation-harness](https://rinnakk.github.io/research/benchmarks/lm/) | Stability AI |
-| [JGLUE](https://github.com/yahoojapan/JGLUE) | [GLUE ベンチマーク](https://gluebenchmark.com/)の日本語版として構築されたベンチマーク。MARC-ja, JCoLA, JSTS, JNLI, JSQuAD, JCommonsenseQA の 6 つのタスクを含む（[JCoLA](https://github.com/osekilab/JCoLA) は東大大関研により作成）。各タスクの詳細は[こちら](https://www.jstage.jst.go.jp/article/jnlp/30/1/30_63/_article/-char/ja)や[こちら](https://techblog.yahoo.co.jp/entry/2022122030379907/)を参照 | 早大河原研, ヤフー |
-| [JMMLU](https://github.com/nlp-waseda/JMMLU) | [MMLU ベンチマーク](https://github.com/hendrycks/test)の日本語版として構築されたベンチマーク。自然科学・人文科学・社会科学の幅広い学術領域から 4 択問題を構成している。元の MMLU を翻訳しただけでなく、日本独自の文化的背景に基づく問題（日本問題）を新たに追加しているのが特徴である。 | 早大河原研 |
+| [JGLUE](https://github.com/yahoojapan/JGLUE) | [GLUE ベンチマーク](https://gluebenchmark.com/)の日本語版として構築されたベンチマーク。MARC-ja, JCoLA, JSTS, JNLI, JSQuAD, JCommonsenseQA の 6 つのタスクを含む（[JCoLA](https://github.com/osekilab/JCoLA) は東大大関研により作成）。各タスクの詳細は[こちら](https://www.jstage.jst.go.jp/article/jnlp/30/1/30_63/_article/-char/ja)や[こちら](https://techblog.yahoo.co.jp/entry/2022122030379907/)を参照 | 早大 河原研, ヤフー |
+| [JMMLU](https://github.com/nlp-waseda/JMMLU) | [MMLU ベンチマーク](https://github.com/hendrycks/test)の日本語版として構築されたベンチマーク。自然科学・人文科学・社会科学の幅広い学術領域から 4 択問題を構成している。元の MMLU を翻訳しただけでなく、日本独自の文化的背景に基づく問題（日本問題）を新たに追加しているのが特徴である。 | 早大 河原研 |
 | [日本語 Open LLM Leaderboard](http://wandb.me/llm-jp-openllmleaderboard) | Huggingface の [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) と同様の検証を日本語 LLM に対して行ったもの。日本語 LLM の英語タスクにおける性能を確認できる。 | LLM-jp |
 
 <a id="open-ended-benchmark-suites"></a>
@@ -414,6 +415,26 @@
 | [Japanese Vicuna QA Benchmark](https://github.com/ku-nlp/ja-vicuna-qa-benchmark) | MT-Bench の前身である [vicuna-blog-eval](https://github.com/lm-sys/vicuna-blog-eval) の日本語版。一般、知識、ロールプレイ、常識、フェルミ推定、反実仮想、コーディング、数学、ライティングに関する 80 問の質問を収録している。また、GPT-4 による自動評価（勝率計算）のスクリプトも含まれている。リーダーボードは[こちら](http://wandb.me/llm-jp-vicunaleaderboard) | 京大 言語メディア研究室 |
 | <a id="tengu-bench"></a> [Tengu-Bench](https://huggingface.co/datasets/lightblue/tengu_bench) | 様々なカテゴリから成る 120 問の自由質問が収録されている。質問のカテゴリは以下の通り: 表の読み取り、論理パズル、アイデア生成、Function calling、長い文書要約（千トークン以上）、会話要約、長い文書のClosed QA（千トークン以上）、敬語、プロジェクト作成、数学、翻訳、抽出、倫理的制御、コスト見積、日本、雑談、ダジャレ、フォーマット、建設、ビジネス、法律判断、政治、架空の質問 | Lightblue |
 | [Shaberi](https://github.com/lightblue-tech/japanese_llm_eval) | [Japanese MT-bench](#jp-mt-bench)、[Rakuda Benchmark](#rakuda-benchmark)、[ELYZA-tasks-100](#elyza-tasks)、[Tengu-Bench](#tengu-bench) の評価をまとめて行うことができるフレームワーク。なお、Shisa.AI による[フォーク](https://github.com/shisa-ai/shaberi)も存在する | Lightblue |
+
+<a id="domain-specific-benchmark-suites"></a>
+### 特定ドメインの性能を測定するベンチマーク/データセット
+
+|   | 説明 | 開発元 |
+|:---|:---|:---:|
+| [Japanese Language Model Financial Evaluation Harness](https://github.com/pfnet-research/japanese-lm-fin-harness) | 金融分野における日本語 LLM のベンチマーク。金融分野における感情分析タスク(chabsa)、証券分析における基礎知識タスク(cma_basics)、公認会計士試験における監査に関するタスク(cpa_audit)、ファイナンシャルプランナー試験の選択肢問題のタスク(fp2)、証券外務員試験の模擬試験タスク(security_sales_1)を含む。詳細は[こちら](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/C6-4.pdf)を参照 | Preferred Networks |
+| [pfmt-bench-fin-ja](https://github.com/pfnet-research/pfmt-bench-fin-ja) | 金融分野における日本語 LLM の生成能力を測定するためのベンチマーク。 | Preferred Networks |
+| [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) | 市場動向、時事問題、社会課題、ビジネストレンドなどの知識を問う問題が50題収録されている。 | ストックマーク |
+| [JMED-LLM](https://github.com/sociocom/JMED-LLM) | 日本語医療分野における LLM の評価用データセット。これまでに開発されてきた日本語の医療言語処理タスクを LLM ベンチマーク用にまとめている。 | NAIST ソーシャル・コンピューティング研究室 |
+| [karakuri-bench](https://huggingface.co/datasets/karakuri-ai/karakuri-bench-v0.1) | 日本語 LLM のカスタマーサポートにおける性能を測定するためのデータセット。 | カラクリ |
+
+<a id="factuality-safety-benchmark-suites"></a>
+### 事実性・安全性を測定するベンチマーク/データセット
+
+|   | 説明 | 開発元 |
+|:---|:---|:---:|
+| [JTruthfulQA](https://github.com/nlp-waseda/JTruthfulQA) | LLM の事実性を評価するデータセット [TruthfulQA](https://github.com/sylinrl/TruthfulQA) の日本語版。迷信などの、一部の人々に信じられているが事実とは言えない事象に関する質問群と、日本固有の知識に関する質問群が、一から収集されている。 | 早大 河原研 |
+| [JCommonsenseMorality](https://github.com/Language-Media-Lab/commonsense-moral-ja/blob/main/README_JP.md) | 日本語の常識道徳に関するデータセット。行為を表す文に対して、道徳的に間違っているか許容できるかの 2 値ラベルが割り当てられている。 | 北大 言語メディア学研究室 |
+| [JBBQ](https://github.com/ynklab/JBBQ_data) | 社会性バイアスQAデータセット [BBQ](https://github.com/nyu-mll/BBQ) を、日本の文化・慣習を踏まえて翻訳、修正、問題追加を行い作成されたデータセット。 | 東大 谷中研 |
 
 <a id="logical-reasoning-benchmark-suites"></a>
 ### 論理推論能力を測定するベンチマーク/データセット
@@ -429,17 +450,6 @@
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
 | [LCTG Bench](https://github.com/CyberAgentAILab/LCTG-Bench) | 日本語 LLM の制御性ベンチマーク。出力のフォーマット、文字数、キーワード、NGワードの 4 つの観点から、LLM が制約を守って出力を行えているかを評価する。生成されたテキストの品質も合わせて評価する。 | サイバーエージェント |
-
-<a id="domain-specific-benchmark-suites"></a>
-### 特定ドメインの性能を測定するベンチマーク/データセット
-
-|   | 説明 | 開発元 |
-|:---|:---|:---:|
-| [Japanese Language Model Financial Evaluation Harness](https://github.com/pfnet-research/japanese-lm-fin-harness) | 金融分野における日本語 LLM のベンチマーク。金融分野における感情分析タスク(chabsa)、証券分析における基礎知識タスク(cma_basics)、公認会計士試験における監査に関するタスク(cpa_audit)、ファイナンシャルプランナー試験の選択肢問題のタスク(fp2)、証券外務員試験の模擬試験タスク(security_sales_1)を含む。詳細は[こちら](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/C6-4.pdf)を参照 | Preferred Networks |
-| [pfmt-bench-fin-ja](https://github.com/pfnet-research/pfmt-bench-fin-ja) | 金融分野における日本語 LLM の生成能力を測定するためのベンチマーク。 | Preferred Networks |
-| [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) | 市場動向、時事問題、社会課題、ビジネストレンドなどの知識を問う問題が50題収録されている。 | ストックマーク |
-| [JMED-LLM](https://github.com/sociocom/JMED-LLM) | 日本語医療分野における LLM の評価用データセット。これまでに開発されてきた日本語の医療言語処理タスクを LLM ベンチマーク用にまとめている。 | NAIST ソーシャル・コンピューティング研究室 |
-| [karakuri-bench](https://huggingface.co/datasets/karakuri-ai/karakuri-bench-v0.1) | 日本語 LLM のカスタマーサポートにおける性能を測定するためのデータセット。 | カラクリ |
 
 <a id="embeddings-benchmark-suites"></a>
 ### 埋め込みモデルのベンチマーク/データセット
