@@ -300,6 +300,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [pkshatech/simcse-ja-bert-base-clcmlp](https://huggingface.co/pkshatech/simcse-ja-bert-base-clcmlp) | SimCSE | PKSHA Technology | CC BY&#x2011;SA 4.0 |
 | [MU-Kindai/Japanese-MixCSE-BERT-base](https://huggingface.co/MU-Kindai/Japanese-MixCSE-BERT-base)<br>[MU-Kindai/Japanese-MixCSE-BERT-large](https://huggingface.co/MU-Kindai/Japanese-MixCSE-BERT-large) | MixCSE | Université de Kindai | MIT |
 | [MU-Kindai/Japanese-DiffCSE-BERT-base](https://huggingface.co/MU-Kindai/Japanese-DiffCSE-BERT-base) | DiffCSE | Université de Kindai | MIT | 
+| [bclavie/fio-base-japanese-v0.1](https://huggingface.co/bclavie/fio-base-japanese-v0.1) | | 個人 ([Benjamin Clavié](https://scholar.google.com/citations?user=vuMln98AAAAJ)) | |
 | [cl-nagoya/shioriha-large-pt](https://huggingface.co/cl-nagoya/shioriha-large-pt) | | Université de Nagoya - Takeda-Sasano Group | |
 
 <a id="multimodal"></a>
@@ -458,6 +459,8 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 |   | Description | Développeur |
 |:---|:---|:---:|
 | [JMTEB](https://huggingface.co/datasets/sbintuitions/JMTEB) | Un benchmark développé comme la version japonaise de [MTEB](https://github.com/embeddings-benchmark/mteb). Il se compose de tâches telles que le regroupement de documents, la classification de textes, la similarité de phrases, la prédiction d'étiquetage de paires de phrases et l'extraction de texte (une tâche de reclassement a été récemment ajoutée). | SB Intuitions |
+| [JQaRA](https://github.com/hotchpotch/JQaRA/) | Un ensemble de données pour évaluer l'extraction de documents japonais et la précision du reclassement. Chacune des 1,667 questions est attribuée à 100 documents candidats, dont au moins un peut répondre à la question. Les questions sont tirées de [JAQKET](https://www.nlp.ecei.tohoku.ac.jp/projects/jaqket/), et les documents candidats proviennent de Wikipédia japonais. | Individuel (Yuichi Tateno) |
+| [JaCWIR](https://github.com/hotchpotch/JaCWIR) | Un ensemble de données créé pour évaluer l'extraction de documents et le reclassement dans des domaines autres que Wikipédia. Chacune des 5,000 questions est attribuée à une page Web servant de source pour la question et à 99 pages Web sans rapport. | Individuel (Yuichi Tateno) |
 
 <a id="vl-benchmark-suites"></a>
 ### Benchmarks pour modèles vision-langage

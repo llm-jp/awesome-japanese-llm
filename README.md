@@ -303,6 +303,7 @@
 | [pkshatech/simcse-ja-bert-base-clcmlp](https://huggingface.co/pkshatech/simcse-ja-bert-base-clcmlp) | SimCSE | PKSHA Technology | CC BY-SA 4.0 |
 | [MU-Kindai/Japanese-MixCSE-BERT-base](https://huggingface.co/MU-Kindai/Japanese-MixCSE-BERT-base)<br>[MU-Kindai/Japanese-MixCSE-BERT-large](https://huggingface.co/MU-Kindai/Japanese-MixCSE-BERT-large) | MixCSE | 近畿大学 (研究室不明) | MIT |
 | [MU-Kindai/Japanese-DiffCSE-BERT-base](https://huggingface.co/MU-Kindai/Japanese-DiffCSE-BERT-base) | DiffCSE | 近畿大学 (研究室不明) | MIT | 
+| [bclavie/fio-base-japanese-v0.1](https://huggingface.co/bclavie/fio-base-japanese-v0.1) | | 個人 ([Benjamin Clavié](https://scholar.google.com/citations?user=vuMln98AAAAJ)) | |
 | [cl-nagoya/shioriha-large-pt](https://huggingface.co/cl-nagoya/shioriha-large-pt) | | 名大 武田・笹野研 | |
 
 <a id="multimodal"></a>
@@ -460,6 +461,8 @@
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
 | [JMTEB](https://www.sbintuitions.co.jp/blog/entry/2024/05/16/130848) | [MTEB](https://github.com/embeddings-benchmark/mteb)の日本語版として作成されたベンチマーク。<br>文書クラスタリング、文書分類、文間類似度、文ペアラベル予測、文書抽出の5種類のタスクから構成されている（その後、リランキングタスクが新たに追加）。 | SB Intuitions |
+| [JQaRA](https://github.com/hotchpotch/JQaRA/) | 日本語の文書抽出・リランキング精度評価のためのデータセット。1,667件の質問文それぞれに対し、候補となる100件のドキュメントが割り当てられており、そのうち1件以上が質問文に回答できる内容になっている。質問文は [JAQKET](https://www.nlp.ecei.tohoku.ac.jp/projects/jaqket/) を、候補のドキュメントは日本語 Wikipedia を用いている。 | 個人 (舘野祐一) |
+| [JaCWIR](https://github.com/hotchpotch/JaCWIR) | Wikipedia 以外のドメインで文書抽出・リランキングの評価を行えることを目指して作成されたデータセット。5,000件の質問文それぞれに対し、その質問文が作成される元になった 1 件の Webページと、質問文とは関係のない 99 件の Web ページが割り当てられている。| 個人 (舘野祐一) |
 
 <a id="vl-benchmark-suites"></a>
 ### 視覚言語モデル (Vision-Language Models) のベンチマーク/データセット

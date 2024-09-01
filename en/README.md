@@ -299,6 +299,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [pkshatech/simcse-ja-bert-base-clcmlp](https://huggingface.co/pkshatech/simcse-ja-bert-base-clcmlp) | SimCSE | PKSHA Technology | CC BY&#x2011;SA 4.0 |
 | [MU-Kindai/Japanese-MixCSE-BERT-base](https://huggingface.co/MU-Kindai/Japanese-MixCSE-BERT-base)<br>[MU-Kindai/Japanese-MixCSE-BERT-large](https://huggingface.co/MU-Kindai/Japanese-MixCSE-BERT-large) | MixCSE | Kindai University | MIT |
 | [MU-Kindai/Japanese-DiffCSE-BERT-base](https://huggingface.co/MU-Kindai/Japanese-DiffCSE-BERT-base) | DiffCSE | Kindai University | MIT | 
+| [bclavie/fio-base-japanese-v0.1](https://huggingface.co/bclavie/fio-base-japanese-v0.1) | | 個人 ([Benjamin Clavié](https://scholar.google.com/citations?user=vuMln98AAAAJ)) | |
 | [cl-nagoya/shioriha-large-pt](https://huggingface.co/cl-nagoya/shioriha-large-pt) | | Nagoya University Takeda-Sasano Group | |
 
 <a id="multimodal"></a>
@@ -456,6 +457,8 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 |   | Description | Developer |
 |:---|:---|:---:|
 | [JMTEB](https://huggingface.co/datasets/sbintuitions/JMTEB) | A benchmark developed as the Japanese version of [MTEB](https://github.com/embeddings-benchmark/mteb). It consists of tasks such as document clustering, text classification, sentence similarity, sentence pair labeling prediction, and text extraction (a reranking task was recently added). | SB Intuitions |
+| [JQaRA](https://github.com/hotchpotch/JQaRA/) | A dataset for evaluating Japanese document extraction and reranking accuracy. Each of the 1,667 questions is assigned 100 candidate documents, of which at least one can answer the question. The questions are taken from [JAQKET](https://www.nlp.ecei.tohoku.ac.jp/projects/jaqket/), and the candidate documents are sourced from Japanese Wikipedia. | Individual (Yuichi Tateno) |
+| [JaCWIR](https://github.com/hotchpotch/JaCWIR) | A dataset created for evaluating document extraction and reranking in domains other than Wikipedia. Each of the 5,000 questions is assigned one Web page that serves as the source of the question and 99 unrelated Web pages. | Individual (Yuichi Tateno) |
 
 <a id="vl-benchmark-suites"></a>
 ### Benchmarks for vision-language models
