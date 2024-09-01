@@ -10,10 +10,11 @@
 
 A list of publicly available LLMs trained with a focus on Japanese, along with their evaluation benchmarks, maintained by volunteers from various sources like academic papers and other public resources.
 
-⚠ Caution:
+::: warning Caution
 1. We can't guarantee the accuracy or completeness of any information here.
 2. Some information is based on conjecture and might not reflect your specific use case.
 3. While many models are released under permissive licenses like MIT or Apache 2.0, **some are subject to more restrictive terms including non-commercial use clauses (e.g CC BY-NC-SA 4.0) or other stipulations.**
+:::
 
 Please point out any errors on the [issues page](https://github.com/llm-jp/awesome-japanese-llm/issues). Feel free to contribute directly with a pull request.
 
