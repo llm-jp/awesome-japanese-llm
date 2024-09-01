@@ -10,10 +10,11 @@
 
 A list of publicly available LLMs trained with a focus on Japanese, along with their evaluation benchmarks, maintained by volunteers from various sources like academic papers and other public resources.
 
-⚠ Caution:
+::: warning Caution
 1. We can't guarantee the accuracy or completeness of any information here.
 2. Some information is based on conjecture and might not reflect your specific use case.
 3. While many models are released under permissive licenses like MIT or Apache 2.0, **some are subject to more restrictive terms including non-commercial use clauses (e.g CC BY-NC-SA 4.0) or other stipulations.**
+:::
 
 Please point out any errors on the [issues page](https://github.com/llm-jp/awesome-japanese-llm/issues). Feel free to contribute directly with a pull request.
 
@@ -286,7 +287,9 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 |    | Architecture |  Developer  |  License | 
 |:---|:---:|:---:|:---:|
-| [JaColBERT](https://arxiv.org/pdf/2312.16144.pdf)<br>([JaColBERT](https://huggingface.co/bclavie/JaColBERT), [JaColBERTv2](https://huggingface.co/bclavie/JaColBERTv2)) | ColBERT | Individual ([Benjamin Clavié](https://scholar.google.com/citations?user=vuMln98AAAAJ)) | MIT |
+| [JaColBERTv2.5](https://www.answer.ai/posts/2024-08-02-jacolbert-v25.html)<br>([JaColBERTv2.4](https://huggingface.co/answerdotai/JaColBERTv2.4), [JaColBERTv2.5](https://huggingface.co/answerdotai/JaColBERTv2.5)) | ColBERTv2 | Answer.AI | MIT |
+| [JaColBERTv2](https://huggingface.co/bclavie/JaColBERTv2)<br>([JaColBERTv2](https://huggingface.co/bclavie/JaColBERTv2)) | ColBERTv2 | Individual ([Benjamin Clavié](https://scholar.google.com/citations?user=vuMln98AAAAJ)) | MIT |
+| [JaColBERT](https://arxiv.org/pdf/2312.16144.pdf)<br>([JaColBERT](https://huggingface.co/bclavie/JaColBERT)) | ColBERTv2 | Individual ([Benjamin Clavié](https://scholar.google.com/citations?user=vuMln98AAAAJ)) | MIT |
 | [Japanese SimCSE](https://arxiv.org/pdf/2310.19349.pdf)<br>([cl-nagoya/unsup-simcse-ja-base](https://huggingface.co/cl-nagoya/unsup-simcse-ja-base), [cl-nagoya/unsup-simcse-ja-large](https://huggingface.co/cl-nagoya/unsup-simcse-ja-large), [cl-nagoya/sup-simcse-ja-base](https://huggingface.co/cl-nagoya/sup-simcse-ja-base), [cl-nagoya/sup-simcse-ja-large](https://huggingface.co/cl-nagoya/sup-simcse-ja-large)) | SimCSE | Nagoya University Takeda-Sasano Group | CC BY-SA 4.0 |
 | [GLuCoSE](https://prtimes.jp/main/html/rd/p/000000123.000022705.html)<br>([pkshatech/GLuCoSE-base-ja](https://huggingface.co/pkshatech/GLuCoSE-base-ja)) | Sentence embedding model based on LUKE<br>(GLuCoSE) | PKSHA Technology | Apache 2.0 |
 ||||
@@ -296,6 +299,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [pkshatech/simcse-ja-bert-base-clcmlp](https://huggingface.co/pkshatech/simcse-ja-bert-base-clcmlp) | SimCSE | PKSHA Technology | CC BY&#x2011;SA 4.0 |
 | [MU-Kindai/Japanese-MixCSE-BERT-base](https://huggingface.co/MU-Kindai/Japanese-MixCSE-BERT-base)<br>[MU-Kindai/Japanese-MixCSE-BERT-large](https://huggingface.co/MU-Kindai/Japanese-MixCSE-BERT-large) | MixCSE | Kindai University | MIT |
 | [MU-Kindai/Japanese-DiffCSE-BERT-base](https://huggingface.co/MU-Kindai/Japanese-DiffCSE-BERT-base) | DiffCSE | Kindai University | MIT | 
+| [bclavie/fio-base-japanese-v0.1](https://huggingface.co/bclavie/fio-base-japanese-v0.1) | | 個人 ([Benjamin Clavié](https://scholar.google.com/citations?user=vuMln98AAAAJ)) | |
 | [cl-nagoya/shioriha-large-pt](https://huggingface.co/cl-nagoya/shioriha-large-pt) | | Nagoya University Takeda-Sasano Group | |
 
 <a id="multimodal"></a>
@@ -453,6 +457,8 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 |   | Description | Developer |
 |:---|:---|:---:|
 | [JMTEB](https://huggingface.co/datasets/sbintuitions/JMTEB) | A benchmark developed as the Japanese version of [MTEB](https://github.com/embeddings-benchmark/mteb). It consists of tasks such as document clustering, text classification, sentence similarity, sentence pair labeling prediction, and text extraction (a reranking task was recently added). | SB Intuitions |
+| [JQaRA](https://github.com/hotchpotch/JQaRA/) | A dataset for evaluating Japanese document extraction and reranking accuracy. Each of the 1,667 questions is assigned 100 candidate documents, of which at least one can answer the question. The questions are taken from [JAQKET](https://www.nlp.ecei.tohoku.ac.jp/projects/jaqket/), and the candidate documents are sourced from Japanese Wikipedia. | Individual (Yuichi Tateno) |
+| [JaCWIR](https://github.com/hotchpotch/JaCWIR) | A dataset created for evaluating document extraction and reranking in domains other than Wikipedia. Each of the 5,000 questions is assigned one Web page that serves as the source of the question and 99 unrelated Web pages. | Individual (Yuichi Tateno) |
 
 <a id="vl-benchmark-suites"></a>
 ### Benchmarks for vision-language models
@@ -496,6 +502,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | HuBERT | 2021.06.14 | TASLP 2021 | [HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units](https://arxiv.org/abs/2106.07447) |
 | CLOOB | 2021.10.21 | NeurIPS 2022 | [CLOOB: Modern Hopfield Networks with InfoLOOB Outperform CLIP](https://arxiv.org/abs/2110.11316) |
 | DeBERTaV3 | 2021.11.18 | ICLR 2023 | [DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing](https://arxiv.org/abs/2111.09543) |
+| ColBERTv2 | 2021.12.02 | NAACL 2022 | [ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction](https://aclanthology.org/2022.naacl-main.272/) |
 | Stable Diffusion | 2021.12.20 | CVPR 2022 | [High-Resolution Image Synthesis With Latent Diffusion Models](https://arxiv.org/abs/2112.10752) |
 | BLIP | 2022.01.28 | ICML 2022 | [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086) |
 | MixCSE | 2022.02.22 | AAAI 2022 | [Unsupervised Sentence Representation via Contrastive Learning with Mixing Negatives](https://ojs.aaai.org/index.php/AAAI/article/view/21428) |
