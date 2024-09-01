@@ -18,49 +18,9 @@ Voici une liste des LLMs disponibles au grand public, axés sur l'apprentissage 
 
 N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/llm-jp/awesome-japanese-llm/issues). N'hésitez pas également à contribuer directement avec une pull request.
 
-## Table des matières
-- [Modèles IA génératives](#generative)
-  - [Modèles développés à partir de zéro](#full-scratch-models)
-    - [D'usage général](#generative-scratch-general)
-    - [Spécifique à un domaine](#generative-scratch-domain-specific)
-  - [Modèles développés à partir d'LLM non-japonais (avec un apprentissage en continue en japonais)](#english-based-models)
-    - [D'usage général](#generative-continual-general)
-    - [Spécifique à un domaine](#generative-continual-domain-specific)
-  - [Modèles développés à partir d'LLM non-japonais (avec un affinement par instructions en japonais)](#instruction-only-models)
-    - [D'usage général](#generative-instruction-only-general)
-    - [Spécifique à un domaine](#generative-instruction-only-domain-specific)
-  - [Modèles fusionnés](#merged-models)
-  - [Modèles basés sur des API](#api-based-models)
-- [Modèles encodeur](#autoencoding)
-  - [D'usage général](#autoencoding-general)
-  - [Spécifique à un domaine](#autoencoding-domain-specific)
-- [Plongement lexical par mots et par documents](#embeddings)
-- [Modèles Vision-Language](#multimodal)
-  - [Text+Image vers Text](#multimodal-text-generation)
-    - [D'usage général](#multimodal-general)
-    - [Spécifique à un domaine](#multimodal-domain-specific)
-  - [Text vers Image](#multimodal-text-to-image)
-    - [D'usage général](#multimodal-text-to-image-general)
-    - [Spécifique à un domaine](#multimodal-text-to-image-domain-specific)
-  - [Autres](#multimodal-others)
-- [Modèles Speech-Language](#speech)
-  - [Reconnaissance automatique de la parole](#speech-asr)
-  - [Autres](#speech-others)
-- [Standard d'évaluation pour les LLM en japonais](#benchmark-suites)
-  - [Benchmarks hybrides](#hybrid-benchmark-suites)
-  - [Référence traditionnelle basé sur des tâches de Compréhension du langage naturel (NLU)](#basic-benchmark-suites)
-  - [Standard des tâches génératives ouvertes](#open-ended-benchmark-suites)
-  - [Benchmarks pour mesurer la performance dans des domaines spécifiques](#domain-specific-benchmark-suites)
-  - [Benchmarks pour mesurer la factualité et la sécurité](#factuality-safety-benchmark-suites)
-  - [Benchmarks pour mesurer les capacités de raisonnement logique](#logical-reasoning-benchmark-suites)
-  - [Benchmarks pour la génération de texte contrôlée](#controllabilitiy-benchmark-suites)
-  - [Benchmarks pour modèles d'embeddings](#embeddings-benchmark-suites)
-  - [Benchmarks pour modèles vision-language](#vl-benchmark-suites)
-- [Références pour les modèles et les architectures](#reference)
-- [Références pour les méthodes d'entraînement](#reference-training)
-- [Nos contributors](#contributors)
-- [Citation](#citation)
-
+::: details Table des matières
+[[toc]]
+:::
 
 <a id="generative"></a>
 ## Modèles IA génératives

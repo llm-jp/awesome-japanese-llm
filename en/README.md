@@ -18,48 +18,9 @@ A list of publicly available LLMs trained with a focus on Japanese, along with t
 
 Please point out any errors on the [issues page](https://github.com/llm-jp/awesome-japanese-llm/issues). Feel free to contribute directly with a pull request.
 
-## Table of Contents
-- [Text Generation Models](#generative)
-  - [Models built from scratch](#full-scratch-models)
-    - [General purpose](#generative-scratch-general)
-    - [Domain specific](#generative-scratch-domain-specific)
-  - [Models built off non-Japanese LLMs (w/ continual pre-training on Japanese)](#english-based-models)
-    - [General purpose](#generative-continual-general)
-    - [Domain specific](#generative-continual-domain-specific)
-  - [Models built off non-Japanese LLMs (w/ instruction tuning on Japanese)](#instruction-only-models)
-    - [General purpose](#generative-instruction-only-general)
-    - [Domain specific](#generative-instruction-only-domain-specific)
-  - [Merged models](#merged-models)
-  - [API-based models](#api-based-models)
-- [Encoder Models](#autoencoding)
-  - [General purpose](#autoencoding-general)
-  - [Domain specific](#autoencoding-domain-specific)
-- [Sentence and Document Embeddings](#embeddings)
-- [Vision-Language Models](#multimodal)
-  - [Text+Image to Text](#multimodal-text-generation)
-    - [General purpose](#multimodal-general)
-    - [Domain specific](#multimodal-domain-specific)
-  - [Text to Image](#multimodal-text-to-image)
-    - [General purpose](#multimodal-text-to-image-general)
-    - [Domain specific](#multimodal-text-to-image-domain-specific)
-  - [Others](#multimodal-others)
-- [Speech-Language Models](#speech)
-  - [Automatic Speech Recognition](#speech-asr)
-  - [Others](#speech-others)
-- [Evaluation Benchmarks for Japanese LLMs](#benchmark-suites)
-  - [Hybrid Benchmarks](#hybrid-benchmark-suites)
-  - [Traditional Benchmarks based on Natural Language Understanding tasks](#basic-benchmark-suites)
-  - [Benchmarks on open-ended generative tasks](#open-ended-benchmark-suites)
-  - [Benchmarks for measuring performance in specific domains](#domain-specific-benchmark-suites)
-  - [Benchmarks for measuring factuality and safety](#factuality-safety-benchmark-suites)
-  - [Benchmarks for measuring logical reasoning capabilities](#logical-reasoning-benchmark-suites)
-  - [Benchmarks on controlled text generation](#controllabilitiy-benchmark-suites)
-  - [Benchmarks for embedding models](#embeddings-benchmark-suites)
-  - [Benchmarks for vision-language models](#vl-benchmark-suites)
-- [References for Models and Architectures](#reference)
-- [References for Training Methods](#reference-training)
-- [Our Contributors](#contributors)
-- [Citation](#citation)
+::: details Table of Contents
+[[toc]]
+:::
 
 <a id="generative"></a>
 ## Text Generation Models

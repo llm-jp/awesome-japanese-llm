@@ -19,50 +19,9 @@
 
 この記事の管理は GitHub で行っています。記事の間違いを発見した場合、あるいはモデルの追加提案を行いたい場合は、[GitHub Issues](https://github.com/llm-jp/awesome-japanese-llm/issues) 経由で報告していただけますと幸いです。
 
-## 目次
-
-- [テキスト生成に主に使うモデル](#generative)
-  - [フルスクラッチ事前学習モデル](#full-scratch-models)
-    - [汎用](#generative-scratch-general)
-    - [ドメイン特化型](#generative-scratch-domain-specific)
-  - [海外モデルに日本語で追加事前学習を行ったモデル（継続事前学習モデル）](#english-based-models)
-    - [汎用](#generative-continual-general)
-    - [ドメイン特化型](#generative-continual-domain-specific)
-  - [海外モデルに日本語で指示チューニング (Instruction Tuning) のみ行ったモデル](#instruction-only-models)
-    - [汎用](#generative-instruction-only-general)
-    - [ドメイン特化型](#generative-instruction-only-domain-specific)
-  - [複数のLLMをマージして作成されたモデル](#merged-models)
-  - [APIとして提供されているモデル](#api-based-models)
-- [入力テキストの処理に主に使うモデル](#autoencoding)
-  - [汎用](#autoencoding-general)
-  - [ドメイン特化型](#autoencoding-domain-specific)
-- [埋め込み (Embeddings) 作成に特化したモデル](#embeddings)
-- [視覚言語モデル (Vision-Language Models)](#multimodal)
-  - [画像+テキストからのテキスト生成](#multimodal-text-generation)
-    - [汎用](#multimodal-general)
-    - [ドメイン特化型](#multimodal-domain-specific)
-  - [テキストからの画像生成](#multimodal-text-to-image)
-    - [汎用](#multimodal-text-to-image-general)
-    - [ドメイン特化型](#multimodal-text-to-image-domain-specific)
-  - [その他](#multimodal-others)
-- [音声言語モデル (Speech-Language Models)](#speech)
-  - [音声認識](#speech-asr)
-  - [その他](#speech-others)
-- [日本語LLM評価ベンチマーク/データセットまとめ](#benchmark-suites)
-  - [複合型ベンチマーク](#hybrid-benchmark-suites)
-  - [基礎的な自然言語理解 (NLU) を中心に測定するベンチマーク/データセット](#basic-benchmark-suites)
-  - [人間らしい応答の生成能力を中心に測定するベンチマーク/データセット](#open-ended-benchmark-suites)
-  - [特定ドメインの性能を測定するベンチマーク/データセット](#domain-specific-benchmark-suites)
-  - [事実性・安全性を測定するベンチマーク/データセット](#factuality-safety-benchmark-suites)
-  - [論理推論能力を測定するベンチマーク/データセット](#logical-reasoning-benchmark-suites)
-  - [制約付きの生成能力を測定するベンチマーク/データセット](#controllabilitiy-benchmark-suites)
-  - [埋め込みモデルのベンチマーク/データセット](#embeddings-benchmark-suites)
-  - [視覚言語モデル (Vision-Language Models) のベンチマーク/データセット](#vl-benchmark-suites)
-- [各モデル・アーキテクチャの原論文](#reference)
-- [LLMの学習手法の原論文](#reference-training)
-- [コントリビューター](#contributors)
-- [引用](#citation)
-
+::: details 目次
+[[toc]]
+:::
 
 <a id="generative"></a>
 ## テキスト生成に主に使うモデル
