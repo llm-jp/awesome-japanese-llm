@@ -48,6 +48,7 @@
 | Llama 2 | 2023.07.18 | - | [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288) |
 | Code Llama | 2023.08.24 | - | [Code Llama: Open Foundation Models for Code](https://arxiv.org/abs/2308.12950) |
 | Qwen | 2023.09.28 | - | [Qwen Technical Report](https://arxiv.org/abs/2309.16609) |
+| PixArt-α | 2023.09.30 | ICLR 2024 | [PixArt-α: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis](https://arxiv.org/abs/2310.00426) |
 | LLaVA-1.5 | 2023.10.05 | CVPR 2024 | [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744) |
 | Mistral 7B | 2023.10.10 | - | [Mistral 7B](https://arxiv.org/abs/2310.06825) |
 | Distil-Whisper | 2023.11.01 | - | [Distil-Whisper: Robust Knowledge Distillation via Large-Scale Pseudo Labelling](https://arxiv.org/abs/2311.00430) |
@@ -55,8 +56,10 @@
 | Nue ASR | 2023.12.06 | ACL 2024 (Findings) | [Integrating Pre-Trained Speech and Language Models for End-to-End Speech Recognition](https://arxiv.org/abs/2312.03668) |
 | InternVL | 2023.12.21 | CVPR 2024 | [InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks](https://arxiv.org/abs/2312.14238) |
 | TinyLlama | 2024.01.04 | - | [TinyLlama: An Open-Source Small Language Model](https://arxiv.org/abs/2401.02385) |
+| PIXART-δ | 2024.01.10 | - | [PIXART-δ: Fast and Controllable Image Generation with Latent Consistency Models](https://arxiv.org/abs/2401.05252) |
 | Mixtral 8x7B | 2024.01.08 | - | [Mixtral of Experts](https://arxiv.org/abs/2401.04088) |
 | LEIA | 2024.02.18 | ACL 2024 (Findings) | [LEIA: Facilitating Cross-lingual Knowledge Transfer in Language Models with Entity-based Data Augmentation](https://arxiv.org/abs/2402.11485) |
+| PixArt-Σ | 2024.03.07 | - | [PixArt-Σ: Weak-to-Strong Training of Diffusion Transformer for 4K Text-to-Image Generation](https://arxiv.org/abs/2403.04692) |
 | Gemma | 2024.03.13 | - | [Gemma: Open Models Based on Gemini Research and Technology](https://arxiv.org/abs/2403.08295) |
 | EvoLLM-JP, EvoVLM-JP | 2024.03.19 | - | [Evolutionary Optimization of Model Merging Recipes](https://arxiv.org/abs/2403.13187) |
 | RakutenAI-7B | 2024.03.21 | - | [RakutenAI-7B: Extending Large Language Models for Japanese](https://arxiv.org/abs/2403.15484) |
@@ -64,6 +67,7 @@
 | SambaLingo-Japanese | 2024.04.08 | - | [SambaLingo: Teaching Large Language Models New Languages](https://arxiv.org/abs/2404.05829) |
 | Heron | 2024.04.11 | - | [Heron-Bench: A Benchmark for Evaluating Vision Language Models in Japanese](https://arxiv.org/abs/2404.07824) |
 | Stockmark-13b | 2024.04.12 | - | [Pretraining and Updating Language- and Domain-specific Large Language Model: A Case Study in Japanese Business Domain](https://arxiv.org/abs/2404.08262) |
+| Phi-3 | 2024.04.22 | - | [Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone](https://arxiv.org/abs/2404.14219) |
 | InternVL 1.5 | 2024.04.25 | - | [How Far Are We to GPT-4V? Closing the Gap to Commercial Multimodal Models with Open-Source Suites](https://arxiv.org/abs/2404.16821) |
 | Swallow | 2024.04.27 | COLM 2024 | [Continual Pre-Training for Cross-Lingual LLM Adaptation: Enhancing Japanese Language Capabilities](https://arxiv.org/abs/2404.17790) |
 | LLM-jp-13B | 2024.07.04 | - | [LLM-jp: A Cross-organizational Project for the Research and Development of Fully Open Japanese LLMs](https://arxiv.org/abs/2407.03963) |
