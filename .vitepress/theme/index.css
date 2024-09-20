@@ -5,3 +5,7 @@
 .medium-zoom-image {
   z-index: 21;
 }
+
+.VPSocialLinks.VPNavBarSocialLinks.social-links {
+  margin-right: 0;
+}

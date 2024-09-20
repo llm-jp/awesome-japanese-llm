@@ -1,14 +1,34 @@
 import DefaultTheme from 'vitepress/theme';
-import { onMounted } from 'vue';
-import mediumZoom from 'medium-zoom';
+import { h } from 'vue';
 
 import './index.css';
+import {
+  NolebaseEnhancedReadabilitiesMenu,
+  NolebaseEnhancedReadabilitiesScreenMenu,
+} from "@nolebase/vitepress-plugin-enhanced-readabilities/client";
+import "@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css";
+import type { Options as NolebaseReadOptions } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
+import { InjectionKey as NolebaseReadInjectionKey } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 
 export default {
-  ...DefaultTheme,
-  setup() {
-    onMounted(() => {
-      mediumZoom('.main img', { background: 'var(--vp-c-bg)' });
+  extends: DefaultTheme,
+  Layout: () => {
+    return h(DefaultTheme.Layout, null, {
+      "nav-screen-content-after": () => h(NolebaseEnhancedReadabilitiesScreenMenu),
+      "nav-bar-content-after": () => h(NolebaseEnhancedReadabilitiesMenu),
     });
   },
+  enhanceApp({ app }) {
+    app.provide(NolebaseReadInjectionKey, {
+      layoutSwitch: {
+        defaultMode: 5,
+        contentLayoutMaxWidth: {
+          defaultMaxWidth: 85
+        },
+        pageLayoutMaxWidth: {
+          defaultMaxWidth: 85
+        }
+      }
+    } as NolebaseReadOptions);
+  }
 };

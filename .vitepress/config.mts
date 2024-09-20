@@ -74,5 +74,17 @@ export default defineConfig({
       },
       link: '/fr/'
     },
+  },
+  vite: {
+    optimizeDeps: {
+      exclude: [
+        "@nolebase/vitepress-plugin-enhanced-readabilities/client",
+      ],
+    },
+    ssr: {
+      noExternal: [
+        "@nolebase/vitepress-plugin-enhanced-readabilities",
+      ],
+    },
   }
 })
