@@ -464,7 +464,9 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 We love contributors! Feel free to contribute to this project.
 
-<img loading="lazy" src="../figures/contributors.svg" alt="contributors" />
+<a href="https://github.com/llm-jp/awesome-japanese-llm/graphs/contributors" target="_blank" rel="noreferrer">
+  <img loading="lazy" src="../figures/contributors.svg" alt="contributors" />
+</a>
 
 <a id="citation"></a>
 ## Citation

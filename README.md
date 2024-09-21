@@ -466,7 +466,9 @@
 
 このプロジェクトに貢献してくれているコントリビューターのみなさんです！
 
-<img loading="lazy" src="./figures/contributors.svg" alt="コントリビューター" />
+<a href="https://github.com/llm-jp/awesome-japanese-llm/graphs/contributors" target="_blank" rel="noreferrer">
+  <img loading="lazy" src="./figures/contributors.svg" alt="コントリビューター" />
+</a>
 
 <a id="citation"></a>
 ## 引用
