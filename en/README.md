@@ -127,6 +127,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [lightblue/japanese-mpt-7b](https://huggingface.co/lightblue/japanese-mpt-7b) | MPT (**7b**) | Japanese mC4 | Lightblue | Apache 2.0 |
 | [Japanese Stable LM 3B-4E1T](https://ja.stability.ai/blog/japanese-stable-lm-3b-4e1tjapanese-stable-lm-gamma-7b)<br>([3b-4e1t-base](https://huggingface.co/stabilityai/japanese-stablelm-3b-4e1t-base), [3b-4e1t-instruct](https://huggingface.co/stabilityai/japanese-stablelm-3b-4e1t-instruct)) | StableLM-3B-4E1T (**3b**) | Pre-training: Wikipedia, Japanese mC4, Japanese CC-100, Japanese OSCAR, SlimPajama(excluding Books3)<br>(**100B** tokens)<br>Instruction Tuning: Dolly Dataset, HH RLHF, wikinews subset of llm-japanese-dataset | Stability AI |  Apache 2.0  |
 | [kotomamba-2.8B-CL](https://huggingface.co/kotoba-tech/kotomamba-2.8B-CL-v1.0) | mamba-2.8b-slimpj<br>(**2.8b**) | Japanese Wikipedia, Swallow Corpus, SlimPajama | Kotoba Technologies | Apache 2.0 |
+| [Gemma 2 Baku 2B](https://rinna.co.jp/news/2024/10/20241003.html)<br>([2b](https://huggingface.co/rinna/gemma-2-baku-2b), [2b-it](https://huggingface.co/rinna/gemma-2-baku-2b-it)) | Gemma 2 (**2b**) | Pre-training: Wikipedia, Japanese C4, Japanese CC-100, Japanese OSCAR, The Pile, undisclosed dataset<br>(**80B** tokens)<br>OPRO: undisclosed dataset [^20] | rinna | Gemma Terms of Use |
 | [Japanese Stable LM 2 1.6B](https://ja.stability.ai/blog/japanese-stable-lm-2-16b)<br>([base](https://huggingface.co/stabilityai/japanese-stablelm-2-base-1_6b), [instruct](https://huggingface.co/stabilityai/japanese-stablelm-2-instruct-1_6b)) | Stable LM 2 1.6B (**1.6b**) | Pre-training: Wikipedia, CulturaX<br>Instruction Tuning: jaster, [ichikara-instruction](https://liat-aip.sakura.ne.jp/wp/llm%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF%E4%BD%9C%E6%88%90/), alpaca-gpt4-japanese, ultra-orca-boros-en-ja-v1 | Stability AI | STABILITY AI NON-COMMERCIAL RESEARCH COMMUNITY LICENSE |
 | [karasu-1.1B](https://huggingface.co/lightblue/karasu-1.1B) | TinyLlama (**1.1b**) | Pre-training: Japanese OSCAR, Japanese mC4<br>(**3B** tokens) | Lightblue | Apache 2.0 |
 
@@ -144,7 +145,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [NovelAI/genji-jp](https://huggingface.co/NovelAI/genji-jp) | Storytelling | GPT-J (**6b**) | NovelAI |  ？  |
 
 <a id="instruction-only-models"></a>
-### Models built off non-Japanese LLMs (w/ instruction tuning on Japanese)
+### Models built off non-Japanese LLMs (w/ post-training on Japanese)
 
 <a id="generative-instruction-only-general"></a>
 #### General purpose
@@ -171,6 +172,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [lightblue/jod](https://huggingface.co/lightblue/jod) | Mistral-7B-SlimOrca (**7b**) || Lightblue | Apache 2.0 |
 | [NTQAI/chatntq-7b-jpntuned](https://huggingface.co/NTQAI/chatntq-7b-jpntuned) | RWKV-4 World (**7b**)|| NTQ Solution |  ？  |
 | [Borea](https://prtimes.jp/main/html/rd/p/000000008.000129878.html)<br>([Jp](https://huggingface.co/AXCXEPT/Borea-Phi-3.5-mini-Instruct-Jp), [Common](https://huggingface.co/AXCXEPT/Borea-Phi-3.5-mini-Instruct-Common), [Coding](https://huggingface.co/AXCXEPT/Borea-Phi-3.5-mini-Instruct-Coding)) | Phi-3.5 (**3.8b**) | | Axcxept | MIT |
+| [Gemma-2-JPN](https://developers-jp.googleblog.com/2024/10/gemma-2-for-japan.html)<br>([2b-jpn-it](https://huggingface.co/google/gemma-2-2b-jpn-it)) | Gemma 2 (**2b**) || Google | Gemma Terms of Use |
 | [AXCXEPT/EZO-Common-T2-2B-gemma-2-it](https://huggingface.co/AXCXEPT/EZO-Common-T2-2B-gemma-2-it) | Gemma 2 (**2b**) || Axcxept | Gemma Terms of Use |
 
 <a id="generative-instruction-only-domain-specific"></a>
@@ -524,3 +526,5 @@ When referencing this repository, please cite as follows:
 [^18]: For details of each model, please refer to Chapter 4 of the authors' [paper](https://www.jstage.jst.go.jp/article/jnlp/31/2/31_707/_pdf/-char/ja). Note that the SC-2M-wiki model is strictly not a domain-specific model as it is pre-trained only on Wikipedia.
 
 [^19]: Refer to the following articles: [大規模言語モデルTanuki-8B, 8x8Bの位置づけや開発指針など](https://zenn.dev/matsuolab/articles/377f7ae8b1169e), [大規模言語モデルを開発するにあたっての事前・事後学習の戦略メモー特に合成データについてー](https://zenn.dev/matsuolab/articles/34036f017fae9e)
+
+[^20]: Before conducting Instruction Tuning, a Chat Vector between Gemma 2 Instruct and Gemma 2 Base is added.

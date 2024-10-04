@@ -1,11 +1,14 @@
 Model,Lab,Parameters(B),Announced,Type,Source(JP)
+日本語版  Gemma 2 2B,Google,2,2024/10/3,JP-available-CP,https://developers-jp.googleblog.com/2024/10/gemma-2-for-japan.html
 Sarashina2-70b,SB Intuitions,70,2024/8/7,JP-available,https://huggingface.co/sbintuitions/sarashina2-70b
 Sarashina,SB Intuitions,65,2024/6/14,JP-available,https://www.sbintuitions.co.jp/news/press/20240614_01/
+Takane,Fujitsu,104,2024/9/30,JP-available-CP,https://pr.fujitsu.com/jp/news/2024/09/30.html
 Fugaku-LLM,"Titech, Tohoku Univ., Fujitsu, RIKEN, Nagoya Univ., CyberAgent, Kotoba Technologies",13,2024/5/10,JP-available,https://www.fujitsu.com/global/about/resources/news/press-releases/2024/0510-01.html
 ,Rakuten,7,2024/3/21,JP-available-CP,https://corp.rakuten.co.jp/news/press/2024/0321_01.html
 KARAKURI 8x7B Instruct,KARAKURI,46.7,2024/6/20,JP-available-CP,https://karakuri.ai/seminar/news/karakuri-lm-8x7b-instruct-v0-1/
 KARAKURI 8x7B Chat,KARAKURI,46.7,2024/5/20,JP-available-CP,https://karakuri.ai/seminar/news/aws_trainium_moe/
 KARAKURI,KARAKURI,70,2024/1/31,JP-available-CP,https://karakuri.ai/seminar/news/karakuri-lm/
+Gemma 2 Baku 2B,rinna,2,2024/10/3,JP-available-CP,https://rinna.co.jp/news/2024/10/20241003.html
 Llama 3 Youko (Instruct),rinna,70,2024/07/25,JP-available-CP,https://rinna.co.jp/news/2024/07/20240725.html
 Llama 3 Youko,rinna,8,2024/05/07,JP-available-CP,https://rinna.co.jp/news/2024/05/20240507.html
 Nekomata,rinna,14,2023/12/21,JP-available-CP,https://rinna.co.jp/news/2023/12/20231221.html
