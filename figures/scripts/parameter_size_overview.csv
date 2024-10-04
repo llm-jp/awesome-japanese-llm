@@ -1,7 +1,22 @@
 Model,Lab,Parameters(B),Announced,Type
+LFM-40B,Liquid AI,40.0,2024/09/01,EN-available
+NLVM 1.0,NVIDIA,72.0,2024/09/01,EN-available
+TeleChat2-115B,China Telecom Artificial Intelligence Research Institute,115.0,2024/09/01,EN-available
+AMD-Llama-135m,AMD,0.135,2024/09/01,EN-available
+Llama 3.2 90B,Meta AI,90.0,2024/09/01,EN-available
+Llama 3.2 3B,Meta AI,3.21,2024/09/01,EN-available
+Molmo,Allen AI,72.0,2024/09/01,EN-available
+Gemini-1.5-Pro-002 ,Google DeepMind,1500.0,2024/09/01,EN-available
+Qwen2.5,Alibaba,72.0,2024/09/01,EN-available
+GRIN MoE,Microsoft,60.0,2024/09/01,EN-available
+Data-Gemma,Google DeepMind,27.0,2024/09/01,EN-available
+o1,OpenAI,200.0,2024/09/01,EN-available
+Reader-LM,Jina AI,1.54,2024/09/01,EN-available
+Pixtral-12b-240910,Mistral,12.0,2024/09/01,EN-available
 DeepSeek-V2.5,DeepSeek-AI,236.0,2024/09/01,EN-available
 Yi-Coder,01-ai,9.0,2024/09/01,EN-available
 OLMoE-1B-7B,Allen AI,6.9,2024/09/01,EN-available
+PLLuM,Consortium,20.0,2024/08/01,EN-available
 xLAM,Salesforce,141.0,2024/08/01,EN-available
 Rene,Cartesia,1.3,2024/08/01,EN-available
 Gemini 1.5 Flash-8B,Google DeepMind,8.0,2024/08/01,EN-available
@@ -13,6 +28,7 @@ phi-3.5-mini,Microsoft,3.8,2024/08/01,EN-available
 Minitron-4B,NVIDIA,4.0,2024/08/01,EN-available
 sarvam-2b,Sarvam AI,2.0,2024/08/01,EN-available
 Grok-2,xAI,600.0,2024/08/01,EN-available
+EXAONE 3.0,LG,7.8,2024/08/01,EN-available
 Falcon Mamba 7B,TII,7.0,2024/08/01,EN-available
 Palmyra-Med-70B,Writer,70.0,2024/07/01,EN-available
 Palmyra-Fin-70B,Writer,70.0,2024/07/01,EN-available
@@ -54,7 +70,7 @@ Yi-Large,01-ai,1000.0,2024/05/01,EN-available
 Chameleon,Meta AI,34.0,2024/05/01,EN-available
 Sparse Llama 7B,Cerebras,7.0,2024/05/01,EN-available
 Gemini 1.5 Flash,Google DeepMind,,2024/05/01,EN-available
-GPT-4o,OpenAI,70.0,2024/05/01,EN-available
+GPT-4o,OpenAI,200.0,2024/05/01,EN-available
 Falcon 2 11B,TII,11.0,2024/05/01,EN-available
 Fugaku-LLM,Fujitsu,13.0,2024/05/01,EN-available
 Yi 1.5 34B,01-ai,34.4,2024/05/01,EN-available
@@ -238,7 +254,7 @@ StableLM,Stability AI,65.0,2023/04/01,EN-available
 Dolly 2.0,Databricks,12.0,2023/04/01,EN-available
 Pythia,EleutherAI,12.0,2023/04/01,EN-available
 Koala-13B,Berkeley,13.0,2023/04/01,EN-available
-C1.2,Character.ai,33.0,2023/03/01,EN-available
+C1.2,Character.ai,20.0,2023/03/01,EN-available
 OpenFlamingo-9B,LAION,8.3,2023/03/01,EN-available
 GPT4All-LoRa,Nomic,7.0,2023/03/01,EN-available
 Cerebras-GPT,Cerebras,13.0,2023/03/01,EN-available
@@ -302,6 +318,7 @@ GPT-J,EleutherAI,6.0,2021/06/01,EN-available
 ruGPT-3,Huawei/Sberbank,1.3,2021/02/01,EN-available
 Switch,Google,1600.0,2021/01/01,EN-available
 GPT-3,OpenAI,175.0,2020/05/01,EN-available
+SFR-LLaMA-3.1-70B-Judge,Salesforce,70.0,2024/09/01,EN-unavailable
 LTM-2-mini,Magic,20.0,2024/08/01,EN-unavailable
 SpreadsheetLLM,Microsoft,1760.0,2024/07/01,EN-unavailable
 FLAMe,Google DeepMind,24.0,2024/07/01,EN-unavailable
