@@ -1,8 +1,9 @@
 ignore:
   urls:
+    - https://aclanthology.org/*
+    - https://alaginrc.nict.go.jp/nict-bert/index.html
+    - https://arxiv.org/*
     - https://gitlab.llm-jp.nii.ac.jp/datasets/*
     - https://llm-jp.nii.ac.jp/blog/2024/02/09/v1.1-tuning.html
-    - https://alaginrc.nict.go.jp/nict-bert/index.html
-    - https://www.anlp.jp/*
-    - https://arxiv.org/*
     - https://ojs.aaai.org/*
+    - https://www.anlp.jp/*
