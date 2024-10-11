@@ -34,7 +34,7 @@
 <a id="generative-scratch-general"></a>
 #### 汎用
 
-|    |  アーキテクチャ  |  入出力で扱える<br>トークン数  |  学習テキスト  |  開発元  | ライセンス |
+|    |  アーキテクチャ  |  入出力で扱える<br>トークン数  |  学習テキスト  |  開発元  | ライセンス / 利用規約 |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | [LLM-jp-3 172B beta1](https://www.nii.ac.jp/news/release/2024/0917.html) | Llama<br>([**172b**-beta1](https://huggingface.co/llm-jp/llm-jp-3-172b-beta1), [**172b**-beta1-instruct](https://huggingface.co/llm-jp/llm-jp-3-172b-beta1-instruct)) | 4,096 | 事前学習: [llm-jp-corpus-v3](https://gitlab.llm-jp.nii.ac.jp/datasets/llm-jp-corpus-v3)の一部<br>(計 **0.7T** トークン)<br>Instruction Tuning: [ichikara-instruction](https://liat-aip.sakura.ne.jp/wp/llm%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF%E4%BD%9C%E6%88%90/), [answer-carefully](https://liat-aip.sakura.ne.jp/wp/answercarefully-dataset/), Dolly Dataset, OASST1, OASST2, Aya Dataset, 	ichikara-instruction-format, Daring-Anteater, FLAN | 大規模言語モデル研究開発センター (LLMC) | LLM-jp-3 172B beta1 Terms of Use |
 | [LLM-jp-3 172B alpha](https://llmc.nii.ac.jp/topics/llm-jp-3-172b-alpha1-alpha2/) | Llama<br>([**172b**-alpha1](https://huggingface.co/llm-jp/llm-jp-3-172b-alpha1), [**172b**-alpha1-instruct](https://huggingface.co/llm-jp/llm-jp-3-172b-alpha1-instruct), [**172b**-alpha2](https://huggingface.co/llm-jp/llm-jp-3-172b-alpha2), [**172b**-alpha2-instruct](https://huggingface.co/llm-jp/llm-jp-3-172b-alpha2-instruct)) | 4,096 | 事前学習: [llm-jp-corpus-v3](https://gitlab.llm-jp.nii.ac.jp/datasets/llm-jp-corpus-v3)の一部<br>(alpha1: 計 **0.7T** トークン, alpha2: 計 **1.4T** トークン)<br>Instruction Tuning: [ichikara-instruction](https://liat-aip.sakura.ne.jp/wp/llm%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF%E4%BD%9C%E6%88%90/), [answer-carefully](https://liat-aip.sakura.ne.jp/wp/answercarefully-dataset/), Dolly Dataset, OASST1, OASST2, Aya Dataset, 	ichikara-instruction-format, Daring-Anteater, FLAN | 大規模言語モデル研究開発センター (LLMC) | Apache 2.0 |
@@ -87,7 +87,7 @@
 <a id="generative-continual-general"></a>
 #### 汎用
 
-|    | ベースのLLM  | 学習テキスト | 開発元  | ライセンス |
+|    | ベースのLLM  | 学習テキスト | 開発元  | ライセンス / 利用規約 |
 |:---|:---:|:---:|:---:|:---:|
 | [cyberagent/Llama-3.1-70B-Japanese-Instruct-2407](https://huggingface.co/cyberagent/Llama-3.1-70B-Japanese-Instruct-2407) | Llama 3.1 (**70b**) | 不明 | サイバーエージェント | Llama 3.1 Community License |
 | [Llama 3 Swallow 70B](https://swallow-llm.github.io/llama3-swallow.ja.html)<br>([70B-v0.1](https://huggingface.co/tokyotech-llm/Llama-3-Swallow-70B-v0.1), [70B-Instruct-v0.1](https://huggingface.co/tokyotech-llm/Llama-3-Swallow-70B-Instruct-v0.1)) | Llama 3 (**70b**) | 事前学習: Algebraic Stack, Wikipedia, RefinedWeb, Swallow Corpus, Cosmopedia, Laboro ParaCorpus, OpenWebMath<br>Instruction Tuning: OASST1 [^17] | Swallow Project | Llama 3 Community License |
@@ -152,7 +152,7 @@
 <a id="generative-instruction-only-general"></a>
 #### 汎用
 
-|    | ベースのLLM  | 学習テキスト | 開発元  | ライセンス |
+|    | ベースのLLM  | 学習テキスト | 開発元  | ライセンス / 利用規約 |
 |:---|:---:|:---:|:---:|:---:|
 | [ao-Karasu](https://note.com/lightblue_tech/n/nfda12435b262)<br>([72B](https://huggingface.co/lightblue/ao-karasu-72B)) | Qwen1.5 (**72b**) | ultra-orca-boros-en-ja-v1, OASST1, ShareGPT, 日本語の公開技術ブログ, ニュース記事, QAサイトの回答, 独自のデータセット | Lightblue |  Tongyi Qianwen LICENSE (?)[^12] |
 | [AXCXEPT/Llama-3.1-70B-EZO-1.1-it](https://huggingface.co/AXCXEPT/Llama-3.1-70B-EZO-1.1-it) | Llama 3.1 (**70b**) || Axcxept | Llama 3.1 Community License |
