@@ -73,3 +73,4 @@
 | LLM-jp-13B | 2024.07.04 | - | [LLM-jp: A Cross-organizational Project for the Research and Development of Fully Open Japanese LLMs](https://arxiv.org/abs/2407.03963) |
 | Llama 3.1 | 2024.07.23 | - | [The Llama 3 Herd of Models](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/) |
 | Gemma 2 | 2024.07.31 | - | [Gemma 2: Improving Open Language Models at a Practical Size](https://arxiv.org/abs/2408.00118) |
+| PLaMo-100B | 2024.10.10 | - | [PLaMo-100B: A Ground-Up Language Model Designed for Japanese Proficiency](https://arxiv.org/abs/2410.07563) |
