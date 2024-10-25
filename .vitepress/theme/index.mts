@@ -21,13 +21,7 @@ export default {
   enhanceApp({ app }) {
     app.provide(NolebaseReadInjectionKey, {
       layoutSwitch: {
-        defaultMode: 5,
-        contentLayoutMaxWidth: {
-          defaultMaxWidth: 85
-        },
-        pageLayoutMaxWidth: {
-          defaultMaxWidth: 85
-        }
+        defaultMode: 3,
       }
     } as NolebaseReadOptions);
   }
