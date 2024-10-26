@@ -479,6 +479,7 @@
 
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
+| [JMMMU](https://mmmu-japanese-benchmark.github.io/JMMMU/) | [MMMU ベンチマーク](https://mmmu-benchmark.github.io/)の日本語版として構築されたベンチマーク。720 件の MMMU の翻訳版の問題と 600 件の日本文化特有の新規の問題から構成される。 | 東大 相澤研 |
 | [Heron VLM リーダーボード powered by nejumi@WandB](https://api.wandb.ai/links/vision-language-leaderboard/h2lxge4n) | [Japanese-Heron-Bench](#japanese-heron-bench) と [LLaVA-Bench-In-the-Wild (Japanese)](#llava-bench-in-the-wild) の評価結果をまとめている。 | Turing, Weights & Biases |
 | <a id="japanese-heron-bench"></a> [Japanese-Heron-Bench](https://huggingface.co/datasets/turing-motors/Japanese-Heron-Bench) | 21 枚の画像に対して計 102 問の質問が割り当てられている。日本に関する知識を要求する画像・質問になっているのが特徴である。 | Turing |
 | [JA-VLM-Bench-In-the-Wild](https://huggingface.co/datasets/SakanaAI/JA-VLM-Bench-In-the-Wild) | Sakana AI が EvoVLM-JP-v1-7B の評価のために独自に用意したデータセット。42 枚の画像に対して計 50 問の質問が割り当てられている。日本に関する知識を要求する画像・質問になっているのが特徴である。 | Sakana AI |

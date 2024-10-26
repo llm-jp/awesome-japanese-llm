@@ -478,6 +478,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 
 |   | Description | Développeur |
 |:---|:---|:---:|
+| [JMMMU](https://mmmu-japanese-benchmark.github.io/JMMMU/) | Un benchmark construit comme la version japonaise du [MMMU Benchmark](https://mmmu-benchmark.github.io/). Il se compose de 720 problèmes traduits du MMMU et de 600 nouveaux problèmes uniques à la culture japonaise. | University of Tokyo Aizawa Lab |
 | [Heron VLM Leaderboard powered by Nejumi/WandB](https://wandb.ai/vision-language-leaderboard/heron-leaderboard/reports/Heron-VLM-Leaderboard-powered-by-Nejumi-WandB--Vmlldzo4MjY3OTc5) | Résume les résultats d'évaluation de [Japanese-Heron-Bench](#japanese-heron-bench) et [LLaVA-Bench-In-the-Wild (Japanese)](#llava-bench-in-the-wild). | Turing, Weights & Biases |
 | <a id="japanese-heron-bench"></a> [Japanese-Heron-Bench](https://huggingface.co/datasets/turing-motors/Japanese-Heron-Bench) | 21 images se voient attribuer un total de 102 questions. Il est caractérisé par des paires image-question qui nécessitent une connaissance liée au Japon. | Turing |
 | [JA-VLM-Bench-In-the-Wild](https://huggingface.co/datasets/SakanaAI/JA-VLM-Bench-In-the-Wild) | Un jeu de données préparé indépendamment par Sakana AI pour évaluer EvoVLM-JP-v1-7B. Il se compose de 50 questions attribuées à 42 images. Il se caractérise par des images et des questions qui exigent une connaissance du Japon. | Sakana AI |

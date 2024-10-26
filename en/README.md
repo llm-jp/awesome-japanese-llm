@@ -477,6 +477,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 |   | Description | Developer |
 |:---|:---|:---:|
+| [JMMMU](https://mmmu-japanese-benchmark.github.io/JMMMU/) | A benchmark constructed as the Japanese version of [MMMU Benchmark](https://mmmu-benchmark.github.io/). It consists of 720 translated MMMU problems and 600 new problems unique to Japanese culture. | University of Tokyo Aizawa Lab |
 | [Heron VLM Leaderboard powered by Nejumi/WandB](https://wandb.ai/vision-language-leaderboard/heron-leaderboard/reports/Heron-VLM-Leaderboard-powered-by-Nejumi-WandB--Vmlldzo4MjY3OTc5) | Summarizes the evaluation results of [Japanese-Heron-Bench](#japanese-heron-bench) and [LLaVA-Bench-In-the-Wild (Japanese)](#llava-bench-in-the-wild). | Turing, Weights & Biases |
 | <a id="japanese-heron-bench"></a> [Japanese-Heron-Bench](https://huggingface.co/datasets/turing-motors/Japanese-Heron-Bench) | 21 images are assigned a total of 102 questions. It is characterized by image-question pairs that require knowledge related to Japan. | Turing |
 | [JA-VLM-Bench-In-the-Wild](https://huggingface.co/datasets/SakanaAI/JA-VLM-Bench-In-the-Wild) | A dataset independently prepared by Sakana AI to evaluate EvoVLM-JP-v1-7B. It consists of 50 questions assigned to 42 images. It is characterized by images and questions that require knowledge about Japan. | Sakana AI |
