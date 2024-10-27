@@ -439,7 +439,7 @@
 | [pfmt-bench-fin-ja](https://github.com/pfnet-research/pfmt-bench-fin-ja) | 金融分野における日本語 LLM の生成能力を測定するためのベンチマーク。 | Preferred Networks |
 | [Stockmark Business Questions](https://huggingface.co/datasets/stockmark/business-questions) | 市場動向、時事問題、社会課題、ビジネストレンドなどの知識を問う問題が50題収録されている。 | ストックマーク |
 | <a id="jmedllm"></a> [JMED-LLM](https://github.com/sociocom/JMED-LLM) | 日本語医療分野における LLM の評価用データセット。これまでに開発されてきた日本語の医療言語処理タスクを LLM ベンチマーク用にまとめている。 | NAIST ソーシャル・コンピューティング研究室 |
-| [JMedBench](https://huggingface.co/datasets/Coldog2333/JMedBench) | 日本語医療分野の LLM ベンチマーク。選択肢問題、機械翻訳、固有表現抽出、文書分類、文類似度計算の 5 種類、計 20 個のデータセットが収録されている（一部のデータセットは [JMMLU](#jmmlu) の医療分野問題や [JMed-LLM](#jmedllm) から借用されている）。また、JMedBench での評価を簡単に行うためのツール [med-eval](https://github.com/nii-nlp/med-eval) が開発されている。 | NII 相澤研 |
+| [JMedBench](https://huggingface.co/datasets/Coldog2333/JMedBench) | 日本語医療分野の LLM ベンチマーク。選択肢問題、機械翻訳、固有表現抽出、文書分類、文類似度計算の 5 種類、計 20 個のデータセットが収録されている（一部のデータセットは [JMMLU](#jmmlu) の医療分野問題や [JMED-LLM](#jmedllm) から借用されている）。また、JMedBench での評価を簡単に行うためのツール [med-eval](https://github.com/nii-nlp/med-eval) が開発されている。 | NII 相澤研 |
 | [Japanese Medical Language Model Evaluation Harness](https://github.com/stardust-coder/japanese-lm-med-harness) | ワンコマンドで実行可能な医療分野に特化したLLMの日英能力評価プログラム。 | 個人 ([​助田一晟](https://scholar.google.co.jp/citations?user=Dc_v0BsAAAAJ)) |
 | [karakuri-bench](https://huggingface.co/datasets/karakuri-ai/karakuri-bench-v0.1) | 日本語 LLM のカスタマーサポートにおける性能を測定するためのデータセット。 | カラクリ |
 
