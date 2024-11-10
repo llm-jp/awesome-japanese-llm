@@ -1,5 +1,6 @@
 Model,Lab,Parameters(B),Announced,Type,Source(JP)
 日本語版  Gemma 2 2B,Google,2,2024/10/3,JP-available-CP,https://developers-jp.googleblog.com/2024/10/gemma-2-for-japan.html
+Sarashina2-8x70B,SB Intuitions,465,2024/11/8,JP-available,https://www.sbintuitions.co.jp/news/press/20241108_01/
 Sarashina2-70b,SB Intuitions,70,2024/8/7,JP-available,https://huggingface.co/sbintuitions/sarashina2-70b
 Sarashina,SB Intuitions,65,2024/6/14,JP-available,https://www.sbintuitions.co.jp/news/press/20240614_01/
 Takane,Fujitsu,104,2024/9/30,JP-unavailable,https://pr.fujitsu.com/jp/news/2024/09/30.html

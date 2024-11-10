@@ -1,5 +1,22 @@
 Model,Lab,Parameters(B),Announced,Type
+Hunyuan-Large,Tencent,389.0,2024/11/01,EN-available
+SEA-LIONv3,AI Singapore,9.24,2024/11/01,EN-available
+AMD OLMo,AMD,1.0,2024/11/01,EN-available
+SmolLM2,Hugging Face,1.7,2024/11/01,EN-available
+Aya-Expanse-32B,Cohere,32.0,2024/10/01,EN-available
+Claude 3.5 Sonnet (new),Anthropic,,2024/10/01,EN-available
+Granite 3.0 8B,IBM,8.0,2024/10/01,EN-available
+Granite-3.0-3B-A800M-Instruct,IBM,3.0,2024/10/01,EN-available
+aiXcoder-7B,aiXcoder,7.0,2024/10/01,EN-available
+Llama-3.1-Nemotron-70B,NVIDIA,70.0,2024/10/01,EN-available
+Ministral 8B,Mistral,8.0,2024/10/01,EN-available
+Yi-Lightning,01-ai,200.0,2024/10/01,EN-available
+Zamba2-7B,Zyphra,7.0,2024/10/01,EN-available
+nGPT,NVIDIA,1.0,2024/10/01,EN-available
+Inflection-3 Pi (3.0),Inflection AI,1200.0,2024/10/01,EN-available
+Inflection-3 Productivity (3.0),Inflection AI,1200.0,2024/10/01,EN-available
 LFM-40B,Liquid AI,40.0,2024/09/01,EN-available
+Emu3,BAAI,8.0,2024/09/01,EN-available
 NLVM 1.0,NVIDIA,72.0,2024/09/01,EN-available
 TeleChat2-115B,China Telecom Artificial Intelligence Research Institute,115.0,2024/09/01,EN-available
 AMD-Llama-135m,AMD,0.135,2024/09/01,EN-available
@@ -139,6 +156,7 @@ Reka Flash,Reka AI,21.0,2024/02/01,EN-available
 Gemma,Google DeepMind,7.0,2024/02/01,EN-available
 Gemini 1.5 Pro,Google DeepMind,1500.0,2024/02/01,EN-available
 Qwen-1.5 72B,Alibaba,72.0,2024/02/01,EN-available
+MobileLLM,Meta AI,1.0,2024/02/01,EN-available
 GOODY-2,BRAIN,,2024/02/01,EN-available
 Natural-SQL-7B,ChatDB,7.0,2024/02/01,EN-available
 Sea-Lion,AI Singapore,7.5,2024/02/01,EN-available
@@ -319,6 +337,7 @@ ruGPT-3,Huawei/Sberbank,1.3,2021/02/01,EN-available
 Switch,Google,1600.0,2021/01/01,EN-available
 GPT-3,OpenAI,175.0,2020/05/01,EN-available
 SFR-LLaMA-3.1-70B-Judge,Salesforce,70.0,2024/09/01,EN-unavailable
+Unnamed 1T,China Telecom Artificial Intelligence Research Institute,1000.0,2024/09/01,EN-unavailable
 LTM-2-mini,Magic,20.0,2024/08/01,EN-unavailable
 SpreadsheetLLM,Microsoft,1760.0,2024/07/01,EN-unavailable
 FLAMe,Google DeepMind,24.0,2024/07/01,EN-unavailable
