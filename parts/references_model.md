@@ -56,8 +56,8 @@
 | Nue ASR | 2023.12.06 | ACL 2024 (Findings) | [Integrating Pre-Trained Speech and Language Models for End-to-End Speech Recognition](https://arxiv.org/abs/2312.03668) |
 | InternVL | 2023.12.21 | CVPR 2024 | [InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks](https://arxiv.org/abs/2312.14238) |
 | TinyLlama | 2024.01.04 | - | [TinyLlama: An Open-Source Small Language Model](https://arxiv.org/abs/2401.02385) |
+| Mixtral | 2024.01.08 | - | [Mixtral of Experts](https://arxiv.org/abs/2401.04088) |
 | PIXART-δ | 2024.01.10 | - | [PIXART-δ: Fast and Controllable Image Generation with Latent Consistency Models](https://arxiv.org/abs/2401.05252) |
-| Mixtral 8x7B | 2024.01.08 | - | [Mixtral of Experts](https://arxiv.org/abs/2401.04088) |
 | LEIA | 2024.02.18 | ACL 2024 (Findings) | [LEIA: Facilitating Cross-lingual Knowledge Transfer in Language Models with Entity-based Data Augmentation](https://arxiv.org/abs/2402.11485) |
 | PixArt-Σ | 2024.03.07 | - | [PixArt-Σ: Weak-to-Strong Training of Diffusion Transformer for 4K Text-to-Image Generation](https://arxiv.org/abs/2403.04692) |
 | Gemma | 2024.03.13 | - | [Gemma: Open Models Based on Gemini Research and Technology](https://arxiv.org/abs/2403.08295) |
