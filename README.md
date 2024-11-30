@@ -417,18 +417,19 @@
 | [日本語LLM評価](https://swallow-llm.github.io/evaluation/index.ja.html) | 様々な LLM を日本語理解・生成タスク、日本語マルチターン対話タスク、英語理解・生成タスクの 3 種類から総合的に評価している。また、既存の LLM 評価ツールを統合・改修した評価スクリプトである [swallow-evaluation](https://github.com/swallow-llm/swallow-evaluation) を合わせて公開している。 | Swallowプロジェクト |
 
 <a id="basic-benchmark-suites"></a>
-### 基礎的な自然言語理解 (NLU) を中心に測定するベンチマーク/データセット
+### 基本的な自然言語処理タスクの性能を測定するベンチマーク/データセット
 
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
-| <a id="llm-jp-eval"></a> [llm-jp-eval](https://github.com/llm-jp/llm-jp-eval) | 複数のデータセットを横断して日本語 LLM を自動評価するツールである。<br>対応している全データセット一覧は[こちら](https://github.com/llm-jp/llm-jp-eval/tree/main/src/llm_jp_eval/jaster)から確認できる（この中には JNLI や JCommonsenseQA といった JGLUE のタスクなども含まれている）。<br>評価結果は [llm-jp-eval リーダーボード](http://wandb.me/llm-jp-leaderboard) にまとめられている。 | LLM-jp |
+| [オープン日本語LLMリーダーボード](https://huggingface.co/spaces/llm-jp/open-japanese-llm-leaderboard) | [llm-jp-eval](#llm-jp-eval) を活用し、16種類のタスクで日本語の大規模言語モデルを評価している。| LLM-jp, Hugging Face |
+| <a id="llm-jp-eval"></a> [llm-jp-eval](https://github.com/llm-jp/llm-jp-eval) | 複数のデータセットを横断して日本語 LLM を自動評価するツールである。<br>対応している全データセット一覧は[こちら](https://github.com/llm-jp/llm-jp-eval/tree/main/src/llm_jp_eval/jaster)から確認できる（この中には JNLI や JCommonsenseQA といった JGLUE のタスクなども含まれている）。 | LLM-jp |
 | [JP Language Model Evaluation Harness](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable) | Stability AI による [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) のフォーク。複数のデータセットを横断して日本語 LLM を自動評価するツールである。<br>対応している全データセット一覧は[こちら](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable/lm_eval/tasks/ja)から確認できる（この中には JNLI や JCommonsenseQA といった JGLUE のタスクなども含まれている）。<br>rinna による詳細な評価結果まとめがある: [[rinna] Benchmark of Stability-AI/lm-evaluation-harness](https://rinnakk.github.io/research/benchmarks/lm/) | Stability AI |
 | [JGLUE](https://github.com/yahoojapan/JGLUE) | [GLUE ベンチマーク](https://gluebenchmark.com/)の日本語版として構築されたベンチマーク。MARC-ja, JCoLA, JSTS, JNLI, JSQuAD, JCommonsenseQA の 6 つのタスクを含む（[JCoLA](https://github.com/osekilab/JCoLA) は東大大関研により作成）。各タスクの詳細は[こちら](https://www.jstage.jst.go.jp/article/jnlp/30/1/30_63/_article/-char/ja)や[こちら](https://techblog.yahoo.co.jp/entry/2022122030379907/)を参照 | 早大 河原研, ヤフー |
 | <a id="jmmlu"></a> [JMMLU](https://github.com/nlp-waseda/JMMLU) | [MMLU ベンチマーク](https://github.com/hendrycks/test)の日本語版として構築されたベンチマーク。自然科学・人文科学・社会科学の幅広い学術領域から 4 択問題を構成している。元の MMLU を翻訳しただけでなく、日本独自の文化的背景に基づく問題（日本問題）を新たに追加しているのが特徴である。 | 早大 河原研 |
-| [日本語 Open LLM Leaderboard](http://wandb.me/llm-jp-openllmleaderboard) | Huggingface の [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) と同様の検証を日本語 LLM に対して行ったもの。日本語 LLM の英語タスクにおける性能を確認できる。 | LLM-jp |
+<!-- | [日本語 Open LLM Leaderboard](http://wandb.me/llm-jp-openllmleaderboard) | Huggingface の [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) と同様の検証を日本語 LLM に対して行ったもの。日本語 LLM の英語タスクにおける性能を確認できる。 | LLM-jp | -->
 
 <a id="open-ended-benchmark-suites"></a>
-### 人間らしい応答の生成能力を中心に測定するベンチマーク/データセット
+### テキスト生成能力を測定するベンチマーク/データセット
 
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
