@@ -211,6 +211,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [Solar mini chat ja](https://www.upstage.ai/feed/tech/solar-mini-chat-ja)<br>([solar-1-mini-chat-ja](https://developers.upstage.ai/docs/apis/chat)) | 32,768 | Upstage | self-owned |
 | [AI Novelist](https://ai-novel.com/account_api.php) | 2,400 ~ 8,192 | Bit192 | self-owned |
 | [LHTM-OPT](https://aws.amazon.com/marketplace/pp/prodview-nw62wpreit442) | | alt Inc. | AWS Marketplace |
+| [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://learn.microsoft.com/fr-fr/azure/ai-studio/how-to/deploy-models-tsuzumi)) | | NTT | Azure AI Studio |
 
 <a id="autoencoding"></a>
 ## Modèles encodeur
