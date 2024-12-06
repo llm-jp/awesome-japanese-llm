@@ -26,8 +26,8 @@ from typing import Literal
 # https://www.jma.go.jp/jma/kishou/info/colorguide/HPColorGuide_202007.pdf
 LEGEND_COLORS = {
     # "JP-available-API": "#B40068"
-    "JP-available": "#FF2800", 
-    "JP-available-CP": "#FF9900",
+    "JP-available-scratch": "#FF2800", 
+    "JP-available": "#FF9900",
     "JP-unavailable": "#FFF500",
     "EN-available": "#0096FF",
     "EN-unavailable": "#B9EBFF",
@@ -35,8 +35,8 @@ LEGEND_COLORS = {
 
 legend_labels_ja = {
     # "JP-available-API": "日本語 (APIとして公開)"
-    "JP-available": "日本語 (公開, フルスクラッチ学習されたモデル)",
-    "JP-available-CP": "日本語 (公開)",
+    "JP-available-scratch": "日本語 (公開, フルスクラッチ学習されたモデル)",
+    "JP-available": "日本語 (公開)",
     "JP-unavailable": "日本語 (非公開)",
     "EN-available": "日本語以外 (公開)",
     "EN-unavailable": "日本語以外 (非公開)",
@@ -44,8 +44,8 @@ legend_labels_ja = {
 
 legend_labels_en = {
     # "JP-available-API": "Japanese (public, model weights closed)"
-    "JP-available": "Japanese (public, built from scratch)",
-    "JP-available-CP": "Japanese (public)",
+    "JP-available-scratch": "Japanese (public, built from scratch)",
+    "JP-available": "Japanese (public)",
     "JP-unavailable": "Japanese (private)",
     "EN-available": "non-Japanese (public)",
     "EN-unavailable": "non-Japanese (private)",
@@ -118,20 +118,20 @@ def draw_figure(df: pd.DataFrame, locale: Literal['ja', 'en']):
     )
 
     ax.scatter(
-        df[df["Type"] == "JP-available-CP"]["Announced"],
-        df[df["Type"] == "JP-available-CP"]["Parameters(B)"],
-        color=LEGEND_COLORS["JP-available-CP"],
-        label=LEGEND_LABELS[locale]["JP-available-CP"],
+        df[df["Type"] == "JP-available"]["Announced"],
+        df[df["Type"] == "JP-available"]["Parameters(B)"],
+        color=LEGEND_COLORS["JP-available"],
+        label=LEGEND_LABELS[locale]["JP-available"],
         s=150,
         linewidth=0.5,
         edgecolors="gray"
     )
 
     ax.scatter(
-        df[df["Type"] == "JP-available"]["Announced"],
-        df[df["Type"] == "JP-available"]["Parameters(B)"],
-        color=LEGEND_COLORS["JP-available"],
-        label=LEGEND_LABELS[locale]["JP-available"],
+        df[df["Type"] == "JP-available-scratch"]["Announced"],
+        df[df["Type"] == "JP-available-scratch"]["Parameters(B)"],
+        color=LEGEND_COLORS["JP-available-scratch"],
+        label=LEGEND_LABELS[locale]["JP-available-scratch"],
         s=150,
         linewidth=0.5,
         edgecolors="gray"
