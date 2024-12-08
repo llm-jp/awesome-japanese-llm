@@ -13,3 +13,7 @@
 .VPDoc.has-aside .content-container {
   max-width: 1168px !important;
 }
+
+img {
+  max-width: min(720px, 100%);
+}

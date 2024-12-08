@@ -164,7 +164,7 @@ def draw_figure(df: pd.DataFrame, locale: Literal['ja', 'en']):
     plt.xticks(rotation=45)
     plt.subplots_adjust(left=0.075, right=0.975, bottom=0.1, top=0.975)
     plt.legend()
-    plt.savefig(f"../parameter_size_overview_{locale}.png", dpi=72)
+    plt.savefig(f"../parameter_size_overview_{locale}.png", dpi=144)
 
 
 if __name__ == "__main__":
