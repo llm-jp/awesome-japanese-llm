@@ -1,4 +1,5 @@
 Model,Lab,Parameters(B),Announced,Type,Source(JP)
+llm-jp-3-172b-instruct3,LLMC,172,2024/12/24,JP-available-scratch,https://www.nii.ac.jp/news/release/2024/1224.html
 Sarashina2-8x70B,SB Intuitions,465,2024/11/08,JP-available-scratch,https://www.sbintuitions.co.jp/news/press/20241108_01/
 日本語版  Gemma 2 2B,Google,2,2024/10/03,JP-available,https://developers-jp.googleblog.com/2024/10/gemma-2-for-japan.html
 Gemma 2 Baku 2B,rinna,2,2024/10/03,JP-available,https://rinna.co.jp/news/2024/10/20241003.html
