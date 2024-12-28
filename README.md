@@ -70,6 +70,7 @@
 | [早大GPT](https://huggingface.co/nlp-waseda/gpt2-xl-japanese) | GPT<br>([small](https://huggingface.co/nlp-waseda/gpt2-small-japanese), [**xl(1.5b)**](https://huggingface.co/nlp-waseda/gpt2-xl-japanese)) | |  日本語 Wikipedia<br> + Japanese CC-100 | 早大 河原研 | CC BY-SA 4.0 |
 | [ストックマークGPT](https://stockmark.co.jp/news/20230808) | GPT-NeoX<br>([**1.4b**](https://huggingface.co/stockmark/gpt-neox-japanese-1.4b)) |  | 日本語 Wikipedia (0.88B トークン)<br>+ Japanese CC-100 (10.5B トークン)<br>+ 独自のWebデータ (8.6B トークン) | ストックマーク | MIT |
 | [イエローバックGPT](https://tech.yellowback.net/posts/gpt-neo-japanese) | GPT-NeoX<br>([**1.3b**](https://huggingface.co/yellowback/gpt-neo-japanese-1.3B)) |  | 日本語 Wikipedia <br> + Japanese CC-100 <br> + Japanese OSCAR | イエローバック | Apache 2.0 |
+| [Sarashina2.1-1B](https://huggingface.co/sbintuitions/sarashina2.1-1b) | Llama<br>([1b](https://huggingface.co/sbintuitions/sarashina2.1-1b)) | 8,192 | Web 上などの日本語・英語データ（計 **10T** トークン） | SB Intuitions | Sarashina Model NonCommercial License |
 | [colorfulscoop GPT](https://huggingface.co/colorfulscoop/gpt2-small-ja) | GPT<br>([small](https://huggingface.co/colorfulscoop/gpt2-small-ja)) | |  日本語 Wikipedia | Colorful Scoop | CC BY-SA 3.0 |
 | [東工大GPT](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/H9-1.pdf) | GPT<br>([medium](https://huggingface.co/okazaki-lab/japanese-gpt2-medium-unidic), [medium (逆方向)](https://huggingface.co/okazaki-lab/japanese-reversed-gpt2-medium-unidic)) [^3] | |  日本語 Wikipedia + Japanese CC-100 | 東工大 岡崎研 | CC BY-SA 4.0 |
 | [京大GPT](https://huggingface.co/ku-nlp/gpt2-medium-japanese-char) | GPT<br>([small (文字レベル)](https://huggingface.co/ku-nlp/gpt2-small-japanese-char), [medium (文字レベル)](https://huggingface.co/ku-nlp/gpt2-medium-japanese-char), [large (文字レベル)](https://huggingface.co/ku-nlp/gpt2-large-japanese-char)) | | 日本語 Wikipedia (約2,700万文 (3.2GB)) <br>+ Japanese CC-100 (約6億1,900万文 (85GB)) <br>+ Japanese OSCAR (約3億2,600万文 (54GB)) | 京大 言語メディア研究室 | CC BY-SA 4.0 |
@@ -284,6 +285,7 @@
 
 |    | 入力で扱えるトークン数 | 開発元  |  ライセンス | 
 |:---|:---:|:---:|:---:|
+| [sbintuitions/sarashina-embedding-v1-1b](https://huggingface.co/sbintuitions/sarashina-embedding-v1-1b) | 8,192 | SB Intuitions | Sarashina Model NonCommercial License |
 | [RoSEtta](https://prtimes.jp/main/html/rd/p/000000169.000022705.html)<br>([pkshatech/RoSEtta-base-ja](https://huggingface.co/pkshatech/RoSEtta-base-ja)) | 1,024 | PKSHA Technology | Apache 2.0 |
 | [GLuCoSE v2](https://prtimes.jp/main/html/rd/p/000000169.000022705.html)<br>([pkshatech/GLuCoSE-base-ja-v2](https://huggingface.co/pkshatech/GLuCoSE-base-ja-v2)) | 512 | PKSHA Technology | Apache 2.0 |
 | [Ruri](https://arxiv.org/abs/2409.07737)<br>([cl-nagoya/ruri-pt-small](https://huggingface.co/cl-nagoya/ruri-pt-small), [cl-nagoya/ruri-pt-base](https://huggingface.co/cl-nagoya/ruri-pt-base), [cl-nagoya/ruri-pt-large](https://huggingface.co/cl-nagoya/ruri-pt-large), [cl-nagoya/ruri-small](https://huggingface.co/cl-nagoya/ruri-small), [cl-nagoya/ruri-base](https://huggingface.co/cl-nagoya/ruri-base), [cl-nagoya/ruri-large](https://huggingface.co/cl-nagoya/ruri-large)) | 512 | 名大 笹野研 | Apache 2.0 |
