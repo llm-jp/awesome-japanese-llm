@@ -211,7 +211,7 @@
 
 |    |  入出力で扱える<br>トークン数 | 開発元  |  プラットフォーム |
 |:---|:---:|:---:|:---:|
-| [Solar mini chat ja](https://www.upstage.ai/feed/tech/solar-mini-chat-ja)<br>([solar-1-mini-chat-ja](https://developers.upstage.ai/docs/apis/chat)) | 32,768 | Upstage | 独自 |
+| [Solar mini chat ja](https://www.upstage.ai/blog/en/solar-mini-chat-ja)<br>([solar-1-mini-chat-ja](https://developers.upstage.ai/docs/apis/chat)) | 32,768 | Upstage | 独自 |
 | [AIのべりすと](https://ai-novel.com/account_api.php) | 2,400 ~ 8,192 | Bit192 | 独自 |
 | [LHTM-OPT](https://aws.amazon.com/jp/blogs/psa/how-to-deploy-japanese-llm-lhtm-opt-on-aws-marketplace-developed-by-alt/) | | オルツ | AWS Marketplace |
 | [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://learn.microsoft.com/ja-jp/azure/ai-studio/how-to/deploy-models-tsuzumi)) | | NTT | Azure AI Foundry |
