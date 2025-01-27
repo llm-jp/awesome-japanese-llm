@@ -195,6 +195,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 |    | Domain | Base Model  |  Developer  |  License  |
 |:---|:---:|:---:|:---:|:---:|
 | [JMedLoRA](https://arxiv.org/pdf/2310.10083.pdf)<br>([llama2-jmedlora-6.89ep](https://huggingface.co/AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep)) | Medicine | Llama 2 (**70b**) | University of Tokyo Hospital Department of Cardiovascular Medicine AI Group | CC BY-NC 4.0 |
+| [AXCXEPT/Qwen2.5-Math-7B-Instruct-jp-EZO_OREO](https://huggingface.co/AXCXEPT/Qwen2.5-Math-7B-Instruct-jp-EZO_OREO) | Mathematics | Qwen2.5-Math-7B-Instruct (**7b**) | Axcxept | Apache 2.0 |
 
 <a id="merged-models"></a>
 ### Merged models
@@ -375,6 +376,12 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 |:---|:---:|:---:|:---:|:---:|
 | [Evo-Nishikie](https://sakana.ai/evo-ukiyoe/)<br>([v1](https://huggingface.co/SakanaAI/Evo-Nishikie-v1)) | Stable Diffusion (ControlNet) | Ukiyo-e | Sakana AI | Apache 2.0[^14] |
 | [Evo-Ukiyoe](https://sakana.ai/evo-ukiyoe/)<br>([v1](https://huggingface.co/SakanaAI/Evo-Ukiyoe-v1)) | Stable Diffusion | Ukiyo-e | Sakana AI | Apache 2.0[^14] |
+
+### Text to Video
+
+| | Architecture | Training Data  |  Developer  | License |
+|:---|:---:|:---:|:---:|:---:|
+| [AIdeaLab VideoJP](https://aidealab.com/news/QSvdcQfA)<br>([AIdeaLab-VideoJP](https://huggingface.co/aidealab/AIdeaLab-VideoJP)) | CogVideoX | Pixabay, FineVideo | AIdeaLab | Apache 2.0 |
 
 <a id="multimodal-others"></a>
 ### Others

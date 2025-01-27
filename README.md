@@ -196,6 +196,7 @@
 |    | ドメイン | ベースのLLM  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|
 | [JMedLoRA](https://arxiv.org/pdf/2310.10083.pdf)<br>([llama2-jmedlora-6.89ep](https://huggingface.co/AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep)) | 医療 | Llama 2 (**70b**) | 東京大学医学部附属病院 循環器内科 AIグループ | CC BY-NC 4.0 |
+| [AXCXEPT/Qwen2.5-Math-7B-Instruct-jp-EZO_OREO](https://huggingface.co/AXCXEPT/Qwen2.5-Math-7B-Instruct-jp-EZO_OREO) | 数学 | Qwen2.5-Math-7B-Instruct (**7b**) | Axcxept | Apache 2.0 |
 
 <a id="merged-models"></a>
 ### 複数のLLMをマージして作成されたモデル
@@ -377,6 +378,12 @@
 |:---|:---:|:---:|:---:|:---:|
 | [Evo-Nishikie](https://sakana.ai/evo-ukiyoe/)<br>([v1](https://huggingface.co/SakanaAI/Evo-Nishikie-v1)) | Stable Diffusion (ControlNet) | 浮世絵 | Sakana AI | Apache 2.0[^14] |
 | [Evo-Ukiyoe](https://sakana.ai/evo-ukiyoe/)<br>([v1](https://huggingface.co/SakanaAI/Evo-Ukiyoe-v1)) | Stable Diffusion | 浮世絵 | Sakana AI | Apache 2.0[^14] |
+
+### テキストからの動画生成
+
+| | アーキテクチャ | 学習データ | 開発元 | ライセンス |
+|:---|:---:|:---:|:---:|:---:|
+| [AIdeaLab VideoJP](https://aidealab.com/news/QSvdcQfA)<br>([AIdeaLab-VideoJP](https://huggingface.co/aidealab/AIdeaLab-VideoJP)) | CogVideoX | Pixabay, FineVideo | AIdeaLab | Apache 2.0 |
 
 <a id="multimodal-others"></a>
 ### その他
