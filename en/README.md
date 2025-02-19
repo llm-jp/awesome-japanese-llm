@@ -170,6 +170,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [AIgroup-CVM-utokyohospital/Llama-2-70b-chat-4bit-japanese](https://huggingface.co/AIgroup-CVM-utokyohospital/Llama-2-70b-chat-4bit-japanese) | Llama 2 (**70b**) || University of Tokyo Hospital Department of Cardiovascular Medicine AI Group|  Llama 2 Community License |
 | [doshisha-mil/llama-2-70b-chat-4bit-japanese-v1](https://huggingface.co/doshisha-mil/llama-2-70b-chat-4bit-japanese-v1) | Llama 2 (**70b**) || Doshisha University Media Informatics Lab | ？ |
 | [AXCXEPT/EZO-Qwen2.5-32B-Instruct](https://huggingface.co/AXCXEPT/EZO-Qwen2.5-32B-Instruct)<br>[AXCXEPT/EZO-AutoCoTRAG-Qwen2.5-32B-Instruct](https://huggingface.co/AXCXEPT/EZO-AutoCoTRAG-Qwen2.5-32B-Instruct) | Qwen2.5 (**32b**) || Axcxept | Apache 2.0 |
+| [EZO-Phi-4](https://huggingface.co/collections/AXCXEPT/ezo-phi-4-678a461c325df99089b387f3)<br>([phi-4-open-R1-Distill-EZOv1](https://huggingface.co/AXCXEPT/phi-4-open-R1-Distill-EZOv1), [phi-4-deepseek-R1K-RL-EZO](https://huggingface.co/AXCXEPT/phi-4-deepseek-R1K-RL-EZO)) | Phi-4 (**14b**) || Axcxept | MIT |
 | [Qarasu](https://note.com/peter_lightblue/n/ne08a7c8cc47a)<br>([14B-chat-plus-unleashed](https://huggingface.co/lightblue/qarasu-14B-chat-plus-unleashed)) | Qwen (**14b**) | ultra-orca-boros-en-ja-v1, OASST1, ShareGPT, undisclosed dataset | Lightblue | Tongyi Qianwen LICENSE (?)[^12] |
 | [Sparticle/llama-2-13b-chat-japanese-lora](https://huggingface.co/Sparticle/llama-2-13b-chat-japanese-lora) | Llama 2 (**13b**) || Sparticle | ？ |
 | [izumi-lab/llama-13b-japanese-lora-v0-1ep](https://huggingface.co/izumi-lab/llama-13b-japanese-lora-v0-1ep) | Llama (**13b**) || University of Tokyo Izumi Lab |  ？ |
@@ -196,7 +197,6 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 |    | Domain | Base Model  |  Developer  |  License  |
 |:---|:---:|:---:|:---:|:---:|
 | [JMedLoRA](https://arxiv.org/pdf/2310.10083.pdf)<br>([llama2-jmedlora-6.89ep](https://huggingface.co/AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep)) | Medicine | Llama 2 (**70b**) | University of Tokyo Hospital Department of Cardiovascular Medicine AI Group | CC BY-NC 4.0 |
-| [AXCXEPT/Qwen2.5-Math-7B-Instruct-jp-EZO_OREO](https://huggingface.co/AXCXEPT/Qwen2.5-Math-7B-Instruct-jp-EZO_OREO) | Mathematics | Qwen2.5-Math-7B-Instruct (**7b**) | Axcxept | Apache 2.0 |
 
 <a id="merged-models"></a>
 ### Merged models
