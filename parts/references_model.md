@@ -78,3 +78,4 @@
 | CogVideoX | 2024.08.12 | - | [CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer](https://arxiv.org/abs/2408.06072) |
 | PLaMo-100B | 2024.10.10 | - | [PLaMo-100B: A Ground-Up Language Model Designed for Japanese Proficiency](https://arxiv.org/abs/2410.07563) |
 | Phi-4 | 2024.12.12 | - | [Phi-4 Technical Report](https://arxiv.org/abs/2412.08905) |
+| ModernBERT | 2024.12.18 | - | [Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference](https://arxiv.org/abs/2412.13663) |
