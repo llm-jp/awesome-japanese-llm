@@ -170,6 +170,7 @@
 | [Llama 3 shisa-v1-llama3-70b](https://huggingface.co/shisa-ai/shisa-v1-llama3-70b)<br>([70b](https://huggingface.co/shisa-ai/shisa-v1-llama3-70b)) | Llama 3 (**70b**) | ultra-orca-boros-en-ja-v1 | Shisa.AI | Llama 3 Community License (?)[^12] |
 | [AIgroup-CVM-utokyohospital/Llama-2-70b-chat-4bit-japanese](https://huggingface.co/AIgroup-CVM-utokyohospital/Llama-2-70b-chat-4bit-japanese) | Llama 2 (**70b**) || 東京大学医学部附属病院 循環器内科 AIグループ | Llama 2 Community License |
 | [doshisha-mil/llama-2-70b-chat-4bit-japanese-v1](https://huggingface.co/doshisha-mil/llama-2-70b-chat-4bit-japanese-v1) | Llama 2 (**70b**) || 同志社大学 メディア情報学研究室 | ？ |
+| [karakuri-ai/karakuri-lm-32b-thinking-2501-exp](https://huggingface.co/karakuri-ai/karakuri-lm-32b-thinking-2501-exp) | QwQ (**32b**) || カラクリ | Apache 2.0 |
 | [AXCXEPT/EZO-Qwen2.5-32B-Instruct](https://huggingface.co/AXCXEPT/EZO-Qwen2.5-32B-Instruct)<br>[AXCXEPT/EZO-AutoCoTRAG-Qwen2.5-32B-Instruct](https://huggingface.co/AXCXEPT/EZO-AutoCoTRAG-Qwen2.5-32B-Instruct) | Qwen2.5 (**32b**) || Axcxept | Apache 2.0 |
 | [EZO-Phi-4](https://huggingface.co/collections/AXCXEPT/ezo-phi-4-678a461c325df99089b387f3)<br>([phi-4-open-R1-Distill-EZOv1](https://huggingface.co/AXCXEPT/phi-4-open-R1-Distill-EZOv1), [phi-4-deepseek-R1K-RL-EZO](https://huggingface.co/AXCXEPT/phi-4-deepseek-R1K-RL-EZO)) | Phi-4 (**14b**) || Axcxept | MIT |
 | [Qarasu](https://www.lightblue-tech.com/2024/01/15/20240115_news/)<br>([14B-chat-plus-unleashed](https://huggingface.co/lightblue/qarasu-14B-chat-plus-unleashed)) | Qwen (**14b**) | ultra-orca-boros-en-ja-v1, OASST1, ShareGPT, 独自のデータセット | Lightblue | Tongyi Qianwen LICENSE (?)[^12] |
@@ -416,6 +417,7 @@
 
 |    |  アーキテクチャ  |  学習コーパス  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|
+| [J-Moshi](https://github.com/nu-dialogue/j-moshi)<br>([j-moshi](https://huggingface.co/nu-dialogue/j-moshi), [j-moshi-ext](https://huggingface.co/nu-dialogue/j-moshi-ext)) | Transformerベースのテキスト・音声基盤モデル (Moshi) | 音声対話コーパス（J-CHAT, 日本語Callhome, CSJ, 旅行代理店対話コーパス, 独自の雑談対話コーパス, 独自の相談対話コーパス）, テキスト対話コーパス（日本語PersonaChat, 日本語EmpatheticDialogues, 日本語日常対話コーパス, RealPersonaChat） | 名大 東中研 | CC BY-NC 4.0 |
 | [Kotoba-Speech](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)<br>([v0.1](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)) | Transformer | 不明 | Kotoba Technologies | Apache 2.0 |
 | [東大HuBERT](https://huggingface.co/sarulab-speech/hubert-base-jtube)<br>([base-jtube](https://huggingface.co/sarulab-speech/hubert-base-jtube)) | HuBERT | JTubeSpeech | 東大 猿渡・高道研 | MIT |
 | [rinna HuBERT](https://rinna.co.jp/news/2023/04/20230428.html)<br>([base](https://huggingface.co/rinna/japanese-hubert-base), [large](https://huggingface.co/rinna/japanese-hubert-large)) | HuBERT | ReazonSpeech | rinna | Apache 2.0 |
