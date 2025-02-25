@@ -391,7 +391,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 |    |  Architecture  |  Training Data  |  Developer  | License |
 |:---|:---:|:---:|:---:|:---:|
-| [llm-jp-clip](https://huggingface.co/llm-jp/llm-jp-clip-vit-base-patch16)<br>([llm-jp-clip-vit-base-patch16](https://huggingface. co/llm-jp/llm-jp-clip-vit-base-patch16), [llm-jp-clip-vit-large-patch14](https://huggingface.co/llm-jp/llm-jp-clip-vit-large-patch 14)) | CLIP | Translation of about 1.5 billion captions from the English subset of ReLAION-5B | LLMC | Apache 2.0 |
+| [llm-jp-clip](https://huggingface.co/llm-jp/llm-jp-clip-vit-base-patch16)<br>([llm-jp-clip-vit-base-patch16](https://huggingface. co/llm-jp/llm-jp-clip-vit-base-patch16), [llm-jp-clip-vit-large-patch14](https://huggingface.co/llm-jp/llm-jp-clip-vit-large-patch 14)) | CLIP | Translation of about 1.5 billion captions from the English subset of ReLAION-5B | Research and Development Center for Large Language Models | Apache 2.0 |
 | [LY CLIP](https://techblog.lycorp.co.jp/ja/20240514b)<br>([clip-japanese-base](https://huggingface.co/line-corporation/clip-japanese-base)) | CLIP | CommonCrawl, CC12M, YFCC100M | LY Corp. | Apache 2.0 |
 | [Recruit CLIP](https://blog.recruit.co.jp/data/articles/japanese-clip/)<br>([japanese-clip-vit-b-32-roberta-base](https://huggingface.co/recruit-jp/japanese-clip-vit-b-32-roberta-base)) | CLIP | about 120 million captions from laion2B-multi | Recruit Co.,Ltd. | CC BY-4.0 |
 | [Japanese Stable CLIP](https://ja.stability.ai/blog/japanese-stable-clip)<br>([japanese-stable-clip-vit-l-16](https://huggingface.co/stabilityai/japanese-stable-clip-vit-l-16)) | SigLIP | CC12M translated to Japanese, STAIR Captions | Stability AI | STABILITY AI JAPANESE STABLE CLIP COMMUNITY LICENSE |
@@ -510,7 +510,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 |   | Description | Developer |
 |:---|:---|:---:|
-| [llm-jp-eval-mm](https://github.com/llm-jp/llm-jp-eval-mm) | A tool for evaluating the performance of Japanese VLMs on multiple benchmark tasks | LLMC |
+| [llm-jp-eval-mm](https://github.com/llm-jp/llm-jp-eval-mm) | A tool for evaluating the performance of Japanese VLMs on multiple benchmark tasks | Research and Development Center for Large Language Models |
 | [JMMMU](https://mmmu-japanese-benchmark.github.io/JMMMU/) | A benchmark constructed as the Japanese version of [MMMU Benchmark](https://mmmu-benchmark.github.io/). It consists of 720 translated MMMU problems and 600 new problems unique to Japanese culture. | University of Tokyo Aizawa Lab |
 | [JDocQA](https://github.com/mizuumi/JDocQA) | A question-answer dataset based on Japanese documents (pamphlets, slides, reports, websites), consisting of a total of 11,600 questions. It includes various question formats, including unanswerable questions. | NAIST Watanabe Lab |
 | [Heron VLM Leaderboard powered by Nejumi/WandB](https://wandb.ai/vision-language-leaderboard/heron-leaderboard/reports/Heron-VLM-Leaderboard-powered-by-Nejumi-WandB--Vmlldzo4MjY3OTc5) | Summarizes the evaluation results of [Japanese-Heron-Bench](#japanese-heron-bench) and [LLaVA-Bench-In-the-Wild (Japanese)](#llava-bench-in-the-wild). | Turing, Weights & Biases |
