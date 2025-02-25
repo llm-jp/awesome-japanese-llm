@@ -393,6 +393,7 @@
 
 |    |  アーキテクチャ  |  学習画像/テキスト  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|
+| [llm-jp-clip](https://huggingface.co/llm-jp/llm-jp-clip-vit-base-patch16)<br>([llm-jp-clip-vit-base-patch16](https://huggingface.co/llm-jp/llm-jp-clip-vit-base-patch16)) | CLIP | ReLAION-5Bの英語サブセットのキャプション約15億件の翻訳 | LLM-jp | Apache 2.0 |
 | [LINEヤフーCLIP](https://techblog.lycorp.co.jp/ja/20240514b)<br>([clip-japanese-base](https://huggingface.co/line-corporation/clip-japanese-base)) | CLIP | CommonCrawl, CC12M, YFCC100M | LINEヤフー | Apache 2.0 |
 | [リクルートCLIP](https://blog.recruit.co.jp/data/articles/japanese-clip/)<br>([japanese-clip-vit-b-32-roberta-base](https://huggingface.co/recruit-jp/japanese-clip-vit-b-32-roberta-base)) | CLIP | laion2B-multi のキャプション約1億2000万件 | リクルート | CC BY-4.0 |
 | [Japanese Stable CLIP](https://ja.stability.ai/blog/japanese-stable-clip)<br>([japanese-stable-clip-vit-l-16](https://huggingface.co/stabilityai/japanese-stable-clip-vit-l-16)) | SigLIP | CC12M のキャプションを日本語に翻訳したもの、STAIR Captions | Stability AI | STABILITY AI JAPANESE STABLE CLIP COMMUNITY LICENSE |
@@ -511,6 +512,7 @@
 
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
+| [llm-jp-eval-mm](https://github.com/llm-jp/llm-jp-eval-mm) | 日本語VLMの性能を複数のベンチマークタスクで評価するためのツール | LLM-jp |
 | [JMMMU](https://mmmu-japanese-benchmark.github.io/JMMMU/) | [MMMU ベンチマーク](https://mmmu-benchmark.github.io/)の日本語版として構築されたベンチマーク。720 件の MMMU の翻訳版の問題と 600 件の日本文化特有の新規の問題から構成される。 | 東大 相澤研 |
 | [JDocQA](https://github.com/mizuumi/JDocQA) | 日本語ドキュメント（パンフレット、スライド、レポート、Web サイト）をもとに構築された、合計 11,600 件の質問から構成される質問応答データセット。解答不能問題を含め、様々な質問形式の質問が収録されている。 | NAIST 渡辺研 |
 | [Heron VLM リーダーボード powered by nejumi@WandB](https://api.wandb.ai/links/vision-language-leaderboard/h2lxge4n) | [Japanese-Heron-Bench](#japanese-heron-bench) と [LLaVA-Bench-In-the-Wild (Japanese)](#llava-bench-in-the-wild) の評価結果をまとめている。 | Turing, Weights & Biases |
