@@ -73,6 +73,7 @@
 | InternVL 1.5 | 2024.04.25 | - | [How Far Are We to GPT-4V? Closing the Gap to Commercial Multimodal Models with Open-Source Suites](https://arxiv.org/abs/2404.16821) |
 | Swallow | 2024.04.27 | COLM 2024 | [Continual Pre-Training for Cross-Lingual LLM Adaptation: Enhancing Japanese Language Capabilities](https://arxiv.org/abs/2404.17790) |
 | LLM-jp-13B | 2024.07.04 | - | [LLM-jp: A Cross-organizational Project for the Research and Development of Fully Open Japanese LLMs](https://arxiv.org/abs/2407.03963) |
+| Qwen2 | 2024.07.15 | - | [Qwen2 Technical Report](https://arxiv.org/abs/2407.10671) |
 | Llama 3.1 | 2024.07.23 | - | [The Llama 3 Herd of Models](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/) |
 | Gemma 2 | 2024.07.31 | - | [Gemma 2: Improving Open Language Models at a Practical Size](https://arxiv.org/abs/2408.00118) |
 | CogVideoX | 2024.08.12 | - | [CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer](https://arxiv.org/abs/2408.06072) |
@@ -80,4 +81,5 @@
 | PLaMo-100B | 2024.10.10 | - | [PLaMo-100B: A Ground-Up Language Model Designed for Japanese Proficiency](https://arxiv.org/abs/2410.07563) |
 | Phi-4 | 2024.12.12 | - | [Phi-4 Technical Report](https://arxiv.org/abs/2412.08905) |
 | ModernBERT | 2024.12.18 | - | [Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference](https://arxiv.org/abs/2412.13663) |
+| Qwen2.5 | 2024.12.19 | - | [Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115) |
 | DeepSeek-R1 | 2025.01.22 | - | [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) |
