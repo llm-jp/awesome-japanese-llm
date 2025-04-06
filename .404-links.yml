@@ -6,5 +6,6 @@ ignore:
     - https://gitlab.llm-jp.nii.ac.jp/datasets/*
     - https://llm-jp.nii.ac.jp/*
     - https://ojs.aaai.org/*
+    - https://scholar.google.co.jp/*
     - https://www.anlp.jp/*
     - https://www.informatix.co.jp/pr-roberta/
