@@ -7,5 +7,6 @@ ignore:
     - https://llm-jp.nii.ac.jp/*
     - https://ojs.aaai.org/*
     - https://scholar.google.co.jp/*
+    - https://scholar.google.com/*
     - https://www.anlp.jp/*
     - https://www.informatix.co.jp/pr-roberta/
