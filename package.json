@@ -8,7 +8,7 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "markdown-it-footnote": "^4.0.0",
-    "vitepress": "^1.4.1"
+    "vitepress": "1.6.3"
   },
   "scripts": {
     "docs:dev": "vitepress dev",
