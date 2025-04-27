@@ -156,6 +156,7 @@
 
 |    | ドメイン | ベースのLLM  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|
+| [pfnet/Preferred-MedLLM-Qwen-72B](https://huggingface.co/pfnet/Preferred-MedLLM-Qwen-72B) | 医療 | Qwen2.5 (**72b**) | Preferred Networks | Qwen LICENSE |
 | [Llama3-Preferred-MedSwallow-70B](https://tech.preferred.jp/ja/blog/llama3-preferred-medswallow-70b/)<br>([70B](https://huggingface.co/pfnet/Llama3-Preferred-MedSwallow-70B)) | 医療 | Llama 3 (**70b**) | Preferred Networks | Llama 3 Community License |
 | [AIgroup-CVM-utokyohospital/MedSwallow-70b](https://huggingface.co/AIgroup-CVM-utokyohospital/MedSwallow-70b) | 医療 | Llama 2 (**70b**) | 東京大学医学部附属病院 循環器内科 AIグループ | CC BY-NC-SA 4.0 |
 | [nekomata-14b-pfn-qfin](https://tech.preferred.jp/ja/blog/qfin-llm-continual-pretraining/)<br>([qfin](https://huggingface.co/pfnet/nekomata-14b-pfn-qfin), [qfin-inst-merge](https://huggingface.co/pfnet/nekomata-14b-pfn-qfin-inst-merge)) | 金融 | Qwen (**14b**) | Preferred Networks | Tongyi Qianwen LICENSE |
