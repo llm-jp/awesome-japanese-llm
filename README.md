@@ -306,11 +306,12 @@
 
 |    | 入力で扱えるトークン数 | 開発元  |  ライセンス |
 |:---|:---:|:---:|:---:|
+| [Ruri-v3](https://huggingface.co/collections/cl-nagoya/ruri-v3-67f382536e80902074ec6252)<br>([v3-30m](https://huggingface.co/cl-nagoya/ruri-v3-30m), [v3-70m](https://huggingface.co/cl-nagoya/ruri-v3-70m), [v3-130m](https://huggingface.co/cl-nagoya/ruri-v3-130m), [v3-310m](https://huggingface.co/cl-nagoya/ruri-v3-310m)) | 8,192 | 名大 笹野研 | Apache 2.0 |
 | [sbintuitions/sarashina-embedding-v1-1b](https://huggingface.co/sbintuitions/sarashina-embedding-v1-1b) | 8,192 | SB Intuitions | Sarashina Model NonCommercial License |
 | [AMBER](https://retrieva.jp/news/202503101100/)<br>([base](https://huggingface.co/retrieva-jp/amber-base), [large](https://huggingface.co/retrieva-jp/amber-large)) | 512 | レトリバ | Apache 2.0 |
 | [RoSEtta](https://prtimes.jp/main/html/rd/p/000000169.000022705.html)<br>([base-ja](https://huggingface.co/pkshatech/RoSEtta-base-ja)) | 1,024 | PKSHA Technology | Apache 2.0 |
 | [GLuCoSE v2](https://prtimes.jp/main/html/rd/p/000000169.000022705.html)<br>([base-ja-v2](https://huggingface.co/pkshatech/GLuCoSE-base-ja-v2)) | 512 | PKSHA Technology | Apache 2.0 |
-| [Ruri](https://arxiv.org/abs/2409.07737)<br>([pt-small](https://huggingface.co/cl-nagoya/ruri-pt-small), [pt-base](https://huggingface.co/cl-nagoya/ruri-pt-base), [pt-large](https://huggingface.co/cl-nagoya/ruri-pt-large), [small](https://huggingface.co/cl-nagoya/ruri-small), [base](https://huggingface.co/cl-nagoya/ruri-base), [large](https://huggingface.co/cl-nagoya/ruri-large)) | 512 | 名大 笹野研 | Apache 2.0 |
+| [Ruri](https://arxiv.org/abs/2409.07737)<br>([small](https://huggingface.co/cl-nagoya/ruri-small), [base](https://huggingface.co/cl-nagoya/ruri-base), [large](https://huggingface.co/cl-nagoya/ruri-large), [small-v2](https://huggingface.co/cl-nagoya/ruri-small-v2), [base-v2](https://huggingface.co/cl-nagoya/ruri-base-v2), [large-v2](https://huggingface.co/cl-nagoya/ruri-large-v2)) | 512 | 名大 笹野研 | Apache 2.0 |
 | [Japanese SimCSE](https://github.com/hppRC/simple-simcse-ja)<br>([unsup-simcse-ja-base](https://huggingface.co/cl-nagoya/unsup-simcse-ja-base), [unsup-simcse-ja-large](https://huggingface.co/cl-nagoya/unsup-simcse-ja-large), [sup-simcse-ja-base](https://huggingface.co/cl-nagoya/sup-simcse-ja-base), [sup-simcse-ja-large](https://huggingface.co/cl-nagoya/sup-simcse-ja-large)) | 512 | 名大 笹野研 | CC BY-SA 4.0 |
 | [GLuCoSE](https://prtimes.jp/main/html/rd/p/000000123.000022705.html)<br>([base-ja](https://huggingface.co/pkshatech/GLuCoSE-base-ja)) | 512 | PKSHA Technology | Apache 2.0 |
 | [colorfulscoop/sbert-base-ja](https://huggingface.co/colorfulscoop/sbert-base-ja) || Colorful Scoop | CC BY-SA 4.0 |
@@ -334,7 +335,8 @@
 
 |    |  開発元  |  ライセンス |
 |:---|:---:|:---:|
-| [Ruri-Reranker](https://arxiv.org/abs/2409.07737)<br>([cl-nagoya/ruri-reranker-stage1-small](https://huggingface.co/cl-nagoya/ruri-reranker-stage1-small), [cl-nagoya/ruri-reranker-stage1-base](https://huggingface.co/cl-nagoya/ruri-reranker-stage1-base), [cl-nagoya/ruri-reranker-stage1-large](https://huggingface.co/cl-nagoya/ruri-reranker-stage1-large), [cl-nagoya/ruri-reranker-small](https://huggingface.co/cl-nagoya/ruri-reranker-small), [cl-nagoya/ruri-reranker-base](https://huggingface.co/cl-nagoya/ruri-reranker-base), [cl-nagoya/ruri-reranker-large](https://huggingface.co/cl-nagoya/ruri-reranker-large)) | 名大 笹野研 | Apache 2.0 |
+| [Ruri-v3 Reranker](https://huggingface.co/cl-nagoya/ruri-v3-reranker-310m)<br>([310m](https://huggingface.co/cl-nagoya/ruri-v3-reranker-310m)) | 名大 笹野研 | Apache 2.0 |
+| [Ruri-Reranker](https://arxiv.org/abs/2409.07737)<br>([stage1-small](https://huggingface.co/cl-nagoya/ruri-reranker-stage1-small), [stage1-base](https://huggingface.co/cl-nagoya/ruri-reranker-stage1-base), [stage1-large](https://huggingface.co/cl-nagoya/ruri-reranker-stage1-large), [small](https://huggingface.co/cl-nagoya/ruri-reranker-small), [base](https://huggingface.co/cl-nagoya/ruri-reranker-base), [large](https://huggingface.co/cl-nagoya/ruri-reranker-large)) | 名大 笹野研 | Apache 2.0 |
 | [hotchpotch/japanese-reranker-cross-encoder-xsmall-v1](https://huggingface.co/hotchpotch/japanese-reranker-cross-encoder-xsmall-v1)<br>[hotchpotch/japanese-reranker-cross-encoder-small-v1](https://huggingface.co/hotchpotch/japanese-reranker-cross-encoder-small-v1)<br>[hotchpotch/japanese-reranker-cross-encoder-base-v1](https://huggingface.co/hotchpotch/japanese-reranker-cross-encoder-base-v1)<br>[hotchpotch/japanese-reranker-cross-encoder-large-v1](https://huggingface.co/hotchpotch/japanese-reranker-cross-encoder-large-v1)<br>[hotchpotch/japanese-bge-reranker-v2-m3-v1](https://huggingface.co/hotchpotch/japanese-bge-reranker-v2-m3-v1) | 個人 (舘野祐一) | MIT |
 
 <a id="multimodal"></a>
