@@ -7,3 +7,4 @@
 | SteerLM | 2023.10.09 | EMNLP 2023 (Findings) | [SteerLM: Attribute Conditioned SFT as an (User-Steerable) Alternative to RLHF](https://aclanthology.org/2023.findings-emnlp.754/) |
 | ORPO | 2024.03.12 | EMNLP 2024 | [ORPO: Monolithic Preference Optimization without Reference Model](https://arxiv.org/abs/2403.07691) |
 | TAID | 2025.01.28 | ICLR 2025 | [TAID: Temporally Adaptive Interpolated Distillation for Efficient Knowledge Transfer in Language Models](https://arxiv.org/abs/2501.16937) |
+| Drop-Upcycling | 2025.02.26 | ICLR 2025 | [Drop-Upcycling: Training Sparse Mixture of Experts with Partial Re-initialization](https://arxiv.org/abs/2502.19261) |
