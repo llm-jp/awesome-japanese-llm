@@ -90,7 +90,8 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 |    |  Domain  |  Architecture  |  Training Data  |  Developer  | License |
 |:---|:---:|:---:|:---:|:---:|:---:|
-| [Japanese Dialog Transformer](https://github.com/nttcslab/japanese-dialog-transformers) | Dialog | Transformer | Twitter japanese reply pairs | NTT | [Evaluation Licence](https://github.com/nttcslab/japanese-dialog-transformers/blob/main/LICENSE.md) |
+| [SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct) | Medical | MoE | Pre-trained on a medical corpus (**44.2B** tokens) added to LLM-jp-3 MoE (8x13b), followed by Instruction Tuning | Strategic Innovation Promotion Program (SIP) Phase 3 Project "Generative AI Utilization in the Construction of Integrated Healthcare Systems" Theme 1 "Development and Social Implementation of Open Medical LLM with Safety and Reliability" Research Group | Apache 2.0 |
+| [Japanese Dialog Transformer](https://github.com/nttcslab/japanese-dialog-transformers) | Dialog | Transformer | Twitter Japanese reply pairs | NTT | [Evaluation Licence](https://github.com/nttcslab/japanese-dialog-transformers/blob/main/LICENSE.md) |
 | [Japanese News BART](https://tech.stockmark.co.jp/blog/bart-japanese-base-news/) | Business |  BART ([base](https://huggingface.co/stockmark/bart-base-japanese-news)) | Japanese business news articles (21M articles) | Stockmark | MIT |
 | [AcademicBART](https://github.com/EhimeNLP/AcademicBART) | Science | BART ([base](https://huggingface.co/EhimeNLP/AcademicBART)) | CiNii Japanese Papers | Ehime University AI Lab | Apache 2.0 |
 

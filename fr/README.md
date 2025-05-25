@@ -90,9 +90,10 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 
 |    | Domaine | Architecture  |  Données d'entraînement  |  Développeur  | Licence |
 |:---|:---:|:---:|:---:|:---:|:---:|
-| [Japanese Dialog Transformer](https://github.com/nttcslab/japanese-dialog-transformers) | Dialogue | Transformer | Pairs de réponses venant de Twitter | NTT | [License en évaluaiton](https://github.com/nttcslab/japanese-dialog-transformers/blob/main/LICENSE.md) |
+| [SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct) | Médical | MoE | Pré-entraîné sur un corpus médical (**44,2 milliards** de tokens) ajouté à LLM-jp-3 MoE (8x13b), suivi d'un ajustement fin par instructions | Groupe de recherche du Programme stratégique d'innovation (SIP), Projet de phase 3 « Utilisation de l'IA générative dans la construction de systèmes de santé intégrés », Thème 1 « Développement et implémentation sociale d'un LLM médical ouvert, sûr et fiable » | Apache 2.0 |
+| [Japanese Dialog Transformer](https://github.com/nttcslab/japanese-dialog-transformers) | Dialogue | Transformer | Pairs de réponses venant de Twitter | NTT | [Licence en évaluation](https://github.com/nttcslab/japanese-dialog-transformers/blob/main/LICENSE.md) |
 | [Japanese News BART](https://tech.stockmark.co.jp/blog/bart-japanese-base-news/) | Affaires |  BART ([base](https://huggingface.co/stockmark/bart-base-japanese-news)) | Articles de l'actualité économique en japonais (21M articles) | Stockmark | MIT |
-| [AcademicBART](https://github.com/EhimeNLP/AcademicBART) | Science | BART ([base](https://huggingface.co/EhimeNLP/AcademicBART)) | CiNii Japanese Papers | Université d'Ehime AI Lab | Apache 2.0 |
+| [AcademicBART](https://github.com/EhimeNLP/AcademicBART) | Science | BART ([base](https://huggingface.co/EhimeNLP/AcademicBART)) | Articles japonais de CiNii | Laboratoire d'IA de l'Université d'Ehime | Apache 2.0 |
 
 <a id="english-based-models"></a>
 ### Modèles développés à partir d'LLM non-japonais (avec un apprentissage en continue en japonais)

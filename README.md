@@ -90,6 +90,7 @@
 
 |    | ドメイン | アーキテクチャ  |  学習テキスト  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|:---:|
+| [SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct) | 医療 | MoE | 医療系コーパス (**44.2B** トークン) で LLM-jp-3 MoE (8x13b) に追加事前学習、その後 Instruction Tuning | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0 |
 | [日本語対話Transformer](https://group.ntt/jp/topics/2021/09/30/transformer.html) | 対話 |Transformer | Twitter 上の日本語リプライのペア | NTT | [独自のライセンス](https://github.com/nttcslab/japanese-dialog-transformers/blob/main/LICENSE.md) |
 | [日本語ニュースBART](https://tech.stockmark.co.jp/blog/bart-japanese-base-news/) | ビジネス | BART ([base](https://huggingface.co/stockmark/bart-base-japanese-news)) | 日本語ビジネスニュース記事（約2,100万記事 (2.9億文)） | ストックマーク | MIT |
 | [AcademicBART](https://github.com/EhimeNLP/AcademicBART) | 学術 | BART ([base](https://huggingface.co/EhimeNLP/AcademicBART)) | CiNii の日本語論文 | 愛媛大 人工知能研究室 | Apache 2.0 |
