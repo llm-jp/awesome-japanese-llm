@@ -22,7 +22,7 @@ PLaMo-100B,Preferred Elements,100,2024/06/14,JP-available-scratch,"https://tech.
 KARAKURI 8x7B Chat,KARAKURI,46.7,2024/05/20,JP-available,https://karakuri.ai/seminar/news/aws_trainium_moe/
 Stockmark-100b,Stockmark,100,2024/05/16,JP-available-scratch,https://stockmark.co.jp/news/20240516
 Fugaku-LLM,"Titech, Tohoku Univ., Fujitsu, RIKEN, Nagoya Univ., CyberAgent, Kotoba Technologies",13,2024/05/10,JP-available-scratch,https://www.fujitsu.com/global/about/resources/news/press-releases/2024/0510-01.html
-Japanese Stable LM 2 1.6B,Stability AI,1.6,2024/05/09,JP-available,https://ja.stability.ai/blog/japanese-stable-lm-2-16b
+Japanese Stable LM 2 1.6B,Stability AI,1.6,2024/05/09,JP-available,https://huggingface.co/stabilityai/japanese-stablelm-2-base-1_6b
 Llama 3 Youko,rinna,8,2024/05/07,JP-available,https://rinna.co.jp/news/2024/05/20240507.html
 LLM-jp-13B v2.0,LLM-jp,13,2024/04/30,JP-available-scratch,https://www.nii.ac.jp/news/release/2024/0430.html
 NIKKEI Language Model,NIKKEI,70,2024/04/24,JP-unavailable,https://www.nikkei.com/article/DGXZQOUC1941R0Z10C24A4000000/
@@ -37,19 +37,19 @@ KARAKURI,KARAKURI,70,2024/01/31,JP-available,https://karakuri.ai/seminar/news/ka
 ,ELYZA,13,2023/12/27,JP-available,https://note.com/elyza/n/n5d42686b60b7
 Nekomata,rinna,14,2023/12/21,JP-available,https://rinna.co.jp/news/2023/12/20231221.html
 Swallow,Swallow Project,70,2023/12/19,JP-available,https://tokyotech-llm.github.io/blog/swallow-llama
-JSLM Beta,Stability AI,70,2023/11/02,JP-available,https://ja.stability.ai/blog/japanese-stable-lm-beta
+JSLM Beta,Stability AI,70,2023/11/02,JP-available,https://huggingface.co/stabilityai/japanese-stablelm-base-beta-70b
 CALM2,CyberAgent,7,2023/11/02,JP-available-scratch,https://www.cyberagent.co.jp/news/detail/id=29479
 tsuzumi,NTT,7,2023/11/01,JP-unavailable,https://group.ntt/jp/newsrelease/2023/11/01/231101a.html
 Youri,rinna,7,2023/10/31,JP-available,https://rinna.co.jp/news/2023/10/20231031.html
 Stockmark-13b,Stockmark,13,2023/10/27,JP-available-scratch,https://stockmark.co.jp/news/20231027
-JSLM Gamma,Stability AI,7,2023/10/25,JP-available,https://ja.stability.ai/blog/japanese-stable-lm-3b-4e1tjapanese-stable-lm-gamma-7b
+JSLM Gamma,Stability AI,7,2023/10/25,JP-available,https://huggingface.co/stabilityai/japanese-stablelm-base-gamma-7b
 LLM-jp-13B,LLM-jp,13,2023/10/20,JP-available-scratch,https://www.nii.ac.jp/news/release/2023/1020.html
 ,NICT,179,2023/09/30,JP-unavailable,https://www3.nhk.or.jp/news/html/20231201/k10014275281000.html
 PLaMo-13B,Preferred Networks,13,2023/09/28,JP-available-scratch,https://www.preferred.jp/ja/news/pr20230928/
 ,ELYZA,7,2023/08/29,JP-available,https://note.com/elyza/n/na405acaca130
 Weblab-10B,Matsuo Lab,10,2023/08/22,JP-available-scratch,https://www.t.u-tokyo.ac.jp/press/pr2023-08-18-001
 japanese-large-lm,LINE,3.6,2023/08/14,JP-available-scratch,https://engineering.linecorp.com/ja/blog/3.6-billion-parameter-japanese-language-model
-JSLM Alpha,Stability AI,7,2023/08/10,JP-available-scratch,https://ja.stability.ai/blog/japanese-stablelm-alpha
+JSLM Alpha,Stability AI,7,2023/08/10,JP-available-scratch,https://huggingface.co/stabilityai/japanese-stablelm-base-alpha-7b
 ,rinna,3.8,2023/07/31,JP-available-scratch,https://rinna.co.jp/news/2023/07/20230731.html
 ,NEC,13,2023/07/06,JP-unavailable,https://jpn.nec.com/press/202307/20230706_02.html
 ,NICT,40,2023/07/04,JP-unavailable,https://www.nict.go.jp/press/2023/07/04-1.html
