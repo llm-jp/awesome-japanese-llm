@@ -366,6 +366,7 @@
 
 |    |  アーキテクチャ |  学習画像/テキスト  |  開発元  | ライセンス / 利用規約 |
 |:---|:---:|:---:|:---:|:---:|
+| [Heron-NVILA](https://tur.ing/posts/pQLCubIm)<br>([1B](https://huggingface.co/turing-motors/Heron-NVILA-Lite-1B), [2B](https://huggingface.co/turing-motors/Heron-NVILA-Lite-2B), [15B](https://huggingface.co/turing-motors/Heron-NVILA-Lite-15B), [33B](https://huggingface.co/turing-motors/Heron-NVILA-Lite-33B)) | NVILA || Turing | Apache 2.0 & OpenAI Terms of Use |
 | [Sarashina2-Vision](https://www.sbintuitions.co.jp/blog/entry/2025/03/17/111659)<br>([8b](https://huggingface.co/sbintuitions/sarashina2-vision-8b), [14b](https://huggingface.co/sbintuitions/sarashina2-vision-14b)) | Sarashina2 + Qwen2-VL + 2-layer MLP || SB Intuitions | MIT |
 | [Asagi](https://uehara-mech.github.io/asagi-vlm?v=1)<br>([2B](https://huggingface.co/MIL-UT/Asagi-2B), [4B](https://huggingface.co/MIL-UT/Asagi-4B), [8B](https://huggingface.co/MIL-UT/Asagi-8B), [14B](https://huggingface.co/MIL-UT/Asagi-14B)) | LLaVA || 東大 原田研 | Apache 2.0 |
 | [llava-calm2-siglip](https://www.cyberagent.co.jp/news/detail/id=30344)<br>([llava-calm2-siglip](https://huggingface.co/cyberagent/llava-calm2-siglip)) | LLaVA | MS-COCO と VisualGenome から生成された対話データ | サイバーエージェント | Apache 2.0 |
