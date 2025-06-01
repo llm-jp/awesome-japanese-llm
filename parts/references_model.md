@@ -82,5 +82,6 @@
 | PLaMo-100B | 2024.10.10 | - | [PLaMo-100B: A Ground-Up Language Model Designed for Japanese Proficiency](https://arxiv.org/abs/2410.07563) |
 | Phi-4 | 2024.12.12 | - | [Phi-4 Technical Report](https://arxiv.org/abs/2412.08905) |
 | ModernBERT | 2024.12.18 | - | [Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference](https://arxiv.org/abs/2412.13663) |
+| NVILA | 2024.12.05 | CVPR 2025 | [NVILA: Efficient Frontier Visual Language Models](https://arxiv.org/abs/2412.04468) |
 | Qwen2.5 | 2024.12.19 | - | [Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115) |
 | DeepSeek-R1 | 2025.01.22 | - | [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) |
