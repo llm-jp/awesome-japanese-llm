@@ -19,9 +19,55 @@ Voici une liste des LLMs disponibles au grand public, axés sur l'apprentissage 
 
 N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/llm-jp/awesome-japanese-llm/issues). N'hésitez pas également à contribuer directement avec une pull request.
 
-::: details Table des matières
-[[toc]]
-:::
+- [Aperçu des grands modèles de langage (LLM) en japonais](#aperçu-des-grands-modèles-de-langage-llm-en-japonais)
+  - [Modèles IA génératives](#modèles-ia-génératives)
+    - [Modèles développés à partir de zéro](#modèles-développés-à-partir-de-zéro)
+      - [D'usage général](#dusage-général)
+      - [Spécifique à un domaine](#spécifique-à-un-domaine)
+    - [Modèles développés à partir d'LLM non-japonais (avec un apprentissage en continue en japonais)](#modèles-développés-à-partir-dllm-non-japonais-avec-un-apprentissage-en-continue-en-japonais)
+      - [D'usage général](#dusage-général-1)
+      - [Spécifique à un domaine](#spécifique-à-un-domaine-1)
+    - [Modèles développés à partir d'LLM non-japonais (avec un post-entraînement en japonais)](#modèles-développés-à-partir-dllm-non-japonais-avec-un-post-entraînement-en-japonais)
+      - [D'usage général](#dusage-général-2)
+      - [Spécifique à un domaine](#spécifique-à-un-domaine-2)
+    - [Modèles fusionnés](#modèles-fusionnés)
+    - [Modèles basés sur des API](#modèles-basés-sur-des-api)
+  - [Modèles encodeur](#modèles-encodeur)
+    - [D'usage général](#dusage-général-3)
+    - [Spécifique à un domaine](#spécifique-à-un-domaine-3)
+  - [Plongement lexical par mots et par documents \[^21\]](#plongement-lexical-par-mots-et-par-documents-21)
+    - [Bi-Encoders](#bi-encoders)
+      - [Single-representation bi-encoders](#single-representation-bi-encoders)
+      - [Multi-representation bi-encoders](#multi-representation-bi-encoders)
+    - [Cross-Encoders](#cross-encoders)
+  - [Modèles Vision-Language](#modèles-vision-language)
+    - [Text+Image vers Text](#textimage-vers-text)
+      - [Modèles développés à partir de zéro](#modèles-développés-à-partir-de-zéro-1)
+      - [Modèles développés à partir d'VLM non-japonais](#modèles-développés-à-partir-dvlm-non-japonais)
+      - [Modèles fusionnés](#modèles-fusionnés-1)
+    - [Text vers Image](#text-vers-image)
+      - [D'usage général](#dusage-général-4)
+      - [Spécifique à un domaine](#spécifique-à-un-domaine-4)
+    - [Text vers Vidéo](#text-vers-vidéo)
+    - [Autres](#autres)
+  - [Modèles Speech-Language](#modèles-speech-language)
+    - [Reconnaissance automatique de la parole](#reconnaissance-automatique-de-la-parole)
+    - [Autres](#autres-1)
+  - [Standard d'évaluation pour les LLM en japonais](#standard-dévaluation-pour-les-llm-en-japonais)
+    - [Benchmarks hybrides](#benchmarks-hybrides)
+    - [Référence traditionnelle basé sur des tâches de Compréhension du langage naturel (NLU)](#référence-traditionnelle-basé-sur-des-tâches-de-compréhension-du-langage-naturel-nlu)
+    - [Standard des tâches génératives ouvertes](#standard-des-tâches-génératives-ouvertes)
+    - [Benchmarks pour mesurer la performance dans des domaines spécifiques](#benchmarks-pour-mesurer-la-performance-dans-des-domaines-spécifiques)
+    - [Benchmarks pour mesurer la factualité et la sécurité](#benchmarks-pour-mesurer-la-factualité-et-la-sécurité)
+    - [Benchmarks pour mesurer les capacités de raisonnement logique](#benchmarks-pour-mesurer-les-capacités-de-raisonnement-logique)
+    - [Benchmarks pour la génération de texte contrôlée](#benchmarks-pour-la-génération-de-texte-contrôlée)
+    - [Benchmarks pour modèles d'embeddings](#benchmarks-pour-modèles-dembeddings)
+    - [Benchmarks pour modèles vision-langage](#benchmarks-pour-modèles-vision-langage)
+  - [Références pour les modèles et les architectures](#références-pour-les-modèles-et-les-architectures)
+  - [Références pour les méthodes d'entraînement](#références-pour-les-méthodes-dentraînement)
+  - [Nos contributeurs](#nos-contributeurs)
+  - [Citation](#citation)
+
 
 <a id="generative"></a>
 ## Modèles IA génératives
