@@ -19,9 +19,55 @@ A list of publicly available LLMs trained with a focus on Japanese, along with t
 
 Please point out any errors on the [issues page](https://github.com/llm-jp/awesome-japanese-llm/issues). Feel free to contribute directly with a pull request.
 
-::: details Table of Contents
-[[toc]]
-:::
+- [Overview of Japanese LLMs](#overview-of-japanese-llms)
+  - [Text Generation Models](#text-generation-models)
+    - [Models built from scratch](#models-built-from-scratch)
+      - [General purpose](#general-purpose)
+      - [Domain Specific](#domain-specific)
+    - [Models built off non-Japanese LLMs (w/ continual pre-training on Japanese)](#models-built-off-non-japanese-llms-w-continual-pre-training-on-japanese)
+      - [General purpose](#general-purpose-1)
+      - [Domain specific](#domain-specific-1)
+    - [Models built off non-Japanese LLMs (w/ post-training on Japanese)](#models-built-off-non-japanese-llms-w-post-training-on-japanese)
+      - [General purpose](#general-purpose-2)
+      - [Domain specific](#domain-specific-2)
+    - [Merged models](#merged-models)
+    - [API-based models](#api-based-models)
+  - [Encoder models](#encoder-models)
+    - [General purpose](#general-purpose-3)
+    - [Domain Specific](#domain-specific-3)
+  - [Sentence and Document Embeddings \[^21\]](#sentence-and-document-embeddings-21)
+    - [Bi-Encoders](#bi-encoders)
+      - [Single-representation bi-encoders](#single-representation-bi-encoders)
+      - [Multi-representation bi-encoders](#multi-representation-bi-encoders)
+    - [Cross-Encoders](#cross-encoders)
+  - [Vision-Language Models](#vision-language-models)
+    - [Text+Image to Text](#textimage-to-text)
+      - [Models built from scratch](#models-built-from-scratch-1)
+      - [Models built off non-Japanese VLMs](#models-built-off-non-japanese-vlms)
+      - [Merged models](#merged-models-1)
+    - [Text to Image](#text-to-image)
+      - [General Purpose](#general-purpose-4)
+      - [Domain Specific](#domain-specific-4)
+    - [Text to Video](#text-to-video)
+    - [Others](#others)
+  - [Speech-Language Models](#speech-language-models)
+    - [Automatic Speech Recognition](#automatic-speech-recognition)
+    - [Others](#others-1)
+  - [Evaluation Benchmarks for Japanese LLMs](#evaluation-benchmarks-for-japanese-llms)
+    - [Hybrid Benchmarks](#hybrid-benchmarks)
+    - [Traditional Benchmarks based on Natural Language Understanding tasks](#traditional-benchmarks-based-on-natural-language-understanding-tasks)
+    - [Benchmarks on open-ended generative tasks](#benchmarks-on-open-ended-generative-tasks)
+    - [Benchmarks for measuring performance in specific domains](#benchmarks-for-measuring-performance-in-specific-domains)
+    - [Benchmarks for measuring factuality and safety](#benchmarks-for-measuring-factuality-and-safety)
+    - [Benchmarks for measuring logical reasoning capabilities](#benchmarks-for-measuring-logical-reasoning-capabilities)
+    - [Benchmarks on controlled text generation](#benchmarks-on-controlled-text-generation)
+    - [Benchmarks for embedding models](#benchmarks-for-embedding-models)
+    - [Benchmarks for vision-language models](#benchmarks-for-vision-language-models)
+  - [References for Models and Architectures](#references-for-models-and-architectures)
+  - [References for Training Methods](#references-for-training-methods)
+  - [Our Contributors](#our-contributors)
+  - [Citation](#citation)
+
 
 <a id="generative"></a>
 ## Text Generation Models
