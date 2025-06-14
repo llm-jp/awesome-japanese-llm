@@ -6,7 +6,9 @@
 </p>
 <figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">Evolution of parameter sizes for Japanese LLMs and non-Japanese LLMs. The information on the Japanese models is derived from this article, while the information on the non-Japanese models can be referred from the <a href="https://lifearchitect.ai/models-table/" target="_blank" rel="noreferrer">Models table</a> on LifeArchitect.ai. However, due to space constraints in the figure, some models have been omitted. Additionally, estimates are included in the parameter count for non-Japanese models. Please notify us of any corrections, additions, or updates.</figcaption>
 
----
+::: warning Figure Update Notice
+The above figure is based on data up to the end of 2024 and has not been updated since 2025. This is because recent LLM development has shifted from focusing on parameter count increases to competing through improvements in training methods and datasets. Please refer to the tables below for the latest model information.
+:::
 
 A list of publicly available LLMs trained with a focus on Japanese, along with their evaluation benchmarks, maintained by volunteers from various sources like academic papers and other public resources.
 

@@ -6,7 +6,9 @@
 </p>
 <figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">Evolution du nombre de paramètres des LLMs en japonais et en non-japonais. Pour des informations sur le modèle japonais, nous nous référons à cet article, et pour le modèle non-japonais, nous nous référons au <a href="https://lifearchitect.ai/models-table/" target="_blank" rel="noreferrer">tableau des modèles</a> sur LifeArchitect.ai (notez cependant que certains modèles ont été omis en raison de l'espace limité sur le graphique. De plus, le nombre de paramètres pour le modèle non-japonais inclut des valeurs estimées). Veuillez nous informer de toute correction ou ajout nécessaire.</figcaption>
 
----
+::: warning Avis de mise à jour de la figure
+La figure ci-dessus est basée sur des données jusqu'à la fin de 2024 et n'a pas été mise à jour depuis 2025. Ceci est dû au fait que le développement récent des LLM s'est déplacé de l'augmentation du nombre de paramètres vers la concurrence par l'amélioration des méthodes d'entraînement et des jeux de données. Veuillez vous référer aux tableaux ci-dessous pour les informations les plus récentes sur les modèles.
+:::
 
 Voici une liste des LLMs disponibles au grand public, axés sur l'apprentissage du japonais, ainsi que leurs critères d'évaluation. Cette liste est maintenue par des bénévoles qui collectent des informations à partir de diverses sources telles que des articles académiques et d'autres ressources publiques.
 
