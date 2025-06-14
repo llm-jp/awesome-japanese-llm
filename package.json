@@ -8,11 +8,18 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "markdown-it-footnote": "^4.0.0",
-    "vitepress": "1.6.3"
+    "vite": "^6.3.5",
+    "vitepress": "^1.6.3"
   },
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "esbuild": "^0.25.5"
+  },
+  "resolutions": {
+    "esbuild": "^0.25.5"
   }
 }
