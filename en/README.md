@@ -373,6 +373,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 |    |  Architecture  |  Training Data  |  Developer  | License / Terms of Use |
 |:---|:---:|:---:|:---:|:---:|
+| [Stockmark-2-VL-100B-beta](https://stockmark-tech.hatenablog.com/entry/2025/06/03/101007)<br>([**100B**-beta](https://huggingface.co/stockmark/Stockmark-2-VL-100B-beta)) | LLaVA-OneVision | 3-stage training: alignment pre-training, caption expansion, instruction and reasoning fine-tuning<br>Synthetic data: Generated from Qwen2.5-VL-72B | Stockmark | Qwen License |
 | [Heron-NVILA](https://tur.ing/posts/pQLCubIm)<br>([1B](https://huggingface.co/turing-motors/Heron-NVILA-Lite-1B), [2B](https://huggingface.co/turing-motors/Heron-NVILA-Lite-2B), [15B](https://huggingface.co/turing-motors/Heron-NVILA-Lite-15B), [33B](https://huggingface.co/turing-motors/Heron-NVILA-Lite-33B)) | NVILA || Turing | Apache 2.0 & OpenAI Terms of Use |
 | [Sarashina2-Vision](https://www.sbintuitions.co.jp/blog/entry/2025/03/17/111659)<br>([8b](https://huggingface.co/sbintuitions/sarashina2-vision-8b), [14b](https://huggingface.co/sbintuitions/sarashina2-vision-14b)) | Sarashina2 + Qwen2-VL + 2-layer MLP || SB Intuitions | MIT |
 | [Asagi](https://uehara-mech.github.io/asagi-vlm?v=1)<br>([2B](https://huggingface.co/MIL-UT/Asagi-2B), [4B](https://huggingface.co/MIL-UT/Asagi-4B), [8B](https://huggingface.co/MIL-UT/Asagi-8B), [14B](https://huggingface.co/MIL-UT/Asagi-14B)) | LLaVA || University of Tokyo Machine Intelligence Lab. | Apache 2.0 |
@@ -561,6 +562,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 |   | Description | Developer |
 |:---|:---|:---:|
 | [llm-jp-eval-mm](https://github.com/llm-jp/llm-jp-eval-mm) | A tool for evaluating the performance of Japanese VLMs on multiple benchmark tasks | Research and Development Center for Large Language Models |
+| [BusinessSlideVQA](https://github.com/stockmarkteam/business-slide-questions) | A question-answer dataset with 220 questions about complex Japanese business slide images, designed to evaluate document comprehension capabilities. | Stockmark |
 | [JMMMU](https://mmmu-japanese-benchmark.github.io/JMMMU/) | A benchmark constructed as the Japanese version of [MMMU Benchmark](https://mmmu-benchmark.github.io/). It consists of 720 translated MMMU problems and 600 new problems unique to Japanese culture. | University of Tokyo Aizawa Lab |
 | [JDocQA](https://github.com/mizuumi/JDocQA) | A question-answer dataset based on Japanese documents (pamphlets, slides, reports, websites), consisting of a total of 11,600 questions. It includes various question formats, including unanswerable questions. | NAIST Watanabe Lab |
 | [Heron VLM Leaderboard powered by Nejumi/WandB](https://wandb.ai/vision-language-leaderboard/heron-leaderboard/reports/Heron-VLM-Leaderboard-powered-by-Nejumi-WandB--Vmlldzo4MjY3OTc5) | Summarizes the evaluation results of [Japanese-Heron-Bench](#japanese-heron-bench) and [LLaVA-Bench-In-the-Wild (Japanese)](#llava-bench-in-the-wild). | Turing, Weights & Biases |
