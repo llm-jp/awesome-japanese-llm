@@ -373,6 +373,7 @@
 
 |    |  アーキテクチャ |  学習画像/テキスト  |  開発元  | ライセンス / 利用規約 |
 |:---|:---:|:---:|:---:|:---:|
+| [Stockmark-2-VL-100B-beta](https://stockmark-tech.hatenablog.com/entry/2025/06/03/101007)<br>([**100B**-beta](https://huggingface.co/stockmark/Stockmark-2-VL-100B-beta)) | LLaVA-OneVision | 3段階学習: アライメント事前学習、キャプション拡張、インストラクション・推論ファインチューニング<br>合成データ: Qwen2.5-VL-72B から生成 | ストックマーク | Qwen License |
 | [Heron-NVILA](https://tur.ing/posts/pQLCubIm)<br>([1B](https://huggingface.co/turing-motors/Heron-NVILA-Lite-1B), [2B](https://huggingface.co/turing-motors/Heron-NVILA-Lite-2B), [15B](https://huggingface.co/turing-motors/Heron-NVILA-Lite-15B), [33B](https://huggingface.co/turing-motors/Heron-NVILA-Lite-33B)) | NVILA || Turing | Apache 2.0 & OpenAI Terms of Use |
 | [Sarashina2-Vision](https://www.sbintuitions.co.jp/blog/entry/2025/03/17/111659)<br>([8b](https://huggingface.co/sbintuitions/sarashina2-vision-8b), [14b](https://huggingface.co/sbintuitions/sarashina2-vision-14b)) | Sarashina2 + Qwen2-VL + 2-layer MLP || SB Intuitions | MIT |
 | [Asagi](https://uehara-mech.github.io/asagi-vlm?v=1)<br>([2B](https://huggingface.co/MIL-UT/Asagi-2B), [4B](https://huggingface.co/MIL-UT/Asagi-4B), [8B](https://huggingface.co/MIL-UT/Asagi-8B), [14B](https://huggingface.co/MIL-UT/Asagi-14B)) | LLaVA || 東大 原田研 | Apache 2.0 |
@@ -561,6 +562,7 @@
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
 | [llm-jp-eval-mm](https://github.com/llm-jp/llm-jp-eval-mm) | 日本語VLMの性能を複数のベンチマークタスクで評価するためのツール | 大規模言語モデル研究開発センター |
+| [BusinessSlideVQA](https://github.com/stockmarkteam/business-slide-questions) | 複雑な日本語ビジネススライド画像に関する220問の質問応答データセット。文書理解能力の評価を目的として設計されている。 | ストックマーク |
 | [JMMMU](https://mmmu-japanese-benchmark.github.io/JMMMU/) | [MMMU ベンチマーク](https://mmmu-benchmark.github.io/)の日本語版として構築されたベンチマーク。720 件の MMMU の翻訳版の問題と 600 件の日本文化特有の新規の問題から構成される。 | 東大 相澤研 |
 | [JDocQA](https://github.com/mizuumi/JDocQA) | 日本語ドキュメント（パンフレット、スライド、レポート、Web サイト）をもとに構築された、合計 11,600 件の質問から構成される質問応答データセット。解答不能問題を含め、様々な質問形式の質問が収録されている。 | NAIST 渡辺研 |
 | [Heron VLM リーダーボード powered by nejumi@WandB](https://api.wandb.ai/links/vision-language-leaderboard/h2lxge4n) | [Japanese-Heron-Bench](#japanese-heron-bench) と [LLaVA-Bench-In-the-Wild (Japanese)](#llava-bench-in-the-wild) の評価結果をまとめている。 | Turing, Weights & Biases |
