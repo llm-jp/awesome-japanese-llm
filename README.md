@@ -173,6 +173,7 @@
 | [nekomata-14b-pfn-qfin](https://tech.preferred.jp/ja/blog/qfin-llm-continual-pretraining/)<br>([qfin](https://huggingface.co/pfnet/nekomata-14b-pfn-qfin), [qfin-inst-merge](https://huggingface.co/pfnet/nekomata-14b-pfn-qfin-inst-merge)) | 金融 | Qwen (**14b**) | Preferred Networks | Tongyi Qianwen LICENSE |
 | [Watashiha-Llama-2-13B-Ogiri-sft](https://huggingface.co/watashiha/Watashiha-Llama-2-13B-Ogiri-sft)<br>([sft](https://huggingface.co/watashiha/Watashiha-Llama-2-13B-Ogiri-sft), [sft-neuron](https://huggingface.co/watashiha/Watashiha-Llama-2-13B-Ogiri-sft-neuron)) | 大喜利 | Llama 2 (**13b**) | わたしは | Llama 2 Community License |
 | [からまる](https://sakana.ai/karamaru/)<br>([Karamaru-v1](https://huggingface.co/SakanaAI/Llama-3-Karamaru-v1)) | 江戸時代の古文 | Llama 3 (**8b**) | Sakana AI | Llama 3 Community License |
+| [JPharmatron](https://huggingface.co/collections/EQUES/pharmatron-680a330b4dfce3ac43009984)<br>([7B-base](https://huggingface.co/EQUES/JPharmatron-7B-base), [7B](https://huggingface.co/EQUES/JPharmatron-7B)) | 薬学 | Qwen2.5 (**7b**) | EQUES Inc. | CC BY-SA 4.0 |
 | [ELYZA-japanese-CodeLlama-7b](https://note.com/elyza/n/n5bce23d7c9c8)<br>([7b](https://huggingface.co/elyza/ELYZA-japanese-CodeLlama-7b), [7b-instruct](https://huggingface.co/elyza/ELYZA-japanese-CodeLlama-7b-instruct)) | コーディング |  Code Llama<br>(**7b**) | ELYZA | Llama 2 Community License |
 | [AIBunCho/japanese-novel-gpt-j-6b](https://huggingface.co/AIBunCho/japanese-novel-gpt-j-6b) | 物語生成 | GPT-J (**6b**) | 個人 ([大曽根宏幸](https://scholar.google.co.jp/citations?user=6ID5K3oAAAAJ)) | CreativeML OpenRAIL-M License |
 | [NovelAI/genji-jp](https://huggingface.co/NovelAI/genji-jp) | 物語生成 | GPT-J (**6b**) | NovelAI |  ？  |
@@ -514,6 +515,9 @@
 | <a id="jmedllm"></a> [JMED-LLM](https://github.com/sociocom/JMED-LLM) | 日本語医療分野における LLM の評価用データセット。これまでに開発されてきた日本語の医療言語処理タスクを LLM ベンチマーク用にまとめている。 | NAIST ソーシャル・コンピューティング研究室 |
 | [JMedBench](https://huggingface.co/datasets/Coldog2333/JMedBench) | 日本語医療分野の LLM ベンチマーク。選択肢問題、機械翻訳、固有表現抽出、文書分類、文類似度計算の 5 種類、計 20 個のデータセットが収録されている（一部のデータセットは [JMMLU](#jmmlu) の医療分野問題や [JMED-LLM](#jmedllm) から借用されている）。また、JMedBench での評価を簡単に行うためのツール [med-eval](https://github.com/nii-nlp/med-eval) が開発されている。 | NII 相澤研 |
 | [Japanese Medical Language Model Evaluation Harness](https://github.com/stardust-coder/japanese-lm-med-harness) | ワンコマンドで実行可能な医療分野に特化したLLMの日英能力評価プログラム。 | 個人 ([​助田一晟](https://scholar.google.co.jp/citations?user=Dc_v0BsAAAAJ)) |
+| [YakugakuQA](https://github.com/EQUES-Inc/pharma-LLM-eval) | 薬剤師国家試験をベースとした日本語製薬分野の知識を問う評価データセット。事実に基づく薬学知識を測定する。 | EQUES Inc. |
+| [NayoseQA](https://github.com/EQUES-Inc/pharma-LLM-eval) | 日本語製薬分野での多言語間用語対応・正規化能力を評価するデータセット。同義語や専門用語の理解度を測定する。 | EQUES Inc. |
+| [SogoCheck](https://github.com/EQUES-Inc/pharma-LLM-eval) | 対となる文章間の一貫性推論を評価する新しいタスク。GPT-4oでも性能が低い高難度の推論タスク。 | EQUES Inc. |
 | [karakuri-bench](https://huggingface.co/datasets/karakuri-ai/karakuri-bench-v0.1) | 日本語 LLM のカスタマーサポートにおける性能を測定するためのデータセット。 | カラクリ |
 
 <a id="factuality-safety-benchmark-suites"></a>
