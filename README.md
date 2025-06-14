@@ -188,6 +188,7 @@
 
 |    | ベースのLLM  | 学習テキスト | 開発元  | ライセンス / 利用規約 |
 |:---|:---:|:---:|:---:|:---:|
+| [Llama 3.1 Shisa V2 405B](https://shisa.ai/posts/shisa-v2-405b-ja-pr/)<br>([**405b**](https://huggingface.co/shisa-ai/shisa-v2-llama3.1-405b)) | Llama 3.1 (**405b**) | 高品質な日本語データセットでSFT/DPO | Shisa.AI | Llama 3.1 Community License |
 | [AXCXEPT/EZO-Qwen2.5-72B-Instruct](https://huggingface.co/AXCXEPT/EZO-Qwen2.5-72B-Instruct)<br>[AXCXEPT/EZO-AutoCoTRAG-Qwen2.5-72B-Instruct_q4](https://huggingface.co/AXCXEPT/EZO-AutoCoTRAG-Qwen2.5-72B-Instruct_q4) | Qwen2.5 (**72b**) || Axcxept | Qwen License |
 | [ao-Karasu](https://note.com/lightblue_tech/n/nfda12435b262)<br>([72B](https://huggingface.co/lightblue/ao-karasu-72B)) | Qwen1.5 (**72b**) | ultra-orca-boros-en-ja-v1, OASST1, ShareGPT, 日本語の公開技術ブログ, ニュース記事, QAサイトの回答, 独自のデータセット | Lightblue |  Tongyi Qianwen LICENSE (?)[^12] |
 | [shisa-ai/shisa-v2-llama3.3-70b](https://huggingface.co/shisa-ai/shisa-v2-llama3.3-70b) | Llama 3.3 (**70b**) || Shisa.AI | Llama 3.3 Community License |
