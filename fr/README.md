@@ -1,6 +1,15 @@
 # Aperçu des grands modèles de langage (LLM) en japonais
 [ [**English**](../en/) | Français | [**日本語**](../) ]
 
+<div class="github-only">
+
+> [!NOTE]
+> **📖 Veuillez consulter la version Web plus lisible**
+> 
+> Le contenu de ce README est disponible dans un format plus lisible sur **[llm-jp.github.io/awesome-japanese-llm**. Nous recommandons de consulter la version Web pour éviter les problèmes d'affichage des tableaux et de mise en page.
+
+</div>
+
 <p align="center">
   <img src="../figures/parameter_size_overview_en.png" alt="LLMs en japonais et en non-japonais par taille de paramètres au fil du temps">
 </p>

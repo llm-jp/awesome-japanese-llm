@@ -1,6 +1,15 @@
 # 日本語LLMまとめ
 [ [**English**](./en/) | [**Français**](./fr/) | 日本語 ]
 
+<div class="github-only">
+
+> [!NOTE]
+> **📖 より読みやすいWeb版をご利用ください**
+> 
+> このREADMEの内容は、**[llm-jp.github.io/awesome-japanese-llm](https://llm-jp.github.io/awesome-japanese-llm)** でより見やすい形式でご覧いただけます。表の表示崩れやレイアウトの問題を防ぐため、Web版の閲覧を推奨いたします。
+
+</div>
+
 <p align="center">
   <img src="./figures/parameter_size_overview_ja.png" alt="日本語LLM・海外LLMのパラメータサイズの推移">
 </p>

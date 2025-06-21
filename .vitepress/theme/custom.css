@@ -17,3 +17,8 @@
 img {
   max-width: min(720px, 100%);
 }
+
+/* GitHub専用要素をVitePressで非表示にする */
+.github-only {
+  display: none !important;
+}

@@ -1,6 +1,15 @@
 # Overview of Japanese LLMs
 [ English | [**Français**](../fr/) | [**日本語**](../) ]
 
+<div class="github-only">
+
+> [!NOTE]
+> **📖 Please visit the more readable Web version**
+> 
+> The content of this README is available in a more readable format at **[llm-jp.github.io/awesome-japanese-llm](https://llm-jp.github.io/awesome-japanese-llm)**. We recommend viewing the Web version to avoid table display issues and layout problems.
+
+</div>
+
 <p align="center">
   <img src="../figures/parameter_size_overview_en.png" alt="Parameter sizes of Japanese and non-Japanese LLMs over time">
 </p>
