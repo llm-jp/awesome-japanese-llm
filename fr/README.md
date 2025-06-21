@@ -3,10 +3,9 @@
 
 <div class="github-only">
 
-> [!NOTE]
 > **📖 Veuillez consulter la version Web plus lisible**
 > 
-> Le contenu de ce README est disponible dans un format plus lisible sur **[llm-jp.github.io/awesome-japanese-llm**. Nous recommandons de consulter la version Web pour éviter les problèmes d'affichage des tableaux et de mise en page.
+> Le contenu de ce README est disponible dans un format plus lisible sur **[llm-jp.github.io/awesome-japanese-llm](https://llm-jp.github.io/awesome-japanese-llm)**. Nous recommandons de consulter la version Web pour éviter les problèmes d'affichage des tableaux et de mise en page.
 
 </div>
 

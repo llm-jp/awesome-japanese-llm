@@ -3,7 +3,6 @@
 
 <div class="github-only">
 
-> [!NOTE]
 > **📖 より読みやすいWeb版をご利用ください**
 > 
 > このREADMEの内容は、**[llm-jp.github.io/awesome-japanese-llm](https://llm-jp.github.io/awesome-japanese-llm)** でより見やすい形式でご覧いただけます。表の表示崩れやレイアウトの問題を防ぐため、Web版の閲覧を推奨いたします。
