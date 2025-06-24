@@ -74,6 +74,24 @@ The documentation follows a structured format with:
 - Training data information should be as detailed as possible
 - License information must be accurate and up-to-date
 
+### Model Table Guidelines
+When adding new models to the documentation:
+
+#### Model Classification
+- **汎用 (General)**: Models designed for general-purpose language tasks
+- **ドメイン特化型 (Domain-specific)**: Models specialized for specific domains (医療/medical, 金融/finance, コーディング/coding, etc.)
+- Determine classification based on the model's primary training focus and intended use case
+
+#### Table Ordering
+- Models within each section should be ordered by parameter size (largest to smallest)
+- For models with the same parameter size, maintain alphabetical order by model name
+- Always verify the correct insertion position when adding new entries
+
+#### License Format Standards
+- Use consistent capitalization: "Llama 2 Community License", "Llama 3 Community License", "Llama 3.1 Community License"
+- Avoid all-caps formats like "META LLAMA 3.1 COMMUNITY LICENSE"
+- Match the license format used by similar models in the same table
+
 ### Visualization Updates (Deprecated as of 2025)
 - The parameter size visualization charts are no longer maintained
 - CSV files and Python scripts remain for historical reference but should not be updated
