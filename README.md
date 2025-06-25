@@ -553,6 +553,7 @@
 |:---|:---|:---:|
 | [JFLD (Japanese Formal Logic Deduction)](https://aclanthology.org/2024.lrec-main.832/) | 日本語 LLM の演繹推論能力を問うデータセット（同著者らが提案している [FLD (Formal Logic Deduction)](https://github.com/hitachi-nlp/FLD) の日本語版）。LLM が持つ知識と切り分けて評価を行うために、反実仮想的なサンプルから構成されているのが特徴である。 | 日立製作所 |
 | [JHumanEval](https://huggingface.co/datasets/kogi-jwu/jhumaneval) | 英語の指示から Python コードの生成能力を評価するベンチマークである [HumanEval](https://huggingface.co/datasets/openai/openai_humaneval) の日本語版。日本語版を作成する際には、まず機械翻訳にかけたあと、人手での修正を行っている。 | 日本女子大 倉光研 |
+| [JMultiPL-E](https://huggingface.co/datasets/tohoku-nlp/JMultiPL-E) | OpenAI HumanEval をベースに 17 のプログラミング言語（C++, C#, Go, Java, JavaScript, PHP, Ruby, Rust, Scala, Swift, TypeScript など）でコード生成能力を評価するデータセット。多言語でのコード理解とコード生成の性能を測定する。| 東北大 自然言語処理研究グループ |
 
 <a id="controllabilitiy-benchmark-suites"></a>
 ### 制約付きの生成能力を測定するベンチマーク/データセット

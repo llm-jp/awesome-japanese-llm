@@ -102,6 +102,31 @@ When adding new models to the documentation:
 - Update figure references to use correct language-specific images
 - Verify that all model entries are consistently represented
 
+### Dataset/Benchmark Addition Guidelines
+When adding new datasets or benchmarks to the documentation:
+
+#### Information Verification
+- Always verify dataset details against official sources (Hugging Face, research papers, project websites)
+- Cross-check technical specifications like supported languages, data formats, and evaluation metrics
+- When research papers are in PDF format and cannot be parsed effectively, rely primarily on official dataset pages (e.g., Hugging Face) for accurate information
+
+#### Developer Attribution Standards
+- Use consistent organization naming across all language versions
+- Follow existing patterns in the documentation:
+  - Universities: Use format like "東北大 自然言語処理研究グループ" rather than just "東北大学"
+  - Research labs: Include full lab names when they exist in the documentation
+  - Companies: Use official company names as they appear in other entries
+
+#### Dataset Classification
+- Place datasets in appropriate benchmark sections based on their primary evaluation purpose
+- Code generation datasets belong in "論理推論能力を測定するベンチマーク/データセット" section
+- Verify dataset capabilities and limitations before categorization
+
+#### Multilingual Updates
+- When adding entries to the Japanese README, immediately update English and French versions
+- Maintain consistent formatting and information across all three language versions
+- Ensure translations are accurate and culturally appropriate for each language
+
 ## Contributing Notes
 
 The project follows guidelines in CONTRIBUTING.md:

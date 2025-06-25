@@ -552,6 +552,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 |:---|:---|:---:|
 | [JFLD (Japanese Formal Logic Deduction)](https://aclanthology.org/2024.lrec-main.832/) | A dataset for evaluating deductive reasoning capabilities of Japanese LLMs (the Japanese version of the [FLD (Formal Logic Deduction)](https://github.com/hitachi-nlp/FLD) proposed by the same authors). It is characterized by being composed of counterfactual samples to evaluate apart from the knowledge the LLM possesses. | Hitachi |
 | [JHumanEval](https://huggingface.co/datasets/kogi-jwu/jhumaneval) | A Japanese version of the [HumanEval](https://huggingface.co/datasets/openai/openai_humaneval) benchmark, which assesses the ability to generate Python code from English instructions. In creating the Japanese version, the text was first machine-translated and then manually corrected. | Japan Women's University Kuramitsu Lab |
+| [JMultiPL-E](https://huggingface.co/datasets/tohoku-nlp/JMultiPL-E) | A dataset for evaluating code generation capabilities across 17 programming languages (C++, C#, Go, Java, JavaScript, PHP, Ruby, Rust, Scala, Swift, TypeScript, etc.) based on OpenAI HumanEval. Measures multilingual code understanding and generation performance. | Tohoku University Natural Language Processing Group |
 
 <a id="controllabilitiy-benchmark-suites"></a>
 ### Benchmarks on controlled text generation
