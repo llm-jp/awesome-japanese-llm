@@ -79,8 +79,9 @@ When adding new models to the documentation:
 
 #### Model Classification
 - **汎用 (General)**: Models designed for general-purpose language tasks
-- **ドメイン特化型 (Domain-specific)**: Models specialized for specific domains (医療/medical, 金融/finance, コーディング/coding, etc.)
+- **ドメイン特化型 (Domain-specific)**: Models specialized for specific domains (医療/medical, 薬学/pharmacy, 金融/finance, コーディング/coding, etc.)
 - Determine classification based on the model's primary training focus and intended use case
+- **Important**: Different specialized domains should be treated as separate categories (e.g., 薬学/pharmacy and 医療/medical are distinct domains)
 
 #### Table Ordering
 - Models within each section should be ordered by parameter size (largest to smallest)
@@ -126,6 +127,32 @@ When adding new datasets or benchmarks to the documentation:
 - When adding entries to the Japanese README, immediately update English and French versions
 - Maintain consistent formatting and information across all three language versions
 - Ensure translations are accurate and culturally appropriate for each language
+- **Critical**: Models must be placed in the exact same position/order across all three language versions (Japanese, English, French)
+- Domain names should be consistently translated: 薬学→Pharmacy→Pharmacie, 医療→Medicine→Médecine, etc.
+
+### Model Addition Best Practices
+When adding new models to the documentation:
+
+#### Pre-Addition Checklist
+1. **Verify model information** from official sources (Hugging Face, research papers, official announcements)
+2. **Identify correct domain classification** - don't assume similar domains are the same (薬学 ≠ 医療)
+3. **Check existing model formats** in the target section for:
+   - Architecture naming conventions (e.g., "BERT (base, large)" vs "BERT (large)")
+   - License format standards
+   - HuggingFace availability symbols (◯, △, ？)
+4. **Determine insertion position** based on parameter size and domain grouping
+5. **Plan multilingual updates** - prepare translations for all three versions
+
+#### Architecture Format Standards
+- Multiple sizes: Use format like "BERT (base, large)" to indicate both variants exist
+- Single size: Use format like "BERT (base)" for single variant
+- Follow existing patterns in the same table section
+- Check other models in the same domain for consistency
+
+#### Domain Grouping Rules
+- Models should be grouped by domain first, then ordered by parameter size within each domain
+- Specialized domains (薬学, 医療, 金融, etc.) are separate categories
+- When adding to a new domain, place it in logical order relative to existing domains
 
 ## Contributing Notes
 
