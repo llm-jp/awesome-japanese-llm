@@ -485,6 +485,16 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [Reazon wav2vec 2.0](https://research.reazon.jp/blog/2024-10-21-Wav2Vec2-base-release.html)<br>([base](https://huggingface.co/reazon-research/japanese-wav2vec2-base), [large](https://huggingface.co/reazon-research/japanese-wav2vec2-large)) | wav2vec 2.0 | ReazonSpeech | Reazon Holdings | Apache 2.0 |
 | [rinna wav2vec 2.0](https://rinna.co.jp/news/2024/03/20240307.html)<br>([base](https://huggingface.co/rinna/japanese-wav2vec2-base)) | wav2vec 2.0 | ReazonSpeech | rinna | Apache 2.0 |
 
+<a id="music"></a>
+## Music-Language Models
+
+<a id="music-text-conversion"></a>
+### Music-Text Conversion
+
+|    |  Architecture  |  Training Data  |  Developer  | License |
+|:---|:---:|:---:|:---:|:---:|
+| [Japanese MULAN](https://huggingface.co/line-corporation/japanese-mulan-base)<br>([japanese-mulan-base](https://huggingface.co/line-corporation/japanese-mulan-base)) | MULAN (AST + GLuCoSE) | ~20k internal music-text pairs | LY Corporation | Apache 2.0 |
+
 <a id="benchmark-suites"></a>
 ## Evaluation Benchmarks for Japanese LLMs
 

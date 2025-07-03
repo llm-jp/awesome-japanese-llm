@@ -486,6 +486,16 @@
 | [Reazon wav2vec 2.0](https://research.reazon.jp/blog/2024-10-21-Wav2Vec2-base-release.html)<br>([base](https://huggingface.co/reazon-research/japanese-wav2vec2-base), [large](https://huggingface.co/reazon-research/japanese-wav2vec2-large)) | wav2vec 2.0 | ReazonSpeech | レアゾン・ホールディングス | Apache 2.0 |
 | [rinna wav2vec 2.0](https://rinna.co.jp/news/2024/03/20240307.html)<br>([base](https://huggingface.co/rinna/japanese-wav2vec2-base)) | wav2vec 2.0 | ReazonSpeech | rinna | Apache 2.0 |
 
+<a id="music"></a>
+## 音楽言語モデル (Music-Language Models)
+
+<a id="music-text-conversion"></a>
+### 音楽-テキスト間変換
+
+|    |  アーキテクチャ  |  学習コーパス  |  開発元  | ライセンス |
+|:---|:---:|:---:|:---:|:---:|
+| [Japanese MULAN](https://huggingface.co/line-corporation/japanese-mulan-base)<br>([japanese-mulan-base](https://huggingface.co/line-corporation/japanese-mulan-base)) | MULAN (AST + GLuCoSE) | 〜20k 社内音楽-テキストペア | LINEヤフー | Apache 2.0 |
+
 <a id="benchmark-suites"></a>
 ## 日本語LLM評価ベンチマーク/データセットまとめ
 

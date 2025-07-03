@@ -136,12 +136,14 @@ When adding new models to the documentation:
 #### Pre-Addition Checklist
 1. **Verify model information** from official sources (Hugging Face, research papers, official announcements)
 2. **Identify correct domain classification** - don't assume similar domains are the same (薬学 ≠ 医療)
+   - **New model types**: If the model doesn't fit existing categories (e.g., music-language models vs speech-language models), create new sections following the established hierarchy
 3. **Check existing model formats** in the target section for:
    - Architecture naming conventions (e.g., "BERT (base, large)" vs "BERT (large)")
    - License format standards
    - HuggingFace availability symbols (◯, △, ？)
 4. **Determine insertion position** based on parameter size and domain grouping
 5. **Plan multilingual updates** - prepare translations for all three versions
+6. **Check for related research papers** - if the model is based on research, add the original paper to `parts/references_model.md` in chronological order
 
 #### Architecture Format Standards
 - Multiple sizes: Use format like "BERT (base, large)" to indicate both variants exist
@@ -153,6 +155,12 @@ When adding new models to the documentation:
 - Models should be grouped by domain first, then ordered by parameter size within each domain
 - Specialized domains (薬学, 医療, 金融, etc.) are separate categories
 - When adding to a new domain, place it in logical order relative to existing domains
+
+#### Research Paper References
+- When adding models based on research papers, always add the original paper to `parts/references_model.md`
+- Papers should be ordered chronologically by submission/publication date
+- Include venue information (conference/journal) if published, or "-" if arXiv-only
+- Verify publication venue and dates from authoritative sources (not just arXiv)
 
 ## Contributing Notes
 
