@@ -117,6 +117,7 @@ When adding new datasets or benchmarks to the documentation:
   - Universities: Use format like "東北大 自然言語処理研究グループ" rather than just "東北大学"
   - Research labs: Include full lab names when they exist in the documentation
   - Companies: Use official company names as they appear in other entries
+- **Language-specific company names**: In Japanese README, use Japanese company names (e.g., "カラクリ" for KARAKURI Inc.), while maintaining original English names in English and French versions
 
 #### Dataset Classification
 - Place datasets in appropriate benchmark sections based on their primary evaluation purpose
