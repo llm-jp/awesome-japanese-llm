@@ -136,6 +136,10 @@ When adding new models to the documentation:
 
 #### Pre-Addition Checklist
 1. **Verify model information** from official sources (Hugging Face, research papers, official announcements)
+   - **Always check HuggingFace config.json** for accurate technical specifications:
+     - Parameter count (may differ from model name, e.g., "2B" model might be 2.45B)
+     - Context length (`max_position_embeddings` field)
+     - Architecture details
 2. **Identify correct domain classification** - don't assume similar domains are the same (薬学 ≠ 医療)
    - **New model types**: If the model doesn't fit existing categories (e.g., music-language models vs speech-language models), create new sections following the established hierarchy
 3. **Check existing model formats** in the target section for:
@@ -143,8 +147,11 @@ When adding new models to the documentation:
    - License format standards
    - HuggingFace availability symbols (◯, △, ？)
 4. **Determine insertion position** based on parameter size and domain grouping
+   - **Critical**: Use exact parameter counts from config.json, not model names
+   - Follow strict descending order by parameter size within each domain
 5. **Plan multilingual updates** - prepare translations for all three versions
 6. **Check for related research papers** - if the model is based on research, add the original paper to `parts/references_model.md` in chronological order
+7. **Verify training details** - distinguish between technical blog posts that explain general methods vs. specific model training details
 
 #### Architecture Format Standards
 - Multiple sizes: Use format like "BERT (base, large)" to indicate both variants exist
@@ -162,6 +169,15 @@ When adding new models to the documentation:
 - Papers should be ordered chronologically by submission/publication date
 - Include venue information (conference/journal) if published, or "-" if arXiv-only
 - Verify publication venue and dates from authoritative sources (not just arXiv)
+
+#### Technical Information Verification
+- **Parameter counts**: Always use exact values from HuggingFace config.json, not marketing names
+- **Context length**: Check `max_position_embeddings` in config.json, not assumptions
+- **Training details**: Only include information explicitly stated in official sources
+  - If technical blog posts discuss general methods but not specific model details, mark as "訓練詳細不明"
+  - Distinguish between method explanations and actual model training procedures
+- **Company information**: Verify current company names and any recent mergers/acquisitions
+- **Architecture types**: Use exact architecture names from model documentation
 
 ## Contributing Notes
 
