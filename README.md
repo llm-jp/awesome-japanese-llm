@@ -509,7 +509,7 @@
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
 | [Nejumi LLMリーダーボード3](https://api.wandb.ai/links/wandb-japan/psrsl8gu) | LLM の日本語能力を言語理解能力、応用能力、アライメント（制御性、安全性を含む）の 3 つの観点で評価している。詳しくは[こちらの記事](https://note.com/wandb_jp/n/nd4e54c2020ce)を参照 | Weights & Biases |
-| [Swallow LLM Leaderboard](https://swallow-llm.github.io/leaderboard/index-chat.ja.html) | 様々な LLM を日本語理解・生成タスク、日本語マルチターン対話タスク、英語理解・生成タスクの 3 種類から総合的に評価している。また、既存の LLM 評価ツールを統合・改修した評価スクリプトである [swallow-evaluation](https://github.com/swallow-llm/swallow-evaluation) を合わせて公開している。 | Swallowプロジェクト |
+| [Swallow LLM Leaderboard v2](https://swallow-llm.github.io/leaderboard/index-post.ja.html) | 様々な LLM を日本語理解・生成タスク、日本語マルチターン対話タスク、英語理解・生成タスクの 3 種類から総合的に評価している。v2では推論特化モデルに対応するため、ゼロショット推論や思考連鎖プロンプトを採用し、より高難度なベンチマーク（計12タスク：日本語6、英語6）で評価を実施。また、既存の LLM 評価ツールを統合・改修した評価スクリプトである [swallow-evaluation](https://github.com/swallow-llm/swallow-evaluation) に加えて、新たに推論型モデル対応の [swallow-evaluation-instruct](https://github.com/swallow-llm/swallow-evaluation-instruct) を公開している。 | Swallowプロジェクト |
 
 <a id="basic-benchmark-suites"></a>
 ### 基本的な自然言語処理タスクの性能を測定するベンチマーク/データセット
