@@ -251,6 +251,8 @@
 |    | ドメイン | ベースのLLM  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|
 | [JMedLoRA](https://arxiv.org/pdf/2310.10083.pdf)<br>([llama2-jmedlora-6.89ep](https://huggingface.co/AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep)) | 医療 | Llama 2 (**70b**) | 東京大学医学部附属病院 循環器内科 AIグループ | CC BY-NC 4.0 |
+| [pfnet/Qwen3-1.7B-pfn-qfin](https://huggingface.co/pfnet/Qwen3-1.7B-pfn-qfin) | 金融 | Qwen3 (**1.72b**) | Preferred Networks | PLaMo Community License |
+| [pfnet/Qwen2.5-1.5B-pfn-qfin](https://huggingface.co/pfnet/Qwen2.5-1.5B-pfn-qfin) | 金融 | Qwen2.5 (**1.54b**) | Preferred Networks | PLaMo Community License |
 
 <a id="merged-models"></a>
 ### 複数のLLMをマージして作成されたモデル
@@ -270,7 +272,7 @@
 | [Solar mini chat ja](https://www.upstage.ai/blog/en/solar-mini-chat-ja)<br>([solar-mini-ja-250123](https://console.upstage.ai/docs/models#solar-mini-ja-250123), [solar-mini-ja-240612](https://console.upstage.ai/docs/models#solar-mini-ja-240612)) | 32,768 | Upstage | 独自 |
 | [AIのべりすと](https://ai-novel.com/account_api.php) | 2,400 ~ 8,192 | Bit192 | 独自 |
 | [LHTM-OPT](https://aws.amazon.com/jp/blogs/psa/how-to-deploy-japanese-llm-lhtm-opt-on-aws-marketplace-developed-by-alt/) | | オルツ | AWS Marketplace |
-| [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://learn.microsoft.com/ja-jp/azure/ai-studio/how-to/deploy-models-tsuzumi)) | | NTT | Azure AI Foundry |
+| [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://ai.azure.com/catalog/models/tsuzumi-7b)) | | NTT | Azure AI Foundry |
 
 <a id="autoencoding"></a>
 ## 入力テキストの処理に主に使うモデル

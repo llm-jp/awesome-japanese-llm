@@ -140,13 +140,17 @@ When adding new models to the documentation:
      - Parameter count (may differ from model name, e.g., "2B" model might be 2.45B)
      - Context length (`max_position_embeddings` field)
      - Architecture details
-2. **Identify correct domain classification** - don't assume similar domains are the same (薬学 ≠ 医療)
+2. **Identify correct model training type and section**:
+   - **継続事前学習 (Continual Pre-training)**: Models that undergo additional pre-training on domain-specific data
+   - **Instruction Tuning のみ (Instruction Tuning Only)**: Models fine-tuned on instruction/chat data without additional pre-training
+   - **Critical distinction**: Fine-tuned domain-specific models belong in "Instruction Tuning → ドメイン特化型", NOT "継続事前学習 → ドメイン特化型"
+3. **Identify correct domain classification** - don't assume similar domains are the same (薬学 ≠ 医療)
    - **New model types**: If the model doesn't fit existing categories (e.g., music-language models vs speech-language models), create new sections following the established hierarchy
-3. **Check existing model formats** in the target section for:
+4. **Check existing model formats** in the target section for:
    - Architecture naming conventions (e.g., "BERT (base, large)" vs "BERT (large)")
    - License format standards
    - HuggingFace availability symbols (◯, △, ？)
-4. **Determine insertion position** based on parameter size and domain grouping
+5. **Determine insertion position** based on parameter size and domain grouping
    - **Critical**: Use exact parameter counts from config.json, not model names
    - Follow strict descending order by parameter size within each domain
 5. **Plan multilingual updates** - prepare translations for all three versions

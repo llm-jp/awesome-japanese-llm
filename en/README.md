@@ -251,6 +251,8 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 |    | Domain | Base Model  |  Developer  |  License  |
 |:---|:---:|:---:|:---:|:---:|
 | [JMedLoRA](https://arxiv.org/pdf/2310.10083.pdf)<br>([llama2-jmedlora-6.89ep](https://huggingface.co/AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep)) | Medicine | Llama 2 (**70b**) | University of Tokyo Hospital Department of Cardiovascular Medicine AI Group | CC BY-NC 4.0 |
+| [pfnet/Qwen3-1.7B-pfn-qfin](https://huggingface.co/pfnet/Qwen3-1.7B-pfn-qfin) | Finance | Qwen3 (**1.72b**) | Preferred Networks | PLaMo Community License |
+| [pfnet/Qwen2.5-1.5B-pfn-qfin](https://huggingface.co/pfnet/Qwen2.5-1.5B-pfn-qfin) | Finance | Qwen2.5 (**1.54b**) | Preferred Networks | PLaMo Community License |
 
 <a id="merged-models"></a>
 ### Merged models
@@ -270,7 +272,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [Solar mini chat ja](https://www.upstage.ai/blog/en/solar-mini-chat-ja)<br>([solar-mini-ja-250123](https://console.upstage.ai/docs/models#solar-mini-ja-250123), [solar-mini-ja-240612](https://console.upstage.ai/docs/models#solar-mini-ja-240612)) | 32,768 | Upstage | self-owned |
 | [AI Novelist](https://ai-novel.com/account_api.php) | 2,400 ~ 8,192 | Bit192 | self-owned |
 | [LHTM-OPT](https://aws.amazon.com/marketplace/pp/prodview-nw62wpreit442) | | alt Inc. | AWS Marketplace |
-| [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/deploy-models-tsuzumi)) | | NTT | Azure AI Foundry |
+| [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://ai.azure.com/catalog/models/tsuzumi-7b)) | | NTT | Azure AI Foundry |
 
 <a id="autoencoding"></a>
 ## Encoder models
