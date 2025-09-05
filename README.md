@@ -251,6 +251,8 @@
 |    | ドメイン | ベースのLLM  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|
 | [JMedLoRA](https://arxiv.org/pdf/2310.10083.pdf)<br>([llama2-jmedlora-6.89ep](https://huggingface.co/AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep)) | 医療 | Llama 2 (**70b**) | 東京大学医学部附属病院 循環器内科 AIグループ | CC BY-NC 4.0 |
+| [pfnet/Qwen3-1.7B-pfn-qfin](https://huggingface.co/pfnet/Qwen3-1.7B-pfn-qfin) | 金融 | Qwen3 (**1.72b**) | Preferred Networks | PLaMo Community License |
+| [pfnet/Qwen2.5-1.5B-pfn-qfin](https://huggingface.co/pfnet/Qwen2.5-1.5B-pfn-qfin) | 金融 | Qwen2.5 (**1.54b**) | Preferred Networks | PLaMo Community License |
 
 <a id="merged-models"></a>
 ### 複数のLLMをマージして作成されたモデル
@@ -270,7 +272,7 @@
 | [Solar mini chat ja](https://www.upstage.ai/blog/en/solar-mini-chat-ja)<br>([solar-mini-ja-250123](https://console.upstage.ai/docs/models#solar-mini-ja-250123), [solar-mini-ja-240612](https://console.upstage.ai/docs/models#solar-mini-ja-240612)) | 32,768 | Upstage | 独自 |
 | [AIのべりすと](https://ai-novel.com/account_api.php) | 2,400 ~ 8,192 | Bit192 | 独自 |
 | [LHTM-OPT](https://aws.amazon.com/jp/blogs/psa/how-to-deploy-japanese-llm-lhtm-opt-on-aws-marketplace-developed-by-alt/) | | オルツ | AWS Marketplace |
-| [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://learn.microsoft.com/ja-jp/azure/ai-studio/how-to/deploy-models-tsuzumi)) | | NTT | Azure AI Foundry |
+| [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://ai.azure.com/catalog/models/tsuzumi-7b)) | | NTT | Azure AI Foundry |
 
 <a id="autoencoding"></a>
 ## 入力テキストの処理に主に使うモデル
@@ -321,7 +323,7 @@
 |    |  ドメイン  |  アーキテクチャ  |  学習テキスト  |  開発元  | ライセンス | HuggingFace ですぐ使える？  |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
 | [日本語ブログELECTRA](https://www.anlp.jp/proceedings/annual_meeting/2022/pdf_dir/E2-5.pdf) | 口語 | ELECTRA (small) | 日本語ブログコーパス（3億5,400万文） | 北見工大 桝井・プタシンスキ研 | CC BY-SA 4.0 | [◯](https://huggingface.co/ptaszynski/yacis-electra-small-japanese)  |
-| [日本語話し言葉BERT](https://retrieva.jp/news/date_202103151100/) | 話し言葉 | BERT (base) | 東北大BERTに対して日本語話し言葉コーパス（CSJ）を用いて追加学習<br>（DAPTモデルでは国会議事録データも使用） | レトリバ | Apache 2.0 | [◯](https://huggingface.co/retrieva-jp/japanese-spoken-language-bert) |
+| [日本語話し言葉BERT](https://retrieva-tech.hatenablog.com/entry/2021/04/01/114943) | 話し言葉 | BERT (base) | 東北大BERTに対して日本語話し言葉コーパス（CSJ）を用いて追加学習<br>（DAPTモデルでは国会議事録データも使用） | レトリバ | Apache 2.0 | [◯](https://huggingface.co/retrieva-jp/japanese-spoken-language-bert) |
 | [AcademicRoBERTa](https://github.com/EhimeNLP/AcademicRoBERTa) | 学術 | RoBERTa (base) | CiNii の日本語論文 (約628万文) | 愛媛大 人工知能研究室 | Apache 2.0 | [◯](https://huggingface.co/EhimeNLP/AcademicRoBERTa) |
 | [local-politics-BERT](http://local-politics.jp/%e5%85%ac%e9%96%8b%e7%89%a9/local-politics-bert/) | 政治 | BERT (base) | Wikipedia, 国会会議録, 地方議会会議録 | 地方議会会議録コーパスプロジェクト | CC BY-SA 4.0 | ◯ ([SC-min](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-scratch), [SC-minwiki](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-wikipedia-scratch), [SC-2M-wiki](https://huggingface.co/local-politics-jp/bert-base-japanese-wikipedia-scratch-2m), [SC-2M-min](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-scratch-2m), [SC-2M-minwiki](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-wikipedia-scratch-2m), [FP-min](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-further), [FP-minwiki](https://huggingface.co/local-politics-jp/bert-base-japanese-minutes-wikipedia-further)) [^18] |
 | [UBKE-LUKE](https://tech.uzabase.com/entry/2024/12/24/173942) | 経済 | LUKE (base) | 日本語 Wikipedia, 有価証券報告書, 経済ニュース記事 | ユーザベース | CC BY-NC | [◯](https://huggingface.co/uzabase/UBKE-LUKE) |
@@ -348,7 +350,7 @@
 | [Ruri-v3](https://huggingface.co/collections/cl-nagoya/ruri-v3-67f382536e80902074ec6252)<br>([v3-30m](https://huggingface.co/cl-nagoya/ruri-v3-30m), [v3-70m](https://huggingface.co/cl-nagoya/ruri-v3-70m), [v3-130m](https://huggingface.co/cl-nagoya/ruri-v3-130m), [v3-310m](https://huggingface.co/cl-nagoya/ruri-v3-310m)) | 8,192 | 名大 笹野研 | Apache 2.0 |
 | [PLaMo-Embedding-1B](https://tech.preferred.jp/ja/blog/plamo-embedding-1b/)<br>([1b](https://huggingface.co/pfnet/plamo-embedding-1b)) | 4,096 | Preferred Networks | Apache 2.0 |
 | [sbintuitions/sarashina-embedding-v1-1b](https://huggingface.co/sbintuitions/sarashina-embedding-v1-1b) | 8,192 | SB Intuitions | Sarashina Model NonCommercial License |
-| [AMBER](https://retrieva.jp/news/202503101100/)<br>([base](https://huggingface.co/retrieva-jp/amber-base), [large](https://huggingface.co/retrieva-jp/amber-large)) | 512 | レトリバ | Apache 2.0 |
+| [AMBER](https://retrieva.jp/news/ENCTPk6I)<br>([base](https://huggingface.co/retrieva-jp/amber-base), [large](https://huggingface.co/retrieva-jp/amber-large)) | 512 | レトリバ | Apache 2.0 |
 | [RoSEtta](https://prtimes.jp/main/html/rd/p/000000169.000022705.html)<br>([base-ja](https://huggingface.co/pkshatech/RoSEtta-base-ja)) | 1,024 | PKSHA Technology | Apache 2.0 |
 | [GLuCoSE v2](https://prtimes.jp/main/html/rd/p/000000169.000022705.html)<br>([base-ja-v2](https://huggingface.co/pkshatech/GLuCoSE-base-ja-v2)) | 512 | PKSHA Technology | Apache 2.0 |
 | [Ruri](https://arxiv.org/abs/2409.07737)<br>([small](https://huggingface.co/cl-nagoya/ruri-small), [base](https://huggingface.co/cl-nagoya/ruri-base), [large](https://huggingface.co/cl-nagoya/ruri-large), [small-v2](https://huggingface.co/cl-nagoya/ruri-small-v2), [base-v2](https://huggingface.co/cl-nagoya/ruri-base-v2), [large-v2](https://huggingface.co/cl-nagoya/ruri-large-v2)) | 512 | 名大 笹野研 | Apache 2.0 |

@@ -251,6 +251,8 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 |    | Domaine | Base du Model  |  Développeur  |  Licence  |
 |:---|:---:|:---:|:---:|:---:|
 | [JMedLoRA](https://arxiv.org/pdf/2310.10083.pdf)<br>([llama2-jmedlora-6.89ep](https://huggingface.co/AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep)) | Médecine | Llama 2 (**70b**) | Université de Tokyo - AI Group du Département hospitalier de médecine cardiovasculaire | CC BY-NC 4.0 |
+| [pfnet/Qwen3-1.7B-pfn-qfin](https://huggingface.co/pfnet/Qwen3-1.7B-pfn-qfin) | Finance | Qwen3 (**1.72b**) | Preferred Networks | PLaMo Community License |
+| [pfnet/Qwen2.5-1.5B-pfn-qfin](https://huggingface.co/pfnet/Qwen2.5-1.5B-pfn-qfin) | Finance | Qwen2.5 (**1.54b**) | Preferred Networks | PLaMo Community License |
 
 <a id="merged-models"></a>
 ### Modèles fusionnés
@@ -270,7 +272,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [Solar mini chat ja](https://www.upstage.ai/blog/en/solar-mini-chat-ja)<br>([solar-mini-ja-250123](https://console.upstage.ai/docs/models#solar-mini-ja-250123), [solar-mini-ja-240612](https://console.upstage.ai/docs/models#solar-mini-ja-240612)) | 32,768 | Upstage | self-owned |
 | [AI Novelist](https://ai-novel.com/account_api.php) | 2,400 ~ 8,192 | Bit192 | self-owned |
 | [LHTM-OPT](https://aws.amazon.com/marketplace/pp/prodview-nw62wpreit442) | | alt Inc. | AWS Marketplace |
-| [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://learn.microsoft.com/fr-fr/azure/ai-studio/how-to/deploy-models-tsuzumi)) | | NTT | Azure AI Foundry |
+| [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://ai.azure.com/catalog/models/tsuzumi-7b)) | | NTT | Azure AI Foundry |
 
 <a id="autoencoding"></a>
 ## Modèles encodeur
@@ -348,7 +350,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [Ruri-v3](https://huggingface.co/collections/cl-nagoya/ruri-v3-67f382536e80902074ec6252)<br>([v3-30m](https://huggingface.co/cl-nagoya/ruri-v3-30m), [v3-70m](https://huggingface.co/cl-nagoya/ruri-v3-70m), [v3-130m](https://huggingface.co/cl-nagoya/ruri-v3-130m), [v3-310m](https://huggingface.co/cl-nagoya/ruri-v3-310m)) | 8,192 | Nagoya University Sasano Group | Apache 2.0 |
 | [PLaMo-Embedding-1B](https://tech.preferred.jp/ja/blog/plamo-embedding-1b/)<br>([1b](https://huggingface.co/pfnet/plamo-embedding-1b)) | 4,096 | Preferred Networks | Apache 2.0 |
 | [sbintuitions/sarashina-embedding-v1-1b](https://huggingface.co/sbintuitions/sarashina-embedding-v1-1b) | 8,192 | SB Intuitions | Sarashina Model NonCommercial License |
-| [AMBER](https://retrieva.jp/news/202503101100/)<br>([base](https://huggingface.co/retrieva-jp/amber-base), [large](https://huggingface.co/retrieva-jp/amber-large)) | 512 | Retrieva | Apache 2.0 |
+| [AMBER](https://retrieva.jp/news/ENCTPk6I)<br>([base](https://huggingface.co/retrieva-jp/amber-base), [large](https://huggingface.co/retrieva-jp/amber-large)) | 512 | Retrieva | Apache 2.0 |
 | [RoSEtta](https://prtimes.jp/main/html/rd/p/000000169.000022705.html)<br>([base-ja](https://huggingface.co/pkshatech/RoSEtta-base-ja)) | 1,024 | PKSHA Technology | Apache 2.0 |
 | [GLuCoSE v2](https://prtimes.jp/main/html/rd/p/000000169.000022705.html)<br>([base-ja-v2](https://huggingface.co/pkshatech/GLuCoSE-base-ja-v2)) | 512 | PKSHA Technology | Apache 2.0 |
 | [Ruri](https://arxiv.org/abs/2409.07737)<br>([small](https://huggingface.co/cl-nagoya/ruri-small), [base](https://huggingface.co/cl-nagoya/ruri-base), [large](https://huggingface.co/cl-nagoya/ruri-large), [small-v2](https://huggingface.co/cl-nagoya/ruri-small-v2), [base-v2](https://huggingface.co/cl-nagoya/ruri-base-v2), [large-v2](https://huggingface.co/cl-nagoya/ruri-large-v2)) | 512 | Nagoya University Sasano Group | Apache 2.0 |
