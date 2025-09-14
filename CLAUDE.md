@@ -110,6 +110,7 @@ When adding new datasets or benchmarks to the documentation:
 - Always verify dataset details against official sources (Hugging Face, research papers, project websites)
 - Cross-check technical specifications like supported languages, data formats, and evaluation metrics
 - When research papers are in PDF format and cannot be parsed effectively, rely primarily on official dataset pages (e.g., Hugging Face) for accurate information
+- **Web content retrieval**: When WebFetch fails to retrieve complete article content, ask the user for key information or manually verify details from reliable sources before making updates
 
 #### Developer Attribution Standards
 - Use consistent organization naming across all language versions
@@ -130,6 +131,7 @@ When adding new datasets or benchmarks to the documentation:
 - Ensure translations are accurate and culturally appropriate for each language
 - **Critical**: Models must be placed in the exact same position/order across all three language versions (Japanese, English, French)
 - Domain names should be consistently translated: 薬学→Pharmacy→Pharmacie, 医療→Medicine→Médecine, etc.
+- **Evaluation system updates**: When updating benchmark/leaderboard information, verify that the evaluation methodology or categories have changed before copying descriptions from previous versions
 
 ### Model Addition Best Practices
 When adding new models to the documentation:
