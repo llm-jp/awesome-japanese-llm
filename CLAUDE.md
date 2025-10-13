@@ -182,8 +182,41 @@ When adding new models to the documentation:
 - **Training details**: Only include information explicitly stated in official sources
   - If technical blog posts discuss general methods but not specific model details, mark as "訓練詳細不明"
   - Distinguish between method explanations and actual model training procedures
+  - **Critical**: Distinguish between training data and evaluation benchmarks
+    - Evaluation benchmarks (e.g., JDocQA, JGLUE) should NOT be listed as training data
+    - Only include datasets explicitly mentioned as used for training/fine-tuning
 - **Company information**: Verify current company names and any recent mergers/acquisitions
 - **Architecture types**: Use exact architecture names from model documentation
+
+### Vision-Language Model (VLM) Addition Guidelines
+When adding new vision-language models to the documentation:
+
+#### VLM Classification
+The documentation has three main VLM sections:
+1. **スクラッチ学習モデル (Models built from scratch)**: Models trained from scratch or combining components to create a new VLM
+   - **汎用 (General purpose)**: VLMs for general multimodal tasks
+   - **ドメイン特化型 (Domain-specific)**: VLMs specialized for specific domains
+2. **海外モデルに日本語で追加学習を行ったモデル (Foreign models with additional Japanese training)**: Existing foreign VLMs that received additional training on Japanese data
+3. **複数のVLM・LLMをマージして作成されたモデル (Models created by merging multiple VLMs/LLMs)**: Models created through model merging techniques
+
+#### Classification Rules
+- **スクラッチ学習**: Use this section when:
+  - Building a new VLM by combining a Japanese LLM with a vision encoder (even if both components are pre-existing)
+  - Example: Combining Llama-3.1-Swallow-70B-Instruct-v0.3 (Japanese LLM) + Qwen2-VL-7B-Instruct (vision encoder) to create a new VLM
+- **海外モデルに追加学習**: Use this section when:
+  - Taking an existing complete foreign VLM (like InternVL2-26B) and adding Japanese training to it
+  - The base model was already a functioning VLM before Japanese training
+- **マージ**: Use this section when:
+  - Using evolutionary algorithms or other merging techniques to combine multiple existing VLMs/LLMs
+
+#### VLM Training Data Specification
+- Clearly separate training data from evaluation benchmarks in the documentation
+- Common training data types for VLMs:
+  - Image-text pairs datasets
+  - Synthetic visual data (charts, graphs, diagrams)
+  - Real-world annotated data
+  - Multi-stage training: alignment, pre-training, instruction tuning
+- Evaluation benchmarks (e.g., JDocQA, Japanese Visual Genome VQA) should NOT be listed as training data unless explicitly used for training
 
 ## Contributing Notes
 
