@@ -352,6 +352,7 @@
 |:---|:---:|:---:|:---:|
 | [Ruri-v3](https://huggingface.co/collections/cl-nagoya/ruri-v3-67f382536e80902074ec6252)<br>([v3-30m](https://huggingface.co/cl-nagoya/ruri-v3-30m), [v3-70m](https://huggingface.co/cl-nagoya/ruri-v3-70m), [v3-130m](https://huggingface.co/cl-nagoya/ruri-v3-130m), [v3-310m](https://huggingface.co/cl-nagoya/ruri-v3-310m)) | 8,192 | 名大 笹野研 | Apache 2.0 |
 | [PLaMo-Embedding-1B](https://tech.preferred.jp/ja/blog/plamo-embedding-1b/)<br>([1b](https://huggingface.co/pfnet/plamo-embedding-1b)) | 4,096 | Preferred Networks | Apache 2.0 |
+| [Sarashina-Embedding-v2](https://www.sbintuitions.co.jp/blog/entry/2025/08/20/160139)<br>([v2-1b](https://huggingface.co/sbintuitions/sarashina-embedding-v2-1b)) | 8,192 | SB Intuitions | Sarashina Model NonCommercial License |
 | [sbintuitions/sarashina-embedding-v1-1b](https://huggingface.co/sbintuitions/sarashina-embedding-v1-1b) | 8,192 | SB Intuitions | Sarashina Model NonCommercial License |
 | [AMBER](https://retrieva.jp/news/ENCTPk6I)<br>([base](https://huggingface.co/retrieva-jp/amber-base), [large](https://huggingface.co/retrieva-jp/amber-large)) | 512 | レトリバ | Apache 2.0 |
 | [RoSEtta](https://prtimes.jp/main/html/rd/p/000000169.000022705.html)<br>([base-ja](https://huggingface.co/pkshatech/RoSEtta-base-ja)) | 1,024 | PKSHA Technology | Apache 2.0 |
