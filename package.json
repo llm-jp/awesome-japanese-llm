@@ -9,7 +9,7 @@
   "devDependencies": {
     "markdown-it-footnote": "^4.0.0",
     "vite": "^7.1.5",
-    "vitepress": "^1.6.3"
+    "vitepress": "^1.6.4"
   },
   "scripts": {
     "docs:dev": "vitepress dev",
@@ -20,6 +20,7 @@
     "esbuild": "^0.25.5"
   },
   "resolutions": {
-    "esbuild": "^0.25.5"
+    "esbuild": "^0.25.5",
+    "vite": "^7.1.5"
   }
 }
