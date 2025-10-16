@@ -5,6 +5,7 @@ ignore:
     - https://arxiv.org/*
     - https://developers-jp.googleblog.com/2024/10/gemma-2-for-japan.html
     - https://gitlab.llm-jp.nii.ac.jp/datasets/*
+    - https://huggingface.co/*
     - https://llm-jp.nii.ac.jp/*
     - https://ojs.aaai.org/*
     - https://scholar.google.co.jp/*
@@ -12,5 +13,3 @@ ignore:
     - https://www.anlp.jp/*
     - https://www.informatix.co.jp/pr-roberta/
     - https://www.recruit.co.jp/newsroom/pressrelease/2021/0826_9293.html
-delay:
-  'https://huggingface.co': 1000
