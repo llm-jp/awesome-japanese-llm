@@ -86,7 +86,11 @@ When adding new models to the documentation:
 #### Table Ordering
 - Models within each section should be ordered by parameter size (largest to smallest)
 - For models with the same parameter size, maintain alphabetical order by model name
-- Always verify the correct insertion position when adding new entries
+- **Critical**: Always verify the correct insertion position when adding new entries
+  - **Before adding a model, read several lines around the intended position** to confirm the parameter size ordering
+  - **Example mistake to avoid**: Placing a 6.5B model after an 8B model but before 7B models
+  - **Correct approach**: Place 6.5B model after all 7B/6.8B models and before 4B models
+  - Use exact parameter counts (e.g., 6.5B, 6.8B, 7B) to determine the precise position, not just the integer part
 
 #### License Format Standards
 - Use consistent capitalization: "Llama 2 Community License", "Llama 3 Community License", "Llama 3.1 Community License"
