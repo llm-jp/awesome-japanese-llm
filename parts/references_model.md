@@ -86,3 +86,4 @@
 | NVILA | 2024.12.05 | CVPR 2025 | [NVILA: Efficient Frontier Visual Language Models](https://arxiv.org/abs/2412.04468) |
 | Qwen2.5 | 2024.12.19 | - | [Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115) |
 | DeepSeek-R1 | 2025.01.22 | - | [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) |
+| PLaMo 2 | 2025.09.05 | - | [PLaMo 2 Technical Report](https://arxiv.org/abs/2509.04897) |
