@@ -12,3 +12,5 @@ ignore:
     - https://www.anlp.jp/*
     - https://www.informatix.co.jp/pr-roberta/
     - https://www.recruit.co.jp/newsroom/pressrelease/2021/0826_9293.html
+delay:
+  'https://huggingface.co': 1000
