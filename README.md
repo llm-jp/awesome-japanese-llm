@@ -216,6 +216,7 @@
 | [AIgroup-CVM-utokyohospital/Llama-2-70b-chat-4bit-japanese](https://huggingface.co/AIgroup-CVM-utokyohospital/Llama-2-70b-chat-4bit-japanese) | Llama 2 (**70b**) || 東京大学医学部附属病院 循環器内科 AIグループ | Llama 2 Community License |
 | [doshisha-mil/llama-2-70b-chat-4bit-japanese-v1](https://huggingface.co/doshisha-mil/llama-2-70b-chat-4bit-japanese-v1) | Llama 2 (**70b**) || 同志社大学 メディア情報学研究室 | ？ |
 | [cyberagent/DeepSeek-R1-Distill-Qwen-32B-Japanese](https://huggingface.co/cyberagent/DeepSeek-R1-Distill-Qwen-32B-Japanese) | DeepSeek-R1-Distill-Qwen (**32b**) || サイバーエージェント | MIT |
+| [Flux-Japanese-Qwen2.5-32B-Instruct-V1.0](https://flux.jp/news/1093/)<br>([V1.0](https://huggingface.co/flux-inc/Flux-Japanese-Qwen2.5-32B-Instruct-V1.0)) | Qwen2.5-32B-Instruct (**32b**) | Precise-tuning: 日本語の知識・推論・言語回路をピンポイント特定し、パラメータの5%のみに対して調整を実施。3つの専門モデルを作成後、ピンポイントマージで統合 | FLUX | Apache 2.0 |
 | [karakuri-ai/karakuri-lm-32b-thinking-2501-exp](https://huggingface.co/karakuri-ai/karakuri-lm-32b-thinking-2501-exp) | QwQ (**32b**) || カラクリ | Apache 2.0 |
 | [shisa-ai/shisa-v2-qwen2.5-32b](https://huggingface.co/shisa-ai/shisa-v2-qwen2.5-32b) | Qwen2.5 (**32b**) || Shisa.AI | Apache 2.0 |
 | [AXCXEPT/EZO-Qwen2.5-32B-Instruct](https://huggingface.co/AXCXEPT/EZO-Qwen2.5-32B-Instruct)<br>[AXCXEPT/EZO-AutoCoTRAG-Qwen2.5-32B-Instruct](https://huggingface.co/AXCXEPT/EZO-AutoCoTRAG-Qwen2.5-32B-Instruct) | Qwen2.5 (**32b**) || Axcxept | Apache 2.0 |
