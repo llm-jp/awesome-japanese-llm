@@ -142,14 +142,22 @@ When adding new models to the documentation:
 
 #### Pre-Addition Checklist
 1. **Verify model information** from official sources (Hugging Face, research papers, official announcements)
-   - **Always check HuggingFace config.json** for accurate technical specifications:
+   - **Always check HuggingFace config.json AND README.md** for accurate technical specifications:
      - Parameter count (may differ from model name, e.g., "2B" model might be 2.45B)
      - Context length (`max_position_embeddings` field)
      - Architecture details
+     - Training methodology (check README for technical details like "Precise-tuning", "Pinpoint Tuning", etc.)
 2. **Identify correct model training type and section**:
    - **継続事前学習 (Continual Pre-training)**: Models that undergo additional pre-training on domain-specific data
-   - **Instruction Tuning のみ (Instruction Tuning Only)**: Models fine-tuned on instruction/chat data without additional pre-training
-   - **Critical distinction**: Fine-tuned domain-specific models belong in "Instruction Tuning → ドメイン特化型", NOT "継続事前学習 → ドメイン特化型"
+   - **事後学習のみ (Instruction Tuning / Post-training Only)**: Models fine-tuned on instruction/chat data without additional pre-training
+   - **Critical distinction**: Fine-tuned domain-specific models belong in "事後学習のみ → ドメイン特化型", NOT "継続事前学習 → ドメイン特化型"
+   - **Key indicators for classification**:
+     - **Base model name contains "-Instruct" or "-Chat"**: Usually indicates post-training only (e.g., Qwen2.5-32B-Instruct → post-training)
+     - **Base model is a pre-trained model (no -Instruct suffix)**: More likely continual pre-training (e.g., Qwen2.5-32B → may involve continual pre-training)
+     - **HuggingFace README mentions "Instruction Tuning", "SFT", "DPO", "Fine-tuning" only**: Post-training only
+     - **HuggingFace README mentions "Pre-training", "Continual pre-training", "Additional pre-training"**: Continual pre-training
+     - **Technical approaches like "Precise-tuning", "Pinpoint Tuning", "PEFT", "LoRA"**: Usually post-training methods
+   - **When in doubt**: Check the HuggingFace README technical details section first, then verify against press releases
 3. **Identify correct domain classification** - don't assume similar domains are the same (薬学 ≠ 医療)
    - **New model types**: If the model doesn't fit existing categories (e.g., music-language models vs speech-language models), create new sections following the established hierarchy
 4. **Check existing model formats** in the target section for:
