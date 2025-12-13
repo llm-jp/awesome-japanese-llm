@@ -7,6 +7,7 @@ ignore:
     - https://gitlab.llm-jp.nii.ac.jp/datasets/*
     - https://huggingface.co/*
     - https://llm-jp.nii.ac.jp/*
+    - https://medium.com/karakuri/introducing-karakuri-lm-34c79a3bf341
     - https://ojs.aaai.org/*
     - https://scholar.google.co.jp/*
     - https://scholar.google.com/*
