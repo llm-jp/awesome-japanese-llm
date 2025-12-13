@@ -9,17 +9,6 @@
 
 </div>
 
-<p align="center">
-  <img src="./figures/parameter_size_overview_ja.png" alt="日本語LLM・海外LLMのパラメータサイズの推移">
-</p>
-<figcaption style="font-style: italic; font-size: 0.9em; color: #6b7280; text-align: center;">日本語LLM・海外LLMのパラメータ数の推移。日本語モデルの情報は本記事、海外モデルの情報は LifeArchitect.ai の <a href="https://lifearchitect.ai/models-table/" target="_blank" rel="noreferrer">Models table</a> を参照しています（ただし、図のスペース上一部のモデルは省略。また、海外モデルのパラメータ数は推測値を含む）。修正・追加等ありましたらお知らせ下さい。</figcaption>
-
-::: tip 図の更新について
-上記の図は2024年末までのデータに基づいており、2025年以降は更新していません。これは、近年のLLM開発において、パラメータ数の増大よりも、学習方法やデータセットの改良による競争が中心となっているためです。最新のモデル情報については、下記の表をご参照ください。
-:::
-
-<br>
-
 この記事は、一般公開されている日本語LLM（日本語を中心に学習されたLLM）および日本語LLM評価ベンチマークに関する情報をまとめたものです。情報は、有志により収集されており、その一部は論文や公開されているリソースなどから引用しています。
 
 ::: warning 以下の点について、あらかじめご理解とご了承をお願いいたします
