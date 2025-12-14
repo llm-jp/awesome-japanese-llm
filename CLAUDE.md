@@ -136,6 +136,10 @@ When adding new datasets or benchmarks to the documentation:
 - **Critical**: Models must be placed in the exact same position/order across all three language versions (Japanese, English, French)
 - Domain names should be consistently translated: 薬学→Pharmacy→Pharmacie, 医療→Medicine→Médecine, etc.
 - **Evaluation system updates**: When updating benchmark/leaderboard information, verify that the evaluation methodology or categories have changed before copying descriptions from previous versions
+- **Consistency verification after corrections**:
+  - If you correct information in the Japanese README (e.g., release year), **immediately verify** that the same correction is applied to English and French versions
+  - **Do NOT** carry over incorrect information from draft versions when finalizing multilingual updates
+  - Double-check numerical values (years, parameter counts, token counts) are identical across all three language versions
 
 ### Model Addition Best Practices
 When adding new models to the documentation:
@@ -172,6 +176,13 @@ When adding new models to the documentation:
 7. **Verify training details** - distinguish between technical blog posts that explain general methods vs. specific model training details
 
 #### Architecture Format Standards
+- **Architecture column content**: Record the base model architecture (e.g., "Llama", "GPT", "Gemma-based architecture")
+  - **Do NOT record attention mechanism details** (e.g., "Hybrid Attention", "Sliding Window Attention") as these are implementation details, not architectures
+  - Example: For a model using Gemma architecture with hybrid attention, write "Gemma ベースのアーキテクチャ", NOT "Hybrid Attention"
+- **Single row for multiple sizes**: When a model family has multiple parameter sizes (e.g., 2B, 8B, 31B), combine them into a single table row
+  - Example format: `([**2b**-base](url1), [**8b**-base](url2), [**31b**-base](url3))`
+  - **Do NOT create separate rows** for each size variant
+  - Observe existing models (LLM-jp-3, Sarashina2, etc.) to confirm the single-row pattern
 - Multiple sizes: Use format like "BERT (base, large)" to indicate both variants exist
 - Single size: Use format like "BERT (base)" for single variant
 - Follow existing patterns in the same table section
@@ -191,6 +202,11 @@ When adding new models to the documentation:
 #### Technical Information Verification
 - **Parameter counts**: Always use exact values from HuggingFace config.json, not marketing names
 - **Context length**: Check `max_position_embeddings` in config.json, not assumptions
+- **Release year verification**:
+  - **Critical**: Do NOT confuse blog publication date with model release year
+  - Carefully read official announcements to determine the actual release year
+  - Example: A blog published in November 2024 may announce a model released in 2025
+  - When in doubt, look for explicit statements like "リリース予定は2025年" or check the model's official release timeline
 - **Training details**: Only include information explicitly stated in official sources
   - If technical blog posts discuss general methods but not specific model details, mark as "訓練詳細不明"
   - Distinguish between method explanations and actual model training procedures
@@ -199,6 +215,8 @@ When adding new models to the documentation:
     - Only include datasets explicitly mentioned as used for training/fine-tuning
 - **Company information**: Verify current company names and any recent mergers/acquisitions
 - **Architecture types**: Use exact architecture names from model documentation
+  - Read the full blog post/documentation to find architecture references
+  - Look for statements like "similar to X model's architecture" or "based on X architecture"
 
 ### Vision-Language Model (VLM) Addition Guidelines
 When adding new vision-language models to the documentation:
