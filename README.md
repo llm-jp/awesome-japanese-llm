@@ -403,6 +403,7 @@
 | [Japanese Stable VLM](https://huggingface.co/stabilityai/japanese-stable-vlm)<br>([japanese-stable-vlm](https://huggingface.co/stabilityai/japanese-stable-vlm)) | 2023 | LLaVA | Japanese CC12M, STAIR Captions, Japanese Visual Genome VQA dataset | Stability AI | STABILITY AI JAPANESE STABLE VLM COMMUNITY LICENSE |
 | [Japanese InstructBLIP Alpha](https://huggingface.co/stabilityai/japanese-instructblip-alpha)<br>([japanese-instructblip-alpha](https://huggingface.co/stabilityai/japanese-instructblip-alpha)) | 2023 | InstructBLIP | Japanese CC12M, STAIR Captions, Japanese Visual Genome VQA dataset | Stability AI | JAPANESE STABLELM RESEARCH LICENSE |
 | [rinna MiniGPT-4](https://huggingface.co/rinna/bilingual-gpt-neox-4b-minigpt4)<br>([bilingual-gpt-neox-4b-minigpt4](https://huggingface.co/rinna/bilingual-gpt-neox-4b-minigpt4)) | 2023 | MiniGPT-4 | CC12M, COCO 2014, Visual Genome, STAIR Captions, Japanese Visual Genome VQA dataset | rinna | MIT |
+| [Sarashina2.2-Vision-3B](https://www.sbintuitions.co.jp/blog/entry/2025/11/25/100000)<br>([**3.8b**](https://huggingface.co/sbintuitions/sarashina2.2-vision-3b)) | **2025** | Sarashina2.2-3B-Instruct + SigLIP + 2-layer MLP | 4段階学習 + Post-training: プロジェクターウォームアップ (英語画像キャプション)、視覚エンコーダー事前学習 (日本語チャート、OCR、キャプション)、全モデル事前学習 (画像テキストインターリーブデータ)、教師ありファインチューニング<br>Post-training: Mixed Preference Optimization<br>(計 日本語103B + 英語157.1B トークン) | SB Intuitions | MIT |
 
 **ドメイン特化型**
 
