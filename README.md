@@ -264,10 +264,9 @@
 |    |  入出力で扱える<br>トークン数 | 開発元  |  プラットフォーム |
 |:---|:---:|:---:|:---:|
 | [PLaMo API](https://plamo.preferredai.jp/api) | 32,768 | Preferred Networks | 独自 |
-| [Solar mini chat ja](https://www.upstage.ai/blog/en/solar-mini-chat-ja)<br>([solar-mini-ja-250123](https://console.upstage.ai/docs/models#solar-mini-ja-250123), [solar-mini-ja-240612](https://console.upstage.ai/docs/models#solar-mini-ja-240612)) | 32,768 | Upstage | 独自 |
 | [AIのべりすと](https://ai-novel.com/account_api.php) | 2,400 ~ 8,192 | Bit192 | 独自 |
 | [LHTM-OPT](https://aws.amazon.com/jp/blogs/psa/how-to-deploy-japanese-llm-lhtm-opt-on-aws-marketplace-developed-by-alt/) | | オルツ | AWS Marketplace |
-| [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://ai.azure.com/catalog/models/tsuzumi-7b)) | | NTT | Azure AI Foundry |
+| [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://ai.azure.com/catalog/models/tsuzumi-7b)) | | NTT | Microsoft Foundry |
 
 <a id="autoencoding"></a>
 ## 入力テキストの処理に主に使うモデル
