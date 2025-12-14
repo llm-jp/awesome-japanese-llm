@@ -171,9 +171,20 @@ When adding new models to the documentation:
 5. **Determine insertion position** based on parameter size and domain grouping
    - **Critical**: Use exact parameter counts from config.json, not model names
    - Follow strict descending order by parameter size within each domain
-5. **Plan multilingual updates** - prepare translations for all three versions
-6. **Check for related research papers** - if the model is based on research, add the original paper to `parts/references_model.md` in chronological order
-7. **Verify training details** - distinguish between technical blog posts that explain general methods vs. specific model training details
+   - **IMPORTANT: Parameter size takes absolute priority over model family similarity**
+     - Even if two models share the same family name (e.g., Sarashina2-Vision 14B and Sarashina2.2-Vision-3B), they should be placed far apart if parameter sizes differ significantly
+     - Do NOT place models next to each other just because they have similar names
+   - **Before determining position, survey the entire section's parameter size range**:
+     1. Read through the entire target section (汎用/General, ドメイン特化型/Domain-specific, etc.)
+     2. Identify the largest and smallest parameter sizes in that section
+     3. Identify all models with similar parameter sizes (within ±2B range)
+     4. Only then determine the exact insertion position
+   - **For models with multiple size variants** (e.g., Asagi: 2B, 4B, 8B, 14B):
+     - Use the MAXIMUM parameter size for ordering purposes (Asagi is treated as 14B)
+   - **Verification step**: After determining position, read 5-10 lines before AND after to confirm correct ordering
+6. **Plan multilingual updates** - prepare translations for all three versions
+7. **Check for related research papers** - if the model is based on research, add the original paper to `parts/references_model.md` in chronological order
+8. **Verify training details** - distinguish between technical blog posts that explain general methods vs. specific model training details
 
 #### Architecture Format Standards
 - **Architecture column content**: Record the base model architecture (e.g., "Llama", "GPT", "Gemma-based architecture")
@@ -247,6 +258,17 @@ The documentation has three main VLM sections:
   - Real-world annotated data
   - Multi-stage training: alignment, pre-training, instruction tuning
 - Evaluation benchmarks (e.g., JDocQA, Japanese Visual Genome VQA) should NOT be listed as training data unless explicitly used for training
+
+#### VLM Parameter Size Ordering
+- **VLMs follow the same strict parameter size ordering as LLMs** (descending order)
+- **Model family similarity does NOT override parameter size ordering**
+  - Example: Sarashina2-Vision (14B) and Sarashina2.2-Vision-3B (3.8B) should be placed far apart based on their parameter sizes
+  - Do NOT place VLMs next to each other just because they share a family name
+- **Before adding a VLM, survey the entire汎用/General or ドメイン特化型/Domain-specific section**:
+  1. Identify all existing VLMs and their parameter sizes
+  2. Determine where the new VLM fits in the descending order
+  3. Verify the position by checking several models before and after
+- **For VLMs with multiple size variants**, use the maximum parameter size for ordering
 
 ## Contributing Notes
 
