@@ -225,6 +225,20 @@ When adding new models to the documentation:
     - Evaluation benchmarks (e.g., JDocQA, JGLUE) should NOT be listed as training data
     - Only include datasets explicitly mentioned as used for training/fine-tuning
 - **Company information**: Verify current company names and any recent mergers/acquisitions
+- **License information**: Always verify the exact, official license name
+  - **Critical**: Do NOT guess or abbreviate license names - use the full official name
+  - Common mistakes to avoid:
+    - Writing "LFM License" when it should be "LFM Open License v1.0"
+    - Writing "Llama License" when it should be "Llama 3.1 Community License"
+  - Verification sources (in order of priority):
+    1. HuggingFace model card's license field
+    2. Official model announcement/blog post
+    3. LICENSE file in the model repository
+  - **For uncommon licenses**: Always look up the full official name
+    - Example: HuggingFace API returns "lfm1.0" but the official name is "LFM Open License v1.0"
+  - **License format standards**: Match existing patterns in the documentation
+    - Use consistent capitalization: "Llama 3 Community License" not "LLAMA 3 COMMUNITY LICENSE"
+    - Include version numbers when they exist: "Llama 3.1 Community License" not just "Llama License"
 - **Architecture types**: Use exact architecture names from model documentation
   - **Critical**: Do NOT rely solely on config.json `model_type` field for architecture names
     - Example: Qwen2.5 models have `model_type: "qwen2"` in config.json, but should be documented as "Qwen2.5"
