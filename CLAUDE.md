@@ -226,8 +226,24 @@ When adding new models to the documentation:
     - Only include datasets explicitly mentioned as used for training/fine-tuning
 - **Company information**: Verify current company names and any recent mergers/acquisitions
 - **Architecture types**: Use exact architecture names from model documentation
+  - **Critical**: Do NOT rely solely on config.json `model_type` field for architecture names
+    - Example: Qwen2.5 models have `model_type: "qwen2"` in config.json, but should be documented as "Qwen2.5"
+    - Always cross-reference with HuggingFace README, model name, and official documentation
   - Read the full blog post/documentation to find architecture references
   - Look for statements like "similar to X model's architecture" or "based on X architecture"
+- **Base model identification for derived models**:
+  - **For distillation models**: The "base model" column should list the **student model** (the model that was actually fine-tuned), NOT the teacher model
+    - Example: TinyDeepSeek-JP-1.5B uses TinySwallow-1.5B-Instruct (student) as base, with DeepSeek-R1-Distill-Qwen-14B-Japanese as teacher
+    - Document as: Base = "TinySwallow-1.5B-Instruct", Training details = "TAID distillation with teacher model X"
+  - **For fine-tuned models**: Always use the model that was directly fine-tuned, not its upstream ancestors
+    - Example: A model fine-tuned from "Model-A-Instruct" should list "Model-A-Instruct" as base, even if Model-A-Instruct itself was derived from "Model-A-Base"
+  - Check HuggingFace README for explicit statements about which model was used as the starting point
+- **Model placement based on base model location**:
+  - **Critical**: Before adding a model, identify where its base model is located in the documentation
+  - New models should be placed in the **same section** as their base model (継続事前学習, 事後学習のみ, etc.)
+  - Example: If adding a model based on "TinySwallow-1.5B-Instruct", first grep for TinySwallow to find it's in the 継続事前学習 section, then add the new model in that same section
+  - This maintains logical grouping and helps users understand model lineage
+  - **Verification step**: After determining the section, search for the base model name to confirm its location before adding the new entry
 
 ### Vision-Language Model (VLM) Addition Guidelines
 When adding new vision-language models to the documentation:
