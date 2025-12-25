@@ -485,6 +485,21 @@
 |:---|:---:|:---:|:---:|:---:|
 | [Kotoba-Whisper](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0)<br>([v1.0](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0), [v1.0-ggml](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0-ggml), [v1.0-faster](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0-faster), [v1.1](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.1), [bilingual-v1.0](https://huggingface.co/kotoba-tech/kotoba-whisper-bilingual-v1.0), [bilingual-v1.0-ggml](https://huggingface.co/kotoba-tech/kotoba-whisper-bilingual-v1.0-ggml), [bilingual-v1.0-faster](https://huggingface.co/kotoba-tech/kotoba-whisper-bilingual-v1.0-faster), [v2.0](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0), [v2.0-ggml](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0-ggml), [v2.0-faster](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0-faster), [v2.1](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.1), [v2.2](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.2)) | Distil-Whisper | ReazonSpeech<br>(+ Multilingual LibriSpeech) | Kotoba Technologies | Apache 2.0 |
 | [ReazonSpeech](https://research.reazon.jp/projects/ReazonSpeech/)<br>([espnet-v1](https://huggingface.co/reazon-research/reazonspeech-espnet-v1), [espnet-next](https://huggingface.co/reazon-research/reazonspeech-espnet-next), [espnet-v2](https://huggingface.co/reazon-research/reazonspeech-espnet-v2), [nemo-v2](https://huggingface.co/reazon-research/reazonspeech-nemo-v2)) | ESPnet (Conformer-Transducer) または NeMo (FastConformer-RNNT) | ReazonSpeech | レアゾン・ホールディングス | Apache 2.0 |
+| [Reazon HuBERT ASR](https://huggingface.co/reazon-research/japanese-hubert-base-k2-rs35kh)<br>([rs35kh](https://huggingface.co/reazon-research/japanese-hubert-base-k2-rs35kh), [rs35kh-bpe](https://huggingface.co/reazon-research/japanese-hubert-base-k2-rs35kh-bpe)) | HuBERT | ReazonSpeech v2.0 | レアゾン・ホールディングス | Apache 2.0 |
+| [Reazon Zipformer ASR](https://huggingface.co/reazon-research/japanese-zipformer-base-k2-rs35kh)<br>([rs35kh](https://huggingface.co/reazon-research/japanese-zipformer-base-k2-rs35kh), [rs35kh-bpe](https://huggingface.co/reazon-research/japanese-zipformer-base-k2-rs35kh-bpe)) | Zipformer | ReazonSpeech v2.0 | レアゾン・ホールディングス | Apache 2.0 |
+| [Reazon wav2vec 2.0 ASR](https://huggingface.co/reazon-research/japanese-wav2vec2-base-rs35kh)<br>([base-rs35kh](https://huggingface.co/reazon-research/japanese-wav2vec2-base-rs35kh), [large-rs35kh](https://huggingface.co/reazon-research/japanese-wav2vec2-large-rs35kh)) | wav2vec 2.0 | ReazonSpeech v2.0 | レアゾン・ホールディングス | Apache 2.0 |
+
+<a id="speech-feature-extraction"></a>
+### 特徴抽出
+
+|    |  アーキテクチャ  |  学習コーパス  |  開発元  | ライセンス |
+|:---|:---:|:---:|:---:|:---:|
+| [くしなだ](https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250310/pr20250310.html)<br>([base](https://huggingface.co/imprt/kushinada-hubert-base), [large](https://huggingface.co/imprt/kushinada-hubert-large)) | HuBERT | 約6万時間の日本語テレビ放送音声 | 産総研 知的メディア処理研究チーム | Apache 2.0 |
+| [Reazon HuBERT](https://huggingface.co/reazon-research/japanese-hubert-base-k2)<br>([base-k2](https://huggingface.co/reazon-research/japanese-hubert-base-k2)) | HuBERT | ReazonSpeech | レアゾン・ホールディングス | Apache 2.0 |
+| [東大HuBERT](https://huggingface.co/sarulab-speech/hubert-base-jtube)<br>([base-jtube](https://huggingface.co/sarulab-speech/hubert-base-jtube)) | HuBERT | JTubeSpeech | 東大 猿渡・高道研 | MIT |
+| [いざなみ](https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250310/pr20250310.html)<br>([base](https://huggingface.co/imprt/izanami-wav2vec2-base), [large](https://huggingface.co/imprt/izanami-wav2vec2-large)) | wav2vec 2.0 | 約6万時間の日本語テレビ放送音声 | 産総研 知的メディア処理研究チーム | Apache 2.0 |
+| [Reazon wav2vec 2.0](https://research.reazon.jp/blog/2024-10-21-Wav2Vec2-base-release.html)<br>([base](https://huggingface.co/reazon-research/japanese-wav2vec2-base), [large](https://huggingface.co/reazon-research/japanese-wav2vec2-large)) | wav2vec 2.0 | ReazonSpeech | レアゾン・ホールディングス | Apache 2.0 |
+| [Reazon Zipformer](https://huggingface.co/reazon-research/japanese-zipformer-base-k2)<br>([base-k2](https://huggingface.co/reazon-research/japanese-zipformer-base-k2)) | Zipformer | ReazonSpeech | レアゾン・ホールディングス | Apache 2.0 |
 
 <a id="speech-others"></a>
 ### その他
@@ -493,10 +508,6 @@
 |:---|:---:|:---:|:---:|:---:|
 | [J-Moshi](https://github.com/nu-dialogue/j-moshi)<br>([j-moshi](https://huggingface.co/nu-dialogue/j-moshi), [j-moshi-ext](https://huggingface.co/nu-dialogue/j-moshi-ext)) | Transformerベースのテキスト・音声基盤モデル (Moshi) | 音声対話コーパス（J-CHAT, 日本語Callhome, CSJ, 旅行代理店対話コーパス, 独自の雑談対話コーパス, 独自の相談対話コーパス）, テキスト対話コーパス（日本語PersonaChat, 日本語EmpatheticDialogues, 日本語日常対話コーパス, RealPersonaChat） | 名大 東中研 | CC BY-NC 4.0 |
 | [Kotoba-Speech](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)<br>([v0.1](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)) | Transformer | 不明 | Kotoba Technologies | Apache 2.0 |
-| [くしなだ](https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250310/pr20250310.html)<br>([base](https://huggingface.co/imprt/kushinada-hubert-base), [large](https://huggingface.co/imprt/kushinada-hubert-large)) | HuBERT | 約6万時間の日本語テレビ放送音声 | 産総研 知的メディア処理研究チーム | Apache 2.0 |
-| [東大HuBERT](https://huggingface.co/sarulab-speech/hubert-base-jtube)<br>([base-jtube](https://huggingface.co/sarulab-speech/hubert-base-jtube)) | HuBERT | JTubeSpeech | 東大 猿渡・高道研 | MIT |
-| [いざなみ](https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250310/pr20250310.html)<br>([base](https://huggingface.co/imprt/izanami-wav2vec2-base), [large](https://huggingface.co/imprt/izanami-wav2vec2-large)) | wav2vec 2.0 | 約6万時間の日本語テレビ放送音声 | 産総研 知的メディア処理研究チーム | Apache 2.0 |
-| [Reazon wav2vec 2.0](https://research.reazon.jp/blog/2024-10-21-Wav2Vec2-base-release.html)<br>([base](https://huggingface.co/reazon-research/japanese-wav2vec2-base), [large](https://huggingface.co/reazon-research/japanese-wav2vec2-large)) | wav2vec 2.0 | ReazonSpeech | レアゾン・ホールディングス | Apache 2.0 |
 
 <a id="music"></a>
 ## 音楽言語モデル (Music-Language Models)
