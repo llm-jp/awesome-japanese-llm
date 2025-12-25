@@ -171,6 +171,9 @@
 | [Gemma 2 Baku 2B](https://huggingface.co/rinna/gemma-2-baku-2b)<br>([2b](https://huggingface.co/rinna/gemma-2-baku-2b), [2b-it](https://huggingface.co/rinna/gemma-2-baku-2b-it)) | 2024 | Gemma 2 (**2b**) | 事前学習: Wikipedia, Japanese C4, Japanese CC-100, Japanese OSCAR, The Pile, 独自のデータセット<br>(計 **80B** トークン)<br>OPRO: 独自のデータセット [^20] | rinna | Gemma Terms of Use |
 | [Japanese Stable LM 2 1.6B](https://huggingface.co/stabilityai/japanese-stablelm-2-base-1_6b)<br>([base](https://huggingface.co/stabilityai/japanese-stablelm-2-base-1_6b), [instruct](https://huggingface.co/stabilityai/japanese-stablelm-2-instruct-1_6b)) | 2024 | Stable LM 2 1.6B (**1.6b**) | 事前学習: Wikipedia, CulturaX<br>Instruction Tuning: jaster, [ichikara-instruction](https://liat-aip.sakura.ne.jp/wp/llm%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF%E4%BD%9C%E6%88%90/), alpaca-gpt4-japanese, ultra-orca-boros-en-ja-v1 | Stability AI | STABILITY AI NON-COMMERCIAL RESEARCH COMMUNITY LICENSE |
 | [TinySwallow-1.5B](https://sakana.ai/taid-jp/)<br>([1.5B](https://huggingface.co/SakanaAI/TinySwallow-1.5B), [1.5B-Instruct](https://huggingface.co/SakanaAI/TinySwallow-1.5B-Instruct), [1.5B-Instruct-q4f32_1-MLC](https://huggingface.co/SakanaAI/TinySwallow-1.5B-Instruct-q4f32_1-MLC), [1.5B-Insturct-GGUF](https://huggingface.co/SakanaAI/TinySwallow-1.5B-Instruct-GGUF)) | **2025** | Qwen2.5 (**1.5b**) | 事前学習: Qwen2.5 (32b) を教師として TAID で学習<br>Instruction Tuning: Gemma-2-LMSYS-Chat-1M-Synth, swallow-magpie-ultra-v0.1, swallow-gemma-magpie-v0.1 | Sakana AI, Swallowプロジェクト | Apache 2.0 |
+| [EQUES/OpenRS3-GRPO-ja](https://huggingface.co/EQUES/OpenRS3-GRPO-ja) | **2025** | TinySwallow-1.5B-Instruct (**1.5b**) | kunishou/OpenMathInstruct-1-1.8m-ja でGRPO学習 | EQUES Inc. | ？ |
+| [EQUES/TinyDeepSeek-JP-1.5B](https://huggingface.co/EQUES/TinyDeepSeek-JP-1.5B) | **2025** | TinySwallow-1.5B-Instruct (**1.5b**) | EQUES/japanese_ultrachat_6.6k でTAID蒸留 | EQUES Inc. | Apache 2.0 |
+| [EQUES/TinySwallow-Stratos-1.5B](https://huggingface.co/EQUES/TinySwallow-Stratos-1.5B) | **2025** | TinySwallow-1.5B-Instruct (**1.5b**) | Bespoke-Stratos-35k で推論能力強化 | EQUES Inc. | Apache 2.0 |
 | [karasu-1.1B](https://huggingface.co/lightblue/karasu-1.1B) | 2023 | TinyLlama (**1.1b**) | 事前学習: Japanese OSCAR, Japanese mC4<br>(計 **3B** トークン) | Lightblue | Apache 2.0 |
 
 <a id="generative-continual-domain-specific"></a>
@@ -258,6 +261,7 @@
  [EQUES/MedLLama3-JP-v2](https://huggingface.co/EQUES/MedLLama3-JP-v2) | **Llama 3 Swallow 8B (Instruct)**, OpenBioLLM-8B, MMed-Llama 3 8B, **Llama 3 ELYZA JP 8B** | EQUES | Llama 3 Community License |
 | [EvoLLM-JP-A](https://sakana.ai/evolutionary-model-merge-jp/)<br>([v1-7B](https://huggingface.co/SakanaAI/EvoLLM-JP-A-v1-7B)) | **Shisa Gamma 7B (v1)**, Arithmo2 Mistral 7B, Abel 7B 002 | Sakana AI | Apache 2.0 |
 | [EvoLLM-JP](https://sakana.ai/evolutionary-model-merge-jp/)<br>([v1-7B](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-7B), [v1-10B](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-10B)) | **Shisa Gamma 7B (v1)**, WizardMath-7B-V1.1, Abel 7B 002 | Sakana AI | MICROSOFT RESEARCH LICENSE |
+| [EQUES/TinyQwens-Merge-1.5B](https://huggingface.co/EQUES/TinyQwens-Merge-1.5B) | **SakanaAI/TinySwallow-1.5B-Instruct**, **EQUES/TinySwallow-Stratos-1.5B**, deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B, Qwen/Qwen2.5-1.5B-Instruct | EQUES Inc. | Apache 2.0 |
 
 <a id="api-based-models"></a>
 ### APIとして提供されているモデル
