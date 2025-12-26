@@ -246,18 +246,21 @@ When adding new models to the documentation:
   - Read the full blog post/documentation to find architecture references
   - Look for statements like "similar to X model's architecture" or "based on X architecture"
 - **Base model identification for derived models**:
-  - **For distillation models**: The "base model" column should list the **student model** (the model that was actually fine-tuned), NOT the teacher model
-    - Example: TinyDeepSeek-JP-1.5B uses TinySwallow-1.5B-Instruct (student) as base, with DeepSeek-R1-Distill-Qwen-14B-Japanese as teacher
-    - Document as: Base = "TinySwallow-1.5B-Instruct", Training details = "TAID distillation with teacher model X"
-  - **For fine-tuned models**: Always use the model that was directly fine-tuned, not its upstream ancestors
-    - Example: A model fine-tuned from "Model-A-Instruct" should list "Model-A-Instruct" as base, even if Model-A-Instruct itself was derived from "Model-A-Base"
-  - Check HuggingFace README for explicit statements about which model was used as the starting point
-- **Model placement based on base model location**:
-  - **Critical**: Before adding a model, identify where its base model is located in the documentation
-  - New models should be placed in the **same section** as their base model (継続事前学習, 事後学習のみ, etc.)
-  - Example: If adding a model based on "TinySwallow-1.5B-Instruct", first grep for TinySwallow to find it's in the 継続事前学習 section, then add the new model in that same section
+  - **For models derived from fine-tuned models**: The "base model" column should list the **original architecture base**, not intermediate fine-tuned models
+    - Example: TinyDeepSeek-JP-1.5B is based on Qwen2.5 architecture and trained starting from TinySwallow-1.5B-Instruct (which itself is Qwen2.5-based)
+    - Document as: Base = "Qwen2.5", Training details = "TAID distillation on TinySwallow-1.5B-Instruct with ..."
+    - This approach makes it clear what the foundational architecture is while showing the actual training starting point
+  - **For fine-tuned models derived directly from base models**: Use the base architecture
+    - Example: A model fine-tuned directly from "Llama-3.1-8B-Instruct" should list "Llama 3.1" as base
+  - Check HuggingFace README for explicit statements about the model architecture and training starting point
+  - **Key principle**: Record the foundational architecture in the base model column, and specify the training starting point (if different) in the training details
+- **Model placement based on training starting point**:
+  - **Critical**: Before adding a model, identify where its training starting point model is located in the documentation
+  - New models should be placed in the **same section** as their training starting point (継続事前学習, 事後学習のみ, etc.)
+  - Example: If adding a model trained from "TinySwallow-1.5B-Instruct", first grep for TinySwallow to find it's in the 継続事前学習 section, then add the new model in that same section
   - This maintains logical grouping and helps users understand model lineage
-  - **Verification step**: After determining the section, search for the base model name to confirm its location before adding the new entry
+  - **Note**: The "base model" column will show the foundational architecture (e.g., Qwen2.5), but section placement follows the training starting point
+  - **Verification step**: After determining the section, search for the training starting point model name to confirm its location before adding the new entry
 
 ### Vision-Language Model (VLM) Addition Guidelines
 When adding new vision-language models to the documentation:
