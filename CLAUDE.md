@@ -4,38 +4,21 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a documentation project that maintains a comprehensive list of Japanese Large Language Models (LLMs) and their evaluation benchmarks. The project uses VitePress for documentation site generation and includes Python scripts for data visualization.
+This is a documentation project that maintains a comprehensive list of Japanese Large Language Models (LLMs) and their evaluation benchmarks. The project uses VitePress for documentation site generation.
 
 ## Common Commands
 
 ### Documentation Development
 ```bash
 # Start development server
-npm run docs:dev
+yarn docs:dev
 
 # Build documentation site
-npm run docs:build
+yarn docs:build
 
 # Preview built documentation
-npm run docs:preview
+yarn docs:preview
 ```
-
-### Python Visualization Scripts (Legacy - Not Updated Since 2025)
-```bash
-# Navigate to scripts directory
-cd figures/scripts
-
-# Install Python dependencies (using Poetry)
-poetry install
-
-# Generate parameter size overview charts (DEPRECATED)
-poetry run python parameter_size_overview_generate.py
-
-# Retrieve data for visualization (DEPRECATED)
-poetry run python parameter_size_overview_retrieve.py
-```
-
-**Note**: The parameter size visualization charts are no longer being updated as of 2025. This decision reflects the shift in LLM development focus from parameter count increases to improvements in training methods and datasets.
 
 ## Project Structure
 
@@ -45,18 +28,6 @@ poetry run python parameter_size_overview_retrieve.py
 - **fr/README.md** - French translation
 - **parts/references_model.md** - Model reference chronology
 - **parts/references_training.md** - Training method references
-
-### Visualization Components
-- **figures/scripts/** - Python scripts for generating charts
-  - `parameter_size_overview_generate.py` - Main chart generation script
-  - `parameter_size_overview_retrieve.py` - Data retrieval automation
-  - `parameter_size_overview.csv` - English model data
-  - `parameter_size_overview_ja.csv` - Japanese model data
-  - `pyproject.toml` - Poetry configuration for Python dependencies
-
-### Generated Assets
-- **figures/parameter_size_overview_ja.png** - Japanese version of parameter size chart
-- **figures/parameter_size_overview_en.png** - English version of parameter size chart
 
 ## Content Structure
 
@@ -96,11 +67,6 @@ When adding new models to the documentation:
 - Use consistent capitalization: "Llama 2 Community License", "Llama 3 Community License", "Llama 3.1 Community License"
 - Avoid all-caps formats like "META LLAMA 3.1 COMMUNITY LICENSE"
 - Match the license format used by similar models in the same table
-
-### Visualization Updates (Deprecated as of 2025)
-- The parameter size visualization charts are no longer maintained
-- CSV files and Python scripts remain for historical reference but should not be updated
-- Focus development efforts on maintaining the model tables in the documentation
 
 ### Translation Consistency
 - Maintain content parity across all language versions
