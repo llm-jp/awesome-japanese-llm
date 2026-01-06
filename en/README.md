@@ -621,6 +621,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | <a id="llava-bench-in-the-wild"></a> [LLaVA-Bench-In-the-Wild (Japanese)](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-in-the-wild) | This is the Japanese version of [LLaVA-Bench-In-the-Wild](https://huggingface.co/datasets/liuhaotian/llava-bench-in-the-wild), translated using DeepL. It consists of 60 questions assigned to 24 images. | Turing |
 | [LLaVA-Bench (COCO) Japanese](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-ja) | This is the Japanese version, translated by DeepL, of the LLaVA-Bench (COCO) dataset used to evaluate LLaVA. It consists of 30 images, each with 3 types of questions assigned to them. | Turing |
 | [Japanese Visual Genome VQA dataset](https://github.com/yahoojapan/ja-vg-vqa) | A question-and-answer dataset annotated based on images from the [Visual Genome dataset](https://homes.cs.washington.edu/~ranjay/visualgenome/index.html). A subset of this dataset, [JA-VG-VQA-500](https://huggingface.co/datasets/SakanaAI/JA-VG-VQA-500), consisting of 500 questions, is sometimes used as a benchmark for evaluating VLMs. | Yahoo |
+| [japanese-bizform-table-kie](https://github.com/aiinside/japanese-bizform-table-kie) | A benchmark for evaluating the accuracy of key information extraction from non-standard business forms. It consists of 50 form types with a total of 2,500 document images. | AI inside |
 
 <a id="reference"></a>
 ## References for Models and Architectures
