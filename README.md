@@ -621,6 +621,7 @@
 | <a id="llava-bench-in-the-wild"></a> [LLaVA-Bench-In-the-Wild (Japanese)](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-in-the-wild) | [LLaVA-Bench-In-the-Wild](https://huggingface.co/datasets/liuhaotian/llava-bench-in-the-wild) を DeepL で日本語に訳したもの。24 枚の画像に対して計 60 問の質問が割り当てられている。 | Turing |
 | [LLaVA-Bench (COCO) Japanese](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-ja) | LLaVA の評価に使われた LLaVA-Bench (COCO) データセットを DeepL で日本語に訳したもの。30 枚の画像に対して各 3 種類の質問が割り当てられている。 | Turing |
 | [Japanese Visual Genome VQA dataset](https://github.com/yahoojapan/ja-vg-vqa) | [Visual Genome dataset](https://homes.cs.washington.edu/~ranjay/visualgenome/index.html) の画像をもとにアノテーションされた質問応答データセット。このデータセットの 500 件を切り出した [JA-VG-VQA-500](https://huggingface.co/datasets/SakanaAI/JA-VG-VQA-500) が VLM の評価ベンチマークとして用いられることもある。 | ヤフー |
+| [japanese-bizform-table-kie](https://github.com/aiinside/japanese-bizform-table-kie) | 非定型帳票からの情報抽出精度を評価するためのベンチマーク。50 種類のフォーム、合計 2,500 枚のドキュメント画像から構成される。 | AI inside |
 
 <a id="reference"></a>
 ## 各モデル・アーキテクチャの原論文
