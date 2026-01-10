@@ -195,7 +195,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [NovelAI/genji-jp](https://huggingface.co/NovelAI/genji-jp) | Génération de récits | GPT-J (**6b**) | NovelAI |  ？  |
 
 <a id="instruction-only-models"></a>
-### Modèles développés à partir d'LLM non-japonais (avec un post-entraînement en japonais)
+### Modèles développés à partir d'LLM non-japonais (post-entraînement uniquement, ou détails inconnus)
 
 <a id="generative-instruction-only-general"></a>
 #### D'usage général
@@ -249,6 +249,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [AXCXEPT/EZO-gemma-2-2b-jpn-it](https://huggingface.co/AXCXEPT/EZO-gemma-2-2b-jpn-it) | Gemma 2 (**2b**) || Axcxept | Gemma Terms of Use |
 | [AXCXEPT/EZO-Common-T2-2B-gemma-2-it](https://huggingface.co/AXCXEPT/EZO-Common-T2-2B-gemma-2-it) | Gemma 2 (**2b**) || Axcxept | Gemma Terms of Use |
 | [Shisa V2.1 1.2B](https://shisa.ai/posts/shisa-v2.1/)<br>([**1.2b**](https://huggingface.co/shisa-ai/shisa-v2.1-lfm2-1.2b)) | LFM2 (**1.2b**) | Combinaison de SFT/DPO/RL/fusion de modèles | Shisa.AI | LFM Open License v1.0 |
+| [LFM2.5-1.2B-JP](https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai)<br>([1.2B-JP](https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP)) | LFM2.5 (**1.2b**) | Non divulgué | Liquid AI | LFM Open License v1.0 |
 
 <a id="generative-instruction-only-domain-specific"></a>
 #### Spécifique à un domaine
