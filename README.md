@@ -708,3 +708,5 @@
 [^22]: 一部アーキテクチャの変更を加えている。詳しくは以下を参照: [1,000億パラメータ規模の独自LLM「PLaMo-100B」の事前学習](https://tech.preferred.jp/ja/blog/plamo-100b/)
 
 [^23]: Llama から Causal Attention を取り除くことにより、エンコーダ型モデルとして利用している。
+
+- [AgentMarket](https://agentmarket.cloud) - B2A AIエージェントマーケットプレイス。189のAPI、2800万以上のエネルギーデータ。
