@@ -595,11 +595,12 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [JMultiPL-E](https://huggingface.co/datasets/tohoku-nlp/JMultiPL-E) | A dataset for evaluating code generation capabilities across 17 programming languages (C++, C#, Go, Java, JavaScript, PHP, Ruby, Rust, Scala, Swift, TypeScript, etc.) based on OpenAI HumanEval. Measures multilingual code understanding and generation performance. | Tohoku University Natural Language Processing Group |
 
 <a id="controllabilitiy-benchmark-suites"></a>
-### Benchmarks on controlled text generation
+### Benchmarks on instruction-following ability
 
 |   | Description | Developer |
 |:---|:---|:---:|
 | [LCTG Bench](https://github.com/CyberAgentAILab/LCTG-Bench) | A benchmark for the controllability of Japanese LLMs. It evaluates whether LLMs can adhere to constraints in four aspects: output format, character count, keywords, and forbidden words. The quality of the generated text is also evaluated. | CyberAgent |
+| [JFBench](https://github.com/pfnet-research/jfbench) | A benchmark for evaluating the instruction-following ability of Japanese LLMs. In addition to 6 constraint groups translated from IFBench, 10 new groups specific to Japanese were created (e.g., polite/plain style, mixed hiragana/katakana/kanji, numerical notation). It has 16 constraint groups and 174 constraint types, evaluating a total of 1,600 samples with constraint counts of 1/2/4/8. | Preferred Networks |
 
 <a id="embeddings-benchmark-suites"></a>
 ### Benchmarks for embedding models
