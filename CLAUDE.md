@@ -55,12 +55,15 @@ Models are classified into sections based on training approach. **Evidence is re
 3. **Official announcement/blog**: Release year, developer, training details
 4. **LICENSE file**: Full official license name (e.g., "LFM Open License v1.0", not "lfm1.0")
 
+**Cross-source verification**: When numeric values (e.g., token counts) appear in multiple sources, always cross-check. HuggingFace READMEs may contain approximations or unit errors (e.g., "~1.8B tokens" vs actual "1.8億トークン" = 0.18B). Prefer official blog posts or papers for precise numbers.
+
 ### Table Formatting
 
 - **Parameter size ordering**: Descending order within each section (largest first)
 - **Architecture column**: Base architecture name (e.g., "Llama 3.1", "Qwen2.5"), NOT attention mechanisms
 - **Multiple sizes**: Combine into single row: `([**7b**](url1), [**13b**](url2))`
 - **License format**: Use official names with consistent capitalization
+- **Release year bolding**: The latest/newest release year (e.g., the current year) should be **bolded** in the table. When the year is no longer the newest, the bold is removed (see commit history for precedent).
 
 ### Multilingual Consistency
 
