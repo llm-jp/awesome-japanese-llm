@@ -574,6 +574,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [YakugakuQA](https://github.com/EQUES-Inc/pharma-LLM-eval) | Un jeu de données d'évaluation du domaine pharmaceutique japonais basé sur les examens nationaux de licence de pharmacien. Teste les connaissances pharmaceutiques factuelles. | EQUES Inc. |
 | [NayoseQA](https://github.com/EQUES-Inc/pharma-LLM-eval) | Un jeu de données d'évaluation du domaine pharmaceutique japonais pour la normalisation terminologique multilingue. Teste la compréhension des synonymes et des termes techniques. | EQUES Inc. |
 | [SogoCheck](https://github.com/EQUES-Inc/pharma-LLM-eval) | Une nouvelle tâche conçue pour évaluer le raisonnement de cohérence entre des déclarations appariées. Une tâche de raisonnement difficile où même GPT-4o performe mal. | EQUES Inc. |
+| [MedRECT](https://github.com/pfnet-research/medrect) | Un benchmark pour évaluer la capacité à détecter et corriger les erreurs médicales dans les dossiers cliniques. Il se compose de trois tâches : détection d'erreurs, identification de la phrase erronée et correction d'erreurs. Il comprend une version japonaise (663 échantillons) et une version anglaise (458 échantillons), la version japonaise étant construite à partir de l'examen national de médecine japonais. | Preferred Networks |
 | [karakuri-bench](https://huggingface.co/datasets/karakuri-ai/karakuri-bench-v0.1) | Un ensemble de données pour mesurer la performance des LLM japonais dans le support client. | KARAKURI |
 
 <a id="factuality-safety-benchmark-suites"></a>
