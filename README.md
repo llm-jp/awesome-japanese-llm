@@ -574,6 +574,7 @@
 | [YakugakuQA](https://github.com/EQUES-Inc/pharma-LLM-eval) | 薬剤師国家試験をベースとした日本語製薬分野の知識を問う評価データセット。事実に基づく薬学知識を測定する。 | EQUES Inc. |
 | [NayoseQA](https://github.com/EQUES-Inc/pharma-LLM-eval) | 日本語製薬分野での多言語間用語対応・正規化能力を評価するデータセット。同義語や専門用語の理解度を測定する。 | EQUES Inc. |
 | [SogoCheck](https://github.com/EQUES-Inc/pharma-LLM-eval) | 対となる文章間の一貫性推論を評価する新しいタスク。GPT-4oでも性能が低い高難度の推論タスク。 | EQUES Inc. |
+| [MedRECT](https://github.com/pfnet-research/medrect) | 臨床記録における医学的誤りの検出・訂正能力を評価するベンチマーク。誤り検出、誤り文特定、誤り訂正の 3 段階のタスクから構成される。日本語版（663 サンプル）と英語版（458 サンプル）があり、日本語版は医師国家試験をベースに構築されている。 | Preferred Networks |
 | [karakuri-bench](https://huggingface.co/datasets/karakuri-ai/karakuri-bench-v0.1) | 日本語 LLM のカスタマーサポートにおける性能を測定するためのデータセット。 | カラクリ |
 
 <a id="factuality-safety-benchmark-suites"></a>

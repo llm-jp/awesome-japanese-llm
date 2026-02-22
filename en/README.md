@@ -574,6 +574,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [YakugakuQA](https://github.com/EQUES-Inc/pharma-LLM-eval) | A Japanese pharmaceutical domain evaluation dataset based on national pharmacist licensing exams. Tests factual pharmaceutical knowledge. | EQUES Inc. |
 | [NayoseQA](https://github.com/EQUES-Inc/pharma-LLM-eval) | A Japanese pharmaceutical domain evaluation dataset for cross-lingual terminology normalization. Tests understanding of synonyms and technical terms. | EQUES Inc. |
 | [SogoCheck](https://github.com/EQUES-Inc/pharma-LLM-eval) | A novel task designed to assess consistency reasoning between paired statements. A challenging reasoning task where even GPT-4o performs poorly. | EQUES Inc. |
+| [MedRECT](https://github.com/pfnet-research/medrect) | A benchmark for evaluating the ability to detect and correct medical errors in clinical records. It consists of three tasks: error detection, error sentence identification, and error correction. It includes a Japanese version (663 samples) and an English version (458 samples), with the Japanese version constructed based on the Japanese Medical Licensing Examination. | Preferred Networks |
 | [karakuri-bench](https://huggingface.co/datasets/karakuri-ai/karakuri-bench-v0.1) | A dataset for measuring performance of Japanese LLMs in customer support. | KARAKURI |
 
 <a id="factuality-safety-benchmark-suites"></a>
