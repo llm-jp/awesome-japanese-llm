@@ -595,11 +595,12 @@
 | [JMultiPL-E](https://huggingface.co/datasets/tohoku-nlp/JMultiPL-E) | OpenAI HumanEval をベースに 17 のプログラミング言語（C++, C#, Go, Java, JavaScript, PHP, Ruby, Rust, Scala, Swift, TypeScript など）でコード生成能力を評価するデータセット。多言語でのコード理解とコード生成の性能を測定する。| 東北大 自然言語処理研究グループ |
 
 <a id="controllabilitiy-benchmark-suites"></a>
-### 制約付きの生成能力を測定するベンチマーク/データセット
+### 指示追従能力を測定するベンチマーク/データセット
 
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
 | [LCTG Bench](https://github.com/CyberAgentAILab/LCTG-Bench) | 日本語 LLM の制御性ベンチマーク。出力のフォーマット、文字数、キーワード、NGワードの 4 つの観点から、LLM が制約を守って出力を行えているかを評価する。生成されたテキストの品質も合わせて評価する。 | サイバーエージェント |
+| [JFBench](https://github.com/pfnet-research/jfbench) | 日本語 LLM の指示追従能力を評価するベンチマーク。IFBench を翻訳した 6 グループに加え、日本語特有の制約（敬体・常体、ひらがな・カタカナ・漢字の混在、数値表記など）10 グループを新たに作成。16 の制約グループ・174 の制約タイプを持ち、制約数 1/2/4/8 の組み合わせで計 1,600 サンプルを評価する。 | Preferred Networks |
 
 <a id="embeddings-benchmark-suites"></a>
 ### 埋め込みモデルのベンチマーク/データセット
