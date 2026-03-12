@@ -80,6 +80,7 @@
 | Llama 3.1 | 2024.07.23 | - | [The Llama 3 Herd of Models](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/) |
 | Gemma 2 | 2024.07.31 | - | [Gemma 2: Improving Open Language Models at a Practical Size](https://arxiv.org/abs/2408.00118) |
 | CogVideoX | 2024.08.12 | - | [CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer](https://arxiv.org/abs/2408.06072) |
+| NEST | 2024.08.23 | ICASSP 2025 | [NEST: Self-supervised Fast Conformer as All-purpose Seasoning to Speech Processing Tasks](https://arxiv.org/abs/2408.13106) |
 | Moshi | 2024.09.17 | - | [Moshi: a speech-text foundation model for real-time dialogue](https://arxiv.org/abs/2410.00037) |
 | PLaMo-100B | 2024.10.10 | - | [PLaMo-100B: A Ground-Up Language Model Designed for Japanese Proficiency](https://arxiv.org/abs/2410.07563) |
 | Phi-4 | 2024.12.12 | - | [Phi-4 Technical Report](https://arxiv.org/abs/2412.08905) |
