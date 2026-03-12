@@ -4,6 +4,7 @@ ignore:
     - https://alaginrc.nict.go.jp/nict-bert/index.html
     - https://arxiv.org/*
     - https://developers-jp.googleblog.com/2024/10/gemma-2-for-japan.html
+    - https://github.com/*
     - https://gitlab.llm-jp.nii.ac.jp/datasets/*
     - https://huggingface.co/*
     - https://llm-jp.nii.ac.jp/*
