@@ -499,6 +499,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 
 |    |  Architecture  |  Données d'entraînement  |  Développeur  | Licence |
 |:---|:---:|:---:|:---:|:---:|
+| [NEST-Ja](https://huggingface.co/sbintuitions/nest-ja-0.1b)<br>([**0.1b**](https://huggingface.co/sbintuitions/nest-ja-0.1b), [**0.6b**](https://huggingface.co/sbintuitions/nest-ja-0.6b)) | NEST (FastConformer) | ReazonSpeech v2.0 | SB Intuitions | MIT |
 | [Kushinada](https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250310/pr20250310.html)<br>([base](https://huggingface.co/imprt/kushinada-hubert-base), [large](https://huggingface.co/imprt/kushinada-hubert-large)) | HuBERT | 60k hours of audio extracted from large-scale Japanese TV broadcast audio data |  Intelligent Media Processing Research Team, AIST | Apache 2.0 |
 | [Reazon HuBERT](https://huggingface.co/reazon-research/japanese-hubert-base-k2)<br>([base-k2](https://huggingface.co/reazon-research/japanese-hubert-base-k2)) | HuBERT | ReazonSpeech | Reazon Holdings | Apache 2.0 |
 | [UniversityOfTokyoHuBERT](https://huggingface.co/sarulab-speech/hubert-base-jtube)<br>([base-jtube](https://huggingface.co/sarulab-speech/hubert-base-jtube)) | HuBERT | JTubeSpeech | University of Tokyo<br>Saruwatari & Takamichi Lab | MIT |

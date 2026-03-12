@@ -499,6 +499,7 @@
 
 |    |  アーキテクチャ  |  学習コーパス  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|
+| [NEST-Ja](https://huggingface.co/sbintuitions/nest-ja-0.1b)<br>([**0.1b**](https://huggingface.co/sbintuitions/nest-ja-0.1b), [**0.6b**](https://huggingface.co/sbintuitions/nest-ja-0.6b)) | NEST (FastConformer) | ReazonSpeech v2.0 | SB Intuitions | MIT |
 | [くしなだ](https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250310/pr20250310.html)<br>([base](https://huggingface.co/imprt/kushinada-hubert-base), [large](https://huggingface.co/imprt/kushinada-hubert-large)) | HuBERT | 約6万時間の日本語テレビ放送音声 | 産総研 知的メディア処理研究チーム | Apache 2.0 |
 | [Reazon HuBERT](https://huggingface.co/reazon-research/japanese-hubert-base-k2)<br>([base-k2](https://huggingface.co/reazon-research/japanese-hubert-base-k2)) | HuBERT | ReazonSpeech | レアゾン・ホールディングス | Apache 2.0 |
 | [東大HuBERT](https://huggingface.co/sarulab-speech/hubert-base-jtube)<br>([base-jtube](https://huggingface.co/sarulab-speech/hubert-base-jtube)) | HuBERT | JTubeSpeech | 東大 猿渡・高道研 | MIT |
