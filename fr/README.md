@@ -521,6 +521,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 
 |    |  Architecture  |  Données d'entraînement  |  Développeur  | Licence |
 |:---|:---:|:---:|:---:|:---:|
+| [LLM-jp-Moshi-v1](https://www.nii.ac.jp/news/release/2026/0225.html)<br>([llm-jp-moshi-v1](https://huggingface.co/llm-jp/llm-jp-moshi-v1)) | Modèle de base de texte et de parole basé sur Transformer (Moshi) | J-CHAT (~69 000 heures), LLM-jp-Zoom1 (~1 000 heures) | 大規模言語モデル研究開発センター | Apache 2.0 |
 | [J-Moshi](https://github.com/nu-dialogue/j-moshi)<br>([j-moshi](https://huggingface.co/nu-dialogue/j-moshi), [j-moshi-ext](https://huggingface.co/nu-dialogue/j-moshi-ext)) | Modèle de base de texte et de parole basé sur Transformer (Moshi) | Corpus de dialogues de parole (J-CHAT, Japanese Callhome, CSJ, corpus de dialogues d'agence de voyages, corpus de dialogues de chat propriétaire, corpus de dialogues de consultation propriétaire), corpus de dialogues textuels (Japanese PersonaChat, Japanese EmpatheticDialogues, corpus de dialogues quotidiens japonais, RealPersonaChat) | Nagoya University Higashinaka Lab | CC BY-NC 4.0 |
 | [Kotoba-Speech](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)<br>([v0.1](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)) | Transformer | undisclosed | Kotoba Technologies | Apache 2.0 |
 

@@ -521,6 +521,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 |    |  Architecture  |  Training Data  |  Developer  | License |
 |:---|:---:|:---:|:---:|:---:|
+| [LLM-jp-Moshi-v1](https://www.nii.ac.jp/news/release/2026/0225.html)<br>([llm-jp-moshi-v1](https://huggingface.co/llm-jp/llm-jp-moshi-v1)) | Transformer-based text and speech foundation model (Moshi) | J-CHAT (~69,000 hours), LLM-jp-Zoom1 (~1,000 hours) | 大規模言語モデル研究開発センター | Apache 2.0 |
 | [J-Moshi](https://github.com/nu-dialogue/j-moshi)<br>([j-moshi](https://huggingface.co/nu-dialogue/j-moshi), [j-moshi-ext](https://huggingface.co/nu-dialogue/j-moshi-ext)) | Transformer-based text and speech foundation model (Moshi) | Speech dialogue corpus (J-CHAT, Japanese Callhome, CSJ, travel agency dialogue corpus, proprietary chat dialogue corpus, proprietary consultation dialogue corpus), text dialogue corpus (Japanese PersonaChat, Japanese EmpatheticDialogues, Japanese daily dialogue corpus, RealPersonaChat) | Nagoya University Higashinaka Lab | CC BY-NC 4.0 |
 | [Kotoba-Speech](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)<br>([v0.1](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)) | Transformer | undisclosed | Kotoba Technologies | Apache 2.0 |
 
