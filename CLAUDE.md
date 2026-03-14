@@ -64,6 +64,7 @@ Models are classified into sections based on training approach. **Evidence is re
 - **Multiple sizes**: Combine into single row: `([**7b**](url1), [**13b**](url2))`
 - **License format**: Use official names with consistent capitalization
 - **Release year bolding**: The latest/newest release year (e.g., the current year) should be **bolded** in the table. When the year is no longer the newest, the bold is removed (see commit history for precedent).
+- **Developer column for individuals**: When the developer is an individual (not a company/university/research lab), use the format `個人 (name)` (JA) / `Individual (name)` (EN) / `Individuel (name)` (FR). Do NOT write the HuggingFace username alone.
 
 ### Multilingual Consistency
 

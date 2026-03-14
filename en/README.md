@@ -249,6 +249,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [izumi-lab/llama-7b-japanese-lora-v0-5ep](https://huggingface.co/izumi-lab/llama-7b-japanese-lora-v0-5ep) | Llama (**7b**) || University of Tokyo Izumi Lab |  ？  |
 | [lightblue/jod](https://huggingface.co/lightblue/jod) | Mistral-7B-SlimOrca (**7b**) || Lightblue | Apache 2.0 |
 | [NTQAI/chatntq-7b-jpntuned](https://huggingface.co/NTQAI/chatntq-7b-jpntuned) | RWKV-4 World (**7b**)|| NTQ Solution |  ？  |
+| [Qwen3.5-FT-Japanese-CoT-4B](https://huggingface.co/Aname-Tommy/Qwen3.5-FT-Japanese-CoT-4B) | Qwen3.5 (**4b**) | Undisclosed | Individual (Aname-Tommy) | MIT |
 | [Borea](https://prtimes.jp/main/html/rd/p/000000008.000129878.html)<br>([Jp](https://huggingface.co/AXCXEPT/Borea-Phi-3.5-mini-Instruct-Jp), [Common](https://huggingface.co/AXCXEPT/Borea-Phi-3.5-mini-Instruct-Common), [Coding](https://huggingface.co/AXCXEPT/Borea-Phi-3.5-mini-Instruct-Coding)) | Phi-3.5 (**3.8b**) | | Axcxept | MIT |
 | [Shisa V2.1 3B](https://shisa.ai/posts/shisa-v2.1/)<br>([**3b**](https://huggingface.co/shisa-ai/shisa-v2.1-llama3.2-3b)) | Llama 3.2 (**3b**) | Combined SFT/DPO/RL/Model merging | Shisa.AI | Llama 3.2 Community License |
 | [AXCXEPT/EZO-Llama-3.2-3B-Instruct-dpoE](https://huggingface.co/AXCXEPT/EZO-Llama-3.2-3B-Instruct-dpoE) | Llama 3.2 (**3b**) || Axcxept | Llama 3.2 Community License |
@@ -257,6 +258,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [AXCXEPT/EZO-Common-T2-2B-gemma-2-it](https://huggingface.co/AXCXEPT/EZO-Common-T2-2B-gemma-2-it) | Gemma 2 (**2b**) || Axcxept | Gemma Terms of Use |
 | [Shisa V2.1 1.2B](https://shisa.ai/posts/shisa-v2.1/)<br>([**1.2b**](https://huggingface.co/shisa-ai/shisa-v2.1-lfm2-1.2b)) | LFM2 (**1.2b**) | Combined SFT/DPO/RL/Model merging | Shisa.AI | LFM Open License v1.0 |
 | [LFM2.5-1.2B-JP](https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai)<br>([1.2B-JP](https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP)) | LFM2.5 (**1.2b**) | Undisclosed | Liquid AI | LFM Open License v1.0 |
+| [Qwen3.5-FT-Japanese-CoT-0.8B](https://huggingface.co/Aname-Tommy/Qwen3.5-FT-Japanese-CoT-0.8B) | Qwen3.5 (**0.8b**) | Undisclosed | Individual (Aname-Tommy) | MIT |
 
 <a id="generative-instruction-only-domain-specific"></a>
 #### Domain specific
