@@ -90,4 +90,6 @@
 | DeepSeek-R1 | 2025.01.22 | - | [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) |
 | Nemotron-Nano | 2025.08.20 | - | [NVIDIA Nemotron Nano 2: An Accurate and Efficient Hybrid Mamba-Transformer Reasoning Model](https://arxiv.org/abs/2508.14444) |
 | Dream | 2025.08.21 | - | [Dream 7B: Diffusion Large Language Models](https://arxiv.org/abs/2508.15487) |
+| Qwen3 | 2025.05.14 | - | [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) |
+| GPT-OSS | 2025.08.08 | - | [gpt-oss-120b & gpt-oss-20b Model Card](https://arxiv.org/abs/2508.10925) |
 | PLaMo 2 | 2025.09.05 | - | [PLaMo 2 Technical Report](https://arxiv.org/abs/2509.04897) |
