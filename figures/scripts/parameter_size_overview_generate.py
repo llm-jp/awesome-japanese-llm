@@ -35,7 +35,7 @@ LEGEND_COLORS = {
 
 legend_labels_ja = {
     # "JP-available-API": "日本語 (APIとして公開)"
-    "JP-available-scratch": "日本語 (公開, フルスクラッチ学習されたモデル)",
+    "JP-available-scratch": "日本語 (公開, スクラッチ学習されたモデル)",
     "JP-available": "日本語 (公開)",
     "JP-unavailable": "日本語 (非公開)",
     "EN-available": "日本語以外 (公開)",

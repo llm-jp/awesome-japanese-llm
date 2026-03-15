@@ -20,7 +20,7 @@ Voici une liste des LLMs disponibles au grand public, axés sur l'apprentissage 
 
 N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/llm-jp/awesome-japanese-llm/issues). N'hésitez pas également à contribuer directement avec une pull request.
 
-::: details Table des matières
+::: details Table des matières {open}
 [[toc]]
 :::
 

@@ -20,7 +20,7 @@ A list of publicly available LLMs trained with a focus on Japanese, along with t
 
 Please point out any errors on the [issues page](https://github.com/llm-jp/awesome-japanese-llm/issues). Feel free to contribute directly with a pull request.
 
-::: details Table of Contents
+::: details Table of Contents {open}
 [[toc]]
 :::
 

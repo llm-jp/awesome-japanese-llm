@@ -26,7 +26,7 @@ export default defineConfig({
     logo: 'https://llm-jp.github.io/assets/images/logo2.png',
 
     outline: {
-      level: [2, 4],
+      level: 'deep',
     },
 
     footer: {
@@ -39,6 +39,9 @@ export default defineConfig({
     'fr/README.md': 'fr/index.md',
   },
   markdown: {
+    toc: {
+      level: [2, 3, 4, 5, 6],
+    },
     config: (md) => {
       md.use(footnote)
     }
@@ -51,7 +54,8 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'LLM 勉強会', link: 'https://llm-jp.nii.ac.jp/' },
-        ]
+        ],
+        outlineTitle: '目次',
       }
     },
     en: {
@@ -70,7 +74,8 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'About Us', link: 'https://llm-jp.nii.ac.jp/en/' },
-        ]
+        ],
+        outlineTitle: 'Table des matières',
       },
       link: '/fr/'
     },

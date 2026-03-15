@@ -20,7 +20,7 @@
 
 この記事の管理は GitHub で行っています。記事の間違いを発見した場合、あるいはモデルの追加提案を行いたい場合は、[GitHub Issues](https://github.com/llm-jp/awesome-japanese-llm/issues) 経由で報告していただけますと幸いです。
 
-::: details 目次
+::: details 目次 {open}
 [[toc]]
 :::
 
@@ -30,7 +30,7 @@
 *画像を含むテキスト生成モデルは[こちら](#multimodal-text-generation)*
 
 <a id="full-scratch-models"></a>
-### フルスクラッチ学習モデル
+### スクラッチ学習モデル
 
 <a id="generative-scratch-general"></a>
 #### 汎用
