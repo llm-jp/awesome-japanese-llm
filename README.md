@@ -430,6 +430,7 @@
 
 |    |  アーキテクチャ  |  ドメイン | 開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|
+| [Med-Asagi](https://www.rcast.u-tokyo.ac.jp/ja/news/release/20260306.html)<br>([**14b**-reasoning_beta](https://huggingface.co/MIL-UT/Med-Asagi-14B-reasoning_beta)) | LLaVA | 医療 | 東大 原田研 | CC BY-SA 4.0 |
 | [watashiha/Watashiha-Llama-2-13B-Ogiri-sft-vlm](https://huggingface.co/watashiha/Watashiha-Llama-2-13B-Ogiri-sft-vlm) | LLaVA | 大喜利 | わたしは | Llama 2 Community License |
 
 #### 海外モデルに日本語で追加学習を行ったモデル
