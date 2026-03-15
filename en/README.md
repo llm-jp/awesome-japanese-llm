@@ -430,6 +430,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 |    |  Architecture  |  Domain |  Developer  | License |
 |:---|:---:|:---:|:---:|:---:|
+| [Med-Asagi](https://www.rcast.u-tokyo.ac.jp/ja/news/release/20260306.html)<br>([**14b**-reasoning_beta](https://huggingface.co/MIL-UT/Med-Asagi-14B-reasoning_beta)) | LLaVA | Medicine | University of Tokyo Machine Intelligence Lab. | CC BY-SA 4.0 |
 | [watashiha/Watashiha-Llama-2-13B-Ogiri-sft-vlm](https://huggingface.co/watashiha/Watashiha-Llama-2-13B-Ogiri-sft-vlm) | LLaVA | [Oogiri](https://en.wikipedia.org/wiki/Glossary_of_owarai_terms#oogiri) | Watashiha | Llama 2 Community License |
 
 #### Models built off non-Japanese VLMs
