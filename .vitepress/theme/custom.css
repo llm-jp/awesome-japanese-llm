@@ -18,6 +18,11 @@ img {
   max-width: min(720px, 100%);
 }
 
+/* h5見出しの上に余白を追加 */
+.vp-doc h5 {
+  margin-top: 2rem;
+}
+
 /* GitHub専用要素をVitePressで非表示にする */
 .github-only {
   display: none !important;
