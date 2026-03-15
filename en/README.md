@@ -407,7 +407,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 #### Models built from scratch
 
-**General purpose**
+##### General purpose
 
 |    | Year |  Architecture  |  Training Data  |  Developer  | License / Terms of Use |
 |:---|:---:|:---:|:---:|:---:|:---:|
@@ -426,7 +426,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [rinna MiniGPT-4](https://huggingface.co/rinna/bilingual-gpt-neox-4b)<br>([bilingual-gpt-neox-4b-minigpt4](https://huggingface.co/rinna/bilingual-gpt-neox-4b-minigpt4)) | 2023 | MiniGPT-4 | CC12M, COCO 2014, Visual Genome, STAIR Captions, Japanese Visual Genome VQA dataset | rinna | MIT |
 | [Sarashina2.2-Vision-3B](https://www.sbintuitions.co.jp/blog/entry/2025/11/25/100000)<br>([**3.8b**](https://huggingface.co/sbintuitions/sarashina2.2-vision-3b)) | 2025 | Sarashina2.2-3B-Instruct + SigLIP + 2-layer MLP | 4-stage training + Post-training: Projector warmup (English image captions), Vision encoder pre-training (Japanese charts, OCR, captions), Full model pre-training (interleaved image-text data), Supervised fine-tuning<br>Post-training: Mixed Preference Optimization<br>(Total: 103B Japanese + 157.1B English tokens) | SB Intuitions | MIT |
 
-**Domain Specific**
+##### Domain Specific
 
 |    |  Architecture  |  Domain |  Developer  | License |
 |:---|:---:|:---:|:---:|:---:|

@@ -407,7 +407,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 
 #### Modèles développés à partir de zéro
 
-**D'usage général**
+##### D'usage général
 
 |    | Année |  Architecture |  Données d'entraînement  |  Développeur  | License / Terms of Use |
 |:---|:---:|:---:|:---:|:---:|:---:|
@@ -426,7 +426,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [rinna MiniGPT-4](https://huggingface.co/rinna/bilingual-gpt-neox-4b)<br>([bilingual-gpt-neox-4b-minigpt4](https://huggingface.co/rinna/bilingual-gpt-neox-4b-minigpt4)) | 2023 | MiniGPT-4 | CC12M, COCO 2014, Visual Genome, STAIR Captions, Japanese Visual Genome VQA dataset | rinna | MIT |
 | [Sarashina2.2-Vision-3B](https://www.sbintuitions.co.jp/blog/entry/2025/11/25/100000)<br>([**3.8b**](https://huggingface.co/sbintuitions/sarashina2.2-vision-3b)) | 2025 | Sarashina2.2-3B-Instruct + SigLIP + 2-layer MLP | Entraînement en 4 étapes + Post-entraînement: Échauffement du projecteur (légendes d'images anglaises), Pré-entraînement de l'encodeur de vision (graphiques japonais, OCR, légendes), Pré-entraînement du modèle complet (données entrelacées image-texte), Affinement supervisé<br>Post-entraînement: Optimisation de préférences mixtes<br>(Total: 103B japonais + 157.1B tokens anglais) | SB Intuitions | MIT |
 
-**Spécifique à un domaine**
+##### Spécifique à un domaine
 
 |    | Architecture | Domaine |  Développeur  |  Licence  |
 |:---|:---:|:---:|:---:|:---:|

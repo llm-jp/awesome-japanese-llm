@@ -407,7 +407,7 @@
 
 #### スクラッチ学習モデル
 
-**汎用**
+##### 汎用
 
 |    | 公開年 |  アーキテクチャ |  学習画像/テキスト  |  開発元  | ライセンス / 利用規約 |
 |:---|:---:|:---:|:---:|:---:|:---:|
@@ -426,7 +426,7 @@
 | [rinna MiniGPT-4](https://huggingface.co/rinna/bilingual-gpt-neox-4b-minigpt4)<br>([bilingual-gpt-neox-4b-minigpt4](https://huggingface.co/rinna/bilingual-gpt-neox-4b-minigpt4)) | 2023 | MiniGPT-4 | CC12M, COCO 2014, Visual Genome, STAIR Captions, Japanese Visual Genome VQA dataset | rinna | MIT |
 | [Sarashina2.2-Vision-3B](https://www.sbintuitions.co.jp/blog/entry/2025/11/25/100000)<br>([**3.8b**](https://huggingface.co/sbintuitions/sarashina2.2-vision-3b)) | 2025 | Sarashina2.2-3B-Instruct + SigLIP + 2-layer MLP | 4段階学習 + Post-training: プロジェクターウォームアップ (英語画像キャプション)、視覚エンコーダー事前学習 (日本語チャート、OCR、キャプション)、全モデル事前学習 (画像テキストインターリーブデータ)、教師ありファインチューニング<br>Post-training: Mixed Preference Optimization<br>(計 日本語103B + 英語157.1B トークン) | SB Intuitions | MIT |
 
-**ドメイン特化型**
+##### ドメイン特化型
 
 |    |  アーキテクチャ  |  ドメイン | 開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|
