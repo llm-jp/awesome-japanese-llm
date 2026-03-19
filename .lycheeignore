@@ -1,2 +1,5 @@
 # HuggingFace (rate limits bot access aggressively)
 https?://huggingface\.co/.*
+
+# Google Scholar (blocks bot access with 403)
+https?://scholar\.google\.(com|co\.jp)/.*
