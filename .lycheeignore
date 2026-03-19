@@ -3,3 +3,6 @@ https?://huggingface\.co/.*
 
 # Google Scholar (blocks bot access with 403)
 https?://scholar\.google\.(com|co\.jp)/.*
+
+# Medium (blocks bot access with 403)
+https?://medium\.com/.*
