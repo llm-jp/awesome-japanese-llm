@@ -1,15 +1,46 @@
-name: 404 Links Checker
+name: Link Checker
 
 on:
   pull_request:
     branches: ["main"]
+  schedule:
+    - cron: "0 0 * * 0" # 毎週日曜 00:00 UTC
 
 jobs:
   check-links:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: 'atalent-labs/404-links'
-      uses: atalent-labs/404-links@3.1.6
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/checkout@v5
+
+    - name: Restore lychee cache
+      id: restore-cache
+      uses: actions/cache/restore@v4
+      with:
+        path: .lycheecache
+        key: cache-lychee-${{ github.sha }}
+        restore-keys: cache-lychee-
+
+    - name: Run lychee
+      uses: lycheeverse/lychee-action@v2
+      with:
+        args: >-
+          --cache
+          --max-cache-age 3d
+          --max-retries 3
+          --retry-wait-time 5
+          --max-concurrency 8
+          --timeout 30
+          --user-agent "Mozilla/5.0 (compatible; lychee-link-checker)"
+          "README.md"
+          "en/README.md"
+          "fr/README.md"
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fail: true
+        jobSummary: true
+
+    - name: Save lychee cache
+      uses: actions/cache/save@v4
+      if: always()
+      with:
+        path: .lycheecache
+        key: ${{ steps.restore-cache.outputs.cache-primary-key }}
