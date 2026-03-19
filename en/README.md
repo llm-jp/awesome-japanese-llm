@@ -209,6 +209,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 |    | Base Model  | Training Data  | Developer  |  License / Terms of Use |
 |:---|:---:|:---:|:---:|:---:|
+| [Rakuten AI 3.0](https://corp.rakuten.co.jp/news/press/2026/0317_01.html)<br>([RakutenAI-3.0](https://huggingface.co/Rakuten/RakutenAI-3.0)) | DeepSeek-V3 (**671b**) [^24] | Undisclosed | Rakuten | Apache 2.0 |
 | [Llama 3.1 Shisa V2 405B](https://shisa.ai/posts/shisa-v2-405b-ja-pr/)<br>([**405b**](https://huggingface.co/shisa-ai/shisa-v2-llama3.1-405b)) | Llama 3.1 (**405b**) | High-quality Japanese datasets with SFT/DPO | Shisa.AI | Llama 3.1 Community License |
 | [AXCXEPT/EZO-Qwen2.5-72B-Instruct](https://huggingface.co/AXCXEPT/EZO-Qwen2.5-72B-Instruct)<br>[AXCXEPT/EZO-AutoCoTRAG-Qwen2.5-72B-Instruct_q4](https://huggingface.co/AXCXEPT/EZO-AutoCoTRAG-Qwen2.5-72B-Instruct_q4) | Qwen2.5 (**72b**) || Axcxept | Qwen License |
 | [ao-Karasu](https://note.com/peter_lightblue/n/n483d194d3614)<br>([72B](https://huggingface.co/lightblue/ao-karasu-72B)) | Qwen1.5 (**72b**) | ultra-orca-boros-en-ja-v1, OASST1, ShareGPT, Japanese technical blogs, News stories, QA site answers, undisclosed dataset | Lightblue |  Tongyi Qianwen LICENSE (?)[^12] |
@@ -726,3 +727,5 @@ When referencing this repository, please cite as follows:
 [^22]: Some architectural changes have been made. For details, refer to: [1,000億パラメータ規模の独自LLM「PLaMo-100B」の事前学習](https://tech.preferred.jp/ja/blog/plamo-100b/)
 
 [^23]: By removing Causal Attention from Llama, it is used as an encoder-type model.
+
+[^24]: Although the base model is not officially disclosed, the config.json architecture is `DeepseekV3ForCausalLM`, the tokenizer is identical to DeepSeek-V3, and the repository includes a DeepSeek NOTICE file, strongly suggesting it is based on DeepSeek-V3.
