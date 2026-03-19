@@ -1,0 +1,2 @@
+# HuggingFace (rate limits bot access aggressively)
+https?://huggingface\.co/.*
