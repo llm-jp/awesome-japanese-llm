@@ -1,5 +1,8 @@
 ---
-globs: ["README.md", "en/README.md", "fr/README.md"]
+paths:
+  - "README.md"
+  - "en/README.md"
+  - "fr/README.md"
 ---
 
 # Contributing Rules
