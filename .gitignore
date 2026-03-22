@@ -3,4 +3,6 @@ node_modules
 dist
 cache
 temp
-.claude
+.claude/**
+!.claude/rules/
+!.claude/rules/**
