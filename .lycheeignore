@@ -9,3 +9,6 @@ https?://medium\.com/.*
 
 # jxiv (blocks bot access)
 https?://jxiv\.jst\.go\.jp/.*
+
+# Recruit (blocks bot access with 403)
+https?://www\.recruit\.co\.jp/.*
