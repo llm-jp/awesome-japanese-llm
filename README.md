@@ -554,7 +554,7 @@
 
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
-| [オープン日本語LLMリーダーボード](https://huggingface.co/spaces/llm-jp/open-japanese-llm-leaderboard) | [llm-jp-eval](#llm-jp-eval) を活用し、16種類のタスクで日本語の大規模言語モデルを評価している。| LLM-jp, Hugging Face |
+| [オープン日本語LLMリーダーボード](https://huggingface.co/spaces/llm-jp/open-japanese-llm-leaderboard-v2) | [llm-jp-eval](#llm-jp-eval) を活用し、14カテゴリ・71以上のタスクで日本語の大規模言語モデルを評価している。| LLM-jp, Hugging Face |
 | <a id="llm-jp-eval"></a> [llm-jp-eval](https://github.com/llm-jp/llm-jp-eval) | 複数のデータセットを横断して日本語 LLM を自動評価するツールである。<br>対応している全データセット一覧は[こちら](https://github.com/llm-jp/llm-jp-eval/tree/main/src/llm_jp_eval/jaster)から確認できる（この中には JNLI や JCommonsenseQA といった JGLUE のタスクなども含まれている）。 | LLM-jp |
 | [JP Language Model Evaluation Harness](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable) | Stability AI による [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) のフォーク。複数のデータセットを横断して日本語 LLM を自動評価するツールである。<br>対応している全データセット一覧は[こちら](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable/lm_eval/tasks/ja)から確認できる（この中には JNLI や JCommonsenseQA といった JGLUE のタスクなども含まれている）。 | Stability AI |
 | [JGLUE](https://github.com/yahoojapan/JGLUE) | [GLUE ベンチマーク](https://gluebenchmark.com/)の日本語版として構築されたベンチマーク。MARC-ja, JCoLA, JSTS, JNLI, JSQuAD, JCommonsenseQA の 6 つのタスクを含む（[JCoLA](https://github.com/osekilab/JCoLA) は東大大関研により作成）。各タスクの詳細は[こちら](https://www.jstage.jst.go.jp/article/jnlp/30/1/30_63/_article/-char/ja)や[こちら](https://techblog.yahoo.co.jp/entry/2022122030379907/)を参照 | 早大 河原研, ヤフー |
