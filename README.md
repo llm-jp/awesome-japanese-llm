@@ -440,6 +440,7 @@
 |    |  ベースのVLM  |  学習画像/テキスト  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|
 | [AXCXEPT/EZO-InternVL2-26B](https://huggingface.co/AXCXEPT/EZO-InternVL2-26B) | InternVL2 | - | 　Axcxept | MIT |
+| [KARAKURI VL 2](https://huggingface.co/karakuri-ai/karakuri-vl-2-8b-thinking-2603)<br>([**8b**-thinking-2603](https://huggingface.co/karakuri-ai/karakuri-vl-2-8b-thinking-2603)) | Qwen3-VL-8B-Thinking | 不明 | カラクリ | Apache 2.0 |
 
 #### 複数のVLM・LLMをマージして作成されたモデル
 
