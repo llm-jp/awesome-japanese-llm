@@ -107,6 +107,8 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 <a id="english-based-models"></a>
 ### Models built off non-Japanese LLMs (w/ continual pre-training on Japanese)
 
+*Includes models that underwent post-training (SFT, DPO, RL, etc.) after continual pre-training.
+
 <a id="generative-continual-general"></a>
 #### General purpose
 
@@ -204,7 +206,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [NovelAI/genji-jp](https://huggingface.co/NovelAI/genji-jp) | Storytelling | GPT-J (**6b**) | NovelAI |  ？  |
 
 <a id="instruction-only-models"></a>
-### Models built off non-Japanese LLMs (post-training only, or details unknown)
+### Models built off non-Japanese LLMs (post-training only, no continual pre-training or details unknown)
 
 <a id="generative-instruction-only-general"></a>
 #### General purpose

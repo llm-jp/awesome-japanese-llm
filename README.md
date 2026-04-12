@@ -107,6 +107,8 @@
 <a id="english-based-models"></a>
 ### 海外モデルに日本語で継続事前学習を行ったモデル
 
+※継続事前学習後に事後学習（SFT, DPO, RLなど）を行ったモデルも含みます
+
 <a id="generative-continual-general"></a>
 #### 汎用
 
@@ -204,7 +206,7 @@
 | [NovelAI/genji-jp](https://huggingface.co/NovelAI/genji-jp) | 物語生成 | GPT-J (**6b**) | NovelAI |  ？  |
 
 <a id="instruction-only-models"></a>
-### 海外モデルに日本語で追加学習を行ったモデル（事後学習のみ、または詳細不明）
+### 海外モデルに日本語で事後学習を行ったモデル（継続事前学習なし、または詳細不明）
 
 <a id="generative-instruction-only-general"></a>
 #### 汎用

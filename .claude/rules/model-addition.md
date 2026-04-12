@@ -15,7 +15,7 @@ Models are classified into sections based on training approach. **Evidence is re
 |---------|----------|
 | スクラッチ学習モデル | Models pre-trained from scratch on Japanese data |
 | 海外モデルに日本語で継続事前学習を行ったモデル | **Clear evidence** of continual pre-training on Japanese data (e.g., "Pre-training", "Continual pre-training", "Additional pre-training" in documentation) |
-| 海外モデルに日本語で追加学習を行ったモデル（事後学習のみ、または詳細不明） | Post-training only (SFT/DPO/RL), OR **training details unknown** |
+| 海外モデルに日本語で事後学習を行ったモデル（継続事前学習なし、または詳細不明） | Post-training only (SFT/DPO/RL), no continual pre-training, OR **training details unknown** |
 
 **Critical Rules:**
 - **When in doubt, use "事後学習のみ、または詳細不明"** - Do NOT assume continual pre-training without evidence

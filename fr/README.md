@@ -107,6 +107,8 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 <a id="english-based-models"></a>
 ### Modèles développés à partir d'LLM non-japonais (avec un apprentissage en continue en japonais)
 
+*Inclut les modèles ayant subi un post-entraînement (SFT, DPO, RL, etc.) après le pré-entraînement continu.
+
 <a id="generative-continual-general"></a>
 #### D'usage général
 
@@ -204,7 +206,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [NovelAI/genji-jp](https://huggingface.co/NovelAI/genji-jp) | Génération de récits | GPT-J (**6b**) | NovelAI |  ？  |
 
 <a id="instruction-only-models"></a>
-### Modèles développés à partir d'LLM non-japonais (post-entraînement uniquement, ou détails inconnus)
+### Modèles développés à partir d'LLM non-japonais (post-entraînement uniquement, sans pré-entraînement continu ou détails inconnus)
 
 <a id="generative-instruction-only-general"></a>
 #### D'usage général
