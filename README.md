@@ -736,3 +736,4 @@
 [^23]: Llama から Causal Attention を取り除くことにより、エンコーダ型モデルとして利用している。
 
 [^24]: 公式にはベースモデルについて明言されていないが、HuggingFace リポジトリ上の config.json のアーキテクチャが `DeepseekV3ForCausalLM` であること、トークナイザが DeepSeek-V3 と一致すること、DeepSeek の NOTICE ファイルが含まれていることから、DeepSeek-V3 をベースにしている可能性が高い。
+- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
