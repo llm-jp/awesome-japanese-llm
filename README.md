@@ -573,6 +573,7 @@
 
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
+| [llm-jp-judge](https://github.com/llm-jp/llm-jp-judge) | LLM-as-a-Judge による日本語 LLM の統合的な評価ツール。日本語品質（正確さ、流暢さ、詳細さ、関連性などを1〜5段階で評価）、日本語安全性、MT-Bench（英語）、MT-Bench（日本語）の4つのカテゴリで評価を行う。生成フェーズと評価フェーズを分離し、vLLM, OpenAI API, Azure OpenAI, AWS Bedrock などの推論クライアントに対応している。詳細は[こちら](https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q2-4.pdf)を参照 | 大規模言語モデル研究開発センター |
 | <a id="jp-mt-bench"></a> [Japanese MT-bench](https://github.com/Stability-AI/FastChat/tree/jp-stable/fastchat/llm_judge) | マルチターン会話能力を問う [MT-bench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) の日本語版。Writing, Roleplay, Reasoning, Math, Coding, Extraction, STEM, Humanities の 8 つのカテゴリから 10 問ずつ、計 80 問が収録されている。なお、日本語版作成の際には、日本の文化に合うように質問内容に一部修正が加えられている。<br>GPT-4 による 10 段階の絶対評価を行うスクリプトも含まれている。 | Stability AI |
 | <a id="elyza-tasks"></a> [ELYZA-tasks-100](https://huggingface.co/datasets/elyza/ELYZA-tasks-100) | 複雑な指示・タスクを含む100件の日本語データで、全てのデータに対して評価観点がアノテーションされている。<br>要約を修正し修正箇所を説明するタスク、具体的なエピソードから抽象的な教訓を述べるタスク、ユーザーの意図を汲み役に立つAIアシスタントとして振る舞うタスク、場合分けを必要とする複雑な算数のタスク、未知の言語からパターンを抽出し日本語訳する高度な推論を必要とするタスク、複数の指示を踏まえた上でyoutubeの対話を生成するタスク、架空の生き物や熟語に関する生成・大喜利などの想像力が求められるタスクなどが含まれている。 | ELYZA |
 | [Preferred Generation Benchmark<br>(pfgen-bench)](https://github.com/pfnet-research/pfgen-bench) | 50 問の日本語圏特有の常識問題をもとに、LLMの日本語生成能力を Fluency(流暢さ)、Truthfulness(真実性)、Helpfulness(有用性)の3つの評価軸から計測するベンチマーク。n-gram やルールベースでの指標の計算を行うことにより、LLM-as-a-Judge を行わずに評価を実施しているのが特徴である。 | Preferred Elements (Preferred Networks) |
