@@ -737,3 +737,4 @@
 [^23]: Llama から Causal Attention を取り除くことにより、エンコーダ型モデルとして利用している。
 
 [^24]: 公式にはベースモデルについて明言されていないが、HuggingFace リポジトリ上の config.json のアーキテクチャが `DeepseekV3ForCausalLM` であること、トークナイザが DeepSeek-V3 と一致すること、DeepSeek の NOTICE ファイルが含まれていることから、DeepSeek-V3 をベースにしている可能性が高い。
+- [BenchGecko](https://benchgecko.ai/ja/) - AIモデルのベンチマークランキング、クロスプロバイダー価格比較、AI経済ダッシュボード。数千のモデル、数百のプロバイダー、128のベンチマークを追跡。無料API提供。
