@@ -19,6 +19,8 @@ Classify each model independently based on its own training approach. Do NOT ass
 
 **Critical Rule:** Always check the base model. If a model is fine-tuned from a foreign VLM (e.g., `Qwen3-VL-8B-Thinking`), it belongs in 「海外モデルに日本語で追加学習」, even if other models from the same developer are in a different section.
 
+**How to identify the base model:** Use the HuggingFace **Model tree** (right sidebar) — this is the structured ground truth. Do NOT rely solely on model card prose like "○○および△△をもとに開発" / "based on A and B", which often lists multiple models for acknowledgment even when only one is the technical base. See `model-addition.md` for the full verification checklist.
+
 ## VLM Ordering
 
 - Same parameter size ordering as LLMs (descending)

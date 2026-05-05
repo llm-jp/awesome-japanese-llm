@@ -447,6 +447,7 @@
 |:---|:---:|:---:|:---:|:---:|
 | [AXCXEPT/EZO-InternVL2-26B](https://huggingface.co/AXCXEPT/EZO-InternVL2-26B) | InternVL2 | - | 　Axcxept | MIT |
 | [KARAKURI VL 2](https://huggingface.co/karakuri-ai/karakuri-vl-2-8b-thinking-2603)<br>([**8b**-thinking-2603](https://huggingface.co/karakuri-ai/karakuri-vl-2-8b-thinking-2603)) | Qwen3-VL-8B-Thinking | 不明 | カラクリ | Apache 2.0 |
+| [Qwen-3-VL-Ricoh-8B-20260227](https://jp.ricoh.com/release/2026/0330_1)<br>([**8B**-20260227](https://huggingface.co/ricoh-ai/Qwen-3-VL-Ricoh-8B-20260227)) | Qwen3-VL-8B-Thinking | 強化学習 (RL) による推論プロセスの導入 | リコー | Apache 2.0 |
 
 #### 複数のVLM・LLMをマージして作成されたモデル
 

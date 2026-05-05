@@ -33,9 +33,20 @@ Models are classified into sections based on training approach. **Evidence is re
 
 ## Information Verification Checklist
 
-1. **HuggingFace config.json**: Parameter count, context length (`max_position_embeddings`)
-2. **HuggingFace README**: Training methodology, base model, license
-3. **Official announcement/blog**: Release year, developer, training details
-4. **LICENSE file**: Full official license name (e.g., "LFM Open License v1.0", not "lfm1.0")
+1. **HuggingFace Model tree** (right sidebar): **Authoritative source for `base_model`**. Always check this BEFORE relying on prose in the model card.
+2. **HuggingFace config.json**: Parameter count, context length (`max_position_embeddings`)
+3. **HuggingFace README**: Training methodology, license (cross-check base model against Model tree)
+4. **Official announcement/blog**: Release year, developer, training details
+5. **LICENSE file**: Full official license name (e.g., "LFM Open License v1.0", not "lfm1.0")
+
+**Base model verification**: Model card prose may list multiple models (e.g., "based on A and B" / "AおよびBをもとに開発") as acknowledgment, even when only one is the technical base. The HuggingFace Model tree's `base_model` field is the structured ground truth — trust it over prose. If the Model tree is gated/inaccessible, ask the user for a screenshot rather than guessing.
 
 **Cross-source verification**: When numeric values (e.g., token counts) appear in multiple sources, always cross-check. HuggingFace READMEs may contain approximations or unit errors (e.g., "~1.8B tokens" vs actual "1.8億トークン" = 0.18B). Prefer official blog posts or papers for precise numbers.
+
+**Press release scope check**: Press releases often describe a model family (e.g., 32B + 8B). Training details quoted from a press release may apply only to the flagship variant. Match each claim to the specific size/variant being added.
+
+**WebFetch summary caveats**: WebFetch returns AI-summarized content that can:
+- Conflate future plans ("will utilize X") with applied techniques ("used X")
+- Flatten "based on (acknowledgment)" into "merged from / fine-tuned from"
+- Drop tense and conditional markers
+When a WebFetch summary mentions "merged", "based on multiple", or any training method, re-fetch with a quote-only prompt or read the page directly to verify.
