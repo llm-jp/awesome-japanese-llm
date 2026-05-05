@@ -447,6 +447,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 |:---|:---:|:---:|:---:|:---:|
 | [AXCXEPT/EZO-InternVL2-26B](https://huggingface.co/AXCXEPT/EZO-InternVL2-26B) | InternVL2 | - | 　Axcxept | MIT |
 | [KARAKURI VL 2](https://huggingface.co/karakuri-ai/karakuri-vl-2-8b-thinking-2603)<br>([**8b**-thinking-2603](https://huggingface.co/karakuri-ai/karakuri-vl-2-8b-thinking-2603)) | Qwen3-VL-8B-Thinking | Undisclosed | KARAKURI | Apache 2.0 |
+| [Qwen-3-VL-Ricoh-8B-20260227](https://jp.ricoh.com/release/2026/0330_1)<br>([**8B**-20260227](https://huggingface.co/ricoh-ai/Qwen-3-VL-Ricoh-8B-20260227)) | Qwen3-VL-8B-Thinking | Reasoning process via Reinforcement Learning (RL) | Ricoh | Apache 2.0 |
 
 #### Merged models
 
