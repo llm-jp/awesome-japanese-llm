@@ -99,7 +99,12 @@
 
 |    | ドメイン | アーキテクチャ  |  学習テキスト  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|:---:|
-| [SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct) | 医療 | MoE | 医療系コーパス (**44.2B** トークン) で LLM-jp-3 MoE (8x13b) に追加事前学習、その後 Instruction Tuning | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0 |
+| [SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-32k-R0.1](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-32k-R0.1) | 医療 | MoE | 医療系コーパス (**78.3B** トークン) で LLM-jp-3 MoE (8x13b) に追加事前学習、コンテキスト長を 32k に拡張、その後 Instruction Tuning | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0[^25] |
+| [SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct) | 医療 | MoE | 医療系コーパス (**78.3B** トークン) で LLM-jp-3 MoE (8x13b) に追加事前学習、コンテキスト長を 32k に拡張、その後 PMC-Patients 等を用いた Instruction Tuning | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | SIP-jmed-llm-3-8x13b-AC-32k-instruct Terms of Use[^25] |
+| [SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-4k-base](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-4k-base) | 医療 | MoE | 医療系コーパス (**78.3B** トークン) で LLM-jp-3 MoE (8x13b) に追加事前学習 | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0[^25] |
+| [SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct) | 医療 | MoE | 医療系コーパス (**44.2B** トークン) で LLM-jp-3 MoE (8x13b) に追加事前学習、その後 Instruction Tuning | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0[^25] |
+| [SIP-med-LLM/SIP-jmed-llm-3-13b-OP-32k-R0.1](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-13b-OP-32k-R0.1) | 医療 | Llama | 医療系コーパス (**78.3B** トークン) で LLM-jp-3.1 (13b) に追加事前学習、コンテキスト長を 32k に拡張、その後 Instruction Tuning | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0[^25] |
+| [SIP-med-LLM/SIP-jmed-llm-3-13b-OP-4k-base](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-13b-OP-4k-base) | 医療 | Llama | 医療系コーパス (**78.3B** トークン) で LLM-jp-3.1 (13b) に追加事前学習 | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0[^25] |
 | [日本語対話Transformer](https://group.ntt/jp/topics/2021/09/30/transformer.html) | 対話 |Transformer | Twitter 上の日本語リプライのペア | NTT | [独自のライセンス](https://github.com/nttcslab/japanese-dialog-transformers/blob/main/LICENSE.md) |
 | [日本語ニュースBART](https://tech.stockmark.co.jp/blog/bart-japanese-base-news/) | ビジネス | BART ([base](https://huggingface.co/stockmark/bart-base-japanese-news)) | 日本語ビジネスニュース記事（約2,100万記事 (2.9億文)） | ストックマーク | MIT |
 | [AcademicBART](https://github.com/EhimeNLP/AcademicBART) | 学術 | BART ([base](https://huggingface.co/EhimeNLP/AcademicBART)) | CiNii の日本語論文 | 愛媛大 人工知能研究室 | Apache 2.0 |
@@ -743,3 +748,5 @@
 [^23]: Llama から Causal Attention を取り除くことにより、エンコーダ型モデルとして利用している。
 
 [^24]: 公式にはベースモデルについて明言されていないが、HuggingFace リポジトリ上の config.json のアーキテクチャが `DeepseekV3ForCausalLM` であること、トークナイザが DeepSeek-V3 と一致すること、DeepSeek の NOTICE ファイルが含まれていることから、DeepSeek-V3 をベースにしている可能性が高い。
+
+[^25]: ライセンスとは別に、モデルカード上では研究開発目的のみでの使用が想定されており、実際の臨床現場における疾患の診断や臨床意思決定支援としての直接利用は推奨されていない。
