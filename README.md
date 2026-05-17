@@ -452,6 +452,7 @@
 
 |    |  ベースのVLM  |  学習画像/テキスト  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|
+| [Stockmark-DocReasoner-Qwen2.5-VL-32B](https://stockmark-tech.hatenablog.com/entry/2026/04/28/100048)<br>([**32B**](https://huggingface.co/stockmark/Stockmark-DocReasoner-Qwen2.5-VL-32B)) | Qwen2.5-VL-32B-Instruct | 2段階カリキュラム学習 (SFT): ステージ1: 約110万件 (うち合成データ60万件) で基礎的なドキュメント構造理解、ステージ2: 約140万件 (うち合成データ50万件) で多段階推論と Chain-of-Thought の強化<br>ペルソナベース合成データ (Nemotron-Personas-Japan を活用)、matplotlib/HTML/Plotly/LaTeX/mermaid によるレンダリング、VLM-as-a-judge による品質判定 | ストックマーク | Apache 2.0 |
 | [AXCXEPT/EZO-InternVL2-26B](https://huggingface.co/AXCXEPT/EZO-InternVL2-26B) | InternVL2 | - | 　Axcxept | MIT |
 | [KARAKURI VL 2](https://huggingface.co/karakuri-ai/karakuri-vl-2-8b-thinking-2603)<br>([**8b**-thinking-2603](https://huggingface.co/karakuri-ai/karakuri-vl-2-8b-thinking-2603)) | Qwen3-VL-8B-Thinking | 不明 | カラクリ | Apache 2.0 |
 | [Qwen-3-VL-Ricoh-8B-20260227](https://jp.ricoh.com/release/2026/0330_1)<br>([**8B**-20260227](https://huggingface.co/ricoh-ai/Qwen-3-VL-Ricoh-8B-20260227)) | Qwen3-VL-8B-Thinking | 強化学習 (RL) による推論プロセスの導入 | リコー | Apache 2.0 |
@@ -654,6 +655,7 @@
 | [simple-evals-mm](https://github.com/llm-jp/simple-evals-mm/) | 日本語VLMを 20 タスク（日本語 10 タスク + 英語 10 タスク）で評価するためのフレームワーク。日本語タスクには [JAMMEval](#jammeval) や [BusinessSlideVQA](#business-slide-vqa)、[JMMMU](#jmmmu)、MECHA-ja が、英語タスクには AI2D、ChartQA、MMMU などが含まれる。 | 大規模言語モデル研究開発センター |
 | <a id="jammeval"></a> [JAMMEval](https://huggingface.co/datasets/llm-jp/JAMMEval) | 既存の日本語マルチモーダルベンチマーク 7 つ (CC-OCR-JA、CVQA-JA、[Heron-Bench](#japanese-heron-bench)、[JA-Multi-Image-VQA](#ja-multi-image-vqa)、[JA-VLM-Bench](#ja-vlm-bench-in-the-wild)、[JDocQA](#jdocqa)、[JGraphQA](#jgraphqa)) を精緻化して構築された、日本語VLM向けの評価データセット集。 | 大規模言語モデル研究開発センター |
 | <a id="business-slide-vqa"></a> [BusinessSlideVQA](https://github.com/stockmarkteam/business-slide-questions) | 複雑な日本語ビジネススライド画像に関する220問の質問応答データセット。文書理解能力の評価を目的として設計されている。 | ストックマーク |
+| <a id="ja-business-doc-rq-bench"></a> [JA-Business-Doc-RQ-Bench](https://huggingface.co/datasets/stockmark/JA-Business-Doc-RQ-Bench) | 日本語ビジネスドキュメントに対する多段階推論能力を評価するためのベンチマーク。画像 (Chart、Table、Diagram、Document の4種類) に対して 3〜5 段階の推論を要する 229 件の質問 (Yes/No、Factoid、Numerical の3種類) から構成される。すべて合成画像で、質問・回答は人手作成。 | ストックマーク |
 | <a id="jmmmu"></a> [JMMMU](https://mmmu-japanese-benchmark.github.io/JMMMU/) | [MMMU ベンチマーク](https://mmmu-benchmark.github.io/)の日本語版として構築されたベンチマーク。720 件の MMMU の翻訳版の問題と 600 件の日本文化特有の新規の問題から構成される。 | 東大 相澤研 |
 | <a id="jdocqa"></a> [JDocQA](https://github.com/mizuumi/JDocQA) | 日本語ドキュメント（パンフレット、スライド、レポート、Web サイト）をもとに構築された、合計 11,600 件の質問から構成される質問応答データセット。解答不能問題を含め、様々な質問形式の質問が収録されている。 | NAIST 渡辺研 |
 | <a id="jgraphqa"></a> [JGraphQA](https://huggingface.co/datasets/r-g2-2024/JGraphQA) | 日本語のチャート理解能力を評価するためのベンチマーク。日本企業の IR 資料から収集された 4 種類のチャート（円グラフ、折れ線グラフ、棒グラフ、表）の画像 100 枚に対し、各画像 2 問の計 200 問が手動で作成・検証されている。 | リコー |
