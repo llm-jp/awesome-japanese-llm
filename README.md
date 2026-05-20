@@ -219,59 +219,59 @@
 <a id="generative-instruction-only-general"></a>
 #### 汎用
 
-|    | ベースのLLM  | 学習テキスト | 開発元  | ライセンス / 利用規約 |
-|:---|:---:|:---:|:---:|:---:|
-| [Rakuten AI 3.0](https://corp.rakuten.co.jp/news/press/2026/0317_01.html)<br>([RakutenAI-3.0](https://huggingface.co/Rakuten/RakutenAI-3.0)) | DeepSeek-V3 (**671b**) [^24] | 不明 | 楽天 | Apache 2.0 |
-| [Llama 3.1 Shisa V2 405B](https://shisa.ai/posts/shisa-v2-405b-ja-pr/)<br>([**405b**](https://huggingface.co/shisa-ai/shisa-v2-llama3.1-405b)) | Llama 3.1 (**405b**) | 高品質な日本語データセットでSFT/DPO | Shisa.AI | Llama 3.1 Community License |
-| [AXCXEPT/EZO-Qwen2.5-72B-Instruct](https://huggingface.co/AXCXEPT/EZO-Qwen2.5-72B-Instruct)<br>[AXCXEPT/EZO-AutoCoTRAG-Qwen2.5-72B-Instruct_q4](https://huggingface.co/AXCXEPT/EZO-AutoCoTRAG-Qwen2.5-72B-Instruct_q4) | Qwen2.5 (**72b**) || Axcxept | Qwen License |
-| [ao-Karasu](https://note.com/lightblue_tech/n/nfda12435b262)<br>([72B](https://huggingface.co/lightblue/ao-karasu-72B)) | Qwen1.5 (**72b**) | ultra-orca-boros-en-ja-v1, OASST1, ShareGPT, 日本語の公開技術ブログ, ニュース記事, QAサイトの回答, 独自のデータセット | Lightblue |  Tongyi Qianwen LICENSE (?)[^12] |
-| [Shisa V2.1 70B](https://shisa.ai/posts/shisa-v2.1-ja-pr/)<br>([**70b**](https://huggingface.co/shisa-ai/shisa-v2.1-llama3.3-70b)) | Llama 3.3 (**70b**) | SFT/DPO/強化学習/モデルマージを組み合わせた学習 | Shisa.AI | Llama 3.3 Community License |
-| [shisa-ai/shisa-v2-llama3.3-70b](https://huggingface.co/shisa-ai/shisa-v2-llama3.3-70b) | Llama 3.3 (**70b**) || Shisa.AI | Llama 3.3 Community License |
-| [AXCXEPT/Llama-3.1-70B-EZO-1.1-it](https://huggingface.co/AXCXEPT/Llama-3.1-70B-EZO-1.1-it) | Llama 3.1 (**70b**) || Axcxept | Llama 3.1 Community License |
-| [Llama 3 shisa-v1-llama3-70b](https://huggingface.co/shisa-ai/shisa-v1-llama3-70b)<br>([70b](https://huggingface.co/shisa-ai/shisa-v1-llama3-70b)) | Llama 3 (**70b**) | ultra-orca-boros-en-ja-v1 | Shisa.AI | Llama 3 Community License (?)[^12] |
-| [AIgroup-CVM-utokyohospital/Llama-2-70b-chat-4bit-japanese](https://huggingface.co/AIgroup-CVM-utokyohospital/Llama-2-70b-chat-4bit-japanese) | Llama 2 (**70b**) || 東京大学医学部附属病院 循環器内科 AIグループ | Llama 2 Community License |
-| [doshisha-mil/llama-2-70b-chat-4bit-japanese-v1](https://huggingface.co/doshisha-mil/llama-2-70b-chat-4bit-japanese-v1) | Llama 2 (**70b**) || 同志社大学 メディア情報学研究室 | ？ |
-| [cyberagent/DeepSeek-R1-Distill-Qwen-32B-Japanese](https://huggingface.co/cyberagent/DeepSeek-R1-Distill-Qwen-32B-Japanese) | DeepSeek-R1-Distill-Qwen (**32b**) || サイバーエージェント | MIT |
-| [Flux-Japanese-Qwen2.5-32B-Instruct-V1.0](https://flux.jp/news/1093/)<br>([V1.0](https://huggingface.co/flux-inc/Flux-Japanese-Qwen2.5-32B-Instruct-V1.0)) | Qwen2.5-32B-Instruct (**32b**) | Precise-tuning: 日本語の知識・推論・言語回路をピンポイント特定し、パラメータの5%のみに対して調整を実施。3つの専門モデルを作成後、ピンポイントマージで統合 | FLUX | Apache 2.0 |
-| [karakuri-ai/karakuri-lm-32b-thinking-2501-exp](https://huggingface.co/karakuri-ai/karakuri-lm-32b-thinking-2501-exp) | QwQ (**32b**) || カラクリ | Apache 2.0 |
-| [shisa-ai/shisa-v2-qwen2.5-32b](https://huggingface.co/shisa-ai/shisa-v2-qwen2.5-32b) | Qwen2.5 (**32b**) || Shisa.AI | Apache 2.0 |
-| [AXCXEPT/EZO-Qwen2.5-32B-Instruct](https://huggingface.co/AXCXEPT/EZO-Qwen2.5-32B-Instruct)<br>[AXCXEPT/EZO-AutoCoTRAG-Qwen2.5-32B-Instruct](https://huggingface.co/AXCXEPT/EZO-AutoCoTRAG-Qwen2.5-32B-Instruct) | Qwen2.5 (**32b**) || Axcxept | Apache 2.0 |
-| [cyberagent/DeepSeek-R1-Distill-Qwen-14B-Japanese](https://huggingface.co/cyberagent/DeepSeek-R1-Distill-Qwen-14B-Japanese) | DeepSeek-R1-Distill-Qwen (**14b**) || サイバーエージェント | MIT |
-| [Shisa V2.1 14B](https://shisa.ai/posts/shisa-v2.1-ja-pr/)<br>([**14b**](https://huggingface.co/shisa-ai/shisa-v2.1-unphi4-14b)) | Phi-4 (**14b**) | SFT/DPO/強化学習/モデルマージを組み合わせた学習 | Shisa.AI | MIT |
-| [shisa-ai/shisa-v2-unphi4-14b](https://huggingface.co/shisa-ai/shisa-v2-unphi4-14b) | Phi-4 (**14b**) || Shisa.AI | MIT |
-| [EZO-Phi-4](https://huggingface.co/collections/AXCXEPT/ezo-phi-4-678a461c325df99089b387f3)<br>([phi-4-open-R1-Distill-EZOv1](https://huggingface.co/AXCXEPT/phi-4-open-R1-Distill-EZOv1), [phi-4-deepseek-R1K-RL-EZO](https://huggingface.co/AXCXEPT/phi-4-deepseek-R1K-RL-EZO)) | Phi-4 (**14b**) || Axcxept | MIT |
-| [Qarasu](https://www.lightblue-tech.com/2024/01/15/20240115_news/)<br>([14B-chat-plus-unleashed](https://huggingface.co/lightblue/qarasu-14B-chat-plus-unleashed)) | Qwen (**14b**) | ultra-orca-boros-en-ja-v1, OASST1, ShareGPT, 独自のデータセット | Lightblue | Tongyi Qianwen LICENSE (?)[^12] |
-| [Sparticle/llama-2-13b-chat-japanese-lora](https://huggingface.co/Sparticle/llama-2-13b-chat-japanese-lora) | Llama 2 (**13b**) || Sparticle | ？ |
-| [izumi-lab/llama-13b-japanese-lora-v0-1ep](https://huggingface.co/izumi-lab/llama-13b-japanese-lora-v0-1ep) | Llama (**13b**) || 東大 和泉研 |  ？ |
-| [shisa-ai/shisa-v2-mistral-nemo-12b](https://huggingface.co/shisa-ai/shisa-v2-mistral-nemo-12b) | Mistral NeMo (**12b**) || Shisa.AI | Apache 2.0 |
-| [AXCXEPT/EZO-Common-9B-gemma-2-it](https://huggingface.co/AXCXEPT/EZO-Common-9B-gemma-2-it) | Gemma 2 (**9b**) || Axcxept | Gemma Terms of Use |
-| [AXCXEPT/EZO-Humanities-9B-gemma-2-it](https://huggingface.co/AXCXEPT/EZO-Humanities-9B-gemma-2-it) |Gemma 2 (**9b**) || Axcxept | Gemma Terms of Use |
-| [Shisa V2.1 8B](https://shisa.ai/posts/shisa-v2.1-ja-pr/)<br>([**8b**](https://huggingface.co/shisa-ai/shisa-v2.1-qwen3-8b)) | Qwen3 (**8b**) | SFT/DPO/強化学習/モデルマージを組み合わせた学習 | Shisa.AI | Apache 2.0 |
-| [AXCXEPT/Qwen3-EZO-8B-beta](https://huggingface.co/AXCXEPT/Qwen3-EZO-8B-beta) | Qwen3 (**8b**) | Deep-Think技術による高性能推論 | Axcxept | Apache 2.0 |
-| [shisa-ai/shisa-v2-llama3.1-8b](https://huggingface.co/shisa-ai/shisa-v2-llama3.1-8b) | Llama 3.1 (**8b**) || Shisa.AI | Llama 3.1 Community License |
-| [AXCXEPT/Llama-3.1-8B-EZO-1.1-it](https://huggingface.co/AXCXEPT/Llama-3.1-8B-EZO-1.1-it) |Llama 3.1 (**8b**) || Axcxept | Llama 3.1 Community License |
-| [Llama 3 Suzume 8B](https://huggingface.co/lightblue/suzume-llama-3-8B-japanese)<br>([8B-japanese](https://huggingface.co/lightblue/suzume-llama-3-8B-japanese), [8B-japanese-gguf](https://huggingface.co/lightblue/suzume-llama-3-8B-japanese-gguf)) | Llama 3 (**8b**) | megagonlabs/instruction_ja, ShareGPT,  独自のデータセット | Lightblue | Llama 3 Community License (?)[^12] |
-| [Llama 3 shisa-v1-llama3-8b](https://huggingface.co/shisa-ai/shisa-v1-llama3-8b)<br>([8b](https://huggingface.co/shisa-ai/shisa-v1-llama3-8b)) | Llama 3 (**8b**) | ultra-orca-boros-en-ja-v1 | Shisa.AI | Llama 3 Community License (?)[^12] |
-| [AXCXEPT/Llama-3-EZO-8b-Common-it](https://huggingface.co/AXCXEPT/Llama-3-EZO-8b-Common-it) |Llama 3 (**8b**) || Axcxept | Llama 3 Community License |
-| [lightblue/DeepSeek-R1-Distill-Qwen-7B-Japanese](https://huggingface.co/lightblue/DeepSeek-R1-Distill-Qwen-7B-Japanese) | DeepSeek-R1-Distill-Qwen (**7b**) || Lightblue | Apache 2.0 |
-| [ABEJA-Qwen2.5-7b-Japanese-v0.1](https://tech-blog.abeja.asia/entry/geniac2-qwen25-7b-v0.1)<br>([v0.1](https://huggingface.co/abeja/ABEJA-Qwen2.5-7b-Japanese-v0.1)) | Qwen 2.5 (**7b**) || ABEJA | Apache 2.0 |
-| [shisa-ai/shisa-v2-qwen2.5-7b](https://huggingface.co/shisa-ai/shisa-v2-qwen2.5-7b) | Qwen 2.5 (**7b**) || Shisa.AI | Apache 2.0 |
-| [Karasu DPO](https://note.com/lightblue_tech/n/n6967ff462f4a)<br>([7B](https://huggingface.co/lightblue/Karasu-DPO-7B)) | Qwen 2.5 (**7b**) || Lightblue | Apache 2.0 |
-| [ganchengguang/Yoko-7B-Japanese-v1](https://huggingface.co/ganchengguang/Yoko-7B-Japanese-v1) | Llama 2 (**7b**) || 横浜国大 森研 |  ？  |
-| [Sparticle/llama-2-7b-chat-japanese-lora](https://huggingface.co/Sparticle/llama-2-7b-chat-japanese-lora) | Llama 2 (**7b**) || Sparticle |  ？  |
-| [izumi-lab/llama-7b-japanese-lora-v0-5ep](https://huggingface.co/izumi-lab/llama-7b-japanese-lora-v0-5ep) | Llama (**7b**) || 東大 和泉研 |  ？  |
-| [lightblue/jod](https://huggingface.co/lightblue/jod) | Mistral-7B-SlimOrca (**7b**) || Lightblue | Apache 2.0 |
-| [NTQAI/chatntq-7b-jpntuned](https://huggingface.co/NTQAI/chatntq-7b-jpntuned) | RWKV-4 World (**7b**) || NTQ Solution |  ？  |
-| [Qwen3.5-FT-Japanese-CoT-4B](https://huggingface.co/Aname-Tommy/Qwen3.5-FT-Japanese-CoT-4B) | Qwen3.5 (**4b**) | 不明 | 個人 (Aname-Tommy) | MIT |
-| [Borea](https://prtimes.jp/main/html/rd/p/000000008.000129878.html)<br>([Jp](https://huggingface.co/AXCXEPT/Borea-Phi-3.5-mini-Instruct-Jp), [Common](https://huggingface.co/AXCXEPT/Borea-Phi-3.5-mini-Instruct-Common), [Coding](https://huggingface.co/AXCXEPT/Borea-Phi-3.5-mini-Instruct-Coding)) | Phi-3.5 (**3.8b**) | | Axcxept | MIT |
-| [Shisa V2.1 3B](https://shisa.ai/posts/shisa-v2.1-ja-pr/)<br>([**3b**](https://huggingface.co/shisa-ai/shisa-v2.1-llama3.2-3b)) | Llama 3.2 (**3b**) | SFT/DPO/強化学習/モデルマージを組み合わせた学習 | Shisa.AI | Llama 3.2 Community License |
-| [AXCXEPT/EZO-Llama-3.2-3B-Instruct-dpoE](https://huggingface.co/AXCXEPT/EZO-Llama-3.2-3B-Instruct-dpoE) | Llama 3.2 (**3b**) || Axcxept | Llama 3.2 Community License |
-| [日本語版 Gemma 2 2B](https://developers-jp.googleblog.com/2024/10/gemma-2-for-japan.html)<br>([2b-jpn-it](https://huggingface.co/google/gemma-2-2b-jpn-it)) | Gemma 2 (**2b**) || Google | Gemma Terms of Use |
-| [AXCXEPT/EZO-gemma-2-2b-jpn-it](https://huggingface.co/AXCXEPT/EZO-gemma-2-2b-jpn-it) | Gemma 2 (**2b**) || Axcxept | Gemma Terms of Use |
-| [AXCXEPT/EZO-Common-T2-2B-gemma-2-it](https://huggingface.co/AXCXEPT/EZO-Common-T2-2B-gemma-2-it) | Gemma 2 (**2b**) || Axcxept | Gemma Terms of Use |
-| [Shisa V2.1 1.2B](https://shisa.ai/posts/shisa-v2.1-ja-pr/)<br>([**1.2b**](https://huggingface.co/shisa-ai/shisa-v2.1-lfm2-1.2b)) | LFM2 (**1.2b**) | SFT/DPO/強化学習/モデルマージを組み合わせた学習 | Shisa.AI | LFM Open License v1.0 |
-| [LFM2.5-1.2B-JP](https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai)<br>([1.2B-JP](https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP)) | LFM2.5 (**1.2b**) | 不明 | Liquid AI | LFM Open License v1.0 |
-| [Qwen3.5-FT-Japanese-CoT-0.8B](https://huggingface.co/Aname-Tommy/Qwen3.5-FT-Japanese-CoT-0.8B) | Qwen3.5 (**0.8b**) | 不明 | 個人 (Aname-Tommy) | MIT |
+|    | 公開年 | ベースのLLM  | 学習テキスト | 開発元  | ライセンス / 利用規約 |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| [Rakuten AI 3.0](https://corp.rakuten.co.jp/news/press/2026/0317_01.html)<br>([RakutenAI-3.0](https://huggingface.co/Rakuten/RakutenAI-3.0)) | **2026** | DeepSeek-V3 (**671b**) [^24] | 不明 | 楽天 | Apache 2.0 |
+| [Llama 3.1 Shisa V2 405B](https://shisa.ai/posts/shisa-v2-405b-ja-pr/)<br>([**405b**](https://huggingface.co/shisa-ai/shisa-v2-llama3.1-405b)) | 2025 | Llama 3.1 (**405b**) | 高品質な日本語データセットでSFT/DPO | Shisa.AI | Llama 3.1 Community License |
+| [AXCXEPT/EZO-Qwen2.5-72B-Instruct](https://huggingface.co/AXCXEPT/EZO-Qwen2.5-72B-Instruct)<br>[AXCXEPT/EZO-AutoCoTRAG-Qwen2.5-72B-Instruct_q4](https://huggingface.co/AXCXEPT/EZO-AutoCoTRAG-Qwen2.5-72B-Instruct_q4) | 2024 | Qwen2.5 (**72b**) || Axcxept | Qwen License |
+| [ao-Karasu](https://note.com/lightblue_tech/n/nfda12435b262)<br>([72B](https://huggingface.co/lightblue/ao-karasu-72B)) | 2024 | Qwen1.5 (**72b**) | ultra-orca-boros-en-ja-v1, OASST1, ShareGPT, 日本語の公開技術ブログ, ニュース記事, QAサイトの回答, 独自のデータセット | Lightblue |  Tongyi Qianwen LICENSE (?)[^12] |
+| [Shisa V2.1 70B](https://shisa.ai/posts/shisa-v2.1-ja-pr/)<br>([**70b**](https://huggingface.co/shisa-ai/shisa-v2.1-llama3.3-70b)) | 2025 | Llama 3.3 (**70b**) | SFT/DPO/強化学習/モデルマージを組み合わせた学習 | Shisa.AI | Llama 3.3 Community License |
+| [shisa-ai/shisa-v2-llama3.3-70b](https://huggingface.co/shisa-ai/shisa-v2-llama3.3-70b) | 2025 | Llama 3.3 (**70b**) || Shisa.AI | Llama 3.3 Community License |
+| [AXCXEPT/Llama-3.1-70B-EZO-1.1-it](https://huggingface.co/AXCXEPT/Llama-3.1-70B-EZO-1.1-it) | 2024 | Llama 3.1 (**70b**) || Axcxept | Llama 3.1 Community License |
+| [Llama 3 shisa-v1-llama3-70b](https://huggingface.co/shisa-ai/shisa-v1-llama3-70b)<br>([70b](https://huggingface.co/shisa-ai/shisa-v1-llama3-70b)) | 2024 | Llama 3 (**70b**) | ultra-orca-boros-en-ja-v1 | Shisa.AI | Llama 3 Community License (?)[^12] |
+| [AIgroup-CVM-utokyohospital/Llama-2-70b-chat-4bit-japanese](https://huggingface.co/AIgroup-CVM-utokyohospital/Llama-2-70b-chat-4bit-japanese) | 2023 | Llama 2 (**70b**) || 東京大学医学部附属病院 循環器内科 AIグループ | Llama 2 Community License |
+| [doshisha-mil/llama-2-70b-chat-4bit-japanese-v1](https://huggingface.co/doshisha-mil/llama-2-70b-chat-4bit-japanese-v1) | 2023 | Llama 2 (**70b**) || 同志社大学 メディア情報学研究室 | ？ |
+| [cyberagent/DeepSeek-R1-Distill-Qwen-32B-Japanese](https://huggingface.co/cyberagent/DeepSeek-R1-Distill-Qwen-32B-Japanese) | 2025 | DeepSeek-R1-Distill-Qwen (**32b**) || サイバーエージェント | MIT |
+| [Flux-Japanese-Qwen2.5-32B-Instruct-V1.0](https://flux.jp/news/1093/)<br>([V1.0](https://huggingface.co/flux-inc/Flux-Japanese-Qwen2.5-32B-Instruct-V1.0)) | 2025 | Qwen2.5-32B-Instruct (**32b**) | Precise-tuning: 日本語の知識・推論・言語回路をピンポイント特定し、パラメータの5%のみに対して調整を実施。3つの専門モデルを作成後、ピンポイントマージで統合 | FLUX | Apache 2.0 |
+| [karakuri-ai/karakuri-lm-32b-thinking-2501-exp](https://huggingface.co/karakuri-ai/karakuri-lm-32b-thinking-2501-exp) | 2025 | QwQ (**32b**) || カラクリ | Apache 2.0 |
+| [shisa-ai/shisa-v2-qwen2.5-32b](https://huggingface.co/shisa-ai/shisa-v2-qwen2.5-32b) | 2025 | Qwen2.5 (**32b**) || Shisa.AI | Apache 2.0 |
+| [AXCXEPT/EZO-Qwen2.5-32B-Instruct](https://huggingface.co/AXCXEPT/EZO-Qwen2.5-32B-Instruct)<br>[AXCXEPT/EZO-AutoCoTRAG-Qwen2.5-32B-Instruct](https://huggingface.co/AXCXEPT/EZO-AutoCoTRAG-Qwen2.5-32B-Instruct) | 2024 | Qwen2.5 (**32b**) || Axcxept | Apache 2.0 |
+| [cyberagent/DeepSeek-R1-Distill-Qwen-14B-Japanese](https://huggingface.co/cyberagent/DeepSeek-R1-Distill-Qwen-14B-Japanese) | 2025 | DeepSeek-R1-Distill-Qwen (**14b**) || サイバーエージェント | MIT |
+| [Shisa V2.1 14B](https://shisa.ai/posts/shisa-v2.1-ja-pr/)<br>([**14b**](https://huggingface.co/shisa-ai/shisa-v2.1-unphi4-14b)) | 2025 | Phi-4 (**14b**) | SFT/DPO/強化学習/モデルマージを組み合わせた学習 | Shisa.AI | MIT |
+| [shisa-ai/shisa-v2-unphi4-14b](https://huggingface.co/shisa-ai/shisa-v2-unphi4-14b) | 2025 | Phi-4 (**14b**) || Shisa.AI | MIT |
+| [EZO-Phi-4](https://huggingface.co/collections/AXCXEPT/ezo-phi-4-678a461c325df99089b387f3)<br>([phi-4-open-R1-Distill-EZOv1](https://huggingface.co/AXCXEPT/phi-4-open-R1-Distill-EZOv1), [phi-4-deepseek-R1K-RL-EZO](https://huggingface.co/AXCXEPT/phi-4-deepseek-R1K-RL-EZO)) | 2025 | Phi-4 (**14b**) || Axcxept | MIT |
+| [Qarasu](https://www.lightblue-tech.com/2024/01/15/20240115_news/)<br>([14B-chat-plus-unleashed](https://huggingface.co/lightblue/qarasu-14B-chat-plus-unleashed)) | 2024 | Qwen (**14b**) | ultra-orca-boros-en-ja-v1, OASST1, ShareGPT, 独自のデータセット | Lightblue | Tongyi Qianwen LICENSE (?)[^12] |
+| [Sparticle/llama-2-13b-chat-japanese-lora](https://huggingface.co/Sparticle/llama-2-13b-chat-japanese-lora) | 2023 | Llama 2 (**13b**) || Sparticle | ？ |
+| [izumi-lab/llama-13b-japanese-lora-v0-1ep](https://huggingface.co/izumi-lab/llama-13b-japanese-lora-v0-1ep) | 2023 | Llama (**13b**) || 東大 和泉研 |  ？ |
+| [shisa-ai/shisa-v2-mistral-nemo-12b](https://huggingface.co/shisa-ai/shisa-v2-mistral-nemo-12b) | 2025 | Mistral NeMo (**12b**) || Shisa.AI | Apache 2.0 |
+| [AXCXEPT/EZO-Common-9B-gemma-2-it](https://huggingface.co/AXCXEPT/EZO-Common-9B-gemma-2-it) | 2024 | Gemma 2 (**9b**) || Axcxept | Gemma Terms of Use |
+| [AXCXEPT/EZO-Humanities-9B-gemma-2-it](https://huggingface.co/AXCXEPT/EZO-Humanities-9B-gemma-2-it) | 2024 |Gemma 2 (**9b**) || Axcxept | Gemma Terms of Use |
+| [Shisa V2.1 8B](https://shisa.ai/posts/shisa-v2.1-ja-pr/)<br>([**8b**](https://huggingface.co/shisa-ai/shisa-v2.1-qwen3-8b)) | 2025 | Qwen3 (**8b**) | SFT/DPO/強化学習/モデルマージを組み合わせた学習 | Shisa.AI | Apache 2.0 |
+| [AXCXEPT/Qwen3-EZO-8B-beta](https://huggingface.co/AXCXEPT/Qwen3-EZO-8B-beta) | 2025 | Qwen3 (**8b**) | Deep-Think技術による高性能推論 | Axcxept | Apache 2.0 |
+| [shisa-ai/shisa-v2-llama3.1-8b](https://huggingface.co/shisa-ai/shisa-v2-llama3.1-8b) | 2025 | Llama 3.1 (**8b**) || Shisa.AI | Llama 3.1 Community License |
+| [AXCXEPT/Llama-3.1-8B-EZO-1.1-it](https://huggingface.co/AXCXEPT/Llama-3.1-8B-EZO-1.1-it) | 2024 |Llama 3.1 (**8b**) || Axcxept | Llama 3.1 Community License |
+| [Llama 3 Suzume 8B](https://huggingface.co/lightblue/suzume-llama-3-8B-japanese)<br>([8B-japanese](https://huggingface.co/lightblue/suzume-llama-3-8B-japanese), [8B-japanese-gguf](https://huggingface.co/lightblue/suzume-llama-3-8B-japanese-gguf)) | 2024 | Llama 3 (**8b**) | megagonlabs/instruction_ja, ShareGPT,  独自のデータセット | Lightblue | Llama 3 Community License (?)[^12] |
+| [Llama 3 shisa-v1-llama3-8b](https://huggingface.co/shisa-ai/shisa-v1-llama3-8b)<br>([8b](https://huggingface.co/shisa-ai/shisa-v1-llama3-8b)) | 2024 | Llama 3 (**8b**) | ultra-orca-boros-en-ja-v1 | Shisa.AI | Llama 3 Community License (?)[^12] |
+| [AXCXEPT/Llama-3-EZO-8b-Common-it](https://huggingface.co/AXCXEPT/Llama-3-EZO-8b-Common-it) | 2024 |Llama 3 (**8b**) || Axcxept | Llama 3 Community License |
+| [lightblue/DeepSeek-R1-Distill-Qwen-7B-Japanese](https://huggingface.co/lightblue/DeepSeek-R1-Distill-Qwen-7B-Japanese) | 2025 | DeepSeek-R1-Distill-Qwen (**7b**) || Lightblue | Apache 2.0 |
+| [ABEJA-Qwen2.5-7b-Japanese-v0.1](https://tech-blog.abeja.asia/entry/geniac2-qwen25-7b-v0.1)<br>([v0.1](https://huggingface.co/abeja/ABEJA-Qwen2.5-7b-Japanese-v0.1)) | 2025 | Qwen 2.5 (**7b**) || ABEJA | Apache 2.0 |
+| [shisa-ai/shisa-v2-qwen2.5-7b](https://huggingface.co/shisa-ai/shisa-v2-qwen2.5-7b) | 2025 | Qwen 2.5 (**7b**) || Shisa.AI | Apache 2.0 |
+| [Karasu DPO](https://note.com/lightblue_tech/n/n6967ff462f4a)<br>([7B](https://huggingface.co/lightblue/Karasu-DPO-7B)) | 2025 | Qwen 2.5 (**7b**) || Lightblue | Apache 2.0 |
+| [ganchengguang/Yoko-7B-Japanese-v1](https://huggingface.co/ganchengguang/Yoko-7B-Japanese-v1) | 2023 | Llama 2 (**7b**) || 横浜国大 森研 |  ？  |
+| [Sparticle/llama-2-7b-chat-japanese-lora](https://huggingface.co/Sparticle/llama-2-7b-chat-japanese-lora) | 2023 | Llama 2 (**7b**) || Sparticle |  ？  |
+| [izumi-lab/llama-7b-japanese-lora-v0-5ep](https://huggingface.co/izumi-lab/llama-7b-japanese-lora-v0-5ep) | 2023 | Llama (**7b**) || 東大 和泉研 |  ？  |
+| [lightblue/jod](https://huggingface.co/lightblue/jod) | 2023 | Mistral-7B-SlimOrca (**7b**) || Lightblue | Apache 2.0 |
+| [NTQAI/chatntq-7b-jpntuned](https://huggingface.co/NTQAI/chatntq-7b-jpntuned) | 2023 | RWKV-4 World (**7b**) || NTQ Solution |  ？  |
+| [Qwen3.5-FT-Japanese-CoT-4B](https://huggingface.co/Aname-Tommy/Qwen3.5-FT-Japanese-CoT-4B) | **2026** | Qwen3.5 (**4b**) | 不明 | 個人 (Aname-Tommy) | MIT |
+| [Borea](https://prtimes.jp/main/html/rd/p/000000008.000129878.html)<br>([Jp](https://huggingface.co/AXCXEPT/Borea-Phi-3.5-mini-Instruct-Jp), [Common](https://huggingface.co/AXCXEPT/Borea-Phi-3.5-mini-Instruct-Common), [Coding](https://huggingface.co/AXCXEPT/Borea-Phi-3.5-mini-Instruct-Coding)) | 2024 | Phi-3.5 (**3.8b**) | | Axcxept | MIT |
+| [Shisa V2.1 3B](https://shisa.ai/posts/shisa-v2.1-ja-pr/)<br>([**3b**](https://huggingface.co/shisa-ai/shisa-v2.1-llama3.2-3b)) | 2025 | Llama 3.2 (**3b**) | SFT/DPO/強化学習/モデルマージを組み合わせた学習 | Shisa.AI | Llama 3.2 Community License |
+| [AXCXEPT/EZO-Llama-3.2-3B-Instruct-dpoE](https://huggingface.co/AXCXEPT/EZO-Llama-3.2-3B-Instruct-dpoE) | 2024 | Llama 3.2 (**3b**) || Axcxept | Llama 3.2 Community License |
+| [日本語版 Gemma 2 2B](https://developers-jp.googleblog.com/2024/10/gemma-2-for-japan.html)<br>([2b-jpn-it](https://huggingface.co/google/gemma-2-2b-jpn-it)) | 2024 | Gemma 2 (**2b**) || Google | Gemma Terms of Use |
+| [AXCXEPT/EZO-gemma-2-2b-jpn-it](https://huggingface.co/AXCXEPT/EZO-gemma-2-2b-jpn-it) | 2024 | Gemma 2 (**2b**) || Axcxept | Gemma Terms of Use |
+| [AXCXEPT/EZO-Common-T2-2B-gemma-2-it](https://huggingface.co/AXCXEPT/EZO-Common-T2-2B-gemma-2-it) | 2024 | Gemma 2 (**2b**) || Axcxept | Gemma Terms of Use |
+| [Shisa V2.1 1.2B](https://shisa.ai/posts/shisa-v2.1-ja-pr/)<br>([**1.2b**](https://huggingface.co/shisa-ai/shisa-v2.1-lfm2-1.2b)) | 2025 | LFM2 (**1.2b**) | SFT/DPO/強化学習/モデルマージを組み合わせた学習 | Shisa.AI | LFM Open License v1.0 |
+| [LFM2.5-1.2B-JP](https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai)<br>([1.2B-JP](https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP)) | **2026** | LFM2.5 (**1.2b**) | 不明 | Liquid AI | LFM Open License v1.0 |
+| [Qwen3.5-FT-Japanese-CoT-0.8B](https://huggingface.co/Aname-Tommy/Qwen3.5-FT-Japanese-CoT-0.8B) | **2026** | Qwen3.5 (**0.8b**) | 不明 | 個人 (Aname-Tommy) | MIT |
 
 <a id="generative-instruction-only-domain-specific"></a>
 #### ドメイン特化型
