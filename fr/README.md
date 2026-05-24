@@ -196,22 +196,22 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 <a id="generative-continual-domain-specific"></a>
 #### Spécifique à un domaine
 
-|    | Domaine | Base du Model  |  Développeur  |  Licence  |
-|:---|:---:|:---:|:---:|:---:|
-| [pfnet/Preferred-MedLLM-Qwen-72B](https://huggingface.co/pfnet/Preferred-MedLLM-Qwen-72B) | Médecine | Qwen2.5 (**72b**) | Preferred Networks | Qwen LICENSE |
-| [Llama3-Preferred-MedSwallow-70B](https://tech.preferred.jp/ja/blog/llama3-preferred-medswallow-70b/)<br>([70B](https://huggingface.co/pfnet/Llama3-Preferred-MedSwallow-70B)) | Médecine | Llama 3 (**70b**) | Preferred Networks | Llama 3 Community License |
-| [AIgroup-CVM-utokyohospital/MedSwallow-70b](https://huggingface.co/AIgroup-CVM-utokyohospital/MedSwallow-70b) | Médecine | Llama 2 (**70b**) | Université de Tokyo - AI Group du Département hospitalier de médecine cardiovasculaire | CC BY-NC-SA 4.0 |
-| [gpt-oss-20b-Ja-Fin](https://arxiv.org/abs/2603.01353)<br>([CPT](https://huggingface.co/nri-ai/gpt-oss-20b-Ja-Fin-CPT), [Thinking](https://huggingface.co/nri-ai/gpt-oss-20b-Ja-Fin-Thinking)) | Finance | GPT-OSS (**20b**) | Nomura Research Institute | Apache 2.0 |
-| [nekomata-14b-pfn-qfin](https://arxiv.org/pdf/2404.10555)<br>([qfin](https://huggingface.co/pfnet/nekomata-14b-pfn-qfin), [qfin-inst-merge](https://huggingface.co/pfnet/nekomata-14b-pfn-qfin-inst-merge)) | Finance | Qwen (**14b**) | Preferred Networks | Tongyi Qianwen LICENSE |
-| [Qwen3-14B-Ja-Fin](https://arxiv.org/abs/2603.01353)<br>([CPT](https://huggingface.co/nri-ai/Qwen3-14B-Ja-Fin-CPT), [Thinking](https://huggingface.co/nri-ai/Qwen3-14B-Ja-Fin-Thinking)) | Finance | Qwen3 (**14b**) | Nomura Research Institute | Apache 2.0 |
-| [Watashiha-Llama-2-13B-Ogiri-sft](https://huggingface.co/watashiha/Watashiha-Llama-2-13B-Ogiri-sft/blob/main/README_en.md)<br>([sft](https://huggingface.co/watashiha/Watashiha-Llama-2-13B-Ogiri-sft), [sft-neuron](https://huggingface.co/watashiha/Watashiha-Llama-2-13B-Ogiri-sft-neuron)) | [Oogiri](https://en.wikipedia.org/wiki/Glossary_of_owarai_terms#oogiri)| Llama 2 (**13b**) | Watashiha | Llama 2 Community License |
-| [MedExamDoc-Llama-3.1-Swallow-8B-Instruct-v0.5](https://huggingface.co/IngentaAITeam/MedExamDoc-Llama-3.1-Swallow-8B-Instruct-v0.5) | Médecine | Llama 3.1 (**8b**) | Ingenta | Llama 3.1 Community License |
-| [Karamaru](https://sakana.ai/karamaru/)<br>([Karamaru-v1](https://huggingface.co/SakanaAI/Llama-3-Karamaru-v1)) | Edo-period Japanese | Llama 3 (**8b**) | Sakana AI | Llama 3 Community License |
-| [Llama 3.1 Future Code Ja 8B](https://huggingface.co/future-architect/Llama-3.1-Future-Code-Ja-8B) | Codage | Llama 3.1 (**8b**) | Future Corp. | Llama 3.1 Community License |
-| [JPharmatron](https://huggingface.co/collections/EQUES/pharmatron-680a330b4dfce3ac43009984)<br>([7B-base](https://huggingface.co/EQUES/JPharmatron-7B-base), [7B](https://huggingface.co/EQUES/JPharmatron-7B)) | Pharmaceutique | Qwen2.5 (**7b**) | EQUES Inc. | CC BY-SA 4.0 |
-| [ELYZA-japanese-CodeLlama-7b](https://note.com/elyza/n/n5bce23d7c9c8)<br>([7b](https://huggingface.co/elyza/ELYZA-japanese-CodeLlama-7b), [7b-instruct](https://huggingface.co/elyza/ELYZA-japanese-CodeLlama-7b-instruct)) | Codage | Code Llama<br>(**7b**) | ELYZA | Llama 2 Community License |
-| [AIBunCho/japanese-novel-gpt-j-6b](https://huggingface.co/AIBunCho/japanese-novel-gpt-j-6b) | Génération de récits | GPT-J (**6b**) | Individuel ([Hiroyuki Osone](https://scholar.google.co.jp/citations?user=6ID5K3oAAAAJ)) | CreativeML OpenRAIL-M License |
-| [NovelAI/genji-jp](https://huggingface.co/NovelAI/genji-jp) | Génération de récits | GPT-J (**6b**) | NovelAI |  ？  |
+|    | Année de sortie | Domaine | Base du Model  |  Développeur  |  Licence  |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| [pfnet/Preferred-MedLLM-Qwen-72B](https://huggingface.co/pfnet/Preferred-MedLLM-Qwen-72B) | 2025 | Médecine | Qwen2.5 (**72b**) | Preferred Networks | Qwen LICENSE |
+| [Llama3-Preferred-MedSwallow-70B](https://tech.preferred.jp/ja/blog/llama3-preferred-medswallow-70b/)<br>([70B](https://huggingface.co/pfnet/Llama3-Preferred-MedSwallow-70B)) | 2024 | Médecine | Llama 3 (**70b**) | Preferred Networks | Llama 3 Community License |
+| [AIgroup-CVM-utokyohospital/MedSwallow-70b](https://huggingface.co/AIgroup-CVM-utokyohospital/MedSwallow-70b) | 2024 | Médecine | Llama 2 (**70b**) | Université de Tokyo - AI Group du Département hospitalier de médecine cardiovasculaire | CC BY-NC-SA 4.0 |
+| [gpt-oss-20b-Ja-Fin](https://arxiv.org/abs/2603.01353)<br>([CPT](https://huggingface.co/nri-ai/gpt-oss-20b-Ja-Fin-CPT), [Thinking](https://huggingface.co/nri-ai/gpt-oss-20b-Ja-Fin-Thinking)) | **2026** | Finance | GPT-OSS (**20b**) | Nomura Research Institute | Apache 2.0 |
+| [nekomata-14b-pfn-qfin](https://arxiv.org/pdf/2404.10555)<br>([qfin](https://huggingface.co/pfnet/nekomata-14b-pfn-qfin), [qfin-inst-merge](https://huggingface.co/pfnet/nekomata-14b-pfn-qfin-inst-merge)) | 2024 | Finance | Qwen (**14b**) | Preferred Networks | Tongyi Qianwen LICENSE |
+| [Qwen3-14B-Ja-Fin](https://arxiv.org/abs/2603.01353)<br>([CPT](https://huggingface.co/nri-ai/Qwen3-14B-Ja-Fin-CPT), [Thinking](https://huggingface.co/nri-ai/Qwen3-14B-Ja-Fin-Thinking)) | **2026** | Finance | Qwen3 (**14b**) | Nomura Research Institute | Apache 2.0 |
+| [Watashiha-Llama-2-13B-Ogiri-sft](https://huggingface.co/watashiha/Watashiha-Llama-2-13B-Ogiri-sft/blob/main/README_en.md)<br>([sft](https://huggingface.co/watashiha/Watashiha-Llama-2-13B-Ogiri-sft), [sft-neuron](https://huggingface.co/watashiha/Watashiha-Llama-2-13B-Ogiri-sft-neuron)) | 2024 | [Oogiri](https://en.wikipedia.org/wiki/Glossary_of_owarai_terms#oogiri)| Llama 2 (**13b**) | Watashiha | Llama 2 Community License |
+| [MedExamDoc-Llama-3.1-Swallow-8B-Instruct-v0.5](https://huggingface.co/IngentaAITeam/MedExamDoc-Llama-3.1-Swallow-8B-Instruct-v0.5) | 2025 | Médecine | Llama 3.1 (**8b**) | Ingenta | Llama 3.1 Community License |
+| [Karamaru](https://sakana.ai/karamaru/)<br>([Karamaru-v1](https://huggingface.co/SakanaAI/Llama-3-Karamaru-v1)) | 2025 | Edo-period Japanese | Llama 3 (**8b**) | Sakana AI | Llama 3 Community License |
+| [Llama 3.1 Future Code Ja 8B](https://huggingface.co/future-architect/Llama-3.1-Future-Code-Ja-8B) | 2025 | Codage | Llama 3.1 (**8b**) | Future Corp. | Llama 3.1 Community License |
+| [JPharmatron](https://huggingface.co/collections/EQUES/pharmatron-680a330b4dfce3ac43009984)<br>([7B-base](https://huggingface.co/EQUES/JPharmatron-7B-base), [7B](https://huggingface.co/EQUES/JPharmatron-7B)) | 2025 | Pharmaceutique | Qwen2.5 (**7b**) | EQUES Inc. | CC BY-SA 4.0 |
+| [ELYZA-japanese-CodeLlama-7b](https://note.com/elyza/n/n5bce23d7c9c8)<br>([7b](https://huggingface.co/elyza/ELYZA-japanese-CodeLlama-7b), [7b-instruct](https://huggingface.co/elyza/ELYZA-japanese-CodeLlama-7b-instruct)) | 2023 | Codage | Code Llama<br>(**7b**) | ELYZA | Llama 2 Community License |
+| [AIBunCho/japanese-novel-gpt-j-6b](https://huggingface.co/AIBunCho/japanese-novel-gpt-j-6b) | 2023 | Génération de récits | GPT-J (**6b**) | Individuel ([Hiroyuki Osone](https://scholar.google.co.jp/citations?user=6ID5K3oAAAAJ)) | CreativeML OpenRAIL-M License |
+| [NovelAI/genji-jp](https://huggingface.co/NovelAI/genji-jp) | 2022 | Génération de récits | GPT-J (**6b**) | NovelAI |  ？  |
 
 <a id="instruction-only-models"></a>
 ### Modèles développés à partir d'LLM non-japonais (post-entraînement uniquement, sans pré-entraînement continu ou détails inconnus)
