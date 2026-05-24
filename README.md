@@ -97,17 +97,17 @@
 <a id="generative-scratch-domain-specific"></a>
 #### ドメイン特化型
 
-|    | ドメイン | アーキテクチャ  |  学習テキスト  |  開発元  | ライセンス |
-|:---|:---:|:---:|:---:|:---:|:---:|
-| [SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-32k-R0.1](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-32k-R0.1) | 医療 | MoE | 医療系コーパス (**78.3B** トークン) で LLM-jp-3 MoE (8x13b) に追加事前学習、コンテキスト長を 32k に拡張、その後 Instruction Tuning | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0[^25] |
-| [SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct) | 医療 | MoE | 医療系コーパス (**78.3B** トークン) で LLM-jp-3 MoE (8x13b) に追加事前学習、コンテキスト長を 32k に拡張、その後 PMC-Patients 等を用いた Instruction Tuning | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | SIP-jmed-llm-3-8x13b-AC-32k-instruct Terms of Use[^25] |
-| [SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-4k-base](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-4k-base) | 医療 | MoE | 医療系コーパス (**78.3B** トークン) で LLM-jp-3 MoE (8x13b) に追加事前学習 | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0[^25] |
-| [SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct) | 医療 | MoE | 医療系コーパス (**44.2B** トークン) で LLM-jp-3 MoE (8x13b) に追加事前学習、その後 Instruction Tuning | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0[^25] |
-| [SIP-med-LLM/SIP-jmed-llm-3-13b-OP-32k-R0.1](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-13b-OP-32k-R0.1) | 医療 | Llama | 医療系コーパス (**78.3B** トークン) で LLM-jp-3.1 (13b) に追加事前学習、コンテキスト長を 32k に拡張、その後 Instruction Tuning | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0[^25] |
-| [SIP-med-LLM/SIP-jmed-llm-3-13b-OP-4k-base](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-13b-OP-4k-base) | 医療 | Llama | 医療系コーパス (**78.3B** トークン) で LLM-jp-3.1 (13b) に追加事前学習 | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0[^25] |
-| [日本語対話Transformer](https://group.ntt/jp/topics/2021/09/30/transformer.html) | 対話 |Transformer | Twitter 上の日本語リプライのペア | NTT | [独自のライセンス](https://github.com/nttcslab/japanese-dialog-transformers/blob/main/LICENSE.md) |
-| [日本語ニュースBART](https://tech.stockmark.co.jp/blog/bart-japanese-base-news/) | ビジネス | BART ([base](https://huggingface.co/stockmark/bart-base-japanese-news)) | 日本語ビジネスニュース記事（約2,100万記事 (2.9億文)） | ストックマーク | MIT |
-| [AcademicBART](https://github.com/EhimeNLP/AcademicBART) | 学術 | BART ([base](https://huggingface.co/EhimeNLP/AcademicBART)) | CiNii の日本語論文 | 愛媛大 人工知能研究室 | Apache 2.0 |
+|    | 公開年 | ドメイン | アーキテクチャ  |  学習テキスト  |  開発元  | ライセンス |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+| [SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-32k-R0.1](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-32k-R0.1) | **2026** | 医療 | MoE | 医療系コーパス (**78.3B** トークン) で LLM-jp-3 MoE (8x13b) に追加事前学習、コンテキスト長を 32k に拡張、その後 Instruction Tuning | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0[^25] |
+| [SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct) | 2025 | 医療 | MoE | 医療系コーパス (**78.3B** トークン) で LLM-jp-3 MoE (8x13b) に追加事前学習、コンテキスト長を 32k に拡張、その後 PMC-Patients 等を用いた Instruction Tuning | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | SIP-jmed-llm-3-8x13b-AC-32k-instruct Terms of Use[^25] |
+| [SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-4k-base](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-4k-base) | 2025 | 医療 | MoE | 医療系コーパス (**78.3B** トークン) で LLM-jp-3 MoE (8x13b) に追加事前学習 | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0[^25] |
+| [SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct) | 2025 | 医療 | MoE | 医療系コーパス (**44.2B** トークン) で LLM-jp-3 MoE (8x13b) に追加事前学習、その後 Instruction Tuning | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0[^25] |
+| [SIP-med-LLM/SIP-jmed-llm-3-13b-OP-32k-R0.1](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-13b-OP-32k-R0.1) | **2026** | 医療 | Llama | 医療系コーパス (**78.3B** トークン) で LLM-jp-3.1 (13b) に追加事前学習、コンテキスト長を 32k に拡張、その後 Instruction Tuning | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0[^25] |
+| [SIP-med-LLM/SIP-jmed-llm-3-13b-OP-4k-base](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-13b-OP-4k-base) | 2025 | 医療 | Llama | 医療系コーパス (**78.3B** トークン) で LLM-jp-3.1 (13b) に追加事前学習 | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0[^25] |
+| [日本語対話Transformer](https://group.ntt/jp/topics/2021/09/30/transformer.html) | 2021 | 対話 |Transformer | Twitter 上の日本語リプライのペア | NTT | [独自のライセンス](https://github.com/nttcslab/japanese-dialog-transformers/blob/main/LICENSE.md) |
+| [日本語ニュースBART](https://tech.stockmark.co.jp/blog/bart-japanese-base-news/) | 2023 | ビジネス | BART ([base](https://huggingface.co/stockmark/bart-base-japanese-news)) | 日本語ビジネスニュース記事（約2,100万記事 (2.9億文)） | ストックマーク | MIT |
+| [AcademicBART](https://github.com/EhimeNLP/AcademicBART) | 2023 | 学術 | BART ([base](https://huggingface.co/EhimeNLP/AcademicBART)) | CiNii の日本語論文 | 愛媛大 人工知能研究室 | Apache 2.0 |
 
 <a id="english-based-models"></a>
 ### 海外モデルに日本語で継続事前学習を行ったモデル
@@ -276,32 +276,32 @@
 <a id="generative-instruction-only-domain-specific"></a>
 #### ドメイン特化型
 
-|    | ドメイン | ベースのLLM  |  開発元  | ライセンス |
-|:---|:---:|:---:|:---:|:---:|
-| [JMedLoRA](https://arxiv.org/pdf/2310.10083.pdf)<br>([llama2-jmedlora-6.89ep](https://huggingface.co/AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep)) | 医療 | Llama 2 (**70b**) | 東京大学医学部附属病院 循環器内科 AIグループ | CC BY-NC 4.0 |
-| [pfnet/Qwen3-1.7B-pfn-qfin](https://huggingface.co/pfnet/Qwen3-1.7B-pfn-qfin) | 金融 | Qwen3 (**1.72b**) | Preferred Networks | PLaMo Community License |
-| [pfnet/Qwen2.5-1.5B-pfn-qfin](https://huggingface.co/pfnet/Qwen2.5-1.5B-pfn-qfin) | 金融 | Qwen2.5 (**1.54b**) | Preferred Networks | PLaMo Community License |
+|    | 公開年 | ドメイン | ベースのLLM  |  開発元  | ライセンス |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| [JMedLoRA](https://arxiv.org/pdf/2310.10083.pdf)<br>([llama2-jmedlora-6.89ep](https://huggingface.co/AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep)) | 2023 | 医療 | Llama 2 (**70b**) | 東京大学医学部附属病院 循環器内科 AIグループ | CC BY-NC 4.0 |
+| [pfnet/Qwen3-1.7B-pfn-qfin](https://huggingface.co/pfnet/Qwen3-1.7B-pfn-qfin) | 2025 | 金融 | Qwen3 (**1.72b**) | Preferred Networks | PLaMo Community License |
+| [pfnet/Qwen2.5-1.5B-pfn-qfin](https://huggingface.co/pfnet/Qwen2.5-1.5B-pfn-qfin) | 2025 | 金融 | Qwen2.5 (**1.54b**) | Preferred Networks | PLaMo Community License |
 
 <a id="merged-models"></a>
 ### 複数のLLMをマージして作成されたモデル
 
-|    |  マージ元のLLM（太字は日本語LLM）  | 開発元  | ライセンス |
-|:---|:---:|:---:|:---:|
- [EQUES/MedLLama3-JP-v2](https://huggingface.co/EQUES/MedLLama3-JP-v2) | **Llama 3 Swallow 8B (Instruct)**, OpenBioLLM-8B, MMed-Llama 3 8B, **Llama 3 ELYZA JP 8B** | EQUES | Llama 3 Community License |
-| [EvoLLM-JP-A](https://sakana.ai/evolutionary-model-merge-jp/)<br>([v1-7B](https://huggingface.co/SakanaAI/EvoLLM-JP-A-v1-7B)) | **Shisa Gamma 7B (v1)**, Arithmo2 Mistral 7B, Abel 7B 002 | Sakana AI | Apache 2.0 |
-| [EvoLLM-JP](https://sakana.ai/evolutionary-model-merge-jp/)<br>([v1-7B](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-7B), [v1-10B](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-10B)) | **Shisa Gamma 7B (v1)**, WizardMath-7B-V1.1, Abel 7B 002 | Sakana AI | MICROSOFT RESEARCH LICENSE |
-| [EQUES/TinyQwens-Merge-1.5B](https://huggingface.co/EQUES/TinyQwens-Merge-1.5B) | **SakanaAI/TinySwallow-1.5B-Instruct**, **EQUES/TinySwallow-Stratos-1.5B**, deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B, Qwen/Qwen2.5-1.5B-Instruct | EQUES Inc. | Apache 2.0 |
+|    | 公開年 |  マージ元のLLM（太字は日本語LLM）  | 開発元  | ライセンス |
+|:---|:---:|:---:|:---:|:---:|
+| [EQUES/MedLLama3-JP-v2](https://huggingface.co/EQUES/MedLLama3-JP-v2) | 2024 | **Llama 3 Swallow 8B (Instruct)**, OpenBioLLM-8B, MMed-Llama 3 8B, **Llama 3 ELYZA JP 8B** | EQUES | Llama 3 Community License |
+| [EvoLLM-JP-A](https://sakana.ai/evolutionary-model-merge-jp/)<br>([v1-7B](https://huggingface.co/SakanaAI/EvoLLM-JP-A-v1-7B)) | 2024 | **Shisa Gamma 7B (v1)**, Arithmo2 Mistral 7B, Abel 7B 002 | Sakana AI | Apache 2.0 |
+| [EvoLLM-JP](https://sakana.ai/evolutionary-model-merge-jp/)<br>([v1-7B](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-7B), [v1-10B](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-10B)) | 2024 | **Shisa Gamma 7B (v1)**, WizardMath-7B-V1.1, Abel 7B 002 | Sakana AI | MICROSOFT RESEARCH LICENSE |
+| [EQUES/TinyQwens-Merge-1.5B](https://huggingface.co/EQUES/TinyQwens-Merge-1.5B) | 2025 | **SakanaAI/TinySwallow-1.5B-Instruct**, **EQUES/TinySwallow-Stratos-1.5B**, deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B, Qwen/Qwen2.5-1.5B-Instruct | EQUES Inc. | Apache 2.0 |
 
 <a id="api-based-models"></a>
 ### APIとして提供されているモデル
 
-|    |  入出力で扱える<br>トークン数 | 開発元  |  プラットフォーム |
-|:---|:---:|:---:|:---:|
-| [PLaMo API](https://plamo.preferredai.jp/api) | 32,768 | Preferred Networks | 独自 |
-| [AIのべりすと](https://ai-novel.com/account_api.php) | 2,400 ~ 8,192 | Bit192 | 独自 |
-| [LHTM-OPT](https://aws.amazon.com/marketplace/pp/prodview-nw62wpreit442) | | オルツ | AWS Marketplace (SageMaker) |
-| [Syn](https://www.upstage.ai/news/introducing-upstage-japan)<br>([Syn](https://aws.amazon.com/marketplace/pp/prodview-if7zjxeioy5pg), [Syn Pro](https://aws.amazon.com/marketplace/pp/prodview-d7vt6ap2jhvfg)) | 32,768 | カラクリ, Upstage | AWS Marketplace (SageMaker) |
-| [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://ai.azure.com/catalog/models/tsuzumi-7b)) | | NTT | Microsoft Foundry |
+|    | 公開年 |  入出力で扱える<br>トークン数 | 開発元  |  プラットフォーム |
+|:---|:---:|:---:|:---:|:---:|
+| [PLaMo API](https://plamo.preferredai.jp/api) | 2024 | 32,768 | Preferred Networks | 独自 |
+| [AIのべりすと](https://ai-novel.com/account_api.php) | 2021 | 2,400 ~ 8,192 | Bit192 | 独自 |
+| [LHTM-OPT](https://aws.amazon.com/marketplace/pp/prodview-nw62wpreit442) | 2024 | | オルツ | AWS Marketplace (SageMaker) |
+| [Syn](https://www.upstage.ai/news/introducing-upstage-japan)<br>([Syn](https://aws.amazon.com/marketplace/pp/prodview-if7zjxeioy5pg), [Syn Pro](https://aws.amazon.com/marketplace/pp/prodview-d7vt6ap2jhvfg)) | 2025 | 32,768 | カラクリ, Upstage | AWS Marketplace (SageMaker) |
+| [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://ai.azure.com/catalog/models/tsuzumi-7b)) | 2024 | | NTT | Microsoft Foundry |
 
 <a id="autoencoding"></a>
 ## 入力テキストの処理に主に使うモデル
