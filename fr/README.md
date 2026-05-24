@@ -97,17 +97,17 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 <a id="generative-scratch-domain-specific"></a>
 #### Spécifique à un domaine
 
-|    | Domaine | Architecture  |  Données d'entraînement  |  Développeur  | Licence |
-|:---|:---:|:---:|:---:|:---:|:---:|
-| [SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-32k-R0.1](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-32k-R0.1) | Médical | MoE | Pré-entraînement continu sur un corpus médical (**78,3 milliards** de tokens) ajouté à LLM-jp-3 MoE (8x13b), longueur de contexte étendue à 32k, suivi d'un ajustement fin par instructions | Groupe de recherche du Programme stratégique d'innovation (SIP), Projet de phase 3 « Utilisation de l'IA générative dans la construction de systèmes de santé intégrés », Thème 1 « Développement et implémentation sociale d'un LLM médical ouvert, sûr et fiable » | Apache 2.0[^25] |
-| [SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct) | Médical | MoE | Pré-entraînement continu sur un corpus médical (**78,3 milliards** de tokens) ajouté à LLM-jp-3 MoE (8x13b), longueur de contexte étendue à 32k, suivi d'un ajustement fin par instructions utilisant PMC-Patients et d'autres jeux de données | Groupe de recherche du Programme stratégique d'innovation (SIP), Projet de phase 3 « Utilisation de l'IA générative dans la construction de systèmes de santé intégrés », Thème 1 « Développement et implémentation sociale d'un LLM médical ouvert, sûr et fiable » | SIP-jmed-llm-3-8x13b-AC-32k-instruct Terms of Use[^25] |
-| [SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-4k-base](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-4k-base) | Médical | MoE | Pré-entraînement continu sur un corpus médical (**78,3 milliards** de tokens) ajouté à LLM-jp-3 MoE (8x13b) | Groupe de recherche du Programme stratégique d'innovation (SIP), Projet de phase 3 « Utilisation de l'IA générative dans la construction de systèmes de santé intégrés », Thème 1 « Développement et implémentation sociale d'un LLM médical ouvert, sûr et fiable » | Apache 2.0[^25] |
-| [SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct) | Médical | MoE | Pré-entraîné sur un corpus médical (**44,2 milliards** de tokens) ajouté à LLM-jp-3 MoE (8x13b), suivi d'un ajustement fin par instructions | Groupe de recherche du Programme stratégique d'innovation (SIP), Projet de phase 3 « Utilisation de l'IA générative dans la construction de systèmes de santé intégrés », Thème 1 « Développement et implémentation sociale d'un LLM médical ouvert, sûr et fiable » | Apache 2.0[^25] |
-| [SIP-med-LLM/SIP-jmed-llm-3-13b-OP-32k-R0.1](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-13b-OP-32k-R0.1) | Médical | Llama | Pré-entraînement continu sur un corpus médical (**78,3 milliards** de tokens) ajouté à LLM-jp-3.1 (13b), longueur de contexte étendue à 32k, suivi d'un ajustement fin par instructions | Groupe de recherche du Programme stratégique d'innovation (SIP), Projet de phase 3 « Utilisation de l'IA générative dans la construction de systèmes de santé intégrés », Thème 1 « Développement et implémentation sociale d'un LLM médical ouvert, sûr et fiable » | Apache 2.0[^25] |
-| [SIP-med-LLM/SIP-jmed-llm-3-13b-OP-4k-base](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-13b-OP-4k-base) | Médical | Llama | Pré-entraînement continu sur un corpus médical (**78,3 milliards** de tokens) ajouté à LLM-jp-3.1 (13b) | Groupe de recherche du Programme stratégique d'innovation (SIP), Projet de phase 3 « Utilisation de l'IA générative dans la construction de systèmes de santé intégrés », Thème 1 « Développement et implémentation sociale d'un LLM médical ouvert, sûr et fiable » | Apache 2.0[^25] |
-| [Japanese Dialog Transformer](https://github.com/nttcslab/japanese-dialog-transformers) | Dialogue | Transformer | Pairs de réponses venant de Twitter | NTT | [Licence en évaluation](https://github.com/nttcslab/japanese-dialog-transformers/blob/main/LICENSE.md) |
-| [Japanese News BART](https://tech.stockmark.co.jp/blog/bart-japanese-base-news/) | Affaires |  BART ([base](https://huggingface.co/stockmark/bart-base-japanese-news)) | Articles de l'actualité économique en japonais (21M articles) | Stockmark | MIT |
-| [AcademicBART](https://github.com/EhimeNLP/AcademicBART) | Science | BART ([base](https://huggingface.co/EhimeNLP/AcademicBART)) | Articles japonais de CiNii | Laboratoire d'IA de l'Université d'Ehime | Apache 2.0 |
+|    | Année de sortie | Domaine | Architecture  |  Données d'entraînement  |  Développeur  | Licence |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+| [SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-32k-R0.1](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-32k-R0.1) | **2026** | Médical | MoE | Pré-entraînement continu sur un corpus médical (**78,3 milliards** de tokens) ajouté à LLM-jp-3 MoE (8x13b), longueur de contexte étendue à 32k, suivi d'un ajustement fin par instructions | Groupe de recherche du Programme stratégique d'innovation (SIP), Projet de phase 3 « Utilisation de l'IA générative dans la construction de systèmes de santé intégrés », Thème 1 « Développement et implémentation sociale d'un LLM médical ouvert, sûr et fiable » | Apache 2.0[^25] |
+| [SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct) | 2025 | Médical | MoE | Pré-entraînement continu sur un corpus médical (**78,3 milliards** de tokens) ajouté à LLM-jp-3 MoE (8x13b), longueur de contexte étendue à 32k, suivi d'un ajustement fin par instructions utilisant PMC-Patients et d'autres jeux de données | Groupe de recherche du Programme stratégique d'innovation (SIP), Projet de phase 3 « Utilisation de l'IA générative dans la construction de systèmes de santé intégrés », Thème 1 « Développement et implémentation sociale d'un LLM médical ouvert, sûr et fiable » | SIP-jmed-llm-3-8x13b-AC-32k-instruct Terms of Use[^25] |
+| [SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-4k-base](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-OP-4k-base) | 2025 | Médical | MoE | Pré-entraînement continu sur un corpus médical (**78,3 milliards** de tokens) ajouté à LLM-jp-3 MoE (8x13b) | Groupe de recherche du Programme stratégique d'innovation (SIP), Projet de phase 3 « Utilisation de l'IA générative dans la construction de systèmes de santé intégrés », Thème 1 « Développement et implémentation sociale d'un LLM médical ouvert, sûr et fiable » | Apache 2.0[^25] |
+| [SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct) | 2025 | Médical | MoE | Pré-entraîné sur un corpus médical (**44,2 milliards** de tokens) ajouté à LLM-jp-3 MoE (8x13b), suivi d'un ajustement fin par instructions | Groupe de recherche du Programme stratégique d'innovation (SIP), Projet de phase 3 « Utilisation de l'IA générative dans la construction de systèmes de santé intégrés », Thème 1 « Développement et implémentation sociale d'un LLM médical ouvert, sûr et fiable » | Apache 2.0[^25] |
+| [SIP-med-LLM/SIP-jmed-llm-3-13b-OP-32k-R0.1](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-13b-OP-32k-R0.1) | **2026** | Médical | Llama | Pré-entraînement continu sur un corpus médical (**78,3 milliards** de tokens) ajouté à LLM-jp-3.1 (13b), longueur de contexte étendue à 32k, suivi d'un ajustement fin par instructions | Groupe de recherche du Programme stratégique d'innovation (SIP), Projet de phase 3 « Utilisation de l'IA générative dans la construction de systèmes de santé intégrés », Thème 1 « Développement et implémentation sociale d'un LLM médical ouvert, sûr et fiable » | Apache 2.0[^25] |
+| [SIP-med-LLM/SIP-jmed-llm-3-13b-OP-4k-base](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-13b-OP-4k-base) | 2025 | Médical | Llama | Pré-entraînement continu sur un corpus médical (**78,3 milliards** de tokens) ajouté à LLM-jp-3.1 (13b) | Groupe de recherche du Programme stratégique d'innovation (SIP), Projet de phase 3 « Utilisation de l'IA générative dans la construction de systèmes de santé intégrés », Thème 1 « Développement et implémentation sociale d'un LLM médical ouvert, sûr et fiable » | Apache 2.0[^25] |
+| [Japanese Dialog Transformer](https://github.com/nttcslab/japanese-dialog-transformers) | 2021 | Dialogue | Transformer | Pairs de réponses venant de Twitter | NTT | [Licence en évaluation](https://github.com/nttcslab/japanese-dialog-transformers/blob/main/LICENSE.md) |
+| [Japanese News BART](https://tech.stockmark.co.jp/blog/bart-japanese-base-news/) | 2023 | Affaires |  BART ([base](https://huggingface.co/stockmark/bart-base-japanese-news)) | Articles de l'actualité économique en japonais (21M articles) | Stockmark | MIT |
+| [AcademicBART](https://github.com/EhimeNLP/AcademicBART) | 2023 | Science | BART ([base](https://huggingface.co/EhimeNLP/AcademicBART)) | Articles japonais de CiNii | Laboratoire d'IA de l'Université d'Ehime | Apache 2.0 |
 
 <a id="english-based-models"></a>
 ### Modèles développés à partir d'LLM non-japonais (avec un apprentissage en continue en japonais)
@@ -276,32 +276,32 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 <a id="generative-instruction-only-domain-specific"></a>
 #### Spécifique à un domaine
 
-|    | Domaine | Base du Model  |  Développeur  |  Licence  |
-|:---|:---:|:---:|:---:|:---:|
-| [JMedLoRA](https://arxiv.org/pdf/2310.10083.pdf)<br>([llama2-jmedlora-6.89ep](https://huggingface.co/AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep)) | Médecine | Llama 2 (**70b**) | Université de Tokyo - AI Group du Département hospitalier de médecine cardiovasculaire | CC BY-NC 4.0 |
-| [pfnet/Qwen3-1.7B-pfn-qfin](https://huggingface.co/pfnet/Qwen3-1.7B-pfn-qfin) | Finance | Qwen3 (**1.72b**) | Preferred Networks | PLaMo Community License |
-| [pfnet/Qwen2.5-1.5B-pfn-qfin](https://huggingface.co/pfnet/Qwen2.5-1.5B-pfn-qfin) | Finance | Qwen2.5 (**1.54b**) | Preferred Networks | PLaMo Community License |
+|    | Année de sortie | Domaine | Base du Model  |  Développeur  |  Licence  |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| [JMedLoRA](https://arxiv.org/pdf/2310.10083.pdf)<br>([llama2-jmedlora-6.89ep](https://huggingface.co/AIgroup-CVM-utokyohospital/llama2-jmedlora-6.89ep)) | 2023 | Médecine | Llama 2 (**70b**) | Université de Tokyo - AI Group du Département hospitalier de médecine cardiovasculaire | CC BY-NC 4.0 |
+| [pfnet/Qwen3-1.7B-pfn-qfin](https://huggingface.co/pfnet/Qwen3-1.7B-pfn-qfin) | 2025 | Finance | Qwen3 (**1.72b**) | Preferred Networks | PLaMo Community License |
+| [pfnet/Qwen2.5-1.5B-pfn-qfin](https://huggingface.co/pfnet/Qwen2.5-1.5B-pfn-qfin) | 2025 | Finance | Qwen2.5 (**1.54b**) | Preferred Networks | PLaMo Community License |
 
 <a id="merged-models"></a>
 ### Modèles fusionnés
 
-|    |  Modèles originaux (LLMs japonais en gras)  | Développeur  | Licence |
-|:---|:---:|:---:|:---:|
- [EQUES/MedLLama3-JP-v2](https://huggingface.co/EQUES/MedLLama3-JP-v2) | **Llama 3 Swallow 8B (Instruct)**, OpenBioLLM-8B, MMed-Llama 3 8B, **Llama 3 ELYZA JP 8B** | EQUES | Llama 3 Community License |
-| [EvoLLM-JP-A](https://sakana.ai/evolutionary-model-merge/)<br>([v1-7B](https://huggingface.co/SakanaAI/EvoLLM-JP-A-v1-7B)) | **Shisa Gamma 7B (v1)**, Arithmo2 Mistral 7B, Abel 7B 002 | Sakana AI | Apache 2.0 |
-| [EvoLLM-JP](https://sakana.ai/evolutionary-model-merge/)<br>([v1-7B](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-7B), [v1-10B](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-10B)) | **Shisa Gamma 7B (v1)**, WizardMath-7B-V1.1, Abel 7B 002 | Sakana AI | MICROSOFT RESEARCH LICENSE |
-| [EQUES/TinyQwens-Merge-1.5B](https://huggingface.co/EQUES/TinyQwens-Merge-1.5B) | **SakanaAI/TinySwallow-1.5B-Instruct**, **EQUES/TinySwallow-Stratos-1.5B**, deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B, Qwen/Qwen2.5-1.5B-Instruct | EQUES Inc. | Apache 2.0 |
+|    | Année de sortie |  Modèles originaux (LLMs japonais en gras)  | Développeur  | Licence |
+|:---|:---:|:---:|:---:|:---:|
+| [EQUES/MedLLama3-JP-v2](https://huggingface.co/EQUES/MedLLama3-JP-v2) | 2024 | **Llama 3 Swallow 8B (Instruct)**, OpenBioLLM-8B, MMed-Llama 3 8B, **Llama 3 ELYZA JP 8B** | EQUES | Llama 3 Community License |
+| [EvoLLM-JP-A](https://sakana.ai/evolutionary-model-merge/)<br>([v1-7B](https://huggingface.co/SakanaAI/EvoLLM-JP-A-v1-7B)) | 2024 | **Shisa Gamma 7B (v1)**, Arithmo2 Mistral 7B, Abel 7B 002 | Sakana AI | Apache 2.0 |
+| [EvoLLM-JP](https://sakana.ai/evolutionary-model-merge/)<br>([v1-7B](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-7B), [v1-10B](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-10B)) | 2024 | **Shisa Gamma 7B (v1)**, WizardMath-7B-V1.1, Abel 7B 002 | Sakana AI | MICROSOFT RESEARCH LICENSE |
+| [EQUES/TinyQwens-Merge-1.5B](https://huggingface.co/EQUES/TinyQwens-Merge-1.5B) | 2025 | **SakanaAI/TinySwallow-1.5B-Instruct**, **EQUES/TinySwallow-Stratos-1.5B**, deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B, Qwen/Qwen2.5-1.5B-Instruct | EQUES Inc. | Apache 2.0 |
 
 <a id="api-based-models"></a>
 ### Modèles basés sur des API
 
-|    |  Longueur Maximale du Contexte | Développeur  | Plateforme |
-|:---|:---:|:---:|:---:|
-| [PLaMo API](https://plamo.preferredai.jp/api) | 32,768 | Preferred Networks | self-owned |
-| [AI Novelist](https://ai-novel.com/account_api.php) | 2,400 ~ 8,192 | Bit192 | self-owned |
-| [LHTM-OPT](https://aws.amazon.com/marketplace/pp/prodview-nw62wpreit442) | | alt Inc. | AWS Marketplace (SageMaker) |
-| [Syn](https://www.upstage.ai/news/introducing-upstage-japan)<br>([Syn](https://aws.amazon.com/marketplace/pp/prodview-if7zjxeioy5pg), [Syn Pro](https://aws.amazon.com/marketplace/pp/prodview-d7vt6ap2jhvfg)) | 32,768 | KARAKURI, Upstage | AWS Marketplace (SageMaker) |
-| [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://ai.azure.com/catalog/models/tsuzumi-7b)) | | NTT | Microsoft Foundry |
+|    | Année de sortie |  Longueur Maximale du Contexte | Développeur  | Plateforme |
+|:---|:---:|:---:|:---:|:---:|
+| [PLaMo API](https://plamo.preferredai.jp/api) | 2024 | 32,768 | Preferred Networks | self-owned |
+| [AI Novelist](https://ai-novel.com/account_api.php) | 2021 | 2,400 ~ 8,192 | Bit192 | self-owned |
+| [LHTM-OPT](https://aws.amazon.com/marketplace/pp/prodview-nw62wpreit442) | 2024 | | alt Inc. | AWS Marketplace (SageMaker) |
+| [Syn](https://www.upstage.ai/news/introducing-upstage-japan)<br>([Syn](https://aws.amazon.com/marketplace/pp/prodview-if7zjxeioy5pg), [Syn Pro](https://aws.amazon.com/marketplace/pp/prodview-d7vt6ap2jhvfg)) | 2025 | 32,768 | KARAKURI, Upstage | AWS Marketplace (SageMaker) |
+| [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://ai.azure.com/catalog/models/tsuzumi-7b)) | 2024 | | NTT | Microsoft Foundry |
 
 <a id="autoencoding"></a>
 ## Modèles encodeur
