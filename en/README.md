@@ -419,6 +419,8 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 #### Models built from scratch
 
+*Includes VLMs newly built by combining an LLM with a vision encoder (the base LLM can be either domestic or non-Japanese).
+
 ##### General purpose
 
 |    | Year |  Architecture  |  Training Data  |  Developer  | License / Terms of Use |
@@ -439,6 +441,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [Japanese InstructBLIP Alpha](https://huggingface.co/stabilityai/japanese-instructblip-alpha)<br>([japanese-instructblip-alpha](https://huggingface.co/stabilityai/japanese-instructblip-alpha)) | 2023 | InstructBLIP | Japanese CC12M, STAIR Captions, Japanese Visual Genome VQA dataset | Stability AI | JAPANESE STABLELM RESEARCH LICENSE |
 | [rinna MiniGPT-4](https://huggingface.co/rinna/bilingual-gpt-neox-4b)<br>([bilingual-gpt-neox-4b-minigpt4](https://huggingface.co/rinna/bilingual-gpt-neox-4b-minigpt4)) | 2023 | MiniGPT-4 | CC12M, COCO 2014, Visual Genome, STAIR Captions, Japanese Visual Genome VQA dataset | rinna | MIT |
 | [Sarashina2.2-Vision-3B](https://www.sbintuitions.co.jp/blog/entry/2025/11/25/100000)<br>([**3.8b**](https://huggingface.co/sbintuitions/sarashina2.2-vision-3b)) | 2025 | Sarashina2.2-3B-Instruct + SigLIP + 2-layer MLP | 4-stage training + Post-training: Projector warmup (English image captions), Vision encoder pre-training (Japanese charts, OCR, captions), Full model pre-training (interleaved image-text data), Supervised fine-tuning<br>Post-training: Mixed Preference Optimization<br>(Total: 103B Japanese + 157.1B English tokens) | SB Intuitions | MIT |
+| [Jagle-VL 2.2B](https://arxiv.org/abs/2604.02048)<br>([**2.2b**-Jagle](https://huggingface.co/llm-jp/Jagle-VL-2.2B-Jagle), [**2.2b**-FineVision](https://huggingface.co/llm-jp/Jagle-VL-2.2B-FineVision), [**2.2b**-Jagle-FineVision](https://huggingface.co/llm-jp/Jagle-VL-2.2B-Jagle-FineVision)) | **2026** | InternVL3 (Qwen3-1.7B + siglip2-so400m-patch16-512 + 2-layer MLP) | Trained on [Jagle](https://huggingface.co/datasets/llm-jp/Jagle) (large-scale Japanese multimodal post-training dataset, ~9.2M samples) and FineVision (model name suffixes `-Jagle` / `-FineVision` / `-Jagle-FineVision` indicate which combination is used) | Research and Development Center for Large Language Models | Apache 2.0 |
 | [PLaMo 2.1 2B VL](https://tech.preferred.jp/ja/blog/plamo21_8b_vl_part2/)<br>([**2b**-vl](https://huggingface.co/pfnet/plamo-2.1-2b-vl)) | **2026** | LLaVA (PLaMo 2.1-2B + siglip2-so400m-patch14-384 + MLP) | 2-stage training: Stage 1.0: Image adapter training (web-scale image-caption data with Japanese:English = 75:25), Stage 1.5: Instruction Tuning and Japanese visual adaptation via LoRA (VQA, Visual Grounding, object detection, anomaly detection, factory work understanding) | Preferred Networks | PLaMo community license |
 
 ##### Domain Specific
