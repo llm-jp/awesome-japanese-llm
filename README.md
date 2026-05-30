@@ -419,6 +419,8 @@
 
 #### スクラッチ学習モデル
 
+※LLMと視覚エンコーダを組み合わせて新規に構築されたVLMが該当します (ベースのLLMは国内モデル/海外モデルを問いません)
+
 ##### 汎用
 
 |    | 公開年 |  アーキテクチャ |  学習画像/テキスト  |  開発元  | ライセンス / 利用規約 |
@@ -439,6 +441,7 @@
 | [Japanese InstructBLIP Alpha](https://huggingface.co/stabilityai/japanese-instructblip-alpha)<br>([japanese-instructblip-alpha](https://huggingface.co/stabilityai/japanese-instructblip-alpha)) | 2023 | InstructBLIP | Japanese CC12M, STAIR Captions, Japanese Visual Genome VQA dataset | Stability AI | JAPANESE STABLELM RESEARCH LICENSE |
 | [rinna MiniGPT-4](https://huggingface.co/rinna/bilingual-gpt-neox-4b-minigpt4)<br>([bilingual-gpt-neox-4b-minigpt4](https://huggingface.co/rinna/bilingual-gpt-neox-4b-minigpt4)) | 2023 | MiniGPT-4 | CC12M, COCO 2014, Visual Genome, STAIR Captions, Japanese Visual Genome VQA dataset | rinna | MIT |
 | [Sarashina2.2-Vision-3B](https://www.sbintuitions.co.jp/blog/entry/2025/11/25/100000)<br>([**3.8b**](https://huggingface.co/sbintuitions/sarashina2.2-vision-3b)) | 2025 | Sarashina2.2-3B-Instruct + SigLIP + 2-layer MLP | 4段階学習 + Post-training: プロジェクターウォームアップ (英語画像キャプション)、視覚エンコーダー事前学習 (日本語チャート、OCR、キャプション)、全モデル事前学習 (画像テキストインターリーブデータ)、教師ありファインチューニング<br>Post-training: Mixed Preference Optimization<br>(計 日本語103B + 英語157.1B トークン) | SB Intuitions | MIT |
+| [Jagle-VL 2.2B](https://arxiv.org/abs/2604.02048)<br>([**2.2b**-Jagle](https://huggingface.co/llm-jp/Jagle-VL-2.2B-Jagle), [**2.2b**-FineVision](https://huggingface.co/llm-jp/Jagle-VL-2.2B-FineVision), [**2.2b**-Jagle-FineVision](https://huggingface.co/llm-jp/Jagle-VL-2.2B-Jagle-FineVision)) | **2026** | InternVL3 (Qwen3-1.7B + siglip2-so400m-patch16-512 + 2層MLP) | [Jagle](https://huggingface.co/datasets/llm-jp/Jagle) (約920万事例の大規模日本語マルチモーダル事後学習データセット) および FineVision を用いて学習 (モデル名末尾の `-Jagle` / `-FineVision` / `-Jagle-FineVision` が使用データの組み合わせに対応) | 大規模言語モデル研究開発センター | Apache 2.0 |
 | [PLaMo 2.1 2B VL](https://tech.preferred.jp/ja/blog/plamo21_8b_vl_part2/)<br>([**2b**-vl](https://huggingface.co/pfnet/plamo-2.1-2b-vl)) | **2026** | LLaVA (PLaMo 2.1-2B + siglip2-so400m-patch14-384 + MLP) | 2段階学習: Stage 1.0: 画像アダプタの学習 (日:英=75:25 のWeb規模画像キャプションデータ)、Stage 1.5: LoRA による Instruction Tuning と日本語視覚適応 (VQA、Visual Grounding、オブジェクト検出、異常検出、工場作業理解データ) | Preferred Networks | PLaMo community license |
 
 ##### ドメイン特化型
