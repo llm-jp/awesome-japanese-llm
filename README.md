@@ -270,7 +270,7 @@
 | [AXCXEPT/EZO-gemma-2-2b-jpn-it](https://huggingface.co/AXCXEPT/EZO-gemma-2-2b-jpn-it) | 2024 | Gemma 2 (**2b**) || Axcxept | Gemma Terms of Use |
 | [AXCXEPT/EZO-Common-T2-2B-gemma-2-it](https://huggingface.co/AXCXEPT/EZO-Common-T2-2B-gemma-2-it) | 2024 | Gemma 2 (**2b**) || Axcxept | Gemma Terms of Use |
 | [Shisa V2.1 1.2B](https://shisa.ai/posts/shisa-v2.1-ja-pr/)<br>([**1.2b**](https://huggingface.co/shisa-ai/shisa-v2.1-lfm2-1.2b)) | 2025 | LFM2 (**1.2b**) | SFT/DPO/強化学習/モデルマージを組み合わせた学習 | Shisa.AI | LFM Open License v1.0 |
-| [LFM2.5-1.2B-JP](https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai)<br>([1.2B-JP](https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP)) | **2026** | LFM2.5 (**1.2b**) | 不明 | Liquid AI | LFM Open License v1.0 |
+| [LFM2.5-1.2B-JP](https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai)<br>([1.2B-JP](https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP), [1.2B-JP-202606](https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606)) | **2026** | LFM2.5 (**1.2b**) | 不明 | Liquid AI | LFM Open License v1.0 |
 | [Qwen3.5-FT-Japanese-CoT-0.8B](https://huggingface.co/Aname-Tommy/Qwen3.5-FT-Japanese-CoT-0.8B) | **2026** | Qwen3.5 (**0.8b**) | 不明 | 個人 (Aname-Tommy) | MIT |
 
 <a id="generative-instruction-only-domain-specific"></a>
@@ -524,6 +524,22 @@
 | [Reazon Zipformer ASR](https://huggingface.co/reazon-research/japanese-zipformer-base-k2-rs35kh)<br>([rs35kh](https://huggingface.co/reazon-research/japanese-zipformer-base-k2-rs35kh), [rs35kh-bpe](https://huggingface.co/reazon-research/japanese-zipformer-base-k2-rs35kh-bpe)) | Zipformer | ReazonSpeech v2.0 | レアゾン・ホールディングス | Apache 2.0 |
 | [Reazon wav2vec 2.0 ASR](https://huggingface.co/reazon-research/japanese-wav2vec2-base-rs35kh)<br>([base-rs35kh](https://huggingface.co/reazon-research/japanese-wav2vec2-base-rs35kh), [large-rs35kh](https://huggingface.co/reazon-research/japanese-wav2vec2-large-rs35kh)) | wav2vec 2.0 | ReazonSpeech v2.0 | レアゾン・ホールディングス | Apache 2.0 |
 
+<a id="speech-synthesis"></a>
+### 音声合成 (TTS)
+
+|    |  アーキテクチャ  |  学習コーパス  |  開発元  | ライセンス |
+|:---|:---:|:---:|:---:|:---:|
+| [Kotoba-Speech](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)<br>([v0.1](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)) | Transformer | 不明 | Kotoba Technologies | Apache 2.0 |
+
+<a id="speech-foundation"></a>
+### 音声基盤モデル・音声対話
+
+|    |  アーキテクチャ  |  学習コーパス  |  開発元  | ライセンス |
+|:---|:---:|:---:|:---:|:---:|
+| [LLM-jp-Moshi-v1](https://www.nii.ac.jp/news/release/2026/0225.html)<br>([llm-jp-moshi-v1](https://huggingface.co/llm-jp/llm-jp-moshi-v1)) | Transformerベースのテキスト・音声基盤モデル (Moshi) | J-CHAT（約69,000時間）, LLM-jp-Zoom1（約1,000時間） | 大規模言語モデル研究開発センター | Apache 2.0 |
+| [J-Moshi](https://github.com/nu-dialogue/j-moshi)<br>([j-moshi](https://huggingface.co/nu-dialogue/j-moshi), [j-moshi-ext](https://huggingface.co/nu-dialogue/j-moshi-ext)) | Transformerベースのテキスト・音声基盤モデル (Moshi) | 音声対話コーパス（J-CHAT, 日本語Callhome, CSJ, 旅行代理店対話コーパス, 独自の雑談対話コーパス, 独自の相談対話コーパス）, テキスト対話コーパス（日本語PersonaChat, 日本語EmpatheticDialogues, 日本語日常対話コーパス, RealPersonaChat） | 名大 東中研 | CC BY-NC 4.0 |
+| [LFM2.5-Audio-1.5B-JP](https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-JP)<br>([1.5B-JP](https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-JP)) | LFM2.5-Audio<br>(LFM2 + FastConformer) | 不明 | Liquid AI | LFM Open License v1.0 |
+
 <a id="speech-feature-extraction"></a>
 ### 特徴抽出
 
@@ -539,15 +555,6 @@
 | [rinna wav2vec 2.0](https://huggingface.co/yky-h/japanese-wav2vec2-base)<br>([base](https://huggingface.co/yky-h/japanese-wav2vec2-base)) | wav2vec 2.0 | ReazonSpeech | rinna | Apache 2.0 |
 | [rinna data2vec Audio](https://huggingface.co/yky-h/japanese-data2vec-audio-base)<br>([base](https://huggingface.co/yky-h/japanese-data2vec-audio-base)) | data2vec Audio | ReazonSpeech | rinna | Apache 2.0 |
 | [Reazon Zipformer](https://huggingface.co/reazon-research/japanese-zipformer-base-k2)<br>([base-k2](https://huggingface.co/reazon-research/japanese-zipformer-base-k2)) | Zipformer | ReazonSpeech | レアゾン・ホールディングス | Apache 2.0 |
-
-<a id="speech-others"></a>
-### その他
-
-|    |  アーキテクチャ  |  学習コーパス  |  開発元  | ライセンス |
-|:---|:---:|:---:|:---:|:---:|
-| [LLM-jp-Moshi-v1](https://www.nii.ac.jp/news/release/2026/0225.html)<br>([llm-jp-moshi-v1](https://huggingface.co/llm-jp/llm-jp-moshi-v1)) | Transformerベースのテキスト・音声基盤モデル (Moshi) | J-CHAT（約69,000時間）, LLM-jp-Zoom1（約1,000時間） | 大規模言語モデル研究開発センター | Apache 2.0 |
-| [J-Moshi](https://github.com/nu-dialogue/j-moshi)<br>([j-moshi](https://huggingface.co/nu-dialogue/j-moshi), [j-moshi-ext](https://huggingface.co/nu-dialogue/j-moshi-ext)) | Transformerベースのテキスト・音声基盤モデル (Moshi) | 音声対話コーパス（J-CHAT, 日本語Callhome, CSJ, 旅行代理店対話コーパス, 独自の雑談対話コーパス, 独自の相談対話コーパス）, テキスト対話コーパス（日本語PersonaChat, 日本語EmpatheticDialogues, 日本語日常対話コーパス, RealPersonaChat） | 名大 東中研 | CC BY-NC 4.0 |
-| [Kotoba-Speech](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)<br>([v0.1](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)) | Transformer | 不明 | Kotoba Technologies | Apache 2.0 |
 
 <a id="music"></a>
 ## 音楽言語モデル (Music-Language Models)
@@ -670,6 +677,13 @@
 | [LLaVA-Bench (COCO) Japanese](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-ja) | LLaVA の評価に使われた LLaVA-Bench (COCO) データセットを DeepL で日本語に訳したもの。30 枚の画像に対して各 3 種類の質問が割り当てられている。 | Turing |
 | [Japanese Visual Genome VQA dataset](https://github.com/yahoojapan/ja-vg-vqa) | [Visual Genome dataset](https://homes.cs.washington.edu/~ranjay/visualgenome/index.html) の画像をもとにアノテーションされた質問応答データセット。このデータセットの 500 件を切り出した [JA-VG-VQA-500](https://huggingface.co/datasets/SakanaAI/JA-VG-VQA-500) が VLM の評価ベンチマークとして用いられることもある。 | ヤフー |
 | [japanese-bizform-table-kie](https://github.com/aiinside/japanese-bizform-table-kie) | 非定型帳票からの情報抽出精度を評価するためのベンチマーク。50 種類のフォーム、合計 2,500 枚のドキュメント画像から構成される。 | AI inside |
+
+<a id="speech-benchmark-suites"></a>
+### 音声言語モデル (Speech-Language Models) のベンチマーク/データセット
+
+|   | 説明 | 開発元 |
+|:---|:---|:---:|
+| <a id="voicebench-ja"></a> [VoiceBench-ja](https://huggingface.co/datasets/sbintuitions/voicebench-ja) | 音声入力に対応した日本語LLM（音声言語モデル）の性能を、音声入力時とテキスト入力時の差として評価するベンチマーク。Elyza（ELYZA-tasks-100 由来の 36 問）、Spoken-Elyza（音声対話向けに精緻化された 34 問）、M-IFEval（指示追従 172 問）、JamC-QA（日本固有の知識を問う多肢選択 1,452 問）の 4 つのサブセットから構成される。音声は JVS コーパスの話者プロンプトを用いて SB Intuitions 独自の TTS で合成されている（テキストは CC BY-SA 4.0、音声は商用利用・再配布不可）。 | SB Intuitions |
 
 <a id="reference"></a>
 ## 各モデル・アーキテクチャの原論文

@@ -270,7 +270,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [AXCXEPT/EZO-gemma-2-2b-jpn-it](https://huggingface.co/AXCXEPT/EZO-gemma-2-2b-jpn-it) | 2024 | Gemma 2 (**2b**) || Axcxept | Gemma Terms of Use |
 | [AXCXEPT/EZO-Common-T2-2B-gemma-2-it](https://huggingface.co/AXCXEPT/EZO-Common-T2-2B-gemma-2-it) | 2024 | Gemma 2 (**2b**) || Axcxept | Gemma Terms of Use |
 | [Shisa V2.1 1.2B](https://shisa.ai/posts/shisa-v2.1/)<br>([**1.2b**](https://huggingface.co/shisa-ai/shisa-v2.1-lfm2-1.2b)) | 2025 | LFM2 (**1.2b**) | Combined SFT/DPO/RL/Model merging | Shisa.AI | LFM Open License v1.0 |
-| [LFM2.5-1.2B-JP](https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai)<br>([1.2B-JP](https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP)) | **2026** | LFM2.5 (**1.2b**) | Undisclosed | Liquid AI | LFM Open License v1.0 |
+| [LFM2.5-1.2B-JP](https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai)<br>([1.2B-JP](https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP), [1.2B-JP-202606](https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606)) | **2026** | LFM2.5 (**1.2b**) | Undisclosed | Liquid AI | LFM Open License v1.0 |
 | [Qwen3.5-FT-Japanese-CoT-0.8B](https://huggingface.co/Aname-Tommy/Qwen3.5-FT-Japanese-CoT-0.8B) | **2026** | Qwen3.5 (**0.8b**) | Undisclosed | Individual (Aname-Tommy) | MIT |
 
 <a id="generative-instruction-only-domain-specific"></a>
@@ -524,6 +524,22 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [Reazon Zipformer ASR](https://huggingface.co/reazon-research/japanese-zipformer-base-k2-rs35kh)<br>([rs35kh](https://huggingface.co/reazon-research/japanese-zipformer-base-k2-rs35kh), [rs35kh-bpe](https://huggingface.co/reazon-research/japanese-zipformer-base-k2-rs35kh-bpe)) | Zipformer | ReazonSpeech v2.0 | Reazon Holdings | Apache 2.0 |
 | [Reazon wav2vec 2.0 ASR](https://huggingface.co/reazon-research/japanese-wav2vec2-base-rs35kh)<br>([base-rs35kh](https://huggingface.co/reazon-research/japanese-wav2vec2-base-rs35kh), [large-rs35kh](https://huggingface.co/reazon-research/japanese-wav2vec2-large-rs35kh)) | wav2vec 2.0 | ReazonSpeech v2.0 | Reazon Holdings | Apache 2.0 |
 
+<a id="speech-synthesis"></a>
+### Text-to-Speech (TTS)
+
+|    |  Architecture  |  Training Data  |  Developer  | License |
+|:---|:---:|:---:|:---:|:---:|
+| [Kotoba-Speech](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)<br>([v0.1](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)) | Transformer | undisclosed | Kotoba Technologies | Apache 2.0 |
+
+<a id="speech-foundation"></a>
+### Speech Foundation Models / Spoken Dialogue
+
+|    |  Architecture  |  Training Data  |  Developer  | License |
+|:---|:---:|:---:|:---:|:---:|
+| [LLM-jp-Moshi-v1](https://www.nii.ac.jp/news/release/2026/0225.html)<br>([llm-jp-moshi-v1](https://huggingface.co/llm-jp/llm-jp-moshi-v1)) | Transformer-based text and speech foundation model (Moshi) | J-CHAT (~69,000 hours), LLM-jp-Zoom1 (~1,000 hours) | 大規模言語モデル研究開発センター | Apache 2.0 |
+| [J-Moshi](https://github.com/nu-dialogue/j-moshi)<br>([j-moshi](https://huggingface.co/nu-dialogue/j-moshi), [j-moshi-ext](https://huggingface.co/nu-dialogue/j-moshi-ext)) | Transformer-based text and speech foundation model (Moshi) | Speech dialogue corpus (J-CHAT, Japanese Callhome, CSJ, travel agency dialogue corpus, proprietary chat dialogue corpus, proprietary consultation dialogue corpus), text dialogue corpus (Japanese PersonaChat, Japanese EmpatheticDialogues, Japanese daily dialogue corpus, RealPersonaChat) | Nagoya University Higashinaka Lab | CC BY-NC 4.0 |
+| [LFM2.5-Audio-1.5B-JP](https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-JP)<br>([1.5B-JP](https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-JP)) | LFM2.5-Audio<br>(LFM2 + FastConformer) | Undisclosed | Liquid AI | LFM Open License v1.0 |
+
 <a id="speech-feature-extraction"></a>
 ### Feature Extraction
 
@@ -539,15 +555,6 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [rinna wav2vec 2.0](https://huggingface.co/yky-h/japanese-wav2vec2-base)<br>([base](https://huggingface.co/yky-h/japanese-wav2vec2-base)) | wav2vec 2.0 | ReazonSpeech | rinna | Apache 2.0 |
 | [rinna data2vec Audio](https://huggingface.co/yky-h/japanese-data2vec-audio-base)<br>([base](https://huggingface.co/yky-h/japanese-data2vec-audio-base)) | data2vec Audio | ReazonSpeech | rinna | Apache 2.0 |
 | [Reazon Zipformer](https://huggingface.co/reazon-research/japanese-zipformer-base-k2)<br>([base-k2](https://huggingface.co/reazon-research/japanese-zipformer-base-k2)) | Zipformer | ReazonSpeech | Reazon Holdings | Apache 2.0 |
-
-<a id="speech-others"></a>
-### Others
-
-|    |  Architecture  |  Training Data  |  Developer  | License |
-|:---|:---:|:---:|:---:|:---:|
-| [LLM-jp-Moshi-v1](https://www.nii.ac.jp/news/release/2026/0225.html)<br>([llm-jp-moshi-v1](https://huggingface.co/llm-jp/llm-jp-moshi-v1)) | Transformer-based text and speech foundation model (Moshi) | J-CHAT (~69,000 hours), LLM-jp-Zoom1 (~1,000 hours) | 大規模言語モデル研究開発センター | Apache 2.0 |
-| [J-Moshi](https://github.com/nu-dialogue/j-moshi)<br>([j-moshi](https://huggingface.co/nu-dialogue/j-moshi), [j-moshi-ext](https://huggingface.co/nu-dialogue/j-moshi-ext)) | Transformer-based text and speech foundation model (Moshi) | Speech dialogue corpus (J-CHAT, Japanese Callhome, CSJ, travel agency dialogue corpus, proprietary chat dialogue corpus, proprietary consultation dialogue corpus), text dialogue corpus (Japanese PersonaChat, Japanese EmpatheticDialogues, Japanese daily dialogue corpus, RealPersonaChat) | Nagoya University Higashinaka Lab | CC BY-NC 4.0 |
-| [Kotoba-Speech](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)<br>([v0.1](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)) | Transformer | undisclosed | Kotoba Technologies | Apache 2.0 |
 
 <a id="music"></a>
 ## Music-Language Models
@@ -670,6 +677,13 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [LLaVA-Bench (COCO) Japanese](https://github.com/turingmotors/heron/tree/main/playground/data/llava-bench-ja) | This is the Japanese version, translated by DeepL, of the LLaVA-Bench (COCO) dataset used to evaluate LLaVA. It consists of 30 images, each with 3 types of questions assigned to them. | Turing |
 | [Japanese Visual Genome VQA dataset](https://github.com/yahoojapan/ja-vg-vqa) | A question-and-answer dataset annotated based on images from the [Visual Genome dataset](https://homes.cs.washington.edu/~ranjay/visualgenome/index.html). A subset of this dataset, [JA-VG-VQA-500](https://huggingface.co/datasets/SakanaAI/JA-VG-VQA-500), consisting of 500 questions, is sometimes used as a benchmark for evaluating VLMs. | Yahoo |
 | [japanese-bizform-table-kie](https://github.com/aiinside/japanese-bizform-table-kie) | A benchmark for evaluating the accuracy of key information extraction from non-standard business forms. It consists of 50 form types with a total of 2,500 document images. | AI inside |
+
+<a id="speech-benchmark-suites"></a>
+### Benchmarks/Datasets for Speech-Language Models
+
+|   | Description | Developer |
+|:---|:---|:---:|
+| <a id="voicebench-ja"></a> [VoiceBench-ja](https://huggingface.co/datasets/sbintuitions/voicebench-ja) | A benchmark that evaluates Japanese speech-language models (audio-input LLMs) by measuring the performance gap between audio input and text input. It consists of four subsets: Elyza (36 questions derived from ELYZA-tasks-100), Spoken-Elyza (34 questions refined for spoken dialogue), M-IFEval (172 instruction-following questions), and JamC-QA (1,452 multiple-choice questions on Japan-specific knowledge). The audio was synthesized with SB Intuitions' in-house TTS using speaker prompts from the JVS corpus (text is CC BY-SA 4.0; audio is not for commercial use or redistribution). | SB Intuitions |
 
 <a id="reference"></a>
 ## References for Models and Architectures
