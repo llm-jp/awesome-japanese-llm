@@ -529,6 +529,7 @@
 
 |    |  アーキテクチャ  |  学習コーパス  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|
+| [Sarashina2.2-TTS](https://github.com/sbintuitions/sarashina2.2-tts)<br>([sarashina2.2-tts](https://huggingface.co/sbintuitions/sarashina2.2-tts)) | Sarashina2.2 (0.5B) ベースのTTS<br>(CosyVoice + HiFT-GAN) | 適法に取得した音声データ（正規購入音源、公開音声アーカイブ、国内法に準拠して収集したデータ） | SB Intuitions | Sarashina Model NonCommercial License |
 | [Kotoba-Speech](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)<br>([v0.1](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)) | Transformer | 不明 | Kotoba Technologies | Apache 2.0 |
 
 <a id="speech-foundation"></a>

@@ -529,6 +529,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 |    |  Architecture  |  Training Data  |  Developer  | License |
 |:---|:---:|:---:|:---:|:---:|
+| [Sarashina2.2-TTS](https://github.com/sbintuitions/sarashina2.2-tts)<br>([sarashina2.2-tts](https://huggingface.co/sbintuitions/sarashina2.2-tts)) | TTS built on Sarashina2.2 (0.5B)<br>(CosyVoice + HiFT-GAN) | Legally obtained audio data (purchased sources, public speech archives, and data collected in compliance with applicable domestic laws) | SB Intuitions | Sarashina Model NonCommercial License |
 | [Kotoba-Speech](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)<br>([v0.1](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)) | Transformer | undisclosed | Kotoba Technologies | Apache 2.0 |
 
 <a id="speech-foundation"></a>
