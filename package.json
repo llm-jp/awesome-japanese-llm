@@ -17,10 +17,10 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "esbuild": "^0.25.5"
+    "esbuild": "^0.28.1"
   },
   "resolutions": {
-    "esbuild": "^0.25.5",
+    "esbuild": "^0.28.1",
     "vite": "^7.1.5"
   }
 }
