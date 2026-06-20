@@ -448,27 +448,27 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 
 ##### Spécifique à un domaine
 
-|    | Architecture | Domaine |  Développeur  |  Licence  |
-|:---|:---:|:---:|:---:|:---:|
-| [Med-Asagi](https://www.rcast.u-tokyo.ac.jp/ja/news/release/20260306.html)<br>([**14b**-reasoning_beta](https://huggingface.co/MIL-UT/Med-Asagi-14B-reasoning_beta)) | LLaVA | Médecine | University of Tokyo Machine Intelligence Lab. | CC BY-SA 4.0 |
-| [watashiha/Watashiha-Llama-2-13B-Ogiri-sft-vlm](https://huggingface.co/watashiha/Watashiha-Llama-2-13B-Ogiri-sft-vlm) | LLaVA | [Oogiri](https://en.wikipedia.org/wiki/Glossary_of_owarai_terms#oogiri) | Watashiha | Llama 2 Community License |
+|    | Année de sortie | Architecture | Domaine |  Développeur  |  Licence  |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| [Med-Asagi](https://www.rcast.u-tokyo.ac.jp/ja/news/release/20260306.html)<br>([**14b**-reasoning_beta](https://huggingface.co/MIL-UT/Med-Asagi-14B-reasoning_beta)) | **2026** | LLaVA | Médecine | University of Tokyo Machine Intelligence Lab. | CC BY-SA 4.0 |
+| [watashiha/Watashiha-Llama-2-13B-Ogiri-sft-vlm](https://huggingface.co/watashiha/Watashiha-Llama-2-13B-Ogiri-sft-vlm) | 2024 | LLaVA | [Oogiri](https://en.wikipedia.org/wiki/Glossary_of_owarai_terms#oogiri) | Watashiha | Llama 2 Community License |
 
 #### Modèles développés à partir d'VLM non-japonais
 
-|    | Base du Model |  Données d'entraînement  |  Développeur  | Licence |
-|:---|:---:|:---:|:---:|:---:|
-| [Stockmark-DocReasoner-Qwen2.5-VL-32B](https://stockmark-tech.hatenablog.com/entry/2026/04/28/100048)<br>([**32B**](https://huggingface.co/stockmark/Stockmark-DocReasoner-Qwen2.5-VL-32B)) | Qwen2.5-VL-32B-Instruct | Apprentissage par curriculum en 2 étapes (SFT): Étape 1: ~1,1M d'échantillons (dont 600K synthétiques) pour la compréhension de la structure des documents, Étape 2: ~1,4M d'échantillons (dont 500K synthétiques) pour le raisonnement multi-étapes et Chain-of-Thought<br>Données synthétiques basées sur des personas (en utilisant Nemotron-Personas-Japan), rendu avec matplotlib/HTML/Plotly/LaTeX/mermaid, vérification de la qualité via VLM-as-a-judge | Stockmark | Apache 2.0 |
-| [AXCXEPT/EZO-InternVL2-26B](https://huggingface.co/AXCXEPT/EZO-InternVL2-26B) | InternVL2 | - | 　Axcxept | MIT |
-| [KARAKURI VL 2](https://huggingface.co/karakuri-ai/karakuri-vl-2-8b-thinking-2603)<br>([**8b**-thinking-2603](https://huggingface.co/karakuri-ai/karakuri-vl-2-8b-thinking-2603)) | Qwen3-VL-8B-Thinking | Non divulgué | KARAKURI | Apache 2.0 |
-| [Qwen-3-VL-Ricoh-8B-20260227](https://jp.ricoh.com/release/2026/0330_1)<br>([**8B**-20260227](https://huggingface.co/ricoh-ai/Qwen-3-VL-Ricoh-8B-20260227)) | Qwen3-VL-8B-Thinking | Processus de raisonnement par apprentissage par renforcement (RL) | Ricoh | Apache 2.0 |
+|    | Année de sortie | Base du Model |  Données d'entraînement  |  Développeur  | Licence |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| [Stockmark-DocReasoner-Qwen2.5-VL-32B](https://stockmark-tech.hatenablog.com/entry/2026/04/28/100048)<br>([**32B**](https://huggingface.co/stockmark/Stockmark-DocReasoner-Qwen2.5-VL-32B)) | **2026** | Qwen2.5-VL-32B-Instruct | Apprentissage par curriculum en 2 étapes (SFT): Étape 1: ~1,1M d'échantillons (dont 600K synthétiques) pour la compréhension de la structure des documents, Étape 2: ~1,4M d'échantillons (dont 500K synthétiques) pour le raisonnement multi-étapes et Chain-of-Thought<br>Données synthétiques basées sur des personas (en utilisant Nemotron-Personas-Japan), rendu avec matplotlib/HTML/Plotly/LaTeX/mermaid, vérification de la qualité via VLM-as-a-judge | Stockmark | Apache 2.0 |
+| [AXCXEPT/EZO-InternVL2-26B](https://huggingface.co/AXCXEPT/EZO-InternVL2-26B) | 2024 | InternVL2 | - | 　Axcxept | MIT |
+| [KARAKURI VL 2](https://huggingface.co/karakuri-ai/karakuri-vl-2-8b-thinking-2603)<br>([**8b**-thinking-2603](https://huggingface.co/karakuri-ai/karakuri-vl-2-8b-thinking-2603)) | **2026** | Qwen3-VL-8B-Thinking | Non divulgué | KARAKURI | Apache 2.0 |
+| [Qwen-3-VL-Ricoh-8B-20260227](https://jp.ricoh.com/release/2026/0330_1)<br>([**8B**-20260227](https://huggingface.co/ricoh-ai/Qwen-3-VL-Ricoh-8B-20260227)) | **2026** | Qwen3-VL-8B-Thinking | Processus de raisonnement par apprentissage par renforcement (RL) | Ricoh | Apache 2.0 |
 
 #### Modèles fusionnés
 
-|    |  Modèles originaux (LLMs japonais en gras)  | Développeur  | Licence |
-|:---|:---:|:---:|:---:|
-| [Llama-3-EvoVLM-JP-v2](https://sakana.ai/evovlm-jp/)<br>([v2](https://huggingface.co/SakanaAI/Llama-3-EvoVLM-JP-v2)) | Mantis-8B-SigLIP-Llama-3, **Llama-3-ELYZA-JP-8B**, Bunny-v1.1-Llama-3-8B-V | Sakana AI | Llama 3 Community License |
-| [AXCXEPT/Llama-3-EZO-VLM-1](https://huggingface.co/AXCXEPT/Llama-3-EZO-VLM-1) | (trained from Llama-3-EvoVLM-JP-v2) | Axcxept | Llama 3 Community License |
-| [EvoVLM-JP](https://sakana.ai/evolutionary-model-merge)<br>([v1-7B](https://huggingface.co/SakanaAI/EvoVLM-JP-v1-7B)) | **Shisa Gamma 7B (v1)**, LLaVA-1.6-Mistral-7B | Sakana AI | Apache 2.0 |
+|    | Année de sortie |  Modèles originaux (LLMs japonais en gras)  | Développeur  | Licence |
+|:---|:---:|:---:|:---:|:---:|
+| [Llama-3-EvoVLM-JP-v2](https://sakana.ai/evovlm-jp/)<br>([v2](https://huggingface.co/SakanaAI/Llama-3-EvoVLM-JP-v2)) | 2024 | Mantis-8B-SigLIP-Llama-3, **Llama-3-ELYZA-JP-8B**, Bunny-v1.1-Llama-3-8B-V | Sakana AI | Llama 3 Community License |
+| [AXCXEPT/Llama-3-EZO-VLM-1](https://huggingface.co/AXCXEPT/Llama-3-EZO-VLM-1) | 2024 | (trained from Llama-3-EvoVLM-JP-v2) | Axcxept | Llama 3 Community License |
+| [EvoVLM-JP](https://sakana.ai/evolutionary-model-merge)<br>([v1-7B](https://huggingface.co/SakanaAI/EvoVLM-JP-v1-7B)) | 2024 | **Shisa Gamma 7B (v1)**, LLaVA-1.6-Mistral-7B | Sakana AI | Apache 2.0 |
 
 <a id="multimodal-text-to-image"></a>
 ### Text vers Image
@@ -476,40 +476,40 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 <a id="multimodal-text-to-image-general"></a>
 #### D'usage général
 
-|    |  Architecture  |  Training Data  |  Développeur  | License |
-|:---|:---:|:---:|:---:|:---:|
-| [CommonArt β](https://note.com/aipicasso/n/nf17f876839b2)<br>([commonart-beta](https://huggingface.co/aipicasso/commonart-beta)) | PixArt-Σ | CommonCatalog-cc-by, Megalith-10M, Smithonian Open Access, ArtBench (CC-0 only) | AI Picasso | Apache 2.0 |
-| [EvoSDXL-JP](https://huggingface.co/SakanaAI/EvoSDXL-JP-v1)<br>([v1](https://huggingface.co/SakanaAI/EvoSDXL-JP-v1)) | Stable Diffusion | - (merged from several diffusion models, including Japanese Stable Diffusion XL) | Sakana AI | Apache 2.0[^14] |
-| [Japanese Stable Diffusion XL](https://huggingface.co/stabilityai/japanese-stable-diffusion-xl)<br>([japanese-stable-diffusion-xl](https://huggingface.co/stabilityai/japanese-stable-diffusion-xl)) | Stable Diffusion | Inconnu | Stability AI | STABILITY AI JAPANESE STABLE DIFFUSION XL COMMUNITY LICENSE |
-| [TohokuUniversity Stable Diffusion](https://huggingface.co/tohoku-nlp/stable-diffusion-xl-jp-base-1.0)<br>([base](https://huggingface.co/tohoku-nlp/stable-diffusion-xl-jp-base-1.0), [refiner](https://huggingface.co/tohoku-nlp/stable-diffusion-xl-jp-refiner-1.0)) | Stable Diffusion | Corpus parallèle anglais-japonais de la tâche partagée WMT2023, environ 13 millions de légendes de laion2B-multi | Université de Tohoku - Groupe TAL | CreativeML OpenRAIL-M License |
-| [rinna Stable Diffusion](https://huggingface.co/rinna/japanese-stable-diffusion)<br>([japanese-stable-diffusion](https://huggingface.co/rinna/japanese-stable-diffusion)) | Stable Diffusion | LAION-5B Japanese Subset (100M images) | rinna | CreativeML OpenRAIL-M License |
+|    | Année de sortie |  Architecture  |  Training Data  |  Développeur  | License |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| [CommonArt β](https://note.com/aipicasso/n/nf17f876839b2)<br>([commonart-beta](https://huggingface.co/aipicasso/commonart-beta)) | 2024 | PixArt-Σ | CommonCatalog-cc-by, Megalith-10M, Smithonian Open Access, ArtBench (CC-0 only) | AI Picasso | Apache 2.0 |
+| [EvoSDXL-JP](https://huggingface.co/SakanaAI/EvoSDXL-JP-v1)<br>([v1](https://huggingface.co/SakanaAI/EvoSDXL-JP-v1)) | 2024 | Stable Diffusion | - (merged from several diffusion models, including Japanese Stable Diffusion XL) | Sakana AI | Apache 2.0[^14] |
+| [Japanese Stable Diffusion XL](https://huggingface.co/stabilityai/japanese-stable-diffusion-xl)<br>([japanese-stable-diffusion-xl](https://huggingface.co/stabilityai/japanese-stable-diffusion-xl)) | 2023 | Stable Diffusion | Inconnu | Stability AI | STABILITY AI JAPANESE STABLE DIFFUSION XL COMMUNITY LICENSE |
+| [TohokuUniversity Stable Diffusion](https://huggingface.co/tohoku-nlp/stable-diffusion-xl-jp-base-1.0)<br>([base](https://huggingface.co/tohoku-nlp/stable-diffusion-xl-jp-base-1.0), [refiner](https://huggingface.co/tohoku-nlp/stable-diffusion-xl-jp-refiner-1.0)) | 2023 | Stable Diffusion | Corpus parallèle anglais-japonais de la tâche partagée WMT2023, environ 13 millions de légendes de laion2B-multi | Université de Tohoku - Groupe TAL | CreativeML OpenRAIL-M License |
+| [rinna Stable Diffusion](https://huggingface.co/rinna/japanese-stable-diffusion)<br>([japanese-stable-diffusion](https://huggingface.co/rinna/japanese-stable-diffusion)) | 2022 | Stable Diffusion | LAION-5B Japanese Subset (100M images) | rinna | CreativeML OpenRAIL-M License |
 
 <a id="multimodal-text-to-image-domain-specific"></a>
 #### Spécifique à un domaine
 
-|    | Architecture | Domaine |  Développeur  |  Licence  |
-|:---|:---:|:---:|:---:|:---:|
-| [Evo-Nishikie](https://sakana.ai/evo-ukiyoe/)<br>([v1](https://huggingface.co/SakanaAI/Evo-Nishikie-v1)) | Stable Diffusion (ControlNet) | Ukiyo-e | Sakana AI | Apache 2.0[^14] |
-| [Evo-Ukiyoe](https://sakana.ai/evo-ukiyoe/)<br>([v1](https://huggingface.co/SakanaAI/Evo-Ukiyoe-v1)) | Stable Diffusion | Ukiyo-e | Sakana AI | Apache 2.0[^14] |
+|    | Année de sortie | Architecture | Domaine |  Développeur  |  Licence  |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| [Evo-Nishikie](https://sakana.ai/evo-ukiyoe/)<br>([v1](https://huggingface.co/SakanaAI/Evo-Nishikie-v1)) | 2024 | Stable Diffusion (ControlNet) | Ukiyo-e | Sakana AI | Apache 2.0[^14] |
+| [Evo-Ukiyoe](https://sakana.ai/evo-ukiyoe/)<br>([v1](https://huggingface.co/SakanaAI/Evo-Ukiyoe-v1)) | 2024 | Stable Diffusion | Ukiyo-e | Sakana AI | Apache 2.0[^14] |
 
 ### Text vers Vidéo
 
-|    |  Architecture  |  Training Data  |  Développeur  | License |
-|:---|:---:|:---:|:---:|:---:|
-| [AIdeaLab VideoJP](https://aidealab.com/news/QSvdcQfA)<br>([AIdeaLab-VideoJP](https://huggingface.co/aidealab/AIdeaLab-VideoJP)) | CogVideoX | Pixabay, FineVideo | AIdeaLab | Apache 2.0 |
+|    | Année de sortie |  Architecture  |  Training Data  |  Développeur  | License |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| [AIdeaLab VideoJP](https://aidealab.com/news/QSvdcQfA)<br>([AIdeaLab-VideoJP](https://huggingface.co/aidealab/AIdeaLab-VideoJP)) | 2025 | CogVideoX | Pixabay, FineVideo | AIdeaLab | Apache 2.0 |
 
 <a id="multimodal-others"></a>
 ### Autres
 
-|    |  Architecture  |  Données d'entraînement  |  Développeur  | Licence |
-|:---|:---:|:---:|:---:|:---:|
-| [llm-jp-clip](https://huggingface.co/llm-jp/llm-jp-clip-vit-base-patch16)<br>([llm-jp-clip-vit-base-patch16](https://huggingface.co/llm-jp/llm-jp-clip-vit-base-patch16), [llm-jp-clip-vit-large-patch14](https://huggingface.co/llm-jp/llm-jp-clip-vit-large-patch14)) | CLIP | Traduction d'environ 1,5 milliard de sous-titres à partir du sous-ensemble anglais de ReLAION-5B | Research and Development Center for Large Language Models | Apache 2.0
-| [LY CLIP](https://techblog.lycorp.co.jp/ja/20240514b)<br>([clip-japanese-base](https://huggingface.co/line-corporation/clip-japanese-base), [v2](https://huggingface.co/line-corporation/clip-japanese-base-v2)) | CLIP | CommonCrawl, CC12M, YFCC100M<br>(v2: ~2 milliards de paires image-texte de Common Crawl + distillation de connaissances) | LY Corp. | Apache 2.0 |
-| [Recruit CLIP](https://blog.recruit.co.jp/data/articles/japanese-clip/)<br>([japanese-clip-vit-b-32-roberta-base](https://huggingface.co/recruit-jp/japanese-clip-vit-b-32-roberta-base)) | CLIP | environ 120 millions de légendes de laion2B-multi | Recruit Co.,Ltd. | CC BY-4.0 |
-| [Japanese Stable CLIP](https://huggingface.co/stabilityai/japanese-stable-clip-vit-l-16)<br>([japanese-stable-clip-vit-l-16](https://huggingface.co/stabilityai/japanese-stable-clip-vit-l-16)) | SigLIP | CC12M traduit en japonais, STAIR Captions | Stability AI | STABILITY AI JAPANESE STABLE CLIP COMMUNITY LICENSE |
-| [rinna CLIP](https://huggingface.co/rinna/japanese-clip-vit-b-16)<br>([japanese-clip-vit-b-16](https://huggingface.co/rinna/japanese-clip-vit-b-16)) | CLIP | CC12M traduit en japonais | rinna | Apache 2.0 |
-| [rinna CLOOB](https://huggingface.co/rinna/japanese-clip-vit-b-16)<br>([japanese-cloob-vit-b-16](https://huggingface.co/rinna/japanese-cloob-vit-b-16)) | CLOOB | CC12M traduit en japonais | rinna | Apache 2.0 |
-| [HAKUHODO Technologies CLIP](https://huggingface.co/hakuhodo-tech/japanese-clip-vit-h-14-bert-base)<br>([base](https://huggingface.co/hakuhodo-tech/japanese-clip-vit-h-14-bert-base), [deeper](https://huggingface.co/hakuhodo-tech/japanese-clip-vit-h-14-bert-deeper), [wider](https://huggingface.co/hakuhodo-tech/japanese-clip-vit-h-14-bert-wider)) | CLIP | about 120 million captions from laion2B-multi | HAKUHODO Technologies | CC BY-NC-SA 4.0 |
+|    | Année de sortie |  Architecture  |  Données d'entraînement  |  Développeur  | Licence |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| [llm-jp-clip](https://huggingface.co/llm-jp/llm-jp-clip-vit-base-patch16)<br>([llm-jp-clip-vit-base-patch16](https://huggingface.co/llm-jp/llm-jp-clip-vit-base-patch16), [llm-jp-clip-vit-large-patch14](https://huggingface.co/llm-jp/llm-jp-clip-vit-large-patch14)) | 2024 | CLIP | Traduction d'environ 1,5 milliard de sous-titres à partir du sous-ensemble anglais de ReLAION-5B | Research and Development Center for Large Language Models | Apache 2.0
+| [LY CLIP](https://techblog.lycorp.co.jp/ja/20240514b)<br>([clip-japanese-base](https://huggingface.co/line-corporation/clip-japanese-base), [v2](https://huggingface.co/line-corporation/clip-japanese-base-v2)) | 2025 | CLIP | CommonCrawl, CC12M, YFCC100M<br>(v2: ~2 milliards de paires image-texte de Common Crawl + distillation de connaissances) | LY Corp. | Apache 2.0 |
+| [Recruit CLIP](https://blog.recruit.co.jp/data/articles/japanese-clip/)<br>([japanese-clip-vit-b-32-roberta-base](https://huggingface.co/recruit-jp/japanese-clip-vit-b-32-roberta-base)) | 2023 | CLIP | environ 120 millions de légendes de laion2B-multi | Recruit Co.,Ltd. | CC BY-4.0 |
+| [Japanese Stable CLIP](https://huggingface.co/stabilityai/japanese-stable-clip-vit-l-16)<br>([japanese-stable-clip-vit-l-16](https://huggingface.co/stabilityai/japanese-stable-clip-vit-l-16)) | 2023 | SigLIP | CC12M traduit en japonais, STAIR Captions | Stability AI | STABILITY AI JAPANESE STABLE CLIP COMMUNITY LICENSE |
+| [rinna CLIP](https://huggingface.co/rinna/japanese-clip-vit-b-16)<br>([japanese-clip-vit-b-16](https://huggingface.co/rinna/japanese-clip-vit-b-16)) | 2022 | CLIP | CC12M traduit en japonais | rinna | Apache 2.0 |
+| [rinna CLOOB](https://huggingface.co/rinna/japanese-clip-vit-b-16)<br>([japanese-cloob-vit-b-16](https://huggingface.co/rinna/japanese-cloob-vit-b-16)) | 2022 | CLOOB | CC12M traduit en japonais | rinna | Apache 2.0 |
+| [HAKUHODO Technologies CLIP](https://huggingface.co/hakuhodo-tech/japanese-clip-vit-h-14-bert-base)<br>([base](https://huggingface.co/hakuhodo-tech/japanese-clip-vit-h-14-bert-base), [deeper](https://huggingface.co/hakuhodo-tech/japanese-clip-vit-h-14-bert-deeper), [wider](https://huggingface.co/hakuhodo-tech/japanese-clip-vit-h-14-bert-wider)) | 2024 | CLIP | about 120 million captions from laion2B-multi | HAKUHODO Technologies | CC BY-NC-SA 4.0 |
 
 <a id="speech"></a>
 ## Modèles Speech-Language
