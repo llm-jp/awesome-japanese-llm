@@ -347,6 +347,7 @@
 | [GLOBIS DeBERTaV3](https://qiita.com/akeyhero/items/d7c215ceac37b7d3290a) | DeBERTaV3 (xsmall, base, large) | 512 | Wikipedia, WikiBooks, 青空文庫, Japanese CC-100, Japanese mC4, Japanese OSCAR | グロービス | CC BY-SA 4.0 | ◯ ([xsmall](https://huggingface.co/globis-university/deberta-v3-japanese-xsmall), [base](https://huggingface.co/globis-university/deberta-v3-japanese-base), [large](https://huggingface.co/globis-university/deberta-v3-japanese-large)) |
 | [日本語BigBird](https://huggingface.co/nlp-waseda/bigbird-base-japanese) | BigBird (base) | **4,096** | 日本語 Wikipedia <br> + Japanese CC-100 <br> + Japanese OSCAR | 早大 河原研 | CC BY-SA 4.0 | [◯](https://huggingface.co/nlp-waseda/bigbird-base-japanese) |
 | [日本語LayoutLM](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q2-7.pdf) | LayoutLM (base) | 512 | 東北大BERT (base, v2) で重みを初期化した上で、日本語 Wikipedia の文章とレイアウトで事前学習 | 日本総合研究所 | CC BY-SA 3.0 | [◯](https://huggingface.co/jri-advtechlab/layoutlm-wikipedia-ja) |
+| [layoutlmv3-japanese-preview](https://huggingface.co/llm-jp/layoutlmv3-japanese-preview) | LayoutLMv3 (base) | 512 | 早大RoBERTa (base) で重みを初期化した上で、NDL WARP の日本語Webページ（約2,000万件）と文書画像（PubLayNet, DocLayNet）で事前学習 | 大規模言語モデル研究開発センター | Apache 2.0 | [◯](https://huggingface.co/llm-jp/layoutlmv3-japanese-preview) |
 
 <a id="autoencoding-domain-specific"></a>
 ### ドメイン特化型
