@@ -425,7 +425,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 
 ##### D'usage général
 
-|    | Année |  Architecture |  Données d'entraînement  |  Développeur  | License / Terms of Use |
+|    | Année de sortie |  Architecture |  Données d'entraînement  |  Développeur  | License / Terms of Use |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | [Stockmark-2-VL-100B-beta](https://stockmark-tech.hatenablog.com/entry/2025/06/03/101007)<br>([**100B**-beta](https://huggingface.co/stockmark/Stockmark-2-VL-100B-beta)) | 2025 | LLaVA-OneVision | Entraînement en 3 étapes: pré-entraînement d'alignement, expansion des légendes, affinement d'instruction et de raisonnement<br>Données synthétiques: Générées à partir de Qwen2.5-VL-72B | Stockmark | Qwen License |
 | [Llama-3.1-70B-Instruct-multimodal-JP-Graph](https://jp.ricoh.com/release/2025/0610_1)<br>([v0.1](https://huggingface.co/r-g2-2024/Llama-3.1-70B-Instruct-multimodal-JP-Graph-v0.1)) | 2025 | LLaVA (Llama-3.1-Swallow-70B-Instruct-v0.3 + Qwen2-VL-7B-Instruct) | Plus de 6 millions de données visuelles synthétiques spécialisées pour la compréhension de graphiques et diagrammes (texte, diagrammes circulaires, graphiques à barres, organigrammes, etc.), données réelles (avec collaboration FastLabel) | Ricoh | Llama 3.1 Community License & Gemma Terms of Use & Qwen License & MIT & Apache 2.0 |
@@ -517,47 +517,47 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 <a id="speech-asr"></a>
 ### Reconnaissance automatique de la parole
 
-|    |  Architecture  |  Données d'entraînement  |  Développeur  | Licence |
-|:---|:---:|:---:|:---:|:---:|
-| [Nue ASR](https://huggingface.co/yky-h/nue-asr)<br>([nue-asr](https://huggingface.co/yky-h/nue-asr)) | Nue ASR<br>(HuBERT + LLM) | ReazonSpeech | rinna | Apache 2.0 |
-| [Kotoba-Whisper](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0)<br>([v1.0](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0), [v1.0-ggml](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0-ggml), [v1.0-faster](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0-faster), [v1.1](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.1), [bilingual-v1.0](https://huggingface.co/kotoba-tech/kotoba-whisper-bilingual-v1.0), [bilingual-v1.0-ggml](https://huggingface.co/kotoba-tech/kotoba-whisper-bilingual-v1.0-ggml), [bilingual-v1.0-faster](https://huggingface.co/kotoba-tech/kotoba-whisper-bilingual-v1.0-faster), [v2.0](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0), [v2.0-ggml](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0-ggml), [v2.0-faster](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0-faster), [v2.1](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.1), [v2.2](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.2)) | Distil-Whisper | ReazonSpeech | Kotoba Technologies | Apache 2.0 |
-| [ReazonSpeech](https://research.reazon.jp/projects/ReazonSpeech/)<br>([espnet-v1](https://huggingface.co/reazon-research/reazonspeech-espnet-v1), [espnet-next](https://huggingface.co/reazon-research/reazonspeech-espnet-next), [espnet-v2](https://huggingface.co/reazon-research/reazonspeech-espnet-v2), [nemo-v2](https://huggingface.co/reazon-research/reazonspeech-nemo-v2)) | ESPnet (Conformer-Transducer) / NeMo (FastConformer-RNNT) | ReazonSpeech | Reazon Holdings | Apache 2.0 |
-| [Reazon HuBERT ASR](https://huggingface.co/reazon-research/japanese-hubert-base-k2-rs35kh)<br>([rs35kh](https://huggingface.co/reazon-research/japanese-hubert-base-k2-rs35kh), [rs35kh-bpe](https://huggingface.co/reazon-research/japanese-hubert-base-k2-rs35kh-bpe)) | HuBERT | ReazonSpeech v2.0 | Reazon Holdings | Apache 2.0 |
-| [Reazon Zipformer ASR](https://huggingface.co/reazon-research/japanese-zipformer-base-k2-rs35kh)<br>([rs35kh](https://huggingface.co/reazon-research/japanese-zipformer-base-k2-rs35kh), [rs35kh-bpe](https://huggingface.co/reazon-research/japanese-zipformer-base-k2-rs35kh-bpe)) | Zipformer | ReazonSpeech v2.0 | Reazon Holdings | Apache 2.0 |
-| [Reazon wav2vec 2.0 ASR](https://huggingface.co/reazon-research/japanese-wav2vec2-base-rs35kh)<br>([base-rs35kh](https://huggingface.co/reazon-research/japanese-wav2vec2-base-rs35kh), [large-rs35kh](https://huggingface.co/reazon-research/japanese-wav2vec2-large-rs35kh)) | wav2vec 2.0 | ReazonSpeech v2.0 | Reazon Holdings | Apache 2.0 |
+|    | Année de sortie |  Architecture  |  Données d'entraînement  |  Développeur  | Licence |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| [Nue ASR](https://huggingface.co/yky-h/nue-asr)<br>([nue-asr](https://huggingface.co/yky-h/nue-asr)) | 2023 | Nue ASR<br>(HuBERT + LLM) | ReazonSpeech | rinna | Apache 2.0 |
+| [Kotoba-Whisper](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0)<br>([v1.0](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0), [v1.0-ggml](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0-ggml), [v1.0-faster](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0-faster), [v1.1](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.1), [bilingual-v1.0](https://huggingface.co/kotoba-tech/kotoba-whisper-bilingual-v1.0), [bilingual-v1.0-ggml](https://huggingface.co/kotoba-tech/kotoba-whisper-bilingual-v1.0-ggml), [bilingual-v1.0-faster](https://huggingface.co/kotoba-tech/kotoba-whisper-bilingual-v1.0-faster), [v2.0](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0), [v2.0-ggml](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0-ggml), [v2.0-faster](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0-faster), [v2.1](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.1), [v2.2](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.2)) | 2024 | Distil-Whisper | ReazonSpeech | Kotoba Technologies | Apache 2.0 |
+| [ReazonSpeech](https://research.reazon.jp/projects/ReazonSpeech/)<br>([espnet-v1](https://huggingface.co/reazon-research/reazonspeech-espnet-v1), [espnet-next](https://huggingface.co/reazon-research/reazonspeech-espnet-next), [espnet-v2](https://huggingface.co/reazon-research/reazonspeech-espnet-v2), [nemo-v2](https://huggingface.co/reazon-research/reazonspeech-nemo-v2)) | 2024 | ESPnet (Conformer-Transducer) / NeMo (FastConformer-RNNT) | ReazonSpeech | Reazon Holdings | Apache 2.0 |
+| [Reazon HuBERT ASR](https://huggingface.co/reazon-research/japanese-hubert-base-k2-rs35kh)<br>([rs35kh](https://huggingface.co/reazon-research/japanese-hubert-base-k2-rs35kh), [rs35kh-bpe](https://huggingface.co/reazon-research/japanese-hubert-base-k2-rs35kh-bpe)) | 2025 | HuBERT | ReazonSpeech v2.0 | Reazon Holdings | Apache 2.0 |
+| [Reazon Zipformer ASR](https://huggingface.co/reazon-research/japanese-zipformer-base-k2-rs35kh)<br>([rs35kh](https://huggingface.co/reazon-research/japanese-zipformer-base-k2-rs35kh), [rs35kh-bpe](https://huggingface.co/reazon-research/japanese-zipformer-base-k2-rs35kh-bpe)) | 2025 | Zipformer | ReazonSpeech v2.0 | Reazon Holdings | Apache 2.0 |
+| [Reazon wav2vec 2.0 ASR](https://huggingface.co/reazon-research/japanese-wav2vec2-base-rs35kh)<br>([base-rs35kh](https://huggingface.co/reazon-research/japanese-wav2vec2-base-rs35kh), [large-rs35kh](https://huggingface.co/reazon-research/japanese-wav2vec2-large-rs35kh)) | 2024 | wav2vec 2.0 | ReazonSpeech v2.0 | Reazon Holdings | Apache 2.0 |
 
 <a id="speech-synthesis"></a>
 ### Synthèse vocale (TTS)
 
-|    |  Architecture  |  Données d'entraînement  |  Développeur  | Licence |
-|:---|:---:|:---:|:---:|:---:|
-| [Sarashina2.2-TTS](https://github.com/sbintuitions/sarashina2.2-tts)<br>([sarashina2.2-tts](https://huggingface.co/sbintuitions/sarashina2.2-tts)) | TTS basé sur Sarashina2.2 (0.5B)<br>(CosyVoice + HiFT-GAN) | Données audio obtenues légalement (sources achetées, archives vocales publiques et données collectées conformément aux lois nationales applicables) | SB Intuitions | Sarashina Model NonCommercial License |
-| [Kotoba-Speech](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)<br>([v0.1](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)) | Transformer | undisclosed | Kotoba Technologies | Apache 2.0 |
+|    | Année de sortie |  Architecture  |  Données d'entraînement  |  Développeur  | Licence |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| [Sarashina2.2-TTS](https://github.com/sbintuitions/sarashina2.2-tts)<br>([sarashina2.2-tts](https://huggingface.co/sbintuitions/sarashina2.2-tts)) | **2026** | TTS basé sur Sarashina2.2 (0.5B)<br>(CosyVoice + HiFT-GAN) | Données audio obtenues légalement (sources achetées, archives vocales publiques et données collectées conformément aux lois nationales applicables) | SB Intuitions | Sarashina Model NonCommercial License |
+| [Kotoba-Speech](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)<br>([v0.1](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)) | 2024 | Transformer | undisclosed | Kotoba Technologies | Apache 2.0 |
 
 <a id="speech-foundation"></a>
 ### Modèles de base de la parole / Dialogue oral
 
-|    |  Architecture  |  Données d'entraînement  |  Développeur  | Licence |
-|:---|:---:|:---:|:---:|:---:|
-| [LLM-jp-Moshi-v1](https://www.nii.ac.jp/news/release/2026/0225.html)<br>([llm-jp-moshi-v1](https://huggingface.co/llm-jp/llm-jp-moshi-v1)) | Modèle de base de texte et de parole basé sur Transformer (Moshi) | J-CHAT (~69 000 heures), LLM-jp-Zoom1 (~1 000 heures) | 大規模言語モデル研究開発センター | Apache 2.0 |
-| [J-Moshi](https://github.com/nu-dialogue/j-moshi)<br>([j-moshi](https://huggingface.co/nu-dialogue/j-moshi), [j-moshi-ext](https://huggingface.co/nu-dialogue/j-moshi-ext)) | Modèle de base de texte et de parole basé sur Transformer (Moshi) | Corpus de dialogues de parole (J-CHAT, Japanese Callhome, CSJ, corpus de dialogues d'agence de voyages, corpus de dialogues de chat propriétaire, corpus de dialogues de consultation propriétaire), corpus de dialogues textuels (Japanese PersonaChat, Japanese EmpatheticDialogues, corpus de dialogues quotidiens japonais, RealPersonaChat) | Nagoya University Higashinaka Lab | CC BY-NC 4.0 |
-| [LFM2.5-Audio-1.5B-JP](https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-JP)<br>([1.5B-JP](https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-JP)) | LFM2.5-Audio<br>(LFM2 + FastConformer) | Non divulgué | Liquid AI | LFM Open License v1.0 |
+|    | Année de sortie |  Architecture  |  Données d'entraînement  |  Développeur  | Licence |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| [LLM-jp-Moshi-v1](https://www.nii.ac.jp/news/release/2026/0225.html)<br>([llm-jp-moshi-v1](https://huggingface.co/llm-jp/llm-jp-moshi-v1)) | **2026** | Modèle de base de texte et de parole basé sur Transformer (Moshi) | J-CHAT (~69 000 heures), LLM-jp-Zoom1 (~1 000 heures) | 大規模言語モデル研究開発センター | Apache 2.0 |
+| [J-Moshi](https://github.com/nu-dialogue/j-moshi)<br>([j-moshi](https://huggingface.co/nu-dialogue/j-moshi), [j-moshi-ext](https://huggingface.co/nu-dialogue/j-moshi-ext)) | 2025 | Modèle de base de texte et de parole basé sur Transformer (Moshi) | Corpus de dialogues de parole (J-CHAT, Japanese Callhome, CSJ, corpus de dialogues d'agence de voyages, corpus de dialogues de chat propriétaire, corpus de dialogues de consultation propriétaire), corpus de dialogues textuels (Japanese PersonaChat, Japanese EmpatheticDialogues, corpus de dialogues quotidiens japonais, RealPersonaChat) | Nagoya University Higashinaka Lab | CC BY-NC 4.0 |
+| [LFM2.5-Audio-1.5B-JP](https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-JP)<br>([1.5B-JP](https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-JP)) | **2026** | LFM2.5-Audio<br>(LFM2 + FastConformer) | Non divulgué | Liquid AI | LFM Open License v1.0 |
 
 <a id="speech-feature-extraction"></a>
 ### Extraction de caractéristiques
 
-|    |  Architecture  |  Données d'entraînement  |  Développeur  | Licence |
-|:---|:---:|:---:|:---:|:---:|
-| [NEST-Ja](https://huggingface.co/sbintuitions/nest-ja-0.1b)<br>([**0.1b**](https://huggingface.co/sbintuitions/nest-ja-0.1b), [**0.6b**](https://huggingface.co/sbintuitions/nest-ja-0.6b)) | NEST (FastConformer) | ReazonSpeech v2.0 | SB Intuitions | MIT |
-| [Kushinada](https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250310/pr20250310.html)<br>([base](https://huggingface.co/imprt/kushinada-hubert-base), [large](https://huggingface.co/imprt/kushinada-hubert-large)) | HuBERT | 60k hours of audio extracted from large-scale Japanese TV broadcast audio data |  Intelligent Media Processing Research Team, AIST | Apache 2.0 |
-| [Reazon HuBERT](https://huggingface.co/reazon-research/japanese-hubert-base-k2)<br>([base-k2](https://huggingface.co/reazon-research/japanese-hubert-base-k2)) | HuBERT | ReazonSpeech | Reazon Holdings | Apache 2.0 |
-| [UniversityOfTokyoHuBERT](https://huggingface.co/sarulab-speech/hubert-base-jtube)<br>([base-jtube](https://huggingface.co/sarulab-speech/hubert-base-jtube)) | HuBERT | JTubeSpeech | University of Tokyo<br>Saruwatari & Takamichi Lab | MIT |
-| [rinna HuBERT](https://huggingface.co/yky-h/japanese-hubert-base)<br>([base](https://huggingface.co/yky-h/japanese-hubert-base), [large](https://huggingface.co/yky-h/japanese-hubert-large)) | HuBERT | ReazonSpeech | rinna | Apache 2.0 |
-| [Izanami](https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250310/pr20250310.html)<br>([base](https://huggingface.co/imprt/izanami-wav2vec2-base), [large](https://huggingface.co/imprt/izanami-wav2vec2-large)) | wav2vec 2.0 | 60k hours of audio extracted from large-scale Japanese TV broadcast audio data | Intelligent Media Processing Research Team, AIST | Apache 2.0 |
-| [Reazon wav2vec 2.0](https://research.reazon.jp/blog/2024-10-21-Wav2Vec2-base-release.html)<br>([base](https://huggingface.co/reazon-research/japanese-wav2vec2-base), [large](https://huggingface.co/reazon-research/japanese-wav2vec2-large)) | wav2vec 2.0 | ReazonSpeech | Reazon Holdings | Apache 2.0 |
-| [rinna wav2vec 2.0](https://huggingface.co/yky-h/japanese-wav2vec2-base)<br>([base](https://huggingface.co/yky-h/japanese-wav2vec2-base)) | wav2vec 2.0 | ReazonSpeech | rinna | Apache 2.0 |
-| [rinna data2vec Audio](https://huggingface.co/yky-h/japanese-data2vec-audio-base)<br>([base](https://huggingface.co/yky-h/japanese-data2vec-audio-base)) | data2vec Audio | ReazonSpeech | rinna | Apache 2.0 |
-| [Reazon Zipformer](https://huggingface.co/reazon-research/japanese-zipformer-base-k2)<br>([base-k2](https://huggingface.co/reazon-research/japanese-zipformer-base-k2)) | Zipformer | ReazonSpeech | Reazon Holdings | Apache 2.0 |
+|    | Année de sortie |  Architecture  |  Données d'entraînement  |  Développeur  | Licence |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| [NEST-Ja](https://huggingface.co/sbintuitions/nest-ja-0.1b)<br>([**0.1b**](https://huggingface.co/sbintuitions/nest-ja-0.1b), [**0.6b**](https://huggingface.co/sbintuitions/nest-ja-0.6b)) | **2026** | NEST (FastConformer) | ReazonSpeech v2.0 | SB Intuitions | MIT |
+| [Kushinada](https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250310/pr20250310.html)<br>([base](https://huggingface.co/imprt/kushinada-hubert-base), [large](https://huggingface.co/imprt/kushinada-hubert-large)) | 2025 | HuBERT | 60k hours of audio extracted from large-scale Japanese TV broadcast audio data |  Intelligent Media Processing Research Team, AIST | Apache 2.0 |
+| [Reazon HuBERT](https://huggingface.co/reazon-research/japanese-hubert-base-k2)<br>([base-k2](https://huggingface.co/reazon-research/japanese-hubert-base-k2)) | 2025 | HuBERT | ReazonSpeech | Reazon Holdings | Apache 2.0 |
+| [UniversityOfTokyoHuBERT](https://huggingface.co/sarulab-speech/hubert-base-jtube)<br>([base-jtube](https://huggingface.co/sarulab-speech/hubert-base-jtube)) | 2024 | HuBERT | JTubeSpeech | University of Tokyo<br>Saruwatari & Takamichi Lab | MIT |
+| [rinna HuBERT](https://huggingface.co/yky-h/japanese-hubert-base)<br>([base](https://huggingface.co/yky-h/japanese-hubert-base), [large](https://huggingface.co/yky-h/japanese-hubert-large)) | 2023 | HuBERT | ReazonSpeech | rinna | Apache 2.0 |
+| [Izanami](https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250310/pr20250310.html)<br>([base](https://huggingface.co/imprt/izanami-wav2vec2-base), [large](https://huggingface.co/imprt/izanami-wav2vec2-large)) | 2025 | wav2vec 2.0 | 60k hours of audio extracted from large-scale Japanese TV broadcast audio data | Intelligent Media Processing Research Team, AIST | Apache 2.0 |
+| [Reazon wav2vec 2.0](https://research.reazon.jp/blog/2024-10-21-Wav2Vec2-base-release.html)<br>([base](https://huggingface.co/reazon-research/japanese-wav2vec2-base), [large](https://huggingface.co/reazon-research/japanese-wav2vec2-large)) | 2024 | wav2vec 2.0 | ReazonSpeech | Reazon Holdings | Apache 2.0 |
+| [rinna wav2vec 2.0](https://huggingface.co/yky-h/japanese-wav2vec2-base)<br>([base](https://huggingface.co/yky-h/japanese-wav2vec2-base)) | 2024 | wav2vec 2.0 | ReazonSpeech | rinna | Apache 2.0 |
+| [rinna data2vec Audio](https://huggingface.co/yky-h/japanese-data2vec-audio-base)<br>([base](https://huggingface.co/yky-h/japanese-data2vec-audio-base)) | 2024 | data2vec Audio | ReazonSpeech | rinna | Apache 2.0 |
+| [Reazon Zipformer](https://huggingface.co/reazon-research/japanese-zipformer-base-k2)<br>([base-k2](https://huggingface.co/reazon-research/japanese-zipformer-base-k2)) | 2025 | Zipformer | ReazonSpeech | Reazon Holdings | Apache 2.0 |
 
 <a id="music"></a>
 ## Modèles Musique-Langage
@@ -565,9 +565,9 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 <a id="music-text-conversion"></a>
 ### Conversion Musique-Texte
 
-|    |  Architecture  |  Données d'entraînement  |  Développeur  | Licence |
-|:---|:---:|:---:|:---:|:---:|
-| [Japanese MULAN](https://huggingface.co/line-corporation/japanese-mulan-base)<br>([japanese-mulan-base](https://huggingface.co/line-corporation/japanese-mulan-base)) | MULAN (AST + GLuCoSE) | ~20k paires musique-texte internes | LY Corporation | Apache 2.0 |
+|    | Année de sortie |  Architecture  |  Données d'entraînement  |  Développeur  | Licence |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| [Japanese MULAN](https://huggingface.co/line-corporation/japanese-mulan-base)<br>([japanese-mulan-base](https://huggingface.co/line-corporation/japanese-mulan-base)) | 2025 | MULAN (AST + GLuCoSE) | ~20k paires musique-texte internes | LY Corporation | Apache 2.0 |
 
 <a id="benchmark-suites"></a>
 ## Standard d'évaluation pour les LLM en japonais
