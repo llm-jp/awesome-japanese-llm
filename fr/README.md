@@ -246,6 +246,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 | [shisa-ai/shisa-v2-mistral-nemo-12b](https://huggingface.co/shisa-ai/shisa-v2-mistral-nemo-12b) | 2025 | Mistral NeMo (**12b**) || Shisa.AI | Apache 2.0 |
 | [AXCXEPT/EZO-Common-9B-gemma-2-it](https://huggingface.co/AXCXEPT/EZO-Common-9B-gemma-2-it) | 2024 | Gemma 2 (**9b**) || Axcxept | Gemma Terms of Use |
 | [AXCXEPT/EZO-Humanities-9B-gemma-2-it](https://huggingface.co/AXCXEPT/EZO-Humanities-9B-gemma-2-it) | 2024 |Gemma 2 (**9b**) || Axcxept | Gemma Terms of Use |
+| [CAT-Thinking](https://huggingface.co/cyberagent/CAT-Thinking-8B)<br>([8B](https://huggingface.co/cyberagent/CAT-Thinking-8B)) | **2026** | Qwen3 (**8b**) | SFT (données de mathématiques/codage générées par gpt-oss-120b et traduites en japonais via CAT-Translate-7b) / GRPO | CyberAgent | Apache 2.0 |
 | [Shisa V2.1 8B](https://shisa.ai/posts/shisa-v2.1/)<br>([**8b**](https://huggingface.co/shisa-ai/shisa-v2.1-qwen3-8b)) | 2025 | Qwen3 (**8b**) | Combinaison de SFT/DPO/RL/fusion de modèles | Shisa.AI | Apache 2.0 |
 | [AXCXEPT/Qwen3-EZO-8B-beta](https://huggingface.co/AXCXEPT/Qwen3-EZO-8B-beta) | 2025 | Qwen3 (**8b**) | Raisonnement haute performance avec la technique Deep-Think | Axcxept | Apache 2.0 |
 | [shisa-ai/shisa-v2-llama3.1-8b](https://huggingface.co/shisa-ai/shisa-v2-llama3.1-8b) | 2025 | Llama 3.1 (**8b**) || Shisa.AI | Llama 3.1 Community License |

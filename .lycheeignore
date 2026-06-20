@@ -12,3 +12,18 @@ https?://jxiv\.jst\.go\.jp/.*
 
 # Recruit (blocks bot access with 403)
 https?://www\.recruit\.co\.jp/.*
+
+# Stockmark (times out for bot access)
+https?://stockmark\.co\.jp/.*
+
+# Cinnamon AI (times out for bot access)
+https?://cinnamon\.ai/.*
+
+# AI Novelist (times out for bot access)
+https?://ai-novel\.com/.*
+
+# Lightblue (times out for bot access)
+https?://www\.lightblue-tech\.com/.*
+
+# Informatix (rejects bot Accept header with 415)
+https?://www\.informatix\.co\.jp/.*
