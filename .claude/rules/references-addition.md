@@ -9,6 +9,8 @@ paths:
 These files are chronological tables of foundational papers/methods. Columns:
 `モデル・手法名 | 日付 | 会議 | 論文リンク`.
 
+> Note: the main trigger for editing this file is a **model addition** — when you add a model whose base architecture is not yet listed here, add the architecture paper as part of that same change. See `model-addition.md` ("Architecture Reference Paper"). This file only covers *how* to format the row.
+
 ## Ordering (Most Important)
 
 - Rows are sorted in **ascending chronological order by the 日付 column**. Insert a new row at the position matching its date — do NOT append to the end.

@@ -31,6 +31,14 @@ Encoder / embedding models (BERT, RoBERTa, DeBERTa, ELECTRA, LUKE, BigBird, Mode
 - The table columns differ from the generative tables: `モデル | アーキテクチャ | 最大トークン長 | 学習テキスト | 開発元 | ライセンス | 公開`.
 - **最大トークン長 gotcha**: RoBERTa-based models report `max_position_embeddings` with a +2 offset (e.g., `514` → effective **512**). Write the effective length, matching sibling rows.
 
+## Architecture Reference Paper — add alongside the model (easy to forget)
+
+Adding a model and adding its **base architecture's foundational paper** are **one task, not two**. Whenever you add a model, check whether its architecture already has a row in `parts/references_model.md`; if the paper is missing, **add it in the same change** without waiting to be asked.
+
+- Example: adding `layoutlmv3-japanese-preview` requires a **LayoutLMv3** row in `references_model.md`. If absent, add the paper too — do not stop at the model row.
+- Only the **architecture / method paper** belongs there (e.g., LayoutLMv3, Qwen3, ModernBERT), NOT every individual Japanese model. A new model whose architecture is already listed needs no reference addition.
+- For the references row format/ordering, see `references-addition.md`.
+
 ## Training Data Column
 
 | Situation | What to write |
