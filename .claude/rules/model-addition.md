@@ -23,6 +23,22 @@ Models are classified into sections based on training approach. **Evidence is re
 - "Optimized for Japanese" or "Japanese chat model" alone is NOT evidence of continual pre-training
 - Models derived from Japanese continual pre-training models (e.g., Swallow, ELYZA) belong in 継続事前学習 section
 
+## Non-generative (encoder / embedding) models
+
+Encoder / embedding models (BERT, RoBERTa, DeBERTa, ELECTRA, LUKE, BigBird, ModernBERT, **LayoutLM / LayoutLMv2 / LayoutLMv3**, etc.) do **NOT** belong in the generative LLM sections above. They go in the **autoencoding (エンコーダ) section**, which is split into 汎用 and ドメイン特化型.
+
+- Within 汎用, place a new model next to its **architecture family** (e.g., a new LayoutLM variant directly after the existing LayoutLM entry), following the section's existing grouping rather than strict size ordering.
+- The table columns differ from the generative tables: `モデル | アーキテクチャ | 最大トークン長 | 学習テキスト | 開発元 | ライセンス | 公開`.
+- **最大トークン長 gotcha**: RoBERTa-based models report `max_position_embeddings` with a +2 offset (e.g., `514` → effective **512**). Write the effective length, matching sibling rows.
+
+## Architecture Reference Paper — add alongside the model (easy to forget)
+
+Adding a model and adding its **base architecture's foundational paper** are **one task, not two**. Whenever you add a model, check whether its architecture already has a row in `parts/references_model.md`; if the paper is missing, **add it in the same change** without waiting to be asked.
+
+- Example: adding `layoutlmv3-japanese-preview` requires a **LayoutLMv3** row in `references_model.md`. If absent, add the paper too — do not stop at the model row.
+- Only the **architecture / method paper** belongs there (e.g., LayoutLMv3, Qwen3, ModernBERT), NOT every individual Japanese model. A new model whose architecture is already listed needs no reference addition.
+- For the references row format/ordering, see `references-addition.md`.
+
 ## Training Data Column
 
 | Situation | What to write |
@@ -40,11 +56,7 @@ Write the official license name (e.g., "Apache 2.0", "Llama 3 Community License"
 **How to check:**
 - Before adding, scan the model card for sections titled Limitations, Disclaimers, Use Restrictions, 利用上の注意, 制限事項, ご利用にあたって, etc.
 - Look for phrases like "研究開発目的のみ", "research and development purposes only", "not for commercial use", "実臨床での利用は推奨しない", "商用利用には連絡が必要"
-
-**Existing precedents** (consult these for footnote style):
-- `[^13]` — KARAKURI LM: 商用利用には開発元への直接連絡が必要
-- `[^14]` — マージモデル: 研究および教育を目的とした利用を念頭に置く
-- `[^25]` — SIP-med-LLM: 研究開発目的のみでの使用想定、実臨床利用は非推奨
+- For footnote style, mirror an existing `[^n]` footnote in the file.
 
 ## Information Verification Checklist
 
@@ -60,8 +72,4 @@ Write the official license name (e.g., "Apache 2.0", "Llama 3 Community License"
 
 **Press release scope check**: Press releases often describe a model family (e.g., 32B + 8B). Training details quoted from a press release may apply only to the flagship variant. Match each claim to the specific size/variant being added.
 
-**WebFetch summary caveats**: WebFetch returns AI-summarized content that can:
-- Conflate future plans ("will utilize X") with applied techniques ("used X")
-- Flatten "based on (acknowledgment)" into "merged from / fine-tuned from"
-- Drop tense and conditional markers
-When a WebFetch summary mentions "merged", "based on multiple", or any training method, re-fetch with a quote-only prompt or read the page directly to verify.
+**WebFetch summary caveats**: WebFetch returns AI-summarized text that may flatten "based on (acknowledgment)" into "merged/fine-tuned from", conflate future plans with applied techniques, or drop tense. When a summary mentions "merged", "based on multiple", or any training method, re-fetch with a quote-only prompt or read the page directly.
