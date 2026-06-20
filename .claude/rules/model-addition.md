@@ -23,6 +23,14 @@ Models are classified into sections based on training approach. **Evidence is re
 - "Optimized for Japanese" or "Japanese chat model" alone is NOT evidence of continual pre-training
 - Models derived from Japanese continual pre-training models (e.g., Swallow, ELYZA) belong in 継続事前学習 section
 
+## Non-generative (encoder / embedding) models
+
+Encoder / embedding models (BERT, RoBERTa, DeBERTa, ELECTRA, LUKE, BigBird, ModernBERT, **LayoutLM / LayoutLMv2 / LayoutLMv3**, etc.) do **NOT** belong in the generative LLM sections above. They go in the **autoencoding (エンコーダ) section**, which is split into 汎用 and ドメイン特化型.
+
+- Within 汎用, place a new model next to its **architecture family** (e.g., a new LayoutLM variant directly after the existing LayoutLM entry), following the section's existing grouping rather than strict size ordering.
+- The table columns differ from the generative tables: `モデル | アーキテクチャ | 最大トークン長 | 学習テキスト | 開発元 | ライセンス | 公開`.
+- **最大トークン長 gotcha**: RoBERTa-based models report `max_position_embeddings` with a +2 offset (e.g., `514` → effective **512**). Write the effective length, matching sibling rows.
+
 ## Training Data Column
 
 | Situation | What to write |

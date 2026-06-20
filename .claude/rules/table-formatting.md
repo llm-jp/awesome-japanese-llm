@@ -13,6 +13,7 @@ paths:
 - **License format**: Use official names with consistent capitalization
 - **Release year bolding**: The latest/newest release year (e.g., the current year) should be **bolded** in the table. When the year is no longer the newest, the bold is removed (see commit history for precedent).
 - **Developer column for individuals**: When the developer is an individual (not a company/university/research lab), use the format `個人 (name)` (JA) / `Individual (name)` (EN) / `Individuel (name)` (FR). Do NOT write the HuggingFace username alone.
+- **Developer column — canonical organization names**: Use the project's established label for an organization, consistent across all three language files. When unsure, **grep an existing row for the same developer** rather than inventing a label from the HuggingFace org name. Notable case: LLM-jp models use 「大規模言語モデル研究開発センター」(JA) / "Research and Development Center for Large Language Models" (EN) / "Centre de recherche et développement pour les grands modèles de langage" (FR) — NOT "LLM-jp".
 
 # Cell Content Formatting
 
