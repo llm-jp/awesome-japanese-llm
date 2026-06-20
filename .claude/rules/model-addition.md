@@ -56,11 +56,7 @@ Write the official license name (e.g., "Apache 2.0", "Llama 3 Community License"
 **How to check:**
 - Before adding, scan the model card for sections titled Limitations, Disclaimers, Use Restrictions, 利用上の注意, 制限事項, ご利用にあたって, etc.
 - Look for phrases like "研究開発目的のみ", "research and development purposes only", "not for commercial use", "実臨床での利用は推奨しない", "商用利用には連絡が必要"
-
-**Existing precedents** (consult these for footnote style):
-- `[^13]` — KARAKURI LM: 商用利用には開発元への直接連絡が必要
-- `[^14]` — マージモデル: 研究および教育を目的とした利用を念頭に置く
-- `[^25]` — SIP-med-LLM: 研究開発目的のみでの使用想定、実臨床利用は非推奨
+- For footnote style, mirror an existing `[^n]` footnote in the file.
 
 ## Information Verification Checklist
 
@@ -76,8 +72,4 @@ Write the official license name (e.g., "Apache 2.0", "Llama 3 Community License"
 
 **Press release scope check**: Press releases often describe a model family (e.g., 32B + 8B). Training details quoted from a press release may apply only to the flagship variant. Match each claim to the specific size/variant being added.
 
-**WebFetch summary caveats**: WebFetch returns AI-summarized content that can:
-- Conflate future plans ("will utilize X") with applied techniques ("used X")
-- Flatten "based on (acknowledgment)" into "merged from / fine-tuned from"
-- Drop tense and conditional markers
-When a WebFetch summary mentions "merged", "based on multiple", or any training method, re-fetch with a quote-only prompt or read the page directly to verify.
+**WebFetch summary caveats**: WebFetch returns AI-summarized text that may flatten "based on (acknowledgment)" into "merged/fine-tuned from", conflate future plans with applied techniques, or drop tense. When a summary mentions "merged", "based on multiple", or any training method, re-fetch with a quote-only prompt or read the page directly.
