@@ -96,4 +96,5 @@
 | Dream | 2025.08.21 | - | [Dream 7B: Diffusion Large Language Models](https://arxiv.org/abs/2508.15487) |
 | Qwen3 | 2025.05.14 | - | [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) |
 | GPT-OSS | 2025.08.08 | - | [gpt-oss-120b & gpt-oss-20b Model Card](https://arxiv.org/abs/2508.10925) |
+| GLM-4.5 | 2025.08.08 | - | [GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models](https://arxiv.org/abs/2508.06471) |
 | PLaMo 2 | 2025.09.05 | - | [PLaMo 2 Technical Report](https://arxiv.org/abs/2509.04897) |
