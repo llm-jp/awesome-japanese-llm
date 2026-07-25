@@ -199,6 +199,9 @@
 
 |    | 公開年 | ドメイン | ベースのLLM  | 学習テキスト |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
+| [Weblab-MedLLM-GLM-4.7](https://huggingface.co/weblab-LLM-M/Weblab-MedLLM-GLM-4.7) | **2026** | 医療 | GLM-4.7 (**355b-A32B**) | 医学論文・医学書籍・診療ガイドライン・試験問題などを由来とする独自の合成データで継続事前学習、その後事後学習 | 東大 松尾・岩澤研 | MIT[^28] |
+| [Weblab-MedLLM-Qwen3-235B](https://www.t.u-tokyo.ac.jp/press/pr2026-07-08-001)<br>([Instruct](https://huggingface.co/weblab-LLM-M/Weblab-MedLLM-Qwen3-235B-Instruct), [Thinking](https://huggingface.co/weblab-LLM-M/Weblab-MedLLM-Qwen3-235B-Thinking)) | **2026** | 医療 | Qwen3 (**235b-A22B**) | 医学論文・医学書籍・診療ガイドライン・試験問題などを由来とする独自の合成データで継続事前学習、その後事後学習 | 東大 松尾・岩澤研 | Apache 2.0[^28] |
+| [Weblab-MedLLM-gpt-oss-120b](https://huggingface.co/weblab-LLM-M/Weblab-MedLLM-gpt-oss-120b) | **2026** | 医療 | GPT-OSS (**120b**) | 医学論文・医学書籍・診療ガイドライン・試験問題などを由来とする独自の合成データで継続事前学習、その後事後学習 | 東大 松尾・岩澤研 | Apache 2.0[^28] |
 | [Medical-GPT-OSS-Swallow-120B](https://huggingface.co/tokyotech-llm/Medical-GPT-OSS-Swallow-120B) | **2026** | 医療 | GPT-OSS (**120b**) | 生物医学文献・医療合成データ・医療QA・診療ガイドライン等の医療ドメインテキストを中心とした混合データで GPT-OSS Swallow 120B (RL) に継続事前学習 | Swallowプロジェクト | Apache 2.0[^25] |
 | [pfnet/Preferred-MedLLM-Qwen-72B](https://huggingface.co/pfnet/Preferred-MedLLM-Qwen-72B) | 2025 | 医療 | Qwen2.5 (**72b**) | 独自の医療関連テキストコーパスで継続事前学習 | Preferred Networks | Qwen LICENSE |
 | [Llama3-Preferred-MedSwallow-70B](https://tech.preferred.jp/ja/blog/llama3-preferred-medswallow-70b/)<br>([70B](https://huggingface.co/pfnet/Llama3-Preferred-MedSwallow-70B)) | 2024 | 医療 | Llama 3 (**70b**) | 医師国家試験（2017年以前）の解説等からなる PFN 独自の医療データセットで学習 | Preferred Networks | Llama 3 Community License |
@@ -785,3 +788,5 @@
 [^26]: 漢字仮名交じり文ではなくカタカナ列を出力するモデルである。TTS の漢字読み精度を測る評価指標 Kana-CER のバックボーンとして開発された。
 
 [^27]: 研究目的限定で配布されており、再配布・商用利用および実臨床での直接利用は許諾されていない。また、現時点では base（事前学習）段階のモデルであり、文末（EOD / EOS）トークンの出力が安定しない、同じ内容を繰り返し出力するといった既知の制限がある。
+
+[^28]: ライセンスとは別に、モデルカード上では実際の臨床現場における疾患の診断や臨床意思決定支援としての直接利用は推奨されておらず、医療専門家による判断を補助する情報提供ツールとしての利用にとどめることが推奨されている。
