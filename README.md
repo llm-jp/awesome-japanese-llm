@@ -105,6 +105,7 @@
 | [SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-2-8x13b-OP-instruct) | 2025 | 医療 | MoE | 医療系コーパス (**44.2B** トークン) で LLM-jp-3 MoE (8x13b) に追加事前学習、その後 Instruction Tuning | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0[^25] |
 | [SIP-med-LLM/SIP-jmed-llm-3-13b-OP-32k-R0.1](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-13b-OP-32k-R0.1) | **2026** | 医療 | Llama | 医療系コーパス (**78.3B** トークン) で LLM-jp-3.1 (13b) に追加事前学習、コンテキスト長を 32k に拡張、その後 Instruction Tuning | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0[^25] |
 | [SIP-med-LLM/SIP-jmed-llm-3-13b-OP-4k-base](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-13b-OP-4k-base) | 2025 | 医療 | Llama | 医療系コーパス (**78.3B** トークン) で LLM-jp-3.1 (13b) に追加事前学習 | 戦略的イノベーション創造プログラム（SIP）第3期課題「統合型ヘルスケアシステムの構築における生成 AI 活用」テーマ1「安全性・信頼性を持つオープンな医療 LLM の開発・社会実装」 研究グループ | Apache 2.0[^25] |
+| [AscleLM-1-10B](https://huggingface.co/weblab-LLM-M/AscleLM-1-10B) | **2026** | 医療 | Mamba-2 Hybrid<br>(Nemotron-H ベース) | 事前学習: Nemotron-CC v1 (約 **6.3T** トークン)、オープンソースの日本語・英語・中国語コーパス、コード・数学・推論データ (計 約 **8.5T** トークン)、および医学論文・医学書籍・診療ガイドライン・試験問題を由来とする合成データ | 東大 松尾研 | AscleLM-1-10B Terms of Use[^27] |
 | [日本語対話Transformer](https://group.ntt/jp/topics/2021/09/30/transformer.html) | 2021 | 対話 |Transformer | Twitter 上の日本語リプライのペア | NTT | [独自のライセンス](https://github.com/nttcslab/japanese-dialog-transformers/blob/main/LICENSE.md) |
 | [日本語ニュースBART](https://tech.stockmark.co.jp/blog/bart-japanese-base-news/) | 2023 | ビジネス | BART ([base](https://huggingface.co/stockmark/bart-base-japanese-news)) | 日本語ビジネスニュース記事（約2,100万記事 (2.9億文)） | ストックマーク | MIT |
 | [AcademicBART](https://github.com/EhimeNLP/AcademicBART) | 2023 | 学術 | BART ([base](https://huggingface.co/EhimeNLP/AcademicBART)) | CiNii の日本語論文 | 愛媛大 人工知能研究室 | Apache 2.0 |
@@ -782,3 +783,5 @@
 [^25]: ライセンスとは別に、モデルカード上では研究開発目的のみでの使用が想定されており、実際の臨床現場における疾患の診断や臨床意思決定支援としての直接利用は推奨されていない。
 
 [^26]: 漢字仮名交じり文ではなくカタカナ列を出力するモデルである。TTS の漢字読み精度を測る評価指標 Kana-CER のバックボーンとして開発された。
+
+[^27]: 研究目的限定で配布されており、再配布・商用利用および実臨床での直接利用は許諾されていない。また、現時点では base（事前学習）段階のモデルであり、文末（EOD / EOS）トークンの出力が安定しない、同じ内容を繰り返し出力するといった既知の制限がある。

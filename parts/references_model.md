@@ -76,6 +76,7 @@
 | Phi-3 | 2024.04.22 | - | [Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone](https://arxiv.org/abs/2404.14219) |
 | InternVL 1.5 | 2024.04.25 | - | [How Far Are We to GPT-4V? Closing the Gap to Commercial Multimodal Models with Open-Source Suites](https://arxiv.org/abs/2404.16821) |
 | Swallow | 2024.04.27 | COLM 2024 | [Continual Pre-Training for Cross-Lingual LLM Adaptation: Enhancing Japanese Language Capabilities](https://arxiv.org/abs/2404.17790) |
+| Mamba-2 | 2024.05.31 | ICML 2024 | [Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality](https://arxiv.org/abs/2405.21060) |
 | Samba | 2024.06.11 | ICLR 2025 | [Samba: Simple Hybrid State Space Models for Efficient Unlimited Context Language Modeling](https://arxiv.org/abs/2406.07522) |
 | LLM-jp-13B | 2024.07.04 | - | [LLM-jp: A Cross-organizational Project for the Research and Development of Fully Open Japanese LLMs](https://arxiv.org/abs/2407.03963) |
 | Qwen2 | 2024.07.15 | - | [Qwen2 Technical Report](https://arxiv.org/abs/2407.10671) |
@@ -90,6 +91,7 @@
 | NVILA | 2024.12.05 | CVPR 2025 | [NVILA: Efficient Frontier Visual Language Models](https://arxiv.org/abs/2412.04468) |
 | Qwen2.5 | 2024.12.19 | - | [Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115) |
 | DeepSeek-R1 | 2025.01.22 | - | [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) |
+| Nemotron-H | 2025.04.04 | - | [Nemotron-H: A Family of Accurate and Efficient Hybrid Mamba-Transformer Models](https://arxiv.org/abs/2504.03624) |
 | Nemotron-Nano | 2025.08.20 | - | [NVIDIA Nemotron Nano 2: An Accurate and Efficient Hybrid Mamba-Transformer Reasoning Model](https://arxiv.org/abs/2508.14444) |
 | Dream | 2025.08.21 | - | [Dream 7B: Diffusion Large Language Models](https://arxiv.org/abs/2508.15487) |
 | Qwen3 | 2025.05.14 | - | [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) |
