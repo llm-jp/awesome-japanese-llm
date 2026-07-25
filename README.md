@@ -524,6 +524,7 @@
 |    | 公開年 |  アーキテクチャ  |  学習コーパス  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | [Nue ASR](https://huggingface.co/yky-h/nue-asr)<br>([nue-asr](https://huggingface.co/yky-h/nue-asr)) | 2023 | Nue ASR<br>(HuBERT + LLM) | ReazonSpeech | rinna | Apache 2.0 |
+| [Kana-Whisper](https://huggingface.co/sbintuitions/kana-whisper)[^26]<br>([kana-whisper](https://huggingface.co/sbintuitions/kana-whisper)) | **2026** | Whisper (large-v3-turbo) | 日本語話し言葉コーパス（CSJ） | SB Intuitions | MIT |
 | [Kotoba-Whisper](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0)<br>([v1.0](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0), [v1.0-ggml](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0-ggml), [v1.0-faster](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0-faster), [v1.1](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.1), [bilingual-v1.0](https://huggingface.co/kotoba-tech/kotoba-whisper-bilingual-v1.0), [bilingual-v1.0-ggml](https://huggingface.co/kotoba-tech/kotoba-whisper-bilingual-v1.0-ggml), [bilingual-v1.0-faster](https://huggingface.co/kotoba-tech/kotoba-whisper-bilingual-v1.0-faster), [v2.0](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0), [v2.0-ggml](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0-ggml), [v2.0-faster](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0-faster), [v2.1](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.1), [v2.2](https://huggingface.co/kotoba-tech/kotoba-whisper-v2.2)) | 2024 | Distil-Whisper | ReazonSpeech<br>(+ Multilingual LibriSpeech) | Kotoba Technologies | Apache 2.0 |
 | [ReazonSpeech](https://research.reazon.jp/projects/ReazonSpeech/)<br>([espnet-v1](https://huggingface.co/reazon-research/reazonspeech-espnet-v1), [espnet-next](https://huggingface.co/reazon-research/reazonspeech-espnet-next), [espnet-v2](https://huggingface.co/reazon-research/reazonspeech-espnet-v2), [nemo-v2](https://huggingface.co/reazon-research/reazonspeech-nemo-v2)) | 2024 | ESPnet (Conformer-Transducer) または NeMo (FastConformer-RNNT) | ReazonSpeech | レアゾン・ホールディングス | Apache 2.0 |
 | [Reazon HuBERT ASR](https://huggingface.co/reazon-research/japanese-hubert-base-k2-rs35kh)<br>([rs35kh](https://huggingface.co/reazon-research/japanese-hubert-base-k2-rs35kh), [rs35kh-bpe](https://huggingface.co/reazon-research/japanese-hubert-base-k2-rs35kh-bpe)) | 2025 | HuBERT | ReazonSpeech v2.0 | レアゾン・ホールディングス | Apache 2.0 |
@@ -691,6 +692,7 @@
 |   | 説明 | 開発元 |
 |:---|:---|:---:|
 | <a id="voicebench-ja"></a> [VoiceBench-ja](https://huggingface.co/datasets/sbintuitions/voicebench-ja) | 音声入力に対応した日本語LLM（音声言語モデル）の性能を、音声入力時とテキスト入力時の差として評価するベンチマーク。Elyza（ELYZA-tasks-100 由来の 36 問）、Spoken-Elyza（音声対話向けに精緻化された 34 問）、M-IFEval（指示追従 172 問）、JamC-QA（日本固有の知識を問う多肢選択 1,452 問）の 4 つのサブセットから構成される。音声は JVS コーパスの話者プロンプトを用いて SB Intuitions 独自の TTS で合成されている（テキストは CC BY-SA 4.0、音声は商用利用・再配布不可）。 | SB Intuitions |
+| <a id="joyo-kanji-yomi-benchmark"></a> [Joyo Kanji Yomi Benchmark](https://huggingface.co/datasets/sbintuitions/joyo-kanji-yomi-benchmark) | 日本語 TTS の漢字レベルの読み精度を評価するベンチマーク。常用漢字 2,136 字とその 4,378 通りの読みを網羅する 13,095 文から構成され、各文は対象漢字の読みが文脈から一意に定まるように作られている。各文には全文のカタカナ読みが付与され、対象漢字に対応する読みの範囲が区切り記号で示されている。35 名の日本語母語話者による 3 段階の検証を経ている。合成音声を Kana-Whisper でカタカナ列に書き起こして参照読みと比較する[評価ツールキット](https://github.com/sbintuitions/Joyo-Kanji-Yomi-Benchmark)も公開されている。 | SB Intuitions |
 
 <a id="reference"></a>
 ## 各モデル・アーキテクチャの原論文
@@ -778,3 +780,5 @@
 [^24]: 公式にはベースモデルについて明言されていないが、HuggingFace リポジトリ上の config.json のアーキテクチャが `DeepseekV3ForCausalLM` であること、トークナイザが DeepSeek-V3 と一致すること、DeepSeek の NOTICE ファイルが含まれていることから、DeepSeek-V3 をベースにしている可能性が高い。
 
 [^25]: ライセンスとは別に、モデルカード上では研究開発目的のみでの使用が想定されており、実際の臨床現場における疾患の診断や臨床意思決定支援としての直接利用は推奨されていない。
+
+[^26]: 漢字仮名交じり文ではなくカタカナ列を出力するモデルである。TTS の漢字読み精度を測る評価指標 Kana-CER のバックボーンとして開発された。
