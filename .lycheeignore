@@ -27,3 +27,6 @@ https?://www\.lightblue-tech\.com/.*
 
 # Informatix (rejects bot Accept header with 415)
 https?://www\.informatix\.co\.jp/.*
+
+# Google Developers Blog (rate limits bot access with 429)
+https?://developers-jp\.googleblog\.com/.*
