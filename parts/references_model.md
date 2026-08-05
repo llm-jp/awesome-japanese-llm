@@ -95,6 +95,7 @@
 | Nemotron-Nano | 2025.08.20 | - | [NVIDIA Nemotron Nano 2: An Accurate and Efficient Hybrid Mamba-Transformer Reasoning Model](https://arxiv.org/abs/2508.14444) |
 | Dream | 2025.08.21 | - | [Dream 7B: Diffusion Large Language Models](https://arxiv.org/abs/2508.15487) |
 | Qwen3 | 2025.05.14 | - | [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) |
+| Kimi K2 | 2025.07.28 | - | [Kimi K2: Open Agentic Intelligence](https://arxiv.org/abs/2507.20534) |
 | GPT-OSS | 2025.08.08 | - | [gpt-oss-120b & gpt-oss-20b Model Card](https://arxiv.org/abs/2508.10925) |
 | GLM-4.5 | 2025.08.08 | - | [GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models](https://arxiv.org/abs/2508.06471) |
 | PLaMo 2 | 2025.09.05 | - | [PLaMo 2 Technical Report](https://arxiv.org/abs/2509.04897) |
