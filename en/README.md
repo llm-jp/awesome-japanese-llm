@@ -307,12 +307,12 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 |    | Release Year |  Max Context Length | Developer  | Platform |
 |:---|:---:|:---:|:---:|:---:|
-| [PLaMo API](https://plamo.preferredai.jp/api) | 2024 | 32,768 | Preferred Networks | self-owned |
-| [AI Novelist](https://ai-novel.com/account_api.php) | 2021 | 2,400 ~ 8,192 | Bit192 | self-owned |
-| [LHTM-OPT](https://aws.amazon.com/marketplace/pp/prodview-nw62wpreit442) | 2024 | | alt Inc. | AWS Marketplace (SageMaker) |
-| [Syn](https://www.upstage.ai/news/introducing-upstage-japan)<br>([Syn](https://aws.amazon.com/marketplace/pp/prodview-if7zjxeioy5pg), [Syn Pro](https://aws.amazon.com/marketplace/pp/prodview-d7vt6ap2jhvfg)) | 2025 | 32,768 | KARAKURI, Upstage | AWS Marketplace (SageMaker) |
-| [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://ai.azure.com/catalog/models/tsuzumi-7b)) | 2024 | | NTT | Microsoft Foundry |
 | [Sakana Namazu](https://sakana.ai/namazu/)<br>([sakana-namazu](https://console.sakana.ai/models?model=sakana-namazu)) | **2026** | 262,144 | Sakana AI | self-owned |
+| [Syn](https://www.upstage.ai/news/introducing-upstage-japan)<br>([Syn](https://aws.amazon.com/marketplace/pp/prodview-if7zjxeioy5pg), [Syn Pro](https://aws.amazon.com/marketplace/pp/prodview-d7vt6ap2jhvfg)) | 2025 | 32,768 | KARAKURI, Upstage | AWS Marketplace (SageMaker) |
+| [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://ai.azure.com/catalog/models/tsuzumi-7b), [tsuzumi 2](https://marketplace.microsoft.com/en-us/product/1681106214127.nttdata-tsuzumi-2-instruct-offer)) | 2025 | | NTT | Microsoft Foundry |
+| [PLaMo API](https://plamo.preferredai.jp/api) | 2024 | 32,768 | Preferred Networks | self-owned |
+| [LHTM-OPT](https://aws.amazon.com/marketplace/pp/prodview-nw62wpreit442) | 2024 | | alt Inc. | AWS Marketplace (SageMaker) |
+| [AI Novelist](https://ai-novel.com/account_api.php) | 2021 | 2,400 ~ 8,192 | Bit192 | self-owned |
 
 <a id="autoencoding"></a>
 ## Encoder models

@@ -30,3 +30,6 @@ https?://www\.informatix\.co\.jp/.*
 
 # Google Developers Blog (rate limits bot access with 429)
 https?://developers-jp\.googleblog\.com/.*
+
+# Microsoft Marketplace (blocks non-browser user agents with 403)
+https?://(azure)?marketplace\.microsoft\.com/.*
