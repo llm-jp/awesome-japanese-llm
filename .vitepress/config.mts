@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
+import { generateLlmsTxt } from './llms'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -47,6 +48,9 @@ export default defineConfig({
     }
   },
   lastUpdated: true,
+  buildEnd(siteConfig) {
+    generateLlmsTxt(siteConfig)
+  },
   locales: {
     root: {
       label: '日本語',
