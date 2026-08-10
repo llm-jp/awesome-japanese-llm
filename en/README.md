@@ -1,13 +1,14 @@
 # Overview of Japanese LLMs
 [ English | [**Français**](../fr/) | [**日本語**](../) ]
 
-<div class="github-only">
+<!-- github-only:start -->
 
+> [!IMPORTANT]
 > **📖 Please visit the more readable Web version**
 >
 > The content of this README is available in a more readable format at **[llm-jp.github.io/awesome-japanese-llm/en](https://llm-jp.github.io/awesome-japanese-llm/en/)**. We recommend viewing the Web version to avoid table display issues and layout problems.
 
-</div>
+<!-- github-only:end -->
 
 A list of publicly available LLMs trained with a focus on Japanese, along with their evaluation benchmarks, maintained by volunteers from various sources like academic papers and other public resources.
 

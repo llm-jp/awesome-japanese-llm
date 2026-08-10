@@ -1,13 +1,14 @@
 # 日本語LLMまとめ
 [ [**English**](./en/) | [**Français**](./fr/) | 日本語 ]
 
-<div class="github-only">
+<!-- github-only:start -->
 
+> [!IMPORTANT]
 > **📖 より読みやすいWeb版をご利用ください**
-> 
+>
 > このREADMEの内容は、**[llm-jp.github.io/awesome-japanese-llm](https://llm-jp.github.io/awesome-japanese-llm)** でより見やすい形式でご覧いただけます。表の表示崩れやレイアウトの問題を防ぐため、Web版の閲覧を推奨いたします。
 
-</div>
+<!-- github-only:end -->
 
 この記事は、一般公開されている日本語LLM（日本語を中心に学習されたLLM）および日本語LLM評価ベンチマークに関する情報をまとめたものです。情報は、有志により収集されており、その一部は論文や公開されているリソースなどから引用しています。
 
