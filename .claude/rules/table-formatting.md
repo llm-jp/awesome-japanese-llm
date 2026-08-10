@@ -9,11 +9,21 @@ paths:
 
 - **Parameter size ordering**: Descending order within each section (largest first)
 - **Architecture column**: Base architecture name (e.g., "Llama 3.1", "Qwen2.5"), NOT attention mechanisms
-- **Multiple sizes**: Use a **separate row per size**, in descending parameter-size order. Do NOT combine multiple sizes into a single row.
+- **Multiple sizes**: Use a **separate row per size**, in descending parameter-size order. Do NOT combine multiple sizes into a single row. This rule is about **sizes of one release**; successive versions of the same series are a different case — see the API table section below and check how the existing row for that series is written before splitting it.
 - **License format**: Use official names with consistent capitalization
 - **Release year bolding**: The latest/newest release year (e.g., the current year) should be **bolded** in the table. When the year is no longer the newest, the bold is removed (see commit history for precedent).
 - **Developer column for individuals**: When the developer is an individual (not a company/university/research lab), use the format `個人 (name)` (JA) / `Individual (name)` (EN) / `Individuel (name)` (FR). Do NOT write the HuggingFace username alone.
 - **Developer column — canonical organization names**: Use the project's established label for an organization, consistent across all three language files. When unsure, **grep an existing row for the same developer** rather than inventing a label from the HuggingFace org name. Notable case: LLM-jp models use 「大規模言語モデル研究開発センター」(JA) / "Research and Development Center for Large Language Models" (EN) / "Centre de recherche et développement pour les grands modèles de langage" (FR) — NOT "LLM-jp".
+
+# 「APIとして提供されているモデル」 Table
+
+Columns: `モデル | 公開年 | 入出力で扱えるトークン数 | 開発元 | プラットフォーム`. This table has no parameter-size column, so the rules above about size ordering do not apply.
+
+- **Ordering**: by 公開年, **descending** (newest first). Within the same year, keep the existing relative order of rows.
+- **One row per model series, not per version.** A new generation of a series already listed (e.g., tsuzumi → tsuzumi 2) goes into the **existing row** as an additional parenthesized link, following the `[series](announcement)<br>([variant](link), [variant](link))` pattern used by Syn / Syn Pro. Do NOT add a second row for it.
+- **公開年 of a multi-version row**: the year of the **newest** version listed. Update the existing value when adding a newer version (and apply the bolding rule above).
+- **公開年 means the year the developer started offering the model**, not the year it appeared on a particular platform. Example: tsuzumi 2 → 2025 (NTT 提供開始 2025-10-20), even though it reached Microsoft Foundry / Azure Marketplace on 2026-05-20.
+- **トークン数**: leave the cell **empty** when the context length is not publicly documented (as with tsuzumi). Do not substitute a figure for a different variant of the same series.
 
 # Cell Content Formatting
 
