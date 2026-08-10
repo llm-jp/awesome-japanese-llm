@@ -33,6 +33,14 @@ Columns: `モデル | 公開年 | 入出力で扱えるトークン数 | 開発�
   - **Prose** — when distinguishing among model variants in the same row (e.g., `-Jagle` / `-FineVision` suffixes), describe the distinction in a single sentence with parenthetical qualifiers, not stacked bullets.
 - `<br>` itself is fine for line breaks; the rule is specifically about avoiding `-` at line starts and avoiding repeated label-style rows that mimic bullet lists for model variants.
 
+# Link Checker (CI)
+
+The `check-links` workflow runs lychee over the three README files with a bot user agent. Some sites answer bots with 403/415/429 or time out even though the URL is fine in a browser — those are listed in `.lycheeignore`.
+
+- After adding a URL from a host not already in `.lycheeignore`, verify it the way CI will:
+  `curl -s -o /dev/null -w "%{http_code}\n" -A "Mozilla/5.0 (compatible; lychee-link-checker)" -L <url>`
+- If it fails only for the bot UA, add a `.lycheeignore` entry **in the same change**, following the existing `# Site (reason)` + regex format. Do not swap in a different URL just to appease the checker.
+
 # Multilingual Consistency
 
 - Update all three files (README.md, en/README.md, fr/README.md) simultaneously
