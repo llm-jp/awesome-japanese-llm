@@ -119,7 +119,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 <a id="generative-continual-general"></a>
 #### D'usage général
 
-|    | Année de publication | Base du Model  |  Données d'entraînement  |  Développeur  |  Licence / Conditions d'utilisation  |
+|    | Année de sortie | Base du Model  |  Données d'entraînement  |  Développeur  |  Licence / Conditions d'utilisation  |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | [GPT-OSS Swallow 120B](https://swallow-llm.github.io/gptoss-swallow.ja.html)<br>([120B-SFT-v0.1](https://huggingface.co/tokyotech-llm/GPT-OSS-Swallow-120B-SFT-v0.1), [120B-RL-v0.1](https://huggingface.co/tokyotech-llm/GPT-OSS-Swallow-120B-RL-v0.1), [120B-RL-v0.1-MXFP4](https://huggingface.co/tokyotech-llm/GPT-OSS-Swallow-120B-RL-v0.1-MXFP4)) | **2026** | GPT-OSS (**120b**) | Pré-entraînement : Wikipedia, Swallow Corpus v3.2, Nemotron-CC, Cosmopedia, Laboro ParaCorpus, Swallow Math v2, Swallow Code v2<br>(**419.4B** tokens)<br>SFT : GPT-OSS-LMSYS-Chat-1M-Synth, Swallow-Nemotron-Post-Training-Dataset-v1<br>RL : allenai/Dolci-Think-RL-7B (Math subset) | Swallow Project | Apache 2.0 |
 | [Llama 3.3 Swallow 70B](https://swallow-llm.github.io/llama3.3-swallow.en.html)<br>([70B-v0.4](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-v0.4), [70B-Instruct-v0.4](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4)) | 2025 | Llama 3.3 (**70b**) | Pre-training: Wikipedia, DCLM-baseline-1.0, Swallow Corpus Version 2, Cosmopedia, Laboro ParaCorpus, FineMath-4+, Swallow Code Version 0.3<br>Instruction Tuning: Gemma-2-LMSYS-Chat-1M-Synth, Swallow-Magpie-Ultra-v0.1, Swallow-Gemma-Magpie-v0.1, Swallow-Code-v0.3-Instruct-style | Swallow Project | Llama 3.3 Community License & Gemma Terms of Use |

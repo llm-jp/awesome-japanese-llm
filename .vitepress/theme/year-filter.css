@@ -1,0 +1,46 @@
+.year-filter {
+  position: fixed;
+  bottom: 2rem;
+  right: 5.5rem;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 3rem;
+  padding: 0 0.875rem;
+  border-radius: 1.5rem;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.25s;
+}
+
+.year-filter:focus-within {
+  border-color: var(--vp-c-brand-1);
+}
+
+.year-filter-legend {
+  color: var(--vp-c-text-2);
+  font-size: 0.8125rem;
+  white-space: nowrap;
+}
+
+.year-filter-select {
+  border: none;
+  background: transparent;
+  color: var(--vp-c-text-1);
+  font-size: 0.875rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.year-filter-empty {
+  color: var(--vp-c-text-3);
+  font-size: 0.875rem;
+}
+
+@media (max-width: 640px) {
+  .year-filter-legend {
+    display: none;
+  }
+}
