@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
-import { generateLlmsTxt } from './llms'
+import { generateLlmsTxt, GITHUB_ONLY_BLOCK } from './llms'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -48,6 +48,20 @@ export default defineConfig({
     }
   },
   lastUpdated: true,
+  vite: {
+    plugins: [
+      {
+        name: 'strip-github-only-blocks',
+        enforce: 'pre',
+        transform(code: string, id: string): string | undefined {
+          // GitHub 閲覧時のみ表示するブロック (<!-- github-only:start/end -->) を Web 版から除去する
+          if (id.endsWith('README.md')) {
+            return code.replace(GITHUB_ONLY_BLOCK, '')
+          }
+        },
+      },
+    ],
+  },
   buildEnd(siteConfig) {
     generateLlmsTxt(siteConfig)
   },

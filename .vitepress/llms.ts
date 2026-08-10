@@ -30,6 +30,8 @@ const INDEX = `# 日本語LLMまとめ (Overview of Japanese LLMs)
 - [Version française](${SITE_URL}/fr/)
 `
 
+export const GITHUB_ONLY_BLOCK = /<!-- github-only:start -->[\s\S]*?<!-- github-only:end -->\n?/g
+
 function resolveIncludes(content: string, srcDir: string): string {
   return content.replace(/<!--@include:\s*@\/(.+?)\s*-->/g, (_, path: string) =>
     readFileSync(resolve(srcDir, path), 'utf-8')
@@ -40,7 +42,7 @@ function cleanForLlms(content: string): string {
   return (
     content
       // Web 版への誘導ブロック（GitHub 閲覧時のみ表示）はプレーンテキストでは不要
-      .replace(/<div class="github-only">[\s\S]*?<\/div>\n?/g, '')
+      .replace(GITHUB_ONLY_BLOCK, '')
       .replace(/^\[\[toc\]\]\n?/gm, '')
       .replace(/^:::\s*details.*$\n?/gm, '')
       .replace(/^:::\s*\w+\s+(.+)$/gm, '**$1**')

@@ -1,14 +1,14 @@
 # Aperçu des grands modèles de langage (LLM) en japonais
 [ [**English**](../en/) | Français | [**日本語**](../) ]
 
-<div class="github-only">
+<!-- github-only:start -->
 
 > [!IMPORTANT]
 > **📖 Veuillez consulter la version Web plus lisible**
 >
 > Le contenu de ce README est disponible dans un format plus lisible sur **[llm-jp.github.io/awesome-japanese-llm/fr](https://llm-jp.github.io/awesome-japanese-llm/fr/)**. Nous recommandons de consulter la version Web pour éviter les problèmes d'affichage des tableaux et de mise en page.
 
-</div>
+<!-- github-only:end -->
 
 Voici une liste des LLMs disponibles au grand public, axés sur l'apprentissage du japonais, ainsi que leurs critères d'évaluation. Cette liste est maintenue par des bénévoles qui collectent des informations à partir de diverses sources telles que des articles académiques et d'autres ressources publiques.
 
