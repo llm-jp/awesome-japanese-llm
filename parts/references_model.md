@@ -92,6 +92,7 @@
 | Qwen2.5 | 2024.12.19 | - | [Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115) |
 | DeepSeek-R1 | 2025.01.22 | - | [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) |
 | Nemotron-H | 2025.04.04 | - | [Nemotron-H: A Family of Accurate and Efficient Hybrid Mamba-Transformer Models](https://arxiv.org/abs/2504.03624) |
+| InternVL 3 | 2025.04.14 | - | [InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models](https://arxiv.org/abs/2504.10479) |
 | Nemotron-Nano | 2025.08.20 | - | [NVIDIA Nemotron Nano 2: An Accurate and Efficient Hybrid Mamba-Transformer Reasoning Model](https://arxiv.org/abs/2508.14444) |
 | Dream | 2025.08.21 | - | [Dream 7B: Diffusion Large Language Models](https://arxiv.org/abs/2508.15487) |
 | Qwen3 | 2025.05.14 | - | [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) |
