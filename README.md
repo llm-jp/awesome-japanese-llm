@@ -296,6 +296,7 @@
 
 <a id="merged-models"></a>
 ### 複数のLLMをマージして作成されたモデル
+- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — capture the real LLM request/response stream and replay it offline.
 
 |    | 公開年 |  マージ元のLLM（太字は日本語LLM）  | 開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|
