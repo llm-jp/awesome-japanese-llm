@@ -545,8 +545,9 @@
 
 |    | 公開年 |  アーキテクチャ  |  学習コーパス  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|:---:|
-| [Sarashina2.2-TTS](https://github.com/sbintuitions/sarashina2.2-tts)<br>([sarashina2.2-tts](https://huggingface.co/sbintuitions/sarashina2.2-tts)) | **2026** | Sarashina2.2 (0.5B) ベースのTTS<br>(CosyVoice + HiFT-GAN) | 適法に取得した音声データ（正規購入音源、公開音声アーカイブ、国内法に準拠して収集したデータ） | SB Intuitions | Sarashina Model NonCommercial License |
-| [Kotoba-Speech](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)<br>([v0.1](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)) | 2024 | Transformer | 不明 | Kotoba Technologies | Apache 2.0 |
+| [Kotoba-Speech](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)<br>([v0.1](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)) | 2024 | Transformer (**1.2b**) | 不明 | Kotoba Technologies | Apache 2.0 |
+| [Sarashina2.2-TTS](https://github.com/sbintuitions/sarashina2.2-tts)<br>([sarashina2.2-tts](https://huggingface.co/sbintuitions/sarashina2.2-tts)) | **2026** | Sarashina2.2 ベースのTTS (**0.8b**)<br>(CosyVoice + HiFT-GAN) | 適法に取得した音声データ（正規購入音源、公開音声アーカイブ、国内法に準拠して収集したデータ） | SB Intuitions | Sarashina Model NonCommercial License |
+| [Irodori-TTS](https://github.com/Aratako/Irodori-TTS)<br>([v4.1-Small](https://huggingface.co/Aratako/Irodori-TTS-v4.1-Small), [v4.1-Small-MF](https://huggingface.co/Aratako/Irodori-TTS-v4.1-Small-MF), [v4-Small](https://huggingface.co/Aratako/Irodori-TTS-v4-Small), [600M-v3-VoiceDesign](https://huggingface.co/Aratako/Irodori-TTS-600M-v3-VoiceDesign), [500M-v3](https://huggingface.co/Aratako/Irodori-TTS-500M-v3), [500M-v2](https://huggingface.co/Aratako/Irodori-TTS-500M-v2), [500M-v2-VoiceDesign](https://huggingface.co/Aratako/Irodori-TTS-500M-v2-VoiceDesign), [500M](https://huggingface.co/Aratako/Irodori-TTS-500M))[^30] | **2026** | Flow Matching TTS (RF-DiT)<br>(v4/v4.1: **0.8b**, v3: 600M/500M; ModernBERT-ja エンコーダ) | 不明 | 個人 ([Chihiro Arata](https://scholar.google.com/citations?user=HqP5xK4AAAAJ&hl=ja)) | MIT |
 
 <a id="speech-foundation"></a>
 ### 音声基盤モデル・音声対話
@@ -563,6 +564,7 @@
 |    | 公開年 |  アーキテクチャ  |  学習コーパス  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | [NEST-Ja](https://huggingface.co/sbintuitions/nest-ja-0.1b)<br>([**0.1b**](https://huggingface.co/sbintuitions/nest-ja-0.1b), [**0.6b**](https://huggingface.co/sbintuitions/nest-ja-0.6b)) | **2026** | NEST (FastConformer) | ReazonSpeech v2.0 | SB Intuitions | MIT |
+| [Semantic-DACVAE-Japanese-32dim](https://huggingface.co/Aratako/Semantic-DACVAE-Japanese-32dim)<br>([128dim](https://huggingface.co/Aratako/Semantic-DACVAE-Japanese)) | **2026** | Audio VAE (DACVAE + Semantic-VAE) | 不明 | 個人 ([Chihiro Arata](https://scholar.google.com/citations?user=HqP5xK4AAAAJ&hl=ja)) | MIT |
 | [くしなだ](https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250310/pr20250310.html)<br>([base](https://huggingface.co/imprt/kushinada-hubert-base), [large](https://huggingface.co/imprt/kushinada-hubert-large)) | 2025 | HuBERT | 約6万時間の日本語テレビ放送音声 | 産総研 知的メディア処理研究チーム | Apache 2.0 |
 | [Reazon HuBERT](https://huggingface.co/reazon-research/japanese-hubert-base-k2)<br>([base-k2](https://huggingface.co/reazon-research/japanese-hubert-base-k2)) | 2025 | HuBERT | ReazonSpeech | レアゾン・ホールディングス | Apache 2.0 |
 | [東大HuBERT](https://huggingface.co/sarulab-speech/hubert-base-jtube)<br>([base-jtube](https://huggingface.co/sarulab-speech/hubert-base-jtube)) | 2024 | HuBERT | JTubeSpeech | 東大 猿渡・高道研 | MIT |
@@ -797,3 +799,5 @@
 [^28]: ライセンスとは別に、モデルカード上では実際の臨床現場における疾患の診断や臨床意思決定支援としての直接利用は推奨されておらず、医療専門家による判断を補助する情報提供ツールとしての利用にとどめることが推奨されている。
 
 [^29]: ライセンスとは別に、モデルカード上では研究目的で公開されたモデルと位置づけられており、商用利用やミッションクリティカルな用途での使用は想定されていない。
+
+[^30]: ライセンスとは別に、モデルカード上では本人の同意なき声の模倣・なりすまし、合成音声を用いた誤情報拡散などを禁止する倫理的な利用制限が定められている。

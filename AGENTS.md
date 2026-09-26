@@ -70,9 +70,11 @@ Write the official license name (e.g., "Apache 2.0", "Llama 3 Community License"
 
 1. **HuggingFace Model tree** (right sidebar): **Authoritative source for `base_model`**. Always check this BEFORE relying on prose in the model card.
 2. **HuggingFace config.json**: Parameter count, context length (`max_position_embeddings`)
-3. **HuggingFace README**: Training methodology, license, **and Limitations/Disclaimers sections** (cross-check base model against Model tree; check for use restrictions that may warrant a license footnote)
-4. **Official announcement/blog**: Release year, developer, training details
-5. **LICENSE file**: Full official license name (e.g., "LFM Open License v1.0", not "lfm1.0")
+3. **HuggingFace README / model card**: Training methodology, license, **and Limitations/Disclaimers sections** (cross-check base model against Model tree; check for use restrictions that may warrant a license footnote)
+4. **HuggingFace `pipeline_tag` and tags**: Confirm the model's actual task (e.g., `text-to-speech` vs `audio-to-audio`) so it is placed in the correct section.
+5. **Released model parameter count**: Verify from the model card's "Model size" / Safetensors metadata, not only from the base model name. This is especially important for Speech / TTS tables, which lack a parameter-size column.
+6. **Official announcement/blog**: Release year, developer, training details
+7. **LICENSE file**: Full official license name (e.g., "LFM Open License v1.0", not "lfm1.0")
 
 **Base model verification**: Model card prose may list multiple models (e.g., "based on A and B" / "AおよびBをもとに開発") as acknowledgment, even when only one is the technical base. The HuggingFace Model tree's `base_model` field is the structured ground truth — trust it over prose. If the Model tree is gated/inaccessible, ask the user for a screenshot rather than guessing.
 
@@ -81,6 +83,19 @@ Write the official license name (e.g., "Apache 2.0", "Llama 3 Community License"
 **Press release scope check**: Press releases often describe a model family (e.g., 32B + 8B). Training details quoted from a press release may apply only to the flagship variant. Match each claim to the specific size/variant being added.
 
 **WebFetch summary caveats**: WebFetch returns AI-summarized text that may flatten "based on (acknowledgment)" into "merged/fine-tuned from", conflate future plans with applied techniques, or drop tense. When a summary mentions "merged", "based on multiple", or any training method, re-fetch with a quote-only prompt or read the page directly.
+
+## Speech-Language Model Section Selection
+
+When adding models under `## 音声言語モデル (Speech-Language Models)`, classify by the model's **actual task**, not by the task of the system it supports:
+
+| Section | What belongs there | Examples |
+|---|---|---|
+| 音声認識 (ASR) | Speech-to-text models | Whisper, HuBERT ASR, wav2vec 2.0 ASR |
+| 音声合成 (TTS) | End-to-end text-to-speech models | Sarashina2.2-TTS, Irodori-TTS |
+| 音声基盤モデル・音声対話 | Speech foundation / spoken dialogue models | Moshi variants |
+| 特徴抽出 / 音声表現学習 | Speech representation models, audio encoders, audio codecs, vocoders used as backbones | HuBERT, wav2vec 2.0, NEST, **Audio VAE / DACVAE** |
+
+**Critical Rule:** Do NOT place audio codecs, audio VAEs, or vocoders in the TTS section merely because they are used by a TTS system. Place them in the feature extraction / speech representation section unless they are end-to-end TTS models themselves. Check the HuggingFace `pipeline_tag` (e.g., `text-to-speech` vs `audio-to-audio`) and the model card's stated task before choosing a section.
 
 ## VLM Addition Guidelines
 
@@ -119,9 +134,21 @@ Classify each model independently based on its own training approach. Do NOT ass
 - **Parameter size ordering**: Descending order within each section (largest first)
 - **Architecture column**: Base architecture name (e.g., "Llama 3.1", "Qwen2.5"), NOT attention mechanisms
 - **Multiple sizes**: Use a **separate row per size**, in descending parameter-size order. Do NOT combine multiple sizes into a single row. This rule is about **sizes of one release**; successive versions of the same series are a different case — see the API table section below and check how the existing row for that series is written before splitting it.
+
+### Parameter size in Speech / TTS tables
+
+Speech tables (especially TTS) do **not** have a dedicated parameter-size column. Therefore:
+
+- Always verify the **actual released model parameter count** from the HuggingFace model card (Safetensors / "Model size") or `config.json`, not just the base model name.
+- Bold the size in the **Architecture column** so the descending-size ordering is visible, e.g.:
+  - `Transformer (**1.2b**)`
+  - `Sarashina2.2 ベースのTTS (**0.8b**)<br>(CosyVoice + HiFT-GAN)`
+  - `Flow Matching TTS (RF-DiT)<br>(v4/v4.1: **0.8b**, v3: 600M/500M)`
+- **Base-model size ≠ model size**: the released model may be larger than its base language model (e.g., Sarashina2.2-TTS is built on a 0.5B LM but the released TTS model is 0.8B). Use the **released model's parameter count** for ordering.
 - **License format**: Use official names with consistent capitalization
 - **Release year bolding**: The latest/newest release year (e.g., the current year) should be **bolded** in the table. When the year is no longer the newest, the bold is removed (see commit history for precedent).
 - **Developer column for individuals**: When the developer is an individual (not a company/university/research lab), use the format `個人 (name)` (JA) / `Individual (name)` (EN) / `Individuel (name)` (FR). Do NOT write the HuggingFace username alone.
+  - **Link the name when a public profile exists**: If the individual has a stable public profile (e.g., Google Scholar, personal homepage, or a GitHub profile that clearly identifies them), link the name to it, e.g., `個人 ([Chihiro Arata](https://scholar.google.com/citations?user=...))`. Prefer this over a bare name whenever an authoritative profile is available.
 - **Developer column — canonical organization names**: Use the project's established label for an organization, consistent across all three language files. When unsure, **grep an existing row for the same developer** rather than inventing a label from the HuggingFace org name. Notable case: LLM-jp models use 「大規模言語モデル研究開発センター」(JA) / "Research and Development Center for Large Language Models" (EN) / "Centre de recherche et développement pour les grands modèles de langage" (FR) — NOT "LLM-jp".
 
 ### 「APIとして提供されているモデル」 Table
@@ -141,6 +168,14 @@ Columns: `モデル | 公開年 | 入出力で扱えるトークン数 | 開発�
   - **`Label: content<br>Label: content`** — colon-delimited labels without a leading hyphen (e.g., `事前学習: ...<br>Instruction Tuning: ...<br>DPO (instruct3 only): ...`). The label is a training phase, method, or qualifier — not a model variant name.
   - **Prose** — when distinguishing among model variants in the same row (e.g., `-Jagle` / `-FineVision` suffixes), describe the distinction in a single sentence with parenthetical qualifiers, not stacked bullets.
 - `<br>` itself is fine for line breaks; the rule is specifically about avoiding `-` at line starts and avoiding repeated label-style rows that mimic bullet lists for model variants.
+
+### Terminology and Tone
+
+When writing or translating Japanese text:
+
+- Prefer established Japanese technical terms over literal calques or rare neologisms. Match the wording already used in this repository.
+- Example: use `合成音声` or `偽音声` instead of `深偽音声` when describing synthetic audio used for impersonation or misinformation.
+- For license / ethical footnotes, accurately reflect the model card while using natural Japanese that readers will readily understand.
 
 ### Link Checker (CI)
 

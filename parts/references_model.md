@@ -100,3 +100,4 @@
 | GPT-OSS | 2025.08.08 | - | [gpt-oss-120b & gpt-oss-20b Model Card](https://arxiv.org/abs/2508.10925) |
 | GLM-4.5 | 2025.08.08 | - | [GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models](https://arxiv.org/abs/2508.06471) |
 | PLaMo 2 | 2025.09.05 | - | [PLaMo 2 Technical Report](https://arxiv.org/abs/2509.04897) |
+| Semantic-VAE | 2025.09.26 | INTERSPEECH 2026 | [Semantic-VAE: Semantic-Alignment Latent Representation for Better Speech Synthesis](https://arxiv.org/abs/2509.22167) |

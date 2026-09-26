@@ -545,8 +545,9 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 
 |    | Release Year |  Architecture  |  Training Data  |  Developer  | License |
 |:---|:---:|:---:|:---:|:---:|:---:|
-| [Sarashina2.2-TTS](https://github.com/sbintuitions/sarashina2.2-tts)<br>([sarashina2.2-tts](https://huggingface.co/sbintuitions/sarashina2.2-tts)) | **2026** | TTS built on Sarashina2.2 (0.5B)<br>(CosyVoice + HiFT-GAN) | Legally obtained audio data (purchased sources, public speech archives, and data collected in compliance with applicable domestic laws) | SB Intuitions | Sarashina Model NonCommercial License |
-| [Kotoba-Speech](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)<br>([v0.1](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)) | 2024 | Transformer | undisclosed | Kotoba Technologies | Apache 2.0 |
+| [Kotoba-Speech](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)<br>([v0.1](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)) | 2024 | Transformer (**1.2b**) | Undisclosed | Kotoba Technologies | Apache 2.0 |
+| [Sarashina2.2-TTS](https://github.com/sbintuitions/sarashina2.2-tts)<br>([sarashina2.2-tts](https://huggingface.co/sbintuitions/sarashina2.2-tts)) | **2026** | TTS built on Sarashina2.2 (**0.8b**)<br>(CosyVoice + HiFT-GAN) | Legally obtained audio data (purchased sources, public speech archives, and data collected in compliance with applicable domestic laws) | SB Intuitions | Sarashina Model NonCommercial License |
+| [Irodori-TTS](https://github.com/Aratako/Irodori-TTS)<br>([v4.1-Small](https://huggingface.co/Aratako/Irodori-TTS-v4.1-Small), [v4.1-Small-MF](https://huggingface.co/Aratako/Irodori-TTS-v4.1-Small-MF), [v4-Small](https://huggingface.co/Aratako/Irodori-TTS-v4-Small), [600M-v3-VoiceDesign](https://huggingface.co/Aratako/Irodori-TTS-600M-v3-VoiceDesign), [500M-v3](https://huggingface.co/Aratako/Irodori-TTS-500M-v3), [500M-v2](https://huggingface.co/Aratako/Irodori-TTS-500M-v2), [500M-v2-VoiceDesign](https://huggingface.co/Aratako/Irodori-TTS-500M-v2-VoiceDesign), [500M](https://huggingface.co/Aratako/Irodori-TTS-500M))[^30] | **2026** | Flow Matching TTS (RF-DiT)<br>(v4/v4.1: **0.8b**, v3: 600M/500M; ModernBERT-ja encoder) | Undisclosed | Individual ([Chihiro Arata](https://scholar.google.com/citations?user=HqP5xK4AAAAJ&hl=ja)) | MIT |
 
 <a id="speech-foundation"></a>
 ### Speech Foundation Models / Spoken Dialogue
@@ -563,6 +564,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 |    | Release Year |  Architecture  |  Training Data  |  Developer  | License |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | [NEST-Ja](https://huggingface.co/sbintuitions/nest-ja-0.1b)<br>([**0.1b**](https://huggingface.co/sbintuitions/nest-ja-0.1b), [**0.6b**](https://huggingface.co/sbintuitions/nest-ja-0.6b)) | **2026** | NEST (FastConformer) | ReazonSpeech v2.0 | SB Intuitions | MIT |
+| [Semantic-DACVAE-Japanese-32dim](https://huggingface.co/Aratako/Semantic-DACVAE-Japanese-32dim)<br>([128dim](https://huggingface.co/Aratako/Semantic-DACVAE-Japanese)) | **2026** | Audio VAE (DACVAE + Semantic-VAE) | Undisclosed | Individual ([Chihiro Arata](https://scholar.google.com/citations?user=HqP5xK4AAAAJ&hl=ja)) | MIT |
 | [Kushinada](https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250310/pr20250310.html)<br>([base](https://huggingface.co/imprt/kushinada-hubert-base), [large](https://huggingface.co/imprt/kushinada-hubert-large)) | 2025 | HuBERT | 60k hours of audio extracted from large-scale Japanese TV broadcast audio data |  Intelligent Media Processing Research Team, AIST | Apache 2.0 |
 | [Reazon HuBERT](https://huggingface.co/reazon-research/japanese-hubert-base-k2)<br>([base-k2](https://huggingface.co/reazon-research/japanese-hubert-base-k2)) | 2025 | HuBERT | ReazonSpeech | Reazon Holdings | Apache 2.0 |
 | [UniversityOfTokyoHuBERT](https://huggingface.co/sarulab-speech/hubert-base-jtube)<br>([base-jtube](https://huggingface.co/sarulab-speech/hubert-base-jtube)) | 2024 | HuBERT | JTubeSpeech | University of Tokyo<br>Saruwatari & Takamichi Lab | MIT |
@@ -797,3 +799,5 @@ When referencing this repository, please cite as follows:
 [^28]: Despite the license, the model card does not recommend direct use in actual clinical settings for disease diagnosis or clinical decision-making support, and recommends limiting use to an information-providing tool that assists the judgment of medical professionals.
 
 [^29]: Despite the license, the model card describes the model as a research-purpose release and states that commercial or mission-critical use is not intended.
+
+[^30]: Despite the MIT license, the model card specifies ethical use restrictions that prohibit voice cloning or impersonation without explicit consent and synthetic speech intended to mislead others.
