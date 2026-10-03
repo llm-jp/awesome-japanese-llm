@@ -549,9 +549,10 @@
 
 |    | 公開年 |  アーキテクチャ  |  学習コーパス  |  開発元  | ライセンス |
 |:---|:---:|:---:|:---:|:---:|:---:|
+| [Irodori-TTS](https://github.com/Aratako/Irodori-TTS)<br>([v4-Large](https://huggingface.co/Aratako/Irodori-TTS-v4-Large))[^32] | **2026** | Flow Matching TTS (RF-DiT)<br>(**3.29b**; T5Gemma 2 エンコーダ) | 不明 | 個人 ([Chihiro Arata](https://scholar.google.com/citations?user=HqP5xK4AAAAJ&hl=ja)) | Gemma Terms of Use |
 | [Kotoba-Speech](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)<br>([v0.1](https://huggingface.co/kotoba-tech/kotoba-speech-v0.1)) | 2024 | Transformer (**1.2b**) | 不明 | Kotoba Technologies | Apache 2.0 |
 | [Sarashina2.2-TTS](https://github.com/sbintuitions/sarashina2.2-tts)<br>([sarashina2.2-tts](https://huggingface.co/sbintuitions/sarashina2.2-tts)) | **2026** | Sarashina2.2 ベースのTTS (**0.8b**)<br>(CosyVoice + HiFT-GAN) | 適法に取得した音声データ（正規購入音源、公開音声アーカイブ、国内法に準拠して収集したデータ） | SB Intuitions | Sarashina Model NonCommercial License |
-| [Irodori-TTS](https://github.com/Aratako/Irodori-TTS)<br>([v4.1-Small](https://huggingface.co/Aratako/Irodori-TTS-v4.1-Small), [v4.1-Small-MF](https://huggingface.co/Aratako/Irodori-TTS-v4.1-Small-MF), [v4-Small](https://huggingface.co/Aratako/Irodori-TTS-v4-Small), [600M-v3-VoiceDesign](https://huggingface.co/Aratako/Irodori-TTS-600M-v3-VoiceDesign), [500M-v3](https://huggingface.co/Aratako/Irodori-TTS-500M-v3), [500M-v2](https://huggingface.co/Aratako/Irodori-TTS-500M-v2), [500M-v2-VoiceDesign](https://huggingface.co/Aratako/Irodori-TTS-500M-v2-VoiceDesign), [500M](https://huggingface.co/Aratako/Irodori-TTS-500M))[^30] | **2026** | Flow Matching TTS (RF-DiT)<br>(v4/v4.1: **0.8b**, v3: 600M/500M; ModernBERT-ja エンコーダ) | 不明 | 個人 ([Chihiro Arata](https://scholar.google.com/citations?user=HqP5xK4AAAAJ&hl=ja)) | MIT |
+| [Irodori-TTS](https://github.com/Aratako/Irodori-TTS)<br>([v4.1-Small](https://huggingface.co/Aratako/Irodori-TTS-v4.1-Small), [v4.1-Small-MF](https://huggingface.co/Aratako/Irodori-TTS-v4.1-Small-MF), [v4-Small](https://huggingface.co/Aratako/Irodori-TTS-v4-Small), [600M-v3-VoiceDesign](https://huggingface.co/Aratako/Irodori-TTS-600M-v3-VoiceDesign), [500M-v3](https://huggingface.co/Aratako/Irodori-TTS-500M-v3), [500M-v2](https://huggingface.co/Aratako/Irodori-TTS-500M-v2), [500M-v2-VoiceDesign](https://huggingface.co/Aratako/Irodori-TTS-500M-v2-VoiceDesign), [500M](https://huggingface.co/Aratako/Irodori-TTS-500M))[^30] | **2026** | Flow Matching TTS (RF-DiT)<br>(v4/v4.1-Small: **0.8b**, v3: 600M/500M; ModernBERT-ja エンコーダ) | 不明 | 個人 ([Chihiro Arata](https://scholar.google.com/citations?user=HqP5xK4AAAAJ&hl=ja)) | MIT |
 | [KABURI-TTS](https://github.com/llm-jp/kaburi-tts)<br>([kaburi-tts](https://huggingface.co/llm-jp/kaburi-tts)) | **2026** | Irodori-TTS-500M-v2 ベースの対話TTS (**0.5b**)<br>(RF-DiT + DACVAE) | LLM-jp-Zoom1 | 大規模言語モデル研究開発センター | Apache 2.0[^31] |
 
 <a id="speech-foundation"></a>
@@ -808,3 +809,5 @@
 [^30]: ライセンスとは別に、モデルカード上では本人の同意なき声の模倣・なりすまし、合成音声を用いた誤情報拡散などを禁止する倫理的な利用制限が定められている。
 
 [^31]: Apache 2.0 で公開されているが、音響モデルは [Irodori-TTS-500M-v2](https://huggingface.co/Aratako/Irodori-TTS-500M-v2)（MIT）の派生であり MIT ライセンスの条件も適用される。また、なりすまし・詐欺・誤情報の生成といった悪用を禁ずる利用上の注意が定められている。
+
+[^32]: 共有テキスト/キャプションエンコーダが [google/t5gemma-2-1b-1b](https://huggingface.co/google/t5gemma-2-1b-1b) の派生であるため、[Gemma Terms of Use](https://ai.google.dev/gemma/terms) が適用される。ライセンスとは別に、モデルカード上では本人の同意なき声の模倣・なりすまし、合成音声を用いた誤情報拡散などを禁止する倫理的な利用制限が定められている。
