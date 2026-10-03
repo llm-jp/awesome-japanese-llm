@@ -132,6 +132,7 @@ Classify each model independently based on its own training approach. Do NOT ass
 ## Table Formatting Rules
 
 - **Parameter size ordering**: Descending order within each section (largest first)
+- **Tie-breaking within the same parameter size**: When multiple models share the same parameter size, group them by model family / derivation chain. Place the base model first, then its direct successors in version order, then derivative models built on that family. Example: `LLM-jp-4 33B` → `LLM-jp-4.1 33B` → `ELYZA-Thinking-1.0-llm-jp-4-33b`.
 - **Architecture column**: Base architecture name (e.g., "Llama 3.1", "Qwen2.5"), NOT attention mechanisms
 - **Multiple sizes**: Use a **separate row per size**, in descending parameter-size order. Do NOT combine multiple sizes into a single row. This rule is about **sizes of one release**; successive versions of the same series are a different case — see the API table section below and check how the existing row for that series is written before splitting it.
 
