@@ -315,7 +315,7 @@ N'hésitez pas à signaler les erreurs sur la page [issues](https://github.com/l
 
 |    | Année de sortie |  Longueur Maximale du Contexte | Développeur  | Plateforme |
 |:---|:---:|:---:|:---:|:---:|
-| [Sarashina](https://www.sbintuitions.co.jp/news/press/20261013_01/)<br>([Sarashina3 mini](https://www.sbintuitions.co.jp/blog/entry/2026/06/30/100000), [Sarashina3 nano](https://www.sbintuitions.co.jp/blog/entry/2026/06/30/100000), [Sarashina3 translate](https://www.sbintuitions.co.jp/blog/entry/2026/07/14/100002)) | **2026** | | SB Intuitions | self-owned, Cloud PF Type A |
+| [Sarashina](https://www.sbintuitions.co.jp/news/press/20261013_01/)<br>([Sarashina3 mini](https://www.sbintuitions.co.jp/blog/entry/2026/06/30/100000), [Sarashina3 nano](https://www.sbintuitions.co.jp/blog/entry/2026/06/30/100000)) | **2026** | | SB Intuitions | self-owned, Cloud PF Type A |
 | [Sakana Namazu](https://sakana.ai/namazu/)<br>([sakana-namazu](https://console.sakana.ai/models?model=sakana-namazu)) | **2026** | 262,144 | Sakana AI | self-owned |
 | [Syn](https://www.upstage.ai/news/introducing-upstage-japan)<br>([Syn](https://aws.amazon.com/marketplace/pp/prodview-if7zjxeioy5pg), [Syn Pro](https://aws.amazon.com/marketplace/pp/prodview-d7vt6ap2jhvfg)) | 2025 | 32,768 | KARAKURI, Upstage | AWS Marketplace (SageMaker) |
 | [tsuzumi](https://www.nttdata.com/global/ja/news/topics/2024/112000/)<br>([tsuzumi-7b](https://ai.azure.com/catalog/models/tsuzumi-7b), [tsuzumi 2](https://marketplace.microsoft.com/en-us/product/1681106214127.nttdata-tsuzumi-2-instruct-offer)) | 2025 | | NTT | Microsoft Foundry |
