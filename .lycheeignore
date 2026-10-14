@@ -33,3 +33,6 @@ https?://developers-jp\.googleblog\.com/.*
 
 # Microsoft Marketplace (blocks non-browser user agents with 403)
 https?://(azure)?marketplace\.microsoft\.com/.*
+
+# LLM-jp GitLab (unreachable from GitHub Actions runners; reachable from normal networks)
+https?://gitlab\.llm-jp\.nii\.ac\.jp/.*
