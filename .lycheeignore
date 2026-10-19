@@ -36,3 +36,6 @@ https?://(azure)?marketplace\.microsoft\.com/.*
 
 # LLM-jp GitLab (unreachable from GitHub Actions runners; reachable from normal networks)
 https?://gitlab\.llm-jp\.nii\.ac\.jp/.*
+
+# Tohoku University NLP (rejects bot access with 403)
+https?://www\.nlp\.ecei\.tohoku\.ac\.jp/.*
