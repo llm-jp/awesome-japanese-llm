@@ -39,3 +39,9 @@ https?://gitlab\.llm-jp\.nii\.ac\.jp/.*
 
 # Tohoku University NLP (rejects bot access with 403)
 https?://www\.nlp\.ecei\.tohoku\.ac\.jp/.*
+
+# local-politics.jp (blocks bot access with 403)
+https?://local-politics\.jp/.*
+
+# J-STAGE (intermittent 502 for bot access)
+https?://www\.jstage\.jst\.go\.jp/.*
