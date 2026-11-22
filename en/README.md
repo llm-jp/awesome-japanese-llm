@@ -567,6 +567,7 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 |:---|:---:|:---:|:---:|:---:|:---:|
 | [LLM-jp-Moshi-v1](https://www.nii.ac.jp/news/release/2026/0225.html)<br>([llm-jp-moshi-v1](https://huggingface.co/llm-jp/llm-jp-moshi-v1)) | **2026** | Transformer-based text and speech foundation model (Moshi) | J-CHAT (~69,000 hours), LLM-jp-Zoom1 (~1,000 hours) | 大規模言語モデル研究開発センター | Apache 2.0 |
 | [J-Moshi](https://github.com/nu-dialogue/j-moshi)<br>([j-moshi](https://huggingface.co/nu-dialogue/j-moshi), [j-moshi-ext](https://huggingface.co/nu-dialogue/j-moshi-ext)) | 2025 | Transformer-based text and speech foundation model (Moshi) | Speech dialogue corpus (J-CHAT, Japanese Callhome, CSJ, travel agency dialogue corpus, proprietary chat dialogue corpus, proprietary consultation dialogue corpus), text dialogue corpus (Japanese PersonaChat, Japanese EmpatheticDialogues, Japanese daily dialogue corpus, RealPersonaChat) | Nagoya University Higashinaka Lab | CC BY-NC 4.0 |
+| [Haru-4B](https://blog.higurashi.ai/melte/haru4b-ja/)<br>([Haru-4B](https://huggingface.co/higurashi-ai/Haru-4B)) | **2026** | Full-duplex text and speech foundation model built on Qwen3.5-4B<br>(VibeVoice acoustic tokenizer + MeanFlow head) | Pre-training: 40M+ hours of real-world speech in 160+ languages<br>Full-duplex pre-training: 13M+ hours of dialogue audio separated into per-speaker streams with FastDialogueSidon | higurashi | Apache 2.0[^33] |
 | [LFM2.5-Audio-1.5B-JP](https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-JP)<br>([1.5B-JP](https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-JP)) | **2026** | LFM2.5-Audio<br>(LFM2 + FastConformer) | Undisclosed | Liquid AI | LFM Open License v1.0 |
 
 <a id="speech-feature-extraction"></a>
@@ -817,3 +818,5 @@ When referencing this repository, please cite as follows:
 [^31]: Although released under Apache 2.0, the acoustic model is derived from [Irodori-TTS-500M-v2](https://huggingface.co/Aratako/Irodori-TTS-500M-v2) (MIT), so the MIT terms also apply. The model card also prohibits misuse such as impersonation, fraud, or generating misinformation.
 
 [^32]: Because the shared text/caption encoder is derived from [google/t5gemma-2-1b-1b](https://huggingface.co/google/t5gemma-2-1b-1b), this model is subject to the [Gemma Terms of Use](https://ai.google.dev/gemma/terms). Despite the license, the model card specifies ethical use restrictions that prohibit voice cloning or impersonation without explicit consent and synthetic speech intended to mislead others.
+
+[^33]: Despite the Apache 2.0 license, the model card states that the model is a pretrained base model released for research, and asks users to use only reference voices they have the right to use.
