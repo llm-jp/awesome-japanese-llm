@@ -567,6 +567,7 @@
 |:---|:---:|:---:|:---:|:---:|:---:|
 | [LLM-jp-Moshi-v1](https://www.nii.ac.jp/news/release/2026/0225.html)<br>([llm-jp-moshi-v1](https://huggingface.co/llm-jp/llm-jp-moshi-v1)) | **2026** | Transformerベースのテキスト・音声基盤モデル (Moshi) | J-CHAT（約69,000時間）, LLM-jp-Zoom1（約1,000時間） | 大規模言語モデル研究開発センター | Apache 2.0 |
 | [J-Moshi](https://github.com/nu-dialogue/j-moshi)<br>([j-moshi](https://huggingface.co/nu-dialogue/j-moshi), [j-moshi-ext](https://huggingface.co/nu-dialogue/j-moshi-ext)) | 2025 | Transformerベースのテキスト・音声基盤モデル (Moshi) | 音声対話コーパス（J-CHAT, 日本語Callhome, CSJ, 旅行代理店対話コーパス, 独自の雑談対話コーパス, 独自の相談対話コーパス）, テキスト対話コーパス（日本語PersonaChat, 日本語EmpatheticDialogues, 日本語日常対話コーパス, RealPersonaChat） | 名大 東中研 | CC BY-NC 4.0 |
+| [Haru-4B](https://blog.higurashi.ai/melte/haru4b-ja/)<br>([Haru-4B](https://huggingface.co/higurashi-ai/Haru-4B)) | **2026** | Qwen3.5-4B ベースの全二重テキスト・音声基盤モデル<br>(VibeVoice 音響トークナイザ + MeanFlow ヘッド) | 事前学習: 160以上の言語にわたる計4,000万時間以上の実音声<br>全二重事前学習: FastDialogueSidon で話者ごとに分離した1,300万時間以上の対話音声 | higurashi | Apache 2.0[^33] |
 | [LFM2.5-Audio-1.5B-JP](https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-JP)<br>([1.5B-JP](https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-JP)) | **2026** | LFM2.5-Audio<br>(LFM2 + FastConformer) | 不明 | Liquid AI | LFM Open License v1.0 |
 
 <a id="speech-feature-extraction"></a>
@@ -817,3 +818,5 @@
 [^31]: Apache 2.0 で公開されているが、音響モデルは [Irodori-TTS-500M-v2](https://huggingface.co/Aratako/Irodori-TTS-500M-v2)（MIT）の派生であり MIT ライセンスの条件も適用される。また、なりすまし・詐欺・誤情報の生成といった悪用を禁ずる利用上の注意が定められている。
 
 [^32]: 共有テキスト/キャプションエンコーダが [google/t5gemma-2-1b-1b](https://huggingface.co/google/t5gemma-2-1b-1b) の派生であるため、[Gemma Terms of Use](https://ai.google.dev/gemma/terms) が適用される。ライセンスとは別に、モデルカード上では本人の同意なき声の模倣・なりすまし、合成音声を用いた誤情報拡散などを禁止する倫理的な利用制限が定められている。
+
+[^33]: ライセンスとは別に、モデルカード上では研究用途で公開された事前学習済みベースモデルであることが明記されており、参照音声には利用する権利のある声のみを使うよう求められている。
