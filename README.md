@@ -312,6 +312,29 @@
 | [EvoLLM-JP](https://sakana.ai/evolutionary-model-merge-jp/)<br>([v1-7B](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-7B), [v1-10B](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-10B)) | 2024 | **Shisa Gamma 7B (v1)**, WizardMath-7B-V1.1, Abel 7B 002 | Sakana AI | MICROSOFT RESEARCH LICENSE |
 | [EQUES/TinyQwens-Merge-1.5B](https://huggingface.co/EQUES/TinyQwens-Merge-1.5B) | 2025 | **SakanaAI/TinySwallow-1.5B-Instruct**, **EQUES/TinySwallow-Stratos-1.5B**, deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B, Qwen/Qwen2.5-1.5B-Instruct | EQUES Inc. | Apache 2.0 |
 
+<a id="translation-models"></a>
+### 翻訳に特化したモデル
+
+翻訳タスクに特化して学習されたモデルです。特定のタスクに特化したモデルは原則として掲載していませんが、翻訳モデルは例外としてここにまとめています。
+
+|    | 公開年 | ベースのLLM | 対応言語 | 学習内容 | 開発元 | ライセンス |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+| [PLaMo 3 Translate 31B](https://www.preferred.jp/ja/blog/tech/plamo-3-translate-weight-release)<br>([**31b**](https://huggingface.co/pfnet/plamo-3-translate-31b)) | **2026** | PLaMo 3 NICT (**31b**) | 53言語 | SFT: 対訳データで2段階に学習（Phase1 約33.9B トークン、Phase2 約3.4B トークン）<br>DPO | Preferred Networks | PLaMo community license |
+| [Honyaku-13b](https://huggingface.co/aixsatoshi/Honyaku-13b) | 2024 | Swallow (**13b**) | 英日中心（他言語は一部対応） | Swallow-13b を 4K コンテキストで翻訳向けにファインチューニング | 個人 (aixsatoshi) | Llama 2 Community License |
+| [C3TR-Adapter](https://huggingface.co/webbigdata/C3TR-Adapter) | 2024 | Gemma 2 (**9b**) | 日英 | QLoRA による翻訳向けの学習（アダプタとして公開） | webbigdata | Apache 2.0[^35] |
+| [PLaMo翻訳](https://www.preferred.jp/ja/blog/tech/plamo-translate-blog)<br>([plamo-2-translate](https://huggingface.co/pfnet/plamo-2-translate), [plamo-2-translate-base](https://huggingface.co/pfnet/plamo-2-translate-base), [plamo-2-translate-eval](https://huggingface.co/pfnet/plamo-2-translate-eval)) | 2025 | PLaMo 2 (**8b**) | 日英 | 英語・日本語を高い比率で含む独自データセットで翻訳向けに追加学習<br>（-base は翻訳向けのベースモデル、-eval は訳文をペアワイズで評価するモデル） | Preferred Networks | PLaMo community license |
+| [PLaMo 3 Translate 8B](https://www.preferred.jp/ja/blog/tech/plamo-3-translate-weight-release)<br>([**8b**](https://huggingface.co/pfnet/plamo-3-translate-8b)) | **2026** | PLaMo 3 NICT (**8b**) | 53言語 | SFT: 対訳データで2段階に学習（Phase1 約33.9B トークン、Phase2 約3.4B トークン）<br>蒸留: 31B モデルを教師として実施<br>DPO | Preferred Networks | PLaMo community license |
+| [CAT-Translate-7b](https://huggingface.co/cyberagent/CAT-Translate-7b) | **2026** | サイバーエージェントの社内モデル (**7b**) | 日英 | SFT: LLM（gpt-oss など）で合成したデータで多段階に学習<br>強化学習: Multi-Objective GRPO | サイバーエージェント | MIT |
+| [Honyaku-Multi-Translator-Swallow-ms7b](https://huggingface.co/aixsatoshi/Honyaku-Multi-Translator-Swallow-ms7b)<br>([Honyaku-7b-v2](https://huggingface.co/aixsatoshi/Honyaku-7b-v2)) | 2024 | Swallow-MS (**7b**) | 英日・日英中心（他言語は一部対応） | Swallow-MS-7b を 8K コンテキストで翻訳向けにファインチューニング | 個人 (aixsatoshi) | Apache 2.0 |
+| [ALMA-7B-Ja](https://huggingface.co/webbigdata/ALMA-7B-Ja)<br>([ALMA-7B-Ja-V2](https://huggingface.co/webbigdata/ALMA-7B-Ja-V2)) | 2023 | Llama 2 (**7b**) | 日英（独英・中英・アイスランド英・チェコ英にも対応） | ALMA の学習手法を日英翻訳に適用 | webbigdata | Llama 2 Community License |
+| [CAT-Translate-3.3b](https://huggingface.co/cyberagent/CAT-Translate-3.3b)<br>([3.3b-beta](https://huggingface.co/cyberagent/CAT-Translate-3.3b-beta)) | **2026** | Sarashina2.2 (**3.3b**) | 日英 | SFT: 単言語データから LLM で合成した対訳コーパスで2段階に学習<br>強化学習: Multi-Objective GRPO<br>（LoRA を使用） | サイバーエージェント | MIT |
+| [PLaMo 3 Translate 2B](https://www.preferred.jp/ja/blog/tech/plamo-3-translate-weight-release)<br>([**2b**](https://huggingface.co/pfnet/plamo-3-translate-2b)) | **2026** | PLaMo 3 NICT (**2b**) | 53言語 | SFT: 対訳データで2段階に学習（Phase1 約33.9B トークン、Phase2 約3.4B トークン）<br>蒸留: 31B モデルを教師として実施<br>DPO | Preferred Networks | PLaMo community license |
+| [gemma-2-2b-jpn-it-translate](https://huggingface.co/webbigdata/gemma-2-2b-jpn-it-translate) | 2024 | 日本語版 Gemma 2 (**2b**) | 日英 | 文単位の日英・英日翻訳でファインチューニング | webbigdata | Gemma Terms of Use |
+| [CAT-Translate-1.4b](https://huggingface.co/cyberagent/CAT-Translate-1.4b) | **2026** | Sarashina2.2 (**1.4b**) | 日英 | SFT: 単言語データから LLM で合成した対訳コーパスで2段階に学習<br>強化学習: Multi-Objective GRPO<br>（LoRA を使用） | サイバーエージェント | MIT |
+| [PLaMo 3 Translate 0.8B](https://www.preferred.jp/ja/blog/tech/plamo-3-translate-weight-release)<br>([**0.8b**](https://huggingface.co/pfnet/plamo-3-translate-0.8b)) | **2026** | PLaMo 3 NICT (**0.8b**) | 53言語 | SFT: 対訳データで2段階に学習（Phase1 約33.9B トークン、Phase2 約3.4B トークン）<br>蒸留: 31B モデルを教師として実施<br>DPO | Preferred Networks | PLaMo community license |
+| [CAT-Translate-0.8b](https://huggingface.co/cyberagent/CAT-Translate-0.8b) | 2025 | Sarashina2.2 (**0.8b**) | 日英 | SFT: 単言語データから LLM で合成した対訳コーパスで2段階に学習<br>強化学習: Multi-Objective GRPO<br>（LoRA を使用） | サイバーエージェント | MIT |
+| [LFM2-350M-ENJP-MT](https://huggingface.co/LiquidAI/LFM2-350M-ENJP-MT) | 2025 | LFM2 (**350m**) | 日英 | 日英双方向の翻訳向けにファインチューニング（学習データは不明） | Liquid AI | LFM Open License v1.0 |
+
 <a id="api-based-models"></a>
 ### APIとして提供されているモデル
 
@@ -823,3 +846,5 @@
 [^33]: ライセンスとは別に、モデルカード上では研究用途で公開された事前学習済みベースモデルであることが明記されており、参照音声には利用する権利のある声のみを使うよう求められている。
 
 [^34]: LLM-jp の公式リリースではなく、中間的な実験チェックポイントとして公開されている（OSAI (Open Source AI) としての公開でもない）。モデルカードによれば、`reasoning_effort="medium"` で推論したときにのみ高い性能が出るとされ、`low` や `high` では性能が下がる。
+
+[^35]: アダプター自体は Apache 2.0 で公開されているが、ベースモデルの Gemma 2 と組み合わせて使う場合は [Gemma Terms of Use](https://ai.google.dev/gemma/terms) と [Prohibited Use Policy](https://ai.google.dev/gemma/prohibited_use_policy) が適用される。

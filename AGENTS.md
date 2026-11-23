@@ -10,7 +10,7 @@ Claude-specific な条件付きルールについては `.claude/rules/` を参�
 
 See CONTRIBUTING.md for:
 - Minimum parameter threshold (≥110M)
-- Exclusion of task-specific fine-tuned models
+- Exclusion of task-specific fine-tuned models (exception: translation models go in the 「翻訳に特化したモデル」 subsection)
 - Dataset/benchmark inclusion criteria
 
 ## Model Addition Guidelines
