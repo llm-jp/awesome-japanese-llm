@@ -5,6 +5,7 @@ Thank you for considering contributing to awesome-japanese-llm. These guidelines
 ## About Models
 
 - We do not include models specialized for specific tasks (such as BERT fine-tuned on QA datasets).
+  - As an exception, models specialized for translation are listed in a dedicated subsection ("Models specialized for translation").
 - Basically we do not consider language models with parameter sizes smaller than BERT (base), which is approximately 110 million. Thus, models such as Word2Vec and ELMo are not included.
 
 ## About Datasets/Leaderboards
@@ -23,6 +24,7 @@ awesome-japanese-llmへの貢献に関心を持って頂きありがとうござ
 ## モデルについて
 
 - 特定のタスクに特化したモデル（例：BERTをQAデータセットに fine-tuning させたもの）は原則として掲載しません。
+  - ただし、翻訳に特化したモデルは例外として、専用のサブセクション（「翻訳に特化したモデル」）に掲載します。
 - 原則として、パラメータサイズがBERT (base) 程度（すなわち約110百万）より小さな言語モデルは扱いません。したがって、Word2VecやELMoなどのモデルは含めません。
 
 ## データセット/リーダーボードについて

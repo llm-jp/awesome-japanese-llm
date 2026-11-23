@@ -312,6 +312,29 @@ Please point out any errors on the [issues page](https://github.com/llm-jp/aweso
 | [EvoLLM-JP](https://sakana.ai/evolutionary-model-merge/)<br>([v1-7B](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-7B), [v1-10B](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-10B)) | 2024 | **Shisa Gamma 7B (v1)**, WizardMath-7B-V1.1, Abel 7B 002 | Sakana AI | MICROSOFT RESEARCH LICENSE |
 | [EQUES/TinyQwens-Merge-1.5B](https://huggingface.co/EQUES/TinyQwens-Merge-1.5B) | 2025 | **SakanaAI/TinySwallow-1.5B-Instruct**, **EQUES/TinySwallow-Stratos-1.5B**, deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B, Qwen/Qwen2.5-1.5B-Instruct | EQUES Inc. | Apache 2.0 |
 
+<a id="translation-models"></a>
+### Models specialized for translation
+
+Models trained specifically for translation. As a rule, this list does not include task-specific models, but translation models are listed here as an exception.
+
+|    | Release Year | Base Model | Languages | Training | Developer | License |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+| [PLaMo 3 Translate 31B](https://www.preferred.jp/en/blog/tech/plamo-3-translate-weight-release)<br>([**31b**](https://huggingface.co/pfnet/plamo-3-translate-31b)) | **2026** | PLaMo 3 NICT (**31b**) | 53 languages | Translation-focused training on tens of billions of tokens on top of PLaMo 3 NICT | Preferred Networks | PLaMo community license |
+| [Honyaku-13b](https://huggingface.co/aixsatoshi/Honyaku-13b) | 2024 | Swallow (**13b**) | Mainly English-to-Japanese (partial support for other languages) | Fine-tuned Swallow-13b for translation with a 4K context | Individual (aixsatoshi) | Llama 2 Community License |
+| [C3TR-Adapter](https://huggingface.co/webbigdata/C3TR-Adapter) | 2024 | Gemma 2 (**9b**) | Japanese–English | Translation training with QLoRA (released as an adapter) | webbigdata | Apache 2.0[^35] |
+| [PLaMo Translation](https://tech.preferred.jp/ja/blog/plamo-translate/)<br>([plamo-2-translate](https://huggingface.co/pfnet/plamo-2-translate), [plamo-2-translate-base](https://huggingface.co/pfnet/plamo-2-translate-base), [plamo-2-translate-eval](https://huggingface.co/pfnet/plamo-2-translate-eval)) | 2025 | PLaMo 2 (**8b**) | Japanese–English | Released as a base model trained for translation (-base), a model post-trained from it, and a model that evaluates translations pairwise (-eval) | Preferred Networks | PLaMo community license |
+| [PLaMo 3 Translate 8B](https://www.preferred.jp/en/blog/tech/plamo-3-translate-weight-release)<br>([**8b**](https://huggingface.co/pfnet/plamo-3-translate-8b)) | **2026** | PLaMo 3 NICT (**8b**) | 53 languages | Translation-focused training on tens of billions of tokens on top of PLaMo 3 NICT | Preferred Networks | PLaMo community license |
+| [CAT-Translate-7b](https://huggingface.co/cyberagent/CAT-Translate-7b) | **2026** | CyberAgent in-house model (**7b**) | Japanese–English | SFT: multi-stage, on data synthesized with LLMs (e.g., gpt-oss)<br>RL: Multi-Objective GRPO | CyberAgent | MIT |
+| [Honyaku-Multi-Translator-Swallow-ms7b](https://huggingface.co/aixsatoshi/Honyaku-Multi-Translator-Swallow-ms7b)<br>([Honyaku-7b-v2](https://huggingface.co/aixsatoshi/Honyaku-7b-v2)) | 2024 | Swallow-MS (**7b**) | Mainly English–Japanese and Japanese–English (partial support for other languages) | Fine-tuned Swallow-MS-7b for translation with an 8K context | Individual (aixsatoshi) | Apache 2.0 |
+| [ALMA-7B-Ja](https://huggingface.co/webbigdata/ALMA-7B-Ja)<br>([ALMA-7B-Ja-V2](https://huggingface.co/webbigdata/ALMA-7B-Ja-V2)) | 2023 | Llama 2 (**7b**) | Japanese–English (also German, Chinese, Icelandic and Czech to/from English) | Trained for Japanese–English translation with the ALMA training method | webbigdata | Llama 2 Community License |
+| [CAT-Translate-3.3b](https://huggingface.co/cyberagent/CAT-Translate-3.3b)<br>([3.3b-beta](https://huggingface.co/cyberagent/CAT-Translate-3.3b-beta)) | **2026** | Sarashina2.2 (**3.3b**) | Japanese–English | SFT: two stages, on parallel corpora synthesized from monolingual data with LLMs<br>RL: Multi-Objective GRPO<br>(trained with LoRA) | CyberAgent | MIT |
+| [PLaMo 3 Translate 2B](https://www.preferred.jp/en/blog/tech/plamo-3-translate-weight-release)<br>([**2b**](https://huggingface.co/pfnet/plamo-3-translate-2b)) | **2026** | PLaMo 3 NICT (**2b**) | 53 languages | Translation-focused training on tens of billions of tokens on top of PLaMo 3 NICT | Preferred Networks | PLaMo community license |
+| [gemma-2-2b-jpn-it-translate](https://huggingface.co/webbigdata/gemma-2-2b-jpn-it-translate) | 2024 | Gemma-2-JPN (**2b**) | Japanese–English | Fine-tuned for sentence-level Japanese–English and English–Japanese translation | webbigdata | Gemma Terms of Use |
+| [CAT-Translate-1.4b](https://huggingface.co/cyberagent/CAT-Translate-1.4b) | **2026** | Sarashina2.2 (**1.4b**) | Japanese–English | SFT: two stages, on parallel corpora synthesized from monolingual data with LLMs<br>RL: Multi-Objective GRPO<br>(trained with LoRA) | CyberAgent | MIT |
+| [PLaMo 3 Translate 0.8B](https://www.preferred.jp/en/blog/tech/plamo-3-translate-weight-release)<br>([**0.8b**](https://huggingface.co/pfnet/plamo-3-translate-0.8b)) | **2026** | PLaMo 3 NICT (**0.8b**) | 53 languages | Translation-focused training on tens of billions of tokens on top of PLaMo 3 NICT | Preferred Networks | PLaMo community license |
+| [CAT-Translate-0.8b](https://huggingface.co/cyberagent/CAT-Translate-0.8b) | 2025 | Sarashina2.2 (**0.8b**) | Japanese–English | SFT: two stages, on parallel corpora synthesized from monolingual data with LLMs<br>RL: Multi-Objective GRPO<br>(trained with LoRA) | CyberAgent | MIT |
+| [LFM2-350M-ENJP-MT](https://huggingface.co/LiquidAI/LFM2-350M-ENJP-MT) | 2025 | LFM2 (**350m**) | Japanese–English | Fine-tuned for bidirectional Japanese–English translation (training data undisclosed) | Liquid AI | LFM Open License v1.0 |
+
 <a id="api-based-models"></a>
 ### API-based models
 
@@ -823,3 +846,5 @@ When referencing this repository, please cite as follows:
 [^33]: Despite the Apache 2.0 license, the model card states that the model is a pretrained base model released for research, and asks users to use only reference voices they have the right to use.
 
 [^34]: Released as an intermediate experimental checkpoint, not as an official LLM-jp release (nor as OSAI, Open Source AI). According to the model card, it performs well only with `reasoning_effort="medium"`; `low` or `high` degrades performance.
+
+[^35]: The adapter itself is released under Apache 2.0, but when it is used with the base Gemma 2 model, the [Gemma Terms of Use](https://ai.google.dev/gemma/terms) and the [Prohibited Use Policy](https://ai.google.dev/gemma/prohibited_use_policy) apply.
