@@ -4,7 +4,7 @@
 version: 'v0.0.3'
 workflows:
     '.github/workflows/dead-link-checker.yml':
-        - 'actions/cache@v4.3.0'
+        - 'actions/cache@v6.1.0'
         - 'actions/checkout@v7.0.1'
         - 'lycheeverse/lychee-action@v2.9.0'
     '.github/workflows/verify-lockfile.yml':
@@ -17,9 +17,9 @@ workflows:
         - 'actions/upload-pages-artifact@v5.0.0'
         - 'jaywcjlove/github-action-contributors@v2.1.0'
 dependencies:
-    'actions/cache@v4.3.0':
-        ref: 'v4.3.0'
-        commit: 'sha1-0057852bfaa89a56745cba8c7296529d2fc39830'
+    'actions/cache@v6.1.0':
+        ref: 'v6.1.0'
+        commit: 'sha1-55cc8345863c7cc4c66a329aec7e433d2d1c52a9'
         owner_id: 44036562
         repo_id: 215566462
     'actions/checkout@v7.0.1':
