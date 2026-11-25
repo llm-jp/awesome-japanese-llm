@@ -1,0 +1,8 @@
+version: 2
+updates:
+  # GitHub Actions のバージョン更新。
+  # ワークフローを更新する PR では、.github/workflows/actions.lock の該当エントリも同時に再生成される。
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
