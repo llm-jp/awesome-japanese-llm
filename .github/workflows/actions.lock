@@ -6,7 +6,7 @@ workflows:
     '.github/workflows/dead-link-checker.yml':
         - 'actions/cache@v4.3.0'
         - 'actions/checkout@v7.0.1'
-        - 'lycheeverse/lychee-action@v2.8.0'
+        - 'lycheeverse/lychee-action@v2.9.0'
     '.github/workflows/verify-lockfile.yml':
         - 'actions/checkout@v7.0.1'
     '.github/workflows/vitepress-gh-pages.yml':
@@ -59,8 +59,8 @@ dependencies:
         commit: 'sha1-1b74a53d91995ba1b910a997908bd86ec4869fed'
         owner_id: 1680273
         repo_id: 452136412
-    'lycheeverse/lychee-action@v2.8.0':
-        ref: 'v2.8.0'
-        commit: 'sha1-8646ba30535128ac92d33dfc9133794bfdd9b411'
+    'lycheeverse/lychee-action@v2.9.0':
+        ref: 'v2.9.0'
+        commit: 'sha1-e7477775783ea5526144ba13e8db5eec57747ce8'
         owner_id: 74027027
         repo_id: 320929718
