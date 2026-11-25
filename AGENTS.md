@@ -213,3 +213,12 @@ Chronological tables of foundational papers/methods. Columns: `モデル・手�
 - When converting a `.vue` SFC to a `.ts` file, move `<style scoped>` into a sibling `.css` file and import it from `.vitepress/theme/index.mts`. Because the scope is lost, **rename generic transition/animation class names** (e.g. `fade` → a component-specific prefix like `btt-fade`) to avoid clashing with VitePress default-theme styles.
 - Annotate function signatures with return types (e.g., `(): void`).
 - After changes, verify with `yarn docs:build`.
+
+## GitHub Actions Workflow Guidelines
+
+Action dependencies are pinned by the workflow dependency lockfile `.github/workflows/actions.lock`.
+
+- In `uses:`, write the **full release tag** (e.g., `actions/checkout@v6.0.2`), not a commit SHA. The lockfile pins the commit, including transitive dependencies.
+- **Never edit `actions.lock` by hand.** After adding a workflow or changing any `uses:`, regenerate it with `gh actions-lock` (GitHub CLI extension `github/gh-actions-lock`) and commit it together with the workflow change.
+- Review lockfile diffs: a changed `commit` is new code that will run; a changed `owner_id` / `repo_id` means the repository behind the name changed and must be investigated.
+- `verify-lockfile.yml` runs `gh actions-lock --verify` on pull requests and fails when the lockfile is stale.

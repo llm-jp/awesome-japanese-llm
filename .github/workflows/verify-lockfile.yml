@@ -1,0 +1,27 @@
+# .github/workflows/actions.lock がワークフローの `uses:` と食い違っている場合や、
+# ロックしたコミットが上流で検証できなくなった場合に失敗する。
+# lockfile の更新は `gh actions-lock` で行う（手で編集しない）。
+# 参考: https://github.com/github/gh-actions-lock/blob/main/.github/workflows/verify-lockfile.yml
+
+name: Verify Actions Lockfile
+
+on:
+  pull_request:
+    branches: ["main"]
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v6.0.2
+        with:
+          persist-credentials: false
+      - run: gh extension install github/gh-actions-lock --pin v0.4.1
+      - run: gh actions-lock --verify
